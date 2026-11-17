@@ -116,7 +116,8 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 ### Bölüm sonu
 - Son doğru kare girildiğinde: bloklar dalga halinde dönerek bölümün **renkli resmine** dönüşür,
   resmin adı görünür, konfeti + yıldız patlaması.
-- Ardından popup: tamamlanan resim + **sonraki bölümün önizlemesi** (bulanık / siluet) + **Tamam**.
+- Ardından popup: tamamlanan resim + yıldız/puan + "Sıradaki: Bölüm N" + **Tamam**. Sonraki bölümün
+  resmi gösterilmez (siluet bile dolu kareleri ele verir).
 - **Tamam** → (geçiş reklamı) → sonraki bölüm.
 
 ### Reklamlar

@@ -2,11 +2,9 @@ import 'package:block_puzzle/app/localized.dart';
 import 'package:block_puzzle/app/theme.dart';
 import 'package:block_puzzle/core/widgets/picture_view.dart';
 import 'package:block_puzzle/features/game/domain/puzzle.dart';
-import 'package:block_puzzle/features/levels/level_repository.dart';
 import 'package:block_puzzle/l10n/gen/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 enum OutOfLivesChoice { watchAd, restart, exit }
 
@@ -177,9 +175,6 @@ Future<void> showLevelCompleteDialog(
 /// Largest side of the solved picture in the level complete dialog.
 const double _pictureBox = 112;
 
-/// Largest side of the next level's silhouette.
-const double _previewBox = 52;
-
 /// Cell size that fits the whole [puzzle] into a [box] x [box] square.
 double _fit(Puzzle puzzle, double box) =>
     box / (puzzle.rows > puzzle.cols ? puzzle.rows : puzzle.cols);
@@ -226,32 +221,19 @@ class _CountUp extends StatelessWidget {
   );
 }
 
-class _NextLevelPreview extends ConsumerWidget {
+/// Names the level that comes next. Its picture stays hidden: even a
+/// blurred silhouette gives away which cells are filled.
+class _NextLevelPreview extends StatelessWidget {
   const _NextLevelPreview({required this.level});
 
   final int level;
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final l10n = AppLocalizations.of(context);
-    final next = ref.watch(puzzleProvider(level)).value;
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        if (next != null)
-          PictureView(
-            puzzle: next,
-            cellSize: _fit(next, _previewBox),
-            silhouette: true,
-          ),
-        const SizedBox(width: 16),
-        Text(
-          l10n.nextLevel(level),
-          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
-        ),
-      ],
-    );
-  }
+  Widget build(BuildContext context) => Text(
+    AppLocalizations.of(context).nextLevel(level),
+    textAlign: TextAlign.center,
+    style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+  );
 }
 
 class _GameDialog extends StatelessWidget {
