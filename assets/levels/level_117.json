@@ -1,0 +1,7 @@
+{
+  "id": 117,
+  "name": {"tr": "Kutup ayısı", "en": "Polar bear", "de": "Eisbär", "fr": "Ours polaire", "es": "Oso polar", "it": "Orso polare", "zh": "北极熊"},
+  "solution": [".##....##.", "##########", ".########.", ".########.", ".########.", "..######..", "...####...", "..######..", ".########.", "##########", ".###..###.", ".##....##."],
+  "colors":   [".WW....WW.", "WWWWWWWWWW", ".WWWWWWWW.", ".WKWWWWKW.", ".WWWWWWWW.", "..WWKKWW..", "...WWWW...", "..WWWWWW..", ".WWWWWWWW.", "WWWWWWWWWW", ".WWW..WWW.", ".WW....WW."],
+  "palette":  { "K": "#1F2937", "W": "#FFFFFF" }
+}

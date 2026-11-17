@@ -1,0 +1,7 @@
+{
+  "id": 168,
+  "name": {"tr": "Güneşli bulut", "en": "Sun and cloud", "de": "Sonne und Wolke", "fr": "Soleil et nuage", "es": "Sol y nube", "it": "Sole e nuvola", "zh": "太阳和云"},
+  "solution": ["..#...#...", "...#.#....", ".#.###.#..", "...#####..", "########..", "...######.", "..########", ".#..######", "...#######", "..########", ".#########", "##########", ".########."],
+  "colors":   ["..Y...Y...", "...Y.Y....", ".Y.YYY.Y..", "...YYYYY..", "YYYYYYYY..", "...YYYLLL.", "..YYYLLLLL", ".Y..LLLLLL", "...LLLLLLL", "..LLLLLLLL", ".LLLLLLLLL", "LLLLLLLLLL", ".LLLLLLLL."],
+  "palette":  { "L": "#E2E8F0", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 182,
+  "name": {"tr": "Satürn", "en": "Saturn", "de": "Saturn", "fr": "Saturne", "es": "Saturno", "it": "Saturno", "zh": "土星"},
+  "solution": ["...####...", "..######..", ".########.", ".########.", "##########", "##########", ".########.", ".########.", "..######..", "...####..."],
+  "colors":   ["...OOOO...", "..OOSSOO..", ".OSSOOSSO.", ".OOOOOOOO.", "AAAAAAAAAA", "AOSSOOSSOA", ".AAAAAAAA.", ".OOOSSOOO.", "..OOOOOO..", "...OOOO..."],
+  "palette":  { "A": "#F59E0B", "O": "#F97316", "S": "#FDE68A" }
+}

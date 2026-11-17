@@ -1,0 +1,7 @@
+{
+  "id": 75,
+  "name": {"tr": "Jelibon ayı", "en": "Gummy bear", "de": "Gummibär", "fr": "Ourson en gélatine", "es": "Osito de goma", "it": "Orsetto gommoso", "zh": "小熊软糖"},
+  "solution": [".##....##.", "##########", ".########.", ".########.", ".########.", "..######..", "##########", "##########", ".########.", ".###..###."],
+  "colors":   [".RR....RR.", "RRRRRRRRRR", ".RRRRRRRR.", ".RKRRRRKR.", ".RRRXXRRR.", "..RRRRRR..", "RRRRRRRRRR", "RRRRRRRRRR", ".RRRRRRRR.", ".RRR..RRR."],
+  "palette":  { "K": "#1F2937", "R": "#E8453C", "X": "#991B1B" }
+}

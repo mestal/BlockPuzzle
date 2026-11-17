@@ -1,0 +1,7 @@
+{
+  "id": 77,
+  "name": {"tr": "Dondurma kupası", "en": "Sundae", "de": "Eisbecher", "fr": "Coupe glacée", "es": "Copa de helado", "it": "Coppa gelato", "zh": "圣代"},
+  "solution": ["....##....", "...####...", "..######..", ".########.", "##########", "##########", ".########.", "..######..", "....##....", "..######.."],
+  "colors":   ["....RR....", "...PPPP...", "..PPPPPP..", ".JJJJJJJJ.", "JJJJJJJJJJ", "IIIIIIIIII", ".IIIIIIII.", "..IIIIII..", "....II....", "..IIIIII.."],
+  "palette":  { "I": "#BAE6FD", "J": "#FBCFE8", "P": "#F472B6", "R": "#E8453C" }
+}

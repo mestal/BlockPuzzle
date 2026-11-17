@@ -1,0 +1,7 @@
+{
+  "id": 180,
+  "name": {"tr": "Sıcak hava balonu", "en": "Hot air balloon", "de": "Heißluftballon", "fr": "Montgolfière", "es": "Globo aerostático", "it": "Mongolfiera", "zh": "热气球"},
+  "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", "...####...", "...#..#...", "...#..#...", "...####...", "...####...", "....##...."],
+  "colors":   ["...RRRR...", "..RRYYRR..", ".RRYYYYRR.", "RRYYRRYYRR", "RYYRRRRYYR", "RYYRRRRYYR", "RRYYRRYYRR", ".RRYYYYRR.", "..RRYYRR..", "...RRRR...", "...T..T...", "...T..T...", "...TTTT...", "...TTTT...", "....TT...."],
+  "palette":  { "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
+}

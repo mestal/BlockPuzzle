@@ -10,7 +10,7 @@ class LevelRepository {
 
   /// Levels shipped so far (`level_001` … `level_NNN`). The world catalog
   /// (`assets/worlds/worlds.json`) plans room for more.
-  static const levelCount = 23;
+  static const levelCount = 200;
 
   final AssetBundle _bundle;
 

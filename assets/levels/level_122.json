@@ -1,0 +1,7 @@
+{
+  "id": 122,
+  "name": {"tr": "Deniz kestanesi", "en": "Sea urchin", "de": "Seeigel", "fr": "Oursin", "es": "Erizo de mar", "it": "Riccio di mare", "zh": "海胆"},
+  "solution": ["###.#.#.#.", ".#..#..#..", "..#.#.#...", "...###....", "##########", "...###....", "..#.#.#...", ".#..#..#..", "#.#.#.#.#."],
+  "colors":   ["UUU.U.U.U.", ".U..U..U..", "..U.U.U...", "...UUU....", "UUUUUUUUUU", "...UUU....", "..U.U.U...", ".U..U..U..", "U.U.U.U.U."],
+  "palette":  { "U": "#5B21B6" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 196,
+  "name": {"tr": "Uzay mekiği", "en": "Space shuttle", "de": "Raumfähre", "fr": "Navette spatiale", "es": "Transbordador espacial", "it": "Navetta spaziale", "zh": "航天飞机"},
+  "solution": ["....##....", "...####...", "...####...", "...####...", "...####...", "...####...", "..######..", "..######..", ".########.", "##########", "##.####.##", "...####...", "...####...", "....##....", "....#....."],
+  "colors":   ["....WW....", "...WWWW...", "...WKKW...", "...WWWW...", "...WWWW...", "...WWWW...", "..WWWWWW..", "..WRWWRW..", ".WWWWWWWW.", "WWWWWWWWWW", "WW.WWWW.WW", "...EEEE...", "...OYYO...", "....OO....", "....R....."],
+  "palette":  { "E": "#94A3B8", "K": "#1F2937", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

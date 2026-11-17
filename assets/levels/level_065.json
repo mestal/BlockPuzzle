@@ -1,0 +1,7 @@
+{
+  "id": 65,
+  "name": {"tr": "Makaron", "en": "Macaron", "de": "Macaron", "fr": "Macaron", "es": "Macaron", "it": "Macaron", "zh": "马卡龙"},
+  "solution": ["..#####..", ".#######.", "#########", ".#######.", "#########", ".#######.", "#########", ".#######.", "..#####.."],
+  "colors":   ["..PPPPP..", ".PPPPPPP.", "PPPPPPPPP", ".WWWWWWW.", "JJJJJJJJJ", ".WWWWWWW.", "PPPPPPPPP", ".PPPPPPP.", "..PPPPP.."],
+  "palette":  { "J": "#FBCFE8", "P": "#F472B6", "W": "#FFFFFF" }
+}

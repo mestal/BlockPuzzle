@@ -1,0 +1,7 @@
+{
+  "id": 28,
+  "name": {"tr": "Deniz feneri", "en": "Lighthouse", "de": "Leuchtturm", "fr": "Phare", "es": "Faro", "it": "Faro", "zh": "灯塔"},
+  "solution": ["#.###.#", "..###..", "..###..", "..###..", "..###..", ".#####.", "#######"],
+  "colors":   ["Y.YYY.Y", "..KKK..", "..RRR..", "..WWW..", "..RRR..", ".WWWWW.", "BBBBBBB"],
+  "palette":  { "B": "#3B82F6", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

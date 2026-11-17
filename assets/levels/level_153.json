@@ -1,0 +1,7 @@
+{
+  "id": 153,
+  "name": {"tr": "Triseratops", "en": "Triceratops", "de": "Triceratops", "fr": "Tricératops", "es": "Triceratops", "it": "Triceratopo", "zh": "三角龙"},
+  "solution": [".#.....#..", "..#...#...", "..#####...", ".#######..", "#########.", ".#######..", ".########.", "..######..", ".#######..", "#########.", "##########", ".##.##.##.", ".##.##.##."],
+  "colors":   [".L.....L..", "..L...L...", "..OOOOO...", ".OOOOOOO..", "OOGGGGGOO.", ".GGKGGGG..", ".GGGGGGLL.", "..GGGGGG..", ".GGGGGGG..", "GGGGGGGGG.", "GGGGGGGGGG", ".GG.GG.GG.", ".GG.GG.GG."],
+  "palette":  { "G": "#22C55E", "K": "#1F2937", "L": "#E2E8F0", "O": "#F97316" }
+}

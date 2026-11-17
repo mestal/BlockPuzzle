@@ -1,0 +1,7 @@
+{
+  "id": 110,
+  "name": {"tr": "Penguen", "en": "Penguin", "de": "Pinguin", "fr": "Pingouin", "es": "Pingüino", "it": "Pinguino", "zh": "企鹅"},
+  "solution": ["...####...", "..######..", ".########.", ".########.", ".########.", "##########", "#.######.#", "..######..", "..######..", "...####...", "..##..##.."],
+  "colors":   ["...KKKK...", "..KKKKKK..", ".KKWWWWKK.", ".KWKWWKWK.", ".KWWOOWWK.", "KKKWWWWKKK", "K.KWWWWK.K", "..KWWWWK..", "..KWWWWK..", "...KKKK...", "..OO..OO.."],
+  "palette":  { "K": "#1F2937", "O": "#F97316", "W": "#FFFFFF" }
+}

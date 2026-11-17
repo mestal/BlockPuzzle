@@ -1,0 +1,7 @@
+{
+  "id": 192,
+  "name": {"tr": "Uzay köpeği", "en": "Space dog", "de": "Weltraumhund", "fr": "Chien de l’espace", "es": "Perro espacial", "it": "Cane spaziale", "zh": "太空狗"},
+  "solution": ["...####...", "..######..", ".########.", ".########.", ".########.", ".########.", "..######..", "...####...", "..######..", ".########.", "##########", "#.######.#", "..##..##..", "..##..##.."],
+  "colors":   ["...LLLL...", "..LLLLLL..", ".LLTTTTLL.", ".LTKTTKTL.", ".LTTTTTTL.", ".LTTKKTTL.", "..LTTTTL..", "...LLLL...", "..TTTTTT..", ".TTTTTTTT.", "TTRTTTTTTT", "T.TTTTTT.T", "..TT..TT..", "..HH..HH.."],
+  "palette":  { "H": "#5B3410", "K": "#1F2937", "L": "#E2E8F0", "R": "#E8453C", "T": "#92400E" }
+}

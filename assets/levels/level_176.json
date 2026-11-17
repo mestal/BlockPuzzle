@@ -1,0 +1,7 @@
+{
+  "id": 176,
+  "name": {"tr": "Yel değirmeni", "en": "Windmill", "de": "Windmühle", "fr": "Moulin à vent", "es": "Molino de viento", "it": "Mulino a vento", "zh": "风车"},
+  "solution": ["##......##", "###....###", ".###..###.", "..######..", "...####...", "..######..", ".########.", "###.##.###", "##.####.##", "...####...", "...####...", "..######..", "..######..", "##########"],
+  "colors":   ["WW......WW", "WWW....WWW", ".WWW..WWW.", "..WWTTWW..", "...TTTT...", "..WWTTWW..", ".WWWTTWWW.", "WWW.TT.WWW", "WW.TTTT.WW", "...TTTT...", "...THHT...", "..TTHHTT..", "..TTHHTT..", "GGGGGGGGGG"],
+  "palette":  { "G": "#22C55E", "H": "#5B3410", "T": "#92400E", "W": "#FFFFFF" }
+}

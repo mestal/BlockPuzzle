@@ -1,0 +1,7 @@
+{
+  "id": 194,
+  "name": {"tr": "Uzaylı", "en": "Alien", "de": "Außerirdischer", "fr": "Extraterrestre", "es": "Extraterrestre", "it": "Alieno", "zh": "外星人"},
+  "solution": ["..#....#..", "...#..#...", "...####...", "..######..", ".########.", "##########", "##########", ".########.", "..######..", "...####...", "..######..", ".########.", "#.######.#", "..##..##..", ".###..###."],
+  "colors":   ["..G....G..", "...G..G...", "...GGGG...", "..GGGGGG..", ".GGGGGGGG.", "GKKGGGGKKG", "GKKKGGKKKG", ".GGGGGGGG.", "..GGKKGG..", "...GGGG...", "..GGGGGG..", ".GGGGGGGG.", "G.GGGGGG.G", "..GG..GG..", ".GGG..GGG."],
+  "palette":  { "G": "#22C55E", "K": "#1F2937" }
+}

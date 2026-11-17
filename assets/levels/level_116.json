@@ -1,0 +1,7 @@
+{
+  "id": 116,
+  "name": {"tr": "Kar küresi", "en": "Snow globe", "de": "Schneekugel", "fr": "Boule à neige", "es": "Bola de nieve", "it": "Palla di neve", "zh": "雪花球"},
+  "solution": ["...####...", "..######..", ".########.", ".########.", "##########", "##########", "##########", ".########.", "..######..", "..######..", ".########.", ".########."],
+  "colors":   ["...IIII...", "..IIWIII..", ".IIDIIWII.", ".IDDDIIII.", "IIDDDDIWII", "IDDDDDDIII", "IIITTIIWII", ".IIITTIII.", "..IIIIII..", "..TTTTTT..", ".TTTTTTTT.", ".TTTTTTTT."],
+  "palette":  { "D": "#15803D", "I": "#BAE6FD", "T": "#92400E", "W": "#FFFFFF" }
+}

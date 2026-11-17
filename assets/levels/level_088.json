@@ -1,0 +1,7 @@
+{
+  "id": 88,
+  "name": {"tr": "Piramit", "en": "Pyramid", "de": "Pyramide", "fr": "Pyramide", "es": "Pirámide", "it": "Piramide", "zh": "金字塔"},
+  "solution": ["....##....", "...####...", "...####...", "..######..", "..######..", ".########.", ".########.", "##########", "##########", "##########"],
+  "colors":   ["....AA....", "...AAAA...", "...ASAA...", "..AAAAAA..", "..ASAAAA..", ".AAAAAAAA.", ".AAAAAASA.", "AAAAAAAAAA", "AAAASAAAAA", "SSSSSSSSSS"],
+  "palette":  { "A": "#F59E0B", "S": "#FDE68A" }
+}

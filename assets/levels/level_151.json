@@ -1,0 +1,7 @@
+{
+  "id": 151,
+  "name": {"tr": "Ayak izi", "en": "Dino footprint", "de": "Dino-Fußabdruck", "fr": "Empreinte de dino", "es": "Huella de dino", "it": "Impronta di dino", "zh": "恐龙脚印"},
+  "solution": [".##....##.", ".##....##.", ".##.##.##.", ".##.##.##.", "..#.##.#..", "....##....", "..######..", ".########.", "##########", "##########", "##########", ".########.", "..######.."],
+  "colors":   [".TT....TT.", ".TT....TT.", ".TT.TT.TT.", ".TT.TT.TT.", "..T.TT.T..", "....TT....", "..TTTTTT..", ".TTTTTTTT.", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", ".TTTTTTTT.", "..TTTTTT.."],
+  "palette":  { "T": "#92400E" }
+}

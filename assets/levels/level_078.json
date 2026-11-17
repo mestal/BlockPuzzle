@@ -1,0 +1,7 @@
+{
+  "id": 78,
+  "name": {"tr": "Çilek", "en": "Strawberry", "de": "Erdbeere", "fr": "Fraise", "es": "Fresa", "it": "Fragola", "zh": "草莓"},
+  "solution": ["...#..#...", "....##....", "..######..", ".########.", "##########", "##########", "##########", ".########.", "..######..", "....##...."],
+  "colors":   ["...D..D...", "....DD....", "..DDDDDD..", ".RRRRRRRR.", "RRYRRRRYRR", "RRRRYRRRRR", "RYRRRRRYRR", ".RRRYRRRR.", "..RRRRRR..", "....RR...."],
+  "palette":  { "D": "#15803D", "R": "#E8453C", "Y": "#FACC15" }
+}

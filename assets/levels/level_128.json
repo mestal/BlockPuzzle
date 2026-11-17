@@ -1,0 +1,7 @@
+{
+  "id": 128,
+  "name": {"tr": "Fener balığı", "en": "Anglerfish", "de": "Anglerfisch", "fr": "Baudroie", "es": "Rape", "it": "Rana pescatrice", "zh": "鮟鱇鱼"},
+  "solution": ["...#......", "...##.....", ".....#....", ".....#....", "..#####...", ".#######.#", "##########", "##########", "#########.", "#.......##", "##########", ".#######.#"],
+  "colors":   ["...Y......", "...YY.....", ".....K....", ".....K....", "..UUUUU...", ".UUUUUUU.U", "UUYUUUUUUU", "UUUUUUUUUU", "UWUWUWUUU.", "U.......UU", "UWUWUWUUUU", ".UUUUUUU.U"],
+  "palette":  { "K": "#1F2937", "U": "#5B21B6", "W": "#FFFFFF", "Y": "#FACC15" }
+}

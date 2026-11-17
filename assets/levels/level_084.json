@@ -1,0 +1,7 @@
+{
+  "id": 84,
+  "name": {"tr": "Yılan", "en": "Snake", "de": "Schlange", "fr": "Serpent", "es": "Serpiente", "it": "Serpente", "zh": "蛇"},
+  "solution": [".######.", "########", "##....##", "##......", "#######.", ".#######", "......##", "......##", "########", ".######."],
+  "colors":   [".GGGGGG.", "GGGGGGGG", "GG....KG", "GG......", "GGGGGGG.", ".GGGGGGG", "......GG", "......GG", "GGGGGGGG", ".GGGGGG."],
+  "palette":  { "G": "#22C55E", "K": "#1F2937" }
+}

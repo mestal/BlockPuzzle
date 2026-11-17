@@ -1,0 +1,7 @@
+{
+  "id": 26,
+  "name": {"tr": "Kaplumbağa", "en": "Turtle", "de": "Schildkröte", "fr": "Tortue", "es": "Tortuga", "it": "Tartaruga", "zh": "乌龟"},
+  "solution": ["..##..", "#.##.#", ".####.", "######", "######", "######", ".####.", "#....#"],
+  "colors":   ["..GG..", "G.GG.G", ".DDDD.", "DZDDZD", "DDZZDD", "DZDDZD", ".DDDD.", "G....G"],
+  "palette":  { "D": "#15803D", "G": "#22C55E", "Z": "#A3E635" }
+}

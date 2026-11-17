@@ -1,0 +1,7 @@
+{
+  "id": 43,
+  "name": {"tr": "Baykuş", "en": "Owl", "de": "Eule", "fr": "Hibou", "es": "Búho", "it": "Gufo", "zh": "猫头鹰"},
+  "solution": [".....##.", ".######.", "########", "########", "########", ".######.", ".######.", "..#..#.."],
+  "colors":   [".....TT.", ".TTTTTT.", "TWWTTWWT", "TWKTTKWT", "TTTOOTTT", ".TFFFFT.", ".TFFFFT.", "..O..O.."],
+  "palette":  { "F": "#FBCFA5", "K": "#1F2937", "O": "#F97316", "T": "#92400E", "W": "#FFFFFF" }
+}

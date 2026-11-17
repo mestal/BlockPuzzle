@@ -1,0 +1,7 @@
+{
+  "id": 109,
+  "name": {"tr": "Yılbaşı ağacı", "en": "Holiday tree", "de": "Tannenbaum", "fr": "Sapin de fête", "es": "Árbol de fiesta", "it": "Albero di festa", "zh": "节日树"},
+  "solution": ["....##....", "...####...", "...####...", "..######..", "..######..", ".########.", ".########.", "##########", "##########", "....##....", "....##...."],
+  "colors":   ["....YY....", "...DDDD...", "...DRDD...", "..DDDDDD..", "..DDDBDD..", ".DDYDDDDD.", ".DDDDDRDD.", "DDDDDDDDDD", "DRDDYDDDBD", "....TT....", "....TT...."],
+  "palette":  { "B": "#3B82F6", "D": "#15803D", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 55,
+  "name": {"tr": "Kelebek", "en": "Butterfly", "de": "Schmetterling", "fr": "Papillon", "es": "Mariposa", "it": "Farfalla", "zh": "蝴蝶"},
+  "solution": ["##.....##", "###...###", "####.####", "#########", ".#######.", "..#####..", ".#######.", "####.####", "###...###"],
+  "colors":   ["VV.....VV", "VPV...VPV", "VPPV.VPPV", "VVPVKVPVV", ".VVVKVVV.", "..VVKVV..", ".VPVKVPV.", "VPPV.VPPV", "VVV...VVV"],
+  "palette":  { "K": "#1F2937", "P": "#F472B6", "V": "#8B5CF6" }
+}

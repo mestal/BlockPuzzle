@@ -1,0 +1,7 @@
+{
+  "id": 76,
+  "name": {"tr": "Şeker evi", "en": "Candy house", "de": "Lebkuchenhaus", "fr": "Maison en bonbons", "es": "Casita de dulces", "it": "Casetta di dolci", "zh": "糖果屋"},
+  "solution": ["....##....", "...####...", "..######..", ".########.", "##########", ".########.", ".########.", ".########.", ".########.", ".########."],
+  "colors":   ["....RR....", "...RWWR...", "..RWWWWR..", ".RWWWWWWR.", "RWWWWWWWWR", ".TTTTTTTT.", ".TJTTTTJT.", ".TTTRRTTT.", ".TTTRRTTT.", ".TTTRRTTT."],
+  "palette":  { "J": "#FBCFE8", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }
+}

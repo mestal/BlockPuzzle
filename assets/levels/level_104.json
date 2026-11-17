@@ -1,0 +1,7 @@
+{
+  "id": 104,
+  "name": {"tr": "Sıcak çikolata", "en": "Hot chocolate", "de": "Heiße Schokolade", "fr": "Chocolat chaud", "es": "Chocolate caliente", "it": "Cioccolata calda", "zh": "热巧克力"},
+  "solution": ["..#..#...", "...#..#..", "..#..#...", "#######..", "#########", "#######.#", "#######.#", "#########", "#######..", ".#####...", "########."],
+  "colors":   ["..L..L...", "...L..L..", "..L..L...", "RRRRRRR..", "RHHHHHRRR", "RRRRRRR.R", "RRWRWRR.R", "RRRRRRRRR", "RRRRRRR..", ".RRRRR...", "EEEEEEEE."],
+  "palette":  { "E": "#94A3B8", "H": "#5B3410", "L": "#E2E8F0", "R": "#E8453C", "W": "#FFFFFF" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 51,
+  "name": {"tr": "Tilki", "en": "Fox", "de": "Fuchs", "fr": "Renard", "es": "Zorro", "it": "Volpe", "zh": "狐狸"},
+  "solution": ["##.....#", "##....##", "########", "########", "########", ".######.", "..####..", "...##..."],
+  "colors":   ["OO.....O", "OO....OO", "OOOOOOOO", "OWKOOKWO", "OOOOOOOO", ".WWOOWW.", "..WWWW..", "...KK..."],
+  "palette":  { "K": "#1F2937", "O": "#F97316", "W": "#FFFFFF" }
+}

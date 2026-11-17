@@ -1,0 +1,7 @@
+{
+  "id": 154,
+  "name": {"tr": "Pterodaktil", "en": "Pterodactyl", "de": "Flugsaurier", "fr": "Ptérodactyle", "es": "Pterodáctilo", "it": "Pterodattilo", "zh": "翼龙"},
+  "solution": ["....##....", "...####...", "..#######.", "....##....", "....##...#", "##.####.##", "##########", ".########.", "..######..", "...####...", "....##....", "...#..#...", "..##..##.."],
+  "colors":   ["....TT....", "...TTKT...", "..TTTTTTT.", "....TT....", "....TT...T", "TT.TTTT.TT", "TTTTTTTTTT", ".TTTTTTTT.", "..TTTTTT..", "...TTTT...", "....TT....", "...T..T...", "..TT..TT.."],
+  "palette":  { "K": "#1F2937", "T": "#92400E" }
+}

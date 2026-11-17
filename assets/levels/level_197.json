@@ -1,0 +1,7 @@
+{
+  "id": 197,
+  "name": {"tr": "Yıldız kupası", "en": "Star trophy", "de": "Sternenpokal", "fr": "Trophée étoilé", "es": "Trofeo estelar", "it": "Trofeo stellare", "zh": "星星奖杯"},
+  "solution": ["....##....", "...####...", "##########", ".########.", "..######..", "..##..##..", "##########", "##########", ".########.", "..######..", "...####...", "....##....", "....##....", "..######..", ".########."],
+  "colors":   ["....YY....", "...YYYY...", "YYYYYYYYYY", ".YYYYYYYY.", "..YYYYYY..", "..YY..YY..", "AAAAAAAAAA", "AAYAAAAYAA", ".AAAAAAAA.", "..AAAAAA..", "...AAAA...", "....AA....", "....AA....", "..AAAAAA..", ".TTTTTTTT."],
+  "palette":  { "A": "#F59E0B", "T": "#92400E", "Y": "#FACC15" }
+}

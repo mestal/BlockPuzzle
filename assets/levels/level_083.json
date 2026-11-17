@@ -1,0 +1,7 @@
+{
+  "id": 83,
+  "name": {"tr": "Testi", "en": "Clay jug", "de": "Tonkrug", "fr": "Cruche", "es": "Cántaro", "it": "Brocca", "zh": "陶罐"},
+  "solution": ["..####..", "...##...", "..####..", ".######.", "########", "########", "########", ".######.", "..####..", ".######."],
+  "colors":   ["..TTTT..", "...TT...", "..TTTT..", ".TTTTTT.", "THHHHHHT", "TTTTTTTT", "THTHTHTT", ".TTTTTT.", "..TTTT..", ".TTTTTT."],
+  "palette":  { "H": "#5B3410", "T": "#92400E" }
+}

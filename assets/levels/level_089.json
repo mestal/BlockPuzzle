@@ -1,0 +1,7 @@
+{
+  "id": 89,
+  "name": {"tr": "Pusula", "en": "Compass", "de": "Kompass", "fr": "Boussole", "es": "Brújula", "it": "Bussola", "zh": "指南针"},
+  "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", "...####..."],
+  "colors":   ["...AAAA...", "..ALLLLA..", ".ALLRLLLA.", "ALLLRRLLLA", "ALLLRRLLLA", "ALLLKKLLLA", "ALLLEELLLA", ".ALLLELLA.", "..ALLLLA..", "...AAAA..."],
+  "palette":  { "A": "#F59E0B", "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0", "R": "#E8453C" }
+}

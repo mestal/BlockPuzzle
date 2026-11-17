@@ -1,0 +1,7 @@
+{
+  "id": 30,
+  "name": {"tr": "Kova", "en": "Bucket", "de": "Eimer", "fr": "Seau", "es": "Cubo", "it": "Secchiello", "zh": "小桶"},
+  "solution": ["..###..", ".#...#.", "#######", ".#####.", ".#####.", ".#####.", "..###.."],
+  "colors":   ["..EEE..", ".E...E.", "BBBBBBB", ".BYYYB.", ".BBBBB.", ".BYYYB.", "..BBB.."],
+  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "Y": "#FACC15" }
+}

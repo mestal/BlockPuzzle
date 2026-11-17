@@ -146,14 +146,23 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 
 ### Zorluk eğrisi (200 bölüm)
 
-| Bölümler | Izgara | Not |
-|---|---|---|
-| 1–10 | 4×4 → 5×5 | Öğretici, bol tam dolu satır |
-| 11–30 | 5×5 → 6×6 | Çoklu ipuçları başlar |
-| 31–60 | 7×7 → 8×8 | |
-| 61–100 | 10×10 | Kılavuz çizgileri (5'lik bloklar) |
-| 101–150 | 12×12 → 13×15 | |
-| 151–200 | 15×15 → 15×20 | Dikey ekrana sığmak için genişlik en fazla 15 |
+| Bölümler | Harita | Izgara (satır × sütun) | Not |
+|---|---|---|---|
+| 1–10 | Gün Batımı Tepeleri | 4×4 → 5×5 | Öğretici, bol tam dolu satır |
+| 11–23 | Gün Batımı / Kumsal | 6×6 → 7×7 | Çoklu ipuçları başlar |
+| 24–60 | Kumsal, Gece Ormanı | 7×7 → 9×9 | |
+| 61–100 | Şeker Diyarı, Altın Çöl | 9×9 → 11×10 | Kılavuz çizgileri (5'lik bloklar) |
+| 101–140 | Karlı Zirveler, Mercan Resifi | 11×10 → 13×10 | |
+| 141–200 | Volkan, Bulut Kasabası, Yıldız Yolu | 13×10 → 15×10 | |
+
+- **Sütun en fazla 10, satır en fazla 15.** Dikey ekranda genişlik belirleyicidir: 10 sütunda kare
+  normal telefonda ~28–29 dp, küçük telefonda (360 dp) ~25 dp; 12 sütunda ~22–24 dp'ye düşer.
+  15 satır 10 sütunla rahat sığar.
+- 24–200 arası bölümler `tool/level_art.dart` + `tool/art/*.dart` içindeki piksel resimlerden
+  `dart run tool/generate_levels.dart` ile üretilir. Üretici boş kenarları kırpar, resim tek çözümlü
+  değilse mümkün olan en az hücreyi değiştirerek mantıkla çözülebilir yapar ve her haritadaki
+  resimleri boyut + çözücüye göre zorluk sırasıyla numaralar. 1–23 elle yazılmıştır, üretici dokunmaz.
+  Yeni resim: ilgili `tool/art/wNN_*.dart` dosyasına ekle (7 dilde ad), üreticiyi çalıştır.
 
 Büyük ızgaralarda pinch-zoom + kaydırma desteklenir; dokunma alanı en az 32 dp kalmalı.
 

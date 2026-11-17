@@ -1,0 +1,7 @@
+{
+  "id": 80,
+  "name": {"tr": "Külah dondurma", "en": "Ice cream cone", "de": "Eistüte", "fr": "Cornet de glace", "es": "Cucurucho", "it": "Cono gelato", "zh": "甜筒"},
+  "solution": ["....##....", "...####...", "..######..", ".########.", ".########.", "##########", ".########.", "..######..", "...####...", "....##...."],
+  "colors":   ["....JJ....", "...JJJJ...", "..CCJJCC..", ".CCCCCCCC.", ".YYYCCYYY.", "YYYYYYYYYY", ".TTTTTTTT.", "..THTHTT..", "...TTHT...", "....TT...."],
+  "palette":  { "C": "#22D3EE", "H": "#5B3410", "J": "#FBCFE8", "T": "#92400E", "Y": "#FACC15" }
+}

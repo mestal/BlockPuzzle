@@ -1,0 +1,7 @@
+{
+  "id": 59,
+  "name": {"tr": "Kurt", "en": "Wolf", "de": "Wolf", "fr": "Loup", "es": "Lobo", "it": "Lupo", "zh": "狼"},
+  "solution": ["##......#", "##.....##", "#########", "#########", "#########", ".#######.", "..#####..", "...###...", "....#...."],
+  "colors":   ["EE......E", "EE.....EE", "EEEEEEEEE", "ELYEEEYLE", "EEEEEEEEE", ".EEELEEE.", "..ELLLE..", "...LKL...", "....L...."],
+  "palette":  { "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0", "Y": "#FACC15" }
+}

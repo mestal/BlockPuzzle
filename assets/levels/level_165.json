@@ -1,0 +1,7 @@
+{
+  "id": 165,
+  "name": {"tr": "Yağmur çizmesi", "en": "Rain boot", "de": "Gummistiefel", "fr": "Botte de pluie", "es": "Bota de lluvia", "it": "Stivale da pioggia", "zh": "雨靴"},
+  "solution": [".######..", ".######..", ".######..", ".######..", ".######..", ".######..", ".######..", ".######..", ".#######.", ".########", "#########", "#########", "#########", ".#.#.#.#."],
+  "colors":   [".YYYYYY..", ".YYYYYY..", ".YKKKKY..", ".YYYYYY..", ".YYYYYY..", ".YYYYYY..", ".YYYYYY..", ".YYYYYY..", ".YYYYYYY.", ".YYYYYYYY", "YYYYYYYYY", "YYYYYYYYY", "KKKKKKKKK", ".K.K.K.K."],
+  "palette":  { "K": "#1F2937", "Y": "#FACC15" }
+}

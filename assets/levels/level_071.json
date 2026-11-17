@@ -1,0 +1,7 @@
+{
+  "id": 71,
+  "name": {"tr": "Jöle", "en": "Jelly", "de": "Wackelpudding", "fr": "Gelée", "es": "Gelatina", "it": "Gelatina", "zh": "果冻"},
+  "solution": ["...####...", "..######..", "..######..", ".########.", ".########.", "##########", "##########", "##########", ".########."],
+  "colors":   ["...GGGG...", "..GGWGGG..", "..GWGGGG..", ".GGGGGGGG.", ".GGGGGGGG.", "GGGGGGGGGG", "GGGGGGGGGG", "LLLLLLLLLL", ".LLLLLLLL."],
+  "palette":  { "G": "#22C55E", "L": "#E2E8F0", "W": "#FFFFFF" }
+}

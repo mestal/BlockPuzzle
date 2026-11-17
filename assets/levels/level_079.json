@@ -1,0 +1,7 @@
+{
+  "id": 79,
+  "name": {"tr": "Pamuk şeker", "en": "Cotton candy", "de": "Zuckerwatte", "fr": "Barbe à papa", "es": "Algodón de azúcar", "it": "Zucchero filato", "zh": "棉花糖"},
+  "solution": ["..#####...", ".#######..", "#########.", "##########", "#########.", ".#######..", "..#####...", "....#.....", "....#.....", "....#....."],
+  "colors":   ["..JJJJJ...", ".JJPJJJJ..", "JJJJJJPJJ.", "JPJJJJJJJJ", "JJJJPJJJJ.", ".JJJJJJJ..", "..JJPJJ...", "....T.....", "....T.....", "....T....."],
+  "palette":  { "J": "#FBCFE8", "P": "#F472B6", "T": "#92400E" }
+}

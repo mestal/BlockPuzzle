@@ -19,12 +19,16 @@ class SlotsController extends AsyncNotifier<List<SlotData?>> {
 
   final _pending = <int, Timer>{};
 
+  /// Latest slots, readable while the provider is being disposed.
+  List<SlotData?>? _latest;
+
   @override
   Future<List<SlotData?>> build() {
     final repository = ref.watch(progressRepositoryProvider);
     ref.onDispose(() {
-      // Last chance to keep pending edits; `ref` is unusable from here on.
-      final slots = state.value;
+      // Last chance to keep pending edits; `ref` and `state` are unusable
+      // from here on, so use the copy kept by [_set].
+      final slots = _latest;
       for (final index in [..._pending.keys]) {
         _pending.remove(index)?.cancel();
         if (slots != null) unawaited(repository.save(index, slots[index]));
@@ -64,6 +68,7 @@ class SlotsController extends AsyncNotifier<List<SlotData?>> {
     final slots = [...state.requireValue];
     slots[index] = slot;
     state = AsyncData(slots);
+    _latest = slots;
   }
 
   Future<void> _persist(int index) async {

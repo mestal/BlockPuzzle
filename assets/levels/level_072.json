@@ -1,0 +1,7 @@
+{
+  "id": 72,
+  "name": {"tr": "Doğum günü pastası", "en": "Birthday cake", "de": "Geburtstagstorte", "fr": "Gâteau d’anniversaire", "es": "Tarta de cumpleaños", "it": "Torta di compleanno", "zh": "生日蛋糕"},
+  "solution": [".#..##..#.", ".#..##..#.", ".#..##..#.", "##########", "##########", "##########", "##########", "##########", "##########", ".########."],
+  "colors":   [".Y..YY..Y.", ".R..BB..G.", ".R..BB..G.", "PPPPPPPPPP", "JWJWJWJWJW", "JJJJJJJJJJ", "TTTTTTTTTT", "SSSSSSSSSS", "TTTTTTTTTT", ".EEEEEEEE."],
+  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "G": "#22C55E", "J": "#FBCFE8", "P": "#F472B6", "R": "#E8453C", "S": "#FDE68A", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }
+}

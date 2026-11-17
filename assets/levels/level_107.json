@@ -1,0 +1,7 @@
+{
+  "id": 107,
+  "name": {"tr": "Hediye", "en": "Gift", "de": "Geschenk", "fr": "Cadeau", "es": "Regalo", "it": "Regalo", "zh": "礼物"},
+  "solution": ["..##..##..", ".#..##..#.", "..######..", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########"],
+  "colors":   ["..RR..RR..", ".R..RR..R.", "..RRRRRR..", "BBBBRRBBBB", "BBBBRRBBBB", "RRRRRRRRRR", "BBBBRRBBBB", "BBBBRRBBBB", "BBBBRRBBBB", "BBBBRRBBBB", "BBBBRRBBBB"],
+  "palette":  { "B": "#3B82F6", "R": "#E8453C" }
+}

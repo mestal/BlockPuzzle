@@ -1,0 +1,7 @@
+{
+  "id": 161,
+  "name": {"tr": "Gökkuşağı", "en": "Rainbow", "de": "Regenbogen", "fr": "Arc-en-ciel", "es": "Arcoíris", "it": "Arcobaleno", "zh": "彩虹"},
+  "solution": ["...####...", ".########.", "##########", "##########", "##########", "####..####", "####..####", "####..####", "####..####", ".##....##."],
+  "colors":   ["...RRRR...", ".RROOOORR.", "RROOYYOORR", "ROYYGGYYOR", "ROYGBBGYOR", "OYGB..BGYO", "OYGB..BGYO", "WWWW..WWWW", "WWWW..WWWW", ".WW....WW."],
+  "palette":  { "B": "#3B82F6", "G": "#22C55E", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

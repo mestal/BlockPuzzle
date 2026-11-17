@@ -1,0 +1,7 @@
+{
+  "id": 35,
+  "name": {"tr": "Ahtapot", "en": "Octopus", "de": "Krake", "fr": "Pieuvre", "es": "Pulpo", "it": "Polpo", "zh": "章鱼"},
+  "solution": ["..####..", ".######.", "########", "########", ".######.", "#.##.##.", "#.#..#.#", ".#.##.#."],
+  "colors":   ["..PPPP..", ".PPPPPP.", "PPWPPWPP", "PPKPPKPP", ".PPPPPP.", "P.PP.PP.", "P.P..P.P", ".P.PP.P."],
+  "palette":  { "K": "#1F2937", "P": "#F472B6", "W": "#FFFFFF" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 33,
+  "name": {"tr": "Deniz yıldızı", "en": "Starfish", "de": "Seestern", "fr": "Étoile de mer", "es": "Estrella de mar", "it": "Stella marina", "zh": "海星"},
+  "solution": ["...#...", "..###..", "#######", ".#####.", "..###..", ".##.##.", ".#...#."],
+  "colors":   ["...O...", "..OOO..", "OOOOOOO", ".OOROO.", "..OOO..", ".OO.OO.", ".O...O."],
+  "palette":  { "O": "#F97316", "R": "#E8453C" }
+}

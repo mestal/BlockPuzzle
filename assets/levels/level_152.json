@@ -1,0 +1,7 @@
+{
+  "id": 152,
+  "name": {"tr": "Ejderha", "en": "Dragon", "de": "Drache", "fr": "Dragon", "es": "Dragón", "it": "Drago", "zh": "龙"},
+  "solution": [".#......#.", ".##....##.", "..######..", ".########.", "##########", "##########", ".########.", ".########.", ".########.", "..######..", "..######..", "...#..#...", "...##.##.."],
+  "colors":   [".D......D.", ".DD....DD.", "..DDDDDD..", ".DDDDDDDD.", "DDYKDDYKDD", "DDDDDDDDDD", ".DDDDDDDD.", ".DGGGGGGD.", ".DGWGGWGD.", "..DGGGGD..", "..DDDDDD..", "...R..R...", "...RR.RR.."],
+  "palette":  { "D": "#15803D", "G": "#22C55E", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

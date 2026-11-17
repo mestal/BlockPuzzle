@@ -1,0 +1,7 @@
+{
+  "id": 181,
+  "name": {"tr": "Dünya", "en": "Earth", "de": "Erde", "fr": "Terre", "es": "Tierra", "it": "Terra", "zh": "地球"},
+  "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", "...####..."],
+  "colors":   ["...BBBB...", "..BGGBBB..", ".BGGGBBGB.", "BBGGBBBGGB", "BBBGBBGGGB", "BBBBBBGGBB", "BGGBBBBGBB", ".BGGGBBBB.", "..BBGGBB..", "...BBBB..."],
+  "palette":  { "B": "#3B82F6", "G": "#22C55E" }
+}

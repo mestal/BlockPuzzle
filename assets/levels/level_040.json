@@ -1,0 +1,7 @@
+{
+  "id": 40,
+  "name": {"tr": "Deniz anası", "en": "Jellyfish", "de": "Qualle", "fr": "Méduse", "es": "Medusa", "it": "Medusa", "zh": "水母"},
+  "solution": ["..####..", ".######.", "########", "########", ".#.#.#.#", ".#.#.#..", "#..#.##.", ".#..#..#"],
+  "colors":   ["..VVVV..", ".VVVVVV.", "VVJVVJVV", "VVVVVVVV", ".V.V.V.V", ".V.V.V..", "V..V.VV.", ".V..V..V"],
+  "palette":  { "J": "#FBCFE8", "V": "#8B5CF6" }
+}

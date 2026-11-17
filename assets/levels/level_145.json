@@ -1,0 +1,7 @@
+{
+  "id": 145,
+  "name": {"tr": "Alev", "en": "Flame", "de": "Flamme", "fr": "Flamme", "es": "Llama", "it": "Fiamma", "zh": "火焰"},
+  "solution": ["....#....", "....##...", "...###...", "...####..", "..####..#", "..#######", ".########", ".########", "#########", "#########", "#########", ".#######.", "..#####.."],
+  "colors":   ["....R....", "....RR...", "...RRR...", "...RORR..", "..RROR..R", "..ROOORRR", ".RROOOORR", ".ROOYOORR", "RROYYYORR", "ROOYYYOOR", "ROYYWYYOR", ".ROYYYOR.", "..RRRRR.."],
+  "palette":  { "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

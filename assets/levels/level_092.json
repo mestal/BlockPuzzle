@@ -1,0 +1,7 @@
+{
+  "id": 92,
+  "name": {"tr": "Akbaba", "en": "Vulture", "de": "Geier", "fr": "Vautour", "es": "Buitre", "it": "Avvoltoio", "zh": "秃鹫"},
+  "solution": ["....##....", "...####...", "...####...", "##.####.##", "##########", ".########.", "..######..", "...####...", "...#..#...", "..##..##.."],
+  "colors":   ["....HH....", "...HFFH...", "...HKHF...", "HH.HHHH.HH", "HHHHHHHHHH", ".HHHHHHHH.", "..HHHHHH..", "...HHHH...", "...H..H...", "..YY..YY.."],
+  "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "Y": "#FACC15" }
+}

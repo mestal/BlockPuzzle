@@ -1,0 +1,7 @@
+{
+  "id": 37,
+  "name": {"tr": "Balina", "en": "Whale", "de": "Wal", "fr": "Baleine", "es": "Ballena", "it": "Balena", "zh": "鲸鱼"},
+  "solution": ["..#.#...", "...#....", ".#####..", "#######.", "########", "########", ".#######", "..####.#"],
+  "colors":   ["..C.C...", "...C....", ".BBBBB..", "BBBBBBB.", "BKBBBBBB", "BBBBBBBB", ".IIIIBBB", "..IIII.B"],
+  "palette":  { "B": "#3B82F6", "C": "#22D3EE", "I": "#BAE6FD", "K": "#1F2937" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 25,
+  "name": {"tr": "Buzlu şeker", "en": "Ice pop", "de": "Eis am Stiel", "fr": "Glace à l’eau", "es": "Polo helado", "it": "Ghiacciolo", "zh": "冰棍"},
+  "solution": [".####.", "######", "######", "######", "######", "######", "..##..", "..##.."],
+  "colors":   [".PPPP.", "PPPPPP", "PJPPPP", "PJPPPP", "PPPPPP", "PPPPPP", "..TT..", "..TT.."],
+  "palette":  { "J": "#FBCFE8", "P": "#F472B6", "T": "#92400E" }
+}

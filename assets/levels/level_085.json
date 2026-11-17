@@ -1,0 +1,7 @@
+{
+  "id": 85,
+  "name": {"tr": "Kertenkele", "en": "Lizard", "de": "Eidechse", "fr": "Lézard", "es": "Lagarto", "it": "Lucertola", "zh": "蜥蜴"},
+  "solution": ["...##...", "..####..", "..####..", "#.####.#", ".######.", "...##...", "#.####.#", ".######.", "...##...", "....###."],
+  "colors":   ["...GG...", "..GKKG..", "..GGGG..", "G.GGGG.G", ".GGGGGG.", "...GG...", "G.GGGG.G", ".GGGGGG.", "...GG...", "....GGG."],
+  "palette":  { "G": "#22C55E", "K": "#1F2937" }
+}

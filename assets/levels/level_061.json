@@ -1,0 +1,7 @@
+{
+  "id": 61,
+  "name": {"tr": "Şeker", "en": "Candy", "de": "Bonbon", "fr": "Bonbon", "es": "Caramelo", "it": "Caramella", "zh": "糖果"},
+  "solution": ["#.......#", "##.###.##", "#########", ".#######.", "#########", "##.###.##", "#.......#"],
+  "colors":   ["R.......R", "RR.OOO.RR", "RROOYOORR", ".ROYOYOR.", "RROOYOORR", "RR.OOO.RR", "R.......R"],
+  "palette":  { "O": "#F97316", "R": "#E8453C", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 31,
+  "name": {"tr": "Yelkenli", "en": "Sailboat", "de": "Segelboot", "fr": "Voilier", "es": "Velero", "it": "Barca a vela", "zh": "帆船"},
+  "solution": ["...#...", "...##..", "...###.", "...####", "...#...", "#######", ".#####."],
+  "colors":   ["...R...", "...RW..", "...RWW.", "...RWWW", "...T...", "TTTTTTT", ".TTTTT."],
+  "palette":  { "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }
+}

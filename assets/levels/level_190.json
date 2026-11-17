@@ -1,0 +1,7 @@
+{
+  "id": 190,
+  "name": {"tr": "Ay modülü", "en": "Lunar lander", "de": "Mondlandefähre", "fr": "Module lunaire", "es": "Módulo lunar", "it": "Modulo lunare", "zh": "登月舱"},
+  "solution": ["....##....", "...####...", "..######..", "..######..", "..######..", ".########.", ".########.", ".#.####.#.", ".#..##..#.", "#...##...#", "#........#", "##......##", "##########"],
+  "colors":   ["....AA....", "...AAAA...", "..ALLLLA..", "..ALKKLA..", "..ALLLLA..", ".AAAAAAAA.", ".EAAAAAAE.", ".E.AAAA.E.", ".E..EE..E.", "E...EE...E", "E........E", "EE......EE", "LLLLLLLLLL"],
+  "palette":  { "A": "#F59E0B", "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0" }
+}

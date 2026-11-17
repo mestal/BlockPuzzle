@@ -1,0 +1,7 @@
+{
+  "id": 62,
+  "name": {"tr": "Çikolata", "en": "Chocolate bar", "de": "Schokolade", "fr": "Tablette de chocolat", "es": "Tableta de chocolate", "it": "Tavoletta di cioccolato", "zh": "巧克力"},
+  "solution": [".#######.", "#########", "#########", "#########", "#########", "#########", "#########", "#########", "#########"],
+  "colors":   [".RRRRRRR.", "RRWWWWWRR", "RWRRRRRWR", "HHHHHHHHH", "HTTHTTHTH", "HHHHHHHHH", "HTTHTTHTH", "HHHHHHHHH", "HTTHTTHTH"],
+  "palette":  { "H": "#5B3410", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }
+}

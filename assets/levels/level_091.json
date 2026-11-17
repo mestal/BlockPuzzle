@@ -1,0 +1,7 @@
+{
+  "id": 91,
+  "name": {"tr": "Sihirli lamba", "en": "Magic lamp", "de": "Wunderlampe", "fr": "Lampe magique", "es": "Lámpara mágica", "it": "Lampada magica", "zh": "神灯"},
+  "solution": [".....#....", "....###...", "...#####..", "#.#######.", "##########", ".########.", "..########", "...#####..", "....###...", "...#####.."],
+  "colors":   [".....A....", "....AAA...", "...AAAAA..", "A.AAAAAAA.", "AAAAAAAAAA", ".AAAAAAAA.", "..AAAAAAAA", "...AAAAA..", "....AAA...", "...AAAAA.."],
+  "palette":  { "A": "#F59E0B" }
+}

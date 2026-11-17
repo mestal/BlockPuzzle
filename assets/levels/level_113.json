@@ -1,0 +1,7 @@
+{
+  "id": 113,
+  "name": {"tr": "Kar tanesi", "en": "Snowflake", "de": "Schneeflocke", "fr": "Flocon de neige", "es": "Copo de nieve", "it": "Fiocco di neve", "zh": "雪花"},
+  "solution": ["....##....", "....##....", "..#.##.#..", "...####...", "##########", "##########", "...####...", "....##....", ".#..##..#.", "....##....", "...#..#..."],
+  "colors":   ["....II....", "....II....", "..I.II.I..", "...IIII...", "IIIIIIIIII", "IIIIIIIIII", "...IIII...", "....II....", ".I..II..I.", "....II....", "...I..I..."],
+  "palette":  { "I": "#BAE6FD" }
+}

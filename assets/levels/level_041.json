@@ -1,0 +1,7 @@
+{
+  "id": 41,
+  "name": {"tr": "Fener", "en": "Lantern", "de": "Laterne", "fr": "Lanterne", "es": "Farol", "it": "Lanterna", "zh": "灯笼"},
+  "solution": ["..###..", ".#...#.", "#######", "#######", "#######", "#######", "#######", "#######", "..###.."],
+  "colors":   ["..KKK..", ".K...K.", "KKKKKKK", "KYYYYYK", "KYOOOYK", "KYOOOYK", "KYYYYYK", "KKKKKKK", "..KKK.."],
+  "palette":  { "K": "#1F2937", "O": "#F97316", "Y": "#FACC15" }
+}
