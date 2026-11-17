@@ -1,6 +1,6 @@
 {
   "id": 12,
-  "name": "Şemsiye",
+  "name": {"tr": "Şemsiye", "en": "Umbrella", "de": "Regenschirm", "fr": "Parapluie", "es": "Paraguas", "it": "Ombrello", "zh": "雨伞"},
   "solution": ["..##..", ".####.", "######", "...#..", ".#.#..", "..##.."],
   "colors":   ["..RR..", ".RYRR.", "RRRYRR", "...B..", ".B.B..", "..BB.."],
   "palette":  { "R": "#EF4444", "Y": "#FDE68A", "B": "#475569" }

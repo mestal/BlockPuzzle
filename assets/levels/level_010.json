@@ -1,6 +1,6 @@
 {
   "id": 10,
-  "name": "Kedi",
+  "name": {"tr": "Kedi", "en": "Cat", "de": "Katze", "fr": "Chat", "es": "Gato", "it": "Gatto", "zh": "猫"},
   "solution": ["#...#", "#####", "#.#.#", "#####", ".###."],
   "colors":   ["O...O", "OOOOO", "O.O.O", "OOOOO", ".OPO."],
   "palette":  { "O": "#F59E0B", "P": "#F472B6" }

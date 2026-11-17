@@ -1,6 +1,6 @@
 {
   "id": 15,
-  "name": "Robot",
+  "name": {"tr": "Robot", "en": "Robot", "de": "Roboter", "fr": "Robot", "es": "Robot", "it": "Robot", "zh": "机器人"},
   "solution": ["..#...", "######", "#.##.#", "######", ".####.", ".#..#."],
   "colors":   ["..A...", "MMMMMM", "M.MM.M", "MMMMMM", ".MRRM.", ".M..M."],
   "palette":  { "A": "#EF4444", "M": "#94A3B8", "R": "#38BDF8" }

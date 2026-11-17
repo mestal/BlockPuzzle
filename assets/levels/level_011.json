@@ -1,6 +1,6 @@
 {
   "id": 11,
-  "name": "Dondurma",
+  "name": {"tr": "Dondurma", "en": "Ice cream", "de": "Eis", "fr": "Glace", "es": "Helado", "it": "Gelato", "zh": "冰淇淋"},
   "solution": ["..##..", ".####.", "######", ".####.", "..##..", "..#..."],
   "colors":   ["..PP..", ".PPPP.", "PPRPPP", ".CCCC.", "..CC..", "..C..."],
   "palette":  { "P": "#F9A8D4", "R": "#DC2626", "C": "#D97706" }

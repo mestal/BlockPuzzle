@@ -1,10 +1,11 @@
+import 'package:block_puzzle/core/localized_text.dart';
 import 'package:block_puzzle/features/game/domain/board.dart';
 import 'package:block_puzzle/features/game/domain/puzzle.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 Puzzle _puzzle(List<String> rows) => Puzzle(
   id: 1,
-  name: 'test',
+  name: const LocalizedText({'tr': 'test'}),
   solution: [
     for (final r in rows) [for (final ch in r.split('')) ch == '#'],
   ],
@@ -43,7 +44,7 @@ void main() {
       expect(
         () => Puzzle(
           id: 9,
-          name: 'bad',
+          name: const LocalizedText({'tr': 'bad'}),
           solution: const [
             [true, false],
           ],
@@ -91,21 +92,40 @@ void main() {
       expect(result.board.at(0, 0), const Cell(CellMark.crossed));
     });
 
-    test('a wrong X can still be filled over (and is correct)', () {
+    test('a player X blocks the player fill until it is erased', () {
       final crossed = Board.start(puzzle).apply(0, 0, MoveAction.cross).board;
-      final result = crossed.apply(0, 0, MoveAction.fill);
+      final blocked = crossed.apply(0, 0, MoveAction.fill);
+      expect(blocked.changed, isFalse);
+      expect(blocked.mistake, isFalse);
+      expect(blocked.board.at(0, 0), const Cell(CellMark.crossed));
+
+      final erased = crossed.apply(0, 0, MoveAction.erase).board;
+      final result = erased.apply(0, 0, MoveAction.fill);
       expect(result.mistake, isFalse);
       expect(result.board.at(0, 0), const Cell(CellMark.filled));
     });
 
-    test('filling over an X on an empty cell is a mistake', () {
-      final crossed = Board.start(puzzle).apply(0, 1, MoveAction.cross).board;
-      final result = crossed.apply(0, 1, MoveAction.fill);
-      expect(result.mistake, isTrue);
-      expect(
-        result.board.at(0, 1),
-        const Cell(CellMark.crossed, MarkSource.mistake),
+    test('a hint may fill over a wrong player X', () {
+      final crossed = Board.start(puzzle).apply(0, 0, MoveAction.cross).board;
+      final result = crossed.apply(
+        0,
+        0,
+        MoveAction.fill,
+        source: MarkSource.hint,
       );
+      expect(
+        result.board.at(0, 0),
+        const Cell(CellMark.filled, MarkSource.hint),
+      );
+    });
+
+    test('a hint X is locked and cannot be erased', () {
+      final board = Board.start(
+        puzzle,
+      ).apply(0, 1, MoveAction.cross, source: MarkSource.hint).board;
+      expect(board.at(0, 1), const Cell(CellMark.crossed, MarkSource.hint));
+      expect(board.apply(0, 1, MoveAction.erase).changed, isFalse);
+      expect(board.apply(0, 1, MoveAction.fill).changed, isFalse);
     });
 
     test('erase removes a manual X but nothing else', () {
@@ -124,16 +144,7 @@ void main() {
       expect(crossed.apply(0, 1, MoveAction.cross).changed, isFalse);
     });
 
-    test('completing a line turns wrong user X into automatic X', () {
-      var board = Board.start(puzzle).apply(0, 0, MoveAction.cross).board;
-      board = board.apply(0, 2, MoveAction.fill).board;
-      final result = board.apply(0, 0, MoveAction.fill);
-      expect(result.completedRows, [0]);
-      expect(
-        result.board.at(0, 1),
-        const Cell(CellMark.crossed, MarkSource.auto),
-      );
-
+    test('completing a line turns user X into automatic X', () {
       // A user X inside a line that completes becomes automatic.
       var b2 = Board.start(puzzle).apply(0, 1, MoveAction.cross).board;
       b2 = b2.apply(0, 0, MoveAction.fill).board;
@@ -173,9 +184,16 @@ void main() {
     });
 
     test('encode/decode round-trips', () {
-      final board = Board.start(
-        puzzle,
-      ).apply(0, 0, MoveAction.fill).board.apply(0, 1, MoveAction.fill).board;
+      final board =
+          Board.start(
+                puzzle,
+              )
+              .apply(0, 0, MoveAction.fill)
+              .board
+              .apply(0, 1, MoveAction.fill)
+              .board
+              .apply(1, 1, MoveAction.cross, source: MarkSource.hint)
+              .board;
       final restored = Board.decode(puzzle, board.encode());
       expect(restored.cells, board.cells);
       expect(restored.solvedRows, board.solvedRows);

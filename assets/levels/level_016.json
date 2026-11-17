@@ -1,6 +1,6 @@
 {
   "id": 16,
-  "name": "Kuş",
+  "name": {"tr": "Kuş", "en": "Bird", "de": "Vogel", "fr": "Oiseau", "es": "Pájaro", "it": "Uccello", "zh": "小鸟"},
   "solution": [".##...", "#.##..", ".####.", ".#####", "..###.", "..#.#."],
   "colors":   [".BB...", "B.BY..", ".BBBB.", ".BBBBB", "..BBB.", "..Y.Y."],
   "palette":  { "B": "#3B82F6", "Y": "#F59E0B" }

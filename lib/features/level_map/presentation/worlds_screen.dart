@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:block_puzzle/app/localized.dart';
 import 'package:block_puzzle/app/router.dart';
 import 'package:block_puzzle/app/theme.dart';
 import 'package:block_puzzle/core/widgets/picture_view.dart';
@@ -172,7 +173,7 @@ class _WorldCard extends StatelessWidget {
                             style: const TextStyle(color: Colors.white70),
                           ),
                           Text(
-                            world.name,
+                            world.name.localized(context),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: const TextStyle(

@@ -1,6 +1,6 @@
 {
   "id": 20,
-  "name": "Taç",
+  "name": {"tr": "Taç", "en": "Crown", "de": "Krone", "fr": "Couronne", "es": "Corona", "it": "Corona", "zh": "王冠"},
   "solution": ["#.##.#", "#.##.#", "######", "######", "######", ".####."],
   "colors":   ["R.RR.R", "Y.YY.Y", "YYYYYY", "YRYYBY", "YYYYYY", ".YYYY."],
   "palette":  { "Y": "#FBBF24", "R": "#E11D48", "B": "#2563EB" }

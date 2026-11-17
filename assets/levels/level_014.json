@@ -1,6 +1,6 @@
 {
   "id": 14,
-  "name": "Kaktüs",
+  "name": {"tr": "Kaktüs", "en": "Cactus", "de": "Kaktus", "fr": "Cactus", "es": "Cactus", "it": "Cactus", "zh": "仙人掌"},
   "solution": ["..##..", "#.##..", "#.##.#", "######", "..##..", ".####."],
   "colors":   ["..GG..", "G.GG..", "G.GG.G", "GGGGGG", "..GG..", ".PPPP."],
   "palette":  { "G": "#16A34A", "P": "#C2410C" }

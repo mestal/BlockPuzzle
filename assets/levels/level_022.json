@@ -1,6 +1,6 @@
 {
   "id": 22,
-  "name": "Deniz Kabuğu",
+  "name": {"tr": "Deniz Kabuğu", "en": "Seashell", "de": "Muschel", "fr": "Coquillage", "es": "Concha", "it": "Conchiglia", "zh": "贝壳"},
   "solution": ["...#...", ".#####.", "##.#.##", "##.#.##", "#######", ".#####.", "..###.."],
   "colors":   ["...P...", ".PPPPP.", "PP.P.PP", "PP.P.PP", "PPPPPPP", ".PPPPP.", "..PPP.."],
   "palette":  { "P": "#FDA4AF" }

@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:block_puzzle/app/theme.dart';
+import 'package:block_puzzle/core/localized_text.dart';
 import 'package:block_puzzle/features/level_map/domain/map_layout.dart';
 import 'package:block_puzzle/features/level_map/domain/world.dart';
 import 'package:block_puzzle/features/levels/level_repository.dart';
@@ -53,7 +54,7 @@ void main() {
           World(
             index: 1,
             id: 'a',
-            name: 'A',
+            name: LocalizedText({'en': 'A'}),
             theme: 'sunset',
             firstLevel: 2,
             levelCount: 3,

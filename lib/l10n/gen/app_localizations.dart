@@ -5,7 +5,13 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'app_localizations_de.dart';
+import 'app_localizations_en.dart';
+import 'app_localizations_es.dart';
+import 'app_localizations_fr.dart';
+import 'app_localizations_it.dart';
 import 'app_localizations_tr.dart';
+import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
 
@@ -92,7 +98,15 @@ abstract class AppLocalizations {
       ];
 
   /// A list of this localizations delegate's supported locales.
-  static const List<Locale> supportedLocales = <Locale>[Locale('tr')];
+  static const List<Locale> supportedLocales = <Locale>[
+    Locale('de'),
+    Locale('en'),
+    Locale('es'),
+    Locale('fr'),
+    Locale('it'),
+    Locale('tr'),
+    Locale('zh'),
+  ];
 
   /// No description provided for @appTitle.
   ///
@@ -199,7 +213,7 @@ abstract class AppLocalizations {
   /// No description provided for @tutorialDrag.
   ///
   /// In tr, this message translates to:
-  /// **'Basılı tutup kaydırarak birçok kareyi birden işaretle'**
+  /// **'Basılı tutup kaydırarak birçok kareyi birden işaretle. Çift dokunup X\'ten kaydırırsan X\'leri silersin.'**
   String get tutorialDrag;
 
   /// No description provided for @hint.
@@ -319,7 +333,7 @@ abstract class AppLocalizations {
   /// No description provided for @rulesMistakes.
   ///
   /// In tr, this message translates to:
-  /// **'Boş olması gereken kareyi doldurursan 1 hakkın gider. X koymak serbest: notlarını istediğin gibi alabilirsin.'**
+  /// **'Boş olması gereken kareyi doldurursan 1 hakkın gider. X koymak serbest: notlarını istediğin gibi alabilirsin. X olan kareyi doldurmak için önce çift dokunarak X\'i kaldır.'**
   String get rulesMistakes;
 
   /// No description provided for @rulesScoring.
@@ -429,6 +443,72 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'{have}/{max}'**
   String starCount(int have, int max);
+
+  /// No description provided for @settings.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ayarlar'**
+  String get settings;
+
+  /// No description provided for @settingsSound.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ses efektleri'**
+  String get settingsSound;
+
+  /// No description provided for @settingsLanguage.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dil'**
+  String get settingsLanguage;
+
+  /// No description provided for @settingsLanguageDevice.
+  ///
+  /// In tr, this message translates to:
+  /// **'Cihaz dili'**
+  String get settingsLanguageDevice;
+
+  /// No description provided for @hintRow.
+  ///
+  /// In tr, this message translates to:
+  /// **'{n}. satır'**
+  String hintRow(int n);
+
+  /// No description provided for @hintColumn.
+  ///
+  /// In tr, this message translates to:
+  /// **'{n}. sütun'**
+  String hintColumn(int n);
+
+  /// No description provided for @hintFullLine.
+  ///
+  /// In tr, this message translates to:
+  /// **'{line} ({clue}): gruplar ve aralarındaki birer boşluk çizgiyi tam dolduruyor, her karenin yeri belli. Bu kare dolu!'**
+  String hintFullLine(String line, String clue);
+
+  /// No description provided for @hintOverlap.
+  ///
+  /// In tr, this message translates to:
+  /// **'{line} ({clue}): grupları en başa da yaslasan en sona da, bu kare hep bir grubun içinde kalıyor. Bu yüzden kesin dolu!'**
+  String hintOverlap(String line, String clue);
+
+  /// No description provided for @hintForcedFill.
+  ///
+  /// In tr, this message translates to:
+  /// **'{line} ({clue}): açtığın kareler ve X\'ler grupların sığabileceği yerleri daraltıyor. Her olası yerleşimde bu kare dolu!'**
+  String hintForcedFill(String line, String clue);
+
+  /// No description provided for @hintForcedEmpty.
+  ///
+  /// In tr, this message translates to:
+  /// **'{line} ({clue}): hiçbir grup bu kareye uzanamıyor, yani burası boş. X koyduk.'**
+  String hintForcedEmpty(String line, String clue);
+
+  /// No description provided for @hintFallback.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu kare resmin bir parçası.'**
+  String get hintFallback;
 }
 
 class _AppLocalizationsDelegate
@@ -441,8 +521,15 @@ class _AppLocalizationsDelegate
   }
 
   @override
-  bool isSupported(Locale locale) =>
-      <String>['tr'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>[
+    'de',
+    'en',
+    'es',
+    'fr',
+    'it',
+    'tr',
+    'zh',
+  ].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -451,8 +538,20 @@ class _AppLocalizationsDelegate
 AppLocalizations lookupAppLocalizations(Locale locale) {
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'de':
+      return AppLocalizationsDe();
+    case 'en':
+      return AppLocalizationsEn();
+    case 'es':
+      return AppLocalizationsEs();
+    case 'fr':
+      return AppLocalizationsFr();
+    case 'it':
+      return AppLocalizationsIt();
     case 'tr':
       return AppLocalizationsTr();
+    case 'zh':
+      return AppLocalizationsZh();
   }
 
   throw FlutterError(

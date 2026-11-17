@@ -1,6 +1,6 @@
 {
   "id": 19,
-  "name": "Kale",
+  "name": {"tr": "Kale", "en": "Castle", "de": "Burg", "fr": "Château", "es": "Castillo", "it": "Castello", "zh": "城堡"},
   "solution": ["#.##.#", "######", "#.##.#", "######", "##..##", "##..##"],
   "colors":   ["S.SS.S", "SSSSSS", "S.SS.S", "SSSSSS", "SS..SS", "SS..SS"],
   "palette":  { "S": "#A8A29E" }

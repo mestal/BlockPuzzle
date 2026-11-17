@@ -1,6 +1,6 @@
 {
   "id": 8,
-  "name": "Kupa",
+  "name": {"tr": "Kupa", "en": "Trophy", "de": "Pokal", "fr": "Coupe", "es": "Copa", "it": "Coppa", "zh": "奖杯"},
   "solution": ["####.", "###.#", "###.#", "####.", ".##.."],
   "colors":   ["CCCC.", "CWC.C", "CCC.C", "CCCC.", ".CC.."],
   "palette":  { "C": "#F97316", "W": "#FFF7ED" }

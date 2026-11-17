@@ -30,10 +30,12 @@ Mod düğmesi yok; işlemi **jest** belirler:
 | Tek dokunma | Kareyi **doldur** |
 | Tek dokunup basılı tutarak sürükleme | Geçilen kareleri **doldur** |
 | Çift dokunma | Kareye **X** (oyuncunun kendi X'ine çift dokunma X'i **kaldırır**) |
-| Çift dokunup ikinci dokunuşta basılı tutarak sürükleme | Geçilen karelere **X** |
+| Çift dokunup ikinci dokunuşta basılı tutarak sürükleme | Geçilen karelere **X**; oyuncunun kendi X'inden başlanırsa geçilen X'ler **silinir** |
 
 - Tek dokunma, çift dokunma olup olmadığını anlamak için ~250 ms bekler (`kDoubleTapTimeout`);
   bu sürede karede hafif bir "basıldı" vurgusu gösterilir ki gecikme hissedilmesin.
+- Çift dokunma yalnızca **aynı karede** sayılır (kare sınırında birkaç piksellik tolerans).
+  Bu sürede başka bir kareye dokunulursa önceki dokunuş hemen doldurma olarak işlenir.
 - Sürükleme ilk hareket yönüne (yatay/dikey) kilitlenir; tek satır veya sütun boyunca ilerler.
 - Sürüklemede zaten açılmış (dolu veya X) kareler atlanır, hiçbir şey olmaz.
 - Jestler keşfedilmesi zor olduğundan **Bölüm 1 el animasyonlu bir öğretici** içerir
@@ -45,10 +47,11 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 
 | Oyuncunun hamlesi | Çözümde kare dolu | Çözümde kare boş |
 |---|---|---|
-| Doldur (boş veya oyuncu X'i olan kareye) | ✅ Doğru, kare dolar | ❌ Yanlış: kırmızı X'e döner, 1 hak gider |
+| Doldur (boş kareye) | ✅ Doğru, kare dolar | ❌ Yanlış: kırmızı X'e döner, 1 hak gider |
 | X koy | ✅ (not) | ✅ (not) |
 
-- Oyuncunun kendi X'i kilitlenmez: üstüne doldurma yapılabilir (dolu karede doğru olur).
+- Oyuncunun kendi X'i olan kareye dokunmak **doldurmaz**; önce çift dokunarak X kaldırılmalı.
+  (İpucu ise yanlış bir oyuncu X'inin üstüne doldurabilir.)
 - Doldurma sürüklemesi yanlış karelerde durmaz: her yanlış kare kırmızı X olur ve 1 hak götürür
   (5 kare sürüklenip 3'ü yanlışsa 3 hak gider). Haklar biterse sürükleme durur. X sürüklemesi hiç durmaz.
 - Bir satır veya sütunun tüm dolu kareleri bulununca kalan kareler (oyuncunun yanlış X'leri dahil)
@@ -60,6 +63,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   | Oyuncunun kendi koyduğu X | `#1E3A8A` koyu mavi | kalın, net |
   | Satır/sütun tamamlanınca otomatik X | `#22C55E` yeşil | ince, dalgayla sırayla belirir |
   | Yanlış doldurma sonrası düzeltilen X | `#EF4444` kırmızı | kırmızı kalır, hatanın yeri görünsün |
+  | İpucunun koyduğu X | `#B45309` koyu altın | kilitli |
 
   Otomatik X konmuş bir kareye oyuncu sonradan dokunursa hiçbir şey olmaz.
 
@@ -73,6 +77,9 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 ### Ses
 - Sesler `tool/generate_sounds.dart` ile üretilip `assets/audio/*.wav` olarak saklanır
   (`dart run tool/generate_sounds.dart`). `SoundService` (`core/audio`) çalar.
+- Her sesin **kendi oyuncusu** vardır, kaynak bir kez ayarlanır; tekrar çalmak `stop` + `resume`.
+  Paylaşılan oyunculara kaynak değiştirmek Android low-latency (SoundPool) modunda sesi kesiyordu.
+  Ses odağı alınmaz (`mixWithOthers`); aynı ses 35 ms'den sık tetiklenirse atlanır.
 - Sürükleme sürdükçe doldurma/X sesi pentatonik merdivenden yukarı çıkar (giderek incelir).
 
 ### Haklar (can)
@@ -82,7 +89,12 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 
 ### İpucu (hint)
 - Oyuncu profili başına **toplam 5 ipucu** ile başlanır; bölümler arasında taşınır ve kaydedilir.
-- İpucu: henüz çözülmemiş, doğru (dolu) bir kareyi parlatarak açar.
+- İpucu **öğretir** (`features/game/domain/hint.dart`): bilinen karelerden (dolu kareler, kilitli X'ler,
+  oyuncunun doğru X'leri) tek bir satır/sütunla kanıtlanabilen en kolay adımı seçer ve **nedenini**
+  açıklayan bir kart gösterir; ilgili satır/sütun ve ipucu kutusu vurgulanır. Neden sırası:
+  tam dolu çizgi → örtüşme (gruplar başa/sona yaslansa da kapsanan kare) → bilinenlerle zorunlu dolu
+  → zorunlu boş (bu durumda altın renkli **ipucu X**'i konur). Dolu adımlar boş adımlara tercih edilir.
+  Test: ipuçlarını izleyerek her bölüm hatasız çözülür.
 - İpucu 0 iken düğmeye basılınca: **Reklam izle → +1 ipucu**.
 
 ### Bölüm sonu
@@ -120,6 +132,15 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - Slot verisi: isim, avatar, açılmış en yüksek bölüm, tamamlanan bölümler, kalan ipucu,
   yarım kalan bölümün ızgara durumu ve kalan hakkı.
 - Tüm veri **yalnızca cihazda** saklanır. Uygulama silinince silinmesi sorun değildir (bulut yok).
+- Slot düzenlemeleri durumu anında günceller ama diske ~600 ms gecikmeyle yazılır
+  (`SlotsController.saveDelay`); uygulama arka plana geçince `flush()` ile hemen yazılır.
+
+### Dil
+- Diller: Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, İtalyanca, Çince (`core/languages.dart`).
+- Varsayılan: cihaz dili; desteklenmiyorsa İngilizce. Ayarlar'dan (dişli ikonu) değiştirilebilir,
+  `AppSettings` (`features/settings`) içinde saklanır.
+- Bölüm ve harita adları JSON'da dil haritasıdır: `"name": {"tr": "...", "en": "...", ...}`
+  (`LocalizedText`). Testler her dilin ARB anahtarlarını ve tüm adların çevirisini doğrular.
 
 ### Zorluk eğrisi (200 bölüm)
 
@@ -152,7 +173,7 @@ Büyük ızgaralarda pinch-zoom + kaydırma desteklenir; dokunma alanı en az 32
 - **Bölüm sonu:** blokların sırayla dönüp resim renklerine geçmesi, konfeti, ekran parlaması,
   ses + güçlü haptic.
 - Animasyonlar 60/120 fps akıcı olmalı; parçacıklar `CustomPainter` ile, widget rebuild'i olmadan.
-- Ayarlar: ses, müzik, titreşim aç/kapa.
+- Ayarlar: dil ve ses efektleri (müzik ve titreşim aç/kapa ileride).
 
 ---
 
@@ -169,7 +190,7 @@ Büyük ızgaralarda pinch-zoom + kaydırma desteklenir; dokunma alanı en az 32
 - Kalıcılık: `shared_preferences` (`SharedPreferencesAsync`) üzerinde JSON; bir
   `ProgressRepository` arayüzü arkasında.
 - Reklam: `AdService` arayüzü → şimdilik `DummyAdService`.
-- Font: `google_fonts` (Fredoka). Metinler: `flutter gen-l10n` → `lib/l10n/gen/`.
+- Font: `google_fonts` (Fredoka). Metinler: `flutter gen-l10n` → `lib/l10n/gen/` (7 dil, şablon `app_tr.arb`).
 - Lint: `very_good_analysis`. Test: `flutter_test`.
 
 ## 4. Klasör yapısı (feature-first)
@@ -202,7 +223,8 @@ test/
 ```json
 {
   "id": 1,
-  "name": "Mantar",
+  "name": {"tr": "Mantar", "en": "Mushroom", "de": "Pilz", "fr": "Champignon",
+           "es": "Seta", "it": "Fungo", "zh": "蘑菇"},
   "rows": 4,
   "cols": 4,
   "solution": [".##.", "####", ".##.", ".##."],
@@ -222,7 +244,7 @@ test/
 - `const` constructor'lar, küçük ve odaklı widget'lar, `build` içinde ağır iş yok.
 - Sihirli sayılar yerine tema/sabit dosyaları. Renkler yalnızca `lib/app/theme.dart` içindeki `AppColors`'tan.
 - Kod, tanımlayıcılar ve yorumlar **İngilizce**; kullanıcıya görünen metinler `l10n` (ARB) ile,
-  varsayılan dil **Türkçe**.
+  şablon dil **Türkçe**; yeni metin 7 ARB dosyasının hepsine eklenir.
 - ARB değişince: `flutter gen-l10n`.
 - Tarayıcıda dikey önizleme: `flutter build web` + `.claude/launch.json` içindeki "web" sunucusu.
 - Commit'ten önce: `dart format .`, `flutter analyze` ve `flutter test` temiz olmalı.

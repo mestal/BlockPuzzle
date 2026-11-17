@@ -105,8 +105,13 @@ class _ParticleLayerState extends State<ParticleLayer>
       };
   }
 
+  /// Upper bound so bursts on big boards cannot pile up frame cost.
+  static const _maxParticles = 600;
+
   void _add(List<_Particle> particles) {
     _particles.addAll(particles);
+    final overflow = _particles.length - _maxParticles;
+    if (overflow > 0) _particles.removeRange(0, overflow);
     if (!_ticker.isActive) {
       _last = Duration.zero;
       unawaited(_ticker.start());
@@ -170,7 +175,10 @@ class _ParticlePainter extends CustomPainter {
         ..rotate(p.rotation);
       switch (p.shape) {
         case ParticleShape.star:
-          canvas.drawPath(_star(p.size * (1 - p.progress * 0.4)), _paint);
+          final scale = p.size * (1 - p.progress * 0.4);
+          canvas
+            ..scale(scale)
+            ..drawPath(_unitStar, _paint);
         case ParticleShape.confetti:
           canvas.drawRRect(
             RRect.fromRectAndRadius(
@@ -189,6 +197,9 @@ class _ParticlePainter extends CustomPainter {
       canvas.restore();
     }
   }
+
+  /// A star of size 1, built once and scaled per particle.
+  static final _unitStar = _star(1);
 
   static Path _star(double size) {
     final path = Path();

@@ -1,6 +1,6 @@
 {
   "id": 2,
-  "name": "Ev",
+  "name": {"tr": "Ev", "en": "House", "de": "Haus", "fr": "Maison", "es": "Casa", "it": "Casa", "zh": "房子"},
   "solution": [".##.", "####", "####", "##.#"],
   "colors":   [".RR.", "RRRR", "YLYY", "YY.Y"],
   "palette":  { "R": "#E8453C", "Y": "#FCD34D", "L": "#93C5FD" }

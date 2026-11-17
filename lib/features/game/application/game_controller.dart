@@ -3,6 +3,7 @@ import 'dart:math';
 
 import 'package:block_puzzle/core/audio/sound_service.dart';
 import 'package:block_puzzle/features/game/domain/board.dart';
+import 'package:block_puzzle/features/game/domain/hint.dart';
 import 'package:block_puzzle/features/game/domain/puzzle.dart';
 import 'package:block_puzzle/features/game/domain/scoring.dart';
 import 'package:block_puzzle/features/progress/slot_data.dart';
@@ -54,6 +55,7 @@ final class GameState {
     this.combo = 0,
     this.mistakes = 0,
     this.fx,
+    this.hint,
   });
 
   static const maxLives = 10;
@@ -72,6 +74,9 @@ final class GameState {
   final int mistakes;
   final MoveFx? fx;
 
+  /// The last hint and its explanation; cleared by the player's next move.
+  final Hint? hint;
+
   int get multiplier => Scoring.multiplier(combo);
   int get stars => Scoring.stars(mistakes);
 
@@ -82,6 +87,7 @@ final class GameState {
     int? lives,
     GameStatus? status,
     MoveFx? fx,
+    Hint? Function()? hint,
   }) => GameState(
     board: board ?? this.board,
     lives: lives ?? this.lives,
@@ -90,6 +96,7 @@ final class GameState {
     combo: combo,
     mistakes: mistakes,
     fx: fx ?? this.fx,
+    hint: hint == null ? this.hint : hint(),
   );
 }
 
@@ -134,17 +141,29 @@ class GameController extends Notifier<GameState> {
   bool mark(int r, int c, MoveAction action, {int step = 0}) =>
       _apply(r, c, action, MarkSource.user, step: step);
 
-  /// Reveals one filled cell. Returns false if the player has no hints.
+  /// Reveals the next logical step (usually a block, sometimes an X) and
+  /// keeps the explanation in [GameState.hint]. Returns false if the player
+  /// has no hints.
   bool useHint() {
     final slot = _slot;
     if (slot == null || slot.hints <= 0) return false;
     if (state.status != GameStatus.playing) return true;
-    final cell = state.board.hintCell(_random.nextInt(1 << 30));
-    if (cell == null) return true;
+    final hint = findHint(state.board, seed: _random.nextInt(1 << 30));
+    if (hint == null) return true;
     _editSlot((s) => s.copyWith(hints: s.hints - 1));
-    final (r, c) = cell;
-    _apply(r, c, MoveAction.fill, MarkSource.hint);
+    _apply(
+      hint.row,
+      hint.col,
+      hint.fill ? MoveAction.fill : MoveAction.cross,
+      MarkSource.hint,
+      hint: hint,
+    );
     return true;
+  }
+
+  /// Hides the hint explanation.
+  void dismissHint() {
+    if (state.hint != null) state = state.copyWith(hint: () => null);
   }
 
   void grantHint() => _editSlot((s) => s.copyWith(hints: s.hints + 1));
@@ -165,6 +184,7 @@ class GameController extends Notifier<GameState> {
     MoveAction action,
     MarkSource source, {
     int step = 0,
+    Hint? hint,
   }) {
     if (state.status != GameStatus.playing) return false;
     final result = state.board.apply(r, c, action, source: source);
@@ -204,6 +224,7 @@ class GameController extends Notifier<GameState> {
       score: score,
       combo: combo,
       mistakes: mistakes,
+      hint: hint,
       fx: MoveFx(
         seq: (state.fx?.seq ?? 0) + 1,
         row: r,

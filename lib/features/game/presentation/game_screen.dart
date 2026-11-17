@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:block_puzzle/app/localized.dart';
 import 'package:block_puzzle/app/router.dart';
 import 'package:block_puzzle/app/theme.dart';
 import 'package:block_puzzle/core/widgets/particles.dart';
@@ -11,9 +12,11 @@ import 'package:block_puzzle/features/game/domain/puzzle.dart';
 import 'package:block_puzzle/features/game/domain/scoring.dart';
 import 'package:block_puzzle/features/game/presentation/board_view.dart';
 import 'package:block_puzzle/features/game/presentation/game_dialogs.dart';
+import 'package:block_puzzle/features/game/presentation/hint_card.dart';
 import 'package:block_puzzle/features/level_map/application/world_providers.dart';
 import 'package:block_puzzle/features/levels/level_repository.dart';
 import 'package:block_puzzle/features/progress/slots_controller.dart';
+import 'package:block_puzzle/features/settings/presentation/settings_sheet.dart';
 import 'package:block_puzzle/l10n/gen/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -210,7 +213,8 @@ class _GamePlayState extends ConsumerState<_GamePlay>
   Widget build(BuildContext context) {
     ref.listen(gameControllerProvider(_puzzle), _onState);
     final state = ref.watch(gameControllerProvider(_puzzle));
-    final hints = ref.watch(activeSlotProvider)?.hints ?? 0;
+    // Only the hint count: the slot also changes on every saved move.
+    final hints = ref.watch(activeSlotProvider.select((s) => s?.hints ?? 0));
     final l10n = AppLocalizations.of(context);
     final won = state.status == GameStatus.won;
 
@@ -222,7 +226,7 @@ class _GamePlayState extends ConsumerState<_GamePlay>
               _TopBar(
                 level: _puzzle.id,
                 lives: state.lives,
-                title: won ? _puzzle.name : null,
+                title: won ? _puzzle.name.localized(context) : null,
               ),
               _ScoreBar(score: state.score, combo: state.combo),
               Expanded(
@@ -247,7 +251,19 @@ class _GamePlayState extends ConsumerState<_GamePlay>
                   ),
                 ),
               ),
-              if (_puzzle.id == 1 && !won) const _Tutorial(),
+              AnimatedSize(
+                duration: const Duration(milliseconds: 220),
+                curve: Curves.easeOut,
+                child: switch (state.hint) {
+                  final hint? when !won => HintCard(
+                    key: ValueKey(hint),
+                    hint: hint,
+                    onClose: _game.dismissHint,
+                  ),
+                  _ when _puzzle.id == 1 && !won => const _Tutorial(),
+                  _ => const SizedBox(width: double.infinity),
+                },
+              ),
               _BottomBar(
                 hints: hints,
                 enabled: state.status == GameStatus.playing,
@@ -258,7 +274,9 @@ class _GamePlayState extends ConsumerState<_GamePlay>
             ],
           ),
         ),
-        Positioned.fill(child: ParticleLayer(controller: _particles)),
+        Positioned.fill(
+          child: RepaintBoundary(child: ParticleLayer(controller: _particles)),
+        ),
       ],
     );
   }
@@ -300,6 +318,7 @@ class _TopBar extends ConsumerWidget {
             onPressed: () => showRulesDialog(context),
             icon: const Icon(Icons.help_outline_rounded, color: Colors.white),
           ),
+          const SettingsButton(),
         ],
       ),
     );

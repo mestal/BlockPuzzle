@@ -1,14 +1,14 @@
 {
   "worlds": [
-    { "id": "sunset_hills", "name": "Gün Batımı Tepeleri", "theme": "sunset", "levels": 20 },
-    { "id": "sandy_beach",  "name": "Kumsal",              "theme": "beach",  "levels": 20 },
-    { "id": "night_forest", "name": "Gece Ormanı",         "theme": "forest", "levels": 20 },
-    { "id": "candy_land",   "name": "Şeker Diyarı",        "theme": "candy",  "levels": 20 },
-    { "id": "golden_dunes", "name": "Altın Çöl",           "theme": "desert", "levels": 20 },
-    { "id": "snow_peaks",   "name": "Karlı Zirveler",      "theme": "snow",   "levels": 20 },
-    { "id": "coral_reef",   "name": "Mercan Resifi",       "theme": "reef",   "levels": 20 },
-    { "id": "lava_island",  "name": "Volkan Adası",        "theme": "volcano","levels": 20 },
-    { "id": "cloud_town",   "name": "Bulut Kasabası",      "theme": "clouds", "levels": 20 },
-    { "id": "star_road",    "name": "Yıldız Yolu",         "theme": "space",  "levels": 20 }
+    { "id": "sunset_hills", "name": {"tr": "Gün Batımı Tepeleri", "en": "Sunset Hills", "de": "Abendrot-Hügel", "fr": "Collines du couchant", "es": "Colinas del Atardecer", "it": "Colline del Tramonto", "zh": "日落山丘"}, "theme": "sunset", "levels": 20 },
+    { "id": "sandy_beach",  "name": {"tr": "Kumsal", "en": "Sandy Beach", "de": "Sandstrand", "fr": "Plage de sable", "es": "Playa de Arena", "it": "Spiaggia Dorata", "zh": "沙滩"}, "theme": "beach",  "levels": 20 },
+    { "id": "night_forest", "name": {"tr": "Gece Ormanı", "en": "Night Forest", "de": "Nachtwald", "fr": "Forêt de nuit", "es": "Bosque Nocturno", "it": "Foresta Notturna", "zh": "夜之森林"}, "theme": "forest", "levels": 20 },
+    { "id": "candy_land",   "name": {"tr": "Şeker Diyarı", "en": "Candy Land", "de": "Zuckerland", "fr": "Pays des bonbons", "es": "Tierra de Dulces", "it": "Terra dei Dolci", "zh": "糖果乐园"}, "theme": "candy",  "levels": 20 },
+    { "id": "golden_dunes", "name": {"tr": "Altın Çöl", "en": "Golden Desert", "de": "Goldene Wüste", "fr": "Désert doré", "es": "Desierto Dorado", "it": "Deserto Dorato", "zh": "黄金沙漠"}, "theme": "desert", "levels": 20 },
+    { "id": "snow_peaks",   "name": {"tr": "Karlı Zirveler", "en": "Snowy Peaks", "de": "Schneegipfel", "fr": "Sommets enneigés", "es": "Cumbres Nevadas", "it": "Vette Innevate", "zh": "雪峰"}, "theme": "snow",   "levels": 20 },
+    { "id": "coral_reef",   "name": {"tr": "Mercan Resifi", "en": "Coral Reef", "de": "Korallenriff", "fr": "Récif de corail", "es": "Arrecife de Coral", "it": "Barriera Corallina", "zh": "珊瑚礁"}, "theme": "reef",   "levels": 20 },
+    { "id": "lava_island",  "name": {"tr": "Volkan Adası", "en": "Volcano Island", "de": "Vulkaninsel", "fr": "Île du volcan", "es": "Isla Volcán", "it": "Isola del Vulcano", "zh": "火山岛"}, "theme": "volcano","levels": 20 },
+    { "id": "cloud_town",   "name": {"tr": "Bulut Kasabası", "en": "Cloud Town", "de": "Wolkenstadt", "fr": "Ville des nuages", "es": "Pueblo de las Nubes", "it": "Città delle Nuvole", "zh": "云朵小镇"}, "theme": "clouds", "levels": 20 },
+    { "id": "star_road",    "name": {"tr": "Yıldız Yolu", "en": "Star Road", "de": "Sternenstraße", "fr": "Route des étoiles", "es": "Camino de Estrellas", "it": "Via delle Stelle", "zh": "星光之路"}, "theme": "space",  "levels": 20 }
   ]
 }

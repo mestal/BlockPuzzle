@@ -1,3 +1,4 @@
+import 'package:block_puzzle/core/localized_text.dart';
 import 'package:meta/meta.dart';
 
 /// Lengths of consecutive filled runs in [line]. Empty list for a blank line.
@@ -53,7 +54,7 @@ final class Puzzle {
     final solution = (json['solution']! as List).cast<String>();
     return Puzzle(
       id: json['id']! as int,
-      name: json['name']! as String,
+      name: LocalizedText.fromJson(json['name']),
       solution: [
         for (final row in solution) [for (final ch in row.split('')) ch == '#'],
       ],
@@ -67,7 +68,9 @@ final class Puzzle {
   }
 
   final int id;
-  final String name;
+
+  /// Name of the hidden picture, per language.
+  final LocalizedText name;
   final int rows;
   final int cols;
 

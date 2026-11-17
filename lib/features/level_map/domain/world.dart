@@ -1,3 +1,4 @@
+import 'package:block_puzzle/core/localized_text.dart';
 import 'package:meta/meta.dart';
 
 /// One map ("world") of the level journey: a themed region holding a
@@ -19,8 +20,8 @@ final class World {
   /// Stable identifier (never shown to the player).
   final String id;
 
-  /// Display name, like level names it lives in the data file.
-  final String name;
+  /// Display name per language; like level names it lives in the data file.
+  final LocalizedText name;
 
   /// Key of the visual theme in `AppColors.worldThemes`.
   final String theme;
@@ -72,7 +73,7 @@ final class WorldCatalog {
         World(
           index: i + 1,
           id: w['id']! as String,
-          name: w['name']! as String,
+          name: LocalizedText.fromJson(w['name']),
           theme: w['theme']! as String,
           firstLevel: next,
           levelCount: count,

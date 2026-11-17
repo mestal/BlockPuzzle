@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:block_puzzle/app/localized.dart';
 import 'package:block_puzzle/app/router.dart';
 import 'package:block_puzzle/app/theme.dart';
 import 'package:block_puzzle/core/widgets/particles.dart';
@@ -320,7 +321,7 @@ class _TopBar extends StatelessWidget {
                           ),
                         ),
                         Text(
-                          world.name,
+                          world.name.localized(context),
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: const TextStyle(
@@ -509,7 +510,7 @@ class _StartSign extends StatelessWidget {
           const SizedBox(width: 6),
           Flexible(
             child: Text(
-              prev?.name ?? l10n.mapStart,
+              prev?.name.localized(context) ?? l10n.mapStart,
               overflow: TextOverflow.ellipsis,
               style: const TextStyle(
                 color: Colors.white,
@@ -551,17 +552,17 @@ class _NextWorldCard extends StatelessWidget {
       null => (Icons.emoji_events_rounded, l10n.worldSoon, null),
       WorldAccess.open => (
         Icons.arrow_upward_rounded,
-        l10n.nextWorld(nextWorld!.name),
+        l10n.nextWorld(nextWorld!.name.localized(context)),
         () => context.go(Routes.map(nextWorld.index)),
       ),
       WorldAccess.comingSoon => (
         Icons.hourglass_top_rounded,
-        l10n.nextWorldSoon(nextWorld!.name),
+        l10n.nextWorldSoon(nextWorld!.name.localized(context)),
         null,
       ),
       WorldAccess.locked => (
         Icons.lock_rounded,
-        l10n.nextWorldLocked(nextWorld!.name),
+        l10n.nextWorldLocked(nextWorld!.name.localized(context)),
         null,
       ),
     };
@@ -694,7 +695,7 @@ class _WorldIntroState extends State<_WorldIntro> {
                                 ),
                               ),
                               Text(
-                                widget.world.name,
+                                widget.world.name.localized(context),
                                 textAlign: TextAlign.center,
                                 style: const TextStyle(
                                   color: Colors.white,

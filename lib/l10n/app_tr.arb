@@ -11,16 +11,34 @@
   "start": "Başla",
   "cancel": "Vazgeç",
   "deleteSlotTitle": "{name} silinsin mi?",
-  "@deleteSlotTitle": {"placeholders": {"name": {"type": "String"}}},
+  "@deleteSlotTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "deleteSlotBody": "Bu oyuncunun tüm ilerlemesi silinecek. Bu işlem geri alınamaz.",
   "delete": "Sil",
   "levelLabel": "Bölüm {n}",
-  "@levelLabel": {"placeholders": {"n": {"type": "int"}}},
+  "@levelLabel": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "hintCount": "{count} ipucu",
-  "@hintCount": {"placeholders": {"count": {"type": "int"}}},
+  "@hintCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "tutorialTap": "Tek dokun: doldur",
   "tutorialDoubleTap": "Çift dokun: X koy (X'e tekrar çift dokun: kaldır)",
-  "tutorialDrag": "Basılı tutup kaydırarak birçok kareyi birden işaretle",
+  "tutorialDrag": "Basılı tutup kaydırarak birçok kareyi birden işaretle. Çift dokunup X'ten kaydırırsan X'leri silersin.",
   "hint": "İpucu",
   "noHintsTitle": "İpucun kalmadı",
   "noHintsBody": "Kısa bir reklam izle, 1 ipucu kazan.",
@@ -32,41 +50,169 @@
   "backToLevels": "Bölümlere dön",
   "levelComplete": "Harika!",
   "nextLevel": "Sıradaki: Bölüm {n}",
-  "@nextLevel": {"placeholders": {"n": {"type": "int"}}},
+  "@nextLevel": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "ok": "Tamam",
   "allDoneSoon": "Yeni bölümler çok yakında",
   "adLabel": "Reklam",
   "adPlaceholder": "Burada reklam gösterilecek",
   "adClose": "Kapat",
   "adCountdown": "{seconds} sn",
-  "@adCountdown": {"placeholders": {"seconds": {"type": "int"}}},
+  "@adCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
   "rulesTitle": "Nasıl oynanır?",
   "rulesClues": "Soldaki ve üstteki sayılar o satırda ve sütunda kaç dolu kare olduğunu gösterir. Birden çok sayı varsa gruplar arasında en az bir boşluk vardır.",
-  "rulesMistakes": "Boş olması gereken kareyi doldurursan 1 hakkın gider. X koymak serbest: notlarını istediğin gibi alabilirsin.",
+  "rulesMistakes": "Boş olması gereken kareyi doldurursan 1 hakkın gider. X koymak serbest: notlarını istediğin gibi alabilirsin. X olan kareyi doldurmak için önce çift dokunarak X'i kaldır.",
   "rulesScoring": "Doğru her doldurma puan kazandırır. Hatasız art arda doldurdukça çarpan büyür (en çok x5). Satır ve sütunları bitirmek ekstra puandır.",
   "levelScore": "{score} puan",
-  "@levelScore": {"placeholders": {"score": {"type": "int"}}},
+  "@levelScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
   "totalScore": "Toplam: {total}",
-  "@totalScore": {"placeholders": {"total": {"type": "int"}}},
+  "@totalScore": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "rulesGoal": "Tüm dolu kareleri bulunca bloklar gizli resme dönüşür.",
   "worldLabel": "Harita {n}",
-  "@worldLabel": {"placeholders": {"n": {"type": "int"}}},
+  "@worldLabel": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "worldsTitle": "Haritalar",
   "worldUnlocked": "Yeni harita açıldı!",
   "worldComplete": "Harita tamamlandı!",
   "nextWorld": "Sonraki harita: {name}",
-  "@nextWorld": {"placeholders": {"name": {"type": "String"}}},
+  "@nextWorld": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "nextWorldLocked": "Bu haritayı bitir, {name} açılsın",
-  "@nextWorldLocked": {"placeholders": {"name": {"type": "String"}}},
+  "@nextWorldLocked": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "nextWorldSoon": "{name} çok yakında",
-  "@nextWorldSoon": {"placeholders": {"name": {"type": "String"}}},
+  "@nextWorldSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "worldLocked": "Önceki haritayı bitir",
   "worldSoon": "Yakında",
   "youAreHere": "Buradasın",
   "mapStart": "Başlangıç",
   "playLevel": "Oyna · Bölüm {n}",
-  "@playLevel": {"placeholders": {"n": {"type": "int"}}},
+  "@playLevel": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "tapToContinue": "Devam etmek için dokun",
   "starCount": "{have}/{max}",
-  "@starCount": {"placeholders": {"have": {"type": "int"}, "max": {"type": "int"}}}
+  "@starCount": {
+    "placeholders": {
+      "have": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "settings": "Ayarlar",
+  "settingsSound": "Ses efektleri",
+  "settingsLanguage": "Dil",
+  "settingsLanguageDevice": "Cihaz dili",
+  "hintRow": "{n}. satır",
+  "@hintRow": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "hintColumn": "{n}. sütun",
+  "@hintColumn": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "hintFullLine": "{line} ({clue}): gruplar ve aralarındaki birer boşluk çizgiyi tam dolduruyor, her karenin yeri belli. Bu kare dolu!",
+  "@hintFullLine": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      },
+      "clue": {
+        "type": "String"
+      }
+    }
+  },
+  "hintOverlap": "{line} ({clue}): grupları en başa da yaslasan en sona da, bu kare hep bir grubun içinde kalıyor. Bu yüzden kesin dolu!",
+  "@hintOverlap": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      },
+      "clue": {
+        "type": "String"
+      }
+    }
+  },
+  "hintForcedFill": "{line} ({clue}): açtığın kareler ve X'ler grupların sığabileceği yerleri daraltıyor. Her olası yerleşimde bu kare dolu!",
+  "@hintForcedFill": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      },
+      "clue": {
+        "type": "String"
+      }
+    }
+  },
+  "hintForcedEmpty": "{line} ({clue}): hiçbir grup bu kareye uzanamıyor, yani burası boş. X koyduk.",
+  "@hintForcedEmpty": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      },
+      "clue": {
+        "type": "String"
+      }
+    }
+  },
+  "hintFallback": "Bu kare resmin bir parçası."
 }

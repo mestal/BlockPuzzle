@@ -1,3 +1,4 @@
+import 'package:block_puzzle/app/localized.dart';
 import 'package:block_puzzle/app/theme.dart';
 import 'package:block_puzzle/core/widgets/picture_view.dart';
 import 'package:block_puzzle/features/game/domain/puzzle.dart';
@@ -134,7 +135,7 @@ Future<void> showLevelCompleteDialog(
               .shimmer(delay: 500.ms, duration: 900.ms),
           const SizedBox(height: 8),
           Text(
-            puzzle.name,
+            puzzle.name.localized(context),
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
               fontWeight: FontWeight.w700,
               color: AppColors.block,

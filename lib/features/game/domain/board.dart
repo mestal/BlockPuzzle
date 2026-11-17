@@ -21,8 +21,12 @@ final class Cell {
   /// Whether the cell carries any mark.
   bool get isOpen => mark != CellMark.empty;
 
+  /// Whether this is an X the player placed (and may remove again).
+  bool get isUserCross => mark == CellMark.crossed && source == MarkSource.user;
+
   /// A cell the player can no longer change. A plain user X is only a note
-  /// (it may sit on a filled cell), so it can still be filled over.
+  /// (it may sit on a filled cell): it can be removed, but a tap does not
+  /// fill over it - the player has to take the X away first.
   bool get isLocked =>
       mark == CellMark.filled ||
       (mark == CellMark.crossed && source != MarkSource.user);
@@ -124,7 +128,8 @@ final class Board {
   /// Filling is checked against the solution immediately: filling an empty
   /// cell is a mistake and leaves a [MarkSource.mistake] X. Crossing is never
   /// a mistake - an X is just a note and may be wrong; it is replaced by an
-  /// automatic X once its line is complete.
+  /// automatic X once its line is complete. A player's own X blocks the
+  /// player's fills (it must be erased first); a hint may fill over it.
   MoveResult apply(
     int r,
     int c,
@@ -150,7 +155,7 @@ final class Board {
     }
     if (action == MoveAction.cross) {
       if (existing.isOpen) return MoveResult(board: this);
-      cells[r * puzzle.cols + c] = const Cell(CellMark.crossed);
+      cells[r * puzzle.cols + c] = Cell(CellMark.crossed, source);
       return MoveResult(
         board: Board._(
           puzzle,
@@ -162,6 +167,9 @@ final class Board {
       );
     }
 
+    if (existing.isUserCross && source == MarkSource.user) {
+      return MoveResult(board: this);
+    }
     final shouldFill = puzzle.isFilled(r, c);
     cells[r * puzzle.cols + c] = Cell(
       shouldFill ? CellMark.filled : CellMark.crossed,
@@ -253,6 +261,7 @@ final class Board {
     (CellMark.filled, _) => 'F',
     (CellMark.crossed, MarkSource.auto) => 'a',
     (CellMark.crossed, MarkSource.mistake) => 'm',
+    (CellMark.crossed, MarkSource.hint) => 'h',
     (CellMark.crossed, _) => 'x',
   };
 
@@ -263,6 +272,7 @@ final class Board {
     'x' => const Cell(CellMark.crossed),
     'a' => const Cell(CellMark.crossed, MarkSource.auto),
     'm' => const Cell(CellMark.crossed, MarkSource.mistake),
+    'h' => const Cell(CellMark.crossed, MarkSource.hint),
     _ => Cell.empty,
   };
 }

@@ -1,3 +1,4 @@
+import 'package:block_puzzle/app/localized.dart';
 import 'package:block_puzzle/app/router.dart';
 import 'package:block_puzzle/app/theme.dart';
 import 'package:block_puzzle/core/widgets/jelly_block.dart';
@@ -5,6 +6,7 @@ import 'package:block_puzzle/core/widgets/sky_background.dart';
 import 'package:block_puzzle/features/level_map/application/world_providers.dart';
 import 'package:block_puzzle/features/progress/slot_data.dart';
 import 'package:block_puzzle/features/progress/slots_controller.dart';
+import 'package:block_puzzle/features/settings/presentation/settings_sheet.dart';
 import 'package:block_puzzle/l10n/gen/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -55,6 +57,15 @@ class SlotsScreen extends ConsumerWidget {
                   ],
                 },
               ],
+            ),
+          ),
+          const SafeArea(
+            child: Align(
+              alignment: Alignment.topRight,
+              child: Padding(
+                padding: EdgeInsets.all(4),
+                child: SettingsButton(),
+              ),
             ),
           ),
         ],
@@ -259,7 +270,7 @@ class _FilledSlot extends ConsumerWidget {
                 ),
               ),
               Text(
-                '${world.name} · ${l10n.levelLabel(level)}',
+                '${world.name.localized(context)} · ${l10n.levelLabel(level)}',
                 style: const TextStyle(color: Color(0xFF475569)),
               ),
               const SizedBox(height: 6),

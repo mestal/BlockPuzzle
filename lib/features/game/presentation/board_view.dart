@@ -5,6 +5,7 @@ import 'package:block_puzzle/app/theme.dart';
 import 'package:block_puzzle/core/widgets/particles.dart';
 import 'package:block_puzzle/features/game/application/game_controller.dart';
 import 'package:block_puzzle/features/game/domain/board.dart';
+import 'package:block_puzzle/features/game/domain/hint.dart';
 import 'package:block_puzzle/features/game/presentation/board_cell.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -17,8 +18,10 @@ typedef MarkCallback =
 
 /// Clues + grid. Gestures:
 /// * single tap → fill, single press-and-drag → fill along a line
+///   (cells holding the player's X are skipped: remove the X first)
 /// * double tap → X (or removes a manual X), double tap with the 2nd press
-///   dragged → X along a line
+///   dragged → X along a line; starting that drag on a manual X removes the
+///   manual X marks along the line instead
 class BoardView extends StatefulWidget {
   const BoardView({
     required this.state,
@@ -53,6 +56,8 @@ class _BoardViewState extends State<BoardView> {
   Axis? _axis;
   Timer? _singleTap;
   _Pos? _pendingTap;
+  Offset? _pendingTapAt;
+  Offset _downAt = Offset.zero;
   _Pos? _pressed;
 
   // Effects.
@@ -146,18 +151,28 @@ class _BoardViewState extends State<BoardView> {
     _pointer = e.pointer;
 
     final pending = _pendingTap;
+    final pendingAt = _pendingTapAt;
     _singleTap?.cancel();
     _pendingTap = null;
-    if (pending != null && _near(pending, pos)) {
+    _pendingTapAt = null;
+    if (pending != null &&
+        pendingAt != null &&
+        _isSameSpot(pending, pendingAt, pos, e.localPosition)) {
+      // Second tap: X, or - starting on the player's own X - remove X marks.
       _isSecondTap = true;
-      _action = MoveAction.cross;
       _down = pending;
+      _action = _state.board.at(pending.$1, pending.$2).isUserCross
+          ? MoveAction.erase
+          : MoveAction.cross;
     } else {
+      // A quick tap on another cell is a new single tap: settle the
+      // previous one as a fill right away.
       if (pending != null) _mark(pending, MoveAction.fill);
       _isSecondTap = false;
       _action = MoveAction.fill;
       _down = pos;
     }
+    _downAt = e.localPosition;
     _last = _down;
     _moved = false;
     _stopped = false;
@@ -166,15 +181,24 @@ class _BoardViewState extends State<BoardView> {
     setState(() => _pressed = _down);
   }
 
-  bool _near(_Pos a, _Pos b) =>
-      (a.$1 - b.$1).abs() <= 1 && (a.$2 - b.$2).abs() <= 1;
+  /// Whether a second press counts as a double tap on the first one: same
+  /// cell, or a few pixels across a cell border (fat-finger tolerance).
+  bool _isSameSpot(_Pos first, Offset firstAt, _Pos second, Offset secondAt) =>
+      first == second ||
+      (firstAt - secondAt).distance < min(_cell * 0.3, _doubleTapSlop);
+
+  static const _doubleTapSlop = 12.0;
 
   void _onMove(PointerMoveEvent e) {
     if (e.pointer != _pointer || _stopped) return;
     final down = _down!;
     final pos = _hit(e.localPosition, clamp: true)!;
     if (!_moved) {
-      if (pos == down) return;
+      // Ignore jitter: a drag starts once the finger reaches another cell
+      // and has travelled a little.
+      if (pos == down || (e.localPosition - _downAt).distance < _cell * 0.3) {
+        return;
+      }
       _moved = true;
       final dr = (pos.$1 - down.$1).abs();
       final dc = (pos.$2 - down.$2).abs();
@@ -188,6 +212,7 @@ class _BoardViewState extends State<BoardView> {
         ? (down.$1, pos.$2)
         : (pos.$1, down.$2);
     var current = _last!;
+    if (current == target) return;
     while (current != target) {
       current = (
         current.$1 + (target.$1 - current.$1).sign,
@@ -207,16 +232,15 @@ class _BoardViewState extends State<BoardView> {
     if (e.pointer != _pointer) return;
     _pointer = null;
     final down = _down;
-    if (down != null && !_moved) {
+    if (down != null && !_moved && e is PointerUpEvent) {
       if (_isSecondTap) {
-        final cell = _state.board.at(down.$1, down.$2);
-        final manualX =
-            cell.mark == CellMark.crossed && cell.source == MarkSource.user;
-        _mark(down, manualX ? MoveAction.erase : MoveAction.cross);
+        _mark(down, _action);
       } else {
         _pendingTap = down;
+        _pendingTapAt = _downAt;
         _singleTap = Timer(kDoubleTapTimeout, () {
           _pendingTap = null;
+          _pendingTapAt = null;
           _mark(down, MoveAction.fill);
           if (mounted) setState(() => _pressed = null);
         });
@@ -227,9 +251,13 @@ class _BoardViewState extends State<BoardView> {
   }
 
   bool _mark(_Pos p, MoveAction action, {int step = 0}) {
-    if (!_state.board.at(p.$1, p.$2).isLocked) {
-      unawaited(HapticFeedback.selectionClick());
-    }
+    final cell = _state.board.at(p.$1, p.$2);
+    final acts = switch (action) {
+      MoveAction.fill => !cell.isOpen,
+      MoveAction.cross => !cell.isOpen,
+      MoveAction.erase => cell.isUserCross,
+    };
+    if (acts) unawaited(HapticFeedback.selectionClick());
     return widget.onMark(p.$1, p.$2, action, step: step);
   }
 
@@ -259,6 +287,7 @@ class _BoardViewState extends State<BoardView> {
         final rowClueWidth = rowClueUnits * _cell;
         final colClueHeight = colClueUnits * _cell;
         final fontSize = (_cell * 0.42).clamp(11, 28).toDouble();
+        final hint = _state.hint;
 
         return Column(
           mainAxisSize: MainAxisSize.min,
@@ -271,6 +300,7 @@ class _BoardViewState extends State<BoardView> {
                   _ClueChip(
                     clue: puzzle.colClues[c],
                     solved: _state.board.solvedCols.contains(c),
+                    highlighted: hint != null && !hint.isRow && hint.line == c,
                     vertical: true,
                     width: _cell,
                     height: colClueHeight,
@@ -287,6 +317,8 @@ class _BoardViewState extends State<BoardView> {
                       _ClueChip(
                         clue: puzzle.rowClues[r],
                         solved: _state.board.solvedRows.contains(r),
+                        highlighted:
+                            hint != null && hint.isRow && hint.line == r,
                         vertical: false,
                         width: rowClueWidth,
                         height: _cell,
@@ -324,42 +356,54 @@ class _BoardViewState extends State<BoardView> {
         onPointerMove: _onMove,
         onPointerUp: _onUp,
         onPointerCancel: _onUp,
-        child: SizedBox(
-          key: _gridKey,
-          width: _cols * _cell,
-          height: _rows * _cell,
-          child: CustomPaint(
-            painter: _GuidePainter(_rows, _cols, _cell),
-            child: Stack(
-              children: [
-                for (var r = 0; r < _rows; r++)
-                  for (var c = 0; c < _cols; c++)
-                    Positioned(
-                      left: c * _cell,
-                      top: r * _cell,
-                      child: BoardCell(
-                        cell: _state.board.at(r, c),
-                        size: _cell,
-                        pressed: _pressed == (r, c),
-                        entranceDelay:
-                            fx == null ||
-                                _state.board.at(r, c).source != MarkSource.auto
-                            ? Duration.zero
-                            : _waveStep *
-                                  ((r - fx.row).abs() + (c - fx.col).abs()),
-                        flashSeq: _flashSeq[r * _cols + c],
-                        flashDelay: _flashDelay[r * _cols + c] ?? Duration.zero,
-                        revealColor: !won
-                            ? null
-                            : puzzle.isFilled(r, c)
-                            ? Color(puzzle.colorAt(r, c)!)
-                            : Colors.transparent,
-                        revealDelay: Duration(
-                          milliseconds: 500 + (r + c) * 80,
+        // Cell animations repaint only the grid, not the whole screen.
+        child: RepaintBoundary(
+          child: SizedBox(
+            key: _gridKey,
+            width: _cols * _cell,
+            height: _rows * _cell,
+            child: CustomPaint(
+              painter: _GuidePainter(_rows, _cols, _cell),
+              child: Stack(
+                children: [
+                  for (var r = 0; r < _rows; r++)
+                    for (var c = 0; c < _cols; c++)
+                      Positioned(
+                        left: c * _cell,
+                        top: r * _cell,
+                        child: BoardCell(
+                          cell: _state.board.at(r, c),
+                          size: _cell,
+                          pressed: _pressed == (r, c),
+                          entranceDelay:
+                              fx == null ||
+                                  _state.board.at(r, c).source !=
+                                      MarkSource.auto
+                              ? Duration.zero
+                              : _waveStep *
+                                    ((r - fx.row).abs() + (c - fx.col).abs()),
+                          flashSeq: _flashSeq[r * _cols + c],
+                          flashDelay:
+                              _flashDelay[r * _cols + c] ?? Duration.zero,
+                          revealColor: !won
+                              ? null
+                              : puzzle.isFilled(r, c)
+                              ? Color(puzzle.colorAt(r, c)!)
+                              : Colors.transparent,
+                          revealDelay: Duration(
+                            milliseconds: 500 + (r + c) * 80,
+                          ),
                         ),
                       ),
+                  if (_state.hint case final hint? when !won)
+                    _HintLine(
+                      hint: hint,
+                      cell: _cell,
+                      rows: _rows,
+                      cols: _cols,
                     ),
-              ],
+                ],
+              ),
             ),
           ),
         ),
@@ -403,6 +447,62 @@ class _GuidePainter extends CustomPainter {
       old.cell != cell || old.rows != rows || old.cols != cols;
 }
 
+/// Outlines the line that explains the current hint and rings its cell.
+class _HintLine extends StatelessWidget {
+  const _HintLine({
+    required this.hint,
+    required this.cell,
+    required this.rows,
+    required this.cols,
+  });
+
+  final Hint hint;
+  final double cell;
+  final int rows;
+  final int cols;
+
+  @override
+  Widget build(BuildContext context) {
+    final line = hint.isRow
+        ? Rect.fromLTWH(0, hint.line * cell, cols * cell, cell)
+        : Rect.fromLTWH(hint.line * cell, 0, cell, rows * cell);
+    final target = Rect.fromLTWH(hint.col * cell, hint.row * cell, cell, cell);
+    return Positioned.fill(
+      child: IgnorePointer(
+        child: Stack(
+          children: [
+            Positioned.fromRect(
+              rect: line,
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  color: AppColors.gold.withValues(alpha: 0.16),
+                  border: Border.all(color: AppColors.gold, width: 2.5),
+                  borderRadius: BorderRadius.circular(cell * 0.25),
+                ),
+              ),
+            ),
+            Positioned.fromRect(
+              rect: target.deflate(cell * 0.02),
+              child:
+                  DecoratedBox(
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: AppColors.goldDeep,
+                            width: 3,
+                          ),
+                          borderRadius: BorderRadius.circular(cell * 0.25),
+                        ),
+                      )
+                      .animate(onPlay: (c) => c.repeat(reverse: true))
+                      .scaleXY(begin: 1, end: 1.1, duration: 600.ms),
+            ),
+          ],
+        ),
+      ),
+    ).animate(key: ValueKey(hint)).fadeIn(duration: 250.ms);
+  }
+}
+
 class _ClueChip extends StatelessWidget {
   const _ClueChip({
     required this.clue,
@@ -411,10 +511,12 @@ class _ClueChip extends StatelessWidget {
     required this.width,
     required this.height,
     required this.fontSize,
+    this.highlighted = false,
   });
 
   final List<int> clue;
   final bool solved;
+  final bool highlighted;
   final bool vertical;
   final double width;
   final double height;
@@ -462,6 +564,9 @@ class _ClueChip extends StatelessWidget {
                         ? AppColors.gold
                         : AppColors.clueChip.withValues(alpha: 0.85),
                     borderRadius: BorderRadius.circular(fontSize * 0.5),
+                    border: highlighted
+                        ? Border.all(color: AppColors.goldDeep, width: 2.5)
+                        : null,
                   ),
                   alignment: vertical
                       ? Alignment.bottomCenter

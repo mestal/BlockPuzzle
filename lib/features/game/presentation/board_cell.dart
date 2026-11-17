@@ -81,11 +81,13 @@ class _BoardCellState extends State<BoardCell> with TickerProviderStateMixin {
       action();
       return;
     }
-    _timers.add(
-      Timer(delay, () {
-        if (mounted) action();
-      }),
-    );
+    _timers
+      ..removeWhere((t) => !t.isActive)
+      ..add(
+        Timer(delay, () {
+          if (mounted) action();
+        }),
+      );
   }
 
   @override
@@ -180,7 +182,8 @@ class _BoardCellState extends State<BoardCell> with TickerProviderStateMixin {
     final (color, thickness) = switch (widget.cell.source) {
       MarkSource.auto => (AppColors.crossDone, 0.1),
       MarkSource.mistake => (AppColors.mistake, 0.13),
-      MarkSource.user || MarkSource.hint => (AppColors.crossUser, 0.13),
+      MarkSource.hint => (AppColors.goldDeep, 0.13),
+      MarkSource.user => (AppColors.crossUser, 0.13),
     };
     final shake = widget.cell.source == MarkSource.mistake
         ? sin(_entrance.value * pi * 8) * (1 - _entrance.value) * 4

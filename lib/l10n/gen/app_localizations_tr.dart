@@ -69,7 +69,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get tutorialDrag =>
-      'Basılı tutup kaydırarak birçok kareyi birden işaretle';
+      'Basılı tutup kaydırarak birçok kareyi birden işaretle. Çift dokunup X\'ten kaydırırsan X\'leri silersin.';
 
   @override
   String get hint => 'İpucu';
@@ -136,7 +136,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get rulesMistakes =>
-      'Boş olması gereken kareyi doldurursan 1 hakkın gider. X koymak serbest: notlarını istediğin gibi alabilirsin.';
+      'Boş olması gereken kareyi doldurursan 1 hakkın gider. X koymak serbest: notlarını istediğin gibi alabilirsin. X olan kareyi doldurmak için önce çift dokunarak X\'i kaldır.';
 
   @override
   String get rulesScoring =>
@@ -209,4 +209,49 @@ class AppLocalizationsTr extends AppLocalizations {
   String starCount(int have, int max) {
     return '$have/$max';
   }
+
+  @override
+  String get settings => 'Ayarlar';
+
+  @override
+  String get settingsSound => 'Ses efektleri';
+
+  @override
+  String get settingsLanguage => 'Dil';
+
+  @override
+  String get settingsLanguageDevice => 'Cihaz dili';
+
+  @override
+  String hintRow(int n) {
+    return '$n. satır';
+  }
+
+  @override
+  String hintColumn(int n) {
+    return '$n. sütun';
+  }
+
+  @override
+  String hintFullLine(String line, String clue) {
+    return '$line ($clue): gruplar ve aralarındaki birer boşluk çizgiyi tam dolduruyor, her karenin yeri belli. Bu kare dolu!';
+  }
+
+  @override
+  String hintOverlap(String line, String clue) {
+    return '$line ($clue): grupları en başa da yaslasan en sona da, bu kare hep bir grubun içinde kalıyor. Bu yüzden kesin dolu!';
+  }
+
+  @override
+  String hintForcedFill(String line, String clue) {
+    return '$line ($clue): açtığın kareler ve X\'ler grupların sığabileceği yerleri daraltıyor. Her olası yerleşimde bu kare dolu!';
+  }
+
+  @override
+  String hintForcedEmpty(String line, String clue) {
+    return '$line ($clue): hiçbir grup bu kareye uzanamıyor, yani burası boş. X koyduk.';
+  }
+
+  @override
+  String get hintFallback => 'Bu kare resmin bir parçası.';
 }
