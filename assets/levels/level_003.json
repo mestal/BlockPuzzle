@@ -1,6 +1,6 @@
 {
   "id": 3,
-  "name": {"tr": "Kalp", "en": "Heart", "de": "Herz", "fr": "Cœur", "es": "Corazón", "it": "Cuore", "zh": "爱心"},
+  "name": {"tr": "Kalp", "en": "Heart", "de": "Herz", "fr": "Cœur", "es": "Corazón", "pt": "Coração", "it": "Cuore", "ru": "Сердце", "ar": "قلب", "ja": "ハート", "zh": "爱心"},
   "solution": [".#.#.", "#####", "#####", ".###.", "..#.."],
   "colors":   [".R.R.", "RWRRR", "RRRRP", ".RRP.", "..P.."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF", "P": "#F472B6" }

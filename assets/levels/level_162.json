@@ -1,6 +1,6 @@
 {
   "id": 162,
-  "name": {"tr": "Gökyüzü feneri", "en": "Sky lantern", "de": "Himmelslaterne", "fr": "Lanterne céleste", "es": "Farolillo volador", "it": "Lanterna volante", "zh": "孔明灯"},
+  "name": {"tr": "Gökyüzü feneri", "en": "Sky lantern", "de": "Himmelslaterne", "fr": "Lanterne céleste", "es": "Farolillo volador", "pt": "Lanterna voadora", "it": "Lanterna volante", "ru": "Небесный фонарик", "ar": "فانوس السماء", "ja": "天灯", "zh": "孔明灯"},
   "solution": [".######.", "########", "########", "########", "########", "########", "########", ".######.", "..#..#..", "..####..", "..####..", "...##...", "...#...."],
   "colors":   [".RRRRRR.", "RRRRRRRR", "RRYYYYRR", "RYYYYYYR", "RYYYYYYR", "RYYYYYYR", "RRYYYYRR", ".RRRRRR.", "..R..R..", "..RRRR..", "..ROOR..", "...OO...", "...Y...."],
   "palette":  { "O": "#F97316", "R": "#E8453C", "Y": "#FACC15" }

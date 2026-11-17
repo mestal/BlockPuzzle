@@ -1,6 +1,6 @@
 {
   "id": 117,
-  "name": {"tr": "Kutup ayısı", "en": "Polar bear", "de": "Eisbär", "fr": "Ours polaire", "es": "Oso polar", "it": "Orso polare", "zh": "北极熊"},
+  "name": {"tr": "Kutup ayısı", "en": "Polar bear", "de": "Eisbär", "fr": "Ours polaire", "es": "Oso polar", "pt": "Urso-polar", "it": "Orso polare", "ru": "Белый медведь", "ar": "دب قطبي", "ja": "シロクマ", "zh": "北极熊"},
   "solution": [".##....##.", "##########", ".########.", ".########.", ".########.", "..######..", "...####...", "..######..", ".########.", "##########", ".###..###.", ".##....##."],
   "colors":   [".WW....WW.", "WWWWWWWWWW", ".WWWWWWWW.", ".WKWWWWKW.", ".WWWWWWWW.", "..WWKKWW..", "...WWWW...", "..WWWWWW..", ".WWWWWWWW.", "WWWWWWWWWW", ".WWW..WWW.", ".WW....WW."],
   "palette":  { "K": "#1F2937", "W": "#FFFFFF" }

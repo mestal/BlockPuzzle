@@ -1,6 +1,6 @@
 {
   "id": 56,
-  "name": {"tr": "Kurbağa", "en": "Frog", "de": "Frosch", "fr": "Grenouille", "es": "Rana", "it": "Rana", "zh": "青蛙"},
+  "name": {"tr": "Kurbağa", "en": "Frog", "de": "Frosch", "fr": "Grenouille", "es": "Rana", "pt": "Sapo", "it": "Rana", "ru": "Лягушка", "ar": "ضفدع", "ja": "カエル", "zh": "青蛙"},
   "solution": [".##...##.", "####.####", "#########", "#########", "#########", ".#######.", ".##...##.", "##.....##", "#.#...#.#"],
   "colors":   [".WW...WW.", "WKKW.WKKW", "GGGGGGGGG", "GGGGGGGGG", "GRRRRRRRG", ".GGGGGGG.", ".GG...GG.", "GG.....GG", "G.G...G.G"],
   "palette":  { "G": "#22C55E", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF" }

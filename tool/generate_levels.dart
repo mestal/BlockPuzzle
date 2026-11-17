@@ -77,6 +77,9 @@ class _Picture {
     final rows = grid.length;
     final cols = grid.first.length;
     final name = art.names[1];
+    if (art.names.length != artLanguages.length) {
+      throw StateError('$name needs ${artLanguages.length} names');
+    }
     if (cols > maxCols || rows > maxRows) {
       throw StateError('$name is ${rows}x$cols (max ${maxRows}x$maxCols)');
     }
@@ -102,8 +105,8 @@ class _Picture {
 
   String toJson(int id) {
     final names = [
-      for (final (i, lang) in supportedLanguages.keys.indexed)
-        '"$lang": "${art.names[i]}"',
+      for (final lang in supportedLanguages.keys)
+        '"$lang": "${art.names[artLanguages.indexOf(lang)]}"',
     ].join(', ');
     String list(Iterable<String> rows) =>
         '[${rows.map((r) => '"$r"').join(', ')}]';

@@ -45,6 +45,7 @@ final class SlotData {
     this.stars = const {},
     this.hints = startingHints,
     this.totalScore = 0,
+    this.tutorials = const {},
     this.snapshot,
   });
 
@@ -60,6 +61,7 @@ final class SlotData {
     },
     hints: json['hints']! as int,
     totalScore: json['totalScore'] as int? ?? 0,
+    tutorials: {...((json['tutorials'] as List?) ?? const []).cast<int>()},
     snapshot: switch (json['snapshot']) {
       final Map<String, Object?> s => LevelSnapshot.fromJson(s),
       _ => null,
@@ -81,6 +83,9 @@ final class SlotData {
 
   /// Sum of the scores of all finished levels.
   final int totalScore;
+
+  /// Levels whose tutorial was finished or skipped (not shown again).
+  final Set<int> tutorials;
   final LevelSnapshot? snapshot;
 
   SlotData copyWith({
@@ -89,6 +94,7 @@ final class SlotData {
     Map<int, int>? stars,
     int? hints,
     int? totalScore,
+    Set<int>? tutorials,
     LevelSnapshot? Function()? snapshot,
   }) => SlotData(
     name: name,
@@ -98,6 +104,7 @@ final class SlotData {
     stars: stars ?? this.stars,
     hints: hints ?? this.hints,
     totalScore: totalScore ?? this.totalScore,
+    tutorials: tutorials ?? this.tutorials,
     snapshot: snapshot != null ? snapshot() : this.snapshot,
   );
 
@@ -111,6 +118,7 @@ final class SlotData {
     },
     'hints': hints,
     'totalScore': totalScore,
+    'tutorials': tutorials.toList()..sort(),
     'snapshot': snapshot?.toJson(),
   };
 }

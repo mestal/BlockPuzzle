@@ -1,6 +1,6 @@
 {
   "id": 150,
-  "name": {"tr": "Yanardağ", "en": "Volcano", "de": "Vulkan", "fr": "Volcan", "es": "Volcán", "it": "Vulcano", "zh": "火山"},
+  "name": {"tr": "Yanardağ", "en": "Volcano", "de": "Vulkan", "fr": "Volcan", "es": "Volcán", "pt": "Vulcão", "it": "Vulcano", "ru": "Вулкан", "ar": "بركان", "ja": "火山", "zh": "火山"},
   "solution": [".....#....", "...#.#.#..", "....###...", "..#.###.#.", "....###...", "....###...", "...#####..", "...#####..", "..#######.", "..#######.", ".#########", ".#########", "##########"],
   "colors":   [".....O....", "...R.O.R..", "....ROR...", "..O.RYR.O.", "....RYR...", "....HRH...", "...HHRHH..", "...HHHHH..", "..HHHHRHH.", "..HHHHHRH.", ".HHHHHHHHH", ".HHHHHHHHH", "HHHHHHHHHH"],
   "palette":  { "H": "#5B3410", "O": "#F97316", "R": "#E8453C", "Y": "#FACC15" }

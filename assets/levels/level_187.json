@@ -1,6 +1,6 @@
 {
   "id": 187,
-  "name": {"tr": "Kayan yıldız", "en": "Shooting star", "de": "Sternschnuppe", "fr": "Étoile filante", "es": "Estrella fugaz", "it": "Stella cadente", "zh": "流星"},
+  "name": {"tr": "Kayan yıldız", "en": "Shooting star", "de": "Sternschnuppe", "fr": "Étoile filante", "es": "Estrella fugaz", "pt": "Estrela cadente", "it": "Stella cadente", "ru": "Падающая звезда", "ar": "شهاب", "ja": "流れ星", "zh": "流星"},
   "solution": [".......#..", "......###.", "....######", ".....#####", "....######", "....#.....", ".#.#......", "#.#.#.....", ".#.#......", "#.#.......", ".#........", "#........."],
   "colors":   [".......Y..", "......YYY.", "....YYYYYY", ".....YYYYY", "....OYYYYY", "....O.....", ".Y.O......", "Y.O.O.....", ".O.O......", "O.O.......", ".O........", "O........."],
   "palette":  { "O": "#F97316", "Y": "#FACC15" }

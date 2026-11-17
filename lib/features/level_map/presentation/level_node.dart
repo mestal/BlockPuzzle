@@ -44,14 +44,19 @@ class LevelNode extends ConsumerWidget {
       NodeKind.done => _DoneTile(level: level, stars: stars),
       NodeKind.current => _CurrentTile(level: level),
       NodeKind.locked => _FlatTile(
+        // Expand to the whole tile so the lock sits in the tile's corner,
+        // not on top of the number.
         child: Stack(
+          fit: StackFit.expand,
           alignment: Alignment.center,
           children: [
-            Text('$level', style: _numberStyle(Colors.white70, 24)),
+            Center(
+              child: Text('$level', style: _numberStyle(Colors.white, 24)),
+            ),
             const Positioned(
-              right: 4,
-              bottom: 4,
-              child: Icon(Icons.lock_rounded, size: 16, color: Colors.white70),
+              right: 6,
+              bottom: 6,
+              child: Icon(Icons.lock_rounded, size: 14, color: Colors.white54),
             ),
           ],
         ),

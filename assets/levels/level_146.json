@@ -1,6 +1,6 @@
 {
   "id": 146,
-  "name": {"tr": "Ammonit", "en": "Ammonite", "de": "Ammonit", "fr": "Ammonite", "es": "Amonita", "it": "Ammonite", "zh": "菊石"},
+  "name": {"tr": "Ammonit", "en": "Ammonite", "de": "Ammonit", "fr": "Ammonite", "es": "Amonita", "pt": "Amonite", "it": "Ammonite", "ru": "Аммонит", "ar": "أمونيت", "ja": "アンモナイト", "zh": "菊石"},
   "solution": [".#######..", ".########.", "###....###", "##..##..##", "##.####.##", "##.##.#.##", "##.##.#.##", "##.####.##", "##..#...##", "###....###", ".########.", "..######.."],
   "colors":   [".EEEEEEE..", ".EELLLLEE.", "EEL....LEE", "EL..EE..LE", "EL.ELLE.LE", "EL.EL.E.LE", "EL.EL.E.LE", "EL.ELEE.LE", "EL..E...LE", "ELL....LLE", ".ELLLLLLE.", "..EEEEEE.."],
   "palette":  { "E": "#94A3B8", "L": "#E2E8F0" }

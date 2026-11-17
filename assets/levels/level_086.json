@@ -1,6 +1,6 @@
 {
   "id": 86,
-  "name": {"tr": "Çiçekli kaktüs", "en": "Blooming cactus", "de": "Blühender Kaktus", "fr": "Cactus en fleur", "es": "Cactus en flor", "it": "Cactus in fiore", "zh": "开花的仙人掌"},
+  "name": {"tr": "Çiçekli kaktüs", "en": "Blooming cactus", "de": "Blühender Kaktus", "fr": "Cactus en fleur", "es": "Cactus en flor", "pt": "Cacto florido", "it": "Cactus in fiore", "ru": "Цветущий кактус", "ar": "صبار مزهر", "ja": "花咲くサボテン", "zh": "开花的仙人掌"},
   "solution": ["...##...", "..####..", "...##...", "...##...", "#..##...", "#..##..#", "#####..#", "...#####", "...##...", "...##...", ".######."],
   "colors":   ["...PP...", "..PYYP..", "...PP...", "...GG...", "G..GG...", "G..GG..G", "GGGGG..G", "...GGGGG", "...GG...", "...GG...", ".TTTTTT."],
   "palette":  { "G": "#22C55E", "P": "#F472B6", "T": "#92400E", "Y": "#FACC15" }

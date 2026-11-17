@@ -1,6 +1,6 @@
 {
   "id": 193,
-  "name": {"tr": "Astronot", "en": "Astronaut", "de": "Astronaut", "fr": "Astronaute", "es": "Astronauta", "it": "Astronauta", "zh": "宇航员"},
+  "name": {"tr": "Astronot", "en": "Astronaut", "de": "Astronaut", "fr": "Astronaute", "es": "Astronauta", "pt": "Astronauta", "it": "Astronauta", "ru": "Космонавт", "ar": "رائد فضاء", "ja": "宇宙飛行士", "zh": "宇航员"},
   "solution": ["...####...", "..######..", ".########.", ".########.", ".########.", ".########.", "..######..", ".########.", "##########", "##########", "##.####.##", "##.####.##", "...##.##..", "...##.##..", "..###.###."],
   "colors":   ["...LLLL...", "..LLLLLL..", ".LLNNNNLL.", ".LNCNNNNL.", ".LNNNNNNL.", ".LLNNNNLL.", "..LLLLLL..", ".LLLLLLLL.", "LLLRLBLLLL", "LLLLLLLLLL", "LL.LLLL.LL", "EE.LLLL.EE", "...LL.LL..", "...LL.LL..", "..EEE.EEE."],
   "palette":  { "B": "#3B82F6", "C": "#22D3EE", "E": "#94A3B8", "L": "#E2E8F0", "N": "#1E3A8A", "R": "#E8453C" }

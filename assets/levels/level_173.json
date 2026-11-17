@@ -1,6 +1,6 @@
 {
   "id": 173,
-  "name": {"tr": "Uçak", "en": "Airplane", "de": "Flugzeug", "fr": "Avion", "es": "Avión", "it": "Aereo", "zh": "飞机"},
+  "name": {"tr": "Uçak", "en": "Airplane", "de": "Flugzeug", "fr": "Avion", "es": "Avión", "pt": "Avião", "it": "Aereo", "ru": "Самолёт", "ar": "طائرة", "ja": "飛行機", "zh": "飞机"},
   "solution": ["....##....", "...####...", "...####...", "...####...", "...####...", ".########.", "##########", "##.####.##", "...####...", "...####...", "...####...", "..######..", ".########.", "....##...."],
   "colors":   ["....BB....", "...BBBB...", "...BCCB...", "...BBBB...", "...BBBB...", ".BBBBBBBB.", "BBBBBBBBBB", "BB.BBBB.BB", "...BBBB...", "...BBBB...", "...BBBB...", "..BBBBBB..", ".BBBBBBBB.", "....BB...."],
   "palette":  { "B": "#3B82F6", "C": "#22D3EE" }

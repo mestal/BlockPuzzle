@@ -1,6 +1,6 @@
 {
   "id": 138,
-  "name": {"tr": "Deniz kızı kuyruğu", "en": "Mermaid tail", "de": "Meerjungfrauenschwanz", "fr": "Queue de sirène", "es": "Cola de sirena", "it": "Coda di sirena", "zh": "美人鱼尾巴"},
+  "name": {"tr": "Deniz kızı kuyruğu", "en": "Mermaid tail", "de": "Meerjungfrauenschwanz", "fr": "Queue de sirène", "es": "Cola de sirena", "pt": "Cauda de sereia", "it": "Coda di sirena", "ru": "Хвост русалки", "ar": "ذيل حورية البحر", "ja": "人魚のしっぽ", "zh": "美人鱼尾巴"},
   "solution": ["...####...", "...####...", "...####...", "...####...", "...####...", "....##....", "....##....", "....##....", "...####...", "..######..", ".###..###.", "###....###", "##......##"],
   "colors":   ["...QQQQ...", "...QCQQ...", "...QQQQ...", "...QQCQ...", "...QQQQ...", "....QQ....", "....QQ....", "....QQ....", "...QQQQ...", "..QQQQQQ..", ".QQQ..QQQ.", "QQQ....QQQ", "QQ......QQ"],
   "palette":  { "C": "#22D3EE", "Q": "#0D9488" }

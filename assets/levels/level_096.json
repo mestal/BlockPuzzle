@@ -1,6 +1,6 @@
 {
   "id": 96,
-  "name": {"tr": "Boynuzlu kafatası", "en": "Cow skull", "de": "Kuhschädel", "fr": "Crâne de vache", "es": "Calavera de vaca", "it": "Teschio di mucca", "zh": "牛头骨"},
+  "name": {"tr": "Boynuzlu kafatası", "en": "Cow skull", "de": "Kuhschädel", "fr": "Crâne de vache", "es": "Calavera de vaca", "pt": "Crânio de vaca", "it": "Teschio di mucca", "ru": "Бычий череп", "ar": "جمجمة بقرة", "ja": "牛の頭骨", "zh": "牛头骨"},
   "solution": ["#........#", "##......##", ".########.", "##########", "##########", "##########", ".########.", "..######..", "..######..", "...####...", "...####..."],
   "colors":   ["L........L", "LL......LL", ".LLLLLLLL.", "LLLLLLLLLL", "LKKLLLLKKL", "LKKLLLLKKL", ".LLLLLLLL.", "..LLLLLL..", "..LKLLKL..", "...LLLL...", "...LLLL..."],
   "palette":  { "K": "#1F2937", "L": "#E2E8F0" }

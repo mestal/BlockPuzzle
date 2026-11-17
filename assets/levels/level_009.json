@@ -1,6 +1,6 @@
 {
   "id": 9,
-  "name": {"tr": "Tekne", "en": "Boat", "de": "Boot", "fr": "Bateau", "es": "Barco", "it": "Barca", "zh": "小船"},
+  "name": {"tr": "Tekne", "en": "Boat", "de": "Boot", "fr": "Bateau", "es": "Barco", "pt": "Barco", "it": "Barca", "ru": "Лодка", "ar": "قارب", "ja": "ボート", "zh": "小船"},
   "solution": ["..#..", ".##.#", "###.#", "#####", ".###."],
   "colors":   ["..R..", ".WW.W", "WWW.W", "BBBBB", ".BBB."],
   "palette":  { "R": "#EF4444", "W": "#F8FAFC", "B": "#B45309" }

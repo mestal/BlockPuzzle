@@ -66,5 +66,14 @@
   "hintOverlap": "{line} ({clue}) : que tu pousses les groupes au début ou à la fin, cette case reste toujours dans un groupe. Elle est donc forcément pleine !",
   "hintForcedFill": "{line} ({clue}) : tes cases et tes X limitent les places possibles des groupes. Dans tous les cas, cette case est pleine !",
   "hintForcedEmpty": "{line} ({clue}) : aucun groupe ne peut atteindre cette case, elle est donc vide. On y a mis un X.",
-  "hintFallback": "Cette case fait partie de l'image."
+  "hintFallback": "Cette case fait partie de l'image.",
+  "tutorialSkip": "Passer",
+  "tutorialGotIt": "Compris",
+  "tutorialL1Fill": "Les nombres indiquent combien de cases de la ligne sont remplies. Ici c'est 4 : les 4 cases sont remplies ! Touche une case pour la remplir.",
+  "tutorialL1Drag": "Bravo ! Maintenant, garde le doigt appuyé et glisse pour remplir le reste de la ligne.",
+  "tutorialL1Column": "Quand une ligne ou une colonne est finie, ses autres cases reçoivent un X toutes seules. Cette colonne indique aussi 4 : glisse de haut en bas.",
+  "tutorialL1Finish": "Plus qu'une colonne. Termine l'image toi-même !",
+  "tutorialL2Cross": "2 1 veut dire 2 cases remplies, au moins un espace, puis 1 case remplie. 2 + espace + 1 = 4 : la ligne est certaine ! Touche deux fois la case vide pour y mettre un X.",
+  "tutorialL2Drag": "Les cases avec ton X sont ignorées quand tu glisses. Glisse sur toute la ligne pour la remplir.",
+  "tutorialL2Rules": "Remplir une mauvaise case coûte 1 vie ; les X sont gratuits. Si tu bloques, le bouton Indice explique aussi pourquoi. À toi de jouer !"
 }

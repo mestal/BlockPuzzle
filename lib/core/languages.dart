@@ -9,7 +9,11 @@ const supportedLanguages = <String, String>{
   'de': 'Deutsch',
   'fr': 'Français',
   'es': 'Español',
+  'pt': 'Português',
   'it': 'Italiano',
+  'ru': 'Русский',
+  'ar': 'العربية',
+  'ja': '日本語',
   'zh': '中文',
 };
 

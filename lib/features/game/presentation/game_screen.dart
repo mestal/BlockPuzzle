@@ -10,9 +10,11 @@ import 'package:block_puzzle/features/ads/ad_service.dart';
 import 'package:block_puzzle/features/game/application/game_controller.dart';
 import 'package:block_puzzle/features/game/domain/puzzle.dart';
 import 'package:block_puzzle/features/game/domain/scoring.dart';
+import 'package:block_puzzle/features/game/domain/tutorial.dart';
 import 'package:block_puzzle/features/game/presentation/board_view.dart';
 import 'package:block_puzzle/features/game/presentation/game_dialogs.dart';
 import 'package:block_puzzle/features/game/presentation/hint_card.dart';
+import 'package:block_puzzle/features/game/presentation/tutorial_overlay.dart';
 import 'package:block_puzzle/features/level_map/application/world_providers.dart';
 import 'package:block_puzzle/features/levels/level_repository.dart';
 import 'package:block_puzzle/features/progress/slots_controller.dart';
@@ -75,6 +77,12 @@ class _GamePlayState extends ConsumerState<_GamePlay>
   );
 
   Puzzle get _puzzle => widget.puzzle;
+
+  /// The guided steps of this level (levels 1-2), if any.
+  late final _tutorial = Tutorial.forLevel(_puzzle.id);
+
+  /// Text-only tutorial steps the player has closed.
+  final _acknowledged = <int>{};
 
   @override
   void initState() {
@@ -209,6 +217,15 @@ class _GamePlayState extends ConsumerState<_GamePlay>
     if (rewarded) _game.grantHint();
   }
 
+  /// Moves past a text-only step; the last one ends the tutorial.
+  void _acknowledge(int step) {
+    setState(() => _acknowledged.add(step));
+    final board = ref.read(gameControllerProvider(_puzzle)).board;
+    if (_tutorial?.currentStep(board, _acknowledged) == null) {
+      _game.finishTutorial();
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     ref.listen(gameControllerProvider(_puzzle), _onState);
@@ -217,6 +234,18 @@ class _GamePlayState extends ConsumerState<_GamePlay>
     final hints = ref.watch(activeSlotProvider.select((s) => s?.hints ?? 0));
     final l10n = AppLocalizations.of(context);
     final won = state.status == GameStatus.won;
+    // Shown until finished or skipped, and never on a level already won.
+    final tutorialSeen = ref.watch(
+      activeSlotProvider.select(
+        (s) =>
+            s == null ||
+            s.tutorials.contains(_puzzle.id) ||
+            s.completed.contains(_puzzle.id),
+      ),
+    );
+    final tutorial = tutorialSeen || won ? null : _tutorial;
+    final stepIndex = tutorial?.currentStep(state.board, _acknowledged);
+    final step = stepIndex == null ? null : tutorial!.steps[stepIndex];
 
     return Stack(
       children: [
@@ -247,6 +276,7 @@ class _GamePlayState extends ConsumerState<_GamePlay>
                         onMark: _game.mark,
                         onPreview: _game.previewFill,
                         particles: _particles,
+                        guide: step,
                       ),
                     ),
                   ),
@@ -261,7 +291,13 @@ class _GamePlayState extends ConsumerState<_GamePlay>
                     hint: hint,
                     onClose: _game.dismissHint,
                   ),
-                  _ when _puzzle.id == 1 && !won => const _Tutorial(),
+                  _ when step != null => TutorialCard(
+                    step: step,
+                    index: stepIndex!,
+                    count: tutorial!.steps.length,
+                    onSkip: _game.finishTutorial,
+                    onAck: () => _acknowledge(stepIndex),
+                  ),
                   _ => const SizedBox(width: double.infinity),
                 },
               ),
@@ -439,58 +475,6 @@ class _Lives extends StatelessWidget {
       ),
     ),
   );
-}
-
-class _Tutorial extends StatelessWidget {
-  const _Tutorial();
-
-  @override
-  Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context);
-    Widget pill(IconData icon, String text) => Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-      decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.9),
-        borderRadius: BorderRadius.circular(16),
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(icon, color: AppColors.block, size: 20),
-          const SizedBox(width: 6),
-          Text(
-            text,
-            style: const TextStyle(
-              color: AppColors.block,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-        ],
-      ),
-    );
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
-      child: Column(
-        children: [
-          Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            alignment: WrapAlignment.center,
-            children: [
-              pill(Icons.touch_app_rounded, l10n.tutorialTap),
-              pill(Icons.ads_click_rounded, l10n.tutorialDoubleTap),
-            ],
-          ),
-          const SizedBox(height: 6),
-          Text(
-            l10n.tutorialDrag,
-            textAlign: TextAlign.center,
-            style: const TextStyle(color: Colors.white, fontSize: 13),
-          ),
-        ],
-      ),
-    ).animate().fadeIn(delay: 400.ms).slideY(begin: 0.4);
-  }
 }
 
 class _BottomBar extends StatelessWidget {

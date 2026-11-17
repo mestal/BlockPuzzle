@@ -1,6 +1,6 @@
 {
   "id": 49,
-  "name": {"tr": "Yarasa", "en": "Bat", "de": "Fledermaus", "fr": "Chauve-souris", "es": "Murciélago", "it": "Pipistrello", "zh": "蝙蝠"},
+  "name": {"tr": "Yarasa", "en": "Bat", "de": "Fledermaus", "fr": "Chauve-souris", "es": "Murciélago", "pt": "Morcego", "it": "Pipistrello", "ru": "Летучая мышь", "ar": "خفاش", "ja": "コウモリ", "zh": "蝙蝠"},
   "solution": [".#....#.", "###..###", "########", "########", ".######.", "..####..", ".#.##.#.", "...##..."],
   "colors":   [".U....U.", "UUU..UUU", "UUUUUUUU", "UUUYUYUU", ".UUUUUU.", "..UUUU..", ".U.UU.U.", "...UU..."],
   "palette":  { "U": "#5B21B6", "Y": "#FACC15" }

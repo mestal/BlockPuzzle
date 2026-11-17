@@ -66,5 +66,14 @@
   "hintOverlap": "{line} ({clue}): empujes los grupos al principio o al final, esta casilla siempre queda dentro de un grupo. ¡Seguro que está llena!",
   "hintForcedFill": "{line} ({clue}): tus casillas y tus X limitan dónde caben los grupos. ¡En todas las posiciones posibles esta casilla está llena!",
   "hintForcedEmpty": "{line} ({clue}): ningún grupo llega a esta casilla, así que está vacía. Hemos puesto una X.",
-  "hintFallback": "Esta casilla es parte de la imagen."
+  "hintFallback": "Esta casilla es parte de la imagen.",
+  "tutorialSkip": "Saltar",
+  "tutorialGotIt": "Entendido",
+  "tutorialL1Fill": "Los números dicen cuántas casillas de esa fila están llenas. Esta fila dice 4: ¡las 4 casillas están llenas! Toca una casilla para llenarla.",
+  "tutorialL1Drag": "¡Genial! Ahora mantén el dedo pulsado y desliza para llenar el resto de la fila.",
+  "tutorialL1Column": "Cuando una fila o columna está completa, sus otras casillas reciben una X solas. Esta columna también dice 4: desliza de arriba abajo.",
+  "tutorialL1Finish": "Queda una columna. ¡Termina el dibujo tú solo!",
+  "tutorialL2Cross": "2 1 significa 2 casillas llenas, al menos un hueco y luego 1 casilla llena. 2 + hueco + 1 = 4: ¡la fila es segura! Toca dos veces la casilla vacía para poner una X.",
+  "tutorialL2Drag": "Las casillas con tu X se saltan al deslizar. Desliza por toda la fila para llenarla.",
+  "tutorialL2Rules": "Llenar una casilla equivocada cuesta 1 vida; las X son gratis. Si te atascas, el botón Pista también explica por qué. ¡El resto es cosa tuya!"
 }

@@ -6,7 +6,9 @@ import 'package:block_puzzle/core/widgets/particles.dart';
 import 'package:block_puzzle/features/game/application/game_controller.dart';
 import 'package:block_puzzle/features/game/domain/board.dart';
 import 'package:block_puzzle/features/game/domain/hint.dart';
+import 'package:block_puzzle/features/game/domain/tutorial.dart';
 import 'package:block_puzzle/features/game/presentation/board_cell.dart';
+import 'package:block_puzzle/features/game/presentation/tutorial_overlay.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -35,6 +37,7 @@ class BoardView extends StatefulWidget {
     required this.onMark,
     required this.onPreview,
     required this.particles,
+    this.guide,
     super.key,
   });
 
@@ -45,6 +48,9 @@ class BoardView extends StatefulWidget {
   /// the move itself waits for the double-tap window.
   final void Function(int row, int col) onPreview;
   final ParticleController particles;
+
+  /// The tutorial step to act out on the board, if any.
+  final TutorialStep? guide;
 
   @override
   State<BoardView> createState() => _BoardViewState();
@@ -82,6 +88,7 @@ class _BoardViewState extends State<BoardView> {
   final _flashDelay = <int, Duration>{};
 
   GameState get _state => widget.state;
+  TutorialStep? get _guide => widget.guide;
   int get _rows => _state.puzzle.rows;
   int get _cols => _state.puzzle.cols;
 
@@ -313,6 +320,16 @@ class _BoardViewState extends State<BoardView> {
         .map((c) => max(c.length, 1))
         .reduce(max);
 
+    // Clues and cells keep their left-to-right order in every language
+    // (including right-to-left ones): the clues must line up with the grid.
+    return Directionality(
+      textDirection: TextDirection.ltr,
+      child: _layout(maxRowClues, maxColClues),
+    );
+  }
+
+  Widget _layout(int maxRowClues, int maxColClues) {
+    final puzzle = _state.puzzle;
     return LayoutBuilder(
       builder: (context, constraints) {
         final rowClueUnits = 0.55 * maxRowClues + 0.45;
@@ -328,6 +345,7 @@ class _BoardViewState extends State<BoardView> {
         final colClueHeight = colClueUnits * _cell;
         final fontSize = (_cell * 0.42).clamp(11, 28).toDouble();
         final hint = _state.hint;
+        final focus = hint == null ? _guide?.focus : null;
 
         return Column(
           mainAxisSize: MainAxisSize.min,
@@ -340,7 +358,9 @@ class _BoardViewState extends State<BoardView> {
                   _ClueChip(
                     clue: puzzle.colClues[c],
                     solved: _state.board.solvedCols.contains(c),
-                    highlighted: hint != null && !hint.isRow && hint.line == c,
+                    highlighted:
+                        (hint != null && !hint.isRow && hint.line == c) ||
+                        (focus != null && !focus.isRow && focus.index == c),
                     vertical: true,
                     width: _cell,
                     height: colClueHeight,
@@ -358,7 +378,8 @@ class _BoardViewState extends State<BoardView> {
                         clue: puzzle.rowClues[r],
                         solved: _state.board.solvedRows.contains(r),
                         highlighted:
-                            hint != null && hint.isRow && hint.line == r,
+                            (hint != null && hint.isRow && hint.line == r) ||
+                            (focus != null && focus.isRow && focus.index == r),
                         vertical: false,
                         width: rowClueWidth,
                         height: _cell,
@@ -445,6 +466,13 @@ class _BoardViewState extends State<BoardView> {
                       cell: _cell,
                       rows: _rows,
                       cols: _cols,
+                    )
+                  else if (_guide case final guide? when !won)
+                    TutorialGuide(
+                      step: guide,
+                      cell: _cell,
+                      rows: _rows,
+                      cols: _cols,
                     ),
                 ],
               ),
@@ -456,7 +484,7 @@ class _BoardViewState extends State<BoardView> {
   }
 }
 
-/// Thin guides every 5 cells on larger boards.
+/// Guides after every 5 cells, so long lines can be counted in blocks of 5.
 class _GuidePainter extends CustomPainter {
   const _GuidePainter(this.rows, this.cols, this.cell);
 
@@ -466,21 +494,21 @@ class _GuidePainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    if (rows < 10 && cols < 10) return;
     final paint = Paint()
-      ..color = AppColors.crossAuto.withValues(alpha: 0.5)
-      ..strokeWidth = 1.5;
+      ..color = AppColors.block.withValues(alpha: 0.45)
+      ..strokeWidth = 2
+      ..strokeCap = StrokeCap.round;
     for (var c = 5; c < cols; c += 5) {
       canvas.drawLine(
-        Offset(c * cell, 4),
-        Offset(c * cell, size.height - 4),
+        Offset(c * cell, 2),
+        Offset(c * cell, size.height - 2),
         paint,
       );
     }
     for (var r = 5; r < rows; r += 5) {
       canvas.drawLine(
-        Offset(4, r * cell),
-        Offset(size.width - 4, r * cell),
+        Offset(2, r * cell),
+        Offset(size.width - 2, r * cell),
         paint,
       );
     }

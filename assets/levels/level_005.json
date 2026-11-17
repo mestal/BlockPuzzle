@@ -1,6 +1,6 @@
 {
   "id": 5,
-  "name": {"tr": "Yıldız", "en": "Star", "de": "Stern", "fr": "Étoile", "es": "Estrella", "it": "Stella", "zh": "星星"},
+  "name": {"tr": "Yıldız", "en": "Star", "de": "Stern", "fr": "Étoile", "es": "Estrella", "pt": "Estrela", "it": "Stella", "ru": "Звезда", "ar": "نجمة", "ja": "星", "zh": "星星"},
   "solution": ["..#..", ".###.", "#####", ".###.", ".#.#."],
   "colors":   ["..Y..", ".YYY.", "YYOYY", ".YYY.", ".Y.Y."],
   "palette":  { "Y": "#FACC15", "O": "#FB923C" }

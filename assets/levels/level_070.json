@@ -1,6 +1,6 @@
 {
   "id": 70,
-  "name": {"tr": "Kurabiye adam", "en": "Gingerbread man", "de": "Lebkuchenmann", "fr": "Bonhomme pain d’épice", "es": "Hombre de jengibre", "it": "Omino di pan di zenzero", "zh": "姜饼人"},
+  "name": {"tr": "Kurabiye adam", "en": "Gingerbread man", "de": "Lebkuchenmann", "fr": "Bonhomme pain d’épice", "es": "Hombre de jengibre", "pt": "Boneco de gengibre", "it": "Omino di pan di zenzero", "ru": "Пряничный человечек", "ar": "رجل خبز الزنجبيل", "ja": "ジンジャーブレッドマン", "zh": "姜饼人"},
   "solution": ["..####...", "..#####..", "..#####..", "...###...", "#########", "...###...", "...###...", "..##.##..", ".##...##."],
   "colors":   ["..TTTT...", "..TWTWT..", "..TTTTT..", "...TRT...", "TTTTTTTTT", "...TWT...", "...TTT...", "..TT.TT..", ".TT...TT."],
   "palette":  { "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }

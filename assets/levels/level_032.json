@@ -1,6 +1,6 @@
 {
   "id": 32,
-  "name": {"tr": "Güneş", "en": "Sun", "de": "Sonne", "fr": "Soleil", "es": "Sol", "it": "Sole", "zh": "太阳"},
+  "name": {"tr": "Güneş", "en": "Sun", "de": "Sonne", "fr": "Soleil", "es": "Sol", "pt": "Sol", "it": "Sole", "ru": "Солнце", "ar": "شمس", "ja": "太陽", "zh": "太阳"},
   "solution": ["##.#..#", ".#####.", ".#####.", "#######", ".#####.", ".#####.", "#..#..#"],
   "colors":   ["YY.Y..Y", ".YYYYY.", ".YOOOY.", "YYOOOYY", ".YOOOY.", ".YYYYY.", "Y..Y..Y"],
   "palette":  { "O": "#F97316", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 46,
-  "name": {"tr": "Kamp ateşi", "en": "Campfire", "de": "Lagerfeuer", "fr": "Feu de camp", "es": "Fogata", "it": "Falò", "zh": "篝火"},
+  "name": {"tr": "Kamp ateşi", "en": "Campfire", "de": "Lagerfeuer", "fr": "Feu de camp", "es": "Fogata", "pt": "Fogueira", "it": "Falò", "ru": "Костёр", "ar": "نار المخيم", "ja": "たき火", "zh": "篝火"},
   "solution": ["...#....", "...##...", "..####..", "..####..", ".######.", ".######.", "##.##.##", ".######."],
   "colors":   ["...R....", "...RO...", "..ROOR..", "..OYYO..", ".ROYYOR.", ".ROOOOR.", "TT.TT.TT", ".TTTTTT."],
   "palette":  { "O": "#F97316", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

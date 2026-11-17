@@ -1,6 +1,6 @@
 {
   "id": 199,
-  "name": {"tr": "Teleskop", "en": "Telescope", "de": "Teleskop", "fr": "Télescope", "es": "Telescopio", "it": "Telescopio", "zh": "望远镜"},
+  "name": {"tr": "Teleskop", "en": "Telescope", "de": "Teleskop", "fr": "Télescope", "es": "Telescopio", "pt": "Telescópio", "it": "Telescopio", "ru": "Телескоп", "ar": "تلسكوب", "ja": "望遠鏡", "zh": "望远镜"},
   "solution": [".......###", "......####", "...#######", "....####..", "...####...", "..####....", ".####.....", "..##......", "...##.....", "...##.....", "..####....", "..#..#....", ".##...#...", ".#....#...", "#........."],
   "colors":   [".......EEE", "......NNNE", "...NNNNNNE", "....NNNN..", "...NNNN...", "..NNNN....", ".NNNN.....", "..NN......", "...EE.....", "...EE.....", "..EEEE....", "..E..E....", ".EE...E...", ".E....E...", "E........."],
   "palette":  { "E": "#94A3B8", "N": "#1E3A8A" }

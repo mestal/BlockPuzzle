@@ -1,6 +1,6 @@
 {
   "id": 149,
-  "name": {"tr": "Dinozor yumurtası", "en": "Dinosaur egg", "de": "Dinosaurierei", "fr": "Œuf de dinosaure", "es": "Huevo de dinosaurio", "it": "Uovo di dinosauro", "zh": "恐龙蛋"},
+  "name": {"tr": "Dinozor yumurtası", "en": "Dinosaur egg", "de": "Dinosaurierei", "fr": "Œuf de dinosaure", "es": "Huevo de dinosaurio", "pt": "Ovo de dinossauro", "it": "Uovo di dinosauro", "ru": "Яйцо динозавра", "ar": "بيضة ديناصور", "ja": "恐竜のたまご", "zh": "恐龙蛋"},
   "solution": ["....##....", "...####...", "..######..", "..######..", ".########.", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", "...####..."],
   "colors":   ["....SS....", "...SSSS...", "..SSGSSS..", "..SSSSSS..", ".SGSSSGSS.", ".SSSSSSSS.", "SSSSGSSSSS", "SSGSSSSGSS", "SSSSSSSSSS", "SSSSSGSSSS", ".SSSSSSSS.", "..SSSSSS..", "...SSSS..."],
   "palette":  { "G": "#22C55E", "S": "#FDE68A" }

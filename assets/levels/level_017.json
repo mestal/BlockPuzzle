@@ -1,6 +1,6 @@
 {
   "id": 17,
-  "name": {"tr": "Roket", "en": "Rocket", "de": "Rakete", "fr": "Fusée", "es": "Cohete", "it": "Razzo", "zh": "火箭"},
+  "name": {"tr": "Roket", "en": "Rocket", "de": "Rakete", "fr": "Fusée", "es": "Cohete", "pt": "Foguete", "it": "Razzo", "ru": "Ракета", "ar": "صاروخ", "ja": "ロケット", "zh": "火箭"},
   "solution": ["..##..", ".####.", ".##.#.", ".####.", "######", "#.##.#"],
   "colors":   ["..RR..", ".WWWW.", ".WL.W.", ".WWWW.", "RWWWWR", "R.OO.R"],
   "palette":  { "R": "#EF4444", "W": "#F1F5F9", "L": "#38BDF8", "O": "#F59E0B" }

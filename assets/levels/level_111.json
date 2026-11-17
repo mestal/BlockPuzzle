@@ -1,6 +1,6 @@
 {
   "id": 111,
-  "name": {"tr": "Çan", "en": "Bell", "de": "Glocke", "fr": "Cloche", "es": "Campana", "it": "Campana", "zh": "铃铛"},
+  "name": {"tr": "Çan", "en": "Bell", "de": "Glocke", "fr": "Cloche", "es": "Campana", "pt": "Sino", "it": "Campana", "ru": "Колокольчик", "ar": "جرس", "ja": "ベル", "zh": "铃铛"},
   "solution": ["....##....", "...####...", "..######..", "..######..", "..######..", "..######..", ".########.", ".########.", "##########", "....##....", "...####..."],
   "colors":   ["....AA....", "...AAAA...", "..AAAAAA..", "..AAAAAA..", "..AYAAAA..", "..AYAAAA..", ".AAAAAAAA.", ".AAAAAAAA.", "AAAAAAAAAA", "....AA....", "...RRRR..."],
   "palette":  { "A": "#F59E0B", "R": "#E8453C", "Y": "#FACC15" }

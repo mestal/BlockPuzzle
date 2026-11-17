@@ -1,8 +1,8 @@
 // Pixel art for the generated levels (see `generate_levels.dart`).
 //
 // Each picture is drawn with one letter per cell ('.' = empty) using the
-// shared [artPalette]. Names follow `supportedLanguages` order:
-// tr, en, de, fr, es, it, zh. Pictures are grouped by the world they
+// shared [artPalette]. Names follow [artLanguages] order (tr, en, de, fr,
+// es, it, zh, ja, ru, ar, pt). Pictures are grouped by the world they
 // belong to; the generator orders them by size and difficulty.
 import 'art/w02_beach.dart';
 import 'art/w03_forest.dart';
@@ -20,10 +20,15 @@ final class LevelArt {
   /// 1-based index of the world (map) in `assets/worlds/worlds.json`.
   final int world;
 
-  /// tr, en, de, fr, es, it, zh.
+  /// One name per language, in [artLanguages] order.
   final List<String> names;
   final List<String> pixels;
 }
+
+/// Order of [LevelArt.names]. New languages are appended at the end.
+const artLanguages = [
+  'tr', 'en', 'de', 'fr', 'es', 'it', 'zh', 'ja', 'ru', 'ar', 'pt', //
+];
 
 const artPalette = <String, String>{
   'A': '#F59E0B', // amber / gold

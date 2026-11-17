@@ -1,6 +1,6 @@
 {
   "id": 21,
-  "name": {"tr": "Yengeç", "en": "Crab", "de": "Krabbe", "fr": "Crabe", "es": "Cangrejo", "it": "Granchio", "zh": "螃蟹"},
+  "name": {"tr": "Yengeç", "en": "Crab", "de": "Krabbe", "fr": "Crabe", "es": "Cangrejo", "pt": "Caranguejo", "it": "Granchio", "ru": "Краб", "ar": "سلطعون", "ja": "カニ", "zh": "螃蟹"},
   "solution": ["##...##", ".##.##.", ".#####.", "#######", ".#####.", "#.#.#.#", "#.....#"],
   "colors":   ["RR...RR", ".RK.KR.", ".RRRRR.", "RRRRRRR", ".RRRRR.", "R.R.R.R", "R.....R"],
   "palette":  { "R": "#EF4444", "K": "#1F2937" }

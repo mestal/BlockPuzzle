@@ -1,6 +1,6 @@
 {
   "id": 82,
-  "name": {"tr": "Elmas", "en": "Diamond", "de": "Diamant", "fr": "Diamant", "es": "Diamante", "it": "Diamante", "zh": "钻石"},
+  "name": {"tr": "Elmas", "en": "Diamond", "de": "Diamant", "fr": "Diamant", "es": "Diamante", "pt": "Diamante", "it": "Diamante", "ru": "Бриллиант", "ar": "ماسة", "ja": "ダイヤモンド", "zh": "钻石"},
   "solution": ["..######..", ".########.", "##########", "##########", ".########.", "..######..", "...####...", "....##...."],
   "colors":   ["..CCCCCC..", ".CIICCIIC.", "CIICCCCIIC", "CCCCCCCCCC", ".CCCCCCCC.", "..CCCCCC..", "...CCCC...", "....CC...."],
   "palette":  { "C": "#22D3EE", "I": "#BAE6FD" }

@@ -1,6 +1,6 @@
 {
   "id": 106,
-  "name": {"tr": "Şömine", "en": "Fireplace", "de": "Kamin", "fr": "Cheminée", "es": "Chimenea", "it": "Camino", "zh": "壁炉"},
+  "name": {"tr": "Şömine", "en": "Fireplace", "de": "Kamin", "fr": "Cheminée", "es": "Chimenea", "pt": "Lareira", "it": "Camino", "ru": "Камин", "ar": "مدفأة", "ja": "暖炉", "zh": "壁炉"},
   "solution": ["##########", "##########", ".########.", ".#......#.", ".#.#..#.#.", ".#.##.###.", ".#.######.", ".########.", ".########.", ".########."],
   "colors":   ["TTTTTTTTTT", "TTTTTTTTTT", ".HHHHHHHH.", ".H......H.", ".H.R..R.H.", ".H.RO.RRH.", ".H.ROORRH.", ".HRYOOYRH.", ".HTTTTTTH.", ".HHHHHHHH."],
   "palette":  { "H": "#5B3410", "O": "#F97316", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

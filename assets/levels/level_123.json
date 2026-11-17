@@ -1,6 +1,6 @@
 {
   "id": 123,
-  "name": {"tr": "Karides", "en": "Shrimp", "de": "Garnele", "fr": "Crevette", "es": "Gamba", "it": "Gambero", "zh": "虾"},
+  "name": {"tr": "Karides", "en": "Shrimp", "de": "Garnele", "fr": "Crevette", "es": "Gamba", "pt": "Camarão", "it": "Gambero", "ru": "Креветка", "ar": "روبيان", "ja": "エビ", "zh": "虾"},
   "solution": [".#.#.....", "#.##.....", ".#####...", "...#####.", "...######", ".......##", ".......##", "....#####", "...####..", "..##.#...", ".#..#...."],
   "colors":   [".O.O.....", "O.OO.....", ".OOOOO...", "...OOOOO.", "...OKOOOO", ".......OO", ".......OO", "....OOOOO", "...OOOO..", "..OO.O...", ".O..O...."],
   "palette":  { "K": "#1F2937", "O": "#F97316" }

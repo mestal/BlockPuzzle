@@ -1,6 +1,6 @@
 {
   "id": 198,
-  "name": {"tr": "Roket fırlatma", "en": "Rocket launch", "de": "Raketenstart", "fr": "Décollage de fusée", "es": "Lanzamiento de cohete", "it": "Lancio del razzo", "zh": "火箭发射"},
+  "name": {"tr": "Roket fırlatma", "en": "Rocket launch", "de": "Raketenstart", "fr": "Décollage de fusée", "es": "Lanzamiento de cohete", "pt": "Lançamento de foguete", "it": "Lancio del razzo", "ru": "Запуск ракеты", "ar": "إطلاق صاروخ", "ja": "ロケット発射", "zh": "火箭发射"},
   "solution": ["....##....", "...####...", "...####...", "...####...", "...####...", "...####...", "..######..", ".########.", ".##.##.##.", "....##....", "...####...", "..#.##.#..", ".#..#...#.", "###....###", "##########"],
   "colors":   ["....RR....", "...RWWR...", "...WWWW...", "...WBBW...", "...WBBW...", "...WWWW...", "..RWWWWR..", ".RRWWWWRR.", ".RR.OO.RR.", "....OO....", "...OYYO...", "..O.YY.O..", ".L..O...L.", "LLL....LLL", "LLLLLLLLLL"],
   "palette":  { "B": "#3B82F6", "L": "#E2E8F0", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

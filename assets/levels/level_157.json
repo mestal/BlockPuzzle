@@ -1,6 +1,6 @@
 {
   "id": 157,
-  "name": {"tr": "Tiki maskesi", "en": "Tiki mask", "de": "Tiki-Maske", "fr": "Masque tiki", "es": "Máscara tiki", "it": "Maschera tiki", "zh": "提基面具"},
+  "name": {"tr": "Tiki maskesi", "en": "Tiki mask", "de": "Tiki-Maske", "fr": "Masque tiki", "es": "Máscara tiki", "pt": "Máscara tiki", "it": "Maschera tiki", "ru": "Маска тики", "ar": "قناع تيكي", "ja": "ティキの仮面", "zh": "提基面具"},
   "solution": [".########.", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", ".########.", "..######.."],
   "colors":   [".TTTTTTTT.", "TTOTTTTOTT", "TTTTTTTTTT", "TKKTTTTKKT", "TKYTTTTYKT", "TTTTTTTTTT", "TTTTOOTTTT", "TTTTOOTTTT", "TTTTTTTTTT", "TTKKKKKKTT", "TTKWWWWKTT", "TTKKKKKKTT", ".TTTTTTTT.", "..TTTTTT.."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }

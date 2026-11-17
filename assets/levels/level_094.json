@@ -1,6 +1,6 @@
 {
   "id": 94,
-  "name": {"tr": "Şerif yıldızı", "en": "Sheriff badge", "de": "Sheriffstern", "fr": "Étoile de shérif", "es": "Estrella de sheriff", "it": "Stella da sceriffo", "zh": "警长徽章"},
+  "name": {"tr": "Şerif yıldızı", "en": "Sheriff badge", "de": "Sheriffstern", "fr": "Étoile de shérif", "es": "Estrella de sheriff", "pt": "Distintivo de xerife", "it": "Stella da sceriffo", "ru": "Значок шерифа", "ar": "شارة الشريف", "ja": "保安官バッジ", "zh": "警长徽章"},
   "solution": ["....##....", "....##....", "...####..#", ".########.", "..######..", "..######..", "#########.", "#..####..#", "....##....", "....##...."],
   "colors":   ["....AA....", "....AA....", "...AAAA..A", ".AAAAAAAA.", "..AAKKAA..", "..AAKKAA..", "AAAAAAAAA.", "A..AAAA..A", "....AA....", "....AA...."],
   "palette":  { "A": "#F59E0B", "K": "#1F2937" }

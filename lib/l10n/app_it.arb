@@ -66,5 +66,14 @@
   "hintOverlap": "{line} ({clue}): che tu spinga i gruppi all'inizio o alla fine, questa casella resta sempre dentro un gruppo. Quindi è sicuramente piena!",
   "hintForcedFill": "{line} ({clue}): le caselle e le X che hai già limitano dove possono stare i gruppi. In ogni posizione possibile questa casella è piena!",
   "hintForcedEmpty": "{line} ({clue}): nessun gruppo può arrivare a questa casella, quindi è vuota. Abbiamo messo una X.",
-  "hintFallback": "Questa casella fa parte dell'immagine."
+  "hintFallback": "Questa casella fa parte dell'immagine.",
+  "tutorialSkip": "Salta",
+  "tutorialGotIt": "Capito",
+  "tutorialL1Fill": "I numeri dicono quante caselle della riga sono piene. Qui c'è 4: tutte e 4 le caselle sono piene! Tocca una casella per riempirla.",
+  "tutorialL1Drag": "Ottimo! Ora tieni premuto il dito e scorri per riempire il resto della riga.",
+  "tutorialL1Column": "Quando una riga o colonna è finita, le altre caselle ricevono una X da sole. Anche questa colonna dice 4: scorri dall'alto in basso.",
+  "tutorialL1Finish": "Manca una colonna. Completa l'immagine da solo!",
+  "tutorialL2Cross": "2 1 significa 2 caselle piene, almeno uno spazio, poi 1 casella piena. 2 + spazio + 1 = 4: la riga è certa! Tocca due volte la casella vuota per mettere una X.",
+  "tutorialL2Drag": "Le caselle con la tua X vengono saltate quando scorri. Scorri lungo tutta la riga per riempirla.",
+  "tutorialL2Rules": "Riempire una casella sbagliata costa 1 vita; le X sono gratis. Se ti blocchi, il pulsante Aiuto spiega anche il perché. Il resto tocca a te!"
 }

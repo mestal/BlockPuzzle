@@ -1,6 +1,6 @@
 {
   "id": 58,
-  "name": {"tr": "Sincap", "en": "Squirrel", "de": "Eichhörnchen", "fr": "Écureuil", "es": "Ardilla", "it": "Scoiattolo", "zh": "松鼠"},
+  "name": {"tr": "Sincap", "en": "Squirrel", "de": "Eichhörnchen", "fr": "Écureuil", "es": "Ardilla", "pt": "Esquilo", "it": "Scoiattolo", "ru": "Белка", "ar": "سنجاب", "ja": "リス", "zh": "松鼠"},
   "solution": [".###.....", "#####..#.", "##.##.###", "##..#####", ".#..#####", ".#######.", "..######.", "..######.", "...##.##."],
   "colors":   [".OOO.....", "OOOOO..O.", "OO.OO.OOO", "OO..OOOKO", ".O..OOOOO", ".OOOOOOO.", "..OOOOSO.", "..OOOOOO.", "...OO.OO."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "S": "#FDE68A" }

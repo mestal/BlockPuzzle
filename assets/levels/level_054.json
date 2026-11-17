@@ -1,6 +1,6 @@
 {
   "id": 54,
-  "name": {"tr": "Mantar ev", "en": "Mushroom house", "de": "Pilzhaus", "fr": "Maison champignon", "es": "Casa seta", "it": "Casa fungo", "zh": "蘑菇屋"},
+  "name": {"tr": "Mantar ev", "en": "Mushroom house", "de": "Pilzhaus", "fr": "Maison champignon", "es": "Casa seta", "pt": "Casa de cogumelo", "it": "Casa fungo", "ru": "Домик-гриб", "ar": "بيت الفطر", "ja": "キノコの家", "zh": "蘑菇屋"},
   "solution": ["...###...", ".#######.", "#########", "#########", ".#######.", ".#######.", ".#######.", ".#######.", "#########"],
   "colors":   ["...RRR...", ".RRWRRRR.", "RRRRRRWRR", "RWRRRRRRR", ".SSSSSSS.", ".SBSSSBS.", ".SSSTSSS.", ".SSSTSSS.", "GGGGGGGGG"],
   "palette":  { "B": "#3B82F6", "G": "#22C55E", "R": "#E8453C", "S": "#FDE68A", "T": "#92400E", "W": "#FFFFFF" }

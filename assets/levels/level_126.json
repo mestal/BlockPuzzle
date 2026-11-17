@@ -1,6 +1,6 @@
 {
   "id": 126,
-  "name": {"tr": "Dalgıç kaskı", "en": "Diving helmet", "de": "Taucherhelm", "fr": "Casque de scaphandre", "es": "Casco de buzo", "it": "Casco da palombaro", "zh": "潜水头盔"},
+  "name": {"tr": "Dalgıç kaskı", "en": "Diving helmet", "de": "Taucherhelm", "fr": "Casque de scaphandre", "es": "Casco de buzo", "pt": "Capacete de mergulho", "it": "Casco da palombaro", "ru": "Водолазный шлем", "ar": "خوذة الغوص", "ja": "潜水ヘルメット", "zh": "潜水头盔"},
   "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", ".########.", "##########", "##########"],
   "colors":   ["...AAAA...", "..AAAAAA..", ".AAIIIIAA.", "AAIIIIIIAA", "AAIWIIIIAA", "AAIIIIIIAA", "AAAIIIIAAA", ".AAAAAAAA.", "..AAAAAA..", ".EEEEEEEE.", "EEEEEEEEEE", "EEEEEEEEEE"],
   "palette":  { "A": "#F59E0B", "E": "#94A3B8", "I": "#BAE6FD", "W": "#FFFFFF" }

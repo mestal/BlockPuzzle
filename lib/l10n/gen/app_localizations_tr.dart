@@ -254,4 +254,37 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get hintFallback => 'Bu kare resmin bir parçası.';
+
+  @override
+  String get tutorialSkip => 'Atla';
+
+  @override
+  String get tutorialGotIt => 'Anladım';
+
+  @override
+  String get tutorialL1Fill =>
+      'Sayılar o satırda kaç dolu kare olduğunu söyler. Bu satırda 4 var, yani 4 karenin hepsi dolu! Bir kareye dokunarak doldur.';
+
+  @override
+  String get tutorialL1Drag =>
+      'Harika! Şimdi parmağını basılı tutup kaydırarak satırın kalanını doldur.';
+
+  @override
+  String get tutorialL1Column =>
+      'Bir satır ya da sütun bitince kalan kareleri kendiliğinden X olur. Bu sütunda da 4 var: yukarıdan aşağı kaydır.';
+
+  @override
+  String get tutorialL1Finish => 'Son bir sütun kaldı. Resmi kendin tamamla!';
+
+  @override
+  String get tutorialL2Cross =>
+      '2 1: önce 2 dolu kare, en az bir boşluk, sonra 1 dolu kare. 2 + boşluk + 1 = 4, satır tam belli! Boş kalacak kareye çift dokunarak X koy.';
+
+  @override
+  String get tutorialL2Drag =>
+      'X koyduğun kareler kaydırırken atlanır. Satırı baştan sona kaydırarak doldur.';
+
+  @override
+  String get tutorialL2Rules =>
+      'Yanlış kareyi doldurursan 1 hak gider; X koymak ise serbest. Takılırsan İpucu düğmesi nedenini de anlatır. Gerisi sende!';
 }

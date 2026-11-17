@@ -1,6 +1,6 @@
 {
   "id": 13,
-  "name": {"tr": "Balık", "en": "Fish", "de": "Fisch", "fr": "Poisson", "es": "Pez", "it": "Pesce", "zh": "鱼"},
+  "name": {"tr": "Balık", "en": "Fish", "de": "Fisch", "fr": "Poisson", "es": "Pez", "pt": "Peixe", "it": "Pesce", "ru": "Рыба", "ar": "سمكة", "ja": "魚", "zh": "鱼"},
   "solution": ["..##..", ".###.#", "#.####", "######", ".###.#", "..##.."],
   "colors":   ["..OO..", ".OOO.O", "O.OOOO", "OOOOOO", ".OOO.O", "..OO.."],
   "palette":  { "O": "#FB923C" }

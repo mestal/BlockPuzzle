@@ -1,6 +1,6 @@
 {
   "id": 81,
-  "name": {"tr": "Kovboy şapkası", "en": "Cowboy hat", "de": "Cowboyhut", "fr": "Chapeau de cowboy", "es": "Sombrero vaquero", "it": "Cappello da cowboy", "zh": "牛仔帽"},
+  "name": {"tr": "Kovboy şapkası", "en": "Cowboy hat", "de": "Cowboyhut", "fr": "Chapeau de cowboy", "es": "Sombrero vaquero", "pt": "Chapéu de caubói", "it": "Cappello da cowboy", "ru": "Ковбойская шляпа", "ar": "قبعة رعاة البقر", "ja": "カウボーイハット", "zh": "牛仔帽"},
   "solution": ["...####...", "..######..", "..######..", "..######..", "#.######.#", "##########", ".########."],
   "colors":   ["...TTTT...", "..TTTTTT..", "..TTTTTT..", "..HHHHHH..", "T.TTTTTT.T", "TTTTTTTTTT", ".TTTTTTTT."],
   "palette":  { "H": "#5B3410", "T": "#92400E" }

@@ -1,6 +1,6 @@
 {
   "id": 73,
-  "name": {"tr": "Şeker kavanozu", "en": "Candy jar", "de": "Bonbonglas", "fr": "Bocal à bonbons", "es": "Tarro de caramelos", "it": "Barattolo di caramelle", "zh": "糖果罐"},
+  "name": {"tr": "Şeker kavanozu", "en": "Candy jar", "de": "Bonbonglas", "fr": "Bocal à bonbons", "es": "Tarro de caramelos", "pt": "Pote de balas", "it": "Barattolo di caramelle", "ru": "Банка конфет", "ar": "برطمان الحلوى", "ja": "キャンディのびん", "zh": "糖果罐"},
   "solution": ["..######..", "..######..", ".########.", "##########", "##########", "##########", "##########", "##########", ".########.", "..######.."],
   "colors":   ["..TTTTTT..", "..LLLLLL..", ".LLLLLLLL.", "LRLYLBLGLL", "LLGLRLLYLL", "LBLLLGLRLL", "LLYLBLLLGL", "LRLLLRLBLL", ".LLLLLLLL.", "..LLLLLL.."],
   "palette":  { "B": "#3B82F6", "G": "#22C55E", "L": "#E2E8F0", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

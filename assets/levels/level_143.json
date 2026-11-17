@@ -1,6 +1,6 @@
 {
   "id": 143,
-  "name": {"tr": "Stegozor", "en": "Stegosaurus", "de": "Stegosaurus", "fr": "Stégosaure", "es": "Estegosaurio", "it": "Stegosauro", "zh": "剑龙"},
+  "name": {"tr": "Stegozor", "en": "Stegosaurus", "de": "Stegosaurus", "fr": "Stégosaure", "es": "Estegosaurio", "pt": "Estegossauro", "it": "Stegosauro", "ru": "Стегозавр", "ar": "ستيغوسورس", "ja": "ステゴサウルス", "zh": "剑龙"},
   "solution": ["....#.....", "...###.#..", ".#.######.", ".#########", "..#######.", ".#########", "##########", "#########.", "###.####..", "....#.#...", "...##.##.."],
   "colors":   ["....O.....", "...OOO.O..", ".O.OOOOOO.", ".OOOOOOOOO", "..GGGGGGG.", ".GGGGGGGGG", "GGGGGGGGGG", "GKGGGGGGG.", "GGG.GGGG..", "....G.G...", "...GG.GG.."],
   "palette":  { "G": "#22C55E", "K": "#1F2937", "O": "#F97316" }

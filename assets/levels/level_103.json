@@ -1,6 +1,6 @@
 {
   "id": 103,
-  "name": {"tr": "Eldiven", "en": "Mitten", "de": "Fäustling", "fr": "Moufle", "es": "Manopla", "it": "Muffola", "zh": "连指手套"},
+  "name": {"tr": "Eldiven", "en": "Mitten", "de": "Fäustling", "fr": "Moufle", "es": "Manopla", "pt": "Luva", "it": "Muffola", "ru": "Варежка", "ar": "قفاز", "ja": "手袋", "zh": "连指手套"},
   "solution": ["....####.", "...######", "...######", ".#.######", "#########", "#########", ".########", "..#######", "..#######", "..#######", "..#######"],
   "colors":   ["....RRRR.", "...RRRRRR", "...RRRRRR", ".R.RRRRRR", "RRRRRRRRR", "RRRRRRRRR", ".RRRRRRRR", "..RRRRRRR", "..WWWWWWW", "..WRWRWRW", "..WWWWWWW"],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF" }

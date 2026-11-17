@@ -1,6 +1,6 @@
 {
   "id": 24,
-  "name": {"tr": "Ananas", "en": "Pineapple", "de": "Ananas", "fr": "Ananas", "es": "Piña", "it": "Ananas", "zh": "菠萝"},
+  "name": {"tr": "Ananas", "en": "Pineapple", "de": "Ananas", "fr": "Ananas", "es": "Piña", "pt": "Abacaxi", "it": "Ananas", "ru": "Ананас", "ar": "أناناس", "ja": "パイナップル", "zh": "菠萝"},
   "solution": [".#..#.", "..##..", ".####.", ".####.", "######", "######", "######", ".####."],
   "colors":   [".G..G.", "..GG..", ".GGGG.", ".YAYA.", "YAYAYA", "AYAYAY", "YAYAYA", ".AYAY."],
   "palette":  { "A": "#F59E0B", "G": "#22C55E", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 20,
-  "name": {"tr": "Taç", "en": "Crown", "de": "Krone", "fr": "Couronne", "es": "Corona", "it": "Corona", "zh": "王冠"},
+  "name": {"tr": "Taç", "en": "Crown", "de": "Krone", "fr": "Couronne", "es": "Corona", "pt": "Coroa", "it": "Corona", "ru": "Корона", "ar": "تاج", "ja": "王冠", "zh": "王冠"},
   "solution": ["#.##.#", "#.##.#", "######", "######", "######", ".####."],
   "colors":   ["R.RR.R", "Y.YY.Y", "YYYYYY", "YRYYBY", "YYYYYY", ".YYYY."],
   "palette":  { "Y": "#FBBF24", "R": "#E11D48", "B": "#2563EB" }

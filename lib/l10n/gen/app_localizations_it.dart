@@ -260,4 +260,38 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get hintFallback => 'Questa casella fa parte dell\'immagine.';
+
+  @override
+  String get tutorialSkip => 'Salta';
+
+  @override
+  String get tutorialGotIt => 'Capito';
+
+  @override
+  String get tutorialL1Fill =>
+      'I numeri dicono quante caselle della riga sono piene. Qui c\'è 4: tutte e 4 le caselle sono piene! Tocca una casella per riempirla.';
+
+  @override
+  String get tutorialL1Drag =>
+      'Ottimo! Ora tieni premuto il dito e scorri per riempire il resto della riga.';
+
+  @override
+  String get tutorialL1Column =>
+      'Quando una riga o colonna è finita, le altre caselle ricevono una X da sole. Anche questa colonna dice 4: scorri dall\'alto in basso.';
+
+  @override
+  String get tutorialL1Finish =>
+      'Manca una colonna. Completa l\'immagine da solo!';
+
+  @override
+  String get tutorialL2Cross =>
+      '2 1 significa 2 caselle piene, almeno uno spazio, poi 1 casella piena. 2 + spazio + 1 = 4: la riga è certa! Tocca due volte la casella vuota per mettere una X.';
+
+  @override
+  String get tutorialL2Drag =>
+      'Le caselle con la tua X vengono saltate quando scorri. Scorri lungo tutta la riga per riempirla.';
+
+  @override
+  String get tutorialL2Rules =>
+      'Riempire una casella sbagliata costa 1 vita; le X sono gratis. Se ti blocchi, il pulsante Aiuto spiega anche il perché. Il resto tocca a te!';
 }

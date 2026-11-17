@@ -1,6 +1,6 @@
 {
   "id": 172,
-  "name": {"tr": "Hortum", "en": "Tornado", "de": "Tornado", "fr": "Tornade", "es": "Tornado", "it": "Tornado", "zh": "龙卷风"},
+  "name": {"tr": "Hortum", "en": "Tornado", "de": "Tornado", "fr": "Tornade", "es": "Tornado", "pt": "Tornado", "it": "Tornado", "ru": "Торнадо", "ar": "إعصار", "ja": "竜巻", "zh": "龙卷风"},
   "solution": ["##########", ".########.", "#########.", ".#######..", "..######..", "...#####..", "...####...", "....####..", "....###...", ".....##...", "....##....", ".....#....", "....##....", "...##....."],
   "colors":   ["EEEEEEEEEE", ".EELLEEEE.", "EEEEEEEEE.", ".EEEELLE..", "..EEEEEE..", "...ELEEE..", "...EEEE...", "....EELE..", "....EEE...", ".....EE...", "....EE....", ".....E....", "....EE....", "...EE....."],
   "palette":  { "E": "#94A3B8", "L": "#E2E8F0" }

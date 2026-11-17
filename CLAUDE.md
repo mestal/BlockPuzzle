@@ -40,8 +40,12 @@ Mod düğmesi yok; işlemi **jest** belirler:
   Bu sürede başka bir kareye dokunulursa önceki dokunuş hemen doldurma olarak işlenir.
 - Sürükleme ilk hareket yönüne (yatay/dikey) kilitlenir; tek satır veya sütun boyunca ilerler.
 - Sürüklemede zaten açılmış (dolu veya X) kareler atlanır, hiçbir şey olmaz.
-- Jestler keşfedilmesi zor olduğundan **Bölüm 1 el animasyonlu bir öğretici** içerir
-  (önce tek dokunuş = doldur, sonra çift dokunuş = X).
+- Jestler keşfedilmesi zor olduğundan **Bölüm 1 ve 2 adım adım, el animasyonlu bir öğretici** içerir
+  (`features/game/domain/tutorial.dart`). Bölüm 1: ipucu okuma, dokunarak doldurma, sürükleme,
+  otomatik X. Bölüm 2: çok sayılı ipucu (`2 1`), çift dokunarak X, X'lerin sürüklemede atlanması,
+  haklar ve ipucu. Adım tahtadan türetilir (oyuncu önden giderse kapsanan adımlar atlanır);
+  yalnızca metin olan adım "Anladım" bekler. **Atla** düğmesi öğreticiyi bitirir; bitirilen/atlanan
+  öğreticiler `SlotData.tutorials`'ta saklanır, kazanılmış bölümde gösterilmez.
 
 ### Doğru / yanlış nasıl anlaşılır
 Her bölümün çözümü (`solution`) oyunda kayıtlıdır. **X serbesttir**: yanlış yere de konabilir,
@@ -138,7 +142,9 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   (`SlotsController.saveDelay`); uygulama arka plana geçince `flush()` ile hemen yazılır.
 
 ### Dil
-- Diller: Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, İtalyanca, Çince (`core/languages.dart`).
+- Diller: Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, Portekizce, İtalyanca, Rusça, Arapça,
+  Japonca, Çince (`core/languages.dart`). Arapça sağdan soladır; ızgara ve ipuçları her dilde
+  soldan sağa kalır (`BoardView` `Directionality.ltr`), metin içindeki ipucu sayıları LRI/PDI ile yalıtılır.
 - Varsayılan: cihaz dili; desteklenmiyorsa İngilizce. Ayarlar'dan (dişli ikonu) değiştirilebilir,
   `AppSettings` (`features/settings`) içinde saklanır.
 - Bölüm ve harita adları JSON'da dil haritasıdır: `"name": {"tr": "...", "en": "...", ...}`
@@ -151,7 +157,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 | 1–10 | Gün Batımı Tepeleri | 4×4 → 5×5 | Öğretici, bol tam dolu satır |
 | 11–23 | Gün Batımı / Kumsal | 6×6 → 7×7 | Çoklu ipuçları başlar |
 | 24–60 | Kumsal, Gece Ormanı | 7×7 → 9×9 | |
-| 61–100 | Şeker Diyarı, Altın Çöl | 9×9 → 11×10 | Kılavuz çizgileri (5'lik bloklar) |
+| 61–100 | Şeker Diyarı, Altın Çöl | 9×9 → 11×10 | |
 | 101–140 | Karlı Zirveler, Mercan Resifi | 11×10 → 13×10 | |
 | 141–200 | Volkan, Bulut Kasabası, Yıldız Yolu | 13×10 → 15×10 | |
 
@@ -162,7 +168,10 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   `dart run tool/generate_levels.dart` ile üretilir. Üretici boş kenarları kırpar, resim tek çözümlü
   değilse mümkün olan en az hücreyi değiştirerek mantıkla çözülebilir yapar ve her haritadaki
   resimleri boyut + çözücüye göre zorluk sırasıyla numaralar. 1–23 elle yazılmıştır, üretici dokunmaz.
-  Yeni resim: ilgili `tool/art/wNN_*.dart` dosyasına ekle (7 dilde ad), üreticiyi çalıştır.
+  Yeni resim: ilgili `tool/art/wNN_*.dart` dosyasına ekle (`artLanguages` sırasıyla 11 dilde ad),
+  üreticiyi çalıştır.
+
+- 5'ten uzun satır/sütunlarda her 5 karede bir kılavuz çizgisi çizilir (5'lik bloklar sayılabilsin).
 
 Büyük ızgaralarda pinch-zoom + kaydırma desteklenir; dokunma alanı en az 32 dp kalmalı.
 
@@ -201,7 +210,7 @@ Büyük ızgaralarda pinch-zoom + kaydırma desteklenir; dokunma alanı en az 32
 - Kalıcılık: `shared_preferences` (`SharedPreferencesAsync`) üzerinde JSON; bir
   `ProgressRepository` arayüzü arkasında.
 - Reklam: `AdService` arayüzü → şimdilik `DummyAdService`.
-- Font: `google_fonts` (Fredoka). Metinler: `flutter gen-l10n` → `lib/l10n/gen/` (7 dil, şablon `app_tr.arb`).
+- Font: `google_fonts` (Fredoka). Metinler: `flutter gen-l10n` → `lib/l10n/gen/` (11 dil, şablon `app_tr.arb`).
 - Lint: `very_good_analysis`. Test: `flutter_test`.
 
 ## 4. Klasör yapısı (feature-first)
@@ -255,7 +264,7 @@ test/
 - `const` constructor'lar, küçük ve odaklı widget'lar, `build` içinde ağır iş yok.
 - Sihirli sayılar yerine tema/sabit dosyaları. Renkler yalnızca `lib/app/theme.dart` içindeki `AppColors`'tan.
 - Kod, tanımlayıcılar ve yorumlar **İngilizce**; kullanıcıya görünen metinler `l10n` (ARB) ile,
-  şablon dil **Türkçe**; yeni metin 7 ARB dosyasının hepsine eklenir.
+  şablon dil **Türkçe**; yeni metin 11 ARB dosyasının hepsine eklenir.
 - ARB değişince: `flutter gen-l10n`.
 - Tarayıcıda dikey önizleme: `flutter build web` + `.claude/launch.json` içindeki "web" sunucusu.
 - Commit'ten önce: `dart format .`, `flutter analyze` ve `flutter test` temiz olmalı.

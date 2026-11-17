@@ -1,6 +1,6 @@
 {
   "id": 90,
-  "name": {"tr": "Matara", "en": "Canteen", "de": "Feldflasche", "fr": "Gourde", "es": "Cantimplora", "it": "Borraccia", "zh": "水壶"},
+  "name": {"tr": "Matara", "en": "Canteen", "de": "Feldflasche", "fr": "Gourde", "es": "Cantimplora", "pt": "Cantil", "it": "Borraccia", "ru": "Фляга", "ar": "مطرة", "ja": "水筒", "zh": "水壶"},
   "solution": ["....##....", "....##....", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######.."],
   "colors":   ["....EE....", "....EE....", "..TTTTTT..", ".TBBBBBBT.", "TBBBBBBBBT", "TBBBLLBBBT", "TBBBLLBBBT", "TBBBBBBBBT", ".TBBBBBBT.", "..TTTTTT.."],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "L": "#E2E8F0", "T": "#92400E" }

@@ -1,6 +1,6 @@
 {
   "id": 1,
-  "name": {"tr": "Mantar", "en": "Mushroom", "de": "Pilz", "fr": "Champignon", "es": "Seta", "it": "Fungo", "zh": "蘑菇"},
+  "name": {"tr": "Mantar", "en": "Mushroom", "de": "Pilz", "fr": "Champignon", "es": "Seta", "pt": "Cogumelo", "it": "Fungo", "ru": "Гриб", "ar": "فطر", "ja": "キノコ", "zh": "蘑菇"},
   "solution": [".##.", "####", ".##.", ".##."],
   "colors":   [".RW.", "RWRR", ".SS.", ".SS."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF", "S": "#F3E1C7" }

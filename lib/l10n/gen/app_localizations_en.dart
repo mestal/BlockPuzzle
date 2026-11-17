@@ -260,4 +260,38 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get hintFallback => 'This square is part of the picture.';
+
+  @override
+  String get tutorialSkip => 'Skip';
+
+  @override
+  String get tutorialGotIt => 'Got it';
+
+  @override
+  String get tutorialL1Fill =>
+      'The numbers tell how many squares in that row are filled. This row says 4, so all 4 squares are filled! Tap a square to fill it.';
+
+  @override
+  String get tutorialL1Drag =>
+      'Great! Now hold your finger down and slide to fill the rest of the row.';
+
+  @override
+  String get tutorialL1Column =>
+      'When a row or column is done, its other squares get an X by themselves. This column says 4 too: slide from top to bottom.';
+
+  @override
+  String get tutorialL1Finish =>
+      'One column left. Finish the picture yourself!';
+
+  @override
+  String get tutorialL2Cross =>
+      '2 1 means 2 filled squares, at least one gap, then 1 filled square. 2 + gap + 1 = 4, so the row is certain! Double tap the empty square to place an X.';
+
+  @override
+  String get tutorialL2Drag =>
+      'Squares with your X are skipped when you slide. Slide along the whole row to fill it.';
+
+  @override
+  String get tutorialL2Rules =>
+      'Filling a wrong square costs 1 life; X marks are free. If you get stuck, the Hint button also explains why. The rest is up to you!';
 }

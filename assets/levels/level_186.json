@@ -1,6 +1,6 @@
 {
   "id": 186,
-  "name": {"tr": "UFO", "en": "UFO", "de": "UFO", "fr": "OVNI", "es": "OVNI", "it": "UFO", "zh": "飞碟"},
+  "name": {"tr": "UFO", "en": "UFO", "de": "UFO", "fr": "OVNI", "es": "OVNI", "pt": "Disco voador", "it": "UFO", "ru": "НЛО", "ar": "طبق طائر", "ja": "UFO", "zh": "飞碟"},
   "solution": ["....##....", "...####...", "..######..", ".########.", "##########", ".########.", "...#..#...", "..######..", "..######..", ".########.", ".########.", "##########"],
   "colors":   ["....CC....", "...CCCC...", "..CCWCCC..", ".EEEEEEEE.", "EEYEEYEEYE", ".EEEEEEEE.", "...Z..Z...", "..ZZZZZZ..", "..ZZZZZZ..", ".ZZZZZZZZ.", ".ZZZZZZZZ.", "ZZZZZZZZZZ"],
   "palette":  { "C": "#22D3EE", "E": "#94A3B8", "W": "#FFFFFF", "Y": "#FACC15", "Z": "#A3E635" }

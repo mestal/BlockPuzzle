@@ -1,6 +1,6 @@
 {
   "id": 191,
-  "name": {"tr": "Uydu", "en": "Satellite", "de": "Satellit", "fr": "Satellite", "es": "Satélite", "it": "Satellite", "zh": "卫星"},
+  "name": {"tr": "Uydu", "en": "Satellite", "de": "Satellit", "fr": "Satellite", "es": "Satélite", "pt": "Satélite", "it": "Satellite", "ru": "Спутник", "ar": "قمر صناعي", "ja": "人工衛星", "zh": "卫星"},
   "solution": ["###....###", "###....###", "###....###", "###.##.###", "##########", "###.##.###", "###.##.###", "###....###", "###....###", "....##....", "....##....", "....###...", "..#....#.."],
   "colors":   ["BBB....BBB", "BBB....BBB", "BBB....BBB", "BBB.EE.BBB", "BBBEEEEBBB", "BBB.EE.BBB", "BBB.EE.BBB", "BBB....BBB", "BBB....BBB", "....EE....", "....EE....", "....EEE...", "..E....E.."],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8" }

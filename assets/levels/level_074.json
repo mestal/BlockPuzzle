@@ -1,6 +1,6 @@
 {
   "id": 74,
-  "name": {"tr": "Patlamış mısır", "en": "Popcorn", "de": "Popcorn", "fr": "Pop-corn", "es": "Palomitas", "it": "Popcorn", "zh": "爆米花"},
+  "name": {"tr": "Patlamış mısır", "en": "Popcorn", "de": "Popcorn", "fr": "Pop-corn", "es": "Palomitas", "pt": "Pipoca", "it": "Popcorn", "ru": "Попкорн", "ar": "فشار", "ja": "ポップコーン", "zh": "爆米花"},
   "solution": [".##.##.##.", "##########", ".########.", "##########", "##########", ".########.", ".########.", ".########.", ".########.", "..######.."],
   "colors":   [".WY.WW.YW.", "WWWWYWWWWW", ".WYWWWYWW.", "WWWWWWWWWW", "RWRWRWRWRW", ".RWRWRWRW.", ".RWRWRWRW.", ".RWRWRWRW.", ".RWRWRWRW.", "..RWRWRW.."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

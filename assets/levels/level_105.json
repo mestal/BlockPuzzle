@@ -1,6 +1,6 @@
 {
   "id": 105,
-  "name": {"tr": "İglo", "en": "Igloo", "de": "Iglu", "fr": "Igloo", "es": "Iglú", "it": "Igloo", "zh": "冰屋"},
+  "name": {"tr": "İglo", "en": "Igloo", "de": "Iglu", "fr": "Igloo", "es": "Iglú", "pt": "Iglu", "it": "Igloo", "ru": "Иглу", "ar": "إغلو", "ja": "イグルー", "zh": "冰屋"},
   "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", "##########", "##########", "##########"],
   "colors":   ["...IIII...", "..ILLLLI..", ".ILIILLII.", "ILLLIILLLI", "IIILLLLIII", "ILLIKKILLI", "LLIKKKKILL", "ILLKKKKLLI", "IIIKKKKIII", "LLLLLLLLLL"],
   "palette":  { "I": "#BAE6FD", "K": "#1F2937", "L": "#E2E8F0" }

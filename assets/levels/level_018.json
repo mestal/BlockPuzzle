@@ -1,6 +1,6 @@
 {
   "id": 18,
-  "name": {"tr": "Ayı", "en": "Bear", "de": "Bär", "fr": "Ours", "es": "Oso", "it": "Orso", "zh": "熊"},
+  "name": {"tr": "Ayı", "en": "Bear", "de": "Bär", "fr": "Ours", "es": "Oso", "pt": "Urso", "it": "Orso", "ru": "Медведь", "ar": "دب", "ja": "クマ", "zh": "熊"},
   "solution": ["##..##", "######", "#.##.#", "######", "######", ".####."],
   "colors":   ["BB..BB", "BBBBBB", "B.BB.B", "BBBBBB", "BBNNBB", ".BBBB."],
   "palette":  { "B": "#92400E", "N": "#1F2937" }

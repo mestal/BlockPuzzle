@@ -1,6 +1,6 @@
 {
   "id": 147,
-  "name": {"tr": "Uzun boyunlu dinozor", "en": "Long-neck dinosaur", "de": "Langhalssaurier", "fr": "Dinosaure à long cou", "es": "Dinosaurio de cuello largo", "it": "Dinosauro dal collo lungo", "zh": "长颈恐龙"},
+  "name": {"tr": "Uzun boyunlu dinozor", "en": "Long-neck dinosaur", "de": "Langhalssaurier", "fr": "Dinosaure à long cou", "es": "Dinosaurio de cuello largo", "pt": "Dinossauro pescoçudo", "it": "Dinosauro dal collo lungo", "ru": "Длинношеий динозавр", "ar": "ديناصور طويل العنق", "ja": "首長竜", "zh": "长颈恐龙"},
   "solution": [".....###.", ".....####", ".....###.", ".....##..", ".....##..", ".....##..", "....##...", "....##...", "..####...", ".######..", "########.", "#.######.", "..##..##.", "..##..##."],
   "colors":   [".....GGG.", ".....GKGG", ".....GGG.", ".....GG..", ".....GG..", ".....GG..", "....GG...", "....GG...", "..GGGG...", ".GGGGGG..", "GGGGGGGG.", "G.GGGGGG.", "..GG..GG.", "..GG..GG."],
   "palette":  { "G": "#22C55E", "K": "#1F2937" }

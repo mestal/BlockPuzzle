@@ -1,6 +1,6 @@
 {
   "id": 34,
-  "name": {"tr": "Balon balığı", "en": "Pufferfish", "de": "Kugelfisch", "fr": "Poisson-globe", "es": "Pez globo", "it": "Pesce palla", "zh": "河豚"},
+  "name": {"tr": "Balon balığı", "en": "Pufferfish", "de": "Kugelfisch", "fr": "Poisson-globe", "es": "Pez globo", "pt": "Baiacu", "it": "Pesce palla", "ru": "Рыба-фугу", "ar": "سمكة منتفخة", "ja": "フグ", "zh": "河豚"},
   "solution": [".#.#.#..", "#######.", "########", "########", "########", ".#######", "#.#####.", "..#.#..."],
   "colors":   [".Y.Y.Y..", "YYYYYYY.", "YKYYYYYY", "YYYYYYYY", "YYYWWYYY", ".YYYYYYY", "Y.YYYYY.", "..Y.Y..."],
   "palette":  { "K": "#1F2937", "W": "#FFFFFF", "Y": "#FACC15" }

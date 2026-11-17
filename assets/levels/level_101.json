@@ -1,6 +1,6 @@
 {
   "id": 101,
-  "name": {"tr": "Kızak", "en": "Sled", "de": "Schlitten", "fr": "Luge", "es": "Trineo", "it": "Slitta", "zh": "雪橇"},
+  "name": {"tr": "Kızak", "en": "Sled", "de": "Schlitten", "fr": "Luge", "es": "Trineo", "pt": "Trenó", "it": "Slitta", "ru": "Санки", "ar": "مزلجة", "ja": "そり", "zh": "雪橇"},
   "solution": ["#........#", "##......##", ".########.", ".########.", ".########.", "..#....#..", "..#....#..", "##########", "#........#"],
   "colors":   ["R........R", "RR......RR", ".RRRRRRRR.", ".RWRWRWRR.", ".RRRRRRRR.", "..T....T..", "..T....T..", "EEEEEEEEEE", "E........E"],
   "palette":  { "E": "#94A3B8", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }

@@ -18,7 +18,8 @@ class HintCard extends StatelessWidget {
     final line = hint.isRow
         ? l10n.hintRow(hint.line + 1)
         : l10n.hintColumn(hint.line + 1);
-    final clue = hint.clue.isEmpty ? '0' : hint.clue.join(' ');
+    // Isolated left-to-right so "2 1" keeps its order in Arabic text.
+    final clue = '\u2066${hint.clue.isEmpty ? '0' : hint.clue.join(' ')}\u2069';
     return switch (hint.reason) {
       HintReason.fullLine => l10n.hintFullLine(line, clue),
       HintReason.overlap => l10n.hintOverlap(line, clue),

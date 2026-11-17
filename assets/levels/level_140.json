@@ -1,6 +1,6 @@
 {
   "id": 140,
-  "name": {"tr": "Kılıç balığı", "en": "Swordfish", "de": "Schwertfisch", "fr": "Espadon", "es": "Pez espada", "it": "Pesce spada", "zh": "剑鱼"},
+  "name": {"tr": "Kılıç balığı", "en": "Swordfish", "de": "Schwertfisch", "fr": "Espadon", "es": "Pez espada", "pt": "Peixe-espada", "it": "Pesce spada", "ru": "Рыба-меч", "ar": "سمكة أبو سيف", "ja": "メカジキ", "zh": "剑鱼"},
   "solution": ["........##", "........#.", ".......#..", "......##..", ".....####.", "....#####.", "...######.", "..#####...", ".######..#", "######....", ".####.....", "#..#......", "##........"],
   "colors":   ["........EE", "........E.", ".......E..", "......BB..", ".....BBBB.", "....BKBBB.", "...BBBBBB.", "..BBBBB...", ".BBBBBB..B", "BBBBBB....", ".BBBB.....", "B..B......", "BB........"],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "K": "#1F2937" }

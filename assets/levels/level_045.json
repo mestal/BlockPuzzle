@@ -1,6 +1,6 @@
 {
   "id": 45,
-  "name": {"tr": "Meşe palamudu", "en": "Acorn", "de": "Eichel", "fr": "Gland", "es": "Bellota", "it": "Ghianda", "zh": "橡果"},
+  "name": {"tr": "Meşe palamudu", "en": "Acorn", "de": "Eichel", "fr": "Gland", "es": "Bellota", "pt": "Bolota", "it": "Ghianda", "ru": "Жёлудь", "ar": "بلوطة", "ja": "どんぐり", "zh": "橡果"},
   "solution": ["...#....", "...#....", ".######.", "########", ".######.", ".######.", "..####..", "...##..."],
   "colors":   ["...T....", "...T....", ".HHHHHH.", "HHHHHHHH", ".AAAAAA.", ".AAAAAA.", "..AAAA..", "...AA..."],
   "palette":  { "A": "#F59E0B", "H": "#5B3410", "T": "#92400E" }

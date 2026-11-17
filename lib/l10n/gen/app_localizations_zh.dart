@@ -247,4 +247,33 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get hintFallback => '这个方格是图画的一部分。';
+
+  @override
+  String get tutorialSkip => '跳过';
+
+  @override
+  String get tutorialGotIt => '明白了';
+
+  @override
+  String get tutorialL1Fill => '数字表示这一行有几个填充的方块。这一行是 4，所以 4 个方块全都要填！点一下方块来填充。';
+
+  @override
+  String get tutorialL1Drag => '太棒了！现在按住手指滑动，填满这一行剩下的方块。';
+
+  @override
+  String get tutorialL1Column => '一行或一列完成后，其余方块会自动打上 X。这一列也是 4：从上往下滑。';
+
+  @override
+  String get tutorialL1Finish => '只剩一列了。自己完成这幅画吧！';
+
+  @override
+  String get tutorialL2Cross =>
+      '2 1 表示先有 2 个填充方块，至少隔一个空格，再有 1 个填充方块。2 + 空格 + 1 = 4，这一行就确定了！双击空白方块，打上 X。';
+
+  @override
+  String get tutorialL2Drag => '滑动时会跳过你打了 X 的方块。沿整行滑动来填满它。';
+
+  @override
+  String get tutorialL2Rules =>
+      '填错方块会扣 1 条命；打 X 是免费的。卡住时，提示按钮还会告诉你原因。剩下的就交给你了！';
 }

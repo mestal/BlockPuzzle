@@ -179,6 +179,13 @@ class GameController extends Notifier<GameState> {
     if (state.hint != null) state = state.copyWith(hint: () => null);
   }
 
+  /// Remembers that this level's tutorial was finished or skipped.
+  void finishTutorial() => _editSlot(
+    (s) => s.tutorials.contains(puzzle.id)
+        ? s
+        : s.copyWith(tutorials: {...s.tutorials, puzzle.id}),
+  );
+
   void grantHint() => _editSlot((s) => s.copyWith(hints: s.hints + 1));
 
   void grantLife() {

@@ -260,4 +260,38 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get hintFallback => 'Esta casilla es parte de la imagen.';
+
+  @override
+  String get tutorialSkip => 'Saltar';
+
+  @override
+  String get tutorialGotIt => 'Entendido';
+
+  @override
+  String get tutorialL1Fill =>
+      'Los números dicen cuántas casillas de esa fila están llenas. Esta fila dice 4: ¡las 4 casillas están llenas! Toca una casilla para llenarla.';
+
+  @override
+  String get tutorialL1Drag =>
+      '¡Genial! Ahora mantén el dedo pulsado y desliza para llenar el resto de la fila.';
+
+  @override
+  String get tutorialL1Column =>
+      'Cuando una fila o columna está completa, sus otras casillas reciben una X solas. Esta columna también dice 4: desliza de arriba abajo.';
+
+  @override
+  String get tutorialL1Finish =>
+      'Queda una columna. ¡Termina el dibujo tú solo!';
+
+  @override
+  String get tutorialL2Cross =>
+      '2 1 significa 2 casillas llenas, al menos un hueco y luego 1 casilla llena. 2 + hueco + 1 = 4: ¡la fila es segura! Toca dos veces la casilla vacía para poner una X.';
+
+  @override
+  String get tutorialL2Drag =>
+      'Las casillas con tu X se saltan al deslizar. Desliza por toda la fila para llenarla.';
+
+  @override
+  String get tutorialL2Rules =>
+      'Llenar una casilla equivocada cuesta 1 vida; las X son gratis. Si te atascas, el botón Pista también explica por qué. ¡El resto es cosa tuya!';
 }

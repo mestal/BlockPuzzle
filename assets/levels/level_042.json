@@ -1,6 +1,6 @@
 {
   "id": 42,
-  "name": {"tr": "Çadır", "en": "Tent", "de": "Zelt", "fr": "Tente", "es": "Tienda", "it": "Tenda", "zh": "帐篷"},
+  "name": {"tr": "Çadır", "en": "Tent", "de": "Zelt", "fr": "Tente", "es": "Tienda", "pt": "Barraca", "it": "Tenda", "ru": "Палатка", "ar": "خيمة", "ja": "テント", "zh": "帐篷"},
   "solution": ["...##...", "..####..", "..####..", ".######.", ".######.", "########", "########", "########"],
   "colors":   ["...OO...", "..OOOO..", "..OKKO..", ".OOKKOO.", ".OKKKKO.", "OOKKKKOO", "OKKKKKKO", "DDDDDDDD"],
   "palette":  { "D": "#15803D", "K": "#1F2937", "O": "#F97316" }

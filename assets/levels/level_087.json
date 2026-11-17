@@ -1,6 +1,6 @@
 {
   "id": 87,
-  "name": {"tr": "Kum saati", "en": "Hourglass", "de": "Sanduhr", "fr": "Sablier", "es": "Reloj de arena", "it": "Clessidra", "zh": "沙漏"},
+  "name": {"tr": "Kum saati", "en": "Hourglass", "de": "Sanduhr", "fr": "Sablier", "es": "Reloj de arena", "pt": "Ampulheta", "it": "Clessidra", "ru": "Песочные часы", "ar": "ساعة رملية", "ja": "砂時計", "zh": "沙漏"},
   "solution": ["##########", ".########.", ".########.", "..######..", "...####...", "...####...", "..######..", ".########.", ".########.", "##########"],
   "colors":   ["TTTTTTTTTT", ".LSSSSSSL.", ".LSSSSSSL.", "..LSSSSL..", "...LSSL...", "...LLSL...", "..LLLSLL..", ".LLLSSSLL.", ".LSSSSSSL.", "TTTTTTTTTT"],
   "palette":  { "L": "#E2E8F0", "S": "#FDE68A", "T": "#92400E" }

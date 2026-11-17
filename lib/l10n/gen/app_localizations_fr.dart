@@ -260,4 +260,38 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get hintFallback => 'Cette case fait partie de l\'image.';
+
+  @override
+  String get tutorialSkip => 'Passer';
+
+  @override
+  String get tutorialGotIt => 'Compris';
+
+  @override
+  String get tutorialL1Fill =>
+      'Les nombres indiquent combien de cases de la ligne sont remplies. Ici c\'est 4 : les 4 cases sont remplies ! Touche une case pour la remplir.';
+
+  @override
+  String get tutorialL1Drag =>
+      'Bravo ! Maintenant, garde le doigt appuyé et glisse pour remplir le reste de la ligne.';
+
+  @override
+  String get tutorialL1Column =>
+      'Quand une ligne ou une colonne est finie, ses autres cases reçoivent un X toutes seules. Cette colonne indique aussi 4 : glisse de haut en bas.';
+
+  @override
+  String get tutorialL1Finish =>
+      'Plus qu\'une colonne. Termine l\'image toi-même !';
+
+  @override
+  String get tutorialL2Cross =>
+      '2 1 veut dire 2 cases remplies, au moins un espace, puis 1 case remplie. 2 + espace + 1 = 4 : la ligne est certaine ! Touche deux fois la case vide pour y mettre un X.';
+
+  @override
+  String get tutorialL2Drag =>
+      'Les cases avec ton X sont ignorées quand tu glisses. Glisse sur toute la ligne pour la remplir.';
+
+  @override
+  String get tutorialL2Rules =>
+      'Remplir une mauvaise case coûte 1 vie ; les X sont gratuits. Si tu bloques, le bouton Indice explique aussi pourquoi. À toi de jouer !';
 }

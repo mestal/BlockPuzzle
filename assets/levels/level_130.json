@@ -1,6 +1,6 @@
 {
   "id": 130,
-  "name": {"tr": "Vatoz", "en": "Stingray", "de": "Rochen", "fr": "Raie", "es": "Raya", "it": "Razza", "zh": "鳐鱼"},
+  "name": {"tr": "Vatoz", "en": "Stingray", "de": "Rochen", "fr": "Raie", "es": "Raya", "pt": "Arraia", "it": "Razza", "ru": "Скат", "ar": "لخمة", "ja": "エイ", "zh": "鳐鱼"},
   "solution": ["....##....", "...####...", "..######..", ".########.", "##########", "##########", ".########.", "..######..", "...####...", "....##....", "....##....", ".....#...."],
   "colors":   ["....EE....", "...EEEE...", "..EEEEEE..", ".EEEEEEEE.", "EEEKEEKEEE", "EEEEEEEEEE", ".EEEEEEEE.", "..EEEEEE..", "...EEEE...", "....EE....", "....EE....", ".....E...."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937" }

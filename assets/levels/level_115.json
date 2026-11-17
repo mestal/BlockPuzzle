@@ -1,6 +1,6 @@
 {
   "id": 115,
-  "name": {"tr": "Karlı dağ", "en": "Snowy mountain", "de": "Schneeberg", "fr": "Montagne enneigée", "es": "Montaña nevada", "it": "Montagna innevata", "zh": "雪山"},
+  "name": {"tr": "Karlı dağ", "en": "Snowy mountain", "de": "Schneeberg", "fr": "Montagne enneigée", "es": "Montaña nevada", "pt": "Montanha nevada", "it": "Montagna innevata", "ru": "Снежная гора", "ar": "جبل مثلج", "ja": "雪山", "zh": "雪山"},
   "solution": ["....##....", "...####...", "...####...", "..######..", "..######..", ".########.", ".#########", "##########", "##########", "##########", "##########", "##########"],
   "colors":   ["....WW....", "...WWWW...", "...WWWE...", "..WWEWEE..", "..EWEEEE..", ".EEEEEEEE.", ".EEEEEEEEE", "EEEEDEEEEE", "EEEDDDEEEE", "EEDDDDDEEE", "EDDDDDDDEE", "DDDDDDDDDD"],
   "palette":  { "D": "#15803D", "E": "#94A3B8", "W": "#FFFFFF" }

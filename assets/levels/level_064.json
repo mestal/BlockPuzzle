@@ -1,6 +1,6 @@
 {
   "id": 64,
-  "name": {"tr": "Kurabiye", "en": "Cookie", "de": "Keks", "fr": "Biscuit", "es": "Galleta", "it": "Biscotto", "zh": "曲奇"},
+  "name": {"tr": "Kurabiye", "en": "Cookie", "de": "Keks", "fr": "Biscuit", "es": "Galleta", "pt": "Biscoito", "it": "Biscotto", "ru": "Печенье", "ar": "بسكويت", "ja": "クッキー", "zh": "曲奇"},
   "solution": ["..#####..", ".#######.", "#########", "#########", "#########", "#########", "#########", ".#######.", "..#####.."],
   "colors":   ["..TTTTT..", ".TTTHTTT.", "TTHTTTTHT", "TTTTTHTTT", "THTTTTTTT", "TTTTHTTHT", "THTTTTTTT", ".TTHTTTT.", "..TTTTT.."],
   "palette":  { "H": "#5B3410", "T": "#92400E" }

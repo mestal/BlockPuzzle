@@ -261,4 +261,38 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get hintFallback => 'Dieses Feld gehört zum Bild.';
+
+  @override
+  String get tutorialSkip => 'Überspringen';
+
+  @override
+  String get tutorialGotIt => 'Verstanden';
+
+  @override
+  String get tutorialL1Fill =>
+      'Die Zahlen sagen, wie viele Felder in dieser Zeile gefüllt sind. Hier steht 4, also sind alle 4 Felder gefüllt! Tippe auf ein Feld, um es zu füllen.';
+
+  @override
+  String get tutorialL1Drag =>
+      'Super! Halte jetzt den Finger gedrückt und wische, um den Rest der Zeile zu füllen.';
+
+  @override
+  String get tutorialL1Column =>
+      'Ist eine Zeile oder Spalte fertig, bekommen die übrigen Felder von selbst ein X. Diese Spalte hat auch 4: wische von oben nach unten.';
+
+  @override
+  String get tutorialL1Finish =>
+      'Noch eine Spalte. Vervollständige das Bild selbst!';
+
+  @override
+  String get tutorialL2Cross =>
+      '2 1 heißt: 2 gefüllte Felder, mindestens eine Lücke, dann 1 gefülltes Feld. 2 + Lücke + 1 = 4, die Zeile steht fest! Tippe doppelt auf das leere Feld, um ein X zu setzen.';
+
+  @override
+  String get tutorialL2Drag =>
+      'Felder mit deinem X werden beim Wischen übersprungen. Wische über die ganze Zeile, um sie zu füllen.';
+
+  @override
+  String get tutorialL2Rules =>
+      'Ein falsch gefülltes Feld kostet 1 Leben; X-Markierungen sind gratis. Wenn du nicht weiterkommst, erklärt der Tipp-Knopf auch das Warum. Der Rest liegt bei dir!';
 }

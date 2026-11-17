@@ -1,6 +1,6 @@
 {
   "id": 7,
-  "name": {"tr": "Elma", "en": "Apple", "de": "Apfel", "fr": "Pomme", "es": "Manzana", "it": "Mela", "zh": "苹果"},
+  "name": {"tr": "Elma", "en": "Apple", "de": "Apfel", "fr": "Pomme", "es": "Manzana", "pt": "Maçã", "it": "Mela", "ru": "Яблоко", "ar": "تفاحة", "ja": "リンゴ", "zh": "苹果"},
   "solution": ["..##.", "##.##", "#####", "#####", ".###."],
   "colors":   ["..BL.", "RR.RR", "RWRRR", "RRRRR", ".RRR."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF", "B": "#7C4A1E", "L": "#4ADE80" }
