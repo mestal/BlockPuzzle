@@ -1,0 +1,7 @@
+{
+  "id": 19,
+  "name": "Kale",
+  "solution": ["#.##.#", "######", "#.##.#", "######", "##..##", "##..##"],
+  "colors":   ["S.SS.S", "SSSSSS", "S.SS.S", "SSSSSS", "SS..SS", "SS..SS"],
+  "palette":  { "S": "#A8A29E" }
+}

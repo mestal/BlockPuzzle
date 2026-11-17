@@ -1,0 +1,7 @@
+{
+  "id": 22,
+  "name": "Deniz Kabuğu",
+  "solution": ["...#...", ".#####.", "##.#.##", "##.#.##", "#######", ".#####.", "..###.."],
+  "colors":   ["...P...", ".PPPPP.", "PP.P.PP", "PP.P.PP", "PPPPPPP", ".PPPPP.", "..PPP.."],
+  "palette":  { "P": "#FDA4AF" }
+}

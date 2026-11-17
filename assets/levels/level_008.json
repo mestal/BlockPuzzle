@@ -1,0 +1,7 @@
+{
+  "id": 8,
+  "name": "Kupa",
+  "solution": ["####.", "###.#", "###.#", "####.", ".##.."],
+  "colors":   ["CCCC.", "CWC.C", "CCC.C", "CCCC.", ".CC.."],
+  "palette":  { "C": "#F97316", "W": "#FFF7ED" }
+}

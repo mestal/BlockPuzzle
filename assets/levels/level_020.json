@@ -1,0 +1,7 @@
+{
+  "id": 20,
+  "name": "Taç",
+  "solution": ["#.##.#", "#.##.#", "######", "######", "######", ".####."],
+  "colors":   ["R.RR.R", "Y.YY.Y", "YYYYYY", "YRYYBY", "YYYYYY", ".YYYY."],
+  "palette":  { "Y": "#FBBF24", "R": "#E11D48", "B": "#2563EB" }
+}

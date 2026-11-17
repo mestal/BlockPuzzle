@@ -1,0 +1,7 @@
+{
+  "id": 7,
+  "name": "Elma",
+  "solution": ["..##.", "##.##", "#####", "#####", ".###."],
+  "colors":   ["..BL.", "RR.RR", "RWRRR", "RRRRR", ".RRR."],
+  "palette":  { "R": "#E8453C", "W": "#FFFFFF", "B": "#7C4A1E", "L": "#4ADE80" }
+}
