@@ -1,0 +1,14 @@
+{
+  "worlds": [
+    { "id": "sunset_hills", "name": "Gün Batımı Tepeleri", "theme": "sunset", "levels": 20 },
+    { "id": "sandy_beach",  "name": "Kumsal",              "theme": "beach",  "levels": 20 },
+    { "id": "night_forest", "name": "Gece Ormanı",         "theme": "forest", "levels": 20 },
+    { "id": "candy_land",   "name": "Şeker Diyarı",        "theme": "candy",  "levels": 20 },
+    { "id": "golden_dunes", "name": "Altın Çöl",           "theme": "desert", "levels": 20 },
+    { "id": "snow_peaks",   "name": "Karlı Zirveler",      "theme": "snow",   "levels": 20 },
+    { "id": "coral_reef",   "name": "Mercan Resifi",       "theme": "reef",   "levels": 20 },
+    { "id": "lava_island",  "name": "Volkan Adası",        "theme": "volcano","levels": 20 },
+    { "id": "cloud_town",   "name": "Bulut Kasabası",      "theme": "clouds", "levels": 20 },
+    { "id": "star_road",    "name": "Yıldız Yolu",         "theme": "space",  "levels": 20 }
+  ]
+}

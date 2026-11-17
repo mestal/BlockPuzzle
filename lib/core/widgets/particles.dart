@@ -88,12 +88,15 @@ class _ParticleLayerState extends State<ParticleLayer>
     with SingleTickerProviderStateMixin {
   final _particles = <_Particle>[];
   final _repaint = ValueNotifier<int>(0);
-  late final Ticker _ticker = createTicker(_tick);
+  // Created up front: a lazy ticker would first be built in dispose() when
+  // no particle was ever spawned, which is not allowed there.
+  late final Ticker _ticker;
   Duration _last = Duration.zero;
 
   @override
   void initState() {
     super.initState();
+    _ticker = createTicker(_tick);
     widget.controller
       .._sink = _add
       .._toLocal = (global) {

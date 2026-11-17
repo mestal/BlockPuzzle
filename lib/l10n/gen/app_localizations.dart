@@ -178,23 +178,11 @@ abstract class AppLocalizations {
   /// **'Bölüm {n}'**
   String levelLabel(int n);
 
-  /// No description provided for @levelsDone.
-  ///
-  /// In tr, this message translates to:
-  /// **'{done}/{total} bölüm'**
-  String levelsDone(int done, int total);
-
   /// No description provided for @hintCount.
   ///
   /// In tr, this message translates to:
   /// **'{count} ipucu'**
   String hintCount(int count);
-
-  /// No description provided for @comingSoon.
-  ///
-  /// In tr, this message translates to:
-  /// **'{count} bölüm daha yakında'**
-  String comingSoon(int count);
 
   /// No description provided for @tutorialTap.
   ///
@@ -357,6 +345,90 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'Tüm dolu kareleri bulunca bloklar gizli resme dönüşür.'**
   String get rulesGoal;
+
+  /// No description provided for @worldLabel.
+  ///
+  /// In tr, this message translates to:
+  /// **'Harita {n}'**
+  String worldLabel(int n);
+
+  /// No description provided for @worldsTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Haritalar'**
+  String get worldsTitle;
+
+  /// No description provided for @worldUnlocked.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeni harita açıldı!'**
+  String get worldUnlocked;
+
+  /// No description provided for @worldComplete.
+  ///
+  /// In tr, this message translates to:
+  /// **'Harita tamamlandı!'**
+  String get worldComplete;
+
+  /// No description provided for @nextWorld.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonraki harita: {name}'**
+  String nextWorld(String name);
+
+  /// No description provided for @nextWorldLocked.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu haritayı bitir, {name} açılsın'**
+  String nextWorldLocked(String name);
+
+  /// No description provided for @nextWorldSoon.
+  ///
+  /// In tr, this message translates to:
+  /// **'{name} çok yakında'**
+  String nextWorldSoon(String name);
+
+  /// No description provided for @worldLocked.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önceki haritayı bitir'**
+  String get worldLocked;
+
+  /// No description provided for @worldSoon.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yakında'**
+  String get worldSoon;
+
+  /// No description provided for @youAreHere.
+  ///
+  /// In tr, this message translates to:
+  /// **'Buradasın'**
+  String get youAreHere;
+
+  /// No description provided for @mapStart.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başlangıç'**
+  String get mapStart;
+
+  /// No description provided for @playLevel.
+  ///
+  /// In tr, this message translates to:
+  /// **'Oyna · Bölüm {n}'**
+  String playLevel(int n);
+
+  /// No description provided for @tapToContinue.
+  ///
+  /// In tr, this message translates to:
+  /// **'Devam etmek için dokun'**
+  String get tapToContinue;
+
+  /// No description provided for @starCount.
+  ///
+  /// In tr, this message translates to:
+  /// **'{have}/{max}'**
+  String starCount(int have, int max);
 }
 
 class _AppLocalizationsDelegate

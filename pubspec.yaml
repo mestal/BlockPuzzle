@@ -29,5 +29,6 @@ flutter:
   generate: true
   assets:
     - assets/levels/
+    - assets/worlds/
     - assets/audio/
   uses-material-design: true

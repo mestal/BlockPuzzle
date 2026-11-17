@@ -232,6 +232,10 @@ class GameController extends Notifier<GameState> {
       _editSlot(
         (s) => s.copyWith(
           completed: {...s.completed, puzzle.id},
+          stars: {
+            ...s.stars,
+            puzzle.id: max(s.stars[puzzle.id] ?? 0, Scoring.stars(mistakes)),
+          },
           unlockedLevel: max(s.unlockedLevel, puzzle.id + 1),
           totalScore: s.totalScore + score,
           snapshot: () => null,

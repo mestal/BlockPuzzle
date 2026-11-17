@@ -1,7 +1,8 @@
+import 'package:block_puzzle/app/router.dart';
 import 'package:block_puzzle/app/theme.dart';
 import 'package:block_puzzle/core/widgets/jelly_block.dart';
 import 'package:block_puzzle/core/widgets/sky_background.dart';
-import 'package:block_puzzle/features/levels/level_repository.dart';
+import 'package:block_puzzle/features/level_map/application/world_providers.dart';
 import 'package:block_puzzle/features/progress/slot_data.dart';
 import 'package:block_puzzle/features/progress/slots_controller.dart';
 import 'package:block_puzzle/l10n/gen/app_localizations.dart';
@@ -170,7 +171,7 @@ class _SlotCard extends ConsumerWidget {
 
   void _open(BuildContext context, WidgetRef ref) {
     ref.read(activeSlotIndexProvider.notifier).index = index;
-    context.go('/levels');
+    context.go(Routes.currentMap);
   }
 
   Future<void> _create(BuildContext context, WidgetRef ref) async {
@@ -215,18 +216,20 @@ class _SlotCard extends ConsumerWidget {
   }
 }
 
-class _FilledSlot extends StatelessWidget {
+class _FilledSlot extends ConsumerWidget {
   const _FilledSlot({required this.slot});
 
   final SlotData slot;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context);
     final color = AppColors.avatars[slot.colorIndex % AppColors.avatars.length];
     final done = slot.completed.length;
-    const total = LevelRepository.plannedLevelCount;
-    final level = slot.unlockedLevel.clamp(1, LevelRepository.levelCount);
+    final catalog = ref.watch(worldCatalogProvider);
+    final total = catalog.plannedLevelCount;
+    final level = currentLevelOf(slot);
+    final world = catalog.worldOf(level);
 
     return Row(
       children: [
@@ -256,7 +259,7 @@ class _FilledSlot extends StatelessWidget {
                 ),
               ),
               Text(
-                '${l10n.levelLabel(level)} · ${l10n.levelsDone(done, total)}',
+                '${world.name} · ${l10n.levelLabel(level)}',
                 style: const TextStyle(color: Color(0xFF475569)),
               ),
               const SizedBox(height: 6),

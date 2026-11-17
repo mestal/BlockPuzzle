@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:block_puzzle/app/router.dart';
 import 'package:block_puzzle/app/theme.dart';
 import 'package:block_puzzle/core/widgets/particles.dart';
 import 'package:block_puzzle/core/widgets/sky_background.dart';
@@ -10,6 +11,7 @@ import 'package:block_puzzle/features/game/domain/puzzle.dart';
 import 'package:block_puzzle/features/game/domain/scoring.dart';
 import 'package:block_puzzle/features/game/presentation/board_view.dart';
 import 'package:block_puzzle/features/game/presentation/game_dialogs.dart';
+import 'package:block_puzzle/features/level_map/application/world_providers.dart';
 import 'package:block_puzzle/features/levels/level_repository.dart';
 import 'package:block_puzzle/features/progress/slots_controller.dart';
 import 'package:block_puzzle/l10n/gen/app_localizations.dart';
@@ -38,7 +40,7 @@ class GameScreen extends ConsumerWidget {
             ),
             AsyncError() => Center(
               child: TextButton(
-                onPressed: () => context.go('/levels'),
+                onPressed: () => context.go(Routes.currentMap),
                 child: Text(AppLocalizations.of(context).backToLevels),
               ),
             ),
@@ -124,7 +126,7 @@ class _GamePlayState extends ConsumerState<_GamePlay>
       case OutOfLivesChoice.restart:
         _game.restart();
       case OutOfLivesChoice.exit || null:
-        context.go('/levels');
+        context.go(_mapRoute);
     }
   }
 
@@ -152,7 +154,24 @@ class _GamePlayState extends ConsumerState<_GamePlay>
     if (!mounted) return;
     await ref.read(adServiceProvider).showInterstitial(context);
     if (!mounted) return;
-    context.go(next == null ? '/levels' : '/play/$next');
+    context.go(_afterWin(next));
+  }
+
+  /// The map of the world this level belongs to.
+  String get _mapRoute => Routes.map(
+    ref.read(worldCatalogProvider).worldOf(_puzzle.id).index,
+  );
+
+  /// Next level in the same world, or, when this level finished a world,
+  /// the new world's map with its unlock celebration.
+  String _afterWin(int? next) {
+    if (next == null) return _mapRoute;
+    final catalog = ref.read(worldCatalogProvider);
+    final nextWorld = catalog.worldOf(next);
+    if (nextWorld != catalog.worldOf(_puzzle.id)) {
+      return Routes.map(nextWorld.index, intro: true);
+    }
+    return Routes.play(next);
   }
 
   void _celebrate() {
@@ -245,7 +264,7 @@ class _GamePlayState extends ConsumerState<_GamePlay>
   }
 }
 
-class _TopBar extends StatelessWidget {
+class _TopBar extends ConsumerWidget {
   const _TopBar({required this.level, required this.lives, this.title});
 
   final int level;
@@ -253,14 +272,16 @@ class _TopBar extends StatelessWidget {
   final String? title;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context);
     return Padding(
       padding: const EdgeInsets.fromLTRB(4, 4, 8, 4),
       child: Row(
         children: [
           IconButton(
-            onPressed: () => context.go('/levels'),
+            onPressed: () => context.go(
+              Routes.map(ref.read(worldCatalogProvider).worldOf(level).index),
+            ),
             icon: const Icon(Icons.arrow_back_rounded, color: Colors.white),
           ),
           Expanded(

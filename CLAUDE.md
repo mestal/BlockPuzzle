@@ -98,6 +98,21 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - AdMob (`google_mobile_ads`) daha sonra `AdMobAdService` olarak eklenecek; oyun kodu değişmemeli.
 - Reklam türleri: `showInterstitial()` (bölüm geçişi), `showRewarded(reward)` (+1 hak, +1 ipucu).
 
+### Haritalar (bölüm ilerlemesi)
+- Bölümler **haritalara** (dünya) bölünür; her harita temalı bir bölgedir ve sıradaki N bölümü içerir.
+  Katalog: `assets/worlds/worlds.json` (`id`, `name`, `theme`, `levels`). Bölüm numaraları globaldir;
+  her harita bir öncekinin bittiği yerden devam eder. **Yeni harita = JSON'a bir satır** (+ gerekirse
+  `AppColors.worldThemes`'e yeni tema). Testler katalogu ve tema anahtarlarını doğrular.
+- Harita ekranı (`/map/:world`): alttan yukarı kıvrılan yol; bitirilen bölümler açılan resmin küçüğü +
+  en iyi yıldızlarla, sıradaki bölüm parlayan jöle blok + oyuncu avatarıyla, kilitliler kapalı gösterilir.
+  Yolun gidilen kısmı altın renktedir. Tepede harita kupası ve sonraki haritaya geçit; altta önceki harita.
+  Paralaks tema arka planı, alt kısımda **Oyna** düğmesi.
+- Bir harita, öncekinin son bölümü bitince açılır (ayrı kayıt yok; `unlockedLevel`'dan türetilir).
+  Hiç bölümü yayınlanmamış harita "Yakında" görünür.
+- Haritanın son bölümü bitince oyun yeni haritaya gider ve **"Yeni harita açıldı!"** kutlaması oynar.
+- Haritalar ekranı (`/worlds`): her harita bir kart; ilerleme, yıldız ve bitirilen resimlerden mozaik.
+- Bölüm başına en iyi yıldız `SlotData.stars`'ta saklanır.
+
 ### Oyuncu slotları
 - Açılış ekranında **3 slot**. Her slot ayrı bir oyuncunun ilerlemesidir.
 - Boş slot → "Yeni oyun": isim + avatar rengi seçilir.
@@ -166,7 +181,7 @@ lib/
   core/                # ortak yardımcılar, ses, haptic, sabitler
   features/
     slots/             # oyuncu slotları ekranı
-    level_map/         # bölüm seçim/ilerleme ekranı
+    level_map/         # haritalar: World/WorldCatalog, MapLayout, harita ve haritalar ekranı
     game/
       domain/          # Puzzle, Clue, CellState, line solver, kurallar (saf Dart, Flutter yok)
       application/     # GameController (Riverpod notifier)
@@ -175,6 +190,7 @@ lib/
     progress/          # ProgressRepository, SlotData
 assets/
   levels/              # level_001.json ... level_200.json
+  worlds/              # worlds.json (harita kataloğu)
   audio/  images/
 test/
 ```

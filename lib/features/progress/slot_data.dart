@@ -42,6 +42,7 @@ final class SlotData {
     required this.colorIndex,
     this.unlockedLevel = 1,
     this.completed = const {},
+    this.stars = const {},
     this.hints = startingHints,
     this.totalScore = 0,
     this.snapshot,
@@ -52,6 +53,11 @@ final class SlotData {
     colorIndex: json['colorIndex']! as int,
     unlockedLevel: json['unlockedLevel']! as int,
     completed: {...(json['completed']! as List).cast<int>()},
+    stars: {
+      for (final MapEntry(:key, :value)
+          in ((json['stars'] as Map?) ?? const {}).entries)
+        int.parse(key as String): value as int,
+    },
     hints: json['hints']! as int,
     totalScore: json['totalScore'] as int? ?? 0,
     snapshot: switch (json['snapshot']) {
@@ -68,6 +74,9 @@ final class SlotData {
   /// Highest level the player may open.
   final int unlockedLevel;
   final Set<int> completed;
+
+  /// Best star rating per finished level.
+  final Map<int, int> stars;
   final int hints;
 
   /// Sum of the scores of all finished levels.
@@ -77,6 +86,7 @@ final class SlotData {
   SlotData copyWith({
     int? unlockedLevel,
     Set<int>? completed,
+    Map<int, int>? stars,
     int? hints,
     int? totalScore,
     LevelSnapshot? Function()? snapshot,
@@ -85,6 +95,7 @@ final class SlotData {
     colorIndex: colorIndex,
     unlockedLevel: unlockedLevel ?? this.unlockedLevel,
     completed: completed ?? this.completed,
+    stars: stars ?? this.stars,
     hints: hints ?? this.hints,
     totalScore: totalScore ?? this.totalScore,
     snapshot: snapshot != null ? snapshot() : this.snapshot,
@@ -95,6 +106,9 @@ final class SlotData {
     'colorIndex': colorIndex,
     'unlockedLevel': unlockedLevel,
     'completed': completed.toList()..sort(),
+    'stars': {
+      for (final MapEntry(:key, :value) in stars.entries) '$key': value,
+    },
     'hints': hints,
     'totalScore': totalScore,
     'snapshot': snapshot?.toJson(),

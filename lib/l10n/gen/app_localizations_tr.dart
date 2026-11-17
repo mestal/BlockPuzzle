@@ -56,18 +56,8 @@ class AppLocalizationsTr extends AppLocalizations {
   }
 
   @override
-  String levelsDone(int done, int total) {
-    return '$done/$total bölüm';
-  }
-
-  @override
   String hintCount(int count) {
     return '$count ipucu';
-  }
-
-  @override
-  String comingSoon(int count) {
-    return '$count bölüm daha yakında';
   }
 
   @override
@@ -165,4 +155,58 @@ class AppLocalizationsTr extends AppLocalizations {
   @override
   String get rulesGoal =>
       'Tüm dolu kareleri bulunca bloklar gizli resme dönüşür.';
+
+  @override
+  String worldLabel(int n) {
+    return 'Harita $n';
+  }
+
+  @override
+  String get worldsTitle => 'Haritalar';
+
+  @override
+  String get worldUnlocked => 'Yeni harita açıldı!';
+
+  @override
+  String get worldComplete => 'Harita tamamlandı!';
+
+  @override
+  String nextWorld(String name) {
+    return 'Sonraki harita: $name';
+  }
+
+  @override
+  String nextWorldLocked(String name) {
+    return 'Bu haritayı bitir, $name açılsın';
+  }
+
+  @override
+  String nextWorldSoon(String name) {
+    return '$name çok yakında';
+  }
+
+  @override
+  String get worldLocked => 'Önceki haritayı bitir';
+
+  @override
+  String get worldSoon => 'Yakında';
+
+  @override
+  String get youAreHere => 'Buradasın';
+
+  @override
+  String get mapStart => 'Başlangıç';
+
+  @override
+  String playLevel(int n) {
+    return 'Oyna · Bölüm $n';
+  }
+
+  @override
+  String get tapToContinue => 'Devam etmek için dokun';
+
+  @override
+  String starCount(int have, int max) {
+    return '$have/$max';
+  }
 }

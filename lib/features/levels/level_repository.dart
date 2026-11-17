@@ -8,9 +8,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 class LevelRepository {
   const LevelRepository(this._bundle);
 
-  /// Levels shipped so far. The game is planned for [plannedLevelCount].
+  /// Levels shipped so far (`level_001` … `level_NNN`). The world catalog
+  /// (`assets/worlds/worlds.json`) plans room for more.
   static const levelCount = 3;
-  static const plannedLevelCount = 200;
 
   final AssetBundle _bundle;
 
