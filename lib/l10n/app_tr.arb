@@ -46,6 +46,11 @@
   "@adCountdown": { "placeholders": { "seconds": { "type": "int" } } },
   "rulesTitle": "Nasıl oynanır?",
   "rulesClues": "Soldaki ve üstteki sayılar o satırda ve sütunda kaç dolu kare olduğunu gösterir. Birden çok sayı varsa gruplar arasında en az bir boşluk vardır.",
-  "rulesMistakes": "Yanlış kareyi doldurursan ya da dolu olması gereken kareye X koyarsan 1 hakkın gider.",
+  "rulesMistakes": "Boş olması gereken kareyi doldurursan 1 hakkın gider. X koymak serbest: notlarını istediğin gibi alabilirsin.",
+  "rulesScoring": "Doğru her doldurma puan kazandırır. Hatasız art arda doldurdukça çarpan büyür (en çok x5). Satır ve sütunları bitirmek ekstra puandır.",
+  "levelScore": "{score} puan",
+  "@levelScore": { "placeholders": { "score": { "type": "int" } } },
+  "totalScore": "Toplam: {total}",
+  "@totalScore": { "placeholders": { "total": { "type": "int" } } },
   "rulesGoal": "Tüm dolu kareleri bulunca bloklar gizli resme dönüşür."
 }

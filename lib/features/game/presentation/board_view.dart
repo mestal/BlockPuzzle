@@ -11,7 +11,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
-typedef MarkCallback = bool Function(int row, int col, MoveAction action);
+/// [step] is how many cells the current drag has covered (0 for a tap).
+typedef MarkCallback =
+    bool Function(int row, int col, MoveAction action, {int step});
 
 /// Clues + grid. Gestures:
 /// * single tap → X, single press-and-drag → X along a line
@@ -46,6 +48,7 @@ class _BoardViewState extends State<BoardView> {
   bool _isSecondTap = false;
   bool _moved = false;
   bool _stopped = false;
+  int _step = 0;
   Axis? _axis;
   Timer? _singleTap;
   _Pos? _pendingTap;
@@ -157,6 +160,7 @@ class _BoardViewState extends State<BoardView> {
     _last = _down;
     _moved = false;
     _stopped = false;
+    _step = 0;
     _axis = null;
     setState(() => _pressed = _down);
   }
@@ -189,7 +193,8 @@ class _BoardViewState extends State<BoardView> {
         current.$2 + (target.$2 - current.$2).sign,
       );
       _last = current;
-      if (!_mark(current, _action)) {
+      _step++;
+      if (!_mark(current, _action, step: _step)) {
         _stopped = true;
         break;
       }
@@ -217,11 +222,11 @@ class _BoardViewState extends State<BoardView> {
     setState(() => _pressed = null);
   }
 
-  bool _mark(_Pos p, MoveAction action) {
-    if (!_state.board.at(p.$1, p.$2).isOpen) {
+  bool _mark(_Pos p, MoveAction action, {int step = 0}) {
+    if (!_state.board.at(p.$1, p.$2).isLocked) {
       unawaited(HapticFeedback.selectionClick());
     }
-    return widget.onMark(p.$1, p.$2, action);
+    return widget.onMark(p.$1, p.$2, action, step: step);
   }
 
   // ----------------------------------------------------------------- layout

@@ -18,7 +18,14 @@ final class Cell {
   final CellMark mark;
   final MarkSource source;
 
+  /// Whether the cell carries any mark.
   bool get isOpen => mark != CellMark.empty;
+
+  /// A cell the player can no longer change. A plain user X is only a note
+  /// (it may sit on a filled cell), so it can still be filled over.
+  bool get isLocked =>
+      mark == CellMark.filled ||
+      (mark == CellMark.crossed && source != MarkSource.user);
 
   @override
   bool operator ==(Object other) =>
@@ -114,25 +121,39 @@ final class Board {
   int get _filledCorrect =>
       cells.where((cell) => cell.mark == CellMark.filled).length;
 
-  /// Every move is checked against the solution immediately. A wrong move
-  /// puts the cell into its correct state with [MarkSource.mistake].
+  /// Filling is checked against the solution immediately: filling an empty
+  /// cell is a mistake and leaves a [MarkSource.mistake] X. Crossing is never
+  /// a mistake - an X is just a note and may be wrong; it is replaced by an
+  /// automatic X once its line is complete.
   MoveResult apply(
     int r,
     int c,
     MoveAction action, {
     MarkSource source = MarkSource.user,
   }) {
-    if (at(r, c).isOpen || isSolved) return MoveResult(board: this);
-
-    final shouldFill = puzzle.isFilled(r, c);
-    final correct = (action == MoveAction.fill) == shouldFill;
-    final cell = Cell(
-      shouldFill ? CellMark.filled : CellMark.crossed,
-      correct ? source : MarkSource.mistake,
-    );
+    final existing = at(r, c);
+    if (existing.isLocked || isSolved) return MoveResult(board: this);
 
     final cells = [...this.cells];
-    cells[r * puzzle.cols + c] = cell;
+    if (action == MoveAction.cross) {
+      if (existing.isOpen) return MoveResult(board: this);
+      cells[r * puzzle.cols + c] = const Cell(CellMark.crossed);
+      return MoveResult(
+        board: Board._(
+          puzzle,
+          List.unmodifiable(cells),
+          solvedRows,
+          solvedCols,
+        ),
+        changed: true,
+      );
+    }
+
+    final shouldFill = puzzle.isFilled(r, c);
+    cells[r * puzzle.cols + c] = Cell(
+      shouldFill ? CellMark.filled : CellMark.crossed,
+      shouldFill ? source : MarkSource.mistake,
+    );
     var next = Board._(puzzle, cells, solvedRows, solvedCols);
 
     final completedRows = <int>[];
@@ -176,7 +197,7 @@ final class Board {
     return MoveResult(
       board: next,
       changed: true,
-      mistake: !correct,
+      mistake: !shouldFill,
       completedRows: completedRows,
       completedCols: completedCols,
       solved: solved,
@@ -188,7 +209,7 @@ final class Board {
     final candidates = <(int, int)>[
       for (var r = 0; r < puzzle.rows; r++)
         for (var c = 0; c < puzzle.cols; c++)
-          if (puzzle.isFilled(r, c) && !at(r, c).isOpen) (r, c),
+          if (puzzle.isFilled(r, c) && at(r, c).mark != CellMark.filled) (r, c),
     ];
     if (candidates.isEmpty) return null;
     return candidates[seed % candidates.length];
@@ -206,7 +227,8 @@ final class Board {
 
   void _autoCross(List<Cell> cells, int r, int c) {
     final i = r * puzzle.cols + c;
-    if (!cells[i].isOpen) {
+    final cell = cells[i];
+    if (!cell.isOpen || (cell.mark == CellMark.crossed && !cell.isLocked)) {
       cells[i] = const Cell(CellMark.crossed, MarkSource.auto);
     }
   }

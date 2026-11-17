@@ -15,6 +15,9 @@ abstract final class AppColors {
 
   static const crossUser = Color(0xFF1E3A8A);
   static const crossAuto = Color(0xFF94A3B8);
+
+  /// X marks of a completed row/column.
+  static const crossDone = Color(0xFF22C55E);
   static const mistake = Color(0xFFEF4444);
 
   static const gold = Color(0xFFFBBF24);

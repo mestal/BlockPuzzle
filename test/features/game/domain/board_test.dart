@@ -84,12 +84,52 @@ void main() {
       );
     });
 
-    test('crossing a filled cell is a mistake and becomes filled', () {
+    test('crossing is never a mistake, even on a filled cell', () {
       final result = Board.start(puzzle).apply(0, 0, MoveAction.cross);
+      expect(result.mistake, isFalse);
+      expect(result.changed, isTrue);
+      expect(result.board.at(0, 0), const Cell(CellMark.crossed));
+    });
+
+    test('a wrong X can still be filled over (and is correct)', () {
+      final crossed = Board.start(puzzle).apply(0, 0, MoveAction.cross).board;
+      final result = crossed.apply(0, 0, MoveAction.fill);
+      expect(result.mistake, isFalse);
+      expect(result.board.at(0, 0), const Cell(CellMark.filled));
+    });
+
+    test('filling over an X on an empty cell is a mistake', () {
+      final crossed = Board.start(puzzle).apply(0, 1, MoveAction.cross).board;
+      final result = crossed.apply(0, 1, MoveAction.fill);
       expect(result.mistake, isTrue);
       expect(
-        result.board.at(0, 0),
-        const Cell(CellMark.filled, MarkSource.mistake),
+        result.board.at(0, 1),
+        const Cell(CellMark.crossed, MarkSource.mistake),
+      );
+    });
+
+    test('crossing a crossed cell does nothing', () {
+      final crossed = Board.start(puzzle).apply(0, 1, MoveAction.cross).board;
+      expect(crossed.apply(0, 1, MoveAction.cross).changed, isFalse);
+    });
+
+    test('completing a line turns wrong user X into automatic X', () {
+      var board = Board.start(puzzle).apply(0, 0, MoveAction.cross).board;
+      board = board.apply(0, 2, MoveAction.fill).board;
+      final result = board.apply(0, 0, MoveAction.fill);
+      expect(result.completedRows, [0]);
+      expect(
+        result.board.at(0, 1),
+        const Cell(CellMark.crossed, MarkSource.auto),
+      );
+
+      // A user X inside a line that completes becomes automatic.
+      var b2 = Board.start(puzzle).apply(0, 1, MoveAction.cross).board;
+      b2 = b2.apply(0, 0, MoveAction.fill).board;
+      final done = b2.apply(0, 2, MoveAction.fill);
+      expect(
+        done.board.at(0, 1),
+        const Cell(CellMark.crossed, MarkSource.auto),
       );
     });
 
@@ -98,6 +138,7 @@ void main() {
       final again = board.apply(0, 0, MoveAction.cross);
       expect(again.changed, isFalse);
       expect(again.mistake, isFalse);
+      expect(board.apply(0, 0, MoveAction.fill).changed, isFalse);
     });
 
     test('completing a row auto-crosses its empty cells', () {

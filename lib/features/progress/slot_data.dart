@@ -7,22 +7,30 @@ final class LevelSnapshot {
     required this.levelId,
     required this.cells,
     required this.lives,
+    this.score = 0,
+    this.mistakes = 0,
   });
 
   factory LevelSnapshot.fromJson(Map<String, Object?> json) => LevelSnapshot(
     levelId: json['levelId']! as int,
     cells: json['cells']! as String,
     lives: json['lives']! as int,
+    score: json['score'] as int? ?? 0,
+    mistakes: json['mistakes'] as int? ?? 0,
   );
 
   final int levelId;
   final String cells;
   final int lives;
+  final int score;
+  final int mistakes;
 
   Map<String, Object?> toJson() => {
     'levelId': levelId,
     'cells': cells,
     'lives': lives,
+    'score': score,
+    'mistakes': mistakes,
   };
 }
 
@@ -35,6 +43,7 @@ final class SlotData {
     this.unlockedLevel = 1,
     this.completed = const {},
     this.hints = startingHints,
+    this.totalScore = 0,
     this.snapshot,
   });
 
@@ -44,6 +53,7 @@ final class SlotData {
     unlockedLevel: json['unlockedLevel']! as int,
     completed: {...(json['completed']! as List).cast<int>()},
     hints: json['hints']! as int,
+    totalScore: json['totalScore'] as int? ?? 0,
     snapshot: switch (json['snapshot']) {
       final Map<String, Object?> s => LevelSnapshot.fromJson(s),
       _ => null,
@@ -59,12 +69,16 @@ final class SlotData {
   final int unlockedLevel;
   final Set<int> completed;
   final int hints;
+
+  /// Sum of the scores of all finished levels.
+  final int totalScore;
   final LevelSnapshot? snapshot;
 
   SlotData copyWith({
     int? unlockedLevel,
     Set<int>? completed,
     int? hints,
+    int? totalScore,
     LevelSnapshot? Function()? snapshot,
   }) => SlotData(
     name: name,
@@ -72,6 +86,7 @@ final class SlotData {
     unlockedLevel: unlockedLevel ?? this.unlockedLevel,
     completed: completed ?? this.completed,
     hints: hints ?? this.hints,
+    totalScore: totalScore ?? this.totalScore,
     snapshot: snapshot != null ? snapshot() : this.snapshot,
   );
 
@@ -81,6 +96,7 @@ final class SlotData {
     'unlockedLevel': unlockedLevel,
     'completed': completed.toList()..sort(),
     'hints': hints,
+    'totalScore': totalScore,
     'snapshot': snapshot?.toJson(),
   };
 }

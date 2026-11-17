@@ -7,6 +7,7 @@ import 'package:block_puzzle/core/widgets/sky_background.dart';
 import 'package:block_puzzle/features/ads/ad_service.dart';
 import 'package:block_puzzle/features/game/application/game_controller.dart';
 import 'package:block_puzzle/features/game/domain/puzzle.dart';
+import 'package:block_puzzle/features/game/domain/scoring.dart';
 import 'package:block_puzzle/features/game/presentation/board_view.dart';
 import 'package:block_puzzle/features/game/presentation/game_dialogs.dart';
 import 'package:block_puzzle/features/levels/level_repository.dart';
@@ -139,7 +140,15 @@ class _GamePlayState extends ConsumerState<_GamePlay>
     final next = _puzzle.id < LevelRepository.levelCount
         ? _puzzle.id + 1
         : null;
-    await showLevelCompleteDialog(context, puzzle: _puzzle, nextLevel: next);
+    final finished = ref.read(gameControllerProvider(_puzzle));
+    await showLevelCompleteDialog(
+      context,
+      puzzle: _puzzle,
+      nextLevel: next,
+      score: finished.score,
+      stars: finished.stars,
+      totalScore: ref.read(activeSlotProvider)?.totalScore ?? finished.score,
+    );
     if (!mounted) return;
     await ref.read(adServiceProvider).showInterstitial(context);
     if (!mounted) return;
@@ -196,6 +205,7 @@ class _GamePlayState extends ConsumerState<_GamePlay>
                 lives: state.lives,
                 title: won ? _puzzle.name : null,
               ),
+              _ScoreBar(score: state.score, combo: state.combo),
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -272,6 +282,80 @@ class _TopBar extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+/// Running score with a pulse on every gain, plus the combo multiplier.
+class _ScoreBar extends StatelessWidget {
+  const _ScoreBar({required this.score, required this.combo});
+
+  final int score;
+  final int combo;
+
+  @override
+  Widget build(BuildContext context) {
+    final multiplier = Scoring.multiplier(combo);
+    final toNext = Scoring.comboStep - combo % Scoring.comboStep;
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        TweenAnimationBuilder<double>(
+          tween: Tween(end: score.toDouble()),
+          duration: const Duration(milliseconds: 450),
+          curve: Curves.easeOut,
+          builder: (context, v, _) => Container(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+            decoration: BoxDecoration(
+              color: Colors.black.withValues(alpha: 0.25),
+              borderRadius: BorderRadius.circular(20),
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Icon(Icons.star_rounded, color: AppColors.gold),
+                const SizedBox(width: 6),
+                Text(
+                  '${v.round()}',
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 22,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+        if (combo > 0) ...[
+          const SizedBox(width: 10),
+          // Re-keyed on every combo step so the chip pops each time.
+          Container(
+            key: ValueKey(combo),
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+            decoration: BoxDecoration(
+              color: multiplier >= Scoring.maxMultiplier
+                  ? AppColors.heart
+                  : AppColors.gold,
+              borderRadius: BorderRadius.circular(20),
+            ),
+            child: Text(
+              multiplier >= Scoring.maxMultiplier
+                  ? 'x$multiplier MAX'
+                  : 'x$multiplier  ·  $toNext',
+              style: const TextStyle(
+                color: AppColors.block,
+                fontSize: 16,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+          ).animate().scale(
+            begin: const Offset(0.7, 0.7),
+            duration: 260.ms,
+            curve: Curves.easeOutBack,
+          ),
+        ],
+      ],
     );
   }
 }

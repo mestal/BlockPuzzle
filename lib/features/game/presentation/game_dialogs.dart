@@ -90,6 +90,7 @@ Future<void> showRulesDialog(BuildContext context) {
           line(Icons.square_rounded, l10n.tutorialDoubleTap),
           line(Icons.swipe_rounded, l10n.tutorialDrag),
           line(Icons.favorite_rounded, l10n.rulesMistakes),
+          line(Icons.stars_rounded, l10n.rulesScoring),
           line(Icons.image_rounded, l10n.rulesGoal),
         ],
       ),
@@ -108,6 +109,9 @@ Future<void> showLevelCompleteDialog(
   BuildContext context, {
   required Puzzle puzzle,
   required int? nextLevel,
+  required int score,
+  required int stars,
+  required int totalScore,
 }) {
   final l10n = AppLocalizations.of(context);
   return showDialog<void>(
@@ -136,6 +140,20 @@ Future<void> showLevelCompleteDialog(
               color: AppColors.block,
             ),
           ),
+          const SizedBox(height: 8),
+          _Stars(stars: stars),
+          const SizedBox(height: 4),
+          _CountUp(
+            value: score,
+            builder: (v) => Text(
+              l10n.levelScore(v),
+              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                fontWeight: FontWeight.w700,
+                color: AppColors.goldDeep,
+              ),
+            ),
+          ),
+          Text(l10n.totalScore(totalScore)),
           const Divider(height: 28),
           if (nextLevel == null)
             Text(l10n.allDoneSoon)
@@ -150,6 +168,48 @@ Future<void> showLevelCompleteDialog(
         ),
       ],
     ),
+  );
+}
+
+/// Three stars that pop in one after the other.
+class _Stars extends StatelessWidget {
+  const _Stars({required this.stars});
+
+  final int stars;
+
+  @override
+  Widget build(BuildContext context) => Row(
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: [
+      for (var i = 0; i < 3; i++)
+        Icon(
+              i < stars ? Icons.star_rounded : Icons.star_outline_rounded,
+              size: 44,
+              color: i < stars ? AppColors.gold : Colors.black26,
+            )
+            .animate(delay: (500 + i * 280).ms)
+            .scale(
+              begin: Offset.zero,
+              duration: 500.ms,
+              curve: Curves.elasticOut,
+            ),
+    ],
+  );
+}
+
+/// Counts a number up from zero.
+class _CountUp extends StatelessWidget {
+  const _CountUp({required this.value, required this.builder});
+
+  final int value;
+  final Widget Function(int value) builder;
+
+  @override
+  Widget build(BuildContext context) => TweenAnimationBuilder<double>(
+    tween: Tween(begin: 0, end: value.toDouble()),
+    duration: const Duration(milliseconds: 1200),
+    curve: Curves.easeOutCubic,
+    builder: (context, v, _) => builder(v.round()),
   );
 }
 

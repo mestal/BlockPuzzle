@@ -331,8 +331,26 @@ abstract class AppLocalizations {
   /// No description provided for @rulesMistakes.
   ///
   /// In tr, this message translates to:
-  /// **'Yanlış kareyi doldurursan ya da dolu olması gereken kareye X koyarsan 1 hakkın gider.'**
+  /// **'Boş olması gereken kareyi doldurursan 1 hakkın gider. X koymak serbest: notlarını istediğin gibi alabilirsin.'**
   String get rulesMistakes;
+
+  /// No description provided for @rulesScoring.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğru her doldurma puan kazandırır. Hatasız art arda doldurdukça çarpan büyür (en çok x5). Satır ve sütunları bitirmek ekstra puandır.'**
+  String get rulesScoring;
+
+  /// No description provided for @levelScore.
+  ///
+  /// In tr, this message translates to:
+  /// **'{score} puan'**
+  String levelScore(int score);
+
+  /// No description provided for @totalScore.
+  ///
+  /// In tr, this message translates to:
+  /// **'Toplam: {total}'**
+  String totalScore(int total);
 
   /// No description provided for @rulesGoal.
   ///

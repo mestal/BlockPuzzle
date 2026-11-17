@@ -178,7 +178,7 @@ class _BoardCellState extends State<BoardCell> with TickerProviderStateMixin {
 
   Widget _crossed() {
     final (color, thickness) = switch (widget.cell.source) {
-      MarkSource.auto => (AppColors.crossAuto, 0.08),
+      MarkSource.auto => (AppColors.crossDone, 0.1),
       MarkSource.mistake => (AppColors.mistake, 0.13),
       MarkSource.user || MarkSource.hint => (AppColors.crossUser, 0.13),
     };

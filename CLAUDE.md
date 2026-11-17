@@ -40,28 +40,39 @@ Mod düğmesi yok; işlemi **jest** belirler:
   (önce tek dokunuş = X, sonra çift dokunuş = doldur).
 
 ### Doğru / yanlış nasıl anlaşılır
-Her bölümün çözümü (`solution`) oyunda kayıtlıdır; her hamle **anında** bununla karşılaştırılır:
+Her bölümün çözümü (`solution`) oyunda kayıtlıdır. **X serbesttir**: yanlış yere de konabilir,
+hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kontrol edilir:
 
 | Oyuncunun hamlesi | Çözümde kare dolu | Çözümde kare boş |
 |---|---|---|
-| Doldur | ✅ Doğru, kare dolar | ❌ Yanlış |
-| X koy | ❌ Yanlış | ✅ Doğru, X konur |
+| Doldur (boş veya oyuncu X'i olan kareye) | ✅ Doğru, kare dolar | ❌ Yanlış: kırmızı X'e döner, 1 hak gider |
+| X koy | ✅ (not) | ✅ (not) |
 
-- Yanlış hamlede kare **doğru durumuna** otomatik çevrilir (kırmızı yanıp sönme + sallanma),
-  oyuncu **1 hak** kaybeder.
-- Sürükleme yanlış bir kareye gelirse o kare için 1 hak gider ve **sürükleme orada durur**
-  (tek hamlede birden fazla hak kaybedilmez).
-- Bir satır veya sütunun tüm dolu kareleri bulununca kalan boş kareler otomatik **X** ile işaretlenir,
-  ipucu kutusu altına döner ve **satır/sütun kutlaması** oynar.
-- X'ler kaynağına göre farklı renkte çizilir (`MarkSource` enum'u: `user`, `auto`, `mistake`):
+- Oyuncunun kendi X'i kilitlenmez: üstüne doldurma yapılabilir (dolu karede doğru olur).
+- Sürükleme yanlış doldurmada durur (tek hamlede birden fazla hak gitmez); X sürüklemesi hiç durmaz.
+- Bir satır veya sütunun tüm dolu kareleri bulununca kalan kareler (oyuncunun yanlış X'leri dahil)
+  otomatik **yeşil X** olur, ipucu kutusu altına döner ve **satır/sütun kutlaması** oynar.
+- X'ler kaynağına göre farklı renkte çizilir (`MarkSource` enum'u: `user`, `auto`, `mistake`, `hint`):
 
   | X türü | Renk | Görünüm |
   |---|---|---|
   | Oyuncunun kendi koyduğu X | `#1E3A8A` koyu mavi | kalın, net |
-  | Satır/sütun tamamlanınca otomatik X | `#94A3B8` soluk gri-mavi | ince, dalgayla sırayla belirir |
-  | Yanlış hamle sonrası düzeltilen X | `#EF4444` kırmızı | kırmızı kalır, hatanın yeri görünsün |
+  | Satır/sütun tamamlanınca otomatik X | `#22C55E` yeşil | ince, dalgayla sırayla belirir |
+  | Yanlış doldurma sonrası düzeltilen X | `#EF4444` kırmızı | kırmızı kalır, hatanın yeri görünsün |
 
-  Otomatik X konmuş bir kareye oyuncu sonradan dokunursa hiçbir şey olmaz (kare zaten çözülmüş).
+  Otomatik X konmuş bir kareye oyuncu sonradan dokunursa hiçbir şey olmaz.
+
+### Puanlama (`features/game/domain/scoring.dart`)
+- Doğru doldurma: 10 puan × çarpan. Çarpan her 5 art arda doğru doldurmada artar (x1 → x5);
+  hatada kombo sıfırlanır. İpucu ile açılan kare puan vermez.
+- Satır/sütun bitirme: 50 × çarpan (satır başına).
+- Bölüm sonu: 100 + kalan can × 50 + hatasızsa 200. Yıldız: 0 hata 3★, 1 hata 2★, fazlası 1★.
+- Bölüm puanı yarım kalan bölümle birlikte saklanır; biten bölümler `SlotData.totalScore`'a eklenir.
+
+### Ses
+- Sesler `tool/generate_sounds.dart` ile üretilip `assets/audio/*.wav` olarak saklanır
+  (`dart run tool/generate_sounds.dart`). `SoundService` (`core/audio`) çalar.
+- Sürükleme sürdükçe doldurma/X sesi pentatonik merdivenden yukarı çıkar (giderek incelir).
 
 ### Haklar (can)
 - Her bölüm **3 hak** ile başlar (kalp ikonları).
@@ -138,7 +149,7 @@ Büyük ızgaralarda pinch-zoom + kaydırma desteklenir; dokunma alanı en az 32
   Kod üretimi (build_runner) bilinçli olarak kullanılmıyor.
 - Yönlendirme: **go_router**.
 - Animasyon: `flutter_animate` + özel `CustomPainter` parçacık sistemi.
-- Ses: henüz yok; eklenecekse `audioplayers` (kısa efektler önceden yüklenir). Şimdilik haptic.
+- Ses: `audioplayers` (kısa efektler önceden yüklenir) + haptic.
 - Kalıcılık: `shared_preferences` (`SharedPreferencesAsync`) üzerinde JSON; bir
   `ProgressRepository` arayüzü arkasında.
 - Reklam: `AdService` arayüzü → şimdilik `DummyAdService`.

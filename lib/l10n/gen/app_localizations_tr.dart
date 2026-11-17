@@ -145,7 +145,21 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get rulesMistakes =>
-      'Yanlış kareyi doldurursan ya da dolu olması gereken kareye X koyarsan 1 hakkın gider.';
+      'Boş olması gereken kareyi doldurursan 1 hakkın gider. X koymak serbest: notlarını istediğin gibi alabilirsin.';
+
+  @override
+  String get rulesScoring =>
+      'Doğru her doldurma puan kazandırır. Hatasız art arda doldurdukça çarpan büyür (en çok x5). Satır ve sütunları bitirmek ekstra puandır.';
+
+  @override
+  String levelScore(int score) {
+    return '$score puan';
+  }
+
+  @override
+  String totalScore(int total) {
+    return 'Toplam: $total';
+  }
 
   @override
   String get rulesGoal =>
