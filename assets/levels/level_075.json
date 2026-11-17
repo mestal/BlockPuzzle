@@ -1,6 +1,6 @@
 {
   "id": 75,
-  "name": {"tr": "Lolipop", "en": "Lollipop", "de": "Lutscher", "fr": "Sucette", "es": "Piruleta", "pt": "Pirulito", "it": "Lecca-lecca", "ru": "Леденец", "ar": "مصاصة", "ja": "ペロペロキャンディ", "zh": "棒棒糖"},
+  "name": {"de": "Lutscher", "en": "Lollipop", "es": "Piruleta", "fr": "Sucette", "it": "Lecca-lecca", "pl": "Lizak", "pt": "Pirulito", "tr": "Lolipop", "el": "Γλειφιτζούρι", "bg": "Близалка", "ru": "Леденец", "ar": "مصاصة", "hi": "लॉलीपॉप", "zh": "棒棒糖", "ja": "ペロペロキャンディ", "ko": "막대사탕"},
   "solution": ["..#####...", ".#######..", "#########.", "#########.", "#########.", "#########.", ".#######..", "....#.....", "....#.....", ".........."],
   "colors":   ["..PPPPP...", ".PWWWWWP..", "PWPPPPPWP.", "PWPWWWPWP.", "PWPWPPPWP.", "PWPPWWWWP.", ".PPPPPPP..", "....T.....", "....T.....", ".........."],
   "palette":  { "P": "#F472B6", "T": "#92400E", "W": "#FFFFFF" }

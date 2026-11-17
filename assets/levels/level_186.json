@@ -1,6 +1,6 @@
 {
   "id": 186,
-  "name": {"tr": "Uzay köpeği", "en": "Space dog", "de": "Weltraumhund", "fr": "Chien de l’espace", "es": "Perro espacial", "pt": "Cão espacial", "it": "Cane spaziale", "ru": "Космическая собака", "ar": "كلب الفضاء", "ja": "宇宙犬", "zh": "太空狗"},
+  "name": {"de": "Weltraumhund", "en": "Space dog", "es": "Perro espacial", "fr": "Chien de l’espace", "it": "Cane spaziale", "pl": "Kosmiczny pies", "pt": "Cão espacial", "tr": "Uzay köpeği", "el": "Διαστημικός σκύλος", "bg": "Космическо куче", "ru": "Космическая собака", "ar": "كلب الفضاء", "hi": "अंतरिक्ष कुत्ता", "zh": "太空狗", "ja": "宇宙犬", "ko": "우주 강아지"},
   "solution": ["...####...", "..######..", ".########.", ".########.", ".########.", ".########.", "..######..", "...####...", "..######..", ".########.", "##########", "#.######.#", "..##..##..", "..##..##..", ".........."],
   "colors":   ["...LLLL...", "..LLLLLL..", ".LLTTTTLL.", ".LTKTTKTL.", ".LTTTTTTL.", ".LTTKKTTL.", "..LTTTTL..", "...LLLL...", "..TTTTTT..", ".TTTTTTTT.", "TTRTTTTTTT", "T.TTTTTT.T", "..TT..TT..", "..HH..HH..", ".........."],
   "palette":  { "H": "#5B3410", "K": "#1F2937", "L": "#E2E8F0", "R": "#E8453C", "T": "#92400E" }

@@ -1,6 +1,6 @@
 {
   "id": 95,
-  "name": {"tr": "Boynuzlu kafatası", "en": "Cow skull", "de": "Kuhschädel", "fr": "Crâne de vache", "es": "Calavera de vaca", "pt": "Crânio de vaca", "it": "Teschio di mucca", "ru": "Бычий череп", "ar": "جمجمة بقرة", "ja": "牛の頭骨", "zh": "牛头骨"},
+  "name": {"de": "Kuhschädel", "en": "Cow skull", "es": "Calavera de vaca", "fr": "Crâne de vache", "it": "Teschio di mucca", "pl": "Krowia czaszka", "pt": "Crânio de vaca", "tr": "Boynuzlu kafatası", "el": "Κρανίο αγελάδας", "bg": "Кравешки череп", "ru": "Бычий череп", "ar": "جمجمة بقرة", "hi": "गाय की खोपड़ी", "zh": "牛头骨", "ja": "牛の頭骨", "ko": "소 두개골"},
   "solution": ["..........", "..........", "#........#", "##......##", ".########.", "##########", "##########", "##########", ".########.", "..######..", "..######..", "...####...", "...####...", "..........", ".........."],
   "colors":   ["..........", "..........", "L........L", "LL......LL", ".LLLLLLLL.", "LLLLLLLLLL", "LKKLLLLKKL", "LKKLLLLKKL", ".LLLLLLLL.", "..LLLLLL..", "..LKLLKL..", "...LLLL...", "...LLLL...", "..........", ".........."],
   "palette":  { "K": "#1F2937", "L": "#E2E8F0" }

@@ -1,6 +1,6 @@
 {
   "id": 24,
-  "name": {"tr": "Kumdan kale", "en": "Sandcastle", "de": "Sandburg", "fr": "Château de sable", "es": "Castillo de arena", "pt": "Castelo de areia", "it": "Castello di sabbia", "ru": "Замок из песка", "ar": "قلعة رملية", "ja": "砂の城", "zh": "沙堡"},
+  "name": {"de": "Sandburg", "en": "Sandcastle", "es": "Castillo de arena", "fr": "Château de sable", "it": "Castello di sabbia", "pl": "Zamek z piasku", "pt": "Castelo de areia", "tr": "Kumdan kale", "el": "Κάστρο στην άμμο", "bg": "Пясъчен замък", "ru": "Замок из песка", "ar": "قلعة رملية", "hi": "रेत का किला", "zh": "沙堡", "ja": "砂の城", "ko": "모래성"},
   "solution": ["..........", ".#.#.#.#..", ".#######..", "..#####...", "..#####...", "..#####...", "..#####...", ".#######..", "..........", ".........."],
   "colors":   ["..........", ".S.S.S.S..", ".SSSSSSS..", "..SSSSS...", "..STSTS...", "..SSSSS...", "..SSTSS...", ".SSSTSSS..", "..........", ".........."],
   "palette":  { "S": "#FDE68A", "T": "#92400E" }

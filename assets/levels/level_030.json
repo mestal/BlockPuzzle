@@ -1,6 +1,6 @@
 {
   "id": 30,
-  "name": {"tr": "Balina", "en": "Whale", "de": "Wal", "fr": "Baleine", "es": "Ballena", "pt": "Baleia", "it": "Balena", "ru": "Кит", "ar": "حوت", "ja": "クジラ", "zh": "鲸鱼"},
+  "name": {"de": "Wal", "en": "Whale", "es": "Ballena", "fr": "Baleine", "it": "Balena", "pl": "Wieloryb", "pt": "Baleia", "tr": "Balina", "el": "Φάλαινα", "bg": "Кит", "ru": "Кит", "ar": "حوت", "hi": "व्हेल", "zh": "鲸鱼", "ja": "クジラ", "ko": "고래"},
   "solution": ["..........", "...#.#....", "....#.....", "..#####...", ".#######..", ".########.", ".########.", "..#######.", "...####.#.", ".........."],
   "colors":   ["..........", "...C.C....", "....C.....", "..BBBBB...", ".BBBBBBB..", ".BKBBBBBB.", ".BBBBBBBB.", "..IIIIBBB.", "...IIII.B.", ".........."],
   "palette":  { "B": "#3B82F6", "C": "#22D3EE", "I": "#BAE6FD", "K": "#1F2937" }

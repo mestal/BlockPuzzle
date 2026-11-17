@@ -1,6 +1,6 @@
 {
   "id": 46,
-  "name": {"tr": "Fener", "en": "Lantern", "de": "Laterne", "fr": "Lanterne", "es": "Farol", "pt": "Lanterna", "it": "Lanterna", "ru": "Фонарь", "ar": "فانوس", "ja": "ランタン", "zh": "灯笼"},
+  "name": {"de": "Laterne", "en": "Lantern", "es": "Farol", "fr": "Lanterne", "it": "Lanterna", "pl": "Latarnia", "pt": "Lanterna", "tr": "Fener", "el": "Φανάρι", "bg": "Фенер", "ru": "Фонарь", "ar": "فانوس", "hi": "लालटेन", "zh": "灯笼", "ja": "ランタン", "ko": "랜턴"},
   "solution": ["...###....", "..#...#...", ".#######..", ".#######..", ".#######..", ".#######..", ".#######..", ".#######..", "...###....", ".........."],
   "colors":   ["...KKK....", "..K...K...", ".KKKKKKK..", ".KYYYYYK..", ".KYOOOYK..", ".KYOOOYK..", ".KYYYYYK..", ".KKKKKKK..", "...KKK....", ".........."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "Y": "#FACC15" }

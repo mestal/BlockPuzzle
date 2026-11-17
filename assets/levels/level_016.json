@@ -1,6 +1,6 @@
 {
   "id": 16,
-  "name": {"tr": "Şemsiye", "en": "Umbrella", "de": "Regenschirm", "fr": "Parapluie", "es": "Paraguas", "pt": "Guarda-chuva", "it": "Ombrello", "ru": "Зонт", "ar": "مظلة", "ja": "傘", "zh": "雨伞"},
+  "name": {"de": "Regenschirm", "en": "Umbrella", "es": "Paraguas", "fr": "Parapluie", "it": "Ombrello", "pl": "Parasol", "pt": "Guarda-chuva", "tr": "Şemsiye", "el": "Ομπρέλα", "bg": "Чадър", "ru": "Зонт", "ar": "مظلة", "hi": "छाता", "zh": "雨伞", "ja": "傘", "ko": "우산"},
   "solution": ["..#..", ".###.", "#####", "#####", "..#..", "..#..", "..#..", "..#..", "#.#..", ".##.."],
   "colors":   ["..R..", ".RRR.", "RRRRR", "RWRWR", "..T..", "..T..", "..T..", "..T..", "T.T..", ".TT.."],
   "palette":  { "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }

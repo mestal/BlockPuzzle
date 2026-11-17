@@ -1,6 +1,6 @@
 {
   "id": 65,
-  "name": {"tr": "Pasta dilimi", "en": "Cake slice", "de": "Kuchenstück", "fr": "Part de gâteau", "es": "Trozo de tarta", "pt": "Fatia de bolo", "it": "Fetta di torta", "ru": "Кусочек торта", "ar": "قطعة كعك", "ja": "ケーキ", "zh": "蛋糕块"},
+  "name": {"de": "Kuchenstück", "en": "Cake slice", "es": "Trozo de tarta", "fr": "Part de gâteau", "it": "Fetta di torta", "pl": "Kawałek ciasta", "pt": "Fatia de bolo", "tr": "Pasta dilimi", "el": "Κομμάτι τούρτας", "bg": "Парче торта", "ru": "Кусочек торта", "ar": "قطعة كعك", "hi": "केक का टुकड़ा", "zh": "蛋糕块", "ja": "ケーキ", "ko": "케이크 조각"},
   "solution": [".......#..", ".....####.", "...######.", ".########.", "#########.", "#########.", "#########.", "#########.", "#########.", ".........."],
   "colors":   [".......R..", ".....JJJJ.", "...JJJJJJ.", ".JJJJJJJJ.", "SSSSSSSSS.", "PPPPPPPPP.", "SSSSSSSSS.", "PPPPPPPPP.", "SSSSSSSSS.", ".........."],
   "palette":  { "J": "#FBCFE8", "P": "#F472B6", "R": "#E8453C", "S": "#FDE68A" }

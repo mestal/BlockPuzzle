@@ -1,6 +1,6 @@
 {
   "id": 5,
-  "name": {"tr": "Kupa", "en": "Trophy", "de": "Pokal", "fr": "Coupe", "es": "Copa", "pt": "Troféu", "it": "Coppa", "ru": "Кубок", "ar": "كأس", "ja": "トロフィー", "zh": "奖杯"},
+  "name": {"de": "Pokal", "en": "Trophy", "es": "Copa", "fr": "Coupe", "it": "Coppa", "pl": "Puchar", "pt": "Troféu", "tr": "Kupa", "el": "Τρόπαιο", "bg": "Трофей", "ru": "Кубок", "ar": "كأس", "hi": "ट्रॉफी", "zh": "奖杯", "ja": "トロフィー", "ko": "트로피"},
   "solution": ["#####", "#####", ".###.", "..#..", ".###."],
   "colors":   ["AYAAA", "AAAAA", ".AAA.", "..T..", ".TTT."],
   "palette":  { "A": "#F59E0B", "T": "#92400E", "Y": "#FACC15" }

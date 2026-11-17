@@ -1,6 +1,6 @@
 {
   "id": 171,
-  "name": {"tr": "Zeplin", "en": "Airship", "de": "Luftschiff", "fr": "Dirigeable", "es": "Dirigible", "pt": "Dirigível", "it": "Dirigibile", "ru": "Дирижабль", "ar": "منطاد", "ja": "飛行船", "zh": "飞艇"},
+  "name": {"de": "Luftschiff", "en": "Airship", "es": "Dirigible", "fr": "Dirigeable", "it": "Dirigibile", "pl": "Sterowiec", "pt": "Dirigível", "tr": "Zeplin", "el": "Αερόπλοιο", "bg": "Дирижабъл", "ru": "Дирижабль", "ar": "منطاد", "hi": "हवाई पोत", "zh": "飞艇", "ja": "飛行船", "ko": "비행선"},
   "solution": ["....##....", "...####...", "..######..", "..######..", "..######..", "..######..", "..######..", "..######..", "..######..", "...####...", "...####...", "...####...", ".##.##.##.", ".#..##..#.", ".........."],
   "colors":   ["....EE....", "...EEEE...", "..EEEEEE..", "..ERRRRE..", "..EEEEEE..", "..EEEEEE..", "..ERRRRE..", "..EEEEEE..", "..EEEEEE..", "...EEEE...", "...TTTT...", "...TKKT...", ".EE.EE.EE.", ".E..EE..E.", ".........."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937", "R": "#E8453C", "T": "#92400E" }

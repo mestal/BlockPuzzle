@@ -1,6 +1,6 @@
 {
   "id": 172,
-  "name": {"tr": "Güneşli bulut", "en": "Sun and cloud", "de": "Sonne und Wolke", "fr": "Soleil et nuage", "es": "Sol y nube", "pt": "Sol e nuvem", "it": "Sole e nuvola", "ru": "Солнце и облако", "ar": "شمس وغيمة", "ja": "晴れときどき曇り", "zh": "太阳和云"},
+  "name": {"de": "Sonne und Wolke", "en": "Sun and cloud", "es": "Sol y nube", "fr": "Soleil et nuage", "it": "Sole e nuvola", "pl": "Słońce i chmurka", "pt": "Sol e nuvem", "tr": "Güneşli bulut", "el": "Ήλιος και σύννεφο", "bg": "Слънце и облак", "ru": "Солнце и облако", "ar": "شمس وغيمة", "hi": "सूरज और बादल", "zh": "太阳和云", "ja": "晴れときどき曇り", "ko": "해와 구름"},
   "solution": ["..........", "..#...#...", "...#.#....", ".#.###.#..", "...#####..", "########..", "...######.", "..########", ".#..######", "...#######", "..########", ".#########", "##########", ".########.", ".........."],
   "colors":   ["..........", "..Y...Y...", "...Y.Y....", ".Y.YYY.Y..", "...YYYYY..", "YYYYYYYY..", "...YYYLLL.", "..YYYLLLLL", ".Y..LLLLLL", "...LLLLLLL", "..LLLLLLLL", ".LLLLLLLLL", "LLLLLLLLLL", ".LLLLLLLL.", ".........."],
   "palette":  { "L": "#E2E8F0", "Y": "#FACC15" }

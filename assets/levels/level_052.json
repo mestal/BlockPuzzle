@@ -1,6 +1,6 @@
 {
   "id": 52,
-  "name": {"tr": "Kirpi", "en": "Hedgehog", "de": "Igel", "fr": "Hérisson", "es": "Erizo", "pt": "Ouriço", "it": "Riccio", "ru": "Ёжик", "ar": "قنفذ", "ja": "ハリネズミ", "zh": "刺猬"},
+  "name": {"de": "Igel", "en": "Hedgehog", "es": "Erizo", "fr": "Hérisson", "it": "Riccio", "pl": "Jeż", "pt": "Ouriço", "tr": "Kirpi", "el": "Σκαντζόχοιρος", "bg": "Таралеж", "ru": "Ёжик", "ar": "قنفذ", "hi": "हेजहॉग", "zh": "刺猬", "ja": "ハリネズミ", "ko": "고슴도치"},
   "solution": ["..........", "...#.#.#..", "..#######.", ".########.", "..#######.", ".########.", ".#######..", "..######..", "...#..#...", ".........."],
   "colors":   ["..........", "...H.H.H..", "..HHHHHHH.", ".HHHHHHHH.", "..FFHHHHH.", ".FKFFHHHH.", ".KFFFFFF..", "..FFFFFF..", "...T..T...", ".........."],
   "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "T": "#92400E" }

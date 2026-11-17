@@ -1,6 +1,6 @@
 {
   "id": 8,
-  "name": {"tr": "Kedi", "en": "Cat", "de": "Katze", "fr": "Chat", "es": "Gato", "pt": "Gato", "it": "Gatto", "ru": "Кошка", "ar": "قطة", "ja": "ネコ", "zh": "猫"},
+  "name": {"de": "Katze", "en": "Cat", "es": "Gato", "fr": "Chat", "it": "Gatto", "pl": "Kot", "pt": "Gato", "tr": "Kedi", "el": "Γάτα", "bg": "Котка", "ru": "Кошка", "ar": "قطة", "hi": "बिल्ली", "zh": "猫", "ja": "ネコ", "ko": "고양이"},
   "solution": ["##..#", "#####", "#####", "#####", ".###."],
   "colors":   ["OO..O", "OOOOO", "OKOKO", "OOPOO", ".OOO."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "P": "#F472B6" }

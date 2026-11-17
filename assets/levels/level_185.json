@@ -1,6 +1,6 @@
 {
   "id": 185,
-  "name": {"tr": "Mars aracı", "en": "Mars rover", "de": "Marsrover", "fr": "Rover martien", "es": "Rover marciano", "pt": "Jipe marciano", "it": "Rover marziano", "ru": "Марсоход", "ar": "مركبة المريخ", "ja": "火星探査車", "zh": "火星车"},
+  "name": {"de": "Marsrover", "en": "Mars rover", "es": "Rover marciano", "fr": "Rover martien", "it": "Rover marziano", "pl": "Łazik marsjański", "pt": "Jipe marciano", "tr": "Mars aracı", "el": "Ρόβερ του Άρη", "bg": "Марсоход", "ru": "Марсоход", "ar": "مركبة المريخ", "hi": "मंगल रोवर", "zh": "火星车", "ja": "火星探査車", "ko": "화성 탐사차"},
   "solution": ["..........", "......#...", ".....###..", "......#...", "......#...", ".########.", "##########", "##########", "##########", ".#...#..#.", "###.###.##", "###.###.##", "###.###.##", "##########", ".........."],
   "colors":   ["..........", "......E...", ".....EEE..", "......E...", "......E...", ".LLLLLLLL.", "LLLLLLLLLL", "LLBBBLLLLL", "LLLLLLLLLL", ".E...E..E.", "KKK.KKK.KK", "KEK.KEK.KE", "KKK.KKK.KK", "RRRRRRRRRR", ".........."],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0", "R": "#E8453C" }

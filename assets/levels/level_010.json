@@ -1,6 +1,6 @@
 {
   "id": 10,
-  "name": {"tr": "Yıldız", "en": "Star", "de": "Stern", "fr": "Étoile", "es": "Estrella", "pt": "Estrela", "it": "Stella", "ru": "Звезда", "ar": "نجمة", "ja": "星", "zh": "星星"},
+  "name": {"de": "Stern", "en": "Star", "es": "Estrella", "fr": "Étoile", "it": "Stella", "pl": "Gwiazda", "pt": "Estrela", "tr": "Yıldız", "el": "Αστέρι", "bg": "Звезда", "ru": "Звезда", "ar": "نجمة", "hi": "तारा", "zh": "星星", "ja": "星", "ko": "별"},
   "solution": ["..#..", ".###.", "#####", ".###.", ".#.#."],
   "colors":   ["..Y..", ".YYY.", "YYAYY", ".YYY.", ".Y.Y."],
   "palette":  { "A": "#F59E0B", "Y": "#FACC15" }

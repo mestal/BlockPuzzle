@@ -1,6 +1,6 @@
 {
   "id": 112,
-  "name": {"tr": "Sıcak çikolata", "en": "Hot chocolate", "de": "Heiße Schokolade", "fr": "Chocolat chaud", "es": "Chocolate caliente", "pt": "Chocolate quente", "it": "Cioccolata calda", "ru": "Горячий шоколад", "ar": "شوكولاتة ساخنة", "ja": "ホットチョコレート", "zh": "热巧克力"},
+  "name": {"de": "Heiße Schokolade", "en": "Hot chocolate", "es": "Chocolate caliente", "fr": "Chocolat chaud", "it": "Cioccolata calda", "pl": "Gorąca czekolada", "pt": "Chocolate quente", "tr": "Sıcak çikolata", "el": "Ζεστή σοκολάτα", "bg": "Горещ шоколад", "ru": "Горячий шоколад", "ar": "شوكولاتة ساخنة", "hi": "हॉट चॉकलेट", "zh": "热巧克力", "ja": "ホットチョコレート", "ko": "핫초코"},
   "solution": ["..........", "..........", "..#..#....", "...#..#...", "..#..#....", "#######...", "#########.", "#######.#.", "#######.#.", "#########.", "#######...", ".#####....", "########..", "..........", ".........."],
   "colors":   ["..........", "..........", "..L..L....", "...L..L...", "..L..L....", "RRRRRRR...", "RHHHHHRRR.", "RRRRRRR.R.", "RRWRWRR.R.", "RRRRRRRRR.", "RRRRRRR...", ".RRRRR....", "EEEEEEEE..", "..........", ".........."],
   "palette":  { "E": "#94A3B8", "H": "#5B3410", "L": "#E2E8F0", "R": "#E8453C", "W": "#FFFFFF" }

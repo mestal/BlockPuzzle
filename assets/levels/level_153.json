@@ -1,6 +1,6 @@
 {
   "id": 153,
-  "name": {"tr": "Alev", "en": "Flame", "de": "Flamme", "fr": "Flamme", "es": "Llama", "pt": "Chama", "it": "Fiamma", "ru": "Пламя", "ar": "لهب", "ja": "炎", "zh": "火焰"},
+  "name": {"de": "Flamme", "en": "Flame", "es": "Llama", "fr": "Flamme", "it": "Fiamma", "pl": "Płomień", "pt": "Chama", "tr": "Alev", "el": "Φλόγα", "bg": "Пламък", "ru": "Пламя", "ar": "لهب", "hi": "लौ", "zh": "火焰", "ja": "炎", "ko": "불꽃"},
   "solution": ["..........", "....#.....", "....##....", "...###....", "...####...", "..####..#.", "..#######.", ".########.", ".########.", "#########.", "#########.", "#########.", ".#######..", "..#####...", ".........."],
   "colors":   ["..........", "....R.....", "....RR....", "...RRR....", "...RORR...", "..RROR..R.", "..ROOORRR.", ".RROOOORR.", ".ROOYOORR.", "RROYYYORR.", "ROOYYYOOR.", "ROYYWYYOR.", ".ROYYYOR..", "..RRRRR...", ".........."],
   "palette":  { "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

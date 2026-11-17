@@ -1,6 +1,6 @@
 {
   "id": 78,
-  "name": {"tr": "Külah dondurma", "en": "Ice cream cone", "de": "Eistüte", "fr": "Cornet de glace", "es": "Cucurucho", "pt": "Casquinha de sorvete", "it": "Cono gelato", "ru": "Рожок мороженого", "ar": "بوظة بالبسكويت", "ja": "ソフトクリーム", "zh": "甜筒"},
+  "name": {"de": "Eistüte", "en": "Ice cream cone", "es": "Cucurucho", "fr": "Cornet de glace", "it": "Cono gelato", "pl": "Lody w rożku", "pt": "Casquinha de sorvete", "tr": "Külah dondurma", "el": "Χωνάκι παγωτό", "bg": "Фунийка сладолед", "ru": "Рожок мороженого", "ar": "بوظة بالبسكويت", "hi": "आइसक्रीम कोन", "zh": "甜筒", "ja": "ソフトクリーム", "ko": "아이스크림콘"},
   "solution": ["....##....", "...####...", "..######..", ".########.", ".########.", "##########", ".########.", "..######..", "...####...", "....##...."],
   "colors":   ["....JJ....", "...JJJJ...", "..CCJJCC..", ".CCCCCCCC.", ".YYYCCYYY.", "YYYYYYYYYY", ".TTTTTTTT.", "..THTHTT..", "...TTHT...", "....TT...."],
   "palette":  { "C": "#22D3EE", "H": "#5B3410", "J": "#FBCFE8", "T": "#92400E", "Y": "#FACC15" }

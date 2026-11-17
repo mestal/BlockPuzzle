@@ -1,6 +1,6 @@
 {
   "id": 11,
-  "name": {"tr": "Kale", "en": "Castle", "de": "Burg", "fr": "Château", "es": "Castillo", "pt": "Castelo", "it": "Castello", "ru": "Замок", "ar": "قلعة", "ja": "お城", "zh": "城堡"},
+  "name": {"de": "Burg", "en": "Castle", "es": "Castillo", "fr": "Château", "it": "Castello", "pl": "Zamek", "pt": "Castelo", "tr": "Kale", "el": "Κάστρο", "bg": "Замък", "ru": "Замок", "ar": "قلعة", "hi": "किला", "zh": "城堡", "ja": "お城", "ko": "성"},
   "solution": ["#.#.##.#.#", "##########", "##########", "##########", "##########"],
   "colors":   ["E.E.EE.E.E", "EEEEEEEEEE", "EEBEEEEBEE", "EEEEHHEEEE", "EEEEHHEEEE"],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "H": "#5B3410" }

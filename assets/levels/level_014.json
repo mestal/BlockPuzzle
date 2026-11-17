@@ -1,6 +1,6 @@
 {
   "id": 14,
-  "name": {"tr": "Robot", "en": "Robot", "de": "Roboter", "fr": "Robot", "es": "Robot", "pt": "Robô", "it": "Robot", "ru": "Робот", "ar": "روبوت", "ja": "ロボット", "zh": "机器人"},
+  "name": {"de": "Roboter", "en": "Robot", "es": "Robot", "fr": "Robot", "it": "Robot", "pl": "Robot", "pt": "Robô", "tr": "Robot", "el": "Ρομπότ", "bg": "Робот", "ru": "Робот", "ar": "روبوت", "hi": "रोबोट", "zh": "机器人", "ja": "ロボット", "ko": "로봇"},
   "solution": ["..#..", ".###.", "#####", "#####", "..#..", "#####", "#####", "#####", ".#.#.", ".#.#."],
   "colors":   ["..R..", ".EEE.", "EBEBE", "EKKKE", "..E..", "EEEEE", "EAEAE", "EEEEE", ".E.E.", ".E.E."],
   "palette":  { "A": "#F59E0B", "B": "#3B82F6", "E": "#94A3B8", "K": "#1F2937", "R": "#E8453C" }

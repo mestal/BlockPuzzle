@@ -1,6 +1,6 @@
 {
   "id": 69,
-  "name": {"tr": "Jelibon ayı", "en": "Gummy bear", "de": "Gummibär", "fr": "Ourson en gélatine", "es": "Osito de goma", "pt": "Ursinho de goma", "it": "Orsetto gommoso", "ru": "Мармеладный мишка", "ar": "دب الجيلي", "ja": "グミベア", "zh": "小熊软糖"},
+  "name": {"de": "Gummibär", "en": "Gummy bear", "es": "Osito de goma", "fr": "Ourson en gélatine", "it": "Orsetto gommoso", "pl": "Żelkowy miś", "pt": "Ursinho de goma", "tr": "Jelibon ayı", "el": "Ζελεδάκι αρκουδάκι", "bg": "Желирано мече", "ru": "Мармеладный мишка", "ar": "دب الجيلي", "hi": "गमी बेयर", "zh": "小熊软糖", "ja": "グミベア", "ko": "젤리곰"},
   "solution": [".##....##.", "##########", ".########.", ".########.", ".########.", "..######..", "##########", "##########", ".########.", ".###..###."],
   "colors":   [".RR....RR.", "RRRRRRRRRR", ".RRRRRRRR.", ".RKRRRRKR.", ".RRRXXRRR.", "..RRRRRR..", "RRRRRRRRRR", "RRRRRRRRRR", ".RRRRRRRR.", ".RRR..RRR."],
   "palette":  { "K": "#1F2937", "R": "#E8453C", "X": "#991B1B" }

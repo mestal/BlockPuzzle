@@ -1,6 +1,6 @@
 {
   "id": 147,
-  "name": {"tr": "Stegozor", "en": "Stegosaurus", "de": "Stegosaurus", "fr": "Stégosaure", "es": "Estegosaurio", "pt": "Estegossauro", "it": "Stegosauro", "ru": "Стегозавр", "ar": "ستيغوسورس", "ja": "ステゴサウルス", "zh": "剑龙"},
+  "name": {"de": "Stegosaurus", "en": "Stegosaurus", "es": "Estegosaurio", "fr": "Stégosaure", "it": "Stegosauro", "pl": "Stegozaur", "pt": "Estegossauro", "tr": "Stegozor", "el": "Στεγόσαυρος", "bg": "Стегозавър", "ru": "Стегозавр", "ar": "ستيغوسورس", "hi": "स्टेगोसॉरस", "zh": "剑龙", "ja": "ステゴサウルス", "ko": "스테고사우루스"},
   "solution": ["..........", "..........", "....#.....", "...###.#..", ".#.######.", ".#########", "..#######.", ".#########", "##########", "#########.", "###.####..", "....#.#...", "...##.##..", "..........", ".........."],
   "colors":   ["..........", "..........", "....O.....", "...OOO.O..", ".O.OOOOOO.", ".OOOOOOOOO", "..GGGGGGG.", ".GGGGGGGGG", "GGGGGGGGGG", "GKGGGGGGG.", "GGG.GGGG..", "....G.G...", "...GG.GG..", "..........", ".........."],
   "palette":  { "G": "#22C55E", "K": "#1F2937", "O": "#F97316" }

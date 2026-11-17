@@ -1,6 +1,6 @@
 {
   "id": 15,
-  "name": {"tr": "Ağaç", "en": "Tree", "de": "Baum", "fr": "Arbre", "es": "Árbol", "pt": "Árvore", "it": "Albero", "ru": "Дерево", "ar": "شجرة", "ja": "木", "zh": "树"},
+  "name": {"de": "Baum", "en": "Tree", "es": "Árbol", "fr": "Arbre", "it": "Albero", "pl": "Drzewo", "pt": "Árvore", "tr": "Ağaç", "el": "Δέντρο", "bg": "Дърво", "ru": "Дерево", "ar": "شجرة", "hi": "पेड़", "zh": "树", "ja": "木", "ko": "나무"},
   "solution": ["..#..", ".###.", "#####", ".###.", "#####", "#####", ".###.", "..#..", "..#..", ".###."],
   "colors":   ["..D..", ".DGD.", "DDDDD", ".DDD.", "DGDDD", "DDDGD", ".DDD.", "..T..", "..T..", ".TTT."],
   "palette":  { "D": "#15803D", "G": "#22C55E", "T": "#92400E" }

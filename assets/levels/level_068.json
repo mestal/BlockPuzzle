@@ -1,6 +1,6 @@
 {
   "id": 68,
-  "name": {"tr": "Makaron", "en": "Macaron", "de": "Macaron", "fr": "Macaron", "es": "Macaron", "pt": "Macaron", "it": "Macaron", "ru": "Макарон", "ar": "ماكرون", "ja": "マカロン", "zh": "马卡龙"},
+  "name": {"de": "Macaron", "en": "Macaron", "es": "Macaron", "fr": "Macaron", "it": "Macaron", "pl": "Makaronik", "pt": "Macaron", "tr": "Makaron", "el": "Μακαρόν", "bg": "Макарон", "ru": "Макарон", "ar": "ماكرون", "hi": "मैकरॉन", "zh": "马卡龙", "ja": "マカロン", "ko": "마카롱"},
   "solution": ["..#####...", ".#######..", "#########.", ".#######..", "#########.", ".#######..", "#########.", ".#######..", "..#####...", ".........."],
   "colors":   ["..PPPPP...", ".PPPPPPP..", "PPPPPPPPP.", ".WWWWWWW..", "JJJJJJJJJ.", ".WWWWWWW..", "PPPPPPPPP.", ".PPPPPPP..", "..PPPPP...", ".........."],
   "palette":  { "J": "#FBCFE8", "P": "#F472B6", "W": "#FFFFFF" }

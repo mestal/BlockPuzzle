@@ -1,6 +1,6 @@
 {
   "id": 43,
-  "name": {"tr": "Salyangoz", "en": "Snail", "de": "Schnecke", "fr": "Escargot", "es": "Caracol", "pt": "Caracol", "it": "Lumaca", "ru": "Улитка", "ar": "حلزون", "ja": "カタツムリ", "zh": "蜗牛"},
+  "name": {"de": "Schnecke", "en": "Snail", "es": "Caracol", "fr": "Escargot", "it": "Lumaca", "pl": "Ślimak", "pt": "Caracol", "tr": "Salyangoz", "el": "Σαλιγκάρι", "bg": "Охлюв", "ru": "Улитка", "ar": "حلزون", "hi": "घोंघा", "zh": "蜗牛", "ja": "カタツムリ", "ko": "달팽이"},
   "solution": ["..........", ".#.#......", ".#.#.###..", ".########.", ".########.", ".########.", ".#######..", "#########.", ".#######..", ".........."],
   "colors":   ["..........", ".K.K......", ".F.F.TTT..", ".FFFTHHHT.", ".FKFTHTHT.", ".FFFTHHHT.", ".FFFTTTT..", "FFFFFFFFF.", ".FFFFFFF..", ".........."],
   "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "T": "#92400E" }

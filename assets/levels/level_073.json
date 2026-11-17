@@ -1,6 +1,6 @@
 {
   "id": 73,
-  "name": {"tr": "Dondurma kupası", "en": "Sundae", "de": "Eisbecher", "fr": "Coupe glacée", "es": "Copa de helado", "pt": "Sundae", "it": "Coppa gelato", "ru": "Сандей", "ar": "سانداي", "ja": "サンデー", "zh": "圣代"},
+  "name": {"de": "Eisbecher", "en": "Sundae", "es": "Copa de helado", "fr": "Coupe glacée", "it": "Coppa gelato", "pl": "Puchar lodowy", "pt": "Sundae", "tr": "Dondurma kupası", "el": "Παγωτό κύπελλο", "bg": "Сладоледена купа", "ru": "Сандей", "ar": "سانداي", "hi": "संडे आइसक्रीम", "zh": "圣代", "ja": "サンデー", "ko": "선데 아이스크림"},
   "solution": ["....##....", "...####...", "..######..", ".########.", "##########", "##########", ".########.", "..######..", "....##....", "..######.."],
   "colors":   ["....RR....", "...PPPP...", "..PPPPPP..", ".JJJJJJJJ.", "JJJJJJJJJJ", "IIIIIIIIII", ".IIIIIIII.", "..IIIIII..", "....II....", "..IIIIII.."],
   "palette":  { "I": "#BAE6FD", "J": "#FBCFE8", "P": "#F472B6", "R": "#E8453C" }

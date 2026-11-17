@@ -1,6 +1,6 @@
 {
   "id": 193,
-  "name": {"tr": "Ay modülü", "en": "Lunar lander", "de": "Mondlandefähre", "fr": "Module lunaire", "es": "Módulo lunar", "pt": "Módulo lunar", "it": "Modulo lunare", "ru": "Лунный модуль", "ar": "مركبة الهبوط القمرية", "ja": "月着陸船", "zh": "登月舱"},
+  "name": {"de": "Mondlandefähre", "en": "Lunar lander", "es": "Módulo lunar", "fr": "Module lunaire", "it": "Modulo lunare", "pl": "Lądownik księżycowy", "pt": "Módulo lunar", "tr": "Ay modülü", "el": "Σεληνάκατος", "bg": "Лунен модул", "ru": "Лунный модуль", "ar": "مركبة الهبوط القمرية", "hi": "चंद्र लैंडर", "zh": "登月舱", "ja": "月着陸船", "ko": "달 착륙선"},
   "solution": ["..........", "....##....", "...####...", "..######..", "..######..", "..######..", ".########.", ".########.", ".#.####.#.", ".#..##..#.", "#...##...#", "#........#", "##......##", "##########", ".........."],
   "colors":   ["..........", "....AA....", "...AAAA...", "..ALLLLA..", "..ALKKLA..", "..ALLLLA..", ".AAAAAAAA.", ".EAAAAAAE.", ".E.AAAA.E.", ".E..EE..E.", "E...EE...E", "E........E", "EE......EE", "LLLLLLLLLL", ".........."],
   "palette":  { "A": "#F59E0B", "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0" }

@@ -1,6 +1,6 @@
 {
   "id": 21,
-  "name": {"tr": "Plaj topu", "en": "Beach ball", "de": "Wasserball", "fr": "Ballon de plage", "es": "Pelota de playa", "pt": "Bola de praia", "it": "Pallone da spiaggia", "ru": "Пляжный мяч", "ar": "كرة الشاطئ", "ja": "ビーチボール", "zh": "沙滩球"},
+  "name": {"de": "Wasserball", "en": "Beach ball", "es": "Pelota de playa", "fr": "Ballon de plage", "it": "Pallone da spiaggia", "pl": "Piłka plażowa", "pt": "Bola de praia", "tr": "Plaj topu", "el": "Μπάλα θαλάσσης", "bg": "Плажна топка", "ru": "Пляжный мяч", "ar": "كرة الشاطئ", "hi": "बीच बॉल", "zh": "沙滩球", "ja": "ビーチボール", "ko": "비치볼"},
   "solution": ["..........", "...###....", "..#####...", ".#######..", ".#######..", ".#######..", "..#####...", "...###....", "..........", ".........."],
   "colors":   ["..........", "...RWB....", "..RRWBB...", ".RRRWBBB..", ".RRRWBBB..", ".RRRWBBB..", "..RRWBB...", "...RWB....", "..........", ".........."],
   "palette":  { "B": "#3B82F6", "R": "#E8453C", "W": "#FFFFFF" }

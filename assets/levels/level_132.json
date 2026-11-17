@@ -1,6 +1,6 @@
 {
   "id": 132,
-  "name": {"tr": "Kalamar", "en": "Squid", "de": "Tintenfisch", "fr": "Calmar", "es": "Calamar", "pt": "Lula", "it": "Calamaro", "ru": "Кальмар", "ar": "حبار", "ja": "イカ", "zh": "鱿鱼"},
+  "name": {"de": "Tintenfisch", "en": "Squid", "es": "Calamar", "fr": "Calmar", "it": "Calamaro", "pl": "Kałamarnica", "pt": "Lula", "tr": "Kalamar", "el": "Καλαμάρι", "bg": "Калмар", "ru": "Кальмар", "ar": "حبار", "hi": "स्क्विड", "zh": "鱿鱼", "ja": "イカ", "ko": "오징어"},
   "solution": ["..........", "....##....", "...####...", "..######..", "..######..", ".########.", ".########.", ".########.", ".########.", "..#.##.#..", ".#..##..#.", ".#.#..#.#.", "##.#..#.##", "...#..#...", ".........."],
   "colors":   ["..........", "....RR....", "...RRRR...", "..RRRRRR..", "..RRRRRR..", ".RRRRRRRR.", ".RRRRRRRR.", ".RWKRRWKR.", ".RRRRRRRR.", "..R.RR.R..", ".R..RR..R.", ".R.R..R.R.", "RR.R..R.RR", "...R..R...", ".........."],
   "palette":  { "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF" }

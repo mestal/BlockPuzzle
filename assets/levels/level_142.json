@@ -1,6 +1,6 @@
 {
   "id": 142,
-  "name": {"tr": "Tiki maskesi", "en": "Tiki mask", "de": "Tiki-Maske", "fr": "Masque tiki", "es": "Máscara tiki", "pt": "Máscara tiki", "it": "Maschera tiki", "ru": "Маска тики", "ar": "قناع تيكي", "ja": "ティキの仮面", "zh": "提基面具"},
+  "name": {"de": "Tiki-Maske", "en": "Tiki mask", "es": "Máscara tiki", "fr": "Masque tiki", "it": "Maschera tiki", "pl": "Maska tiki", "pt": "Máscara tiki", "tr": "Tiki maskesi", "el": "Μάσκα τίκι", "bg": "Маска тики", "ru": "Маска тики", "ar": "قناع تيكي", "hi": "टिकी मुखौटा", "zh": "提基面具", "ja": "ティキの仮面", "ko": "티키 가면"},
   "solution": [".########.", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", ".########.", "..######..", ".........."],
   "colors":   [".TTTTTTTT.", "TTOTTTTOTT", "TTTTTTTTTT", "TKKTTTTKKT", "TKYTTTTYKT", "TTTTTTTTTT", "TTTTOOTTTT", "TTTTOOTTTT", "TTTTTTTTTT", "TTKKKKKKTT", "TTKWWWWKTT", "TTKKKKKKTT", ".TTTTTTTT.", "..TTTTTT..", ".........."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }

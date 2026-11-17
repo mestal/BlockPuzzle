@@ -1,6 +1,6 @@
 {
   "id": 131,
-  "name": {"tr": "Denizatı", "en": "Seahorse", "de": "Seepferdchen", "fr": "Hippocampe", "es": "Caballito de mar", "pt": "Cavalo-marinho", "it": "Cavalluccio marino", "ru": "Морской конёк", "ar": "حصان البحر", "ja": "タツノオトシゴ", "zh": "海马"},
+  "name": {"de": "Seepferdchen", "en": "Seahorse", "es": "Caballito de mar", "fr": "Hippocampe", "it": "Cavalluccio marino", "pl": "Konik morski", "pt": "Cavalo-marinho", "tr": "Denizatı", "el": "Ιππόκαμπος", "bg": "Морско конче", "ru": "Морской конёк", "ar": "حصان البحر", "hi": "समुद्री घोड़ा", "zh": "海马", "ja": "タツノオトシゴ", "ko": "해마"},
   "solution": ["..........", "..###.....", ".#####....", ".########.", ".####.....", "..###.....", ".#####....", "#.#####...", "..#####...", "...####...", "....###...", "..#.##....", "..##......", "...###....", ".........."],
   "colors":   ["..........", "..YYY.....", ".YYYYY....", ".YKYYYYYY.", ".YYYY.....", "..YYY.....", ".YYYYY....", "Y.YYYYY...", "..YYYYY...", "...YYYY...", "....YYY...", "..Y.YY....", "..YY......", "...YYY....", ".........."],
   "palette":  { "K": "#1F2937", "Y": "#FACC15" }

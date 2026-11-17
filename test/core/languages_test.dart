@@ -11,8 +11,9 @@ Map<String, Object?> _json(String path) =>
 void main() {
   test('resolves the device language or falls back to English', () {
     expect(resolveLanguage(['de', 'en']), 'de');
-    expect(resolveLanguage(['ko', 'fr']), 'fr');
-    expect(resolveLanguage(['ko']), fallbackLanguage);
+    expect(resolveLanguage(['sw', 'fr']), 'fr');
+    expect(resolveLanguage(['ko']), 'ko');
+    expect(resolveLanguage(['sw']), fallbackLanguage);
     expect(resolveLanguage([]), fallbackLanguage);
   });
 
@@ -20,8 +21,13 @@ void main() {
     expect(LocalizedText.fromJson('Plain').of('tr'), 'Plain');
     const text = LocalizedText({'tr': 'Ev', 'en': 'House'});
     expect(text.of('tr'), 'Ev');
-    expect(text.of('ko'), 'House');
+    expect(text.of('sw'), 'House');
     expect(const LocalizedText({'tr': 'Ev'}).of('de'), 'Ev');
+  });
+
+  test('languages are listed in alphabetical order of their own names', () {
+    final names = supportedLanguages.values.map((n) => n.toLowerCase());
+    expect(names, orderedEquals([...names]..sort()));
   });
 
   test('every language has an ARB file with every key', () {

@@ -1,6 +1,6 @@
 {
   "id": 62,
-  "name": {"tr": "Doğum günü pastası", "en": "Birthday cake", "de": "Geburtstagstorte", "fr": "Gâteau d’anniversaire", "es": "Tarta de cumpleaños", "pt": "Bolo de aniversário", "it": "Torta di compleanno", "ru": "Праздничный торт", "ar": "كعكة عيد الميلاد", "ja": "バースデーケーキ", "zh": "生日蛋糕"},
+  "name": {"de": "Geburtstagstorte", "en": "Birthday cake", "es": "Tarta de cumpleaños", "fr": "Gâteau d’anniversaire", "it": "Torta di compleanno", "pl": "Tort urodzinowy", "pt": "Bolo de aniversário", "tr": "Doğum günü pastası", "el": "Τούρτα γενεθλίων", "bg": "Торта за рожден ден", "ru": "Праздничный торт", "ar": "كعكة عيد الميلاد", "hi": "जन्मदिन का केक", "zh": "生日蛋糕", "ja": "バースデーケーキ", "ko": "생일 케이크"},
   "solution": [".#..##..#.", ".#..##..#.", ".#..##..#.", "##########", "##########", "##########", "##########", "##########", "##########", ".########."],
   "colors":   [".Y..YY..Y.", ".R..BB..G.", ".R..BB..G.", "PPPPPPPPPP", "JWJWJWJWJW", "JJJJJJJJJJ", "TTTTTTTTTT", "SSSSSSSSSS", "TTTTTTTTTT", ".EEEEEEEE."],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "G": "#22C55E", "J": "#FBCFE8", "P": "#F472B6", "R": "#E8453C", "S": "#FDE68A", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }

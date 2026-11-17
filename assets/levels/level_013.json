@@ -1,6 +1,6 @@
 {
   "id": 13,
-  "name": {"tr": "Dondurma", "en": "Ice cream", "de": "Eis", "fr": "Glace", "es": "Helado", "pt": "Sorvete", "it": "Gelato", "ru": "Мороженое", "ar": "آيس كريم", "ja": "アイスクリーム", "zh": "冰淇淋"},
+  "name": {"de": "Eis", "en": "Ice cream", "es": "Helado", "fr": "Glace", "it": "Gelato", "pl": "Lody", "pt": "Sorvete", "tr": "Dondurma", "el": "Παγωτό", "bg": "Сладолед", "ru": "Мороженое", "ar": "آيس كريم", "hi": "आइसक्रीम", "zh": "冰淇淋", "ja": "アイスクリーム", "ko": "아이스크림"},
   "solution": [".###.", "#####", "#####", ".###.", "#####", "#####", "#####", ".###.", ".###.", "..#.."],
   "colors":   [".PPP.", "PPPPP", "PJPPP", ".WWW.", "WWWWW", "WLWWW", "AAAAA", ".AAA.", ".AAA.", "..A.."],
   "palette":  { "A": "#F59E0B", "J": "#FBCFE8", "L": "#E2E8F0", "P": "#F472B6", "W": "#FFFFFF" }

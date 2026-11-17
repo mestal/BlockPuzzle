@@ -1,6 +1,6 @@
 {
   "id": 97,
-  "name": {"tr": "Çizme", "en": "Cowboy boot", "de": "Cowboystiefel", "fr": "Botte de cowboy", "es": "Bota vaquera", "pt": "Bota de caubói", "it": "Stivale da cowboy", "ru": "Ковбойский сапог", "ar": "حذاء رعاة البقر", "ja": "カウボーイブーツ", "zh": "牛仔靴"},
+  "name": {"de": "Cowboystiefel", "en": "Cowboy boot", "es": "Bota vaquera", "fr": "Botte de cowboy", "it": "Stivale da cowboy", "pl": "Kowbojski but", "pt": "Bota de caubói", "tr": "Çizme", "el": "Καουμπόικη μπότα", "bg": "Каубойски ботуш", "ru": "Ковбойский сапог", "ar": "حذاء رعاة البقر", "hi": "काउबॉय बूट", "zh": "牛仔靴", "ja": "カウボーイブーツ", "ko": "카우보이 부츠"},
   "solution": ["..........", "..........", "...#####..", "...#####..", "...#####..", "...#####..", "...#####..", "...#####..", "...#####..", "..######..", ".#########", "##########", "##....####", "..........", ".........."],
   "colors":   ["..........", "..........", "...TTTTT..", "...THHHT..", "...TTTTT..", "...TTTTT..", "...TTATT..", "...TTTTT..", "...TTTTT..", "..TTTTTT..", ".TTTTTTTTT", "TTTTTTTTTT", "HH....HHHH", "..........", ".........."],
   "palette":  { "A": "#F59E0B", "H": "#5B3410", "T": "#92400E" }

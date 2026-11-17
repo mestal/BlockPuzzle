@@ -1,6 +1,6 @@
 {
   "id": 83,
-  "name": {"tr": "Piramit", "en": "Pyramid", "de": "Pyramide", "fr": "Pyramide", "es": "Pirámide", "pt": "Pirâmide", "it": "Piramide", "ru": "Пирамида", "ar": "هرم", "ja": "ピラミッド", "zh": "金字塔"},
+  "name": {"de": "Pyramide", "en": "Pyramid", "es": "Pirámide", "fr": "Pyramide", "it": "Piramide", "pl": "Piramida", "pt": "Pirâmide", "tr": "Piramit", "el": "Πυραμίδα", "bg": "Пирамида", "ru": "Пирамида", "ar": "هرم", "hi": "पिरामिड", "zh": "金字塔", "ja": "ピラミッド", "ko": "피라미드"},
   "solution": ["....##....", "...####...", "...####...", "..######..", "..######..", ".########.", ".########.", "##########", "##########", "##########"],
   "colors":   ["....AA....", "...AAAA...", "...ASAA...", "..AAAAAA..", "..ASAAAA..", ".AAAAAAAA.", ".AAAAAASA.", "AAAAAAAAAA", "AAAASAAAAA", "SSSSSSSSSS"],
   "palette":  { "A": "#F59E0B", "S": "#FDE68A" }

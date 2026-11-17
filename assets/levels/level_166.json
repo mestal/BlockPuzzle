@@ -1,6 +1,6 @@
 {
   "id": 166,
-  "name": {"tr": "Yağmur çizmesi", "en": "Rain boot", "de": "Gummistiefel", "fr": "Botte de pluie", "es": "Bota de lluvia", "pt": "Galocha", "it": "Stivale da pioggia", "ru": "Резиновый сапог", "ar": "حذاء المطر", "ja": "長ぐつ", "zh": "雨靴"},
+  "name": {"de": "Gummistiefel", "en": "Rain boot", "es": "Bota de lluvia", "fr": "Botte de pluie", "it": "Stivale da pioggia", "pl": "Kalosz", "pt": "Galocha", "tr": "Yağmur çizmesi", "el": "Γαλότσα", "bg": "Гумен ботуш", "ru": "Резиновый сапог", "ar": "حذاء المطر", "hi": "बरसाती जूता", "zh": "雨靴", "ja": "長ぐつ", "ko": "장화"},
   "solution": [".######...", ".######...", ".######...", ".######...", ".######...", ".######...", ".######...", ".######...", ".#######..", ".########.", "#########.", "#########.", "#########.", ".#.#.#.#..", ".........."],
   "colors":   [".YYYYYY...", ".YYYYYY...", ".YKKKKY...", ".YYYYYY...", ".YYYYYY...", ".YYYYYY...", ".YYYYYY...", ".YYYYYY...", ".YYYYYYY..", ".YYYYYYYY.", "YYYYYYYYY.", "YYYYYYYYY.", "KKKKKKKKK.", ".K.K.K.K..", ".........."],
   "palette":  { "K": "#1F2937", "Y": "#FACC15" }

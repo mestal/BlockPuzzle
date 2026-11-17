@@ -1,6 +1,6 @@
 {
   "id": 82,
-  "name": {"tr": "Kum saati", "en": "Hourglass", "de": "Sanduhr", "fr": "Sablier", "es": "Reloj de arena", "pt": "Ampulheta", "it": "Clessidra", "ru": "Песочные часы", "ar": "ساعة رملية", "ja": "砂時計", "zh": "沙漏"},
+  "name": {"de": "Sanduhr", "en": "Hourglass", "es": "Reloj de arena", "fr": "Sablier", "it": "Clessidra", "pl": "Klepsydra", "pt": "Ampulheta", "tr": "Kum saati", "el": "Κλεψύδρα", "bg": "Пясъчен часовник", "ru": "Песочные часы", "ar": "ساعة رملية", "hi": "रेतघड़ी", "zh": "沙漏", "ja": "砂時計", "ko": "모래시계"},
   "solution": ["##########", ".########.", ".########.", "..######..", "...####...", "...####...", "..######..", ".########.", ".########.", "##########"],
   "colors":   ["TTTTTTTTTT", ".LSSSSSSL.", ".LSSSSSSL.", "..LSSSSL..", "...LSSL...", "...LLSL...", "..LLLSLL..", ".LLLSSSLL.", ".LSSSSSSL.", "TTTTTTTTTT"],
   "palette":  { "L": "#E2E8F0", "S": "#FDE68A", "T": "#92400E" }

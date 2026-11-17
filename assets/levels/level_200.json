@@ -1,6 +1,6 @@
 {
   "id": 200,
-  "name": {"tr": "Ay ve yıldızlar", "en": "Moon and stars", "de": "Mond und Sterne", "fr": "Lune et étoiles", "es": "Luna y estrellas", "pt": "Lua e estrelas", "it": "Luna e stelle", "ru": "Луна и звёзды", "ar": "قمر ونجوم", "ja": "月と星", "zh": "月亮和星星"},
+  "name": {"de": "Mond und Sterne", "en": "Moon and stars", "es": "Luna y estrellas", "fr": "Lune et étoiles", "it": "Luna e stelle", "pl": "Księżyc i gwiazdy", "pt": "Lua e estrelas", "tr": "Ay ve yıldızlar", "el": "Φεγγάρι και αστέρια", "bg": "Луна и звезди", "ru": "Луна и звёзды", "ar": "قمر ونجوم", "hi": "चाँद और तारे", "zh": "月亮和星星", "ja": "月と星", "ko": "달과 별"},
   "solution": [".#......#.", "###....###", ".#......#.", ".#...###..", "...####...", "..####....", ".####.....", ".###...#..", ".###..###.", ".###...#..", ".####.....", "..####....", "...####...", ".....###..", ".#........"],
   "colors":   [".Y......Y.", "YYY....YYY", ".Y......Y.", ".Y...YYY..", "...YYYY...", "..YYYY....", ".YYYY.....", ".YYY...Y..", ".YYY..YYY.", ".YYY...Y..", ".YYYY.....", "..YYYY....", "...YYYY...", ".....YYY..", ".Y........"],
   "palette":  { "Y": "#FACC15" }

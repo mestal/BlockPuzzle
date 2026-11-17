@@ -1,6 +1,6 @@
 {
   "id": 90,
-  "name": {"tr": "Yılan", "en": "Snake", "de": "Schlange", "fr": "Serpent", "es": "Serpiente", "pt": "Cobra", "it": "Serpente", "ru": "Змея", "ar": "ثعبان", "ja": "ヘビ", "zh": "蛇"},
+  "name": {"de": "Schlange", "en": "Snake", "es": "Serpiente", "fr": "Serpent", "it": "Serpente", "pl": "Wąż", "pt": "Cobra", "tr": "Yılan", "el": "Φίδι", "bg": "Змия", "ru": "Змея", "ar": "ثعبان", "hi": "साँप", "zh": "蛇", "ja": "ヘビ", "ko": "뱀"},
   "solution": ["..######..", ".########.", ".##....##.", ".##.......", ".#######..", "..#######.", ".......##.", ".......##.", ".########.", "..######.."],
   "colors":   ["..GGGGGG..", ".GGGGGGGG.", ".GG....KG.", ".GG.......", ".GGGGGGG..", "..GGGGGGG.", ".......GG.", ".......GG.", ".GGGGGGGG.", "..GGGGGG.."],
   "palette":  { "G": "#22C55E", "K": "#1F2937" }

@@ -1,6 +1,6 @@
 {
   "id": 107,
-  "name": {"tr": "Kar küresi", "en": "Snow globe", "de": "Schneekugel", "fr": "Boule à neige", "es": "Bola de nieve", "pt": "Globo de neve", "it": "Palla di neve", "ru": "Снежный шар", "ar": "كرة الثلج", "ja": "スノードーム", "zh": "雪花球"},
+  "name": {"de": "Schneekugel", "en": "Snow globe", "es": "Bola de nieve", "fr": "Boule à neige", "it": "Palla di neve", "pl": "Śnieżna kula", "pt": "Globo de neve", "tr": "Kar küresi", "el": "Χιονόμπαλα", "bg": "Снежно кълбо", "ru": "Снежный шар", "ar": "كرة الثلج", "hi": "स्नो ग्लोब", "zh": "雪花球", "ja": "スノードーム", "ko": "스노우볼"},
   "solution": ["..........", "...####...", "..######..", ".########.", ".########.", "##########", "##########", "##########", ".########.", "..######..", "..######..", ".########.", ".########.", "..........", ".........."],
   "colors":   ["..........", "...IIII...", "..IIWIII..", ".IIDIIWII.", ".IDDDIIII.", "IIDDDDIWII", "IDDDDDDIII", "IIITTIIWII", ".IIITTIII.", "..IIIIII..", "..TTTTTT..", ".TTTTTTTT.", ".TTTTTTTT.", "..........", ".........."],
   "palette":  { "D": "#15803D", "I": "#BAE6FD", "T": "#92400E", "W": "#FFFFFF" }

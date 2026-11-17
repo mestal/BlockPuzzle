@@ -1,6 +1,6 @@
 {
   "id": 141,
-  "name": {"tr": "Kalkan", "en": "Shield", "de": "Schild", "fr": "Bouclier", "es": "Escudo", "pt": "Escudo", "it": "Scudo", "ru": "Щит", "ar": "درع", "ja": "盾", "zh": "盾牌"},
+  "name": {"de": "Schild", "en": "Shield", "es": "Escudo", "fr": "Bouclier", "it": "Scudo", "pl": "Tarcza", "pt": "Escudo", "tr": "Kalkan", "el": "Ασπίδα", "bg": "Щит", "ru": "Щит", "ar": "درع", "hi": "ढाल", "zh": "盾牌", "ja": "盾", "ko": "방패"},
   "solution": ["..........", "##########", "##########", "##########", "##########", "##########", "##########", "##########", ".########.", ".########.", "..######..", "..######..", "...####...", "....##....", ".........."],
   "colors":   ["..........", "XXXXXXXXXX", "XAAAAAAAAX", "XAXXAAXXAX", "XAXAAAAXAX", "XAAAXXAAAX", "XAAAXXAAAX", "XAXAAAAXAX", ".XAXXXXAX.", ".XAAAAAAX.", "..XAAAAX..", "..XAAAAX..", "...XAAX...", "....XX....", ".........."],
   "palette":  { "A": "#F59E0B", "X": "#991B1B" }

@@ -1,6 +1,6 @@
 {
   "id": 89,
-  "name": {"tr": "Akbaba", "en": "Vulture", "de": "Geier", "fr": "Vautour", "es": "Buitre", "pt": "Abutre", "it": "Avvoltoio", "ru": "Гриф", "ar": "نسر", "ja": "ハゲワシ", "zh": "秃鹫"},
+  "name": {"de": "Geier", "en": "Vulture", "es": "Buitre", "fr": "Vautour", "it": "Avvoltoio", "pl": "Sęp", "pt": "Abutre", "tr": "Akbaba", "el": "Γύπας", "bg": "Лешояд", "ru": "Гриф", "ar": "نسر", "hi": "गिद्ध", "zh": "秃鹫", "ja": "ハゲワシ", "ko": "독수리"},
   "solution": ["....##....", "...####...", "...####...", "##.####.##", "##########", ".########.", "..######..", "...####...", "...#..#...", "..##..##.."],
   "colors":   ["....HH....", "...HFFH...", "...HKHF...", "HH.HHHH.HH", "HHHHHHHHHH", ".HHHHHHHH.", "..HHHHHH..", "...HHHH...", "...H..H...", "..YY..YY.."],
   "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "Y": "#FACC15" }

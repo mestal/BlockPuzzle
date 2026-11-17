@@ -1,6 +1,6 @@
 {
   "id": 175,
-  "name": {"tr": "Kağıt uçak", "en": "Paper plane", "de": "Papierflieger", "fr": "Avion en papier", "es": "Avión de papel", "pt": "Avião de papel", "it": "Aeroplanino di carta", "ru": "Бумажный самолётик", "ar": "طائرة ورقية مطوية", "ja": "紙ひこうき", "zh": "纸飞机"},
+  "name": {"de": "Papierflieger", "en": "Paper plane", "es": "Avión de papel", "fr": "Avion en papier", "it": "Aeroplanino di carta", "pl": "Papierowy samolot", "pt": "Avião de papel", "tr": "Kağıt uçak", "el": "Χάρτινο αεροπλανάκι", "bg": "Хартиено самолетче", "ru": "Бумажный самолётик", "ar": "طائرة ورقية مطوية", "hi": "काग़ज़ का हवाई जहाज़", "zh": "纸飞机", "ja": "紙ひこうき", "ko": "종이비행기"},
   "solution": ["..........", ".........#", "........##", "#......###", "......####", ".....####.", "....#####.", "...######.", "..######..", ".######...", "######....", "...###....", "...##.....", "...#......", ".........."],
   "colors":   ["..........", ".........W", "........WW", "W......WLW", "......WLWW", ".....WLWW.", "....WLWWW.", "...WLWWWW.", "..WLLWWW..", ".WWLLWW...", "WWWLLW....", "...LLW....", "...LW.....", "...L......", ".........."],
   "palette":  { "L": "#E2E8F0", "W": "#FFFFFF" }

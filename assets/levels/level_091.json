@@ -1,6 +1,6 @@
 {
   "id": 91,
-  "name": {"tr": "Çöl tilkisi", "en": "Fennec fox", "de": "Wüstenfuchs", "fr": "Fennec", "es": "Fénec", "pt": "Feneco", "it": "Fennec", "ru": "Фенек", "ar": "ثعلب الفنك", "ja": "フェネック", "zh": "耳廓狐"},
+  "name": {"de": "Wüstenfuchs", "en": "Fennec fox", "es": "Fénec", "fr": "Fennec", "it": "Fennec", "pl": "Fenek", "pt": "Feneco", "tr": "Çöl tilkisi", "el": "Φενέκ", "bg": "Фенек", "ru": "Фенек", "ar": "ثعلب الفنك", "hi": "फेनेक लोमड़ी", "zh": "耳廓狐", "ja": "フェネック", "ko": "사막여우"},
   "solution": ["#........#", "##......##", "###....###", "####..####", "##########", ".########.", ".########.", "..######..", "...####...", "....##...."],
   "colors":   ["S........S", "SS......SS", "SFS....SFS", "SFSS..SSFS", "SSSSSSSSSS", ".SKSSSSKS.", ".SSSSSSSS.", "..SWWWWS..", "...WKKW...", "....WW...."],
   "palette":  { "F": "#FBCFA5", "K": "#1F2937", "S": "#FDE68A", "W": "#FFFFFF" }

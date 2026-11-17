@@ -1,6 +1,6 @@
 {
   "id": 134,
-  "name": {"tr": "Deniz kızı kuyruğu", "en": "Mermaid tail", "de": "Meerjungfrauenschwanz", "fr": "Queue de sirène", "es": "Cola de sirena", "pt": "Cauda de sereia", "it": "Coda di sirena", "ru": "Хвост русалки", "ar": "ذيل حورية البحر", "ja": "人魚のしっぽ", "zh": "美人鱼尾巴"},
+  "name": {"de": "Meerjungfrauenschwanz", "en": "Mermaid tail", "es": "Cola de sirena", "fr": "Queue de sirène", "it": "Coda di sirena", "pl": "Ogon syreny", "pt": "Cauda de sereia", "tr": "Deniz kızı kuyruğu", "el": "Ουρά γοργόνας", "bg": "Опашка на русалка", "ru": "Хвост русалки", "ar": "ذيل حورية البحر", "hi": "जलपरी की पूँछ", "zh": "美人鱼尾巴", "ja": "人魚のしっぽ", "ko": "인어 꼬리"},
   "solution": ["..........", "...####...", "...####...", "...####...", "...####...", "...####...", "....##....", "....##....", "....##....", "...####...", "..######..", ".###..###.", "###....###", "##......##", ".........."],
   "colors":   ["..........", "...QQQQ...", "...QCQQ...", "...QQQQ...", "...QQCQ...", "...QQQQ...", "....QQ....", "....QQ....", "....QQ....", "...QQQQ...", "..QQQQQQ..", ".QQQ..QQQ.", "QQQ....QQQ", "QQ......QQ", ".........."],
   "palette":  { "C": "#22D3EE", "Q": "#0D9488" }

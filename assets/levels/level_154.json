@@ -1,6 +1,6 @@
 {
   "id": 154,
-  "name": {"tr": "Uzun boyunlu dinozor", "en": "Long-neck dinosaur", "de": "Langhalssaurier", "fr": "Dinosaure à long cou", "es": "Dinosaurio de cuello largo", "pt": "Dinossauro pescoçudo", "it": "Dinosauro dal collo lungo", "ru": "Длинношеий динозавр", "ar": "ديناصور طويل العنق", "ja": "首長竜", "zh": "长颈恐龙"},
+  "name": {"de": "Langhalssaurier", "en": "Long-neck dinosaur", "es": "Dinosaurio de cuello largo", "fr": "Dinosaure à long cou", "it": "Dinosauro dal collo lungo", "pl": "Długoszyi dinozaur", "pt": "Dinossauro pescoçudo", "tr": "Uzun boyunlu dinozor", "el": "Μακρυλαίμης δεινόσαυρος", "bg": "Дългошиест динозавър", "ru": "Длинношеий динозавр", "ar": "ديناصور طويل العنق", "hi": "लंबी गर्दन वाला डायनासोर", "zh": "长颈恐龙", "ja": "首長竜", "ko": "목이 긴 공룡"},
   "solution": [".....###..", ".....####.", ".....###..", ".....##...", ".....##...", ".....##...", "....##....", "....##....", "..####....", ".######...", "########..", "#.######..", "..##..##..", "..##..##..", ".........."],
   "colors":   [".....GGG..", ".....GKGG.", ".....GGG..", ".....GG...", ".....GG...", ".....GG...", "....GG....", "....GG....", "..GGGG....", ".GGGGGG...", "GGGGGGGG..", "G.GGGGGG..", "..GG..GG..", "..GG..GG..", ".........."],
   "palette":  { "G": "#22C55E", "K": "#1F2937" }

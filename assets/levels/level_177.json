@@ -1,6 +1,6 @@
 {
   "id": 177,
-  "name": {"tr": "Yağmur bulutu", "en": "Rain cloud", "de": "Regenwolke", "fr": "Nuage de pluie", "es": "Nube de lluvia", "pt": "Nuvem de chuva", "it": "Nuvola di pioggia", "ru": "Дождевая туча", "ar": "غيمة ممطرة", "ja": "雨雲", "zh": "雨云"},
+  "name": {"de": "Regenwolke", "en": "Rain cloud", "es": "Nube de lluvia", "fr": "Nuage de pluie", "it": "Nuvola di pioggia", "pl": "Chmura deszczowa", "pt": "Nuvem de chuva", "tr": "Yağmur bulutu", "el": "Σύννεφο βροχής", "bg": "Дъждовен облак", "ru": "Дождевая туча", "ar": "غيمة ممطرة", "hi": "बारिश का बादल", "zh": "雨云", "ja": "雨雲", "ko": "비구름"},
   "solution": ["...###....", "..#####.#.", ".#########", "##########", "##########", ".########.", "..#...#...", ".#..#.#.#.", "#.##..#...", "..#..#..#.", ".#..#.##..", "##.##.#.#.", "..#...#..#", ".#..#...#.", ".........."],
   "colors":   ["...LLL....", "..LLLLL.L.", ".LLLLLLLLL", "LLLLLLLLLL", "LLLLLLLLLL", ".LLLLLLLL.", "..B...B...", ".B..B.B.B.", "B.BB..B...", "..B..B..B.", ".B..B.BB..", "BB.BB.B.L.", "..B...B..B", ".B..B...B.", ".........."],
   "palette":  { "B": "#3B82F6", "L": "#E2E8F0" }

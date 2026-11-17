@@ -1,6 +1,6 @@
 {
   "id": 74,
-  "name": {"tr": "Halka tatlı", "en": "Donut", "de": "Donut", "fr": "Beignet", "es": "Dona", "pt": "Rosquinha", "it": "Ciambella", "ru": "Пончик", "ar": "دونات", "ja": "ドーナツ", "zh": "甜甜圈"},
+  "name": {"de": "Donut", "en": "Donut", "es": "Dona", "fr": "Beignet", "it": "Ciambella", "pl": "Donut", "pt": "Rosquinha", "tr": "Halka tatlı", "el": "Ντόνατ", "bg": "Поничка", "ru": "Пончик", "ar": "دونات", "hi": "डोनट", "zh": "甜甜圈", "ja": "ドーナツ", "ko": "도넛"},
   "solution": ["..#####...", ".#######..", "#########.", "###...###.", "###...###.", "###...###.", "#########.", ".#######..", "..#####...", ".........."],
   "colors":   ["..PPPPP...", ".PPYPPBP..", "PPRPPPPPP.", "PPP...PPP.", "PBP...PYP.", "PPP...PPP.", "PPPPPRPPP.", ".PYPPPPP..", "..PPPPP...", ".........."],
   "palette":  { "B": "#3B82F6", "P": "#F472B6", "R": "#E8453C", "Y": "#FACC15" }

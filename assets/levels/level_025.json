@@ -1,6 +1,6 @@
 {
   "id": 25,
-  "name": {"tr": "Deniz feneri", "en": "Lighthouse", "de": "Leuchtturm", "fr": "Phare", "es": "Faro", "pt": "Farol", "it": "Faro", "ru": "Маяк", "ar": "منارة", "ja": "灯台", "zh": "灯塔"},
+  "name": {"de": "Leuchtturm", "en": "Lighthouse", "es": "Faro", "fr": "Phare", "it": "Faro", "pl": "Latarnia morska", "pt": "Farol", "tr": "Deniz feneri", "el": "Φάρος", "bg": "Фар", "ru": "Маяк", "ar": "منارة", "hi": "प्रकाशस्तंभ", "zh": "灯塔", "ja": "灯台", "ko": "등대"},
   "solution": ["..........", ".#.###.#..", "...###....", "...###....", "...###....", "...###....", "..#####...", ".#######..", "..........", ".........."],
   "colors":   ["..........", ".Y.YYY.Y..", "...KKK....", "...RRR....", "...WWW....", "...RRR....", "..WWWWW...", ".BBBBBBB..", "..........", ".........."],
   "palette":  { "B": "#3B82F6", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

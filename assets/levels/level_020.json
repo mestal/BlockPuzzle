@@ -1,6 +1,6 @@
 {
   "id": 20,
-  "name": {"tr": "Kaktüs", "en": "Cactus", "de": "Kaktus", "fr": "Cactus", "es": "Cactus", "pt": "Cacto", "it": "Cactus", "ru": "Кактус", "ar": "صبار", "ja": "サボテン", "zh": "仙人掌"},
+  "name": {"de": "Kaktus", "en": "Cactus", "es": "Cactus", "fr": "Cactus", "it": "Cactus", "pl": "Kaktus", "pt": "Cacto", "tr": "Kaktüs", "el": "Κάκτος", "bg": "Кактус", "ru": "Кактус", "ar": "صبار", "hi": "कैक्टस", "zh": "仙人掌", "ja": "サボテン", "ko": "선인장"},
   "solution": ["..#..", "#.#..", "#.#.#", "###.#", "..###", "..#..", "..#..", "..#..", ".###.", ".###."],
   "colors":   ["..G..", "G.G..", "G.G.G", "GGG.G", "..GGG", "..G..", "..G..", "..G..", ".TTT.", ".TTT."],
   "palette":  { "G": "#22C55E", "T": "#92400E" }

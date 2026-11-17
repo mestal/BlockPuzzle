@@ -1,6 +1,6 @@
 {
   "id": 192,
-  "name": {"tr": "Roket fırlatma", "en": "Rocket launch", "de": "Raketenstart", "fr": "Décollage de fusée", "es": "Lanzamiento de cohete", "pt": "Lançamento de foguete", "it": "Lancio del razzo", "ru": "Запуск ракеты", "ar": "إطلاق صاروخ", "ja": "ロケット発射", "zh": "火箭发射"},
+  "name": {"de": "Raketenstart", "en": "Rocket launch", "es": "Lanzamiento de cohete", "fr": "Décollage de fusée", "it": "Lancio del razzo", "pl": "Start rakiety", "pt": "Lançamento de foguete", "tr": "Roket fırlatma", "el": "Εκτόξευση πυραύλου", "bg": "Изстрелване на ракета", "ru": "Запуск ракеты", "ar": "إطلاق صاروخ", "hi": "रॉकेट प्रक्षेपण", "zh": "火箭发射", "ja": "ロケット発射", "ko": "로켓 발사"},
   "solution": ["....##....", "...####...", "...####...", "...####...", "...####...", "...####...", "..######..", ".########.", ".##.##.##.", "....##....", "...####...", "..#.##.#..", ".#..#...#.", "###....###", "##########"],
   "colors":   ["....RR....", "...RWWR...", "...WWWW...", "...WBBW...", "...WBBW...", "...WWWW...", "..RWWWWR..", ".RRWWWWRR.", ".RR.OO.RR.", "....OO....", "...OYYO...", "..O.YY.O..", ".L..O...L.", "LLL....LLL", "LLLLLLLLLL"],
   "palette":  { "B": "#3B82F6", "L": "#E2E8F0", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

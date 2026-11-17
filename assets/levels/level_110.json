@@ -1,6 +1,6 @@
 {
   "id": 110,
-  "name": {"tr": "Penguen", "en": "Penguin", "de": "Pinguin", "fr": "Pingouin", "es": "Pingüino", "pt": "Pinguim", "it": "Pinguino", "ru": "Пингвин", "ar": "بطريق", "ja": "ペンギン", "zh": "企鹅"},
+  "name": {"de": "Pinguin", "en": "Penguin", "es": "Pingüino", "fr": "Pingouin", "it": "Pinguino", "pl": "Pingwin", "pt": "Pinguim", "tr": "Penguen", "el": "Πιγκουίνος", "bg": "Пингвин", "ru": "Пингвин", "ar": "بطريق", "hi": "पेंगुइन", "zh": "企鹅", "ja": "ペンギン", "ko": "펭귄"},
   "solution": ["..........", "..........", "...####...", "..######..", ".########.", ".########.", ".########.", "##########", "#.######.#", "..######..", "..######..", "...####...", "..##..##..", "..........", ".........."],
   "colors":   ["..........", "..........", "...KKKK...", "..KKKKKK..", ".KKWWWWKK.", ".KWKWWKWK.", ".KWWOOWWK.", "KKKWWWWKKK", "K.KWWWWK.K", "..KWWWWK..", "..KWWWWK..", "...KKKK...", "..OO..OO..", "..........", ".........."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "W": "#FFFFFF" }

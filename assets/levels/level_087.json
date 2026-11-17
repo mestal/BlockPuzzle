@@ -1,6 +1,6 @@
 {
   "id": 87,
-  "name": {"tr": "Sihirli lamba", "en": "Magic lamp", "de": "Wunderlampe", "fr": "Lampe magique", "es": "Lámpara mágica", "pt": "Lâmpada mágica", "it": "Lampada magica", "ru": "Волшебная лампа", "ar": "المصباح السحري", "ja": "魔法のランプ", "zh": "神灯"},
+  "name": {"de": "Wunderlampe", "en": "Magic lamp", "es": "Lámpara mágica", "fr": "Lampe magique", "it": "Lampada magica", "pl": "Magiczna lampa", "pt": "Lâmpada mágica", "tr": "Sihirli lamba", "el": "Μαγικό λυχνάρι", "bg": "Вълшебна лампа", "ru": "Волшебная лампа", "ar": "المصباح السحري", "hi": "जादुई चिराग", "zh": "神灯", "ja": "魔法のランプ", "ko": "요술 램프"},
   "solution": [".....#....", "....###...", "...#####..", "#.#######.", "##########", ".########.", "..########", "...#####..", "....###...", "...#####.."],
   "colors":   [".....A....", "....AAA...", "...AAAAA..", "A.AAAAAAA.", "AAAAAAAAAA", ".AAAAAAAA.", "..AAAAAAAA", "...AAAAA..", "....AAA...", "...AAAAA.."],
   "palette":  { "A": "#F59E0B" }

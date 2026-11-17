@@ -1,6 +1,6 @@
 {
   "id": 130,
-  "name": {"tr": "Palyaço balığı", "en": "Clownfish", "de": "Clownfisch", "fr": "Poisson-clown", "es": "Pez payaso", "pt": "Peixe-palhaço", "it": "Pesce pagliaccio", "ru": "Рыба-клоун", "ar": "سمكة المهرج", "ja": "クマノミ", "zh": "小丑鱼"},
+  "name": {"de": "Clownfisch", "en": "Clownfish", "es": "Pez payaso", "fr": "Poisson-clown", "it": "Pesce pagliaccio", "pl": "Błazenek", "pt": "Peixe-palhaço", "tr": "Palyaço balığı", "el": "Ψάρι κλόουν", "bg": "Риба клоун", "ru": "Рыба-клоун", "ar": "سمكة المهرج", "hi": "क्लाउनफ़िश", "zh": "小丑鱼", "ja": "クマノミ", "ko": "흰동가리"},
   "solution": ["..........", "........#.", ".....#.#.#", "........#.", ".....#....", "....#.#.#.", ".....#....", "..#####..#", ".#########", "##########", "##########", ".#########", "..#####..#", "..........", ".........."],
   "colors":   ["..........", "........W.", ".....O.W.W", "........W.", ".....W....", "....W.W.O.", ".....W....", "..OOWOO..O", ".OOOWOOOOO", "OKOOWOOOOO", "OOOOWOOOOO", ".OOOWOOOOO", "..OOWOO..O", "..........", ".........."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "W": "#FFFFFF" }

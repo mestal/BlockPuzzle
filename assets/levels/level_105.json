@@ -1,6 +1,6 @@
 {
   "id": 105,
-  "name": {"tr": "Hediye", "en": "Gift", "de": "Geschenk", "fr": "Cadeau", "es": "Regalo", "pt": "Presente", "it": "Regalo", "ru": "Подарок", "ar": "هدية", "ja": "プレゼント", "zh": "礼物"},
+  "name": {"de": "Geschenk", "en": "Gift", "es": "Regalo", "fr": "Cadeau", "it": "Regalo", "pl": "Prezent", "pt": "Presente", "tr": "Hediye", "el": "Δώρο", "bg": "Подарък", "ru": "Подарок", "ar": "هدية", "hi": "उपहार", "zh": "礼物", "ja": "プレゼント", "ko": "선물"},
   "solution": ["..........", "..........", "..##..##..", ".#..##..#.", "..######..", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "..........", ".........."],
   "colors":   ["..........", "..........", "..RR..RR..", ".R..RR..R.", "..RRRRRR..", "BBBBRRBBBB", "BBBBRRBBBB", "RRRRRRRRRR", "BBBBRRBBBB", "BBBBRRBBBB", "BBBBRRBBBB", "BBBBRRBBBB", "BBBBRRBBBB", "..........", ".........."],
   "palette":  { "B": "#3B82F6", "R": "#E8453C" }

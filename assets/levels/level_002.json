@@ -1,6 +1,6 @@
 {
   "id": 2,
-  "name": {"tr": "Ev", "en": "House", "de": "Haus", "fr": "Maison", "es": "Casa", "pt": "Casa", "it": "Casa", "ru": "Дом", "ar": "بيت", "ja": "家", "zh": "房子"},
+  "name": {"de": "Haus", "en": "House", "es": "Casa", "fr": "Maison", "it": "Casa", "pl": "Dom", "pt": "Casa", "tr": "Ev", "el": "Σπίτι", "bg": "Къща", "ru": "Дом", "ar": "بيت", "hi": "घर", "zh": "房子", "ja": "家", "ko": "집"},
   "solution": ["..#..", ".###.", "#####", "##.##", "##.##"],
   "colors":   ["..R..", ".RRR.", "YYBYY", "YY.YY", "YY.YY"],
   "palette":  { "B": "#3B82F6", "R": "#E8453C", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 19,
-  "name": {"tr": "Kuş", "en": "Bird", "de": "Vogel", "fr": "Oiseau", "es": "Pájaro", "pt": "Pássaro", "it": "Uccello", "ru": "Птица", "ar": "طائر", "ja": "鳥", "zh": "小鸟"},
+  "name": {"de": "Vogel", "en": "Bird", "es": "Pájaro", "fr": "Oiseau", "it": "Uccello", "pl": "Ptak", "pt": "Pássaro", "tr": "Kuş", "el": "Πουλί", "bg": "Птица", "ru": "Птица", "ar": "طائر", "hi": "चिड़िया", "zh": "小鸟", "ja": "鳥", "ko": "새"},
   "solution": ["......##..", "##...#####", ".########.", "..######..", "......#..."],
   "colors":   ["......BB..", "BB...BBKBA", ".BBWWBBBB.", "..BBBBBB..", "......A..."],
   "palette":  { "A": "#F59E0B", "B": "#3B82F6", "K": "#1F2937", "W": "#FFFFFF" }

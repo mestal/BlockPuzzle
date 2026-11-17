@@ -1,6 +1,6 @@
 {
   "id": 173,
-  "name": {"tr": "Paraşüt", "en": "Parachute", "de": "Fallschirm", "fr": "Parachute", "es": "Paracaídas", "pt": "Paraquedas", "it": "Paracadute", "ru": "Парашют", "ar": "مظلة هبوط", "ja": "パラシュート", "zh": "降落伞"},
+  "name": {"de": "Fallschirm", "en": "Parachute", "es": "Paracaídas", "fr": "Parachute", "it": "Paracadute", "pl": "Spadochron", "pt": "Paraquedas", "tr": "Paraşüt", "el": "Αλεξίπτωτο", "bg": "Парашут", "ru": "Парашют", "ar": "مظلة هبوط", "hi": "पैराशूट", "zh": "降落伞", "ja": "パラシュート", "ko": "낙하산"},
   "solution": ["..######..", ".########.", "##########", "##########", "#.#.##.#.#", ".#..##..#.", ".#..##..#.", "..#.##.#..", "..#.##.#..", "...####...", "....##....", "...####...", "...####...", "...#..#...", ".........."],
   "colors":   ["..OOOOOO..", ".OOWWOOOO.", "OOWWOOWWOO", "OOOOOOOOOO", "O.O.OO.O.O", ".O..OO..O.", ".O..OO..O.", "..O.OO.O..", "..O.OO.O..", "...OOOO...", "....FF....", "...BBBB...", "...BBBB...", "...B..B...", ".........."],
   "palette":  { "B": "#3B82F6", "F": "#FBCFA5", "O": "#F97316", "W": "#FFFFFF" }

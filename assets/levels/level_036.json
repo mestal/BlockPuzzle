@@ -1,6 +1,6 @@
 {
   "id": 36,
-  "name": {"tr": "Kaplumbağa", "en": "Turtle", "de": "Schildkröte", "fr": "Tortue", "es": "Tortuga", "pt": "Tartaruga", "it": "Tartaruga", "ru": "Черепаха", "ar": "سلحفاة", "ja": "カメ", "zh": "乌龟"},
+  "name": {"de": "Schildkröte", "en": "Turtle", "es": "Tortuga", "fr": "Tortue", "it": "Tartaruga", "pl": "Żółw", "pt": "Tartaruga", "tr": "Kaplumbağa", "el": "Χελώνα", "bg": "Костенурка", "ru": "Черепаха", "ar": "سلحفاة", "hi": "कछुआ", "zh": "乌龟", "ja": "カメ", "ko": "거북이"},
   "solution": ["..........", "....##....", "..#.##.#..", "...####...", "..######..", "..######..", "..######..", "...####...", "..#....#..", ".........."],
   "colors":   ["..........", "....GG....", "..G.GG.G..", "...DDDD...", "..DZDDZD..", "..DDZZDD..", "..DZDDZD..", "...DDDD...", "..G....G..", ".........."],
   "palette":  { "D": "#15803D", "G": "#22C55E", "Z": "#A3E635" }

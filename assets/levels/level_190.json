@@ -1,6 +1,6 @@
 {
   "id": 190,
-  "name": {"tr": "Uzay mekiği", "en": "Space shuttle", "de": "Raumfähre", "fr": "Navette spatiale", "es": "Transbordador espacial", "pt": "Ônibus espacial", "it": "Navetta spaziale", "ru": "Шаттл", "ar": "مكوك فضائي", "ja": "スペースシャトル", "zh": "航天飞机"},
+  "name": {"de": "Raumfähre", "en": "Space shuttle", "es": "Transbordador espacial", "fr": "Navette spatiale", "it": "Navetta spaziale", "pl": "Prom kosmiczny", "pt": "Ônibus espacial", "tr": "Uzay mekiği", "el": "Διαστημικό λεωφορείο", "bg": "Космическа совалка", "ru": "Шаттл", "ar": "مكوك فضائي", "hi": "अंतरिक्ष शटल", "zh": "航天飞机", "ja": "スペースシャトル", "ko": "우주왕복선"},
   "solution": ["....##....", "...####...", "...####...", "...####...", "...####...", "...####...", "..######..", "..######..", ".########.", "##########", "##.####.##", "...####...", "...####...", "....##....", "....#....."],
   "colors":   ["....WW....", "...WWWW...", "...WKKW...", "...WWWW...", "...WWWW...", "...WWWW...", "..WWWWWW..", "..WRWWRW..", ".WWWWWWWW.", "WWWWWWWWWW", "WW.WWWW.WW", "...EEEE...", "...OYYO...", "....OO....", "....R....."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 125,
-  "name": {"tr": "Fener balığı", "en": "Anglerfish", "de": "Anglerfisch", "fr": "Baudroie", "es": "Rape", "pt": "Peixe-pescador", "it": "Rana pescatrice", "ru": "Удильщик", "ar": "سمكة الصياد", "ja": "チョウチンアンコウ", "zh": "鮟鱇鱼"},
+  "name": {"de": "Anglerfisch", "en": "Anglerfish", "es": "Rape", "fr": "Baudroie", "it": "Rana pescatrice", "pl": "Żabnica", "pt": "Peixe-pescador", "tr": "Fener balığı", "el": "Πεσκαντρίτσα", "bg": "Риба въдичар", "ru": "Удильщик", "ar": "سمكة الصياد", "hi": "एंगलरफ़िश", "zh": "鮟鱇鱼", "ja": "チョウチンアンコウ", "ko": "아귀"},
   "solution": ["..........", "...#......", "...##.....", ".....#....", ".....#....", "..#####...", ".#######.#", "##########", "##########", "#########.", "#.......##", "##########", ".#######.#", "..........", ".........."],
   "colors":   ["..........", "...Y......", "...YY.....", ".....K....", ".....K....", "..UUUUU...", ".UUUUUUU.U", "UUYUUUUUUU", "UUUUUUUUUU", "UWUWUWUUU.", "U.......UU", "UWUWUWUUUU", ".UUUUUUU.U", "..........", ".........."],
   "palette":  { "K": "#1F2937", "U": "#5B21B6", "W": "#FFFFFF", "Y": "#FACC15" }

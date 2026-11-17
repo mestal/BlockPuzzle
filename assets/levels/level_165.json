@@ -1,6 +1,6 @@
 {
   "id": 165,
-  "name": {"tr": "Yağmur damlası", "en": "Raindrop", "de": "Regentropfen", "fr": "Goutte de pluie", "es": "Gota de lluvia", "pt": "Gota de chuva", "it": "Goccia di pioggia", "ru": "Капля дождя", "ar": "قطرة مطر", "ja": "雨つぶ", "zh": "雨滴"},
+  "name": {"de": "Regentropfen", "en": "Raindrop", "es": "Gota de lluvia", "fr": "Goutte de pluie", "it": "Goccia di pioggia", "pl": "Kropla deszczu", "pt": "Gota de chuva", "tr": "Yağmur damlası", "el": "Σταγόνα βροχής", "bg": "Дъждовна капка", "ru": "Капля дождя", "ar": "قطرة مطر", "hi": "बारिश की बूँद", "zh": "雨滴", "ja": "雨つぶ", "ko": "빗방울"},
   "solution": ["....#.....", "....##....", "...###....", "...####...", "..#####...", "..######..", ".########.", ".########.", "##########", "##########", "##########", ".########.", "..######..", "...####...", ".........."],
   "colors":   ["....B.....", "....BB....", "...BBB....", "...BBBB...", "..BBBBB...", "..BBBBBB..", ".BBBIBBBB.", ".BBIIBBBB.", "BBBIBBBBBB", "BBBIBBBBBB", "BBBBBBBBBB", ".BBBBBBBB.", "..BBBBBB..", "...BBBB...", ".........."],
   "palette":  { "B": "#3B82F6", "I": "#BAE6FD" }

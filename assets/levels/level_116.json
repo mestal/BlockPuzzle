@@ -1,6 +1,6 @@
 {
   "id": 116,
-  "name": {"tr": "Kar tanesi", "en": "Snowflake", "de": "Schneeflocke", "fr": "Flocon de neige", "es": "Copo de nieve", "pt": "Floco de neve", "it": "Fiocco di neve", "ru": "Снежинка", "ar": "ندفة ثلج", "ja": "雪の結晶", "zh": "雪花"},
+  "name": {"de": "Schneeflocke", "en": "Snowflake", "es": "Copo de nieve", "fr": "Flocon de neige", "it": "Fiocco di neve", "pl": "Płatek śniegu", "pt": "Floco de neve", "tr": "Kar tanesi", "el": "Νιφάδα χιονιού", "bg": "Снежинка", "ru": "Снежинка", "ar": "ندفة ثلج", "hi": "हिमकण", "zh": "雪花", "ja": "雪の結晶", "ko": "눈송이"},
   "solution": ["..........", "..........", "....##....", "....##....", "..#.##.#..", "...####...", "##########", "##########", "...####...", "....##....", ".#..##..#.", "....##....", "...#..#...", "..........", ".........."],
   "colors":   ["..........", "..........", "....II....", "....II....", "..I.II.I..", "...IIII...", "IIIIIIIIII", "IIIIIIIIII", "...IIII...", "....II....", ".I..II..I.", "....II....", "...I..I...", "..........", ".........."],
   "palette":  { "I": "#BAE6FD" }

@@ -1,6 +1,6 @@
 {
   "id": 61,
-  "name": {"tr": "Çikolata", "en": "Chocolate bar", "de": "Schokolade", "fr": "Tablette de chocolat", "es": "Tableta de chocolate", "pt": "Barra de chocolate", "it": "Tavoletta di cioccolato", "ru": "Плитка шоколада", "ar": "لوح شوكولاتة", "ja": "板チョコ", "zh": "巧克力"},
+  "name": {"de": "Schokolade", "en": "Chocolate bar", "es": "Tableta de chocolate", "fr": "Tablette de chocolat", "it": "Tavoletta di cioccolato", "pl": "Tabliczka czekolady", "pt": "Barra de chocolate", "tr": "Çikolata", "el": "Σοκολάτα", "bg": "Шоколад", "ru": "Плитка шоколада", "ar": "لوح شوكولاتة", "hi": "चॉकलेट बार", "zh": "巧克力", "ja": "板チョコ", "ko": "초콜릿 바"},
   "solution": [".#######..", "#########.", "#########.", "#########.", "#########.", "#########.", "#########.", "#########.", "#########.", ".........."],
   "colors":   [".RRRRRRR..", "RRWWWWWRR.", "RWRRRRRWR.", "HHHHHHHHH.", "HTTHTTHTH.", "HHHHHHHHH.", "HTTHTTHTH.", "HHHHHHHHH.", "HTTHTTHTH.", ".........."],
   "palette":  { "H": "#5B3410", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }

@@ -1,6 +1,6 @@
 {
   "id": 31,
-  "name": {"tr": "Deniz yıldızı", "en": "Starfish", "de": "Seestern", "fr": "Étoile de mer", "es": "Estrella de mar", "pt": "Estrela-do-mar", "it": "Stella marina", "ru": "Морская звезда", "ar": "نجم البحر", "ja": "ヒトデ", "zh": "海星"},
+  "name": {"de": "Seestern", "en": "Starfish", "es": "Estrella de mar", "fr": "Étoile de mer", "it": "Stella marina", "pl": "Rozgwiazda", "pt": "Estrela-do-mar", "tr": "Deniz yıldızı", "el": "Αστερίας", "bg": "Морска звезда", "ru": "Морская звезда", "ar": "نجم البحر", "hi": "तारामछली", "zh": "海星", "ja": "ヒトデ", "ko": "불가사리"},
   "solution": ["..........", "....#.....", "...###....", ".#######..", "..#####...", "...###....", "..##.##...", "..#...#...", "..........", ".........."],
   "colors":   ["..........", "....O.....", "...OOO....", ".OOOOOOO..", "..OOROO...", "...OOO....", "..OO.OO...", "..O...O...", "..........", ".........."],
   "palette":  { "O": "#F97316", "R": "#E8453C" }

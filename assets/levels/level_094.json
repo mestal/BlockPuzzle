@@ -1,6 +1,6 @@
 {
   "id": 94,
-  "name": {"tr": "Deve", "en": "Camel", "de": "Kamel", "fr": "Chameau", "es": "Camello", "pt": "Camelo", "it": "Cammello", "ru": "Верблюд", "ar": "جمل", "ja": "ラクダ", "zh": "骆驼"},
+  "name": {"de": "Kamel", "en": "Camel", "es": "Camello", "fr": "Chameau", "it": "Cammello", "pl": "Wielbłąd", "pt": "Camelo", "tr": "Deve", "el": "Καμήλα", "bg": "Камила", "ru": "Верблюд", "ar": "جمل", "hi": "ऊँट", "zh": "骆驼", "ja": "ラクダ", "ko": "낙타"},
   "solution": ["........##", ".......###", "..#.#..##.", ".#####.##.", "#########.", "#########.", ".#######..", ".#.#..#.#.", ".#.#..#.#.", ".#.#..#.#."],
   "colors":   ["........TT", ".......TKT", "..T.T..TT.", ".TTTTT.TT.", "TTTTTTTTT.", "TTTTTTTTT.", ".TTTTTTT..", ".T.T..T.T.", ".T.T..T.T.", ".T.T..T.T."],
   "palette":  { "K": "#1F2937", "T": "#92400E" }

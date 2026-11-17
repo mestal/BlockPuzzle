@@ -1,6 +1,6 @@
 {
   "id": 4,
-  "name": {"tr": "Taç", "en": "Crown", "de": "Krone", "fr": "Couronne", "es": "Corona", "pt": "Coroa", "it": "Corona", "ru": "Корона", "ar": "تاج", "ja": "王冠", "zh": "王冠"},
+  "name": {"de": "Krone", "en": "Crown", "es": "Corona", "fr": "Couronne", "it": "Corona", "pl": "Korona", "pt": "Coroa", "tr": "Taç", "el": "Στέμμα", "bg": "Корона", "ru": "Корона", "ar": "تاج", "hi": "मुकुट", "zh": "王冠", "ja": "王冠", "ko": "왕관"},
   "solution": ["#.#.#", "#.#.#", "#####", "#####", "#####"],
   "colors":   ["Y.Y.Y", "Y.Y.Y", "YYYYY", "YRYBY", "YYYYY"],
   "palette":  { "B": "#3B82F6", "R": "#E8453C", "Y": "#FACC15" }

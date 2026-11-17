@@ -1,6 +1,6 @@
 {
   "id": 151,
-  "name": {"tr": "Pterodaktil", "en": "Pterodactyl", "de": "Flugsaurier", "fr": "Ptérodactyle", "es": "Pterodáctilo", "pt": "Pterodáctilo", "it": "Pterodattilo", "ru": "Птеродактиль", "ar": "تيروداكتيل", "ja": "プテラノドン", "zh": "翼龙"},
+  "name": {"de": "Flugsaurier", "en": "Pterodactyl", "es": "Pterodáctilo", "fr": "Ptérodactyle", "it": "Pterodattilo", "pl": "Pterodaktyl", "pt": "Pterodáctilo", "tr": "Pterodaktil", "el": "Πτεροδάκτυλος", "bg": "Птеродактил", "ru": "Птеродактиль", "ar": "تيروداكتيل", "hi": "टेरोडैक्टिल", "zh": "翼龙", "ja": "プテラノドン", "ko": "익룡"},
   "solution": ["..........", "....##....", "...####...", "..#######.", "....##....", "....##...#", "##.####.##", "##########", ".########.", "..######..", "...####...", "....##....", "...#..#...", "..##..##..", ".........."],
   "colors":   ["..........", "....TT....", "...TTKT...", "..TTTTTTT.", "....TT....", "....TT...T", "TT.TTTT.TT", "TTTTTTTTTT", ".TTTTTTTT.", "..TTTTTT..", "...TTTT...", "....TT....", "...T..T...", "..TT..TT..", ".........."],
   "palette":  { "K": "#1F2937", "T": "#92400E" }

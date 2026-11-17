@@ -1,6 +1,6 @@
 {
   "id": 188,
-  "name": {"tr": "Uzaylı", "en": "Alien", "de": "Außerirdischer", "fr": "Extraterrestre", "es": "Extraterrestre", "pt": "Alienígena", "it": "Alieno", "ru": "Инопланетянин", "ar": "كائن فضائي", "ja": "宇宙人", "zh": "外星人"},
+  "name": {"de": "Außerirdischer", "en": "Alien", "es": "Extraterrestre", "fr": "Extraterrestre", "it": "Alieno", "pl": "Kosmita", "pt": "Alienígena", "tr": "Uzaylı", "el": "Εξωγήινος", "bg": "Извънземно", "ru": "Инопланетянин", "ar": "كائن فضائي", "hi": "एलियन", "zh": "外星人", "ja": "宇宙人", "ko": "외계인"},
   "solution": ["..#....#..", "...#..#...", "...####...", "..######..", ".########.", "##########", "##########", ".########.", "..######..", "...####...", "..######..", ".########.", "#.######.#", "..##..##..", ".###..###."],
   "colors":   ["..G....G..", "...G..G...", "...GGGG...", "..GGGGGG..", ".GGGGGGGG.", "GKKGGGGKKG", "GKKKGGKKKG", ".GGGGGGGG.", "..GGKKGG..", "...GGGG...", "..GGGGGG..", ".GGGGGGGG.", "G.GGGGGG.G", "..GG..GG..", ".GGG..GGG."],
   "palette":  { "G": "#22C55E", "K": "#1F2937" }

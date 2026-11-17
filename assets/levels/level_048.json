@@ -1,6 +1,6 @@
 {
   "id": 48,
-  "name": {"tr": "Kelebek", "en": "Butterfly", "de": "Schmetterling", "fr": "Papillon", "es": "Mariposa", "pt": "Borboleta", "it": "Farfalla", "ru": "Бабочка", "ar": "فراشة", "ja": "チョウ", "zh": "蝴蝶"},
+  "name": {"de": "Schmetterling", "en": "Butterfly", "es": "Mariposa", "fr": "Papillon", "it": "Farfalla", "pl": "Motyl", "pt": "Borboleta", "tr": "Kelebek", "el": "Πεταλούδα", "bg": "Пеперуда", "ru": "Бабочка", "ar": "فراشة", "hi": "तितली", "zh": "蝴蝶", "ja": "チョウ", "ko": "나비"},
   "solution": ["##.....##.", "###...###.", "####.####.", "#########.", ".#######..", "..#####...", ".#######..", "####.####.", "###...###.", ".........."],
   "colors":   ["VV.....VV.", "VPV...VPV.", "VPPV.VPPV.", "VVPVKVPVV.", ".VVVKVVV..", "..VVKVV...", ".VPVKVPV..", "VPPV.VPPV.", "VVV...VVV.", ".........."],
   "palette":  { "K": "#1F2937", "P": "#F472B6", "V": "#8B5CF6" }

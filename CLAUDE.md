@@ -153,11 +153,13 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   (`SlotsController.saveDelay`); uygulama arka plana geçince `flush()` ile hemen yazılır.
 
 ### Dil
-- Diller: Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, Portekizce, İtalyanca, Rusça, Arapça,
-  Japonca, Çince (`core/languages.dart`). Arapça sağdan soladır; ızgara ve ipuçları her dilde
+- 16 dil: Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, Portekizce, İtalyanca, Lehçe, Yunanca,
+  Bulgarca, Rusça, Arapça, Hintçe, Japonca, Çince, Korece (`core/languages.dart`). Arapça sağdan soladır; ızgara ve ipuçları her dilde
   soldan sağa kalır (`BoardView` `Directionality.ltr`), metin içindeki ipucu sayıları LRI/PDI ile yalıtılır.
-- Varsayılan: cihaz dili; desteklenmiyorsa İngilizce. Ayarlar'dan (dişli ikonu) değiştirilebilir,
-  `AppSettings` (`features/settings`) içinde saklanır.
+- Varsayılan: cihaz dili; desteklenmiyorsa İngilizce. Ayarlar'dan (dişli ikonu) açılır menüyle
+  (`LanguageDropdown`) değiştirilebilir, `AppSettings` (`features/settings`) içinde saklanır.
+- `supportedLanguages` dillerin kendi adlarına göre alfabetik sıradadır (önce Latin, sonra Yunan,
+  Kiril, Arap, Devanagari, CJK, Hangul); menü bu sırayı kullanır, test sırayı doğrular.
 - Bölüm ve harita adları JSON'da dil haritasıdır: `"name": {"tr": "...", "en": "...", ...}`
   (`LocalizedText`). Testler her dilin ARB anahtarlarını ve tüm adların çevirisini doğrular.
 
@@ -183,7 +185,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   hücreyi değiştirerek mantıkla çözülebilir yapar ve her haritadaki resimleri boyut + çözücüye göre
   zorluk sırasıyla numaralar. `pinned: true` resimler haritanın başında yazıldığı sırayla kalır
   (Bölüm 1–2 öğretici; `tutorial.dart` koordinatları bu resimlere bağlıdır).
-  Yeni resim: ilgili `tool/art/wNN_*.dart` dosyasına ekle (`artLanguages` sırasıyla 11 dilde ad),
+  Yeni resim: ilgili `tool/art/wNN_*.dart` dosyasına ekle (`artLanguages` sırasıyla 16 dilde ad),
   üreticiyi çalıştır.
 
 - 5'ten uzun satır/sütunlarda her 5 karede bir kılavuz çizgisi çizilir (5'lik bloklar sayılabilsin).
@@ -228,7 +230,7 @@ Büyük ızgaralarda pinch-zoom + kaydırma desteklenir; dokunma alanı en az 32
 - Kalıcılık: `shared_preferences` (`SharedPreferencesAsync`) üzerinde JSON; bir
   `ProgressRepository` arayüzü arkasında.
 - Reklam: `AdService` arayüzü → şimdilik `DummyAdService`.
-- Font: `google_fonts` (Fredoka). Metinler: `flutter gen-l10n` → `lib/l10n/gen/` (11 dil, şablon `app_tr.arb`).
+- Font: `google_fonts` (Fredoka). Metinler: `flutter gen-l10n` → `lib/l10n/gen/` (16 dil, şablon `app_tr.arb`).
 - Lint: `very_good_analysis`. Test: `flutter_test`.
 
 ## 4. Klasör yapısı (feature-first)
@@ -279,7 +281,7 @@ test/
 - `const` constructor'lar, küçük ve odaklı widget'lar, `build` içinde ağır iş yok.
 - Sihirli sayılar yerine tema/sabit dosyaları. Renkler yalnızca `lib/app/theme.dart` içindeki `AppColors`'tan.
 - Kod, tanımlayıcılar ve yorumlar **İngilizce**; kullanıcıya görünen metinler `l10n` (ARB) ile,
-  şablon dil **Türkçe**; yeni metin 11 ARB dosyasının hepsine eklenir.
+  şablon dil **Türkçe**; yeni metin 16 ARB dosyasının hepsine eklenir.
 - ARB değişince: `flutter gen-l10n`.
 - Tarayıcıda dikey önizleme: `flutter build web` + `.claude/launch.json` içindeki "web" sunucusu.
 - Commit'ten önce: `dart format .`, `flutter analyze` ve `flutter test` temiz olmalı.

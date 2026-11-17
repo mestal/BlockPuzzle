@@ -1,6 +1,6 @@
 {
   "id": 191,
-  "name": {"tr": "Yıldız kupası", "en": "Star trophy", "de": "Sternenpokal", "fr": "Trophée étoilé", "es": "Trofeo estelar", "pt": "Troféu estrela", "it": "Trofeo stellare", "ru": "Звёздный кубок", "ar": "كأس النجمة", "ja": "星のトロフィー", "zh": "星星奖杯"},
+  "name": {"de": "Sternenpokal", "en": "Star trophy", "es": "Trofeo estelar", "fr": "Trophée étoilé", "it": "Trofeo stellare", "pl": "Gwiezdny puchar", "pt": "Troféu estrela", "tr": "Yıldız kupası", "el": "Αστρικό τρόπαιο", "bg": "Звезден трофей", "ru": "Звёздный кубок", "ar": "كأس النجمة", "hi": "तारा ट्रॉफी", "zh": "星星奖杯", "ja": "星のトロフィー", "ko": "별 트로피"},
   "solution": ["....##....", "...####...", "##########", ".########.", "..######..", "..##..##..", "##########", "##########", ".########.", "..######..", "...####...", "....##....", "....##....", "..######..", ".########."],
   "colors":   ["....YY....", "...YYYY...", "YYYYYYYYYY", ".YYYYYYYY.", "..YYYYYY..", "..YY..YY..", "AAAAAAAAAA", "AAYAAAAYAA", ".AAAAAAAA.", "..AAAAAA..", "...AAAA...", "....AA....", "....AA....", "..AAAAAA..", ".TTTTTTTT."],
   "palette":  { "A": "#F59E0B", "T": "#92400E", "Y": "#FACC15" }

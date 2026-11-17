@@ -1,6 +1,6 @@
 {
   "id": 169,
-  "name": {"tr": "Yel değirmeni", "en": "Windmill", "de": "Windmühle", "fr": "Moulin à vent", "es": "Molino de viento", "pt": "Moinho de vento", "it": "Mulino a vento", "ru": "Мельница", "ar": "طاحونة هواء", "ja": "風車", "zh": "风车"},
+  "name": {"de": "Windmühle", "en": "Windmill", "es": "Molino de viento", "fr": "Moulin à vent", "it": "Mulino a vento", "pl": "Wiatrak", "pt": "Moinho de vento", "tr": "Yel değirmeni", "el": "Ανεμόμυλος", "bg": "Вятърна мелница", "ru": "Мельница", "ar": "طاحونة هواء", "hi": "पवनचक्की", "zh": "风车", "ja": "風車", "ko": "풍차"},
   "solution": ["##......##", "###....###", ".###..###.", "..######..", "...####...", "..######..", ".########.", "###.##.###", "##.####.##", "...####...", "...####...", "..######..", "..######..", "##########", ".........."],
   "colors":   ["WW......WW", "WWW....WWW", ".WWW..WWW.", "..WWTTWW..", "...TTTT...", "..WWTTWW..", ".WWWTTWWW.", "WWW.TT.WWW", "WW.TTTT.WW", "...TTTT...", "...THHT...", "..TTHHTT..", "..TTHHTT..", "GGGGGGGGGG", ".........."],
   "palette":  { "G": "#22C55E", "H": "#5B3410", "T": "#92400E", "W": "#FFFFFF" }

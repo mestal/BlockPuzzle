@@ -1,6 +1,6 @@
 {
   "id": 115,
-  "name": {"tr": "Kardan adam", "en": "Snowman", "de": "Schneemann", "fr": "Bonhomme de neige", "es": "Muñeco de nieve", "pt": "Boneco de neve", "it": "Pupazzo di neve", "ru": "Снеговик", "ar": "رجل الثلج", "ja": "雪だるま", "zh": "雪人"},
+  "name": {"de": "Schneemann", "en": "Snowman", "es": "Muñeco de nieve", "fr": "Bonhomme de neige", "it": "Pupazzo di neve", "pl": "Bałwan", "pt": "Boneco de neve", "tr": "Kardan adam", "el": "Χιονάνθρωπος", "bg": "Снежен човек", "ru": "Снеговик", "ar": "رجل الثلج", "hi": "हिममानव", "zh": "雪人", "ja": "雪だるま", "ko": "눈사람"},
   "solution": ["..........", "...####...", "...####...", "..######..", "...####...", "..######..", "..######..", "...####...", "#.######.#", ".########.", ".########.", ".########.", "..######..", "..........", ".........."],
   "colors":   ["..........", "...KKKK...", "...KKKK...", "..KKKKKK..", "...WWWW...", "..WKWWKW..", "..WWOOWW..", "...WWWW...", "T.RRRRRR.T", ".TWWKWWWT.", ".WWWWWWWW.", ".WWWKWWWW.", "..WWWWWW..", "..........", ".........."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }

@@ -1,6 +1,6 @@
 {
   "id": 113,
-  "name": {"tr": "Paten", "en": "Ice skate", "de": "Schlittschuh", "fr": "Patin à glace", "es": "Patín de hielo", "pt": "Patim de gelo", "it": "Pattino da ghiaccio", "ru": "Конёк", "ar": "حذاء تزلج", "ja": "スケート靴", "zh": "冰鞋"},
+  "name": {"de": "Schlittschuh", "en": "Ice skate", "es": "Patín de hielo", "fr": "Patin à glace", "it": "Pattino da ghiaccio", "pl": "Łyżwa", "pt": "Patim de gelo", "tr": "Paten", "el": "Παγοπέδιλο", "bg": "Кънка", "ru": "Конёк", "ar": "حذاء تزلج", "hi": "आइस स्केट", "zh": "冰鞋", "ja": "スケート靴", "ko": "스케이트"},
   "solution": ["..........", "..........", ".###......", ".####.....", ".####.....", ".####.....", ".####.....", ".#####....", ".#######..", ".########.", ".#########", "..#....#..", "##########", "..........", ".........."],
   "colors":   ["..........", "..........", ".LLL......", ".LLLL.....", ".LLLL.....", ".LKLL.....", ".LLKL.....", ".LLLLL....", ".LLLLLLL..", ".LLLLLLLL.", ".LLLLLLLLL", "..E....E..", "EEEEEEEEEE", "..........", ".........."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0" }

@@ -1,6 +1,6 @@
 {
   "id": 189,
-  "name": {"tr": "Uzay istasyonu", "en": "Space station", "de": "Raumstation", "fr": "Station spatiale", "es": "Estación espacial", "pt": "Estação espacial", "it": "Stazione spaziale", "ru": "Космическая станция", "ar": "محطة فضائية", "ja": "宇宙ステーション", "zh": "空间站"},
+  "name": {"de": "Raumstation", "en": "Space station", "es": "Estación espacial", "fr": "Station spatiale", "it": "Stazione spaziale", "pl": "Stacja kosmiczna", "pt": "Estação espacial", "tr": "Uzay istasyonu", "el": "Διαστημικός σταθμός", "bg": "Космическа станция", "ru": "Космическая станция", "ar": "محطة فضائية", "hi": "अंतरिक्ष स्टेशन", "zh": "空间站", "ja": "宇宙ステーション", "ko": "우주 정거장"},
   "solution": ["###....###", "###....###", "###.##.###", "##########", "###.##.###", "###.##.###", "....##....", "...####...", "...####...", "...####...", "....##....", "###.##.###", "###.##.###", "##########", "###.##.###"],
   "colors":   ["BBB....BBB", "BBB....BBB", "BBB.EE.BBB", "EEEEEEEEEE", "BBB.EE.BBB", "BBB.EE.BBB", "....EE....", "...LLLL...", "...LRRL...", "...LLLL...", "....EE....", "BBB.EE.BBB", "BBB.EE.BBB", "EEEEEEEEEE", "BBB.EE.BBB"],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "L": "#E2E8F0", "R": "#E8453C" }

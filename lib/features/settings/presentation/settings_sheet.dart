@@ -43,13 +43,6 @@ class SettingsSheet extends ConsumerWidget {
       fontWeight: FontWeight.w700,
     );
 
-    Widget languageTile(String? code, String label) => RadioListTile<String?>(
-      value: code,
-      title: Text(label, style: const TextStyle(color: AppColors.block)),
-      activeColor: AppColors.blockTop,
-      dense: true,
-    );
-
     return SafeArea(
       child: ConstrainedBox(
         constraints: BoxConstraints(
@@ -87,16 +80,11 @@ class SettingsSheet extends ConsumerWidget {
                 ],
               ),
             ),
-            RadioGroup<String?>(
-              groupValue: settings.language,
-              onChanged: controller.setLanguage,
-              child: Column(
-                children: [
-                  languageTile(null, l10n.settingsLanguageDevice),
-                  for (final MapEntry(:key, :value)
-                      in supportedLanguages.entries)
-                    languageTile(key, value),
-                ],
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 12, 16, 8),
+              child: LanguageDropdown(
+                value: settings.language,
+                onChanged: controller.setLanguage,
               ),
             ),
           ],
@@ -104,4 +92,156 @@ class SettingsSheet extends ConsumerWidget {
       ),
     );
   }
+}
+
+/// Stylish language picker: a raised pill showing the current choice that
+/// opens a rounded menu of every [supportedLanguages] entry (alphabetical),
+/// preceded by "device language".
+class LanguageDropdown extends StatelessWidget {
+  const LanguageDropdown({
+    required this.value,
+    required this.onChanged,
+    super.key,
+  });
+
+  /// Chosen language code, or null to follow the device language.
+  final String? value;
+  final ValueChanged<String?> onChanged;
+
+  /// [DropdownButton] treats a null value as "nothing selected", so the
+  /// device-language entry uses this key instead.
+  static const _device = '';
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    final selected = value ?? _device;
+    final options = <(String, String)>[
+      (_device, l10n.settingsLanguageDevice),
+      for (final MapEntry(:key, :value) in supportedLanguages.entries)
+        (key, value),
+    ];
+
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        gradient: const LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          colors: [AppColors.clueChip, AppColors.emptyCell],
+        ),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: AppColors.blockShine, width: 1.5),
+        boxShadow: [
+          BoxShadow(
+            color: AppColors.block.withValues(alpha: 0.18),
+            blurRadius: 14,
+            offset: const Offset(0, 5),
+          ),
+        ],
+      ),
+      child: DropdownButtonHideUnderline(
+        child: DropdownButton<String>(
+          value: selected,
+          isExpanded: true,
+          borderRadius: BorderRadius.circular(20),
+          dropdownColor: AppColors.board,
+          menuMaxHeight: 420,
+          elevation: 12,
+          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+          icon: const Icon(
+            Icons.keyboard_arrow_down_rounded,
+            color: AppColors.blockTop,
+            size: 28,
+          ),
+          onChanged: (code) {
+            if (code != null) onChanged(code == _device ? null : code);
+          },
+          selectedItemBuilder: (_) => [
+            for (final (code, label) in options)
+              _LanguageRow(code: code, label: label),
+          ],
+          items: [
+            for (final (code, label) in options)
+              DropdownMenuItem(
+                value: code,
+                child: _LanguageRow(
+                  code: code,
+                  label: label,
+                  selected: code == selected,
+                ),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// One language: a jelly badge with its code, its own name and, in the
+/// open menu, a check mark on the current choice.
+class _LanguageRow extends StatelessWidget {
+  const _LanguageRow({
+    required this.code,
+    required this.label,
+    this.selected = false,
+  });
+
+  final String code;
+  final String label;
+  final bool selected;
+
+  @override
+  Widget build(BuildContext context) => Row(
+    children: [
+      Container(
+        width: 38,
+        height: 28,
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+          gradient: const LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [AppColors.blockTop, AppColors.block],
+          ),
+          borderRadius: BorderRadius.circular(9),
+          boxShadow: const [
+            BoxShadow(color: AppColors.blockShadow, offset: Offset(0, 2)),
+          ],
+        ),
+        child: code.isEmpty
+            ? const Icon(
+                Icons.smartphone_rounded,
+                color: AppColors.clueChip,
+                size: 17,
+              )
+            : Text(
+                code.toUpperCase(),
+                style: const TextStyle(
+                  color: AppColors.clueChip,
+                  fontSize: 12,
+                  fontWeight: FontWeight.w700,
+                  letterSpacing: 0.5,
+                ),
+              ),
+      ),
+      const SizedBox(width: 14),
+      Expanded(
+        child: Text(
+          label,
+          overflow: TextOverflow.ellipsis,
+          style: TextStyle(
+            color: AppColors.block,
+            fontSize: 16,
+            fontWeight: selected ? FontWeight.w700 : FontWeight.w500,
+          ),
+        ),
+      ),
+      if (selected)
+        const Icon(
+          Icons.check_circle_rounded,
+          color: AppColors.blockTop,
+          size: 22,
+        ),
+    ],
+  );
 }

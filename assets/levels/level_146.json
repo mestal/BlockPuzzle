@@ -1,6 +1,6 @@
 {
   "id": 146,
-  "name": {"tr": "Ayak izi", "en": "Dino footprint", "de": "Dino-Fußabdruck", "fr": "Empreinte de dino", "es": "Huella de dino", "pt": "Pegada de dinossauro", "it": "Impronta di dino", "ru": "След динозавра", "ar": "أثر ديناصور", "ja": "恐竜の足あと", "zh": "恐龙脚印"},
+  "name": {"de": "Dino-Fußabdruck", "en": "Dino footprint", "es": "Huella de dino", "fr": "Empreinte de dino", "it": "Impronta di dino", "pl": "Ślad dinozaura", "pt": "Pegada de dinossauro", "tr": "Ayak izi", "el": "Πατημασιά δεινοσαύρου", "bg": "Следа от динозавър", "ru": "След динозавра", "ar": "أثر ديناصور", "hi": "डायनासोर के पदचिह्न", "zh": "恐龙脚印", "ja": "恐竜の足あと", "ko": "공룡 발자국"},
   "solution": ["..........", ".##....##.", ".##....##.", ".##.##.##.", ".##.##.##.", "..#.##.#..", "....##....", "..######..", ".########.", "##########", "##########", "##########", ".########.", "..######..", ".........."],
   "colors":   ["..........", ".TT....TT.", ".TT....TT.", ".TT.TT.TT.", ".TT.TT.TT.", "..T.TT.T..", "....TT....", "..TTTTTT..", ".TTTTTTTT.", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", ".TTTTTTTT.", "..TTTTTT..", ".........."],
   "palette":  { "T": "#92400E" }

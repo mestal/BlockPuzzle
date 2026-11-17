@@ -1,6 +1,6 @@
 {
   "id": 59,
-  "name": {"tr": "Hilal", "en": "Crescent moon", "de": "Mondsichel", "fr": "Croissant de lune", "es": "Luna creciente", "pt": "Lua crescente", "it": "Falce di luna", "ru": "Полумесяц", "ar": "هلال", "ja": "三日月", "zh": "弯月"},
+  "name": {"de": "Mondsichel", "en": "Crescent moon", "es": "Luna creciente", "fr": "Croissant de lune", "it": "Falce di luna", "pl": "Półksiężyc", "pt": "Lua crescente", "tr": "Hilal", "el": "Μισοφέγγαρο", "bg": "Полумесец", "ru": "Полумесяц", "ar": "هلال", "hi": "अर्धचंद्र", "zh": "弯月", "ja": "三日月", "ko": "초승달"},
   "solution": ["..........", "....#####.", "..####....", ".###......", ".##.......", ".##.......", ".###......", "..####....", "....#####.", ".........."],
   "colors":   ["..........", "....YYYYY.", "..YYYY....", ".YYY......", ".YY.......", ".YY.......", ".YYY......", "..YYYY....", "....YYYYY.", ".........."],
   "palette":  { "Y": "#FACC15" }

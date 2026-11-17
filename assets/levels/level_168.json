@@ -1,6 +1,6 @@
 {
   "id": 168,
-  "name": {"tr": "Sıcak hava balonu", "en": "Hot air balloon", "de": "Heißluftballon", "fr": "Montgolfière", "es": "Globo aerostático", "pt": "Balão de ar quente", "it": "Mongolfiera", "ru": "Воздушный шар", "ar": "منطاد الهواء الساخن", "ja": "熱気球", "zh": "热气球"},
+  "name": {"de": "Heißluftballon", "en": "Hot air balloon", "es": "Globo aerostático", "fr": "Montgolfière", "it": "Mongolfiera", "pl": "Balon na ogrzane powietrze", "pt": "Balão de ar quente", "tr": "Sıcak hava balonu", "el": "Αερόστατο", "bg": "Балон с горещ въздух", "ru": "Воздушный шар", "ar": "منطاد الهواء الساخن", "hi": "गर्म हवा का गुब्बारा", "zh": "热气球", "ja": "熱気球", "ko": "열기구"},
   "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", "...####...", "...#..#...", "...#..#...", "...####...", "...####...", "....##...."],
   "colors":   ["...RRRR...", "..RRYYRR..", ".RRYYYYRR.", "RRYYRRYYRR", "RYYRRRRYYR", "RYYRRRRYYR", "RRYYRRYYRR", ".RRYYYYRR.", "..RRYYRR..", "...RRRR...", "...T..T...", "...T..T...", "...TTTT...", "...TTTT...", "....TT...."],
   "palette":  { "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
