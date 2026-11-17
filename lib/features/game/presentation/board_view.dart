@@ -16,8 +16,9 @@ typedef MarkCallback =
     bool Function(int row, int col, MoveAction action, {int step});
 
 /// Clues + grid. Gestures:
-/// * single tap → X, single press-and-drag → X along a line
-/// * double tap → fill, double tap with the 2nd press dragged → fill a line
+/// * single tap → fill, single press-and-drag → fill along a line
+/// * double tap → X (or removes a manual X), double tap with the 2nd press
+///   dragged → X along a line
 class BoardView extends StatefulWidget {
   const BoardView({
     required this.state,
@@ -44,7 +45,7 @@ class _BoardViewState extends State<BoardView> {
   int? _pointer;
   _Pos? _down;
   _Pos? _last;
-  MoveAction _action = MoveAction.cross;
+  MoveAction _action = MoveAction.fill;
   bool _isSecondTap = false;
   bool _moved = false;
   bool _stopped = false;
@@ -149,12 +150,12 @@ class _BoardViewState extends State<BoardView> {
     _pendingTap = null;
     if (pending != null && _near(pending, pos)) {
       _isSecondTap = true;
-      _action = MoveAction.fill;
+      _action = MoveAction.cross;
       _down = pending;
     } else {
-      if (pending != null) _mark(pending, MoveAction.cross);
+      if (pending != null) _mark(pending, MoveAction.fill);
       _isSecondTap = false;
-      _action = MoveAction.cross;
+      _action = MoveAction.fill;
       _down = pos;
     }
     _last = _down;
@@ -208,12 +209,15 @@ class _BoardViewState extends State<BoardView> {
     final down = _down;
     if (down != null && !_moved) {
       if (_isSecondTap) {
-        _mark(down, MoveAction.fill);
+        final cell = _state.board.at(down.$1, down.$2);
+        final manualX =
+            cell.mark == CellMark.crossed && cell.source == MarkSource.user;
+        _mark(down, manualX ? MoveAction.erase : MoveAction.cross);
       } else {
         _pendingTap = down;
         _singleTap = Timer(kDoubleTapTimeout, () {
           _pendingTap = null;
-          _mark(down, MoveAction.cross);
+          _mark(down, MoveAction.fill);
           if (mounted) setState(() => _pressed = null);
         });
         return; // keep the pressed highlight while we wait

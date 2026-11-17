@@ -108,6 +108,17 @@ void main() {
       );
     });
 
+    test('erase removes a manual X but nothing else', () {
+      final crossed = Board.start(puzzle).apply(0, 1, MoveAction.cross).board;
+      expect(crossed.apply(0, 1, MoveAction.erase).board.at(0, 1), Cell.empty);
+      final filled = Board.start(puzzle).apply(0, 0, MoveAction.fill).board;
+      expect(filled.apply(0, 0, MoveAction.erase).changed, isFalse);
+      expect(
+        Board.start(puzzle).apply(0, 0, MoveAction.erase).changed,
+        isFalse,
+      );
+    });
+
     test('crossing a crossed cell does nothing', () {
       final crossed = Board.start(puzzle).apply(0, 1, MoveAction.cross).board;
       expect(crossed.apply(0, 1, MoveAction.cross).changed, isFalse);

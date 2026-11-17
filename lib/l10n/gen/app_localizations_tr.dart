@@ -71,10 +71,11 @@ class AppLocalizationsTr extends AppLocalizations {
   }
 
   @override
-  String get tutorialTap => 'Tek dokun: X koy';
+  String get tutorialTap => 'Tek dokun: doldur';
 
   @override
-  String get tutorialDoubleTap => 'Çift dokun: doldur';
+  String get tutorialDoubleTap =>
+      'Çift dokun: X koy (X\'e tekrar çift dokun: kaldır)';
 
   @override
   String get tutorialDrag =>

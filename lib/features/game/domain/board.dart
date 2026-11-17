@@ -6,8 +6,8 @@ enum CellMark { empty, filled, crossed }
 /// Who produced a mark. Drives how the cell is drawn.
 enum MarkSource { user, auto, mistake, hint }
 
-/// What the player tried to do on a cell.
-enum MoveAction { fill, cross }
+/// What the player tried to do on a cell. [erase] removes a manual X.
+enum MoveAction { fill, cross, erase }
 
 @immutable
 final class Cell {
@@ -135,6 +135,19 @@ final class Board {
     if (existing.isLocked || isSolved) return MoveResult(board: this);
 
     final cells = [...this.cells];
+    if (action == MoveAction.erase) {
+      if (existing.mark != CellMark.crossed) return MoveResult(board: this);
+      cells[r * puzzle.cols + c] = Cell.empty;
+      return MoveResult(
+        board: Board._(
+          puzzle,
+          List.unmodifiable(cells),
+          solvedRows,
+          solvedCols,
+        ),
+        changed: true,
+      );
+    }
     if (action == MoveAction.cross) {
       if (existing.isOpen) return MoveResult(board: this);
       cells[r * puzzle.cols + c] = const Cell(CellMark.crossed);

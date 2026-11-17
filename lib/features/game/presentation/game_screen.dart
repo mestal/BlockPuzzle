@@ -274,8 +274,7 @@ class _TopBar extends StatelessWidget {
               ),
             ),
           ),
-          for (var i = 0; i < max(GameState.maxLives, lives); i++)
-            _Heart(alive: i < lives),
+          _Lives(lives: lives),
           IconButton(
             onPressed: () => showRulesDialog(context),
             icon: const Icon(Icons.help_outline_rounded, color: Colors.white),
@@ -360,34 +359,43 @@ class _ScoreBar extends StatelessWidget {
   }
 }
 
-class _Heart extends StatelessWidget {
-  const _Heart({required this.alive});
+/// Heart with the number of lives left; pops whenever the count changes.
+class _Lives extends StatelessWidget {
+  const _Lives({required this.lives});
 
-  final bool alive;
+  final int lives;
 
   @override
   Widget build(BuildContext context) => Padding(
-    padding: const EdgeInsets.symmetric(horizontal: 2),
+    padding: const EdgeInsets.symmetric(horizontal: 4),
     child: AnimatedSwitcher(
       duration: const Duration(milliseconds: 450),
       transitionBuilder: (child, animation) => ScaleTransition(
         scale: CurvedAnimation(parent: animation, curve: Curves.elasticOut),
         child: child,
       ),
-      child: alive
-          ? const Icon(
-              Icons.favorite_rounded,
-              key: ValueKey(true),
-              color: AppColors.heart,
-              size: 30,
-              shadows: [Shadow(blurRadius: 10, color: Colors.white54)],
-            )
-          : const Icon(
-              Icons.heart_broken_rounded,
-              key: ValueKey(false),
-              color: Colors.white38,
-              size: 30,
+      child: Row(
+        key: ValueKey(lives),
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(
+            lives > 0 ? Icons.favorite_rounded : Icons.heart_broken_rounded,
+            color: lives > 0 ? AppColors.heart : Colors.white38,
+            size: 30,
+            shadows: const [Shadow(blurRadius: 10, color: Colors.white54)],
+          ),
+          const SizedBox(width: 4),
+          Text(
+            '$lives',
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 22,
+              fontWeight: FontWeight.w700,
+              shadows: [Shadow(blurRadius: 8, color: Colors.black38)],
             ),
+          ),
+        ],
+      ),
     ),
   );
 }

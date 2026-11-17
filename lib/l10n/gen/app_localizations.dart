@@ -199,13 +199,13 @@ abstract class AppLocalizations {
   /// No description provided for @tutorialTap.
   ///
   /// In tr, this message translates to:
-  /// **'Tek dokun: X koy'**
+  /// **'Tek dokun: doldur'**
   String get tutorialTap;
 
   /// No description provided for @tutorialDoubleTap.
   ///
   /// In tr, this message translates to:
-  /// **'Çift dokun: doldur'**
+  /// **'Çift dokun: X koy (X\'e tekrar çift dokun: kaldır)'**
   String get tutorialDoubleTap;
 
   /// No description provided for @tutorialDrag.

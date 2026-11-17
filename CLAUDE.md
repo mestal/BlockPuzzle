@@ -27,17 +27,17 @@ Mod düğmesi yok; işlemi **jest** belirler:
 
 | Jest | Sonuç |
 |---|---|
-| Tek dokunma | Kareye **X** |
-| Tek dokunup basılı tutarak sürükleme | Geçilen karelere **X** |
-| Çift dokunma | Kareyi **doldur** |
-| Çift dokunup ikinci dokunuşta basılı tutarak sürükleme | Geçilen kareleri **doldur** |
+| Tek dokunma | Kareyi **doldur** |
+| Tek dokunup basılı tutarak sürükleme | Geçilen kareleri **doldur** |
+| Çift dokunma | Kareye **X** (oyuncunun kendi X'ine çift dokunma X'i **kaldırır**) |
+| Çift dokunup ikinci dokunuşta basılı tutarak sürükleme | Geçilen karelere **X** |
 
 - Tek dokunma, çift dokunma olup olmadığını anlamak için ~250 ms bekler (`kDoubleTapTimeout`);
   bu sürede karede hafif bir "basıldı" vurgusu gösterilir ki gecikme hissedilmesin.
 - Sürükleme ilk hareket yönüne (yatay/dikey) kilitlenir; tek satır veya sütun boyunca ilerler.
 - Sürüklemede zaten açılmış (dolu veya X) kareler atlanır, hiçbir şey olmaz.
 - Jestler keşfedilmesi zor olduğundan **Bölüm 1 el animasyonlu bir öğretici** içerir
-  (önce tek dokunuş = X, sonra çift dokunuş = doldur).
+  (önce tek dokunuş = doldur, sonra çift dokunuş = X).
 
 ### Doğru / yanlış nasıl anlaşılır
 Her bölümün çözümü (`solution`) oyunda kayıtlıdır. **X serbesttir**: yanlış yere de konabilir,
@@ -49,7 +49,8 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 | X koy | ✅ (not) | ✅ (not) |
 
 - Oyuncunun kendi X'i kilitlenmez: üstüne doldurma yapılabilir (dolu karede doğru olur).
-- Sürükleme yanlış doldurmada durur (tek hamlede birden fazla hak gitmez); X sürüklemesi hiç durmaz.
+- Doldurma sürüklemesi yanlış karelerde durmaz: her yanlış kare kırmızı X olur ve 1 hak götürür
+  (5 kare sürüklenip 3'ü yanlışsa 3 hak gider). Haklar biterse sürükleme durur. X sürüklemesi hiç durmaz.
 - Bir satır veya sütunun tüm dolu kareleri bulununca kalan kareler (oyuncunun yanlış X'leri dahil)
   otomatik **yeşil X** olur, ipucu kutusu altına döner ve **satır/sütun kutlaması** oynar.
 - X'ler kaynağına göre farklı renkte çizilir (`MarkSource` enum'u: `user`, `auto`, `mistake`, `hint`):
@@ -75,8 +76,8 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - Sürükleme sürdükçe doldurma/X sesi pentatonik merdivenden yukarı çıkar (giderek incelir).
 
 ### Haklar (can)
-- Her bölüm **3 hak** ile başlar (kalp ikonları).
-- 3 hak bitince "Hakların bitti" popup'ı: **Reklam izle → +1 hak** (bölüm kaldığı yerden devam eder)
+- Her bölüm **10 hak** ile başlar (kalp ikonu + sayı; `GameState.maxLives`, ileride artabilir).
+- Haklar bitince "Hakların bitti" popup'ı: **Reklam izle → +1 hak** (bölüm kaldığı yerden devam eder)
   veya **Bölümü yeniden başlat**.
 
 ### İpucu (hint)
@@ -209,3 +210,6 @@ test/
 - ARB değişince: `flutter gen-l10n`.
 - Tarayıcıda dikey önizleme: `flutter build web` + `.claude/launch.json` içindeki "web" sunucusu.
 - Commit'ten önce: `dart format .`, `flutter analyze` ve `flutter test` temiz olmalı.
+- Her iş bittiğinde yanıtın sonunda, yapılan değişiklikler için hazır bir **commit mesajı** göster
+  (İngilizce, kısa başlık + gerekirse madde işaretli açıklama). Kullanıcı istemedikçe commit atma;
+  yalnızca mesajı öner.

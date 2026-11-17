@@ -56,7 +56,7 @@ final class GameState {
     this.fx,
   });
 
-  static const maxLives = 3;
+  static const maxLives = 10;
 
   final Board board;
   final int lives;
@@ -180,6 +180,7 @@ class GameController extends Notifier<GameState> {
     // Scoring: hints are free but earn nothing; a mistake breaks the streak.
     final scored = action == MoveAction.fill && source == MarkSource.user;
     var combo = state.combo;
+    final oldMultiplier = state.multiplier;
     var points = 0;
     if (result.mistake) {
       combo = 0;
@@ -224,6 +225,7 @@ class GameController extends Notifier<GameState> {
       line: result.completedRows.isNotEmpty || result.completedCols.isNotEmpty,
       solved: result.solved,
       combo: combo,
+      comboUp: Scoring.multiplier(combo) > oldMultiplier,
     );
 
     if (status == GameStatus.won) {
@@ -238,7 +240,8 @@ class GameController extends Notifier<GameState> {
     } else {
       _saveSnapshot();
     }
-    return !result.mistake && status == GameStatus.playing;
+    // A drag keeps going through mistakes; each one costs a life.
+    return status == GameStatus.playing;
   }
 
   void _playSound(
@@ -249,6 +252,7 @@ class GameController extends Notifier<GameState> {
     required bool line,
     required bool solved,
     required int combo,
+    required bool comboUp,
   }) {
     final sound = _sound;
     if (solved) return sound.win();
@@ -256,9 +260,10 @@ class GameController extends Notifier<GameState> {
     if (source == MarkSource.hint) return sound.hint();
     // A lone tap rises with the combo, a drag rises with its length.
     final rung = step > 0 ? step : min(combo, SoundService.ladderSize - 1);
-    if (action == MoveAction.cross) return sound.cross(step);
+    if (action != MoveAction.fill) return sound.cross(step);
     sound.fill(rung);
     if (line) sound.line();
+    if (comboUp) sound.combo();
   }
 
   void _saveSnapshot() => _editSlot(

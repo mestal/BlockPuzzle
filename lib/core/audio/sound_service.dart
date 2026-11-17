@@ -38,6 +38,7 @@ class SoundService {
         'audio/line.wav',
         'audio/win.wav',
         'audio/hint.wav',
+        'audio/combo.wav',
       ]);
     } on Object {
       // Silent fallback.
@@ -53,6 +54,7 @@ class SoundService {
   void mistake() => _play('audio/mistake.wav', 0.9);
   void line() => _play('audio/line.wav', 0.9);
   void win() => _play('audio/win.wav', 1);
+  void combo() => _play('audio/combo.wav', 0.9);
   void hint() => _play('audio/hint.wav', 0.8);
 
   void _play(String asset, double volume) {
