@@ -96,7 +96,10 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   baştan başlar; X konunca (veya silinince) ve hatada en alta döner (puan kombosundan bağımsız).
 
 ### Haklar (can)
-- Her bölüm **10 hak** ile başlar (kalp ikonu + sayı; `GameState.maxLives`, ileride artabilir).
+- Hak sayısı ızgara boyutuna göredir (`features/game/domain/lives.dart`): **5×5 → 3**,
+  **10×5 / 5×10 → 4**, **10×10 ve 15×10 → 5** (kalp ikonu + sayı). X serbest ve hatalı doldurma
+  kareyi açtığı için haklar az tutulur; tahmin pahalı kalsın.
+- Öğretici bölümlerde (1–2) hatalar kalp götürür ama **son kalp alınmaz**; bölüm kaybedilmez.
 - Haklar bitince "Hakların bitti" popup'ı: **Reklam izle → +1 hak** (bölüm kaldığı yerden devam eder)
   veya **Bölümü yeniden başlat**.
 

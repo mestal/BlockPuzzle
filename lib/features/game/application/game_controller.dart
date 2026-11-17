@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:block_puzzle/core/audio/sound_service.dart';
 import 'package:block_puzzle/features/game/domain/board.dart';
 import 'package:block_puzzle/features/game/domain/hint.dart';
+import 'package:block_puzzle/features/game/domain/lives.dart';
 import 'package:block_puzzle/features/game/domain/puzzle.dart';
 import 'package:block_puzzle/features/game/domain/scoring.dart';
 import 'package:block_puzzle/features/progress/slot_data.dart';
@@ -57,8 +58,6 @@ final class GameState {
     this.fx,
     this.hint,
   });
-
-  static const maxLives = 10;
 
   final Board board;
   final int lives;
@@ -121,14 +120,14 @@ class GameController extends Notifier<GameState> {
     final snapshot = _slot?.snapshot;
     if (snapshot != null && snapshot.levelId == puzzle.id) {
       final board = Board.decode(puzzle, snapshot.cells);
+      // Saves from before lives depended on the board size may hold more.
+      final lives = min(snapshot.lives, Lives.start(puzzle));
       return GameState(
         board: board,
         score: snapshot.score,
         mistakes: snapshot.mistakes,
-        lives: snapshot.lives,
-        status: snapshot.lives <= 0
-            ? GameStatus.outOfLives
-            : GameStatus.playing,
+        lives: lives,
+        status: lives <= 0 ? GameStatus.outOfLives : GameStatus.playing,
       );
     }
     return _fresh();
@@ -136,7 +135,7 @@ class GameController extends Notifier<GameState> {
 
   GameState _fresh() => GameState(
     board: Board.start(puzzle),
-    lives: GameState.maxLives,
+    lives: Lives.start(puzzle),
     status: GameStatus.playing,
   );
 
@@ -224,7 +223,9 @@ class GameController extends Notifier<GameState> {
     );
     if (!result.changed) return true;
 
-    final lives = result.mistake ? state.lives - 1 : state.lives;
+    final lives = result.mistake
+        ? Lives.afterMistake(puzzle.id, state.lives)
+        : state.lives;
     final status = result.solved
         ? GameStatus.won
         : lives <= 0
