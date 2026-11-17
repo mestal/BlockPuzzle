@@ -143,7 +143,8 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   Paralaks tema arka planı, alt kısımda **Oyna** düğmesi.
 - Bir harita, öncekinin son bölümü bitince açılır (ayrı kayıt yok; `unlockedLevel`'dan türetilir).
   Hiç bölümü yayınlanmamış harita "Yakında" görünür.
-- Haritanın son bölümü bitince oyun yeni haritaya gider ve **"Yeni harita açıldı!"** kutlaması oynar.
+- Haritanın son bölümü bitince oyun yeni haritaya gider ve **"Yeni harita açıldı!"** kutlaması oynar
+  (konfetiyle eşzamanlı havai fişek patlamalı kendi fanfarı: `world.wav`, `SoundService.worldUnlocked`).
 - Haritalar ekranı (`/worlds`): her harita bir kart; ilerleme, yıldız ve bitirilen resimlerden mozaik.
 - Bölüm başına en iyi yıldız `SlotData.stars`'ta saklanır.
 

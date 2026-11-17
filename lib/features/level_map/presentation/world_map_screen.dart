@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:block_puzzle/app/localized.dart';
 import 'package:block_puzzle/app/router.dart';
 import 'package:block_puzzle/app/theme.dart';
+import 'package:block_puzzle/core/audio/sound_service.dart';
 import 'package:block_puzzle/core/widgets/particles.dart';
 import 'package:block_puzzle/features/level_map/application/world_providers.dart';
 import 'package:block_puzzle/features/level_map/domain/map_layout.dart';
@@ -70,6 +71,7 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
   void _celebrate() {
     if (!mounted) return;
     unawaited(HapticFeedback.heavyImpact());
+    ref.read(soundServiceProvider).worldUnlocked();
     final size = MediaQuery.sizeOf(context);
     final random = Random();
     for (var i = 0; i < 5; i++) {

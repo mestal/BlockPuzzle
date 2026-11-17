@@ -39,6 +39,7 @@ class SoundService {
     'win': 1.0,
     'combo': 0.9,
     'hint': 0.8,
+    'world': 1.0,
   };
 
   static List<String> get _allAssets => [
@@ -46,7 +47,7 @@ class SoundService {
       _path('fill', i),
       _path('cross', i),
     ],
-    for (final name in ['mistake', 'line', 'win', 'hint', 'combo'])
+    for (final name in ['mistake', 'line', 'win', 'hint', 'combo', 'world'])
       'audio/$name.wav',
   ];
 
@@ -87,6 +88,7 @@ class SoundService {
   void win() => _play('audio/win.wav');
   void combo() => _play('audio/combo.wav');
   void hint() => _play('audio/hint.wav');
+  void worldUnlocked() => _play('audio/world.wav');
 
   void _play(String asset) {
     if (!enabled || _disposed) return;

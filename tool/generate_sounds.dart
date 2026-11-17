@@ -36,13 +36,19 @@ void _bell(
 }
 
 /// A short soft wooden tick.
-void _tick(List<double> out, double freq, {double gain = 0.5}) {
+void _tick(
+  List<double> out,
+  double freq, {
+  double gain = 0.5,
+  double start = 0,
+}) {
+  final first = (start * _rate).round();
   final n = (0.09 * _rate).round();
-  for (var i = 0; i < n && i < out.length; i++) {
+  for (var i = 0; i < n && first + i < out.length; i++) {
     final t = i / _rate;
     final env = exp(-45 * t) * min(1, t / 0.0015);
     final noise = (_random.nextDouble() * 2 - 1) * exp(-300 * t) * 0.35;
-    out[i] += (sin(2 * pi * freq * t) + noise) * env * gain;
+    out[first + i] += (sin(2 * pi * freq * t) + noise) * env * gain;
   }
 }
 
@@ -136,6 +142,57 @@ void _sweep(
     final env = sin(pi * k) * gain;
     final air = (_random.nextDouble() * 2 - 1) * 0.15;
     out[first + i] += (sin(phase) + 0.4 * sin(2 * phase) + air) * env;
+  }
+}
+
+/// Frequency [semitones] above C5.
+double _note(num semitones) => 523.25 * pow(2, semitones / 12);
+
+/// A bright brass-like note: stacked harmonics, soft attack, light vibrato.
+void _brass(
+  List<double> out,
+  double freq, {
+  double start = 0,
+  double length = 0.4,
+  double gain = 0.3,
+  double decay = 2,
+}) {
+  final first = (start * _rate).round();
+  final n = (length * _rate).round();
+  var phase = 0.0;
+  for (var i = 0; i < n && first + i < out.length; i++) {
+    final t = i / _rate;
+    final vibrato = 1 + 0.004 * sin(2 * pi * 5.5 * t) * min(1, t / 0.2);
+    phase += 2 * pi * freq * vibrato / _rate;
+    final release = min(1, (n - i) / (0.06 * _rate));
+    final env = min(1, t / 0.025) * exp(-decay * t) * release;
+    var v = 0.0;
+    for (var k = 1; k <= 6; k++) {
+      v += sin(k * phase) / k * (k == 1 ? 1 : exp(-1.5 * t));
+    }
+    out[first + i] += v * env * gain;
+  }
+}
+
+/// A firework: a low thump followed by a crackling tail.
+void _firework(List<double> out, double start, {double gain = 0.35}) {
+  final first = (start * _rate).round();
+  final n = (0.12 * _rate).round();
+  for (var i = 0; i < n && first + i < out.length; i++) {
+    final t = i / _rate;
+    final noise = _random.nextDouble() * 2 - 1;
+    out[first + i] +=
+        (sin(2 * pi * (110 - 300 * t) * t) * 0.8 + noise * 0.5) *
+        exp(-30 * t) *
+        gain;
+  }
+  for (var c = 0; c < 14; c++) {
+    final at = first + ((0.06 + _random.nextDouble() * 0.4) * _rate).round();
+    final len = (0.006 * _rate).round();
+    final g = gain * 0.35 * (0.4 + _random.nextDouble() * 0.6);
+    for (var i = 0; i < len && at + i < out.length; i++) {
+      out[at + i] += (_random.nextDouble() * 2 - 1) * g * (1 - i / len);
+    }
   }
 }
 
@@ -251,6 +308,48 @@ void main() {
   }
   _echo(hint, 0.09, 0.3, 2);
   save('hint', hint);
+
+  // New map unlocked: a drum-roll swell, a brass fanfare that climbs to a
+  // big held chord, fireworks popping with the confetti and a sparkle rain.
+  final world = _buffer(4);
+  _sweep(world, 0, 0.3, 150, 900, gain: 0.18);
+  for (var i = 0; i < 10; i++) {
+    _tick(world, 180 + i * 12, gain: 0.25 + i * 0.03, start: i * 0.028);
+  }
+  // Pickup: three quick notes up the major triad.
+  for (final (i, s) in [-5, 0, 4].indexed) {
+    _brass(world, _note(s), start: 0.28 + i * 0.11, length: 0.13);
+    _bell(world, _note(s + 12), start: 0.28 + i * 0.11, gain: 0.15);
+  }
+  // Landing: a held C major chord topped by the octave.
+  for (final s in [-12, 0, 4, 7, 12]) {
+    _brass(world, _note(s), start: 0.62, length: 0.75, gain: 0.2, decay: 1.2);
+  }
+  _bell(world, _note(19), start: 0.62, length: 0.8, gain: 0.3, decay: 4);
+  // A lift to F major, then home again, brighter.
+  for (final s in [-7, 5, 9, 12]) {
+    _brass(world, _note(s), start: 1.38, length: 0.32, gain: 0.18);
+  }
+  for (final s in [-12, 0, 4, 7, 12, 16]) {
+    _brass(world, _note(s), start: 1.72, length: 1.9, gain: 0.17, decay: 1.4);
+  }
+  for (var i = 0; i < 6; i++) {
+    _bell(
+      world,
+      _note(12 + [0, 4, 7, 12, 16, 19][i]),
+      start: 1.72 + i * 0.05,
+      length: 1.2,
+      gain: 0.22,
+      decay: 3,
+      bright: 0.6,
+    );
+  }
+  for (var i = 0; i < 5; i++) {
+    _firework(world, 0.25 + i * 0.2 + _random.nextDouble() * 0.04);
+  }
+  _sparkle(world, 1.7, 3.6, 30);
+  _echo(world, 0.18, 0.35, 4);
+  save('world', world);
 
   stdout.writeln('Wrote sounds to ${dir.path}');
 }
