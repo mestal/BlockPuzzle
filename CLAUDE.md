@@ -33,8 +33,9 @@ Mod düğmesi yok; işlemi **jest** belirler:
 | Çift dokunup ikinci dokunuşta basılı tutarak sürükleme | Geçilen karelere **X**; oyuncunun kendi X'inden başlanırsa geçilen X'ler **silinir** |
 
 - Tek dokunma, çift dokunma olup olmadığını anlamak için ~250 ms bekler (`kDoubleTapTimeout`),
-  ama oyuncu bunu hissetmez: parmak değdiği anda kare **dolu blok olarak önizlenir** (ses + haptic
-  hemen). Hamle süre dolunca işlenir; kare yanlışsa o an kırmızı X'e döner. Çift dokunmada önizleme
+  ama oyuncu bunu hissetmez: parmak değdiği anda kare **dolu blok olarak önizlenir** (haptic
+  hemen). Hamle süre dolunca işlenir ve doldurma sesi o an çalar (çift dokunmada yalnızca X sesi
+  duyulur); kare yanlışsa o an kırmızı X'e döner. Çift dokunmada önizleme
   geri alınır ve X konur. Önizleme her zaman doğru doldurma gibi görünür (çözümü sızdırmaz).
 - Çift dokunma yalnızca **aynı karede** sayılır (kare sınırında birkaç piksellik tolerans).
   Bu sürede başka bir kareye dokunulursa önceki dokunuş hemen doldurma olarak işlenir.
@@ -91,6 +92,8 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   Paylaşılan oyunculara kaynak değiştirmek Android low-latency (SoundPool) modunda sesi kesiyordu.
   Ses odağı alınmaz (`mixWithOthers`); aynı ses 35 ms'den sık tetiklenirse atlanır.
 - Sürükleme sürdükçe doldurma/X sesi pentatonik merdivenden yukarı çıkar (giderek incelir).
+  Tek dokunuşlarda doldurma notası her doğru dolgu ile bir basamak çıkar; X konunca (veya
+  silinince) ve hatada en alta döner (puan kombosundan bağımsız).
 
 ### Haklar (can)
 - Her bölüm **10 hak** ile başlar (kalp ikonu + sayı; `GameState.maxLives`, ileride artabilir).

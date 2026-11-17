@@ -106,6 +106,10 @@ class GameController extends Notifier<GameState> {
   final Puzzle puzzle;
   final _random = Random();
 
+  /// Rung of the fill note for single taps: climbs with each correct fill,
+  /// back to the bottom after an X or a mistake.
+  int _note = 0;
+
   /// Whether a finger is on the board (see [beginStroke]).
   bool _inStroke = false;
 
@@ -141,14 +145,8 @@ class GameController extends Notifier<GameState> {
   /// Applies a player move. [step] is how many cells the current drag has
   /// covered; it only shapes the sound. Returns false when a drag should stop
   /// (mistake made or game no longer in play).
-  /// [quiet] skips the plain fill sound (already played by [previewFill]).
-  bool mark(
-    int r,
-    int c,
-    MoveAction action, {
-    int step = 0,
-    bool quiet = false,
-  }) => _apply(r, c, action, MarkSource.user, step: step, quiet: quiet);
+  bool mark(int r, int c, MoveAction action, {int step = 0}) =>
+      _apply(r, c, action, MarkSource.user, step: step);
 
   /// A finger touched the board. Lines it finishes keep their open cells
   /// until [endStroke], so dragging on into them still fills (and a wrong
@@ -162,13 +160,6 @@ class GameController extends Notifier<GameState> {
     if (identical(settled, state.board)) return;
     state = state.copyWith(board: settled);
     _saveSnapshot();
-  }
-
-  /// Instant feedback for a tap whose fill is committed a moment later
-  /// (after the double-tap window): plays the fill sound only.
-  void previewFill(int r, int c) {
-    if (state.status != GameStatus.playing) return;
-    _sound.fill(min(state.combo + 1, SoundService.ladderSize - 1));
   }
 
   /// Reveals the next logical step (usually a block, sometimes an X) and
@@ -221,7 +212,6 @@ class GameController extends Notifier<GameState> {
     MoveAction action,
     MarkSource source, {
     int step = 0,
-    bool quiet = false,
     Hint? hint,
   }) {
     if (state.status != GameStatus.playing) return false;
@@ -282,15 +272,16 @@ class GameController extends Notifier<GameState> {
       ),
     );
 
+    if (source == MarkSource.user) {
+      _note = action == MoveAction.fill && !result.mistake ? _note + 1 : 0;
+    }
     _playSound(
       action,
       source,
       step: step,
-      quiet: quiet,
       mistake: result.mistake,
       line: result.completedRows.isNotEmpty || result.completedCols.isNotEmpty,
       solved: result.solved,
-      combo: combo,
       comboUp: Scoring.multiplier(combo) > oldMultiplier,
     );
 
@@ -318,21 +309,20 @@ class GameController extends Notifier<GameState> {
     MoveAction action,
     MarkSource source, {
     required int step,
-    required bool quiet,
     required bool mistake,
     required bool line,
     required bool solved,
-    required int combo,
     required bool comboUp,
   }) {
     final sound = _sound;
     if (solved) return sound.win();
     if (mistake) return sound.mistake();
     if (source == MarkSource.hint) return sound.hint();
-    // A lone tap rises with the combo, a drag rises with its length.
-    final rung = step > 0 ? step : min(combo, SoundService.ladderSize - 1);
+    // A lone tap rises with each correct fill (reset by an X or a mistake),
+    // a drag rises with its length.
+    final rung = step > 0 ? step : min(_note, SoundService.ladderSize - 1);
     if (action != MoveAction.fill) return sound.cross(step);
-    if (!quiet) sound.fill(rung);
+    sound.fill(rung);
     if (line) sound.line();
     if (comboUp) sound.combo();
   }

@@ -15,15 +15,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 /// [step] is how many cells the current drag has covered (0 for a tap).
-/// [quiet] means the fill was already previewed with sound and haptics.
 typedef MarkCallback =
-    bool Function(
-      int row,
-      int col,
-      MoveAction action, {
-      int step,
-      bool quiet,
-    });
+    bool Function(int row, int col, MoveAction action, {int step});
 
 /// Clues + grid. Gestures:
 /// * single tap → fill, single press-and-drag → fill along a line
@@ -35,7 +28,6 @@ class BoardView extends StatefulWidget {
   const BoardView({
     required this.state,
     required this.onMark,
-    required this.onPreview,
     required this.particles,
     this.onStrokeStart,
     this.onStrokeEnd,
@@ -46,9 +38,6 @@ class BoardView extends StatefulWidget {
   final GameState state;
   final MarkCallback onMark;
 
-  /// A fill is shown the moment the finger lands (sound + haptics), while
-  /// the move itself waits for the double-tap window.
-  final void Function(int row, int col) onPreview;
   final ParticleController particles;
 
   /// A finger went down on / lifted off the grid.
@@ -207,8 +196,9 @@ class _BoardViewState extends State<BoardView> {
       _down = pos;
       if (!_state.board.at(pos.$1, pos.$2).isOpen) {
         _preview = pos;
+        // Drawn and felt at once; the sound waits for the move itself, so a
+        // double tap plays only the X sound.
         unawaited(HapticFeedback.selectionClick());
-        widget.onPreview(pos.$1, pos.$2);
       }
     }
     widget.onStrokeStart?.call();
@@ -298,7 +288,8 @@ class _BoardViewState extends State<BoardView> {
     });
   }
 
-  /// Commits the fill of [p]; quiet when its preview already gave feedback.
+  /// Commits the fill of [p]; quiet (no second haptic) when its preview
+  /// already gave one.
   bool _commitFill(_Pos p) {
     final quiet = _preview == p;
     if (quiet) _preview = null;
@@ -313,7 +304,7 @@ class _BoardViewState extends State<BoardView> {
       MoveAction.erase => cell.isUserCross,
     };
     if (acts && !quiet) unawaited(HapticFeedback.selectionClick());
-    return widget.onMark(p.$1, p.$2, action, step: step, quiet: quiet);
+    return widget.onMark(p.$1, p.$2, action, step: step);
   }
 
   // ----------------------------------------------------------------- layout
