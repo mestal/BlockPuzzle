@@ -1,0 +1,7 @@
+{
+  "id": 1,
+  "name": "Mantar",
+  "solution": [".##.", "####", ".##.", ".##."],
+  "colors":   [".RW.", "RWRR", ".SS.", ".SS."],
+  "palette":  { "R": "#E8453C", "W": "#FFFFFF", "S": "#F3E1C7" }
+}

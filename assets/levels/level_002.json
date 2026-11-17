@@ -1,0 +1,7 @@
+{
+  "id": 2,
+  "name": "Ev",
+  "solution": [".##.", "####", "####", "##.#"],
+  "colors":   [".RR.", "RRRR", "YLYY", "YY.Y"],
+  "palette":  { "R": "#E8453C", "Y": "#FCD34D", "L": "#93C5FD" }
+}

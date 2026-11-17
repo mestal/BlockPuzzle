@@ -1,0 +1,374 @@
+import 'dart:async';
+
+import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:intl/intl.dart' as intl;
+
+import 'app_localizations_tr.dart';
+
+// ignore_for_file: type=lint
+
+/// Callers can lookup localized strings with an instance of AppLocalizations
+/// returned by `AppLocalizations.of(context)`.
+///
+/// Applications need to include `AppLocalizations.delegate()` in their app's
+/// `localizationDelegates` list, and the locales they support in the app's
+/// `supportedLocales` list. For example:
+///
+/// ```dart
+/// import 'gen/app_localizations.dart';
+///
+/// return MaterialApp(
+///   localizationsDelegates: AppLocalizations.localizationsDelegates,
+///   supportedLocales: AppLocalizations.supportedLocales,
+///   home: MyApplicationHome(),
+/// );
+/// ```
+///
+/// ## Update pubspec.yaml
+///
+/// Please make sure to update your pubspec.yaml to include the following
+/// packages:
+///
+/// ```yaml
+/// dependencies:
+///   # Internationalization support.
+///   flutter_localizations:
+///     sdk: flutter
+///   intl: any # Use the pinned version from flutter_localizations
+///
+///   # Rest of dependencies
+/// ```
+///
+/// ## iOS Applications
+///
+/// iOS applications define key application metadata, including supported
+/// locales, in an Info.plist file that is built into the application bundle.
+/// To configure the locales supported by your app, you’ll need to edit this
+/// file.
+///
+/// First, open your project’s ios/Runner.xcworkspace Xcode workspace file.
+/// Then, in the Project Navigator, open the Info.plist file under the Runner
+/// project’s Runner folder.
+///
+/// Next, select the Information Property List item, select Add Item from the
+/// Editor menu, then select Localizations from the pop-up menu.
+///
+/// Select and expand the newly-created Localizations item then, for each
+/// locale your application supports, add a new item and select the locale
+/// you wish to add from the pop-up menu in the Value field. This list should
+/// be consistent with the languages listed in the AppLocalizations.supportedLocales
+/// property.
+abstract class AppLocalizations {
+  AppLocalizations(String locale)
+    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+
+  final String localeName;
+
+  static AppLocalizations of(BuildContext context) {
+    return Localizations.of<AppLocalizations>(context, AppLocalizations)!;
+  }
+
+  static const LocalizationsDelegate<AppLocalizations> delegate =
+      _AppLocalizationsDelegate();
+
+  /// A list of this localizations delegate along with the default localizations
+  /// delegates.
+  ///
+  /// Returns a list of localizations delegates containing this delegate along with
+  /// GlobalMaterialLocalizations.delegate, GlobalCupertinoLocalizations.delegate,
+  /// and GlobalWidgetsLocalizations.delegate.
+  ///
+  /// Additional delegates can be added by appending to this list in
+  /// MaterialApp. This list does not have to be used at all if a custom list
+  /// of delegates is preferred or required.
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
+      <LocalizationsDelegate<dynamic>>[
+        delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ];
+
+  /// A list of this localizations delegate's supported locales.
+  static const List<Locale> supportedLocales = <Locale>[Locale('tr')];
+
+  /// No description provided for @appTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'BlockPuzzle'**
+  String get appTitle;
+
+  /// No description provided for @whoIsPlaying.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kim oynuyor?'**
+  String get whoIsPlaying;
+
+  /// No description provided for @newGame.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeni oyun'**
+  String get newGame;
+
+  /// No description provided for @emptySlot.
+  ///
+  /// In tr, this message translates to:
+  /// **'Boş slot'**
+  String get emptySlot;
+
+  /// No description provided for @yourName.
+  ///
+  /// In tr, this message translates to:
+  /// **'Adın'**
+  String get yourName;
+
+  /// No description provided for @namePlaceholder.
+  ///
+  /// In tr, this message translates to:
+  /// **'Örneğin Ayşe'**
+  String get namePlaceholder;
+
+  /// No description provided for @nameRequired.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bir ad yaz'**
+  String get nameRequired;
+
+  /// No description provided for @pickColor.
+  ///
+  /// In tr, this message translates to:
+  /// **'Rengini seç'**
+  String get pickColor;
+
+  /// No description provided for @start.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başla'**
+  String get start;
+
+  /// No description provided for @cancel.
+  ///
+  /// In tr, this message translates to:
+  /// **'Vazgeç'**
+  String get cancel;
+
+  /// No description provided for @deleteSlotTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'{name} silinsin mi?'**
+  String deleteSlotTitle(String name);
+
+  /// No description provided for @deleteSlotBody.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu oyuncunun tüm ilerlemesi silinecek. Bu işlem geri alınamaz.'**
+  String get deleteSlotBody;
+
+  /// No description provided for @delete.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sil'**
+  String get delete;
+
+  /// No description provided for @levelLabel.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bölüm {n}'**
+  String levelLabel(int n);
+
+  /// No description provided for @levelsDone.
+  ///
+  /// In tr, this message translates to:
+  /// **'{done}/{total} bölüm'**
+  String levelsDone(int done, int total);
+
+  /// No description provided for @hintCount.
+  ///
+  /// In tr, this message translates to:
+  /// **'{count} ipucu'**
+  String hintCount(int count);
+
+  /// No description provided for @comingSoon.
+  ///
+  /// In tr, this message translates to:
+  /// **'{count} bölüm daha yakında'**
+  String comingSoon(int count);
+
+  /// No description provided for @tutorialTap.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tek dokun: X koy'**
+  String get tutorialTap;
+
+  /// No description provided for @tutorialDoubleTap.
+  ///
+  /// In tr, this message translates to:
+  /// **'Çift dokun: doldur'**
+  String get tutorialDoubleTap;
+
+  /// No description provided for @tutorialDrag.
+  ///
+  /// In tr, this message translates to:
+  /// **'Basılı tutup kaydırarak birçok kareyi birden işaretle'**
+  String get tutorialDrag;
+
+  /// No description provided for @hint.
+  ///
+  /// In tr, this message translates to:
+  /// **'İpucu'**
+  String get hint;
+
+  /// No description provided for @noHintsTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'İpucun kalmadı'**
+  String get noHintsTitle;
+
+  /// No description provided for @noHintsBody.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kısa bir reklam izle, 1 ipucu kazan.'**
+  String get noHintsBody;
+
+  /// No description provided for @watchAdForHint.
+  ///
+  /// In tr, this message translates to:
+  /// **'Reklam izle: +1 ipucu'**
+  String get watchAdForHint;
+
+  /// No description provided for @outOfLivesTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakların bitti'**
+  String get outOfLivesTitle;
+
+  /// No description provided for @outOfLivesBody.
+  ///
+  /// In tr, this message translates to:
+  /// **'Reklam izleyerek 1 hak daha kazanabilir ya da bölüme baştan başlayabilirsin.'**
+  String get outOfLivesBody;
+
+  /// No description provided for @watchAdForLife.
+  ///
+  /// In tr, this message translates to:
+  /// **'Reklam izle: +1 hak'**
+  String get watchAdForLife;
+
+  /// No description provided for @restart.
+  ///
+  /// In tr, this message translates to:
+  /// **'Baştan başla'**
+  String get restart;
+
+  /// No description provided for @backToLevels.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bölümlere dön'**
+  String get backToLevels;
+
+  /// No description provided for @levelComplete.
+  ///
+  /// In tr, this message translates to:
+  /// **'Harika!'**
+  String get levelComplete;
+
+  /// No description provided for @nextLevel.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sıradaki: Bölüm {n}'**
+  String nextLevel(int n);
+
+  /// No description provided for @ok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tamam'**
+  String get ok;
+
+  /// No description provided for @allDoneSoon.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeni bölümler çok yakında'**
+  String get allDoneSoon;
+
+  /// No description provided for @adLabel.
+  ///
+  /// In tr, this message translates to:
+  /// **'Reklam'**
+  String get adLabel;
+
+  /// No description provided for @adPlaceholder.
+  ///
+  /// In tr, this message translates to:
+  /// **'Burada reklam gösterilecek'**
+  String get adPlaceholder;
+
+  /// No description provided for @adClose.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kapat'**
+  String get adClose;
+
+  /// No description provided for @adCountdown.
+  ///
+  /// In tr, this message translates to:
+  /// **'{seconds} sn'**
+  String adCountdown(int seconds);
+
+  /// No description provided for @rulesTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Nasıl oynanır?'**
+  String get rulesTitle;
+
+  /// No description provided for @rulesClues.
+  ///
+  /// In tr, this message translates to:
+  /// **'Soldaki ve üstteki sayılar o satırda ve sütunda kaç dolu kare olduğunu gösterir. Birden çok sayı varsa gruplar arasında en az bir boşluk vardır.'**
+  String get rulesClues;
+
+  /// No description provided for @rulesMistakes.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yanlış kareyi doldurursan ya da dolu olması gereken kareye X koyarsan 1 hakkın gider.'**
+  String get rulesMistakes;
+
+  /// No description provided for @rulesGoal.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tüm dolu kareleri bulunca bloklar gizli resme dönüşür.'**
+  String get rulesGoal;
+}
+
+class _AppLocalizationsDelegate
+    extends LocalizationsDelegate<AppLocalizations> {
+  const _AppLocalizationsDelegate();
+
+  @override
+  Future<AppLocalizations> load(Locale locale) {
+    return SynchronousFuture<AppLocalizations>(lookupAppLocalizations(locale));
+  }
+
+  @override
+  bool isSupported(Locale locale) =>
+      <String>['tr'].contains(locale.languageCode);
+
+  @override
+  bool shouldReload(_AppLocalizationsDelegate old) => false;
+}
+
+AppLocalizations lookupAppLocalizations(Locale locale) {
+  // Lookup logic when only language code is specified.
+  switch (locale.languageCode) {
+    case 'tr':
+      return AppLocalizationsTr();
+  }
+
+  throw FlutterError(
+    'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+    'an issue with the localizations generation tool. Please file an issue '
+    'on GitHub with a reproducible sample app and the gen-l10n configuration '
+    'that was used.',
+  );
+}
