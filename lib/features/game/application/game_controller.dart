@@ -318,9 +318,10 @@ class GameController extends Notifier<GameState> {
     if (solved) return sound.win();
     if (mistake) return sound.mistake();
     if (source == MarkSource.hint) return sound.hint();
-    // A lone tap rises with each correct fill (reset by an X or a mistake),
-    // a drag rises with its length.
-    final rung = step > 0 ? step : min(_note, SoundService.ladderSize - 1);
+    // A lone tap rises with each correct fill (reset by an X or a mistake)
+    // and starts over from the bottom after the highest note; a drag rises
+    // with its length.
+    final rung = step > 0 ? step : _note % SoundService.ladderSize;
     if (action != MoveAction.fill) return sound.cross(step);
     sound.fill(rung);
     if (line) sound.line();

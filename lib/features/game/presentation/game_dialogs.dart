@@ -121,11 +121,15 @@ Future<void> showLevelCompleteDialog(
     builder: (context) => _GameDialog(
       icon: Icons.emoji_events_rounded,
       iconColor: AppColors.gold,
+      iconSize: 40,
       title: l10n.levelComplete,
       body: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          PictureView(puzzle: puzzle, cellSize: 132 / puzzle.cols)
+          PictureView(
+                puzzle: puzzle,
+                cellSize: _fit(puzzle, _pictureBox),
+              )
               .animate()
               .scale(
                 begin: const Offset(0.3, 0.3),
@@ -133,7 +137,7 @@ Future<void> showLevelCompleteDialog(
                 curve: Curves.elasticOut,
               )
               .shimmer(delay: 500.ms, duration: 900.ms),
-          const SizedBox(height: 8),
+          const SizedBox(height: 6),
           Text(
             puzzle.name.localized(context),
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
@@ -141,9 +145,7 @@ Future<void> showLevelCompleteDialog(
               color: AppColors.block,
             ),
           ),
-          const SizedBox(height: 8),
           _Stars(stars: stars),
-          const SizedBox(height: 4),
           _CountUp(
             value: score,
             builder: (v) => Text(
@@ -155,7 +157,7 @@ Future<void> showLevelCompleteDialog(
             ),
           ),
           Text(l10n.totalScore(totalScore)),
-          const Divider(height: 28),
+          const Divider(height: 20),
           if (nextLevel == null)
             Text(l10n.allDoneSoon)
           else
@@ -172,6 +174,16 @@ Future<void> showLevelCompleteDialog(
   );
 }
 
+/// Largest side of the solved picture in the level complete dialog.
+const double _pictureBox = 112;
+
+/// Largest side of the next level's silhouette.
+const double _previewBox = 52;
+
+/// Cell size that fits the whole [puzzle] into a [box] x [box] square.
+double _fit(Puzzle puzzle, double box) =>
+    box / (puzzle.rows > puzzle.cols ? puzzle.rows : puzzle.cols);
+
 /// Three stars that pop in one after the other.
 class _Stars extends StatelessWidget {
   const _Stars({required this.stars});
@@ -185,7 +197,7 @@ class _Stars extends StatelessWidget {
       for (var i = 0; i < 3; i++)
         Icon(
               i < stars ? Icons.star_rounded : Icons.star_outline_rounded,
-              size: 44,
+              size: 36,
               color: i < stars ? AppColors.gold : Colors.black26,
             )
             .animate(delay: (500 + i * 280).ms)
@@ -227,7 +239,11 @@ class _NextLevelPreview extends ConsumerWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         if (next != null)
-          PictureView(puzzle: next, cellSize: 12, silhouette: true),
+          PictureView(
+            puzzle: next,
+            cellSize: _fit(next, _previewBox),
+            silhouette: true,
+          ),
         const SizedBox(width: 16),
         Text(
           l10n.nextLevel(level),
@@ -245,9 +261,11 @@ class _GameDialog extends StatelessWidget {
     required this.title,
     required this.body,
     required this.actions,
+    this.iconSize = 56,
   });
 
   final IconData icon;
+  final double iconSize;
   final Color iconColor;
   final String title;
   final Widget body;
@@ -258,39 +276,53 @@ class _GameDialog extends StatelessWidget {
     return Dialog(
       insetPadding: const EdgeInsets.all(24),
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(24, 24, 24, 16),
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Icon(icon, size: 56, color: iconColor)
-                  .animate()
-                  .scale(duration: 500.ms, curve: Curves.elasticOut)
-                  .then()
-                  .shake(hz: 3, duration: 400.ms),
-              const SizedBox(height: 8),
-              Text(
-                title,
-                textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                  fontWeight: FontWeight.w700,
-                  color: AppColors.block,
+        padding: const EdgeInsets.fromLTRB(24, 20, 24, 12),
+        // Only the body scrolls (on very small screens); the buttons stay
+        // pinned at the bottom so they never end up below the fold.
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Flexible(
+              child: SingleChildScrollView(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Icon(icon, size: iconSize, color: iconColor)
+                        .animate()
+                        .scale(duration: 500.ms, curve: Curves.elasticOut)
+                        .then()
+                        .shake(hz: 3, duration: 400.ms),
+                    const SizedBox(height: 6),
+                    Text(
+                      title,
+                      textAlign: TextAlign.center,
+                      style: Theme.of(context).textTheme.headlineMedium
+                          ?.copyWith(
+                            fontWeight: FontWeight.w700,
+                            color: AppColors.block,
+                          ),
+                    ),
+                    const SizedBox(height: 10),
+                    DefaultTextStyle.merge(
+                      style: const TextStyle(
+                        fontSize: 16,
+                        color: Color(0xFF334155),
+                      ),
+                      child: body,
+                    ),
+                  ],
                 ),
               ),
-              const SizedBox(height: 12),
-              DefaultTextStyle.merge(
-                style: const TextStyle(fontSize: 16, color: Color(0xFF334155)),
-                child: body,
+            ),
+            const SizedBox(height: 16),
+            for (final action in actions)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: action,
               ),
-              const SizedBox(height: 20),
-              for (final action in actions)
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 8),
-                  child: action,
-                ),
-            ],
-          ),
+          ],
         ),
       ),
     ).animate().scale(

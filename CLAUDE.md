@@ -92,8 +92,8 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   Paylaşılan oyunculara kaynak değiştirmek Android low-latency (SoundPool) modunda sesi kesiyordu.
   Ses odağı alınmaz (`mixWithOthers`); aynı ses 35 ms'den sık tetiklenirse atlanır.
 - Sürükleme sürdükçe doldurma/X sesi pentatonik merdivenden yukarı çıkar (giderek incelir).
-  Tek dokunuşlarda doldurma notası her doğru dolgu ile bir basamak çıkar; X konunca (veya
-  silinince) ve hatada en alta döner (puan kombosundan bağımsız).
+  Tek dokunuşlarda doldurma notası her doğru dolgu ile bir basamak çıkar, en incesinden sonra
+  baştan başlar; X konunca (veya silinince) ve hatada en alta döner (puan kombosundan bağımsız).
 
 ### Haklar (can)
 - Her bölüm **10 hak** ile başlar (kalp ikonu + sayı; `GameState.maxLives`, ileride artabilir).
@@ -204,6 +204,9 @@ Büyük ızgaralarda pinch-zoom + kaydırma desteklenir; dokunma alanı en az 32
 - **Bölüm sonu:** blokların sırayla dönüp resim renklerine geçmesi, konfeti, ekran parlaması,
   ses + güçlü haptic.
 - Animasyonlar 60/120 fps akıcı olmalı; parçacıklar `CustomPainter` ile, widget rebuild'i olmadan.
+- **Uygulama ikonu** koddan üretilir: `dart run tool/generate_icon.dart` (eğik krem tahta,
+  jöle bloklarla kalp, gün batımı göğü ve parıltılar). Android (eski + adaptive), iOS ve web
+  ikonlarının hepsini yazar; ikon dosyaları elle düzenlenmez.
 - Ayarlar: dil ve ses efektleri (müzik ve titreşim aç/kapa ileride).
 
 ---
