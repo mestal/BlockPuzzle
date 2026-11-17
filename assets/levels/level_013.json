@@ -1,7 +1,7 @@
 {
   "id": 13,
-  "name": {"tr": "Balık", "en": "Fish", "de": "Fisch", "fr": "Poisson", "es": "Pez", "pt": "Peixe", "it": "Pesce", "ru": "Рыба", "ar": "سمكة", "ja": "魚", "zh": "鱼"},
-  "solution": ["..##..", ".###.#", "#.####", "######", ".###.#", "..##.."],
-  "colors":   ["..OO..", ".OOO.O", "O.OOOO", "OOOOOO", ".OOO.O", "..OO.."],
-  "palette":  { "O": "#FB923C" }
+  "name": {"tr": "Dondurma", "en": "Ice cream", "de": "Eis", "fr": "Glace", "es": "Helado", "pt": "Sorvete", "it": "Gelato", "ru": "Мороженое", "ar": "آيس كريم", "ja": "アイスクリーム", "zh": "冰淇淋"},
+  "solution": [".###.", "#####", "#####", ".###.", "#####", "#####", "#####", ".###.", ".###.", "..#.."],
+  "colors":   [".PPP.", "PPPPP", "PJPPP", ".WWW.", "WWWWW", "WLWWW", "AAAAA", ".AAA.", ".AAA.", "..A.."],
+  "palette":  { "A": "#F59E0B", "J": "#FBCFE8", "L": "#E2E8F0", "P": "#F472B6", "W": "#FFFFFF" }
 }

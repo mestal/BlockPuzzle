@@ -1,7 +1,7 @@
 {
   "id": 63,
-  "name": {"tr": "Pasta dilimi", "en": "Cake slice", "de": "Kuchenstück", "fr": "Part de gâteau", "es": "Trozo de tarta", "pt": "Fatia de bolo", "it": "Fetta di torta", "ru": "Кусочек торта", "ar": "قطعة كعك", "ja": "ケーキ", "zh": "蛋糕块"},
-  "solution": [".......#.", ".....####", "...######", ".########", "#########", "#########", "#########", "#########", "#########"],
-  "colors":   [".......R.", ".....JJJJ", "...JJJJJJ", ".JJJJJJJJ", "SSSSSSSSS", "PPPPPPPPP", "SSSSSSSSS", "PPPPPPPPP", "SSSSSSSSS"],
-  "palette":  { "J": "#FBCFE8", "P": "#F472B6", "R": "#E8453C", "S": "#FDE68A" }
+  "name": {"tr": "Şeker kavanozu", "en": "Candy jar", "de": "Bonbonglas", "fr": "Bocal à bonbons", "es": "Tarro de caramelos", "pt": "Pote de balas", "it": "Barattolo di caramelle", "ru": "Банка конфет", "ar": "برطمان الحلوى", "ja": "キャンディのびん", "zh": "糖果罐"},
+  "solution": ["..######..", "..######..", ".########.", "##########", "##########", "##########", "##########", "##########", ".########.", "..######.."],
+  "colors":   ["..TTTTTT..", "..LLLLLL..", ".LLLLLLLL.", "LRLYLBLGLL", "LLGLRLLYLL", "LBLLLGLRLL", "LLYLBLLLGL", "LRLLLRLBLL", ".LLLLLLLL.", "..LLLLLL.."],
+  "palette":  { "B": "#3B82F6", "G": "#22C55E", "L": "#E2E8F0", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
 }

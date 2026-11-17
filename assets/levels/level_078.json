@@ -1,7 +1,7 @@
 {
   "id": 78,
-  "name": {"tr": "Çilek", "en": "Strawberry", "de": "Erdbeere", "fr": "Fraise", "es": "Fresa", "pt": "Morango", "it": "Fragola", "ru": "Клубника", "ar": "فراولة", "ja": "イチゴ", "zh": "草莓"},
-  "solution": ["...#..#...", "....##....", "..######..", ".########.", "##########", "##########", "##########", ".########.", "..######..", "....##...."],
-  "colors":   ["...D..D...", "....DD....", "..DDDDDD..", ".RRRRRRRR.", "RRYRRRRYRR", "RRRRYRRRRR", "RYRRRRRYRR", ".RRRYRRRR.", "..RRRRRR..", "....RR...."],
-  "palette":  { "D": "#15803D", "R": "#E8453C", "Y": "#FACC15" }
+  "name": {"tr": "Külah dondurma", "en": "Ice cream cone", "de": "Eistüte", "fr": "Cornet de glace", "es": "Cucurucho", "pt": "Casquinha de sorvete", "it": "Cono gelato", "ru": "Рожок мороженого", "ar": "بوظة بالبسكويت", "ja": "ソフトクリーム", "zh": "甜筒"},
+  "solution": ["....##....", "...####...", "..######..", ".########.", ".########.", "##########", ".########.", "..######..", "...####...", "....##...."],
+  "colors":   ["....JJ....", "...JJJJ...", "..CCJJCC..", ".CCCCCCCC.", ".YYYCCYYY.", "YYYYYYYYYY", ".TTTTTTTT.", "..THTHTT..", "...TTHT...", "....TT...."],
+  "palette":  { "C": "#22D3EE", "H": "#5B3410", "J": "#FBCFE8", "T": "#92400E", "Y": "#FACC15" }
 }

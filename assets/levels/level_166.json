@@ -1,7 +1,7 @@
 {
   "id": 166,
-  "name": {"tr": "Uçurtma", "en": "Kite", "de": "Drachen", "fr": "Cerf-volant", "es": "Cometa", "pt": "Pipa", "it": "Aquilone", "ru": "Воздушный змей", "ar": "طائرة ورقية", "ja": "たこ", "zh": "风筝"},
-  "solution": ["....#....", "...###...", "..#####..", ".#######.", "#########", "#########", ".#######.", "..#####..", "...###...", "....#....", ".....#...", ".....#...", ".....##..", "......#.."],
-  "colors":   ["....R....", "...RRY...", "..RRRYY..", ".RRRRYYY.", "RRRRRYYYY", "BBBBBGGGG", ".BBBBGGG.", "..BBBGG..", "...BBG...", "....T....", ".....T...", ".....T...", ".....TR..", "......T.."],
-  "palette":  { "B": "#3B82F6", "G": "#22C55E", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
+  "name": {"tr": "Yağmur çizmesi", "en": "Rain boot", "de": "Gummistiefel", "fr": "Botte de pluie", "es": "Bota de lluvia", "pt": "Galocha", "it": "Stivale da pioggia", "ru": "Резиновый сапог", "ar": "حذاء المطر", "ja": "長ぐつ", "zh": "雨靴"},
+  "solution": [".######...", ".######...", ".######...", ".######...", ".######...", ".######...", ".######...", ".######...", ".#######..", ".########.", "#########.", "#########.", "#########.", ".#.#.#.#..", ".........."],
+  "colors":   [".YYYYYY...", ".YYYYYY...", ".YKKKKY...", ".YYYYYY...", ".YYYYYY...", ".YYYYYY...", ".YYYYYY...", ".YYYYYY...", ".YYYYYYY..", ".YYYYYYYY.", "YYYYYYYYY.", "YYYYYYYYY.", "KKKKKKKKK.", ".K.K.K.K..", ".........."],
+  "palette":  { "K": "#1F2937", "Y": "#FACC15" }
 }

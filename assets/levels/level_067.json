@@ -1,7 +1,7 @@
 {
   "id": 67,
-  "name": {"tr": "Kek", "en": "Cupcake", "de": "Cupcake", "fr": "Cupcake", "es": "Magdalena", "pt": "Cupcake", "it": "Cupcake", "ru": "Капкейк", "ar": "كب كيك", "ja": "カップケーキ", "zh": "纸杯蛋糕"},
-  "solution": ["....#....", "..#####..", ".#######.", "#########", "#########", ".#######.", ".#######.", "..#####..", "..#####.."],
-  "colors":   ["....R....", "..JJJJJ..", ".JJJJJJJ.", "JJPJJPJJJ", "JJJJJJJJJ", ".TTTTTTT.", ".THTHTHT.", "..THTHT..", "..TTTTT.."],
-  "palette":  { "H": "#5B3410", "J": "#FBCFE8", "P": "#F472B6", "R": "#E8453C", "T": "#92400E" }
+  "name": {"tr": "Patlamış mısır", "en": "Popcorn", "de": "Popcorn", "fr": "Pop-corn", "es": "Palomitas", "pt": "Pipoca", "it": "Popcorn", "ru": "Попкорн", "ar": "فشار", "ja": "ポップコーン", "zh": "爆米花"},
+  "solution": [".##.##.##.", "##########", ".########.", "##########", "##########", ".########.", ".########.", ".########.", ".########.", "..######.."],
+  "colors":   [".WY.WW.YW.", "WWWWYWWWWW", ".WYWWWYWW.", "WWWWWWWWWW", "RWRWRWRWRW", ".RWRWRWRW.", ".RWRWRWRW.", ".RWRWRWRW.", ".RWRWRWRW.", "..RWRWRW.."],
+  "palette":  { "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
 }

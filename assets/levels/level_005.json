@@ -1,7 +1,7 @@
 {
   "id": 5,
-  "name": {"tr": "Yıldız", "en": "Star", "de": "Stern", "fr": "Étoile", "es": "Estrella", "pt": "Estrela", "it": "Stella", "ru": "Звезда", "ar": "نجمة", "ja": "星", "zh": "星星"},
-  "solution": ["..#..", ".###.", "#####", ".###.", ".#.#."],
-  "colors":   ["..Y..", ".YYY.", "YYOYY", ".YYY.", ".Y.Y."],
-  "palette":  { "Y": "#FACC15", "O": "#FB923C" }
+  "name": {"tr": "Kupa", "en": "Trophy", "de": "Pokal", "fr": "Coupe", "es": "Copa", "pt": "Troféu", "it": "Coppa", "ru": "Кубок", "ar": "كأس", "ja": "トロフィー", "zh": "奖杯"},
+  "solution": ["#####", "#####", ".###.", "..#..", ".###."],
+  "colors":   ["AYAAA", "AAAAA", ".AAA.", "..T..", ".TTT."],
+  "palette":  { "A": "#F59E0B", "T": "#92400E", "Y": "#FACC15" }
 }

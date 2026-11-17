@@ -1,7 +1,7 @@
 {
   "id": 28,
-  "name": {"tr": "Deniz feneri", "en": "Lighthouse", "de": "Leuchtturm", "fr": "Phare", "es": "Faro", "pt": "Farol", "it": "Faro", "ru": "Маяк", "ar": "منارة", "ja": "灯台", "zh": "灯塔"},
-  "solution": ["#.###.#", "..###..", "..###..", "..###..", "..###..", ".#####.", "#######"],
-  "colors":   ["Y.YYY.Y", "..KKK..", "..RRR..", "..WWW..", "..RRR..", ".WWWWW.", "BBBBBBB"],
-  "palette":  { "B": "#3B82F6", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+  "name": {"tr": "Ananas", "en": "Pineapple", "de": "Ananas", "fr": "Ananas", "es": "Piña", "pt": "Abacaxi", "it": "Ananas", "ru": "Ананас", "ar": "أناناس", "ja": "パイナップル", "zh": "菠萝"},
+  "solution": ["..........", "...#..#...", "....##....", "...####...", "...####...", "..######..", "..######..", "..######..", "...####...", ".........."],
+  "colors":   ["..........", "...G..G...", "....GG....", "...GGGG...", "...YAYA...", "..YAYAYA..", "..AYAYAY..", "..YAYAYA..", "...AYAY...", ".........."],
+  "palette":  { "A": "#F59E0B", "G": "#22C55E", "Y": "#FACC15" }
 }

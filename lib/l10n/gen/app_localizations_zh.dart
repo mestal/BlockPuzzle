@@ -255,20 +255,20 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tutorialGotIt => '明白了';
 
   @override
-  String get tutorialL1Fill => '数字表示这一行有几个填充的方块。这一行是 4，所以 4 个方块全都要填！点一下方块来填充。';
+  String get tutorialL1Fill => '数字表示这一行有几个填充的方块。这一行是 5，所以 5 个方块全都要填！点一下方块来填充。';
 
   @override
   String get tutorialL1Drag => '太棒了！现在按住手指滑动，填满这一行剩下的方块。';
 
   @override
-  String get tutorialL1Column => '一行或一列完成后，其余方块会自动打上 X。这一列也是 4：从上往下滑。';
+  String get tutorialL1Column => '这一列也是 5：从上往下滑。';
 
   @override
-  String get tutorialL1Finish => '只剩一列了。自己完成这幅画吧！';
+  String get tutorialL1Finish => '一行或一列完成后，其余方块会自动打上 X。自己完成这幅画的其余部分吧！';
 
   @override
   String get tutorialL2Cross =>
-      '2 1 表示先有 2 个填充方块，至少隔一个空格，再有 1 个填充方块。2 + 空格 + 1 = 4，这一行就确定了！双击空白方块，打上 X。';
+      '2 2 表示先有 2 个填充方块，至少隔一个空格，再有 2 个填充方块。2 + 空格 + 2 = 5，这一行就确定了！双击空白方块，打上 X。';
 
   @override
   String get tutorialL2Drag => '滑动时会跳过你打了 X 的方块。沿整行滑动来填满它。';

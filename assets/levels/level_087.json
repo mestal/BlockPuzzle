@@ -1,7 +1,7 @@
 {
   "id": 87,
-  "name": {"tr": "Kum saati", "en": "Hourglass", "de": "Sanduhr", "fr": "Sablier", "es": "Reloj de arena", "pt": "Ampulheta", "it": "Clessidra", "ru": "Песочные часы", "ar": "ساعة رملية", "ja": "砂時計", "zh": "沙漏"},
-  "solution": ["##########", ".########.", ".########.", "..######..", "...####...", "...####...", "..######..", ".########.", ".########.", "##########"],
-  "colors":   ["TTTTTTTTTT", ".LSSSSSSL.", ".LSSSSSSL.", "..LSSSSL..", "...LSSL...", "...LLSL...", "..LLLSLL..", ".LLLSSSLL.", ".LSSSSSSL.", "TTTTTTTTTT"],
-  "palette":  { "L": "#E2E8F0", "S": "#FDE68A", "T": "#92400E" }
+  "name": {"tr": "Sihirli lamba", "en": "Magic lamp", "de": "Wunderlampe", "fr": "Lampe magique", "es": "Lámpara mágica", "pt": "Lâmpada mágica", "it": "Lampada magica", "ru": "Волшебная лампа", "ar": "المصباح السحري", "ja": "魔法のランプ", "zh": "神灯"},
+  "solution": [".....#....", "....###...", "...#####..", "#.#######.", "##########", ".########.", "..########", "...#####..", "....###...", "...#####.."],
+  "colors":   [".....A....", "....AAA...", "...AAAAA..", "A.AAAAAAA.", "AAAAAAAAAA", ".AAAAAAAA.", "..AAAAAAAA", "...AAAAA..", "....AAA...", "...AAAAA.."],
+  "palette":  { "A": "#F59E0B" }
 }

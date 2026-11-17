@@ -1,7 +1,7 @@
 {
   "id": 124,
-  "name": {"tr": "Denizatı", "en": "Seahorse", "de": "Seepferdchen", "fr": "Hippocampe", "es": "Caballito de mar", "pt": "Cavalo-marinho", "it": "Cavalluccio marino", "ru": "Морской конёк", "ar": "حصان البحر", "ja": "タツノオトシゴ", "zh": "海马"},
-  "solution": ["..###....", ".#####...", ".########", ".####....", "..###....", ".#####...", "#.#####..", "..#####..", "...####..", "....###..", "..#.##...", "..##.....", "...###..."],
-  "colors":   ["..YYY....", ".YYYYY...", ".YKYYYYYY", ".YYYY....", "..YYY....", ".YYYYY...", "Y.YYYYY..", "..YYYYY..", "...YYYY..", "....YYY..", "..Y.YY...", "..YY.....", "...YYY..."],
-  "palette":  { "K": "#1F2937", "Y": "#FACC15" }
+  "name": {"tr": "İnci", "en": "Pearl", "de": "Perle", "fr": "Perle", "es": "Perla", "pt": "Pérola", "it": "Perla", "ru": "Жемчужина", "ar": "لؤلؤة", "ja": "真珠", "zh": "珍珠"},
+  "solution": ["..........", "..######..", ".########.", "##########", "##########", ".########.", ".##.##.##.", "##########", "##########", ".########.", ".########.", "##########", ".########.", "..........", ".........."],
+  "colors":   ["..........", "..EEEEEE..", ".ELELLELE.", "ELLELLELLE", "EEELLLLEEE", ".EEEEEEEE.", ".JJ.WW.JJ.", "JJJWWWWJJJ", "JJJWWWWJJJ", ".JJJWWJJJ.", ".EEEEEEEE.", "ELLELLELLE", ".EEEEEEEE.", "..........", ".........."],
+  "palette":  { "E": "#94A3B8", "J": "#FBCFE8", "L": "#E2E8F0", "W": "#FFFFFF" }
 }

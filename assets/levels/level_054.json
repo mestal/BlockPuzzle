@@ -1,7 +1,7 @@
 {
   "id": 54,
-  "name": {"tr": "Mantar ev", "en": "Mushroom house", "de": "Pilzhaus", "fr": "Maison champignon", "es": "Casa seta", "pt": "Casa de cogumelo", "it": "Casa fungo", "ru": "Домик-гриб", "ar": "بيت الفطر", "ja": "キノコの家", "zh": "蘑菇屋"},
-  "solution": ["...###...", ".#######.", "#########", "#########", ".#######.", ".#######.", ".#######.", ".#######.", "#########"],
-  "colors":   ["...RRR...", ".RRWRRRR.", "RRRRRRWRR", "RWRRRRRRR", ".SSSSSSS.", ".SBSSSBS.", ".SSSTSSS.", ".SSSTSSS.", "GGGGGGGGG"],
-  "palette":  { "B": "#3B82F6", "G": "#22C55E", "R": "#E8453C", "S": "#FDE68A", "T": "#92400E", "W": "#FFFFFF" }
+  "name": {"tr": "Sincap", "en": "Squirrel", "de": "Eichhörnchen", "fr": "Écureuil", "es": "Ardilla", "pt": "Esquilo", "it": "Scoiattolo", "ru": "Белка", "ar": "سنجاب", "ja": "リス", "zh": "松鼠"},
+  "solution": [".###......", "#####..#..", "##.##.###.", "##..#####.", ".#..#####.", ".#######..", "..######..", "..######..", "...##.##..", ".........."],
+  "colors":   [".OOO......", "OOOOO..O..", "OO.OO.OOO.", "OO..OOOKO.", ".O..OOOOO.", ".OOOOOOO..", "..OOOOSO..", "..OOOOOO..", "...OO.OO..", ".........."],
+  "palette":  { "K": "#1F2937", "O": "#F97316", "S": "#FDE68A" }
 }

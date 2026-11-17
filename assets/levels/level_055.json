@@ -1,7 +1,7 @@
 {
   "id": 55,
-  "name": {"tr": "Kelebek", "en": "Butterfly", "de": "Schmetterling", "fr": "Papillon", "es": "Mariposa", "pt": "Borboleta", "it": "Farfalla", "ru": "Бабочка", "ar": "فراشة", "ja": "チョウ", "zh": "蝴蝶"},
-  "solution": ["##.....##", "###...###", "####.####", "#########", ".#######.", "..#####..", ".#######.", "####.####", "###...###"],
-  "colors":   ["VV.....VV", "VPV...VPV", "VPPV.VPPV", "VVPVKVPVV", ".VVVKVVV.", "..VVKVV..", ".VPVKVPV.", "VPPV.VPPV", "VVV...VVV"],
-  "palette":  { "K": "#1F2937", "P": "#F472B6", "V": "#8B5CF6" }
+  "name": {"tr": "Tilki", "en": "Fox", "de": "Fuchs", "fr": "Renard", "es": "Zorro", "pt": "Raposa", "it": "Volpe", "ru": "Лиса", "ar": "ثعلب", "ja": "キツネ", "zh": "狐狸"},
+  "solution": ["..........", ".##.....#.", ".##....##.", ".########.", ".########.", ".########.", "..######..", "...####...", "....##....", ".........."],
+  "colors":   ["..........", ".OO.....O.", ".OO....OO.", ".OOOOOOOO.", ".OWKOOKWO.", ".OOOOOOOO.", "..WWOOWW..", "...WWWW...", "....KK....", ".........."],
+  "palette":  { "K": "#1F2937", "O": "#F97316", "W": "#FFFFFF" }
 }

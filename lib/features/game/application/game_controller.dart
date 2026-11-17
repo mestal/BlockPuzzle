@@ -106,6 +106,9 @@ class GameController extends Notifier<GameState> {
   final Puzzle puzzle;
   final _random = Random();
 
+  /// Whether a finger is on the board (see [beginStroke]).
+  bool _inStroke = false;
+
   int? get _slotIndex => ref.read(activeSlotIndexProvider);
   SlotData? get _slot => ref.read(activeSlotProvider);
 
@@ -146,6 +149,20 @@ class GameController extends Notifier<GameState> {
     int step = 0,
     bool quiet = false,
   }) => _apply(r, c, action, MarkSource.user, step: step, quiet: quiet);
+
+  /// A finger touched the board. Lines it finishes keep their open cells
+  /// until [endStroke], so dragging on into them still fills (and a wrong
+  /// fill still costs a life) instead of sliding over free X marks.
+  void beginStroke() => _inStroke = true;
+
+  /// The finger lifted: cross out the rest of the lines it finished.
+  void endStroke() {
+    _inStroke = false;
+    final settled = state.board.settled();
+    if (identical(settled, state.board)) return;
+    state = state.copyWith(board: settled);
+    _saveSnapshot();
+  }
 
   /// Instant feedback for a tap whose fill is committed a moment later
   /// (after the double-tap window): plays the fill sound only.
@@ -208,7 +225,13 @@ class GameController extends Notifier<GameState> {
     Hint? hint,
   }) {
     if (state.status != GameStatus.playing) return false;
-    final result = state.board.apply(r, c, action, source: source);
+    final result = state.board.apply(
+      r,
+      c,
+      action,
+      source: source,
+      settle: !_inStroke || source == MarkSource.hint,
+    );
     if (!result.changed) return true;
 
     final lives = result.mistake ? state.lives - 1 : state.lives;

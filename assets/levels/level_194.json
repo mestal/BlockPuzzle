@@ -1,7 +1,7 @@
 {
   "id": 194,
-  "name": {"tr": "Uzaylı", "en": "Alien", "de": "Außerirdischer", "fr": "Extraterrestre", "es": "Extraterrestre", "pt": "Alienígena", "it": "Alieno", "ru": "Инопланетянин", "ar": "كائن فضائي", "ja": "宇宙人", "zh": "外星人"},
-  "solution": ["..#....#..", "...#..#...", "...####...", "..######..", ".########.", "##########", "##########", ".########.", "..######..", "...####...", "..######..", ".########.", "#.######.#", "..##..##..", ".###..###."],
-  "colors":   ["..G....G..", "...G..G...", "...GGGG...", "..GGGGGG..", ".GGGGGGGG.", "GKKGGGGKKG", "GKKKGGKKKG", ".GGGGGGGG.", "..GGKKGG..", "...GGGG...", "..GGGGGG..", ".GGGGGGGG.", "G.GGGGGG.G", "..GG..GG..", ".GGG..GGG."],
-  "palette":  { "G": "#22C55E", "K": "#1F2937" }
+  "name": {"tr": "Uydulu gezegen", "en": "Planet and moons", "de": "Planet mit Monden", "fr": "Planète et lunes", "es": "Planeta y lunas", "pt": "Planeta e luas", "it": "Pianeta e lune", "ru": "Планета и луны", "ar": "كوكب وأقمار", "ja": "惑星と衛星", "zh": "行星和卫星"},
+  "solution": ["..........", ".#........", "###...#...", ".#........", "...####...", "..######..", ".########.", ".########.", ".########.", ".########.", "..######..", "...####...", ".......#..", "......###.", ".........."],
+  "colors":   ["..........", ".L........", "LLL...P...", ".L........", "...VVVV...", "..VVUVVV..", ".VVVVVUVV.", ".VUVVVVVV.", ".VVVVUVVV.", ".VVUVVVVV.", "..VVVVUV..", "...VVVV...", ".......L..", "......LLL.", ".........."],
+  "palette":  { "L": "#E2E8F0", "P": "#F472B6", "U": "#5B21B6", "V": "#8B5CF6" }
 }

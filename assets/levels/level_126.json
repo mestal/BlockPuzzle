@@ -1,7 +1,7 @@
 {
   "id": 126,
-  "name": {"tr": "Dalgıç kaskı", "en": "Diving helmet", "de": "Taucherhelm", "fr": "Casque de scaphandre", "es": "Casco de buzo", "pt": "Capacete de mergulho", "it": "Casco da palombaro", "ru": "Водолазный шлем", "ar": "خوذة الغوص", "ja": "潜水ヘルメット", "zh": "潜水头盔"},
-  "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", ".########.", "##########", "##########"],
-  "colors":   ["...AAAA...", "..AAAAAA..", ".AAIIIIAA.", "AAIIIIIIAA", "AAIWIIIIAA", "AAIIIIIIAA", "AAAIIIIAAA", ".AAAAAAAA.", "..AAAAAA..", ".EEEEEEEE.", "EEEEEEEEEE", "EEEEEEEEEE"],
-  "palette":  { "A": "#F59E0B", "E": "#94A3B8", "I": "#BAE6FD", "W": "#FFFFFF" }
+  "name": {"tr": "Batık gemi", "en": "Shipwreck", "de": "Schiffswrack", "fr": "Épave", "es": "Barco hundido", "pt": "Naufrágio", "it": "Relitto", "ru": "Затонувший корабль", "ar": "سفينة غارقة", "ja": "沈没船", "zh": "沉船"},
+  "solution": ["..........", "....#.....", "....#.....", "...###....", "..#####...", "....#.....", "#########.", ".########.", "..######..", "...####...", ".#..#...#.", "##.###.###", "##########", "..........", ".........."],
+  "colors":   ["..........", "....T.....", "....T.....", "...WWW....", "..WWWWT...", "....T.....", "TTTTTTTTT.", ".TTTTTTTT.", "..THTHTT..", "...TTTT...", ".Q..Q...Q.", "QQ.QQQ.QQQ", "SSSSSSSSSS", "..........", ".........."],
+  "palette":  { "H": "#5B3410", "Q": "#0D9488", "S": "#FDE68A", "T": "#92400E", "W": "#FFFFFF" }
 }

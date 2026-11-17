@@ -1,7 +1,7 @@
 {
   "id": 121,
   "name": {"tr": "Dalış maskesi", "en": "Snorkel mask", "de": "Taucherbrille", "fr": "Masque de plongée", "es": "Gafas de buceo", "pt": "Máscara de mergulho", "it": "Maschera da sub", "ru": "Маска с трубкой", "ar": "قناع الغطس", "ja": "シュノーケル", "zh": "潜水面罩"},
-  "solution": [".........#", ".........#", ".........#", ".#######.#", "##########", "##########", "##########", ".###..###."],
-  "colors":   [".........O", ".........O", ".........O", ".KKKKKKK.O", "KCCCKKCCCK", "KCICKKCICK", "KCCCKKCCCK", ".KKK..KKK."],
+  "solution": ["..........", ".........#", ".........#", ".........#", ".#######.#", "##########", "##########", "##########", ".###..###.", ".........."],
+  "colors":   ["..........", ".........O", ".........O", ".........O", ".KKKKKKK.O", "KCCCKKCCCK", "KCICKKCICK", "KCCCKKCCCK", ".KKK..KKK.", ".........."],
   "palette":  { "C": "#22D3EE", "I": "#BAE6FD", "K": "#1F2937", "O": "#F97316" }
 }

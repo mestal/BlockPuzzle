@@ -84,13 +84,14 @@ bool _rowHasFill(Board board, int r) => [
 
 /// Level 1, the mushroom:
 /// ```text
-/// .##.
-/// ####
-/// .##.
-/// .##.
+/// .###.
+/// #####
+/// #####
+/// ..#..
+/// .###.
 /// ```
-/// Row 2 (4) and column 2 (4) are full lines: tap, drag, drag, then the
-/// player finishes the last column alone.
+/// Row 2 (5) and column 3 (5) are full lines: tap, drag, drag, then the
+/// player finishes the picture alone.
 final _level1 = Tutorial([
   TutorialStep(
     text: TutorialText.l1Fill,
@@ -104,32 +105,32 @@ final _level1 = Tutorial([
     focus: (isRow: true, index: 1),
     gesture: TutorialGesture.drag,
     from: (1, 0),
-    to: (1, 3),
+    to: (1, 4),
     done: (b) => b.solvedRows.contains(1),
   ),
   TutorialStep(
     text: TutorialText.l1Column,
-    focus: (isRow: false, index: 1),
+    focus: (isRow: false, index: 2),
     gesture: TutorialGesture.drag,
-    from: (0, 1),
-    to: (3, 1),
-    done: (b) => b.solvedCols.contains(1),
+    from: (0, 2),
+    to: (4, 2),
+    done: (b) => b.solvedCols.contains(2),
   ),
   TutorialStep(
     text: TutorialText.l1Finish,
-    focus: (isRow: false, index: 2),
     done: (b) => b.isSolved,
   ),
 ]);
 
 /// Level 2, the house:
 /// ```text
-/// .##.
-/// ####
-/// ####
-/// ##.#
+/// ..#..
+/// .###.
+/// #####
+/// ##.##
+/// ##.##
 /// ```
-/// The bottom row (2 1) teaches split clues and the X: cross the gap, then
+/// Row 4 (2 2) teaches split clues and the X: cross the gap, then
 /// drag over the row (the X is skipped).
 final _level2 = Tutorial([
   TutorialStep(
@@ -144,7 +145,7 @@ final _level2 = Tutorial([
     focus: (isRow: true, index: 3),
     gesture: TutorialGesture.drag,
     from: (3, 0),
-    to: (3, 3),
+    to: (3, 4),
     done: (b) => b.solvedRows.contains(3),
   ),
   const TutorialStep(text: TutorialText.l2Rules),

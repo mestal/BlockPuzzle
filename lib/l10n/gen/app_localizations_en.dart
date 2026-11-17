@@ -269,7 +269,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tutorialL1Fill =>
-      'The numbers tell how many squares in that row are filled. This row says 4, so all 4 squares are filled! Tap a square to fill it.';
+      'The numbers tell how many squares in that row are filled. This row says 5, so all 5 squares are filled! Tap a square to fill it.';
 
   @override
   String get tutorialL1Drag =>
@@ -277,15 +277,15 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tutorialL1Column =>
-      'When a row or column is done, its other squares get an X by themselves. This column says 4 too: slide from top to bottom.';
+      'This column says 5 too: slide from top to bottom.';
 
   @override
   String get tutorialL1Finish =>
-      'One column left. Finish the picture yourself!';
+      'When a row or column is done, its other squares get an X by themselves. Finish the rest of the picture yourself!';
 
   @override
   String get tutorialL2Cross =>
-      '2 1 means 2 filled squares, at least one gap, then 1 filled square. 2 + gap + 1 = 4, so the row is certain! Double tap the empty square to place an X.';
+      '2 2 means 2 filled squares, at least one gap, then 2 more filled squares. 2 + gap + 2 = 5, so the row is certain! Double tap the empty square to place an X.';
 
   @override
   String get tutorialL2Drag =>

@@ -1,7 +1,7 @@
 {
   "id": 37,
-  "name": {"tr": "Balina", "en": "Whale", "de": "Wal", "fr": "Baleine", "es": "Ballena", "pt": "Baleia", "it": "Balena", "ru": "Кит", "ar": "حوت", "ja": "クジラ", "zh": "鲸鱼"},
-  "solution": ["..#.#...", "...#....", ".#####..", "#######.", "########", "########", ".#######", "..####.#"],
-  "colors":   ["..C.C...", "...C....", ".BBBBB..", "BBBBBBB.", "BKBBBBBB", "BBBBBBBB", ".IIIIBBB", "..IIII.B"],
-  "palette":  { "B": "#3B82F6", "C": "#22D3EE", "I": "#BAE6FD", "K": "#1F2937" }
+  "name": {"tr": "Ahtapot", "en": "Octopus", "de": "Krake", "fr": "Pieuvre", "es": "Pulpo", "pt": "Polvo", "it": "Polpo", "ru": "Осьминог", "ar": "أخطبوط", "ja": "タコ", "zh": "章鱼"},
+  "solution": ["..........", "...####...", "..######..", ".########.", ".########.", "..######..", ".#.##.##..", ".#.#..#.#.", "..#.##.#..", ".........."],
+  "colors":   ["..........", "...PPPP...", "..PPPPPP..", ".PPWPPWPP.", ".PPKPPKPP.", "..PPPPPP..", ".P.PP.PP..", ".P.P..P.P.", "..P.PP.P..", ".........."],
+  "palette":  { "K": "#1F2937", "P": "#F472B6", "W": "#FFFFFF" }
 }

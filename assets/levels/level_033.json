@@ -1,7 +1,7 @@
 {
   "id": 33,
-  "name": {"tr": "Deniz yıldızı", "en": "Starfish", "de": "Seestern", "fr": "Étoile de mer", "es": "Estrella de mar", "pt": "Estrela-do-mar", "it": "Stella marina", "ru": "Морская звезда", "ar": "نجم البحر", "ja": "ヒトデ", "zh": "海星"},
-  "solution": ["...#...", "..###..", "#######", ".#####.", "..###..", ".##.##.", ".#...#."],
-  "colors":   ["...O...", "..OOO..", "OOOOOOO", ".OOROO.", "..OOO..", ".OO.OO.", ".O...O."],
-  "palette":  { "O": "#F97316", "R": "#E8453C" }
+  "name": {"tr": "Deniz Kabuğu", "en": "Seashell", "de": "Muschel", "fr": "Coquillage", "es": "Concha", "pt": "Concha", "it": "Conchiglia", "ru": "Ракушка", "ar": "صدفة", "ja": "貝殻", "zh": "贝壳"},
+  "solution": ["..........", "....#.....", "..#####...", ".##.#.##..", ".##.#.##..", ".#######..", "..#####...", "...###....", "..........", ".........."],
+  "colors":   ["..........", "....P.....", "..PPPPP...", ".PP.P.PP..", ".PP.P.PP..", ".PPPPPPP..", "..PPPPP...", "...PPP....", "..........", ".........."],
+  "palette":  { "P": "#F472B6" }
 }

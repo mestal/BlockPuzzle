@@ -1,7 +1,7 @@
 {
   "id": 103,
-  "name": {"tr": "Eldiven", "en": "Mitten", "de": "Fäustling", "fr": "Moufle", "es": "Manopla", "pt": "Luva", "it": "Muffola", "ru": "Варежка", "ar": "قفاز", "ja": "手袋", "zh": "连指手套"},
-  "solution": ["....####.", "...######", "...######", ".#.######", "#########", "#########", ".########", "..#######", "..#######", "..#######", "..#######"],
-  "colors":   ["....RRRR.", "...RRRRRR", "...RRRRRR", ".R.RRRRRR", "RRRRRRRRR", "RRRRRRRRR", ".RRRRRRRR", "..RRRRRRR", "..WWWWWWW", "..WRWRWRW", "..WWWWWWW"],
-  "palette":  { "R": "#E8453C", "W": "#FFFFFF" }
+  "name": {"tr": "Kızak", "en": "Sled", "de": "Schlitten", "fr": "Luge", "es": "Trineo", "pt": "Trenó", "it": "Slitta", "ru": "Санки", "ar": "مزلجة", "ja": "そり", "zh": "雪橇"},
+  "solution": ["#........#", "##......##", ".########.", ".########.", ".########.", "..#....#..", "..#....#..", "##########", "#........#", ".........."],
+  "colors":   ["R........R", "RR......RR", ".RRRRRRRR.", ".RWRWRWRR.", ".RRRRRRRR.", "..T....T..", "..T....T..", "EEEEEEEEEE", "E........E", ".........."],
+  "palette":  { "E": "#94A3B8", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }
 }

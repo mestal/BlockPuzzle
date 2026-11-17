@@ -275,6 +275,8 @@ class _GamePlayState extends ConsumerState<_GamePlay>
                         state: state,
                         onMark: _game.mark,
                         onPreview: _game.previewFill,
+                        onStrokeStart: _game.beginStroke,
+                        onStrokeEnd: _game.endStroke,
                         particles: _particles,
                         guide: step,
                       ),

@@ -1,7 +1,7 @@
 {
   "id": 3,
-  "name": {"tr": "Kalp", "en": "Heart", "de": "Herz", "fr": "Cœur", "es": "Corazón", "pt": "Coração", "it": "Cuore", "ru": "Сердце", "ar": "قلب", "ja": "ハート", "zh": "爱心"},
-  "solution": [".#.#.", "#####", "#####", ".###.", "..#.."],
-  "colors":   [".R.R.", "RWRRR", "RRRRP", ".RRP.", "..P.."],
-  "palette":  { "R": "#E8453C", "W": "#FFFFFF", "P": "#F472B6" }
+  "name": {"tr": "Ayı", "en": "Bear", "de": "Bär", "fr": "Ours", "es": "Oso", "pt": "Urso", "it": "Orso", "ru": "Медведь", "ar": "دب", "ja": "クマ", "zh": "熊"},
+  "solution": ["##.##", "#####", "#####", "#####", ".###."],
+  "colors":   ["TT.TT", "TTTTT", "TKTKT", "TTHTT", ".TTT."],
+  "palette":  { "H": "#5B3410", "K": "#1F2937", "T": "#92400E" }
 }

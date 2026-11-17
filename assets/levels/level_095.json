@@ -1,7 +1,7 @@
 {
   "id": 95,
-  "name": {"tr": "Deve", "en": "Camel", "de": "Kamel", "fr": "Chameau", "es": "Camello", "pt": "Camelo", "it": "Cammello", "ru": "Верблюд", "ar": "جمل", "ja": "ラクダ", "zh": "骆驼"},
-  "solution": ["........##", ".......###", "..#.#..##.", ".#####.##.", "#########.", "#########.", ".#######..", ".#.#..#.#.", ".#.#..#.#.", ".#.#..#.#."],
-  "colors":   ["........TT", ".......TKT", "..T.T..TT.", ".TTTTT.TT.", "TTTTTTTTT.", "TTTTTTTTT.", ".TTTTTTT..", ".T.T..T.T.", ".T.T..T.T.", ".T.T..T.T."],
-  "palette":  { "K": "#1F2937", "T": "#92400E" }
+  "name": {"tr": "Boynuzlu kafatası", "en": "Cow skull", "de": "Kuhschädel", "fr": "Crâne de vache", "es": "Calavera de vaca", "pt": "Crânio de vaca", "it": "Teschio di mucca", "ru": "Бычий череп", "ar": "جمجمة بقرة", "ja": "牛の頭骨", "zh": "牛头骨"},
+  "solution": ["..........", "..........", "#........#", "##......##", ".########.", "##########", "##########", "##########", ".########.", "..######..", "..######..", "...####...", "...####...", "..........", ".........."],
+  "colors":   ["..........", "..........", "L........L", "LL......LL", ".LLLLLLLL.", "LLLLLLLLLL", "LKKLLLLKKL", "LKKLLLLKKL", ".LLLLLLLL.", "..LLLLLL..", "..LKLLKL..", "...LLLL...", "...LLLL...", "..........", ".........."],
+  "palette":  { "K": "#1F2937", "L": "#E2E8F0" }
 }

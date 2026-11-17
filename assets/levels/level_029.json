@@ -1,7 +1,7 @@
 {
   "id": 29,
-  "name": {"tr": "Plaj topu", "en": "Beach ball", "de": "Wasserball", "fr": "Ballon de plage", "es": "Pelota de playa", "pt": "Bola de praia", "it": "Pallone da spiaggia", "ru": "Пляжный мяч", "ar": "كرة الشاطئ", "ja": "ビーチボール", "zh": "沙滩球"},
-  "solution": ["..###..", ".#####.", "#######", "#######", "#######", ".#####.", "..###.."],
-  "colors":   ["..RWB..", ".RRWBB.", "RRRWBBB", "RRRWBBB", "RRRWBBB", ".RRWBB.", "..RWB.."],
-  "palette":  { "B": "#3B82F6", "R": "#E8453C", "W": "#FFFFFF" }
+  "name": {"tr": "Balon balığı", "en": "Pufferfish", "de": "Kugelfisch", "fr": "Poisson-globe", "es": "Pez globo", "pt": "Baiacu", "it": "Pesce palla", "ru": "Рыба-фугу", "ar": "سمكة منتفخة", "ja": "フグ", "zh": "河豚"},
+  "solution": ["..........", "..#.#.#...", ".#######..", ".########.", ".########.", ".########.", "..#######.", ".#.#####..", "...#.#....", ".........."],
+  "colors":   ["..........", "..Y.Y.Y...", ".YYYYYYY..", ".YKYYYYYY.", ".YYYYYYYY.", ".YYYWWYYY.", "..YYYYYYY.", ".Y.YYYYY..", "...Y.Y....", ".........."],
+  "palette":  { "K": "#1F2937", "W": "#FFFFFF", "Y": "#FACC15" }
 }

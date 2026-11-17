@@ -1,7 +1,7 @@
 {
   "id": 142,
-  "name": {"tr": "Acı biber", "en": "Chili pepper", "de": "Chilischote", "fr": "Piment", "es": "Chile", "pt": "Pimenta", "it": "Peperoncino", "ru": "Перец чили", "ar": "فلفل حار", "ja": "トウガラシ", "zh": "辣椒"},
-  "solution": [".....#..", ".....#..", "...####.", "...#####", "...#####", "...#####", "...#####", "...####.", "...####.", "..####..", "..###...", ".###....", "##......"],
-  "colors":   [".....G..", ".....G..", "...RGGG.", "...RRRRR", "...RRRRR", "...RWRRR", "...RRRRR", "...RRRR.", "...RRRR.", "..RRRR..", "..RRR...", ".RRR....", "RR......"],
-  "palette":  { "G": "#22C55E", "R": "#E8453C", "W": "#FFFFFF" }
+  "name": {"tr": "Tiki maskesi", "en": "Tiki mask", "de": "Tiki-Maske", "fr": "Masque tiki", "es": "Máscara tiki", "pt": "Máscara tiki", "it": "Maschera tiki", "ru": "Маска тики", "ar": "قناع تيكي", "ja": "ティキの仮面", "zh": "提基面具"},
+  "solution": [".########.", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", ".########.", "..######..", ".........."],
+  "colors":   [".TTTTTTTT.", "TTOTTTTOTT", "TTTTTTTTTT", "TKKTTTTKKT", "TKYTTTTYKT", "TTTTTTTTTT", "TTTTOOTTTT", "TTTTOOTTTT", "TTTTTTTTTT", "TTKKKKKKTT", "TTKWWWWKTT", "TTKKKKKKTT", ".TTTTTTTT.", "..TTTTTT..", ".........."],
+  "palette":  { "K": "#1F2937", "O": "#F97316", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }
 }

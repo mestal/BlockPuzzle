@@ -270,7 +270,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tutorialL1Fill =>
-      'Die Zahlen sagen, wie viele Felder in dieser Zeile gefüllt sind. Hier steht 4, also sind alle 4 Felder gefüllt! Tippe auf ein Feld, um es zu füllen.';
+      'Die Zahlen sagen, wie viele Felder in dieser Zeile gefüllt sind. Hier steht 5, also sind alle 5 Felder gefüllt! Tippe auf ein Feld, um es zu füllen.';
 
   @override
   String get tutorialL1Drag =>
@@ -278,15 +278,15 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tutorialL1Column =>
-      'Ist eine Zeile oder Spalte fertig, bekommen die übrigen Felder von selbst ein X. Diese Spalte hat auch 4: wische von oben nach unten.';
+      'Diese Spalte hat auch 5: wische von oben nach unten.';
 
   @override
   String get tutorialL1Finish =>
-      'Noch eine Spalte. Vervollständige das Bild selbst!';
+      'Ist eine Zeile oder Spalte fertig, bekommen die übrigen Felder von selbst ein X. Vervollständige den Rest des Bildes selbst!';
 
   @override
   String get tutorialL2Cross =>
-      '2 1 heißt: 2 gefüllte Felder, mindestens eine Lücke, dann 1 gefülltes Feld. 2 + Lücke + 1 = 4, die Zeile steht fest! Tippe doppelt auf das leere Feld, um ein X zu setzen.';
+      '2 2 heißt: 2 gefüllte Felder, mindestens eine Lücke, dann noch 2 gefüllte Felder. 2 + Lücke + 2 = 5, die Zeile steht fest! Tippe doppelt auf das leere Feld, um ein X zu setzen.';
 
   @override
   String get tutorialL2Drag =>

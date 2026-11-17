@@ -1,7 +1,7 @@
 {
   "id": 141,
-  "name": {"tr": "Meşale", "en": "Torch", "de": "Fackel", "fr": "Torche", "es": "Antorcha", "pt": "Tocha", "it": "Torcia", "ru": "Факел", "ar": "شعلة", "ja": "たいまつ", "zh": "火把"},
-  "solution": [".#..#.", "..##..", ".####.", "######", "######", ".####.", "######", ".####.", "..##..", "..##..", "..##..", "..##..", "..##.."],
-  "colors":   [".R..R.", "..RR..", ".ROOR.", "RRYORR", "ROYYOR", ".OYYO.", "EEEEEE", ".EEEE.", "..TT..", "..TT..", "..TT..", "..TT..", "..TT.."],
-  "palette":  { "E": "#94A3B8", "O": "#F97316", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
+  "name": {"tr": "Kalkan", "en": "Shield", "de": "Schild", "fr": "Bouclier", "es": "Escudo", "pt": "Escudo", "it": "Scudo", "ru": "Щит", "ar": "درع", "ja": "盾", "zh": "盾牌"},
+  "solution": ["..........", "##########", "##########", "##########", "##########", "##########", "##########", "##########", ".########.", ".########.", "..######..", "..######..", "...####...", "....##....", ".........."],
+  "colors":   ["..........", "XXXXXXXXXX", "XAAAAAAAAX", "XAXXAAXXAX", "XAXAAAAXAX", "XAAAXXAAAX", "XAAAXXAAAX", "XAXAAAAXAX", ".XAXXXXAX.", ".XAAAAAAX.", "..XAAAAX..", "..XAAAAX..", "...XAAX...", "....XX....", ".........."],
+  "palette":  { "A": "#F59E0B", "X": "#991B1B" }
 }

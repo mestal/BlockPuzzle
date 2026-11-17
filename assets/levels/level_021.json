@@ -1,7 +1,7 @@
 {
   "id": 21,
-  "name": {"tr": "Yengeç", "en": "Crab", "de": "Krabbe", "fr": "Crabe", "es": "Cangrejo", "pt": "Caranguejo", "it": "Granchio", "ru": "Краб", "ar": "سلطعون", "ja": "カニ", "zh": "螃蟹"},
-  "solution": ["##...##", ".##.##.", ".#####.", "#######", ".#####.", "#.#.#.#", "#.....#"],
-  "colors":   ["RR...RR", ".RK.KR.", ".RRRRR.", "RRRRRRR", ".RRRRR.", "R.R.R.R", "R.....R"],
-  "palette":  { "R": "#EF4444", "K": "#1F2937" }
+  "name": {"tr": "Plaj topu", "en": "Beach ball", "de": "Wasserball", "fr": "Ballon de plage", "es": "Pelota de playa", "pt": "Bola de praia", "it": "Pallone da spiaggia", "ru": "Пляжный мяч", "ar": "كرة الشاطئ", "ja": "ビーチボール", "zh": "沙滩球"},
+  "solution": ["..........", "...###....", "..#####...", ".#######..", ".#######..", ".#######..", "..#####...", "...###....", "..........", ".........."],
+  "colors":   ["..........", "...RWB....", "..RRWBB...", ".RRRWBBB..", ".RRRWBBB..", ".RRRWBBB..", "..RRWBB...", "...RWB....", "..........", ".........."],
+  "palette":  { "B": "#3B82F6", "R": "#E8453C", "W": "#FFFFFF" }
 }

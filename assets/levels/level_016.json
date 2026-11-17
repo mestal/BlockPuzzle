@@ -1,7 +1,7 @@
 {
   "id": 16,
-  "name": {"tr": "Kuş", "en": "Bird", "de": "Vogel", "fr": "Oiseau", "es": "Pájaro", "pt": "Pássaro", "it": "Uccello", "ru": "Птица", "ar": "طائر", "ja": "鳥", "zh": "小鸟"},
-  "solution": [".##...", "#.##..", ".####.", ".#####", "..###.", "..#.#."],
-  "colors":   [".BB...", "B.BY..", ".BBBB.", ".BBBBB", "..BBB.", "..Y.Y."],
-  "palette":  { "B": "#3B82F6", "Y": "#F59E0B" }
+  "name": {"tr": "Şemsiye", "en": "Umbrella", "de": "Regenschirm", "fr": "Parapluie", "es": "Paraguas", "pt": "Guarda-chuva", "it": "Ombrello", "ru": "Зонт", "ar": "مظلة", "ja": "傘", "zh": "雨伞"},
+  "solution": ["..#..", ".###.", "#####", "#####", "..#..", "..#..", "..#..", "..#..", "#.#..", ".##.."],
+  "colors":   ["..R..", ".RRR.", "RRRRR", "RWRWR", "..T..", "..T..", "..T..", "..T..", "T.T..", ".TT.."],
+  "palette":  { "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }
 }

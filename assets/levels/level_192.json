@@ -1,7 +1,7 @@
 {
   "id": 192,
-  "name": {"tr": "Uzay köpeği", "en": "Space dog", "de": "Weltraumhund", "fr": "Chien de l’espace", "es": "Perro espacial", "pt": "Cão espacial", "it": "Cane spaziale", "ru": "Космическая собака", "ar": "كلب الفضاء", "ja": "宇宙犬", "zh": "太空狗"},
-  "solution": ["...####...", "..######..", ".########.", ".########.", ".########.", ".########.", "..######..", "...####...", "..######..", ".########.", "##########", "#.######.#", "..##..##..", "..##..##.."],
-  "colors":   ["...LLLL...", "..LLLLLL..", ".LLTTTTLL.", ".LTKTTKTL.", ".LTTTTTTL.", ".LTTKKTTL.", "..LTTTTL..", "...LLLL...", "..TTTTTT..", ".TTTTTTTT.", "TTRTTTTTTT", "T.TTTTTT.T", "..TT..TT..", "..HH..HH.."],
-  "palette":  { "H": "#5B3410", "K": "#1F2937", "L": "#E2E8F0", "R": "#E8453C", "T": "#92400E" }
+  "name": {"tr": "Roket fırlatma", "en": "Rocket launch", "de": "Raketenstart", "fr": "Décollage de fusée", "es": "Lanzamiento de cohete", "pt": "Lançamento de foguete", "it": "Lancio del razzo", "ru": "Запуск ракеты", "ar": "إطلاق صاروخ", "ja": "ロケット発射", "zh": "火箭发射"},
+  "solution": ["....##....", "...####...", "...####...", "...####...", "...####...", "...####...", "..######..", ".########.", ".##.##.##.", "....##....", "...####...", "..#.##.#..", ".#..#...#.", "###....###", "##########"],
+  "colors":   ["....RR....", "...RWWR...", "...WWWW...", "...WBBW...", "...WBBW...", "...WWWW...", "..RWWWWR..", ".RRWWWWRR.", ".RR.OO.RR.", "....OO....", "...OYYO...", "..O.YY.O..", ".L..O...L.", "LLL....LLL", "LLLLLLLLLL"],
+  "palette":  { "B": "#3B82F6", "L": "#E2E8F0", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
 }

@@ -1,7 +1,7 @@
 {
   "id": 15,
-  "name": {"tr": "Robot", "en": "Robot", "de": "Roboter", "fr": "Robot", "es": "Robot", "pt": "Robô", "it": "Robot", "ru": "Робот", "ar": "روبوت", "ja": "ロボット", "zh": "机器人"},
-  "solution": ["..#...", "######", "#.##.#", "######", ".####.", ".#..#."],
-  "colors":   ["..A...", "MMMMMM", "M.MM.M", "MMMMMM", ".MRRM.", ".M..M."],
-  "palette":  { "A": "#EF4444", "M": "#94A3B8", "R": "#38BDF8" }
+  "name": {"tr": "Ağaç", "en": "Tree", "de": "Baum", "fr": "Arbre", "es": "Árbol", "pt": "Árvore", "it": "Albero", "ru": "Дерево", "ar": "شجرة", "ja": "木", "zh": "树"},
+  "solution": ["..#..", ".###.", "#####", ".###.", "#####", "#####", ".###.", "..#..", "..#..", ".###."],
+  "colors":   ["..D..", ".DGD.", "DDDDD", ".DDD.", "DGDDD", "DDDGD", ".DDD.", "..T..", "..T..", ".TTT."],
+  "palette":  { "D": "#15803D", "G": "#22C55E", "T": "#92400E" }
 }

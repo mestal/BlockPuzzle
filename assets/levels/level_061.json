@@ -1,7 +1,7 @@
 {
   "id": 61,
-  "name": {"tr": "Şeker", "en": "Candy", "de": "Bonbon", "fr": "Bonbon", "es": "Caramelo", "pt": "Bala", "it": "Caramella", "ru": "Конфета", "ar": "حلوى", "ja": "キャンディ", "zh": "糖果"},
-  "solution": ["#.......#", "##.###.##", "#########", ".#######.", "#########", "##.###.##", "#.......#"],
-  "colors":   ["R.......R", "RR.OOO.RR", "RROOYOORR", ".ROYOYOR.", "RROOYOORR", "RR.OOO.RR", "R.......R"],
-  "palette":  { "O": "#F97316", "R": "#E8453C", "Y": "#FACC15" }
+  "name": {"tr": "Çikolata", "en": "Chocolate bar", "de": "Schokolade", "fr": "Tablette de chocolat", "es": "Tableta de chocolate", "pt": "Barra de chocolate", "it": "Tavoletta di cioccolato", "ru": "Плитка шоколада", "ar": "لوح شوكولاتة", "ja": "板チョコ", "zh": "巧克力"},
+  "solution": [".#######..", "#########.", "#########.", "#########.", "#########.", "#########.", "#########.", "#########.", "#########.", ".........."],
+  "colors":   [".RRRRRRR..", "RRWWWWWRR.", "RWRRRRRWR.", "HHHHHHHHH.", "HTTHTTHTH.", "HHHHHHHHH.", "HTTHTTHTH.", "HHHHHHHHH.", "HTTHTTHTH.", ".........."],
+  "palette":  { "H": "#5B3410", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }
 }

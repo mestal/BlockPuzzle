@@ -269,7 +269,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tutorialL1Fill =>
-      'Los números dicen cuántas casillas de esa fila están llenas. Esta fila dice 4: ¡las 4 casillas están llenas! Toca una casilla para llenarla.';
+      'Los números dicen cuántas casillas de esa fila están llenas. Esta fila dice 5: ¡las 5 casillas están llenas! Toca una casilla para llenarla.';
 
   @override
   String get tutorialL1Drag =>
@@ -277,15 +277,15 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tutorialL1Column =>
-      'Cuando una fila o columna está completa, sus otras casillas reciben una X solas. Esta columna también dice 4: desliza de arriba abajo.';
+      'Esta columna también dice 5: desliza de arriba abajo.';
 
   @override
   String get tutorialL1Finish =>
-      'Queda una columna. ¡Termina el dibujo tú solo!';
+      'Cuando una fila o columna está completa, sus otras casillas reciben una X solas. ¡Termina el resto del dibujo tú solo!';
 
   @override
   String get tutorialL2Cross =>
-      '2 1 significa 2 casillas llenas, al menos un hueco y luego 1 casilla llena. 2 + hueco + 1 = 4: ¡la fila es segura! Toca dos veces la casilla vacía para poner una X.';
+      '2 2 significa 2 casillas llenas, al menos un hueco y luego otras 2 casillas llenas. 2 + hueco + 2 = 5: ¡la fila es segura! Toca dos veces la casilla vacía para poner una X.';
 
   @override
   String get tutorialL2Drag =>

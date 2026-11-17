@@ -1,7 +1,7 @@
 {
   "id": 108,
-  "name": {"tr": "Bere", "en": "Beanie", "de": "Mütze", "fr": "Bonnet", "es": "Gorro", "pt": "Gorro", "it": "Berretto", "ru": "Шапка", "ar": "قبعة صوفية", "ja": "ニット帽", "zh": "毛线帽"},
-  "solution": ["....##....", "...####...", "....##....", "..######..", ".########.", ".########.", "##########", "##########", "##########", "##########", "##########"],
-  "colors":   ["....WW....", "...WWWW...", "....WW....", "..BBBBBB..", ".BBWBBWBB.", ".BWBBWBBB.", "BBBBBBBBBB", "BBBBBBBBBB", "WWWWWWWWWW", "WBWBWBWBWB", "WWWWWWWWWW"],
-  "palette":  { "B": "#3B82F6", "W": "#FFFFFF" }
+  "name": {"tr": "Eldiven", "en": "Mitten", "de": "Fäustling", "fr": "Moufle", "es": "Manopla", "pt": "Luva", "it": "Muffola", "ru": "Варежка", "ar": "قفاز", "ja": "手袋", "zh": "连指手套"},
+  "solution": ["..........", "..........", "....####..", "...######.", "...######.", ".#.######.", "#########.", "#########.", ".########.", "..#######.", "..#######.", "..#######.", "..#######.", "..........", ".........."],
+  "colors":   ["..........", "..........", "....RRRR..", "...RRRRRR.", "...RRRRRR.", ".R.RRRRRR.", "RRRRRRRRR.", "RRRRRRRRR.", ".RRRRRRRR.", "..RRRRRRR.", "..WWWWWWW.", "..WRWRWRW.", "..WWWWWWW.", "..........", ".........."],
+  "palette":  { "R": "#E8453C", "W": "#FFFFFF" }
 }

@@ -1,7 +1,7 @@
 {
   "id": 24,
-  "name": {"tr": "Ananas", "en": "Pineapple", "de": "Ananas", "fr": "Ananas", "es": "Piña", "pt": "Abacaxi", "it": "Ananas", "ru": "Ананас", "ar": "أناناس", "ja": "パイナップル", "zh": "菠萝"},
-  "solution": [".#..#.", "..##..", ".####.", ".####.", "######", "######", "######", ".####."],
-  "colors":   [".G..G.", "..GG..", ".GGGG.", ".YAYA.", "YAYAYA", "AYAYAY", "YAYAYA", ".AYAY."],
-  "palette":  { "A": "#F59E0B", "G": "#22C55E", "Y": "#FACC15" }
+  "name": {"tr": "Kumdan kale", "en": "Sandcastle", "de": "Sandburg", "fr": "Château de sable", "es": "Castillo de arena", "pt": "Castelo de areia", "it": "Castello di sabbia", "ru": "Замок из песка", "ar": "قلعة رملية", "ja": "砂の城", "zh": "沙堡"},
+  "solution": ["..........", ".#.#.#.#..", ".#######..", "..#####...", "..#####...", "..#####...", "..#####...", ".#######..", "..........", ".........."],
+  "colors":   ["..........", ".S.S.S.S..", ".SSSSSSS..", "..SSSSS...", "..STSTS...", "..SSSSS...", "..SSTSS...", ".SSSTSSS..", "..........", ".........."],
+  "palette":  { "S": "#FDE68A", "T": "#92400E" }
 }

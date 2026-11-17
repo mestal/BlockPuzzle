@@ -69,11 +69,11 @@
   "hintFallback": "Este quadrado faz parte da imagem.",
   "tutorialSkip": "Pular",
   "tutorialGotIt": "Entendi",
-  "tutorialL1Fill": "Os números dizem quantos quadrados da linha estão preenchidos. Aqui é 4, então os 4 quadrados estão preenchidos! Toque em um quadrado para preenchê-lo.",
+  "tutorialL1Fill": "Os números dizem quantos quadrados da linha estão preenchidos. Aqui é 5, então os 5 quadrados estão preenchidos! Toque em um quadrado para preenchê-lo.",
   "tutorialL1Drag": "Ótimo! Agora segure o dedo e deslize para preencher o resto da linha.",
-  "tutorialL1Column": "Quando uma linha ou coluna termina, os outros quadrados ganham um X sozinhos. Esta coluna também é 4: deslize de cima para baixo.",
-  "tutorialL1Finish": "Falta uma coluna. Termine a imagem sozinho!",
-  "tutorialL2Cross": "2 1 quer dizer 2 quadrados preenchidos, pelo menos um espaço e depois 1 quadrado preenchido. 2 + espaço + 1 = 4, então a linha está certa! Toque duas vezes no quadrado vazio para colocar um X.",
+  "tutorialL1Column": "Esta coluna também é 5: deslize de cima para baixo.",
+  "tutorialL1Finish": "Quando uma linha ou coluna termina, os outros quadrados ganham um X sozinhos. Termine o resto da imagem sozinho!",
+  "tutorialL2Cross": "2 2 quer dizer 2 quadrados preenchidos, pelo menos um espaço e depois mais 2 quadrados preenchidos. 2 + espaço + 2 = 5, então a linha está certa! Toque duas vezes no quadrado vazio para colocar um X.",
   "tutorialL2Drag": "Quadrados com o seu X são pulados ao deslizar. Deslize pela linha inteira para preenchê-la.",
   "tutorialL2Rules": "Preencher um quadrado errado custa 1 vida; os X são livres. Se travar, o botão Dica também explica o porquê. O resto é com você!"
 }

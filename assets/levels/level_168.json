@@ -1,7 +1,7 @@
 {
   "id": 168,
-  "name": {"tr": "Güneşli bulut", "en": "Sun and cloud", "de": "Sonne und Wolke", "fr": "Soleil et nuage", "es": "Sol y nube", "pt": "Sol e nuvem", "it": "Sole e nuvola", "ru": "Солнце и облако", "ar": "شمس وغيمة", "ja": "晴れときどき曇り", "zh": "太阳和云"},
-  "solution": ["..#...#...", "...#.#....", ".#.###.#..", "...#####..", "########..", "...######.", "..########", ".#..######", "...#######", "..########", ".#########", "##########", ".########."],
-  "colors":   ["..Y...Y...", "...Y.Y....", ".Y.YYY.Y..", "...YYYYY..", "YYYYYYYY..", "...YYYLLL.", "..YYYLLLLL", ".Y..LLLLLL", "...LLLLLLL", "..LLLLLLLL", ".LLLLLLLLL", "LLLLLLLLLL", ".LLLLLLLL."],
-  "palette":  { "L": "#E2E8F0", "Y": "#FACC15" }
+  "name": {"tr": "Sıcak hava balonu", "en": "Hot air balloon", "de": "Heißluftballon", "fr": "Montgolfière", "es": "Globo aerostático", "pt": "Balão de ar quente", "it": "Mongolfiera", "ru": "Воздушный шар", "ar": "منطاد الهواء الساخن", "ja": "熱気球", "zh": "热气球"},
+  "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", "...####...", "...#..#...", "...#..#...", "...####...", "...####...", "....##...."],
+  "colors":   ["...RRRR...", "..RRYYRR..", ".RRYYYYRR.", "RRYYRRYYRR", "RYYRRRRYYR", "RYYRRRRYYR", "RRYYRRYYRR", ".RRYYYYRR.", "..RRYYRR..", "...RRRR...", "...T..T...", "...T..T...", "...TTTT...", "...TTTT...", "....TT...."],
+  "palette":  { "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
 }

@@ -1,7 +1,7 @@
 {
   "id": 123,
-  "name": {"tr": "Karides", "en": "Shrimp", "de": "Garnele", "fr": "Crevette", "es": "Gamba", "pt": "Camarão", "it": "Gambero", "ru": "Креветка", "ar": "روبيان", "ja": "エビ", "zh": "虾"},
-  "solution": [".#.#.....", "#.##.....", ".#####...", "...#####.", "...######", ".......##", ".......##", "....#####", "...####..", "..##.#...", ".#..#...."],
-  "colors":   [".O.O.....", "O.OO.....", ".OOOOO...", "...OOOOO.", "...OKOOOO", ".......OO", ".......OO", "....OOOOO", "...OOOO..", "..OO.O...", ".O..O...."],
-  "palette":  { "K": "#1F2937", "O": "#F97316" }
+  "name": {"tr": "Dalgıç kaskı", "en": "Diving helmet", "de": "Taucherhelm", "fr": "Casque de scaphandre", "es": "Casco de buzo", "pt": "Capacete de mergulho", "it": "Casco da palombaro", "ru": "Водолазный шлем", "ar": "خوذة الغوص", "ja": "潜水ヘルメット", "zh": "潜水头盔"},
+  "solution": ["..........", "...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", ".########.", "##########", "##########", "..........", ".........."],
+  "colors":   ["..........", "...AAAA...", "..AAAAAA..", ".AAIIIIAA.", "AAIIIIIIAA", "AAIWIIIIAA", "AAIIIIIIAA", "AAAIIIIAAA", ".AAAAAAAA.", "..AAAAAA..", ".EEEEEEEE.", "EEEEEEEEEE", "EEEEEEEEEE", "..........", ".........."],
+  "palette":  { "A": "#F59E0B", "E": "#94A3B8", "I": "#BAE6FD", "W": "#FFFFFF" }
 }

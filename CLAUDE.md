@@ -40,6 +40,10 @@ Mod düğmesi yok; işlemi **jest** belirler:
   Bu sürede başka bir kareye dokunulursa önceki dokunuş hemen doldurma olarak işlenir.
 - Sürükleme ilk hareket yönüne (yatay/dikey) kilitlenir; tek satır veya sütun boyunca ilerler.
 - Sürüklemede zaten açılmış (dolu veya X) kareler atlanır, hiçbir şey olmaz.
+- Parmak ekrandayken tamamlanan satır/sütunun kalan kareleri parmak kalkana kadar **açık kalır**
+  (`Board.apply(settle: false)`, `GameController.beginStroke/endStroke`): sürükleme bu karelere
+  girerse bunlar gerçek doldurma denemesidir (yanlışsa kırmızı X, −1 hak). Parmak kalkınca
+  dokunulmayan kareler yeşil X olur (`Board.settled()`).
 - Jestler keşfedilmesi zor olduğundan **Bölüm 1 ve 2 adım adım, el animasyonlu bir öğretici** içerir
   (`features/game/domain/tutorial.dart`). Bölüm 1: ipucu okuma, dokunarak doldurma, sürükleme,
   otomatik X. Bölüm 2: çok sayılı ipucu (`2 1`), çift dokunarak X, X'lerin sürüklemede atlanması,
@@ -154,20 +158,24 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 
 | Bölümler | Harita | Izgara (satır × sütun) | Not |
 |---|---|---|---|
-| 1–10 | Gün Batımı Tepeleri | 4×4 → 5×5 | Öğretici, bol tam dolu satır |
-| 11–23 | Gün Batımı / Kumsal | 6×6 → 7×7 | Çoklu ipuçları başlar |
-| 24–60 | Kumsal, Gece Ormanı | 7×7 → 9×9 | |
-| 61–100 | Şeker Diyarı, Altın Çöl | 9×9 → 11×10 | |
-| 101–140 | Karlı Zirveler, Mercan Resifi | 11×10 → 13×10 | |
-| 141–200 | Volkan, Bulut Kasabası, Yıldız Yolu | 13×10 → 15×10 | |
+| 1–10 | Gün Batımı Tepeleri | 5×5 | 1–2 öğretici |
+| 11–20 | Gün Batımı Tepeleri | 10×5 / 5×10 | Çoklu ipuçları |
+| 21–100 | Kumsal → Altın Çöl | 10×10 | (Altın Çöl'ün sonunda 15×10 başlar) |
+| 101–200 | Karlı Zirveler → Yıldız Yolu | 10×10 → 15×10 | |
+
+- **Izgara kenarları 5'in katıdır**: yalnızca 5×5, 10×5, 5×10, 10×10, 15×10 (5'lik kılavuz
+  çizgileri ızgarayı eşit böler; testle doğrulanır). Her satır/sütunda dolu kare olması gerekmez;
+  boş çizgilerin ipucu `0`'dır ve bölüm başında otomatik X'lenir.
 
 - **Sütun en fazla 10, satır en fazla 15.** Dikey ekranda genişlik belirleyicidir: 10 sütunda kare
   normal telefonda ~28–29 dp, küçük telefonda (360 dp) ~25 dp; 12 sütunda ~22–24 dp'ye düşer.
   15 satır 10 sütunla rahat sığar.
-- 24–200 arası bölümler `tool/level_art.dart` + `tool/art/*.dart` içindeki piksel resimlerden
-  `dart run tool/generate_levels.dart` ile üretilir. Üretici boş kenarları kırpar, resim tek çözümlü
-  değilse mümkün olan en az hücreyi değiştirerek mantıkla çözülebilir yapar ve her haritadaki
-  resimleri boyut + çözücüye göre zorluk sırasıyla numaralar. 1–23 elle yazılmıştır, üretici dokunmaz.
+- **Tüm** bölümler `tool/level_art.dart` + `tool/art/*.dart` içindeki piksel resimlerden
+  `dart run tool/generate_levels.dart` ile üretilir (elle düzenleme yok). Üretici boş kenarları kırpar,
+  resmi sığdığı en küçük izinli ızgaranın ortasına koyar, tek çözümlü değilse mümkün olan en az
+  hücreyi değiştirerek mantıkla çözülebilir yapar ve her haritadaki resimleri boyut + çözücüye göre
+  zorluk sırasıyla numaralar. `pinned: true` resimler haritanın başında yazıldığı sırayla kalır
+  (Bölüm 1–2 öğretici; `tutorial.dart` koordinatları bu resimlere bağlıdır).
   Yeni resim: ilgili `tool/art/wNN_*.dart` dosyasına ekle (`artLanguages` sırasıyla 11 dilde ad),
   üreticiyi çalıştır.
 
@@ -243,13 +251,10 @@ test/
 ```json
 {
   "id": 1,
-  "name": {"tr": "Mantar", "en": "Mushroom", "de": "Pilz", "fr": "Champignon",
-           "es": "Seta", "it": "Fungo", "zh": "蘑菇"},
-  "rows": 4,
-  "cols": 4,
-  "solution": [".##.", "####", ".##.", ".##."],
-  "colors":   [".RR.", "RWRR", ".BB.", ".BB."],
-  "palette":  { "R": "#E8453C", "W": "#FFFFFF", "B": "#F3E1C7" }
+  "name": {"tr": "Mantar", "en": "Mushroom", "de": "Pilz", ...},
+  "solution": [".###.", "#####", "#####", "..#..", ".###."],
+  "colors":   [".RWR.", "RRRWR", "RWRRR", "..F..", ".FFF."],
+  "palette":  { "F": "#FBCFA5", "R": "#E8453C", "W": "#FFFFFF" }
 }
 ```
 

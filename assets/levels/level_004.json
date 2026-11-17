@@ -1,7 +1,7 @@
 {
   "id": 4,
-  "name": {"tr": "Ağaç", "en": "Tree", "de": "Baum", "fr": "Arbre", "es": "Árbol", "pt": "Árvore", "it": "Albero", "ru": "Дерево", "ar": "شجرة", "ja": "木", "zh": "树"},
-  "solution": [".###.", "#####", ".###.", "..#..", ".###."],
-  "colors":   [".GGG.", "GGLGG", ".GGG.", "..B..", ".BBB."],
-  "palette":  { "G": "#34A853", "L": "#86EFAC", "B": "#8B5A2B" }
+  "name": {"tr": "Taç", "en": "Crown", "de": "Krone", "fr": "Couronne", "es": "Corona", "pt": "Coroa", "it": "Corona", "ru": "Корона", "ar": "تاج", "ja": "王冠", "zh": "王冠"},
+  "solution": ["#.#.#", "#.#.#", "#####", "#####", "#####"],
+  "colors":   ["Y.Y.Y", "Y.Y.Y", "YYYYY", "YRYBY", "YYYYY"],
+  "palette":  { "B": "#3B82F6", "R": "#E8453C", "Y": "#FACC15" }
 }

@@ -269,7 +269,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tutorialL1Fill =>
-      'Os números dizem quantos quadrados da linha estão preenchidos. Aqui é 4, então os 4 quadrados estão preenchidos! Toque em um quadrado para preenchê-lo.';
+      'Os números dizem quantos quadrados da linha estão preenchidos. Aqui é 5, então os 5 quadrados estão preenchidos! Toque em um quadrado para preenchê-lo.';
 
   @override
   String get tutorialL1Drag =>
@@ -277,14 +277,15 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tutorialL1Column =>
-      'Quando uma linha ou coluna termina, os outros quadrados ganham um X sozinhos. Esta coluna também é 4: deslize de cima para baixo.';
+      'Esta coluna também é 5: deslize de cima para baixo.';
 
   @override
-  String get tutorialL1Finish => 'Falta uma coluna. Termine a imagem sozinho!';
+  String get tutorialL1Finish =>
+      'Quando uma linha ou coluna termina, os outros quadrados ganham um X sozinhos. Termine o resto da imagem sozinho!';
 
   @override
   String get tutorialL2Cross =>
-      '2 1 quer dizer 2 quadrados preenchidos, pelo menos um espaço e depois 1 quadrado preenchido. 2 + espaço + 1 = 4, então a linha está certa! Toque duas vezes no quadrado vazio para colocar um X.';
+      '2 2 quer dizer 2 quadrados preenchidos, pelo menos um espaço e depois mais 2 quadrados preenchidos. 2 + espaço + 2 = 5, então a linha está certa! Toque duas vezes no quadrado vazio para colocar um X.';
 
   @override
   String get tutorialL2Drag =>

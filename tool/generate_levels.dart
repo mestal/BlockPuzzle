@@ -4,12 +4,14 @@
 //   dart run tool/generate_levels.dart
 //
 // For every picture it:
-// * trims empty border rows/columns and checks the size limits,
+// * trims empty border rows/columns, then centres the picture on the
+//   smallest board in [boardSizes] that fits (every side a multiple of 5,
+//   so the 5-cell guides split it evenly; empty lines are fine),
 // * makes the puzzle solvable by line logic alone (unique, no guessing) by
 //   flipping as few cells as possible when the art is ambiguous,
 // * rates its difficulty with the line solver,
-// and then numbers the pictures world by world, smallest and easiest
-// first, starting after the hand-made levels.
+// and then numbers the pictures world by world: pinned pictures first, then
+// smallest and easiest first.
 import 'dart:io';
 
 import 'package:block_puzzle/core/languages.dart';
@@ -19,10 +21,9 @@ import 'package:block_puzzle/features/game/domain/puzzle.dart';
 
 import 'level_art.dart';
 
-/// Levels 1..[handMade] are edited by hand and left alone.
-const handMade = 23;
-const maxCols = 10;
-const maxRows = 15;
+/// Board sizes (rows, cols), smallest first. Columns stop at 10 so cells
+/// stay big enough on a portrait phone.
+const boardSizes = [(5, 5), (10, 5), (5, 10), (10, 10), (15, 10)];
 
 void main() {
   final pictures = <_Picture>[];
@@ -42,16 +43,23 @@ void main() {
     return;
   }
 
-  // World by world, then by size and difficulty.
+  // World by world, pinned first (in listed order), then by size and
+  // difficulty.
+  final listed = {for (final (i, art) in levelArt.indexed) art: i};
   pictures.sort((a, b) {
     final world = a.art.world.compareTo(b.art.world);
     if (world != 0) return world;
+    if (a.art.pinned || b.art.pinned) {
+      if (!b.art.pinned) return -1;
+      if (!a.art.pinned) return 1;
+      return listed[a.art]!.compareTo(listed[b.art]!);
+    }
     final size = (a.rows * a.cols).compareTo(b.rows * b.cols);
     if (size != 0) return size;
     return a.difficulty.compareTo(b.difficulty);
   });
 
-  var id = handMade + 1;
+  var id = 1;
   final report = StringBuffer();
   for (final p in pictures) {
     final path = 'assets/levels/level_${id.toString().padLeft(3, '0')}.json';
@@ -66,22 +74,26 @@ void main() {
   }
   stdout
     ..write(report)
-    ..writeln('Wrote levels ${handMade + 1}..${id - 1}.');
+    ..writeln('Wrote levels 1..${id - 1}.');
 }
 
 class _Picture {
   _Picture(this.art, this.grid, this.flips, this.difficulty);
 
   factory _Picture.fromArt(LevelArt art) {
-    var grid = _trim(_pad(art.pixels));
-    final rows = grid.length;
-    final cols = grid.first.length;
     final name = art.names[1];
+    final picture = _trim(_pad(art.pixels));
+    final size = boardSizes.where(
+      (s) => picture.length <= s.$1 && picture.first.length <= s.$2,
+    );
+    if (size.isEmpty) {
+      throw StateError(
+        '$name is ${picture.length}x${picture.first.length}, too big',
+      );
+    }
+    var grid = _centre(picture, size.first);
     if (art.names.length != artLanguages.length) {
       throw StateError('$name needs ${artLanguages.length} names');
-    }
-    if (cols > maxCols || rows > maxRows) {
-      throw StateError('$name is ${rows}x$cols (max ${maxRows}x$maxCols)');
     }
     for (final row in grid) {
       for (final key in row) {
@@ -165,6 +177,25 @@ List<List<String>> _trim(List<List<String>> grid) {
   }
   return [
     for (var r = top; r <= bottom; r++) grid[r].sublist(left, right + 1),
+  ];
+}
+
+/// [picture] in the middle of an empty board of [size].
+List<List<String>> _centre(List<List<String>> picture, (int, int) size) {
+  final (rows, cols) = size;
+  final top = (rows - picture.length) ~/ 2;
+  final left = (cols - picture.first.length) ~/ 2;
+  return [
+    for (var r = 0; r < rows; r++)
+      [
+        for (var c = 0; c < cols; c++)
+          r >= top &&
+                  r < top + picture.length &&
+                  c >= left &&
+                  c < left + picture.first.length
+              ? picture[r - top][c - left]
+              : '.',
+      ],
   ];
 }
 

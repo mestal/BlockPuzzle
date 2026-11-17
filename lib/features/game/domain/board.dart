@@ -110,7 +110,8 @@ final class Board {
       for (var c = 0; c < puzzle.cols; c++)
         if (board._colDone(c)) c,
     };
-    return Board._(puzzle, board.cells, rows, cols);
+    // A board saved mid-drag may still owe the X marks of finished lines.
+    return Board._(puzzle, board.cells, rows, cols).settled();
   }
 
   final Puzzle puzzle;
@@ -130,11 +131,17 @@ final class Board {
   /// a mistake - an X is just a note and may be wrong; it is replaced by an
   /// automatic X once its line is complete. A player's own X blocks the
   /// player's fills (it must be erased first); a hint may fill over it.
+  ///
+  /// With [settle] false a finished line is reported (and counted as solved)
+  /// but its remaining cells are left open until [settled] is called: while
+  /// the player's finger is still dragging, the cells it reaches next are
+  /// real fill attempts, not free X marks.
   MoveResult apply(
     int r,
     int c,
     MoveAction action, {
     MarkSource source = MarkSource.user,
+    bool settle = true,
   }) {
     final existing = at(r, c);
     if (existing.isLocked || isSolved) return MoveResult(board: this);
@@ -182,14 +189,16 @@ final class Board {
     if (!solvedRows.contains(r) && next._rowDone(r)) completedRows.add(r);
     if (!solvedCols.contains(c) && next._colDone(c)) completedCols.add(c);
 
-    for (final row in completedRows) {
-      for (var col = 0; col < puzzle.cols; col++) {
-        _autoCross(cells, row, col);
+    if (settle) {
+      for (final row in completedRows) {
+        for (var col = 0; col < puzzle.cols; col++) {
+          _autoCross(cells, row, col);
+        }
       }
-    }
-    for (final col in completedCols) {
-      for (var row = 0; row < puzzle.rows; row++) {
-        _autoCross(cells, row, col);
+      for (final col in completedCols) {
+        for (var row = 0; row < puzzle.rows; row++) {
+          _autoCross(cells, row, col);
+        }
       }
     }
 
@@ -223,6 +232,33 @@ final class Board {
       completedCols: completedCols,
       solved: solved,
     );
+  }
+
+  /// Crosses out the open cells of every finished line (those left open by
+  /// `apply(settle: false)`). Returns this board when nothing changes.
+  Board settled() {
+    final cells = [...this.cells];
+    for (final row in solvedRows) {
+      for (var col = 0; col < puzzle.cols; col++) {
+        _autoCross(cells, row, col);
+      }
+    }
+    for (final col in solvedCols) {
+      for (var row = 0; row < puzzle.rows; row++) {
+        _autoCross(cells, row, col);
+      }
+    }
+    for (var i = 0; i < cells.length; i++) {
+      if (cells[i] != this.cells[i]) {
+        return Board._(
+          puzzle,
+          List.unmodifiable(cells),
+          solvedRows,
+          solvedCols,
+        );
+      }
+    }
+    return this;
   }
 
   /// A random filled cell the player has not found yet, or null.

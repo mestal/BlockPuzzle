@@ -1,7 +1,7 @@
 {
   "id": 94,
-  "name": {"tr": "Şerif yıldızı", "en": "Sheriff badge", "de": "Sheriffstern", "fr": "Étoile de shérif", "es": "Estrella de sheriff", "pt": "Distintivo de xerife", "it": "Stella da sceriffo", "ru": "Значок шерифа", "ar": "شارة الشريف", "ja": "保安官バッジ", "zh": "警长徽章"},
-  "solution": ["....##....", "....##....", "...####..#", ".########.", "..######..", "..######..", "#########.", "#..####..#", "....##....", "....##...."],
-  "colors":   ["....AA....", "....AA....", "...AAAA..A", ".AAAAAAAA.", "..AAKKAA..", "..AAKKAA..", "AAAAAAAAA.", "A..AAAA..A", "....AA....", "....AA...."],
-  "palette":  { "A": "#F59E0B", "K": "#1F2937" }
+  "name": {"tr": "Deve", "en": "Camel", "de": "Kamel", "fr": "Chameau", "es": "Camello", "pt": "Camelo", "it": "Cammello", "ru": "Верблюд", "ar": "جمل", "ja": "ラクダ", "zh": "骆驼"},
+  "solution": ["........##", ".......###", "..#.#..##.", ".#####.##.", "#########.", "#########.", ".#######..", ".#.#..#.#.", ".#.#..#.#.", ".#.#..#.#."],
+  "colors":   ["........TT", ".......TKT", "..T.T..TT.", ".TTTTT.TT.", "TTTTTTTTT.", "TTTTTTTTT.", ".TTTTTTT..", ".T.T..T.T.", ".T.T..T.T.", ".T.T..T.T."],
+  "palette":  { "K": "#1F2937", "T": "#92400E" }
 }

@@ -1,7 +1,7 @@
 {
   "id": 44,
-  "name": {"tr": "Kirpi", "en": "Hedgehog", "de": "Igel", "fr": "Hérisson", "es": "Erizo", "pt": "Ouriço", "it": "Riccio", "ru": "Ёжик", "ar": "قنفذ", "ja": "ハリネズミ", "zh": "刺猬"},
-  "solution": ["..#.#.#.", ".#######", "########", ".#######", "########", "#######.", ".######.", "..#..#.."],
-  "colors":   ["..H.H.H.", ".HHHHHHH", "HHHHHHHH", ".FFHHHHH", "FKFFHHHH", "KFFFFFF.", ".FFFFFF.", "..T..T.."],
-  "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "T": "#92400E" }
+  "name": {"tr": "Çadır", "en": "Tent", "de": "Zelt", "fr": "Tente", "es": "Tienda", "pt": "Barraca", "it": "Tenda", "ru": "Палатка", "ar": "خيمة", "ja": "テント", "zh": "帐篷"},
+  "solution": ["..........", "....##....", "...####...", "...####...", "..######..", "..######..", ".########.", ".########.", ".########.", ".........."],
+  "colors":   ["..........", "....OO....", "...OOOO...", "...OKKO...", "..OOKKOO..", "..OKKKKO..", ".OOKKKKOO.", ".OKKKKKKO.", ".DDDDDDDD.", ".........."],
+  "palette":  { "D": "#15803D", "K": "#1F2937", "O": "#F97316" }
 }

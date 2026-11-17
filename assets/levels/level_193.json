@@ -1,7 +1,7 @@
 {
   "id": 193,
-  "name": {"tr": "Astronot", "en": "Astronaut", "de": "Astronaut", "fr": "Astronaute", "es": "Astronauta", "pt": "Astronauta", "it": "Astronauta", "ru": "Космонавт", "ar": "رائد فضاء", "ja": "宇宙飛行士", "zh": "宇航员"},
-  "solution": ["...####...", "..######..", ".########.", ".########.", ".########.", ".########.", "..######..", ".########.", "##########", "##########", "##.####.##", "##.####.##", "...##.##..", "...##.##..", "..###.###."],
-  "colors":   ["...LLLL...", "..LLLLLL..", ".LLNNNNLL.", ".LNCNNNNL.", ".LNNNNNNL.", ".LLNNNNLL.", "..LLLLLL..", ".LLLLLLLL.", "LLLRLBLLLL", "LLLLLLLLLL", "LL.LLLL.LL", "EE.LLLL.EE", "...LL.LL..", "...LL.LL..", "..EEE.EEE."],
-  "palette":  { "B": "#3B82F6", "C": "#22D3EE", "E": "#94A3B8", "L": "#E2E8F0", "N": "#1E3A8A", "R": "#E8453C" }
+  "name": {"tr": "Ay modülü", "en": "Lunar lander", "de": "Mondlandefähre", "fr": "Module lunaire", "es": "Módulo lunar", "pt": "Módulo lunar", "it": "Modulo lunare", "ru": "Лунный модуль", "ar": "مركبة الهبوط القمرية", "ja": "月着陸船", "zh": "登月舱"},
+  "solution": ["..........", "....##....", "...####...", "..######..", "..######..", "..######..", ".########.", ".########.", ".#.####.#.", ".#..##..#.", "#...##...#", "#........#", "##......##", "##########", ".........."],
+  "colors":   ["..........", "....AA....", "...AAAA...", "..ALLLLA..", "..ALKKLA..", "..ALLLLA..", ".AAAAAAAA.", ".EAAAAAAE.", ".E.AAAA.E.", ".E..EE..E.", "E...EE...E", "E........E", "EE......EE", "LLLLLLLLLL", ".........."],
+  "palette":  { "A": "#F59E0B", "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0" }
 }

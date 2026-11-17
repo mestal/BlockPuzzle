@@ -1,7 +1,7 @@
 {
   "id": 46,
-  "name": {"tr": "Kamp ateşi", "en": "Campfire", "de": "Lagerfeuer", "fr": "Feu de camp", "es": "Fogata", "pt": "Fogueira", "it": "Falò", "ru": "Костёр", "ar": "نار المخيم", "ja": "たき火", "zh": "篝火"},
-  "solution": ["...#....", "...##...", "..####..", "..####..", ".######.", ".######.", "##.##.##", ".######."],
-  "colors":   ["...R....", "...RO...", "..ROOR..", "..OYYO..", ".ROYYOR.", ".ROOOOR.", "TT.TT.TT", ".TTTTTT."],
-  "palette":  { "O": "#F97316", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
+  "name": {"tr": "Fener", "en": "Lantern", "de": "Laterne", "fr": "Lanterne", "es": "Farol", "pt": "Lanterna", "it": "Lanterna", "ru": "Фонарь", "ar": "فانوس", "ja": "ランタン", "zh": "灯笼"},
+  "solution": ["...###....", "..#...#...", ".#######..", ".#######..", ".#######..", ".#######..", ".#######..", ".#######..", "...###....", ".........."],
+  "colors":   ["...KKK....", "..K...K...", ".KKKKKKK..", ".KYYYYYK..", ".KYOOOYK..", ".KYOOOYK..", ".KYYYYYK..", ".KKKKKKK..", "...KKK....", ".........."],
+  "palette":  { "K": "#1F2937", "O": "#F97316", "Y": "#FACC15" }
 }

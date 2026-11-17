@@ -1,7 +1,7 @@
 {
   "id": 112,
-  "name": {"tr": "Paten", "en": "Ice skate", "de": "Schlittschuh", "fr": "Patin à glace", "es": "Patín de hielo", "pt": "Patim de gelo", "it": "Pattino da ghiaccio", "ru": "Конёк", "ar": "حذاء تزلج", "ja": "スケート靴", "zh": "冰鞋"},
-  "solution": [".###......", ".####.....", ".####.....", ".####.....", ".####.....", ".#####....", ".#######..", ".########.", ".#########", "..#....#..", "##########"],
-  "colors":   [".LLL......", ".LLLL.....", ".LLLL.....", ".LKLL.....", ".LLKL.....", ".LLLLL....", ".LLLLLLL..", ".LLLLLLLL.", ".LLLLLLLLL", "..E....E..", "EEEEEEEEEE"],
-  "palette":  { "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0" }
+  "name": {"tr": "Sıcak çikolata", "en": "Hot chocolate", "de": "Heiße Schokolade", "fr": "Chocolat chaud", "es": "Chocolate caliente", "pt": "Chocolate quente", "it": "Cioccolata calda", "ru": "Горячий шоколад", "ar": "شوكولاتة ساخنة", "ja": "ホットチョコレート", "zh": "热巧克力"},
+  "solution": ["..........", "..........", "..#..#....", "...#..#...", "..#..#....", "#######...", "#########.", "#######.#.", "#######.#.", "#########.", "#######...", ".#####....", "########..", "..........", ".........."],
+  "colors":   ["..........", "..........", "..L..L....", "...L..L...", "..L..L....", "RRRRRRR...", "RHHHHHRRR.", "RRRRRRR.R.", "RRWRWRR.R.", "RRRRRRRRR.", "RRRRRRR...", ".RRRRR....", "EEEEEEEE..", "..........", ".........."],
+  "palette":  { "E": "#94A3B8", "H": "#5B3410", "L": "#E2E8F0", "R": "#E8453C", "W": "#FFFFFF" }
 }

@@ -37,6 +37,8 @@ class BoardView extends StatefulWidget {
     required this.onMark,
     required this.onPreview,
     required this.particles,
+    this.onStrokeStart,
+    this.onStrokeEnd,
     this.guide,
     super.key,
   });
@@ -48,6 +50,10 @@ class BoardView extends StatefulWidget {
   /// the move itself waits for the double-tap window.
   final void Function(int row, int col) onPreview;
   final ParticleController particles;
+
+  /// A finger went down on / lifted off the grid.
+  final VoidCallback? onStrokeStart;
+  final VoidCallback? onStrokeEnd;
 
   /// The tutorial step to act out on the board, if any.
   final TutorialStep? guide;
@@ -205,6 +211,7 @@ class _BoardViewState extends State<BoardView> {
         widget.onPreview(pos.$1, pos.$2);
       }
     }
+    widget.onStrokeStart?.call();
     _downAt = e.localPosition;
     _last = _down;
     _moved = false;
@@ -267,6 +274,7 @@ class _BoardViewState extends State<BoardView> {
   void _onUp(PointerEvent e) {
     if (e.pointer != _pointer) return;
     _pointer = null;
+    widget.onStrokeEnd?.call();
     final down = _down;
     if (down != null && !_moved && e is PointerUpEvent) {
       if (_isSecondTap) {

@@ -1,7 +1,7 @@
 {
   "id": 10,
-  "name": {"tr": "Kedi", "en": "Cat", "de": "Katze", "fr": "Chat", "es": "Gato", "pt": "Gato", "it": "Gatto", "ru": "Кошка", "ar": "قطة", "ja": "ネコ", "zh": "猫"},
-  "solution": ["#...#", "#####", "#.#.#", "#####", ".###."],
-  "colors":   ["O...O", "OOOOO", "O.O.O", "OOOOO", ".OPO."],
-  "palette":  { "O": "#F59E0B", "P": "#F472B6" }
+  "name": {"tr": "Yıldız", "en": "Star", "de": "Stern", "fr": "Étoile", "es": "Estrella", "pt": "Estrela", "it": "Stella", "ru": "Звезда", "ar": "نجمة", "ja": "星", "zh": "星星"},
+  "solution": ["..#..", ".###.", "#####", ".###.", ".#.#."],
+  "colors":   ["..Y..", ".YYY.", "YYAYY", ".YYY.", ".Y.Y."],
+  "palette":  { "A": "#F59E0B", "Y": "#FACC15" }
 }

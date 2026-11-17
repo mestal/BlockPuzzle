@@ -1,7 +1,7 @@
 {
   "id": 11,
-  "name": {"tr": "Dondurma", "en": "Ice cream", "de": "Eis", "fr": "Glace", "es": "Helado", "pt": "Sorvete", "it": "Gelato", "ru": "Мороженое", "ar": "آيس كريم", "ja": "アイスクリーム", "zh": "冰淇淋"},
-  "solution": ["..##..", ".####.", "######", ".####.", "..##..", "..#..."],
-  "colors":   ["..PP..", ".PPPP.", "PPRPPP", ".CCCC.", "..CC..", "..C..."],
-  "palette":  { "P": "#F9A8D4", "R": "#DC2626", "C": "#D97706" }
+  "name": {"tr": "Kale", "en": "Castle", "de": "Burg", "fr": "Château", "es": "Castillo", "pt": "Castelo", "it": "Castello", "ru": "Замок", "ar": "قلعة", "ja": "お城", "zh": "城堡"},
+  "solution": ["#.#.##.#.#", "##########", "##########", "##########", "##########"],
+  "colors":   ["E.E.EE.E.E", "EEEEEEEEEE", "EEBEEEEBEE", "EEEEHHEEEE", "EEEEHHEEEE"],
+  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "H": "#5B3410" }
 }

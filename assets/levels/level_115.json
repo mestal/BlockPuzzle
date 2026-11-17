@@ -1,7 +1,7 @@
 {
   "id": 115,
-  "name": {"tr": "Karlı dağ", "en": "Snowy mountain", "de": "Schneeberg", "fr": "Montagne enneigée", "es": "Montaña nevada", "pt": "Montanha nevada", "it": "Montagna innevata", "ru": "Снежная гора", "ar": "جبل مثلج", "ja": "雪山", "zh": "雪山"},
-  "solution": ["....##....", "...####...", "...####...", "..######..", "..######..", ".########.", ".#########", "##########", "##########", "##########", "##########", "##########"],
-  "colors":   ["....WW....", "...WWWW...", "...WWWE...", "..WWEWEE..", "..EWEEEE..", ".EEEEEEEE.", ".EEEEEEEEE", "EEEEDEEEEE", "EEEDDDEEEE", "EEDDDDDEEE", "EDDDDDDDEE", "DDDDDDDDDD"],
-  "palette":  { "D": "#15803D", "E": "#94A3B8", "W": "#FFFFFF" }
+  "name": {"tr": "Kardan adam", "en": "Snowman", "de": "Schneemann", "fr": "Bonhomme de neige", "es": "Muñeco de nieve", "pt": "Boneco de neve", "it": "Pupazzo di neve", "ru": "Снеговик", "ar": "رجل الثلج", "ja": "雪だるま", "zh": "雪人"},
+  "solution": ["..........", "...####...", "...####...", "..######..", "...####...", "..######..", "..######..", "...####...", "#.######.#", ".########.", ".########.", ".########.", "..######..", "..........", ".........."],
+  "colors":   ["..........", "...KKKK...", "...KKKK...", "..KKKKKK..", "...WWWW...", "..WKWWKW..", "..WWOOWW..", "...WWWW...", "T.RRRRRR.T", ".TWWKWWWT.", ".WWWWWWWW.", ".WWWKWWWW.", "..WWWWWW..", "..........", ".........."],
+  "palette":  { "K": "#1F2937", "O": "#F97316", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }
 }

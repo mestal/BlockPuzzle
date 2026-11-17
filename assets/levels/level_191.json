@@ -1,7 +1,7 @@
 {
   "id": 191,
-  "name": {"tr": "Uydu", "en": "Satellite", "de": "Satellit", "fr": "Satellite", "es": "Satélite", "pt": "Satélite", "it": "Satellite", "ru": "Спутник", "ar": "قمر صناعي", "ja": "人工衛星", "zh": "卫星"},
-  "solution": ["###....###", "###....###", "###....###", "###.##.###", "##########", "###.##.###", "###.##.###", "###....###", "###....###", "....##....", "....##....", "....###...", "..#....#.."],
-  "colors":   ["BBB....BBB", "BBB....BBB", "BBB....BBB", "BBB.EE.BBB", "BBBEEEEBBB", "BBB.EE.BBB", "BBB.EE.BBB", "BBB....BBB", "BBB....BBB", "....EE....", "....EE....", "....EEE...", "..E....E.."],
-  "palette":  { "B": "#3B82F6", "E": "#94A3B8" }
+  "name": {"tr": "Yıldız kupası", "en": "Star trophy", "de": "Sternenpokal", "fr": "Trophée étoilé", "es": "Trofeo estelar", "pt": "Troféu estrela", "it": "Trofeo stellare", "ru": "Звёздный кубок", "ar": "كأس النجمة", "ja": "星のトロフィー", "zh": "星星奖杯"},
+  "solution": ["....##....", "...####...", "##########", ".########.", "..######..", "..##..##..", "##########", "##########", ".########.", "..######..", "...####...", "....##....", "....##....", "..######..", ".########."],
+  "colors":   ["....YY....", "...YYYY...", "YYYYYYYYYY", ".YYYYYYYY.", "..YYYYYY..", "..YY..YY..", "AAAAAAAAAA", "AAYAAAAYAA", ".AAAAAAAA.", "..AAAAAA..", "...AAAA...", "....AA....", "....AA....", "..AAAAAA..", ".TTTTTTTT."],
+  "palette":  { "A": "#F59E0B", "T": "#92400E", "Y": "#FACC15" }
 }

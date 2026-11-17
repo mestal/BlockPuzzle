@@ -1,7 +1,7 @@
 {
   "id": 12,
-  "name": {"tr": "Şemsiye", "en": "Umbrella", "de": "Regenschirm", "fr": "Parapluie", "es": "Paraguas", "pt": "Guarda-chuva", "it": "Ombrello", "ru": "Зонт", "ar": "مظلة", "ja": "傘", "zh": "雨伞"},
-  "solution": ["..##..", ".####.", "######", "...#..", ".#.#..", "..##.."],
-  "colors":   ["..RR..", ".RYRR.", "RRRYRR", "...B..", ".B.B..", "..BB.."],
-  "palette":  { "R": "#EF4444", "Y": "#FDE68A", "B": "#475569" }
+  "name": {"tr": "Roket", "en": "Rocket", "de": "Rakete", "fr": "Fusée", "es": "Cohete", "pt": "Foguete", "it": "Razzo", "ru": "Ракета", "ar": "صاروخ", "ja": "ロケット", "zh": "火箭"},
+  "solution": ["..#..", ".###.", ".###.", ".###.", ".###.", ".###.", "#####", "#####", "#.#.#", "..#.."],
+  "colors":   ["..R..", ".RWR.", ".WWW.", ".WBW.", ".WWW.", ".WWW.", "RWWWR", "RRWRR", "R.O.R", "..Y.."],
+  "palette":  { "B": "#3B82F6", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
 }

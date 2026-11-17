@@ -1,7 +1,7 @@
 {
   "id": 25,
-  "name": {"tr": "Buzlu şeker", "en": "Ice pop", "de": "Eis am Stiel", "fr": "Glace à l’eau", "es": "Polo helado", "pt": "Picolé", "it": "Ghiacciolo", "ru": "Фруктовый лёд", "ar": "مصاصة مثلجة", "ja": "アイスキャンディー", "zh": "冰棍"},
-  "solution": [".####.", "######", "######", "######", "######", "######", "..##..", "..##.."],
-  "colors":   [".PPPP.", "PPPPPP", "PJPPPP", "PJPPPP", "PPPPPP", "PPPPPP", "..TT..", "..TT.."],
-  "palette":  { "J": "#FBCFE8", "P": "#F472B6", "T": "#92400E" }
+  "name": {"tr": "Deniz feneri", "en": "Lighthouse", "de": "Leuchtturm", "fr": "Phare", "es": "Faro", "pt": "Farol", "it": "Faro", "ru": "Маяк", "ar": "منارة", "ja": "灯台", "zh": "灯塔"},
+  "solution": ["..........", ".#.###.#..", "...###....", "...###....", "...###....", "...###....", "..#####...", ".#######..", "..........", ".........."],
+  "colors":   ["..........", ".Y.YYY.Y..", "...KKK....", "...RRR....", "...WWW....", "...RRR....", "..WWWWW...", ".BBBBBBB..", "..........", ".........."],
+  "palette":  { "B": "#3B82F6", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
 }

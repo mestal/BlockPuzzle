@@ -83,7 +83,7 @@ void main() {
   test('running ahead skips the steps already covered', () {
     final tutorial = Tutorial.forLevel(1)!;
     var board = Board.start(_level(1));
-    for (var c = 0; c < 4; c++) {
+    for (var c = 0; c < 5; c++) {
       board = board.apply(1, c, MoveAction.fill).board;
     }
     expect(tutorial.currentStep(board, const {}), 2);
@@ -93,7 +93,7 @@ void main() {
     final tutorial = Tutorial.forLevel(2)!;
     var board = Board.start(_level(2));
     board = board.apply(3, 2, MoveAction.cross).board;
-    for (var c = 0; c < 4; c++) {
+    for (var c = 0; c < 5; c++) {
       board = board.apply(3, c, MoveAction.fill).board;
     }
     final last = tutorial.steps.length - 1;

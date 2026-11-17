@@ -1,7 +1,7 @@
 {
   "id": 52,
-  "name": {"tr": "Hazine sandığı", "en": "Treasure chest", "de": "Schatztruhe", "fr": "Coffre au trésor", "es": "Cofre del tesoro", "pt": "Baú do tesouro", "it": "Forziere", "ru": "Сундук с сокровищами", "ar": "صندوق الكنز", "ja": "宝箱", "zh": "宝箱"},
-  "solution": [".#######.", "#########", "#########", "#########", "#########", "#########", "#########", "#########"],
-  "colors":   [".HHHHHHH.", "HTTTTTTTH", "HTTTTTTTH", "HHHHAHHHH", "HTTTATTTH", "HTTTTTTTH", "HTTTTTTTH", "HHHHHHHHH"],
-  "palette":  { "A": "#F59E0B", "H": "#5B3410", "T": "#92400E" }
+  "name": {"tr": "Kirpi", "en": "Hedgehog", "de": "Igel", "fr": "Hérisson", "es": "Erizo", "pt": "Ouriço", "it": "Riccio", "ru": "Ёжик", "ar": "قنفذ", "ja": "ハリネズミ", "zh": "刺猬"},
+  "solution": ["..........", "...#.#.#..", "..#######.", ".########.", "..#######.", ".########.", ".#######..", "..######..", "...#..#...", ".........."],
+  "colors":   ["..........", "...H.H.H..", "..HHHHHHH.", ".HHHHHHHH.", "..FFHHHHH.", ".FKFFHHHH.", ".KFFFFFF..", "..FFFFFF..", "...T..T...", ".........."],
+  "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "T": "#92400E" }
 }

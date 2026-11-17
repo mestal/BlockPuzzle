@@ -259,21 +259,20 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get tutorialL1Fill =>
-      '数字はその行で塗られるマスの数です。この行は 4 なので、4 マスすべて塗ります！マスをタップして塗りましょう。';
+      '数字はその行で塗られるマスの数です。この行は 5 なので、5 マスすべて塗ります！マスをタップして塗りましょう。';
 
   @override
   String get tutorialL1Drag => 'すごい！次は指を押したままスライドして、行の残りを塗りましょう。';
 
   @override
-  String get tutorialL1Column =>
-      '行や列が完成すると、残りのマスには自動で X が付きます。この列も 4 です。上から下へスライドしましょう。';
+  String get tutorialL1Column => 'この列も 5 です。上から下へスライドしましょう。';
 
   @override
-  String get tutorialL1Finish => 'あと 1 列です。自分で絵を完成させよう！';
+  String get tutorialL1Finish => '行や列が完成すると、残りのマスには自動で X が付きます。残りは自分で完成させよう！';
 
   @override
   String get tutorialL2Cross =>
-      '2 1 は、2 マス塗り、1 マス以上あけて、1 マス塗るという意味です。2 + すき間 + 1 = 4 なので、この行は確定！空くマスをダブルタップして X を付けよう。';
+      '2 2 は、2 マス塗り、1 マス以上あけて、また 2 マス塗るという意味です。2 + すき間 + 2 = 5 なので、この行は確定！空くマスをダブルタップして X を付けよう。';
 
   @override
   String get tutorialL2Drag => 'X を付けたマスはスライドしても飛ばされます。行全体をスライドして塗りましょう。';

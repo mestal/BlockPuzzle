@@ -1,7 +1,7 @@
 {
   "id": 89,
-  "name": {"tr": "Pusula", "en": "Compass", "de": "Kompass", "fr": "Boussole", "es": "Brújula", "pt": "Bússola", "it": "Bussola", "ru": "Компас", "ar": "بوصلة", "ja": "コンパス", "zh": "指南针"},
-  "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", "...####..."],
-  "colors":   ["...AAAA...", "..ALLLLA..", ".ALLRLLLA.", "ALLLRRLLLA", "ALLLRRLLLA", "ALLLKKLLLA", "ALLLEELLLA", ".ALLLELLA.", "..ALLLLA..", "...AAAA..."],
-  "palette":  { "A": "#F59E0B", "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0", "R": "#E8453C" }
+  "name": {"tr": "Akbaba", "en": "Vulture", "de": "Geier", "fr": "Vautour", "es": "Buitre", "pt": "Abutre", "it": "Avvoltoio", "ru": "Гриф", "ar": "نسر", "ja": "ハゲワシ", "zh": "秃鹫"},
+  "solution": ["....##....", "...####...", "...####...", "##.####.##", "##########", ".########.", "..######..", "...####...", "...#..#...", "..##..##.."],
+  "colors":   ["....HH....", "...HFFH...", "...HKHF...", "HH.HHHH.HH", "HHHHHHHHHH", ".HHHHHHHH.", "..HHHHHH..", "...HHHH...", "...H..H...", "..YY..YY.."],
+  "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "Y": "#FACC15" }
 }

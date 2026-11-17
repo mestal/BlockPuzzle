@@ -1,7 +1,7 @@
 {
   "id": 18,
-  "name": {"tr": "Ayı", "en": "Bear", "de": "Bär", "fr": "Ours", "es": "Oso", "pt": "Urso", "it": "Orso", "ru": "Медведь", "ar": "دب", "ja": "クマ", "zh": "熊"},
-  "solution": ["##..##", "######", "#.##.#", "######", "######", ".####."],
-  "colors":   ["BB..BB", "BBBBBB", "B.BB.B", "BBBBBB", "BBNNBB", ".BBBB."],
-  "palette":  { "B": "#92400E", "N": "#1F2937" }
+  "name": {"tr": "Çiçek", "en": "Flower", "de": "Blume", "fr": "Fleur", "es": "Flor", "pt": "Flor", "it": "Fiore", "ru": "Цветок", "ar": "زهرة", "ja": "花", "zh": "花"},
+  "solution": [".#.#.", "#####", "#####", "#####", ".#.#.", "..#..", ".##..", "..#..", "..###", "..#.."],
+  "colors":   [".P.P.", "PPPPP", "PPYPP", "PPPPP", ".P.P.", "..G..", ".GG..", "..G..", "..GGG", "..G.."],
+  "palette":  { "G": "#22C55E", "P": "#F472B6", "Y": "#FACC15" }
 }

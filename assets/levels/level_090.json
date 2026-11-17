@@ -1,7 +1,7 @@
 {
   "id": 90,
-  "name": {"tr": "Matara", "en": "Canteen", "de": "Feldflasche", "fr": "Gourde", "es": "Cantimplora", "pt": "Cantil", "it": "Borraccia", "ru": "Фляга", "ar": "مطرة", "ja": "水筒", "zh": "水壶"},
-  "solution": ["....##....", "....##....", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######.."],
-  "colors":   ["....EE....", "....EE....", "..TTTTTT..", ".TBBBBBBT.", "TBBBBBBBBT", "TBBBLLBBBT", "TBBBLLBBBT", "TBBBBBBBBT", ".TBBBBBBT.", "..TTTTTT.."],
-  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "L": "#E2E8F0", "T": "#92400E" }
+  "name": {"tr": "Yılan", "en": "Snake", "de": "Schlange", "fr": "Serpent", "es": "Serpiente", "pt": "Cobra", "it": "Serpente", "ru": "Змея", "ar": "ثعبان", "ja": "ヘビ", "zh": "蛇"},
+  "solution": ["..######..", ".########.", ".##....##.", ".##.......", ".#######..", "..#######.", ".......##.", ".......##.", ".########.", "..######.."],
+  "colors":   ["..GGGGGG..", ".GGGGGGGG.", ".GG....KG.", ".GG.......", ".GGGGGGG..", "..GGGGGGG.", ".......GG.", ".......GG.", ".GGGGGGGG.", "..GGGGGG.."],
+  "palette":  { "G": "#22C55E", "K": "#1F2937" }
 }

@@ -1,7 +1,7 @@
 {
   "id": 43,
-  "name": {"tr": "Baykuş", "en": "Owl", "de": "Eule", "fr": "Hibou", "es": "Búho", "pt": "Coruja", "it": "Gufo", "ru": "Сова", "ar": "بومة", "ja": "フクロウ", "zh": "猫头鹰"},
-  "solution": [".....##.", ".######.", "########", "########", "########", ".######.", ".######.", "..#..#.."],
-  "colors":   [".....TT.", ".TTTTTT.", "TWWTTWWT", "TWKTTKWT", "TTTOOTTT", ".TFFFFT.", ".TFFFFT.", "..O..O.."],
-  "palette":  { "F": "#FBCFA5", "K": "#1F2937", "O": "#F97316", "T": "#92400E", "W": "#FFFFFF" }
+  "name": {"tr": "Salyangoz", "en": "Snail", "de": "Schnecke", "fr": "Escargot", "es": "Caracol", "pt": "Caracol", "it": "Lumaca", "ru": "Улитка", "ar": "حلزون", "ja": "カタツムリ", "zh": "蜗牛"},
+  "solution": ["..........", ".#.#......", ".#.#.###..", ".########.", ".########.", ".########.", ".#######..", "#########.", ".#######..", ".........."],
+  "colors":   ["..........", ".K.K......", ".F.F.TTT..", ".FFFTHHHT.", ".FKFTHTHT.", ".FFFTHHHT.", ".FFFTTTT..", "FFFFFFFFF.", ".FFFFFFF..", ".........."],
+  "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "T": "#92400E" }
 }

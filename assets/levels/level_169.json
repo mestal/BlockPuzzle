@@ -1,7 +1,7 @@
 {
   "id": 169,
-  "name": {"tr": "Kağıt uçak", "en": "Paper plane", "de": "Papierflieger", "fr": "Avion en papier", "es": "Avión de papel", "pt": "Avião de papel", "it": "Aeroplanino di carta", "ru": "Бумажный самолётик", "ar": "طائرة ورقية مطوية", "ja": "紙ひこうき", "zh": "纸飞机"},
-  "solution": [".........#", "........##", "#......###", "......####", ".....####.", "....#####.", "...######.", "..######..", ".######...", "######....", "...###....", "...##.....", "...#......"],
-  "colors":   [".........W", "........WW", "W......WLW", "......WLWW", ".....WLWW.", "....WLWWW.", "...WLWWWW.", "..WLLWWW..", ".WWLLWW...", "WWWLLW....", "...LLW....", "...LW.....", "...L......"],
-  "palette":  { "L": "#E2E8F0", "W": "#FFFFFF" }
+  "name": {"tr": "Yel değirmeni", "en": "Windmill", "de": "Windmühle", "fr": "Moulin à vent", "es": "Molino de viento", "pt": "Moinho de vento", "it": "Mulino a vento", "ru": "Мельница", "ar": "طاحونة هواء", "ja": "風車", "zh": "风车"},
+  "solution": ["##......##", "###....###", ".###..###.", "..######..", "...####...", "..######..", ".########.", "###.##.###", "##.####.##", "...####...", "...####...", "..######..", "..######..", "##########", ".........."],
+  "colors":   ["WW......WW", "WWW....WWW", ".WWW..WWW.", "..WWTTWW..", "...TTTT...", "..WWTTWW..", ".WWWTTWWW.", "WWW.TT.WWW", "WW.TTTT.WW", "...TTTT...", "...THHT...", "..TTHHTT..", "..TTHHTT..", "GGGGGGGGGG", ".........."],
+  "palette":  { "G": "#22C55E", "H": "#5B3410", "T": "#92400E", "W": "#FFFFFF" }
 }

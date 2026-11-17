@@ -1,7 +1,7 @@
 {
   "id": 30,
-  "name": {"tr": "Kova", "en": "Bucket", "de": "Eimer", "fr": "Seau", "es": "Cubo", "pt": "Balde", "it": "Secchiello", "ru": "Ведёрко", "ar": "دلو", "ja": "バケツ", "zh": "小桶"},
-  "solution": ["..###..", ".#...#.", "#######", ".#####.", ".#####.", ".#####.", "..###.."],
-  "colors":   ["..EEE..", ".E...E.", "BBBBBBB", ".BYYYB.", ".BBBBB.", ".BYYYB.", "..BBB.."],
-  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "Y": "#FACC15" }
+  "name": {"tr": "Balina", "en": "Whale", "de": "Wal", "fr": "Baleine", "es": "Ballena", "pt": "Baleia", "it": "Balena", "ru": "Кит", "ar": "حوت", "ja": "クジラ", "zh": "鲸鱼"},
+  "solution": ["..........", "...#.#....", "....#.....", "..#####...", ".#######..", ".########.", ".########.", "..#######.", "...####.#.", ".........."],
+  "colors":   ["..........", "...C.C....", "....C.....", "..BBBBB...", ".BBBBBBB..", ".BKBBBBBB.", ".BBBBBBBB.", "..IIIIBBB.", "...IIII.B.", ".........."],
+  "palette":  { "B": "#3B82F6", "C": "#22D3EE", "I": "#BAE6FD", "K": "#1F2937" }
 }

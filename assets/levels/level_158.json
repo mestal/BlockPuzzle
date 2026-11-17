@@ -1,7 +1,7 @@
 {
   "id": 158,
-  "name": {"tr": "Lav lambası", "en": "Lava lamp", "de": "Lavalampe", "fr": "Lampe à lave", "es": "Lámpara de lava", "pt": "Lâmpada de lava", "it": "Lampada lava", "ru": "Лава-лампа", "ar": "مصباح الحمم", "ja": "ラバランプ", "zh": "熔岩灯"},
-  "solution": ["...####...", "...####...", "..######..", "..######..", "..######..", ".########.", ".########.", ".########.", ".########.", ".########.", "..######..", "..######..", ".########.", "##########"],
-  "colors":   ["...EEEE...", "...VVVV...", "..VVRVVV..", "..VRRVVV..", "..VVVVRV..", ".VVVVRRVV.", ".VVRVVVVV.", ".VRRRVVVV.", ".VVRVVRRV.", ".VVVVVVVV.", "..EEEEEE..", "..EEEEEE..", ".EEEEEEEE.", "EEEEEEEEEE"],
-  "palette":  { "E": "#94A3B8", "R": "#E8453C", "V": "#8B5CF6" }
+  "name": {"tr": "Ammonit", "en": "Ammonite", "de": "Ammonit", "fr": "Ammonite", "es": "Amonita", "pt": "Amonite", "it": "Ammonite", "ru": "Аммонит", "ar": "أمونيت", "ja": "アンモナイト", "zh": "菊石"},
+  "solution": ["..........", ".#######..", ".########.", "###....###", "##..##..##", "##.####.##", "##.##.#.##", "##.##.#.##", "##.####.##", "##..#...##", "###....###", ".########.", "..######..", "..........", ".........."],
+  "colors":   ["..........", ".EEEEEEE..", ".EELLLLEE.", "EEL....LEE", "EL..EE..LE", "EL.ELLE.LE", "EL.EL.E.LE", "EL.EL.E.LE", "EL.ELEE.LE", "EL..E...LE", "ELL....LLE", ".ELLLLLLE.", "..EEEEEE..", "..........", ".........."],
+  "palette":  { "E": "#94A3B8", "L": "#E2E8F0" }
 }

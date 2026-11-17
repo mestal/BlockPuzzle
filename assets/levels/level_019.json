@@ -1,7 +1,7 @@
 {
   "id": 19,
-  "name": {"tr": "Kale", "en": "Castle", "de": "Burg", "fr": "Château", "es": "Castillo", "pt": "Castelo", "it": "Castello", "ru": "Замок", "ar": "قلعة", "ja": "お城", "zh": "城堡"},
-  "solution": ["#.##.#", "######", "#.##.#", "######", "##..##", "##..##"],
-  "colors":   ["S.SS.S", "SSSSSS", "S.SS.S", "SSSSSS", "SS..SS", "SS..SS"],
-  "palette":  { "S": "#A8A29E" }
+  "name": {"tr": "Kuş", "en": "Bird", "de": "Vogel", "fr": "Oiseau", "es": "Pájaro", "pt": "Pássaro", "it": "Uccello", "ru": "Птица", "ar": "طائر", "ja": "鳥", "zh": "小鸟"},
+  "solution": ["......##..", "##...#####", ".########.", "..######..", "......#..."],
+  "colors":   ["......BB..", "BB...BBKBA", ".BBWWBBBB.", "..BBBBBB..", "......A..."],
+  "palette":  { "A": "#F59E0B", "B": "#3B82F6", "K": "#1F2937", "W": "#FFFFFF" }
 }

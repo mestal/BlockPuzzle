@@ -1,7 +1,7 @@
 {
   "id": 20,
-  "name": {"tr": "Taç", "en": "Crown", "de": "Krone", "fr": "Couronne", "es": "Corona", "pt": "Coroa", "it": "Corona", "ru": "Корона", "ar": "تاج", "ja": "王冠", "zh": "王冠"},
-  "solution": ["#.##.#", "#.##.#", "######", "######", "######", ".####."],
-  "colors":   ["R.RR.R", "Y.YY.Y", "YYYYYY", "YRYYBY", "YYYYYY", ".YYYY."],
-  "palette":  { "Y": "#FBBF24", "R": "#E11D48", "B": "#2563EB" }
+  "name": {"tr": "Kaktüs", "en": "Cactus", "de": "Kaktus", "fr": "Cactus", "es": "Cactus", "pt": "Cacto", "it": "Cactus", "ru": "Кактус", "ar": "صبار", "ja": "サボテン", "zh": "仙人掌"},
+  "solution": ["..#..", "#.#..", "#.#.#", "###.#", "..###", "..#..", "..#..", "..#..", ".###.", ".###."],
+  "colors":   ["..G..", "G.G..", "G.G.G", "GGG.G", "..GGG", "..G..", "..G..", "..G..", ".TTT.", ".TTT."],
+  "palette":  { "G": "#22C55E", "T": "#92400E" }
 }

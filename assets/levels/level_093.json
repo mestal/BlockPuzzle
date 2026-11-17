@@ -1,7 +1,7 @@
 {
   "id": 93,
-  "name": {"tr": "Çöl tilkisi", "en": "Fennec fox", "de": "Wüstenfuchs", "fr": "Fennec", "es": "Fénec", "pt": "Feneco", "it": "Fennec", "ru": "Фенек", "ar": "ثعلب الفنك", "ja": "フェネック", "zh": "耳廓狐"},
-  "solution": ["#........#", "##......##", "###....###", "####..####", "##########", ".########.", ".########.", "..######..", "...####...", "....##...."],
-  "colors":   ["S........S", "SS......SS", "SFS....SFS", "SFSS..SSFS", "SSSSSSSSSS", ".SKSSSSKS.", ".SSSSSSSS.", "..SWWWWS..", "...WKKW...", "....WW...."],
-  "palette":  { "F": "#FBCFA5", "K": "#1F2937", "S": "#FDE68A", "W": "#FFFFFF" }
+  "name": {"tr": "Kertenkele", "en": "Lizard", "de": "Eidechse", "fr": "Lézard", "es": "Lagarto", "pt": "Lagarto", "it": "Lucertola", "ru": "Ящерица", "ar": "سحلية", "ja": "トカゲ", "zh": "蜥蜴"},
+  "solution": ["....##....", "...####...", "...####...", ".#.####.#.", "..######..", "....##....", ".#.####.#.", "..######..", "....##....", ".....###.."],
+  "colors":   ["....GG....", "...GKKG...", "...GGGG...", ".G.GGGG.G.", "..GGGGGG..", "....GG....", ".G.GGGG.G.", "..GGGGGG..", "....GG....", ".....GGG.."],
+  "palette":  { "G": "#22C55E", "K": "#1F2937" }
 }

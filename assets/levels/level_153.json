@@ -1,7 +1,7 @@
 {
   "id": 153,
-  "name": {"tr": "Triseratops", "en": "Triceratops", "de": "Triceratops", "fr": "Tricératops", "es": "Triceratops", "pt": "Tricerátops", "it": "Triceratopo", "ru": "Трицератопс", "ar": "ترايسيراتوبس", "ja": "トリケラトプス", "zh": "三角龙"},
-  "solution": [".#.....#..", "..#...#...", "..#####...", ".#######..", "#########.", ".#######..", ".########.", "..######..", ".#######..", "#########.", "##########", ".##.##.##.", ".##.##.##."],
-  "colors":   [".L.....L..", "..L...L...", "..OOOOO...", ".OOOOOOO..", "OOGGGGGOO.", ".GGKGGGG..", ".GGGGGGLL.", "..GGGGGG..", ".GGGGGGG..", "GGGGGGGGG.", "GGGGGGGGGG", ".GG.GG.GG.", ".GG.GG.GG."],
-  "palette":  { "G": "#22C55E", "K": "#1F2937", "L": "#E2E8F0", "O": "#F97316" }
+  "name": {"tr": "Alev", "en": "Flame", "de": "Flamme", "fr": "Flamme", "es": "Llama", "pt": "Chama", "it": "Fiamma", "ru": "Пламя", "ar": "لهب", "ja": "炎", "zh": "火焰"},
+  "solution": ["..........", "....#.....", "....##....", "...###....", "...####...", "..####..#.", "..#######.", ".########.", ".########.", "#########.", "#########.", "#########.", ".#######..", "..#####...", ".........."],
+  "colors":   ["..........", "....R.....", "....RR....", "...RRR....", "...RORR...", "..RROR..R.", "..ROOORRR.", ".RROOOORR.", ".ROOYOORR.", "RROYYYORR.", "ROOYYYOOR.", "ROYYWYYOR.", ".ROYYYOR..", "..RRRRR...", ".........."],
+  "palette":  { "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
 }

@@ -533,7 +533,7 @@ abstract class AppLocalizations {
   /// No description provided for @tutorialL1Fill.
   ///
   /// In tr, this message translates to:
-  /// **'Sayılar o satırda kaç dolu kare olduğunu söyler. Bu satırda 4 var, yani 4 karenin hepsi dolu! Bir kareye dokunarak doldur.'**
+  /// **'Sayılar o satırda kaç dolu kare olduğunu söyler. Bu satırda 5 var, yani 5 karenin hepsi dolu! Bir kareye dokunarak doldur.'**
   String get tutorialL1Fill;
 
   /// No description provided for @tutorialL1Drag.
@@ -545,19 +545,19 @@ abstract class AppLocalizations {
   /// No description provided for @tutorialL1Column.
   ///
   /// In tr, this message translates to:
-  /// **'Bir satır ya da sütun bitince kalan kareleri kendiliğinden X olur. Bu sütunda da 4 var: yukarıdan aşağı kaydır.'**
+  /// **'Bu sütunda da 5 var: yukarıdan aşağı kaydır.'**
   String get tutorialL1Column;
 
   /// No description provided for @tutorialL1Finish.
   ///
   /// In tr, this message translates to:
-  /// **'Son bir sütun kaldı. Resmi kendin tamamla!'**
+  /// **'Bir satır ya da sütun bitince kalan kareleri kendiliğinden X olur. Resmin kalanını kendin tamamla!'**
   String get tutorialL1Finish;
 
   /// No description provided for @tutorialL2Cross.
   ///
   /// In tr, this message translates to:
-  /// **'2 1: önce 2 dolu kare, en az bir boşluk, sonra 1 dolu kare. 2 + boşluk + 1 = 4, satır tam belli! Boş kalacak kareye çift dokunarak X koy.'**
+  /// **'2 2: önce 2 dolu kare, en az bir boşluk, sonra yine 2 dolu kare. 2 + boşluk + 2 = 5, satır tam belli! Boş kalacak kareye çift dokunarak X koy.'**
   String get tutorialL2Cross;
 
   /// No description provided for @tutorialL2Drag.

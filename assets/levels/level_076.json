@@ -1,7 +1,7 @@
 {
   "id": 76,
-  "name": {"tr": "Şeker evi", "en": "Candy house", "de": "Lebkuchenhaus", "fr": "Maison en bonbons", "es": "Casita de dulces", "pt": "Casa de doces", "it": "Casetta di dolci", "ru": "Пряничный домик", "ar": "بيت الحلوى", "ja": "お菓子の家", "zh": "糖果屋"},
-  "solution": ["....##....", "...####...", "..######..", ".########.", "##########", ".########.", ".########.", ".########.", ".########.", ".########."],
-  "colors":   ["....RR....", "...RWWR...", "..RWWWWR..", ".RWWWWWWR.", "RWWWWWWWWR", ".TTTTTTTT.", ".TJTTTTJT.", ".TTTRRTTT.", ".TTTRRTTT.", ".TTTRRTTT."],
-  "palette":  { "J": "#FBCFE8", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }
+  "name": {"tr": "Çilek", "en": "Strawberry", "de": "Erdbeere", "fr": "Fraise", "es": "Fresa", "pt": "Morango", "it": "Fragola", "ru": "Клубника", "ar": "فراولة", "ja": "イチゴ", "zh": "草莓"},
+  "solution": ["...#..#...", "....##....", "..######..", ".########.", "##########", "##########", "##########", ".########.", "..######..", "....##...."],
+  "colors":   ["...D..D...", "....DD....", "..DDDDDD..", ".RRRRRRRR.", "RRYRRRRYRR", "RRRRYRRRRR", "RYRRRRRYRR", ".RRRYRRRR.", "..RRRRRR..", "....RR...."],
+  "palette":  { "D": "#15803D", "R": "#E8453C", "Y": "#FACC15" }
 }

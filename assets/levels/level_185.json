@@ -1,7 +1,7 @@
 {
   "id": 185,
-  "name": {"tr": "Uzay kaskı", "en": "Space helmet", "de": "Raumhelm", "fr": "Casque spatial", "es": "Casco espacial", "pt": "Capacete espacial", "it": "Casco spaziale", "ru": "Космический шлем", "ar": "خوذة فضاء", "ja": "宇宙ヘルメット", "zh": "太空头盔"},
-  "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", ".########.", "##########", "##########"],
-  "colors":   ["...LLLL...", "..LLLLLL..", ".LLNNNNLL.", "LLNNWNNNLL", "LLNWNNNNLL", "LLNNNNNNLL", "LLNNNNNNLL", ".LLNNNNLL.", "..LLLLLL..", ".ELLLLLLE.", "EEEEEEEEEE", "EEREEEEBEE"],
-  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "L": "#E2E8F0", "N": "#1E3A8A", "R": "#E8453C", "W": "#FFFFFF" }
+  "name": {"tr": "Mars aracı", "en": "Mars rover", "de": "Marsrover", "fr": "Rover martien", "es": "Rover marciano", "pt": "Jipe marciano", "it": "Rover marziano", "ru": "Марсоход", "ar": "مركبة المريخ", "ja": "火星探査車", "zh": "火星车"},
+  "solution": ["..........", "......#...", ".....###..", "......#...", "......#...", ".########.", "##########", "##########", "##########", ".#...#..#.", "###.###.##", "###.###.##", "###.###.##", "##########", ".........."],
+  "colors":   ["..........", "......E...", ".....EEE..", "......E...", "......E...", ".LLLLLLLL.", "LLLLLLLLLL", "LLBBBLLLLL", "LLLLLLLLLL", ".E...E..E.", "KKK.KKK.KK", "KEK.KEK.KE", "KKK.KKK.KK", "RRRRRRRRRR", ".........."],
+  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0", "R": "#E8453C" }
 }

@@ -269,7 +269,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tutorialL1Fill =>
-      'Les nombres indiquent combien de cases de la ligne sont remplies. Ici c\'est 4 : les 4 cases sont remplies ! Touche une case pour la remplir.';
+      'Les nombres indiquent combien de cases de la ligne sont remplies. Ici c\'est 5 : les 5 cases sont remplies ! Touche une case pour la remplir.';
 
   @override
   String get tutorialL1Drag =>
@@ -277,15 +277,15 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tutorialL1Column =>
-      'Quand une ligne ou une colonne est finie, ses autres cases reçoivent un X toutes seules. Cette colonne indique aussi 4 : glisse de haut en bas.';
+      'Cette colonne indique aussi 5 : glisse de haut en bas.';
 
   @override
   String get tutorialL1Finish =>
-      'Plus qu\'une colonne. Termine l\'image toi-même !';
+      'Quand une ligne ou une colonne est finie, ses autres cases reçoivent un X toutes seules. Termine le reste de l\'image toi-même !';
 
   @override
   String get tutorialL2Cross =>
-      '2 1 veut dire 2 cases remplies, au moins un espace, puis 1 case remplie. 2 + espace + 1 = 4 : la ligne est certaine ! Touche deux fois la case vide pour y mettre un X.';
+      '2 2 veut dire 2 cases remplies, au moins un espace, puis encore 2 cases remplies. 2 + espace + 2 = 5 : la ligne est certaine ! Touche deux fois la case vide pour y mettre un X.';
 
   @override
   String get tutorialL2Drag =>

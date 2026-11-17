@@ -1,7 +1,7 @@
 {
   "id": 2,
   "name": {"tr": "Ev", "en": "House", "de": "Haus", "fr": "Maison", "es": "Casa", "pt": "Casa", "it": "Casa", "ru": "Дом", "ar": "بيت", "ja": "家", "zh": "房子"},
-  "solution": [".##.", "####", "####", "##.#"],
-  "colors":   [".RR.", "RRRR", "YLYY", "YY.Y"],
-  "palette":  { "R": "#E8453C", "Y": "#FCD34D", "L": "#93C5FD" }
+  "solution": ["..#..", ".###.", "#####", "##.##", "##.##"],
+  "colors":   ["..R..", ".RRR.", "YYBYY", "YY.YY", "YY.YY"],
+  "palette":  { "B": "#3B82F6", "R": "#E8453C", "Y": "#FACC15" }
 }

@@ -269,7 +269,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get tutorialL1Fill =>
-      'I numeri dicono quante caselle della riga sono piene. Qui c\'è 4: tutte e 4 le caselle sono piene! Tocca una casella per riempirla.';
+      'I numeri dicono quante caselle della riga sono piene. Qui c\'è 5: tutte e 5 le caselle sono piene! Tocca una casella per riempirla.';
 
   @override
   String get tutorialL1Drag =>
@@ -277,15 +277,15 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get tutorialL1Column =>
-      'Quando una riga o colonna è finita, le altre caselle ricevono una X da sole. Anche questa colonna dice 4: scorri dall\'alto in basso.';
+      'Anche questa colonna dice 5: scorri dall\'alto in basso.';
 
   @override
   String get tutorialL1Finish =>
-      'Manca una colonna. Completa l\'immagine da solo!';
+      'Quando una riga o colonna è finita, le altre caselle ricevono una X da sole. Completa il resto dell\'immagine da solo!';
 
   @override
   String get tutorialL2Cross =>
-      '2 1 significa 2 caselle piene, almeno uno spazio, poi 1 casella piena. 2 + spazio + 1 = 4: la riga è certa! Tocca due volte la casella vuota per mettere una X.';
+      '2 2 significa 2 caselle piene, almeno uno spazio, poi altre 2 caselle piene. 2 + spazio + 2 = 5: la riga è certa! Tocca due volte la casella vuota per mettere una X.';
 
   @override
   String get tutorialL2Drag =>

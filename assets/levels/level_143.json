@@ -1,7 +1,7 @@
 {
   "id": 143,
-  "name": {"tr": "Stegozor", "en": "Stegosaurus", "de": "Stegosaurus", "fr": "Stégosaure", "es": "Estegosaurio", "pt": "Estegossauro", "it": "Stegosauro", "ru": "Стегозавр", "ar": "ستيغوسورس", "ja": "ステゴサウルス", "zh": "剑龙"},
-  "solution": ["....#.....", "...###.#..", ".#.######.", ".#########", "..#######.", ".#########", "##########", "#########.", "###.####..", "....#.#...", "...##.##.."],
-  "colors":   ["....O.....", "...OOO.O..", ".O.OOOOOO.", ".OOOOOOOOO", "..GGGGGGG.", ".GGGGGGGGG", "GGGGGGGGGG", "GKGGGGGGG.", "GGG.GGGG..", "....G.G...", "...GG.GG.."],
-  "palette":  { "G": "#22C55E", "K": "#1F2937", "O": "#F97316" }
+  "name": {"tr": "Dinozor yumurtası", "en": "Dinosaur egg", "de": "Dinosaurierei", "fr": "Œuf de dinosaure", "es": "Huevo de dinosaurio", "pt": "Ovo de dinossauro", "it": "Uovo di dinosauro", "ru": "Яйцо динозавра", "ar": "بيضة ديناصور", "ja": "恐竜のたまご", "zh": "恐龙蛋"},
+  "solution": ["..........", "....##....", "...####...", "..######..", "..######..", ".########.", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", "...####...", ".........."],
+  "colors":   ["..........", "....SS....", "...SSSS...", "..SSGSSS..", "..SSSSSS..", ".SGSSSGSS.", ".SSSSSSSS.", "SSSSGSSSSS", "SSGSSSSGSS", "SSSSSSSSSS", "SSSSSGSSSS", ".SSSSSSSS.", "..SSSSSS..", "...SSSS...", ".........."],
+  "palette":  { "G": "#22C55E", "S": "#FDE68A" }
 }

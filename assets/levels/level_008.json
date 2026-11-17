@@ -1,7 +1,7 @@
 {
   "id": 8,
-  "name": {"tr": "Kupa", "en": "Trophy", "de": "Pokal", "fr": "Coupe", "es": "Copa", "pt": "Troféu", "it": "Coppa", "ru": "Кубок", "ar": "كأس", "ja": "トロフィー", "zh": "奖杯"},
-  "solution": ["####.", "###.#", "###.#", "####.", ".##.."],
-  "colors":   ["CCCC.", "CWC.C", "CCC.C", "CCCC.", ".CC.."],
-  "palette":  { "C": "#F97316", "W": "#FFF7ED" }
+  "name": {"tr": "Kedi", "en": "Cat", "de": "Katze", "fr": "Chat", "es": "Gato", "pt": "Gato", "it": "Gatto", "ru": "Кошка", "ar": "قطة", "ja": "ネコ", "zh": "猫"},
+  "solution": ["##..#", "#####", "#####", "#####", ".###."],
+  "colors":   ["OO..O", "OOOOO", "OKOKO", "OOPOO", ".OOO."],
+  "palette":  { "K": "#1F2937", "O": "#F97316", "P": "#F472B6" }
 }

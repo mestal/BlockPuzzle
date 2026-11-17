@@ -1,7 +1,7 @@
 {
   "id": 105,
-  "name": {"tr": "İglo", "en": "Igloo", "de": "Iglu", "fr": "Igloo", "es": "Iglú", "pt": "Iglu", "it": "Igloo", "ru": "Иглу", "ar": "إغلو", "ja": "イグルー", "zh": "冰屋"},
-  "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", "##########", "##########", "##########"],
-  "colors":   ["...IIII...", "..ILLLLI..", ".ILIILLII.", "ILLLIILLLI", "IIILLLLIII", "ILLIKKILLI", "LLIKKKKILL", "ILLKKKKLLI", "IIIKKKKIII", "LLLLLLLLLL"],
-  "palette":  { "I": "#BAE6FD", "K": "#1F2937", "L": "#E2E8F0" }
+  "name": {"tr": "Hediye", "en": "Gift", "de": "Geschenk", "fr": "Cadeau", "es": "Regalo", "pt": "Presente", "it": "Regalo", "ru": "Подарок", "ar": "هدية", "ja": "プレゼント", "zh": "礼物"},
+  "solution": ["..........", "..........", "..##..##..", ".#..##..#.", "..######..", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "..........", ".........."],
+  "colors":   ["..........", "..........", "..RR..RR..", ".R..RR..R.", "..RRRRRR..", "BBBBRRBBBB", "BBBBRRBBBB", "RRRRRRRRRR", "BBBBRRBBBB", "BBBBRRBBBB", "BBBBRRBBBB", "BBBBRRBBBB", "BBBBRRBBBB", "..........", ".........."],
+  "palette":  { "B": "#3B82F6", "R": "#E8453C" }
 }

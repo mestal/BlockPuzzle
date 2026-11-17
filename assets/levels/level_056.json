@@ -1,7 +1,7 @@
 {
   "id": 56,
-  "name": {"tr": "Kurbağa", "en": "Frog", "de": "Frosch", "fr": "Grenouille", "es": "Rana", "pt": "Sapo", "it": "Rana", "ru": "Лягушка", "ar": "ضفدع", "ja": "カエル", "zh": "青蛙"},
-  "solution": [".##...##.", "####.####", "#########", "#########", "#########", ".#######.", ".##...##.", "##.....##", "#.#...#.#"],
-  "colors":   [".WW...WW.", "WKKW.WKKW", "GGGGGGGGG", "GGGGGGGGG", "GRRRRRRRG", ".GGGGGGG.", ".GG...GG.", "GG.....GG", "G.G...G.G"],
-  "palette":  { "G": "#22C55E", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF" }
+  "name": {"tr": "Kurt", "en": "Wolf", "de": "Wolf", "fr": "Loup", "es": "Lobo", "pt": "Lobo", "it": "Lupo", "ru": "Волк", "ar": "ذئب", "ja": "オオカミ", "zh": "狼"},
+  "solution": ["##......#.", "##.....##.", "#########.", "#########.", "#########.", ".#######..", "..#####...", "...###....", "....#.....", ".........."],
+  "colors":   ["EE......E.", "EE.....EE.", "EEEEEEEEE.", "ELYEEEYLE.", "EEEEEEEEE.", ".EEELEEE..", "..ELLLE...", "...LKL....", "....L.....", ".........."],
+  "palette":  { "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0", "Y": "#FACC15" }
 }

@@ -1,7 +1,7 @@
 {
   "id": 189,
-  "name": {"tr": "Mars aracı", "en": "Mars rover", "de": "Marsrover", "fr": "Rover martien", "es": "Rover marciano", "pt": "Jipe marciano", "it": "Rover marziano", "ru": "Марсоход", "ar": "مركبة المريخ", "ja": "火星探査車", "zh": "火星车"},
-  "solution": ["......#...", ".....###..", "......#...", "......#...", ".########.", "##########", "##########", "##########", ".#...#..#.", "###.###.##", "###.###.##", "###.###.##", "##########"],
-  "colors":   ["......E...", ".....EEE..", "......E...", "......E...", ".LLLLLLLL.", "LLLLLLLLLL", "LLBBBLLLLL", "LLLLLLLLLL", ".E...E..E.", "KKK.KKK.KK", "KEK.KEK.KE", "KKK.KKK.KK", "RRRRRRRRRR"],
-  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0", "R": "#E8453C" }
+  "name": {"tr": "Uzay istasyonu", "en": "Space station", "de": "Raumstation", "fr": "Station spatiale", "es": "Estación espacial", "pt": "Estação espacial", "it": "Stazione spaziale", "ru": "Космическая станция", "ar": "محطة فضائية", "ja": "宇宙ステーション", "zh": "空间站"},
+  "solution": ["###....###", "###....###", "###.##.###", "##########", "###.##.###", "###.##.###", "....##....", "...####...", "...####...", "...####...", "....##....", "###.##.###", "###.##.###", "##########", "###.##.###"],
+  "colors":   ["BBB....BBB", "BBB....BBB", "BBB.EE.BBB", "EEEEEEEEEE", "BBB.EE.BBB", "BBB.EE.BBB", "....EE....", "...LLLL...", "...LRRL...", "...LLLL...", "....EE....", "BBB.EE.BBB", "BBB.EE.BBB", "EEEEEEEEEE", "BBB.EE.BBB"],
+  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "L": "#E2E8F0", "R": "#E8453C" }
 }

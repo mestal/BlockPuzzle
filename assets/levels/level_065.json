@@ -1,7 +1,7 @@
 {
   "id": 65,
-  "name": {"tr": "Makaron", "en": "Macaron", "de": "Macaron", "fr": "Macaron", "es": "Macaron", "pt": "Macaron", "it": "Macaron", "ru": "Макарон", "ar": "ماكرون", "ja": "マカロン", "zh": "马卡龙"},
-  "solution": ["..#####..", ".#######.", "#########", ".#######.", "#########", ".#######.", "#########", ".#######.", "..#####.."],
-  "colors":   ["..PPPPP..", ".PPPPPPP.", "PPPPPPPPP", ".WWWWWWW.", "JJJJJJJJJ", ".WWWWWWW.", "PPPPPPPPP", ".PPPPPPP.", "..PPPPP.."],
-  "palette":  { "J": "#FBCFE8", "P": "#F472B6", "W": "#FFFFFF" }
+  "name": {"tr": "Pasta dilimi", "en": "Cake slice", "de": "Kuchenstück", "fr": "Part de gâteau", "es": "Trozo de tarta", "pt": "Fatia de bolo", "it": "Fetta di torta", "ru": "Кусочек торта", "ar": "قطعة كعك", "ja": "ケーキ", "zh": "蛋糕块"},
+  "solution": [".......#..", ".....####.", "...######.", ".########.", "#########.", "#########.", "#########.", "#########.", "#########.", ".........."],
+  "colors":   [".......R..", ".....JJJJ.", "...JJJJJJ.", ".JJJJJJJJ.", "SSSSSSSSS.", "PPPPPPPPP.", "SSSSSSSSS.", "PPPPPPPPP.", "SSSSSSSSS.", ".........."],
+  "palette":  { "J": "#FBCFE8", "P": "#F472B6", "R": "#E8453C", "S": "#FDE68A" }
 }

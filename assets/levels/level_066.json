@@ -1,7 +1,7 @@
 {
   "id": 66,
-  "name": {"tr": "Lolipop", "en": "Lollipop", "de": "Lutscher", "fr": "Sucette", "es": "Piruleta", "pt": "Pirulito", "it": "Lecca-lecca", "ru": "Леденец", "ar": "مصاصة", "ja": "ペロペロキャンディ", "zh": "棒棒糖"},
-  "solution": ["..#####..", ".#######.", "#########", "#########", "#########", "#########", ".#######.", "....#....", "....#...."],
-  "colors":   ["..PPPPP..", ".PWWWWWP.", "PWPPPPPWP", "PWPWWWPWP", "PWPWPPPWP", "PWPPWWWWP", ".PPPPPPP.", "....T....", "....T...."],
-  "palette":  { "P": "#F472B6", "T": "#92400E", "W": "#FFFFFF" }
+  "name": {"tr": "Kurabiye", "en": "Cookie", "de": "Keks", "fr": "Biscuit", "es": "Galleta", "pt": "Biscoito", "it": "Biscotto", "ru": "Печенье", "ar": "بسكويت", "ja": "クッキー", "zh": "曲奇"},
+  "solution": ["..#####...", ".#######..", "#########.", "#########.", "#########.", "#########.", "#########.", ".#######..", "..#####...", ".........."],
+  "colors":   ["..TTTTT...", ".TTTHTTT..", "TTHTTTTHT.", "TTTTTHTTT.", "THTTTTTTT.", "TTTTHTTHT.", "THTTTTTTT.", ".TTHTTTT..", "..TTTTT...", ".........."],
+  "palette":  { "H": "#5B3410", "T": "#92400E" }
 }

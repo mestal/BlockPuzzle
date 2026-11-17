@@ -51,6 +51,11 @@ void main() {
             jsonDecode(file.readAsStringSync()) as Map<String, Object?>;
         final puzzle = Puzzle.fromJson(json);
         expect(file.path, contains(puzzle.id.toString().padLeft(3, '0')));
+        // Sides are multiples of 5 so the 5-cell guides split them evenly.
+        expect(puzzle.rows % 5, 0, reason: '${puzzle.rows} rows');
+        expect(puzzle.cols % 5, 0, reason: '${puzzle.cols} cols');
+        expect(puzzle.rows, lessThanOrEqualTo(15));
+        expect(puzzle.cols, lessThanOrEqualTo(10));
         final solved = solveByLineLogic(puzzle.rowClues, puzzle.colClues);
         expect(solved, isNotNull, reason: 'needs guessing or has many answers');
         expect(solved, puzzle.solution);

@@ -69,11 +69,11 @@
   "hintFallback": "Esta casilla es parte de la imagen.",
   "tutorialSkip": "Saltar",
   "tutorialGotIt": "Entendido",
-  "tutorialL1Fill": "Los números dicen cuántas casillas de esa fila están llenas. Esta fila dice 4: ¡las 4 casillas están llenas! Toca una casilla para llenarla.",
+  "tutorialL1Fill": "Los números dicen cuántas casillas de esa fila están llenas. Esta fila dice 5: ¡las 5 casillas están llenas! Toca una casilla para llenarla.",
   "tutorialL1Drag": "¡Genial! Ahora mantén el dedo pulsado y desliza para llenar el resto de la fila.",
-  "tutorialL1Column": "Cuando una fila o columna está completa, sus otras casillas reciben una X solas. Esta columna también dice 4: desliza de arriba abajo.",
-  "tutorialL1Finish": "Queda una columna. ¡Termina el dibujo tú solo!",
-  "tutorialL2Cross": "2 1 significa 2 casillas llenas, al menos un hueco y luego 1 casilla llena. 2 + hueco + 1 = 4: ¡la fila es segura! Toca dos veces la casilla vacía para poner una X.",
+  "tutorialL1Column": "Esta columna también dice 5: desliza de arriba abajo.",
+  "tutorialL1Finish": "Cuando una fila o columna está completa, sus otras casillas reciben una X solas. ¡Termina el resto del dibujo tú solo!",
+  "tutorialL2Cross": "2 2 significa 2 casillas llenas, al menos un hueco y luego otras 2 casillas llenas. 2 + hueco + 2 = 5: ¡la fila es segura! Toca dos veces la casilla vacía para poner una X.",
   "tutorialL2Drag": "Las casillas con tu X se saltan al deslizar. Desliza por toda la fila para llenarla.",
   "tutorialL2Rules": "Llenar una casilla equivocada cuesta 1 vida; las X son gratis. Si te atascas, el botón Pista también explica por qué. ¡El resto es cosa tuya!"
 }

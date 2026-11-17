@@ -1,7 +1,7 @@
 {
   "id": 116,
-  "name": {"tr": "Kar küresi", "en": "Snow globe", "de": "Schneekugel", "fr": "Boule à neige", "es": "Bola de nieve", "pt": "Globo de neve", "it": "Palla di neve", "ru": "Снежный шар", "ar": "كرة الثلج", "ja": "スノードーム", "zh": "雪花球"},
-  "solution": ["...####...", "..######..", ".########.", ".########.", "##########", "##########", "##########", ".########.", "..######..", "..######..", ".########.", ".########."],
-  "colors":   ["...IIII...", "..IIWIII..", ".IIDIIWII.", ".IDDDIIII.", "IIDDDDIWII", "IDDDDDDIII", "IIITTIIWII", ".IIITTIII.", "..IIIIII..", "..TTTTTT..", ".TTTTTTTT.", ".TTTTTTTT."],
-  "palette":  { "D": "#15803D", "I": "#BAE6FD", "T": "#92400E", "W": "#FFFFFF" }
+  "name": {"tr": "Kar tanesi", "en": "Snowflake", "de": "Schneeflocke", "fr": "Flocon de neige", "es": "Copo de nieve", "pt": "Floco de neve", "it": "Fiocco di neve", "ru": "Снежинка", "ar": "ندفة ثلج", "ja": "雪の結晶", "zh": "雪花"},
+  "solution": ["..........", "..........", "....##....", "....##....", "..#.##.#..", "...####...", "##########", "##########", "...####...", "....##....", ".#..##..#.", "....##....", "...#..#...", "..........", ".........."],
+  "colors":   ["..........", "..........", "....II....", "....II....", "..I.II.I..", "...IIII...", "IIIIIIIIII", "IIIIIIIIII", "...IIII...", "....II....", ".I..II..I.", "....II....", "...I..I...", "..........", ".........."],
+  "palette":  { "I": "#BAE6FD" }
 }

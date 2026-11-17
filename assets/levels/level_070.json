@@ -1,7 +1,7 @@
 {
   "id": 70,
-  "name": {"tr": "Kurabiye adam", "en": "Gingerbread man", "de": "Lebkuchenmann", "fr": "Bonhomme pain d’épice", "es": "Hombre de jengibre", "pt": "Boneco de gengibre", "it": "Omino di pan di zenzero", "ru": "Пряничный человечек", "ar": "رجل خبز الزنجبيل", "ja": "ジンジャーブレッドマン", "zh": "姜饼人"},
-  "solution": ["..####...", "..#####..", "..#####..", "...###...", "#########", "...###...", "...###...", "..##.##..", ".##...##."],
-  "colors":   ["..TTTT...", "..TWTWT..", "..TTTTT..", "...TRT...", "TTTTTTTTT", "...TWT...", "...TTT...", "..TT.TT..", ".TT...TT."],
-  "palette":  { "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }
+  "name": {"tr": "Şeker", "en": "Candy", "de": "Bonbon", "fr": "Bonbon", "es": "Caramelo", "pt": "Bala", "it": "Caramella", "ru": "Конфета", "ar": "حلوى", "ja": "キャンディ", "zh": "糖果"},
+  "solution": ["..........", "#.......#.", "##.###.##.", "#########.", ".#######..", "#########.", "##.###.##.", "#.......#.", "..........", ".........."],
+  "colors":   ["..........", "R.......R.", "RR.OOO.RR.", "RROOYOORR.", ".ROYOYOR..", "RROOYOORR.", "RR.OOO.RR.", "R.......R.", "..........", ".........."],
+  "palette":  { "O": "#F97316", "R": "#E8453C", "Y": "#FACC15" }
 }

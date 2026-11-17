@@ -1,7 +1,7 @@
 {
   "id": 184,
-  "name": {"tr": "Uydulu gezegen", "en": "Planet and moons", "de": "Planet mit Monden", "fr": "Planète et lunes", "es": "Planeta y lunas", "pt": "Planeta e luas", "it": "Pianeta e lune", "ru": "Планета и луны", "ar": "كوكب وأقمار", "ja": "惑星と衛星", "zh": "行星和卫星"},
-  "solution": [".#.......", "###...#..", ".#.......", "...####..", "..######.", ".########", ".########", ".########", ".########", "..######.", "...####..", ".......#.", "......###"],
-  "colors":   [".L.......", "LLL...P..", ".L.......", "...VVVV..", "..VVUVVV.", ".VVVVVUVV", ".VUVVVVVV", ".VVVVUVVV", ".VVUVVVVV", "..VVVVUV.", "...VVVV..", ".......L.", "......LLL"],
-  "palette":  { "L": "#E2E8F0", "P": "#F472B6", "U": "#5B21B6", "V": "#8B5CF6" }
+  "name": {"tr": "UFO", "en": "UFO", "de": "UFO", "fr": "OVNI", "es": "OVNI", "pt": "Disco voador", "it": "UFO", "ru": "НЛО", "ar": "طبق طائر", "ja": "UFO", "zh": "飞碟"},
+  "solution": ["..........", "....##....", "...####...", "..######..", ".########.", "##########", ".########.", "...#..#...", "..######..", "..######..", ".########.", ".########.", "##########", "..........", ".........."],
+  "colors":   ["..........", "....CC....", "...CCCC...", "..CCWCCC..", ".EEEEEEEE.", "EEYEEYEEYE", ".EEEEEEEE.", "...Z..Z...", "..ZZZZZZ..", "..ZZZZZZ..", ".ZZZZZZZZ.", ".ZZZZZZZZ.", "ZZZZZZZZZZ", "..........", ".........."],
+  "palette":  { "C": "#22D3EE", "E": "#94A3B8", "W": "#FFFFFF", "Y": "#FACC15", "Z": "#A3E635" }
 }

@@ -1,7 +1,7 @@
 {
   "id": 85,
-  "name": {"tr": "Kertenkele", "en": "Lizard", "de": "Eidechse", "fr": "Lézard", "es": "Lagarto", "pt": "Lagarto", "it": "Lucertola", "ru": "Ящерица", "ar": "سحلية", "ja": "トカゲ", "zh": "蜥蜴"},
-  "solution": ["...##...", "..####..", "..####..", "#.####.#", ".######.", "...##...", "#.####.#", ".######.", "...##...", "....###."],
-  "colors":   ["...GG...", "..GKKG..", "..GGGG..", "G.GGGG.G", ".GGGGGG.", "...GG...", "G.GGGG.G", ".GGGGGG.", "...GG...", "....GGG."],
-  "palette":  { "G": "#22C55E", "K": "#1F2937" }
+  "name": {"tr": "Matara", "en": "Canteen", "de": "Feldflasche", "fr": "Gourde", "es": "Cantimplora", "pt": "Cantil", "it": "Borraccia", "ru": "Фляга", "ar": "مطرة", "ja": "水筒", "zh": "水壶"},
+  "solution": ["....##....", "....##....", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######.."],
+  "colors":   ["....EE....", "....EE....", "..TTTTTT..", ".TBBBBBBT.", "TBBBBBBBBT", "TBBBLLBBBT", "TBBBLLBBBT", "TBBBBBBBBT", ".TBBBBBBT.", "..TTTTTT.."],
+  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "L": "#E2E8F0", "T": "#92400E" }
 }

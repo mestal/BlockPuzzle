@@ -1,7 +1,7 @@
 {
   "id": 172,
-  "name": {"tr": "Hortum", "en": "Tornado", "de": "Tornado", "fr": "Tornade", "es": "Tornado", "pt": "Tornado", "it": "Tornado", "ru": "Торнадо", "ar": "إعصار", "ja": "竜巻", "zh": "龙卷风"},
-  "solution": ["##########", ".########.", "#########.", ".#######..", "..######..", "...#####..", "...####...", "....####..", "....###...", ".....##...", "....##....", ".....#....", "....##....", "...##....."],
-  "colors":   ["EEEEEEEEEE", ".EELLEEEE.", "EEEEEEEEE.", ".EEEELLE..", "..EEEEEE..", "...ELEEE..", "...EEEE...", "....EELE..", "....EEE...", ".....EE...", "....EE....", ".....E....", "....EE....", "...EE....."],
-  "palette":  { "E": "#94A3B8", "L": "#E2E8F0" }
+  "name": {"tr": "Güneşli bulut", "en": "Sun and cloud", "de": "Sonne und Wolke", "fr": "Soleil et nuage", "es": "Sol y nube", "pt": "Sol e nuvem", "it": "Sole e nuvola", "ru": "Солнце и облако", "ar": "شمس وغيمة", "ja": "晴れときどき曇り", "zh": "太阳和云"},
+  "solution": ["..........", "..#...#...", "...#.#....", ".#.###.#..", "...#####..", "########..", "...######.", "..########", ".#..######", "...#######", "..########", ".#########", "##########", ".########.", ".........."],
+  "colors":   ["..........", "..Y...Y...", "...Y.Y....", ".Y.YYY.Y..", "...YYYYY..", "YYYYYYYY..", "...YYYLLL.", "..YYYLLLLL", ".Y..LLLLLL", "...LLLLLLL", "..LLLLLLLL", ".LLLLLLLLL", "LLLLLLLLLL", ".LLLLLLLL.", ".........."],
+  "palette":  { "L": "#E2E8F0", "Y": "#FACC15" }
 }

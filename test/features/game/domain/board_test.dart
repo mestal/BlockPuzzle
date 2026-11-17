@@ -208,4 +208,40 @@ void main() {
       }
     });
   });
+
+  group('deferred X marks while dragging', () {
+    // Row 0 has a single block: filling it finishes the row.
+    final p = _puzzle(['#...', '####', '.##.', '.##.']);
+
+    test('a finished line stays open until settled', () {
+      final result = Board.start(p).apply(0, 0, MoveAction.fill, settle: false);
+      expect(result.completedRows, [0]);
+      expect(result.board.solvedRows, contains(0));
+      expect(result.board.at(0, 1).isOpen, isFalse);
+
+      final settled = result.board.settled();
+      expect(settled.at(0, 1), const Cell(CellMark.crossed, MarkSource.auto));
+      expect(settled.settled(), same(settled));
+    });
+
+    test('dragging on into the finished line is a mistake', () {
+      var board = Board.start(
+        p,
+      ).apply(0, 0, MoveAction.fill, settle: false).board;
+      final result = board.apply(0, 1, MoveAction.fill, settle: false);
+      expect(result.mistake, isTrue);
+      board = result.board.settled();
+      expect(board.at(0, 1).source, MarkSource.mistake);
+      expect(board.at(0, 2).source, MarkSource.auto);
+    });
+
+    test('a saved mid-drag board is settled when restored', () {
+      final board = Board.start(
+        p,
+      ).apply(0, 0, MoveAction.fill, settle: false).board;
+      final restored = Board.decode(p, board.encode());
+      expect(restored.at(0, 3).source, MarkSource.auto);
+      expect(restored.at(0, 3).mark, CellMark.crossed);
+    });
+  });
 }

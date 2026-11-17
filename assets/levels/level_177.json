@@ -1,7 +1,7 @@
 {
   "id": 177,
-  "name": {"tr": "Paraşüt", "en": "Parachute", "de": "Fallschirm", "fr": "Parachute", "es": "Paracaídas", "pt": "Paraquedas", "it": "Paracadute", "ru": "Парашют", "ar": "مظلة هبوط", "ja": "パラシュート", "zh": "降落伞"},
-  "solution": ["..######..", ".########.", "##########", "##########", "#.#.##.#.#", ".#..##..#.", ".#..##..#.", "..#.##.#..", "..#.##.#..", "...####...", "....##....", "...####...", "...####...", "...#..#..."],
-  "colors":   ["..OOOOOO..", ".OOWWOOOO.", "OOWWOOWWOO", "OOOOOOOOOO", "O.O.OO.O.O", ".O..OO..O.", ".O..OO..O.", "..O.OO.O..", "..O.OO.O..", "...OOOO...", "....FF....", "...BBBB...", "...BBBB...", "...B..B..."],
-  "palette":  { "B": "#3B82F6", "F": "#FBCFA5", "O": "#F97316", "W": "#FFFFFF" }
+  "name": {"tr": "Yağmur bulutu", "en": "Rain cloud", "de": "Regenwolke", "fr": "Nuage de pluie", "es": "Nube de lluvia", "pt": "Nuvem de chuva", "it": "Nuvola di pioggia", "ru": "Дождевая туча", "ar": "غيمة ممطرة", "ja": "雨雲", "zh": "雨云"},
+  "solution": ["...###....", "..#####.#.", ".#########", "##########", "##########", ".########.", "..#...#...", ".#..#.#.#.", "#.##..#...", "..#..#..#.", ".#..#.##..", "##.##.#.#.", "..#...#..#", ".#..#...#.", ".........."],
+  "colors":   ["...LLL....", "..LLLLL.L.", ".LLLLLLLLL", "LLLLLLLLLL", "LLLLLLLLLL", ".LLLLLLLL.", "..B...B...", ".B..B.B.B.", "B.BB..B...", "..B..B..B.", ".B..B.BB..", "BB.BB.B.L.", "..B...B..B", ".B..B...B.", ".........."],
+  "palette":  { "B": "#3B82F6", "L": "#E2E8F0" }
 }

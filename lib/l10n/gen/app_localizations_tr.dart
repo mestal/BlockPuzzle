@@ -263,22 +263,22 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get tutorialL1Fill =>
-      'Sayılar o satırda kaç dolu kare olduğunu söyler. Bu satırda 4 var, yani 4 karenin hepsi dolu! Bir kareye dokunarak doldur.';
+      'Sayılar o satırda kaç dolu kare olduğunu söyler. Bu satırda 5 var, yani 5 karenin hepsi dolu! Bir kareye dokunarak doldur.';
 
   @override
   String get tutorialL1Drag =>
       'Harika! Şimdi parmağını basılı tutup kaydırarak satırın kalanını doldur.';
 
   @override
-  String get tutorialL1Column =>
-      'Bir satır ya da sütun bitince kalan kareleri kendiliğinden X olur. Bu sütunda da 4 var: yukarıdan aşağı kaydır.';
+  String get tutorialL1Column => 'Bu sütunda da 5 var: yukarıdan aşağı kaydır.';
 
   @override
-  String get tutorialL1Finish => 'Son bir sütun kaldı. Resmi kendin tamamla!';
+  String get tutorialL1Finish =>
+      'Bir satır ya da sütun bitince kalan kareleri kendiliğinden X olur. Resmin kalanını kendin tamamla!';
 
   @override
   String get tutorialL2Cross =>
-      '2 1: önce 2 dolu kare, en az bir boşluk, sonra 1 dolu kare. 2 + boşluk + 1 = 4, satır tam belli! Boş kalacak kareye çift dokunarak X koy.';
+      '2 2: önce 2 dolu kare, en az bir boşluk, sonra yine 2 dolu kare. 2 + boşluk + 2 = 5, satır tam belli! Boş kalacak kareye çift dokunarak X koy.';
 
   @override
   String get tutorialL2Drag =>

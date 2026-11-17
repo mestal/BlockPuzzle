@@ -1,7 +1,7 @@
 {
   "id": 79,
-  "name": {"tr": "Pamuk şeker", "en": "Cotton candy", "de": "Zuckerwatte", "fr": "Barbe à papa", "es": "Algodón de azúcar", "pt": "Algodão-doce", "it": "Zucchero filato", "ru": "Сахарная вата", "ar": "غزل البنات", "ja": "わたあめ", "zh": "棉花糖"},
-  "solution": ["..#####...", ".#######..", "#########.", "##########", "#########.", ".#######..", "..#####...", "....#.....", "....#.....", "....#....."],
-  "colors":   ["..JJJJJ...", ".JJPJJJJ..", "JJJJJJPJJ.", "JPJJJJJJJJ", "JJJJPJJJJ.", ".JJJJJJJ..", "..JJPJJ...", "....T.....", "....T.....", "....T....."],
-  "palette":  { "J": "#FBCFE8", "P": "#F472B6", "T": "#92400E" }
+  "name": {"tr": "Kurabiye adam", "en": "Gingerbread man", "de": "Lebkuchenmann", "fr": "Bonhomme pain d’épice", "es": "Hombre de jengibre", "pt": "Boneco de gengibre", "it": "Omino di pan di zenzero", "ru": "Пряничный человечек", "ar": "رجل خبز الزنجبيل", "ja": "ジンジャーブレッドマン", "zh": "姜饼人"},
+  "solution": ["..####....", "..#####...", "..#####...", "...###....", "#########.", "...###....", "...###....", "..##.##...", ".##...##..", ".........."],
+  "colors":   ["..TTTT....", "..TWTWT...", "..TTTTT...", "...TRT....", "TTTTTTTTT.", "...TWT....", "...TTT....", "..TT.TT...", ".TT...TT..", ".........."],
+  "palette":  { "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }
 }

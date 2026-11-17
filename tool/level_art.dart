@@ -4,6 +4,7 @@
 // shared [artPalette]. Names follow [artLanguages] order (tr, en, de, fr,
 // es, it, zh, ja, ru, ar, pt). Pictures are grouped by the world they
 // belong to; the generator orders them by size and difficulty.
+import 'art/w01_sunset.dart';
 import 'art/w02_beach.dart';
 import 'art/w03_forest.dart';
 import 'art/w04_candy.dart';
@@ -15,7 +16,7 @@ import 'art/w09_clouds.dart';
 import 'art/w10_space.dart';
 
 final class LevelArt {
-  const LevelArt(this.world, this.names, this.pixels);
+  const LevelArt(this.world, this.names, this.pixels, {this.pinned = false});
 
   /// 1-based index of the world (map) in `assets/worlds/worlds.json`.
   final int world;
@@ -23,6 +24,10 @@ final class LevelArt {
   /// One name per language, in [artLanguages] order.
   final List<String> names;
   final List<String> pixels;
+
+  /// Kept at the start of its world in listed order instead of being
+  /// sorted by difficulty (levels 1 and 2 carry the tutorial).
+  final bool pinned;
 }
 
 /// Order of [LevelArt.names]. New languages are appended at the end.
@@ -60,6 +65,7 @@ const artPalette = <String, String>{
 };
 
 const levelArt = <LevelArt>[
+  ...sunsetArt,
   ...beachArt,
   ...forestArt,
   ...candyArt,

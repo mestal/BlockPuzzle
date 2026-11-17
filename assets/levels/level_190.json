@@ -1,7 +1,7 @@
 {
   "id": 190,
-  "name": {"tr": "Ay modülü", "en": "Lunar lander", "de": "Mondlandefähre", "fr": "Module lunaire", "es": "Módulo lunar", "pt": "Módulo lunar", "it": "Modulo lunare", "ru": "Лунный модуль", "ar": "مركبة الهبوط القمرية", "ja": "月着陸船", "zh": "登月舱"},
-  "solution": ["....##....", "...####...", "..######..", "..######..", "..######..", ".########.", ".########.", ".#.####.#.", ".#..##..#.", "#...##...#", "#........#", "##......##", "##########"],
-  "colors":   ["....AA....", "...AAAA...", "..ALLLLA..", "..ALKKLA..", "..ALLLLA..", ".AAAAAAAA.", ".EAAAAAAE.", ".E.AAAA.E.", ".E..EE..E.", "E...EE...E", "E........E", "EE......EE", "LLLLLLLLLL"],
-  "palette":  { "A": "#F59E0B", "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0" }
+  "name": {"tr": "Uzay mekiği", "en": "Space shuttle", "de": "Raumfähre", "fr": "Navette spatiale", "es": "Transbordador espacial", "pt": "Ônibus espacial", "it": "Navetta spaziale", "ru": "Шаттл", "ar": "مكوك فضائي", "ja": "スペースシャトル", "zh": "航天飞机"},
+  "solution": ["....##....", "...####...", "...####...", "...####...", "...####...", "...####...", "..######..", "..######..", ".########.", "##########", "##.####.##", "...####...", "...####...", "....##....", "....#....."],
+  "colors":   ["....WW....", "...WWWW...", "...WKKW...", "...WWWW...", "...WWWW...", "...WWWW...", "..WWWWWW..", "..WRWWRW..", ".WWWWWWWW.", "WWWWWWWWWW", "WW.WWWW.WW", "...EEEE...", "...OYYO...", "....OO....", "....R....."],
+  "palette":  { "E": "#94A3B8", "K": "#1F2937", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
 }
