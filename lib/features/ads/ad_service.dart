@@ -5,8 +5,9 @@ import 'package:block_puzzle/l10n/gen/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-/// All ads go through this interface. `AdMobAdService` will replace
-/// [DummyAdService] later without touching game code.
+/// All ads go through this interface: `AdMobAdService` on Android/iOS,
+/// [DummyAdService] on web and in tests. Implementations never throw; a
+/// missing ad skips the interstitial and grants no reward.
 abstract interface class AdService {
   /// Full-screen ad between levels.
   Future<void> showInterstitial(BuildContext context);
@@ -15,6 +16,7 @@ abstract interface class AdService {
   Future<bool> showRewarded(BuildContext context);
 }
 
+/// Overridden with `AdMobAdService` in `main` on Android and iOS.
 final adServiceProvider = Provider<AdService>((ref) => const DummyAdService());
 
 /// Placeholder ad: full-screen page with a countdown.

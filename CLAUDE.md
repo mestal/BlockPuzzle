@@ -121,10 +121,15 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - **Tamam** → (geçiş reklamı) → sonraki bölüm.
 
 ### Reklamlar
-- Tüm reklamlar `AdService` arayüzü üzerinden çağrılır.
-- Şimdilik `DummyAdService`: tam ekran sahte reklam, 3 sn geri sayım, sonra kapat. Ödüllü reklamlar
-  kapatılınca ödülü verir.
-- AdMob (`google_mobile_ads`) daha sonra `AdMobAdService` olarak eklenecek; oyun kodu değişmemeli.
+- Tüm reklamlar `AdService` arayüzü üzerinden çağrılır; oyun kodu hangi uygulamanın çalıştığını bilmez.
+- Android/iOS'ta `AdMobAdService` (`google_mobile_ads`, `main.dart`'ta provider override): bir
+  geçiş ve bir ödüllü reklam önceden yüklü tutulur, yükleme hatası artan aralıkla yeniden denenir.
+- **Reklam yoksa hata verilmez**: geçiş reklamı atlanır (sonraki bölüme geçilir), ödüllü reklam
+  ödül vermez (hak/ipucu alınamaz).
+- Reklam kimlikleri `features/ads/ad_config.dart`'ta; debug/profile ve boş üretim kimliğinde Google
+  test kimlikleri kullanılır. Uygulama kimlikleri `AndroidManifest.xml` ve `Info.plist`'te
+  (şimdilik test kimlikleri, `TODO(admob)`).
+- Web ve testlerde `DummyAdService`: tam ekran sahte reklam, 3 sn geri sayım, sonra kapat.
 - Reklam türleri: `showInterstitial()` (bölüm geçişi), `showRewarded(reward)` (+1 hak, +1 ipucu).
 
 ### Haritalar (bölüm ilerlemesi)
@@ -229,7 +234,7 @@ Büyük ızgaralarda pinch-zoom + kaydırma desteklenir; dokunma alanı en az 32
 - Ses: `audioplayers` (kısa efektler önceden yüklenir) + haptic.
 - Kalıcılık: `shared_preferences` (`SharedPreferencesAsync`) üzerinde JSON; bir
   `ProgressRepository` arayüzü arkasında.
-- Reklam: `AdService` arayüzü → şimdilik `DummyAdService`.
+- Reklam: `AdService` arayüzü → `AdMobAdService` (`google_mobile_ads`); web/testte `DummyAdService`.
 - Font: `google_fonts` (Fredoka). Metinler: `flutter gen-l10n` → `lib/l10n/gen/` (16 dil, şablon `app_tr.arb`).
 - Lint: `very_good_analysis`. Test: `flutter_test`.
 
