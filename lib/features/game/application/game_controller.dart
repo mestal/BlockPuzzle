@@ -138,8 +138,21 @@ class GameController extends Notifier<GameState> {
   /// Applies a player move. [step] is how many cells the current drag has
   /// covered; it only shapes the sound. Returns false when a drag should stop
   /// (mistake made or game no longer in play).
-  bool mark(int r, int c, MoveAction action, {int step = 0}) =>
-      _apply(r, c, action, MarkSource.user, step: step);
+  /// [quiet] skips the plain fill sound (already played by [previewFill]).
+  bool mark(
+    int r,
+    int c,
+    MoveAction action, {
+    int step = 0,
+    bool quiet = false,
+  }) => _apply(r, c, action, MarkSource.user, step: step, quiet: quiet);
+
+  /// Instant feedback for a tap whose fill is committed a moment later
+  /// (after the double-tap window): plays the fill sound only.
+  void previewFill(int r, int c) {
+    if (state.status != GameStatus.playing) return;
+    _sound.fill(min(state.combo + 1, SoundService.ladderSize - 1));
+  }
 
   /// Reveals the next logical step (usually a block, sometimes an X) and
   /// keeps the explanation in [GameState.hint]. Returns false if the player
@@ -184,6 +197,7 @@ class GameController extends Notifier<GameState> {
     MoveAction action,
     MarkSource source, {
     int step = 0,
+    bool quiet = false,
     Hint? hint,
   }) {
     if (state.status != GameStatus.playing) return false;
@@ -242,6 +256,7 @@ class GameController extends Notifier<GameState> {
       action,
       source,
       step: step,
+      quiet: quiet,
       mistake: result.mistake,
       line: result.completedRows.isNotEmpty || result.completedCols.isNotEmpty,
       solved: result.solved,
@@ -273,6 +288,7 @@ class GameController extends Notifier<GameState> {
     MoveAction action,
     MarkSource source, {
     required int step,
+    required bool quiet,
     required bool mistake,
     required bool line,
     required bool solved,
@@ -286,7 +302,7 @@ class GameController extends Notifier<GameState> {
     // A lone tap rises with the combo, a drag rises with its length.
     final rung = step > 0 ? step : min(combo, SoundService.ladderSize - 1);
     if (action != MoveAction.fill) return sound.cross(step);
-    sound.fill(rung);
+    if (!quiet) sound.fill(rung);
     if (line) sound.line();
     if (comboUp) sound.combo();
   }

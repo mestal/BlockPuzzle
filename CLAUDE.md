@@ -32,8 +32,10 @@ Mod düğmesi yok; işlemi **jest** belirler:
 | Çift dokunma | Kareye **X** (oyuncunun kendi X'ine çift dokunma X'i **kaldırır**) |
 | Çift dokunup ikinci dokunuşta basılı tutarak sürükleme | Geçilen karelere **X**; oyuncunun kendi X'inden başlanırsa geçilen X'ler **silinir** |
 
-- Tek dokunma, çift dokunma olup olmadığını anlamak için ~250 ms bekler (`kDoubleTapTimeout`);
-  bu sürede karede hafif bir "basıldı" vurgusu gösterilir ki gecikme hissedilmesin.
+- Tek dokunma, çift dokunma olup olmadığını anlamak için ~250 ms bekler (`kDoubleTapTimeout`),
+  ama oyuncu bunu hissetmez: parmak değdiği anda kare **dolu blok olarak önizlenir** (ses + haptic
+  hemen). Hamle süre dolunca işlenir; kare yanlışsa o an kırmızı X'e döner. Çift dokunmada önizleme
+  geri alınır ve X konur. Önizleme her zaman doğru doldurma gibi görünür (çözümü sızdırmaz).
 - Çift dokunma yalnızca **aynı karede** sayılır (kare sınırında birkaç piksellik tolerans).
   Bu sürede başka bir kareye dokunulursa önceki dokunuş hemen doldurma olarak işlenir.
 - Sürükleme ilk hareket yönüne (yatay/dikey) kilitlenir; tek satır veya sütun boyunca ilerler.

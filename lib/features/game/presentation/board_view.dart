@@ -13,8 +13,15 @@ import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 /// [step] is how many cells the current drag has covered (0 for a tap).
+/// [quiet] means the fill was already previewed with sound and haptics.
 typedef MarkCallback =
-    bool Function(int row, int col, MoveAction action, {int step});
+    bool Function(
+      int row,
+      int col,
+      MoveAction action, {
+      int step,
+      bool quiet,
+    });
 
 /// Clues + grid. Gestures:
 /// * single tap → fill, single press-and-drag → fill along a line
@@ -26,12 +33,17 @@ class BoardView extends StatefulWidget {
   const BoardView({
     required this.state,
     required this.onMark,
+    required this.onPreview,
     required this.particles,
     super.key,
   });
 
   final GameState state;
   final MarkCallback onMark;
+
+  /// A fill is shown the moment the finger lands (sound + haptics), while
+  /// the move itself waits for the double-tap window.
+  final void Function(int row, int col) onPreview;
   final ParticleController particles;
 
   @override
@@ -60,6 +72,11 @@ class _BoardViewState extends State<BoardView> {
   Offset _downAt = Offset.zero;
   _Pos? _pressed;
 
+  /// Cell drawn as filled before the tap is committed, so a single tap feels
+  /// instant even though it waits [kDoubleTapTimeout] for a second tap. It
+  /// always looks like a correct fill: the result is revealed on commit.
+  _Pos? _preview;
+
   // Effects.
   final _flashSeq = <int, int>{};
   final _flashDelay = <int, Duration>{};
@@ -84,6 +101,9 @@ class _BoardViewState extends State<BoardView> {
   // ---------------------------------------------------------------- effects
 
   static const _waveStep = Duration(milliseconds: 45);
+
+  /// How a previewed tap is drawn: like a correct fill.
+  static const _previewCell = Cell(CellMark.filled);
 
   void _playFx(MoveFx fx) {
     if (fx.hint) {
@@ -161,16 +181,22 @@ class _BoardViewState extends State<BoardView> {
       // Second tap: X, or - starting on the player's own X - remove X marks.
       _isSecondTap = true;
       _down = pending;
+      _preview = null;
       _action = _state.board.at(pending.$1, pending.$2).isUserCross
           ? MoveAction.erase
           : MoveAction.cross;
     } else {
       // A quick tap on another cell is a new single tap: settle the
       // previous one as a fill right away.
-      if (pending != null) _mark(pending, MoveAction.fill);
+      if (pending != null) _commitFill(pending);
       _isSecondTap = false;
       _action = MoveAction.fill;
       _down = pos;
+      if (!_state.board.at(pos.$1, pos.$2).isOpen) {
+        _preview = pos;
+        unawaited(HapticFeedback.selectionClick());
+        widget.onPreview(pos.$1, pos.$2);
+      }
     }
     _downAt = e.localPosition;
     _last = _down;
@@ -203,7 +229,10 @@ class _BoardViewState extends State<BoardView> {
       final dr = (pos.$1 - down.$1).abs();
       final dc = (pos.$2 - down.$2).abs();
       _axis = dc >= dr ? Axis.horizontal : Axis.vertical;
-      if (!_mark(down, _action)) {
+      final first = _action == MoveAction.fill
+          ? _commitFill(down)
+          : _mark(down, _action);
+      if (!first) {
         _stopped = true;
         return;
       }
@@ -241,24 +270,35 @@ class _BoardViewState extends State<BoardView> {
         _singleTap = Timer(kDoubleTapTimeout, () {
           _pendingTap = null;
           _pendingTapAt = null;
-          _mark(down, MoveAction.fill);
+          _commitFill(down);
           if (mounted) setState(() => _pressed = null);
         });
         return; // keep the pressed highlight while we wait
       }
     }
-    setState(() => _pressed = null);
+    setState(() {
+      _pressed = null;
+      // A cancelled touch never commits, so drop its preview.
+      if (e is! PointerUpEvent && _preview == down) _preview = null;
+    });
   }
 
-  bool _mark(_Pos p, MoveAction action, {int step = 0}) {
+  /// Commits the fill of [p]; quiet when its preview already gave feedback.
+  bool _commitFill(_Pos p) {
+    final quiet = _preview == p;
+    if (quiet) _preview = null;
+    return _mark(p, MoveAction.fill, quiet: quiet);
+  }
+
+  bool _mark(_Pos p, MoveAction action, {int step = 0, bool quiet = false}) {
     final cell = _state.board.at(p.$1, p.$2);
     final acts = switch (action) {
       MoveAction.fill => !cell.isOpen,
       MoveAction.cross => !cell.isOpen,
       MoveAction.erase => cell.isUserCross,
     };
-    if (acts) unawaited(HapticFeedback.selectionClick());
-    return widget.onMark(p.$1, p.$2, action, step: step);
+    if (acts && !quiet) unawaited(HapticFeedback.selectionClick());
+    return widget.onMark(p.$1, p.$2, action, step: step, quiet: quiet);
   }
 
   // ----------------------------------------------------------------- layout
@@ -372,7 +412,11 @@ class _BoardViewState extends State<BoardView> {
                         left: c * _cell,
                         top: r * _cell,
                         child: BoardCell(
-                          cell: _state.board.at(r, c),
+                          cell:
+                              _preview == (r, c) &&
+                                  !_state.board.at(r, c).isOpen
+                              ? _previewCell
+                              : _state.board.at(r, c),
                           size: _cell,
                           pressed: _pressed == (r, c),
                           entranceDelay:

@@ -245,6 +245,7 @@ class _GamePlayState extends ConsumerState<_GamePlay>
                       child: BoardView(
                         state: state,
                         onMark: _game.mark,
+                        onPreview: _game.previewFill,
                         particles: _particles,
                       ),
                     ),
