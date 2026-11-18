@@ -1,0 +1,7 @@
+{
+  "id": 270,
+  "name": {"de": "Milchflasche", "en": "Milk bottle", "es": "Botella de leche", "fr": "Bouteille de lait", "it": "Bottiglia di latte", "pl": "Butelka mleka", "pt": "Garrafa de leite", "tr": "Süt şişesi", "el": "Μπουκάλι γάλα", "bg": "Бутилка мляко", "ru": "Бутылка молока", "ar": "زجاجة حليب", "hi": "दूध की बोतल", "zh": "牛奶瓶", "ja": "牛乳びん", "ko": "우유병"},
+  "solution": ["...####.#.", "...####...", "....##....", "....##....", "...####...", "..######..", "..######..", "..######..", "..######..", "..######..", "..######..", "..######..", "..######..", "...####...", "#........."],
+  "colors":   ["...BBBB.Y.", "...BBBB...", "....WW....", "....WW....", "...WWWW...", "..WWWWWW..", "..WWWWWW..", "..BBBBBB..", "..BWBBWB..", "..BBBBBB..", "..WWWWWW..", "..WWWWWW..", "..WWWWWW..", "...WWWW...", "Y........."],
+  "palette":  { "B": "#3B82F6", "W": "#FFFFFF", "Y": "#FACC15" }
+}

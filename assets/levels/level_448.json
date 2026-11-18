@@ -1,0 +1,7 @@
+{
+  "id": 448,
+  "name": {"de": "Piratenflagge", "en": "Pirate flag", "es": "Bandera pirata", "fr": "Drapeau pirate", "it": "Bandiera pirata", "pl": "Bandera piracka", "pt": "Bandeira pirata", "tr": "Korsan bayrağı", "el": "Πειρατική σημαία", "bg": "Пиратско знаме", "ru": "Пиратский флаг", "ar": "علم القراصنة", "hi": "समुद्री डाकू झंडा", "zh": "海盗旗", "ja": "海賊旗", "ko": "해적 깃발"},
+  "solution": ["#.........", "##########", "##########", "##########", "####.#.###", "##########", "##########", "##########", "##########", "##########", "##########", "##########", "#.........", "#.#...#...", "#........."],
+  "colors":   ["H.........", "HKKKKKKKKK", "HKKKWWWKKK", "HKKWWWWWKK", "HKKW.W.WKK", "HKKWWWWWKK", "HKKKWWWKKK", "HWKKKKKKWK", "HKWWKKWWKK", "HKKKWWKKKK", "HKWWKKWWKK", "HWKKKKKKWK", "H.........", "H.Y...Y...", "H........."],
+  "palette":  { "H": "#5B3410", "K": "#1F2937", "W": "#FFFFFF", "Y": "#FACC15" }
+}

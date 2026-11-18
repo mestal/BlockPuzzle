@@ -1,0 +1,7 @@
+{
+  "id": 279,
+  "name": {"de": "Vogelscheuche", "en": "Scarecrow", "es": "Espantapájaros", "fr": "Épouvantail", "it": "Spaventapasseri", "pl": "Strach na wróble", "pt": "Espantalho", "tr": "Korkuluk", "el": "Σκιάχτρο", "bg": "Плашило", "ru": "Пугало", "ar": "فزاعة", "hi": "बिजूका", "zh": "稻草人", "ja": "かかし", "ko": "허수아비"},
+  "solution": ["#...##....", "...####...", ".########.", "..######..", "..#.##.#..", "..######..", "...####...", "##########", ".########.", "...####...", "...####..#", "....##....", "....##....", "....##....", "...####..."],
+  "colors":   ["Y...TT....", "...TTTT...", ".TTTTTTTT.", "..SSSSSS..", "..S.SS.S..", "..SSSSSS..", "...SSSS...", "AABBBBBBAA", ".ABBBBBBA.", "...BBBB...", "...BBRB..Y", "....TT....", "....TT....", "....TT....", "...TTTT..."],
+  "palette":  { "A": "#F59E0B", "B": "#3B82F6", "R": "#E8453C", "S": "#FDE68A", "T": "#92400E", "Y": "#FACC15" }
+}

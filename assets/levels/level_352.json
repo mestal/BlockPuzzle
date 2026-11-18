@@ -1,0 +1,7 @@
+{
+  "id": 352,
+  "name": {"de": "Goldenes Götzenbild", "en": "Golden idol", "es": "Ídolo de oro", "fr": "Idole en or", "it": "Idolo d'oro", "pl": "Złoty posążek", "pt": "Ídolo de ouro", "tr": "Altın heykel", "el": "Χρυσό είδωλο", "bg": "Златен идол", "ru": "Золотой идол", "ar": "التمثال الذهبي", "hi": "सोने की मूर्ति", "zh": "金色神像", "ja": "黄金の像", "ko": "황금 우상"},
+  "solution": ["#..####...", "..######..", "..#.##.#.#", "..######..", "#..#..#...", "...####...", ".########.", "#.######.#", "#.######.#", "..######..", "#.##..##.#", "..##..##..", ".########.", "##########", ".........."],
+  "colors":   ["Y..AAAA...", "..AAAAAA..", "..A.AA.A.Y", "..AAAAAA..", "Y..A..A...", "...AAAA...", ".AAAAAAAA.", "A.AAAAAA.A", "A.AAAAAA.A", "..AAAAAA..", "Y.AA..AA.Y", "..AA..AA..", ".EEEEEEEE.", "EEEEEEEEEE", ".........."],
+  "palette":  { "A": "#F59E0B", "E": "#94A3B8", "Y": "#FACC15" }
+}

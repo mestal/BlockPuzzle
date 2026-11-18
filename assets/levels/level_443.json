@@ -1,0 +1,7 @@
+{
+  "id": 443,
+  "name": {"de": "Goldbarren", "en": "Gold bars", "es": "Lingotes de oro", "fr": "Lingots d'or", "it": "Lingotti d'oro", "pl": "Sztabki złota", "pt": "Barras de ouro", "tr": "Altın külçeler", "el": "Ράβδοι χρυσού", "bg": "Златни кюлчета", "ru": "Золотые слитки", "ar": "سبائك ذهبية", "hi": "सोने की ईंटें", "zh": "金条", "ja": "金の延べ棒", "ko": "금괴"},
+  "solution": ["#...#...#.", "..........", "...####...", "..######..", "..######..", ".###..###.", "####..####", "####..####", "..........", "#...#...#."],
+  "colors":   ["Y...Y...Y.", "..........", "...AAAA...", "..AYYYYA..", "..AAAAAA..", ".AAA..AAA.", "AYYA..AYYA", "AAAA..AAAA", "..........", "Y...Y...Y."],
+  "palette":  { "A": "#F59E0B", "Y": "#FACC15" }
+}

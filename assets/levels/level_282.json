@@ -1,0 +1,7 @@
+{
+  "id": 282,
+  "name": {"de": "Spielzeugeisenbahn", "en": "Toy train", "es": "Tren de juguete", "fr": "Train jouet", "it": "Trenino", "pl": "Kolejka", "pt": "Trem de brinquedo", "tr": "Oyuncak tren", "el": "Τρενάκι", "bg": "Играчка влакче", "ru": "Игрушечный поезд", "ar": "قطار لعبة", "hi": "खिलौना रेलगाड़ी", "zh": "玩具火车", "ja": "おもちゃの汽車", "ko": "장난감 기차"},
+  "solution": ["..........", "#.#.#....#", ".#........", ".##...###.", ".##...#.#.", "##########", "##########", "##########", ".##.##.##.", ".........."],
+  "colors":   ["..........", "W.W.Y....Y", ".W........", ".RR...BBB.", ".RR...B.B.", "RRRRRRBBBB", "RRRRRRBBBB", "RRRRRRRRRR", ".KK.KK.KK.", ".........."],
+  "palette":  { "B": "#3B82F6", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

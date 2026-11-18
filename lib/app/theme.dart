@@ -90,6 +90,81 @@ abstract final class AppColors {
       ground: Color(0xFF4C1D95),
       motif: SceneryMotif.space,
     ),
+    'farm': WorldPalette(
+      sky: [Color(0xFF0369A1), Color(0xFF38BDF8), Color(0xFFFEF08A)],
+      ground: Color(0xFF4D7C0F),
+      motif: SceneryMotif.hills,
+    ),
+    'garden': WorldPalette(
+      sky: [Color(0xFF831843), Color(0xFFF472B6), Color(0xFFFEF9C3)],
+      ground: Color(0xFF166534),
+      motif: SceneryMotif.bubbles,
+    ),
+    'jungle': WorldPalette(
+      sky: [Color(0xFF052E16), Color(0xFF047857), Color(0xFFA3E635)],
+      ground: Color(0xFF14532D),
+      motif: SceneryMotif.pines,
+    ),
+    'blossom': WorldPalette(
+      sky: [Color(0xFF4C1D95), Color(0xFFDB2777), Color(0xFFFBCFE8)],
+      ground: Color(0xFF9D174D),
+      motif: SceneryMotif.mountains,
+    ),
+    'kitchen': WorldPalette(
+      sky: [Color(0xFF7C2D12), Color(0xFFF59E0B), Color(0xFFFEF3C7)],
+      ground: Color(0xFF92400E),
+      motif: SceneryMotif.bubbles,
+    ),
+    'pirate': WorldPalette(
+      sky: [Color(0xFF0F172A), Color(0xFF0E7490), Color(0xFFFCD34D)],
+      ground: Color(0xFF78350F),
+      motif: SceneryMotif.waves,
+    ),
+    'toys': WorldPalette(
+      sky: [Color(0xFF1D4ED8), Color(0xFFEC4899), Color(0xFFFDE047)],
+      ground: Color(0xFF7C3AED),
+      motif: SceneryMotif.bubbles,
+    ),
+    'savanna': WorldPalette(
+      sky: [Color(0xFF9A3412), Color(0xFFF97316), Color(0xFFFDE68A)],
+      ground: Color(0xFFA16207),
+      motif: SceneryMotif.hills,
+    ),
+    'haunted': WorldPalette(
+      sky: [Color(0xFF020617), Color(0xFF312E81), Color(0xFF7C3AED)],
+      ground: Color(0xFF1E1B4B),
+      motif: SceneryMotif.pines,
+    ),
+    'carnival': WorldPalette(
+      sky: [Color(0xFF581C87), Color(0xFFC026D3), Color(0xFFFDBA74)],
+      ground: Color(0xFF701A75),
+      motif: SceneryMotif.bubbles,
+    ),
+    'sports': WorldPalette(
+      sky: [Color(0xFF075985), Color(0xFF0EA5E9), Color(0xFFBBF7D0)],
+      ground: Color(0xFF15803D),
+      motif: SceneryMotif.hills,
+    ),
+    'kingdom': WorldPalette(
+      sky: [Color(0xFF312E81), Color(0xFF818CF8), Color(0xFFFDE68A)],
+      ground: Color(0xFF4338CA),
+      motif: SceneryMotif.clouds,
+    ),
+    'city': WorldPalette(
+      sky: [Color(0xFF0F172A), Color(0xFF7E22CE), Color(0xFFF472B6)],
+      ground: Color(0xFF1E293B),
+      motif: SceneryMotif.space,
+    ),
+    'ruins': WorldPalette(
+      sky: [Color(0xFF422006), Color(0xFFB45309), Color(0xFFFDE68A)],
+      ground: Color(0xFF57534E),
+      motif: SceneryMotif.mountains,
+    ),
+    'wonders': WorldPalette(
+      sky: [Color(0xFF1E3A8A), Color(0xFF7C3AED), Color(0xFFF9A8D4)],
+      ground: Color(0xFF312E81),
+      motif: SceneryMotif.clouds,
+    ),
   };
 
   static WorldPalette worldTheme(String key) =>

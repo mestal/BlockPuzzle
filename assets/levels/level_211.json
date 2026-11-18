@@ -1,0 +1,7 @@
+{
+  "id": 211,
+  "name": {"de": "Daruma-Puppe", "en": "Daruma doll", "es": "Muñeco daruma", "fr": "Poupée daruma", "it": "Bambola daruma", "pl": "Lalka daruma", "pt": "Boneco daruma", "tr": "Daruma bebeği", "el": "Κούκλα νταρούμα", "bg": "Кукла дарума", "ru": "Кукла дарума", "ar": "دمية داروما", "hi": "दारुमा गुड़िया", "zh": "达摩娃娃", "ja": "だるま", "ko": "다루마 인형"},
+  "solution": ["#.......#.", "...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", "##########", "##########", "##########", ".########.", "..######..", "#........#", "...#......"],
+  "colors":   ["Y.......Y.", "...RRRR...", "..RRRRRR..", ".RWWWWWWR.", "RRWKWWWWRR", "RRWWWWWWRR", "RRWKKKKWRR", "RRRWWWWRRR", "RRRRRRRRRR", "RRAAAAAARR", "RRRRRRRRRR", ".RRRRRRRR.", "..RRRRRR..", "Y........Y", "...Y......"],
+  "palette":  { "A": "#F59E0B", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

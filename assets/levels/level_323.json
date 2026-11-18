@@ -1,0 +1,7 @@
+{
+  "id": 323,
+  "name": {"de": "Wasserfall", "en": "Waterfall", "es": "Cascada", "fr": "Cascade", "it": "Cascata", "pl": "Wodospad", "pt": "Cachoeira", "tr": "Şelale", "el": "Καταρράκτης", "bg": "Водопад", "ru": "Водопад", "ar": "شلال", "hi": "झरना", "zh": "瀑布", "ja": "滝", "ko": "폭포"},
+  "solution": ["##########", "##.####.##", "#..####..#", "##.####.##", "#..####..#", "##.####.##", "#..####..#", "##.####.##", "#..####..#", "##########", "#.######.#", ".#.####.#.", "##########", "##########", ".........."],
+  "colors":   ["EEEBBCBEEE", "EE.BCBB.EE", "E..BBCB..E", "EE.CBBC.EE", "E..BCBB..E", "EE.BBCB.EE", "E..CBBC..E", "EE.BCBB.EE", "E..BBCB..E", "EEWWWWWWEE", "W.WWWWWW.W", ".W.WWWW.W.", "BBBBBBBBBB", "BCBBBBCBBB", ".........."],
+  "palette":  { "B": "#3B82F6", "C": "#22D3EE", "E": "#94A3B8", "W": "#FFFFFF" }
+}

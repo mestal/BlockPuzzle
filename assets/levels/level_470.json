@@ -1,0 +1,7 @@
+{
+  "id": 470,
+  "name": {"de": "Schwimmbrille", "en": "Swim goggles", "es": "Gafas de natación", "fr": "Lunettes de natation", "it": "Occhialini da nuoto", "pl": "Okulary pływackie", "pt": "Óculos de natação", "tr": "Yüzücü gözlüğü", "el": "Γυαλιά κολύμβησης", "bg": "Очила за плуване", "ru": "Очки для плавания", "ar": "نظارة سباحة", "hi": "तैराकी चश्मा", "zh": "泳镜", "ja": "ゴーグル", "ko": "수경"},
+  "solution": ["..........", ".###..###.", "#.#.##.#.#", "#...##...#", ".###..###.", "#.#......#", ".##....##.", "...####...", "..........", ".#........"],
+  "colors":   ["..........", ".CCC..CCC.", "C.W.CC.W.C", "C...CC...C", ".CCC..CCC.", "B.C......B", ".BB....BB.", "...BBBB...", "..........", ".Y........"],
+  "palette":  { "B": "#3B82F6", "C": "#22D3EE", "W": "#FFFFFF", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 251,
+  "name": {"de": "Toaster", "en": "Toaster", "es": "Tostadora", "fr": "Grille-pain", "it": "Tostapane", "pl": "Toster", "pt": "Torradeira", "tr": "Ekmek kızartma makinesi", "el": "Φρυγανιέρα", "bg": "Тостер", "ru": "Тостер", "ar": "محمصة خبز", "hi": "टोस्टर", "zh": "烤面包机", "ja": "トースター", "ko": "토스터"},
+  "solution": [".###..###.", ".#.#..#.#.", ".###..###.", "########..", "#......#..", "#.#....##.", "#......#..", "########..", ".#....#...", "........#."],
+  "colors":   [".AAA..AAA.", ".A.A..A.A.", ".AAA..AAA.", "LLLLLLLL..", "L......L..", "L.K....LK.", "L......L..", "LLLLLLLL..", ".K....K...", "........Y."],
+  "palette":  { "A": "#F59E0B", "K": "#1F2937", "L": "#E2E8F0", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 366,
+  "name": {"de": "Vampir", "en": "Vampire", "es": "Vampiro", "fr": "Vampire", "it": "Vampiro", "pl": "Wampir", "pt": "Vampiro", "tr": "Vampir", "el": "Βρικόλακας", "bg": "Вампир", "ru": "Вампир", "ar": "مصاص دماء", "hi": "पिशाच", "zh": "吸血鬼", "ja": "吸血鬼", "ko": "뱀파이어"},
+  "solution": ["#..####..#", "..######..", "..######..", "..######..", "#.######..", "..######.#", "...####...", "##..##..##", "###.##.###", "##########", "##########", "##########", "##.####.##", "#..####..#", ".........."],
+  "colors":   ["Y..KKKK..Y", "..KKKKKK..", "..KFKKFK..", "..FFFFFF..", "Y.FRFFRF..", "..FFFFFF.Y", "...FWWF...", "KK..FF..KK", "KKK.RR.KKK", "KKKKRRKKKK", "KKKRRRRKKK", "KKKRRRRKKK", "KK.RRRR.KK", "K..RRRR..K", ".........."],
+  "palette":  { "F": "#FBCFA5", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

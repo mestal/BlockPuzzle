@@ -1,0 +1,7 @@
+{
+  "id": 299,
+  "name": {"de": "Quietscheente", "en": "Rubber duck", "es": "Patito de goma", "fr": "Canard en plastique", "it": "Paperella di gomma", "pl": "Gumowa kaczka", "pt": "Patinho de borracha", "tr": "Lastik ördek", "el": "Λαστιχένιο παπάκι", "bg": "Гумено пате", "ru": "Резиновая уточка", "ar": "بطة مطاطية", "hi": "रबर की बत्तख", "zh": "橡皮鸭", "ja": "ゴムのアヒル", "ko": "고무 오리"},
+  "solution": ["..#.......", "....###...", "...#####..", "...#.#####", "...#####..", "#...###...", "##.######.", "##########", "#####..###", ".########.", "..######..", "##.##..##.", "..#..##..#", "#.........", ".........."],
+  "colors":   ["..Y.......", "....YYY...", "...YYYYY..", "...Y.YYYOO", "...YYYYY..", "Y...YYY...", "YY.YYYYYY.", "YYYYYYYYYY", "YYYYY..YYY", ".YYYYYYYY.", "..YYYYYY..", "BB.BB..BB.", "..B..BB..B", "Y.........", ".........."],
+  "palette":  { "B": "#3B82F6", "O": "#F97316", "Y": "#FACC15" }
+}

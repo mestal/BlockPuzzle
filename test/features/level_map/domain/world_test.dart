@@ -139,7 +139,7 @@ void main() {
     );
 
     test('plans the full game and covers every shipped level', () {
-      expect(catalog.plannedLevelCount, 200);
+      expect(catalog.plannedLevelCount, 500);
       expect(
         catalog.plannedLevelCount,
         greaterThanOrEqualTo(LevelRepository.levelCount),

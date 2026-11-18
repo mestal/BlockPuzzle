@@ -1,0 +1,7 @@
+{
+  "id": 365,
+  "name": {"de": "Kürbislaterne", "en": "Jack-o'-lantern", "es": "Calabaza de Halloween", "fr": "Citrouille d'Halloween", "it": "Zucca di Halloween", "pl": "Dynia na Halloween", "pt": "Abóbora de Halloween", "tr": "Bal kabağı feneri", "el": "Φανάρι κολοκύθα", "bg": "Тиква фенер", "ru": "Тыква-фонарь", "ar": "فانوس اليقطين", "hi": "कद्दू की लालटेन", "zh": "南瓜灯", "ja": "ジャック・オー・ランタン", "ko": "호박 등불"},
+  "solution": ["#......#..", "....##....", ".########.", "##########", "##.####.##", "#...##...#", "##########", "####..####", "##########", "#........#", "##.#..#.##", "##########", ".########.", "..........", "#...#...#."],
+  "colors":   ["Y......Y..", "....GG....", ".OOOOOOOO.", "OOOOOOOOOO", "OO.OOOO.OO", "O...OO...O", "OOOOOOOOOO", "OOOO..OOOO", "OOOOOOOOOO", "O........O", "OO.O..O.OO", "OOOOOOOOOO", ".OOOOOOOO.", "..........", "Y...Y...Y."],
+  "palette":  { "G": "#22C55E", "O": "#F97316", "Y": "#FACC15" }
+}

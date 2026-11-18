@@ -1,0 +1,7 @@
+{
+  "id": 496,
+  "name": {"de": "Basilius-Kathedrale", "en": "St Basil's Cathedral", "es": "Catedral de San Basilio", "fr": "Cathédrale Saint-Basile", "it": "Cattedrale di San Basilio", "pl": "Sobór Wasyla Błogosławionego", "pt": "Catedral de São Basílio", "tr": "Aziz Vasil Katedrali", "el": "Καθεδρικός του Αγίου Βασιλείου", "bg": "Катедралата Свети Василий", "ru": "Храм Василия Блаженного", "ar": "كاتدرائية القديس باسيل", "hi": "सेंट बेसिल कैथेड्रल", "zh": "圣瓦西里大教堂", "ja": "聖ワシリイ大聖堂", "ko": "성 바실리 대성당"},
+  "solution": ["..........", "....#.....", "...#.#....", "#.#...#...", "..#.#.#...", ".#.###.#..", "#.#...#.#.", "#.#.#.#.#.", ".#.###.#..", ".#.#.#.#..", "#########.", "#.#.#.#.#.", "#########.", "..........", ".........#"],
+  "colors":   ["..........", "....Y.....", "...R.R....", "Y.R...R...", "..R.W.R...", ".Y.RRR.Y..", "G.G...B.B.", "G.G.E.B.B.", ".G.EEE.B..", ".E.E.E.E..", "EEEEEEEEE.", "E.E.E.E.E.", "EEEEEEEEE.", "..........", ".........Y"],
+  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "G": "#22C55E", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

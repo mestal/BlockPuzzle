@@ -1,0 +1,7 @@
+{
+  "id": 221,
+  "name": {"de": "Feuerwehrauto", "en": "Fire truck", "es": "Camión de bomberos", "fr": "Camion de pompiers", "it": "Camion dei pompieri", "pl": "Wóz strażacki", "pt": "Caminhão de bombeiros", "tr": "İtfaiye aracı", "el": "Πυροσβεστικό όχημα", "bg": "Пожарна кола", "ru": "Пожарная машина", "ar": "سيارة إطفاء", "hi": "दमकल गाड़ी", "zh": "消防车", "ja": "消防車", "ko": "소방차"},
+  "solution": ["........#.", "#######...", "#.#.#.#...", "#######...", "#########.", "##########", "##########", "##########", ".##...##..", "....#....#"],
+  "colors":   ["........Y.", "EEEEEEE...", "E.E.E.E...", "EEEEEEE...", "RRRRRRRRR.", "RRRRRRRCCR", "RRRRRRRRRR", "RWWWWWRRRR", ".KK...KK..", "....Y....Y"],
+  "palette":  { "C": "#22D3EE", "E": "#94A3B8", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

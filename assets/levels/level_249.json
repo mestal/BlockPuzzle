@@ -1,0 +1,7 @@
+{
+  "id": 249,
+  "name": {"de": "Spiegelei", "en": "Fried egg", "es": "Huevo frito", "fr": "Œuf au plat", "it": "Uovo fritto", "pl": "Jajko sadzone", "pt": "Ovo frito", "tr": "Sahanda yumurta", "el": "Τηγανητό αυγό", "bg": "Пържено яйце", "ru": "Яичница", "ar": "بيض مقلي", "hi": "तला हुआ अंडा", "zh": "煎蛋", "ja": "目玉焼き", "ko": "달걀 프라이"},
+  "solution": ["...###....", ".#######..", "#########.", "##########", ".#########", "#########.", "#########.", ".#######..", "..##.##...", ".........#"],
+  "colors":   ["...WWW....", ".WWWWWWW..", "WWWWWWWWW.", "WWWYYYWWWW", ".WWYYYYWWW", "WWWYYYWWW.", "WWWWWWWWW.", ".WWWWWWW..", "..WW.WW...", ".........Y"],
+  "palette":  { "W": "#FFFFFF", "Y": "#FACC15" }
+}

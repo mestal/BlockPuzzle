@@ -1,0 +1,7 @@
+{
+  "id": 261,
+  "name": {"de": "Wassermelone", "en": "Watermelon", "es": "Sandía", "fr": "Pastèque", "it": "Anguria", "pl": "Arbuz", "pt": "Melancia", "tr": "Karpuz", "el": "Καρπούζι", "bg": "Диня", "ru": "Арбуз", "ar": "بطيخ", "hi": "तरबूज", "zh": "西瓜", "ja": "スイカ", "ko": "수박"},
+  "solution": ["#..#...#..", "##........", "###.......", "####......", "#.###..#..", "######....", "##.####...", "########..", "#.##.####.", "##########"],
+  "colors":   ["G..Y...Y..", "WG........", "RWG.......", "RRWG......", "R.RWG..Y..", "RRRRWG....", "RR.RRWG...", "RRRRRRWG..", "R.RR.RRWG.", "RRRRRRRRWG"],
+  "palette":  { "G": "#22C55E", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

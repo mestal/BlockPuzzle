@@ -1,0 +1,7 @@
+{
+  "id": 484,
+  "name": {"de": "Opernhaus Sydney", "en": "Sydney Opera House", "es": "Ópera de Sídney", "fr": "Opéra de Sydney", "it": "Teatro dell'Opera di Sydney", "pl": "Opera w Sydney", "pt": "Ópera de Sydney", "tr": "Sidney Opera Binası", "el": "Όπερα του Σίδνεϊ", "bg": "Операта в Сидни", "ru": "Сиднейский оперный театр", "ar": "دار أوبرا سيدني", "hi": "सिडनी ओपेरा हाउस", "zh": "悉尼歌剧院", "ja": "シドニー・オペラハウス", "ko": "시드니 오페라 하우스"},
+  "solution": ["..#......#", "..##......", ".###..#...", ".#..#.##..", "#...##.#..", "#....#..#.", "##########", "##########", "##.####.##", ".###..###."],
+  "colors":   ["..W......Y", "..WW......", ".WWW..W...", ".W..W.WW..", "W...WW.W..", "W....W..W.", "WWWWWWWWWW", "EEEEEEEEEE", "BB.BBBB.BB", ".BBB..BBB."],
+  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "W": "#FFFFFF", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 346,
+  "name": {"de": "Steinrad", "en": "Stone wheel", "es": "Rueda de piedra", "fr": "Roue de pierre", "it": "Ruota di pietra", "pl": "Kamienne koło", "pt": "Roda de pedra", "tr": "Taş tekerlek", "el": "Πέτρινος τροχός", "bg": "Каменно колело", "ru": "Каменное колесо", "ar": "عجلة حجرية", "hi": "पत्थर का पहिया", "zh": "石轮", "ja": "石の車輪", "ko": "돌 바퀴"},
+  "solution": ["#.......#.", "...####...", "..######..", ".##.#####.", ".###..###.", ".###..###.", ".#####.##.", "..######..", "...####...", ".#......#."],
+  "colors":   ["Y.......Y.", "...EEEE...", "..EEEEEE..", ".EE.EEEEE.", ".EEE..EEE.", ".EEE..EEE.", ".EEEEE.EE.", "..EEEEEE..", "...EEEE...", ".Y......Y."],
+  "palette":  { "E": "#94A3B8", "Y": "#FACC15" }
+}

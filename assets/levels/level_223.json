@@ -1,0 +1,7 @@
+{
+  "id": 223,
+  "name": {"de": "Einkaufstasche", "en": "Shopping bag", "es": "Bolsa de compras", "fr": "Sac de courses", "it": "Borsa della spesa", "pl": "Torba na zakupy", "pt": "Sacola de compras", "tr": "Alışveriş çantası", "el": "Τσάντα για ψώνια", "bg": "Пазарска чанта", "ru": "Сумка для покупок", "ar": "حقيبة تسوق", "hi": "शॉपिंग बैग", "zh": "购物袋", "ja": "買い物袋", "ko": "쇼핑백"},
+  "solution": ["#..####...", "..#....#.#", "..#....#..", ".########.", ".########.", ".########.", ".########.", ".########.", ".########.", ".########."],
+  "colors":   ["Y..KKKK...", "..K....K.Y", "..K....K..", ".PPPPPPPP.", ".PPPPPPPP.", ".PPPYYPPP.", ".PPYYYYPP.", ".PPPYYPPP.", ".PPPPPPPP.", ".PPPPPPPP."],
+  "palette":  { "K": "#1F2937", "P": "#F472B6", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 290,
+  "name": {"de": "Teddybär", "en": "Teddy bear", "es": "Osito de peluche", "fr": "Ours en peluche", "it": "Orsacchiotto", "pl": "Miś pluszowy", "pt": "Ursinho de pelúcia", "tr": "Oyuncak ayı", "el": "Αρκουδάκι", "bg": "Плюшено мече", "ru": "Плюшевый мишка", "ar": "دب محشو", "hi": "टेडी बियर", "zh": "泰迪熊", "ja": "テディベア", "ko": "테디베어"},
+  "solution": [".###..###.", "##.####.##", "##########", ".##.##.##.", ".########.", ".########.", "..######..", "...####...", ".########.", "#.######.#", "#.######.#", "..######..", ".###..###.", ".##....##.", "....#....."],
+  "colors":   [".TTT..TTT.", "TT.TTTT.TT", "TTTTTTTTTT", ".TT.TT.TT.", ".TTTTTTTT.", ".TTTSSTTT.", "..TTKKTT..", "...TTTT...", ".TTTTTTTT.", "T.TSSSST.T", "T.TSSSST.T", "..TTTTTT..", ".TTT..TTT.", ".TT....TT.", "....Y....."],
+  "palette":  { "K": "#1F2937", "S": "#FDE68A", "T": "#92400E", "Y": "#FACC15" }
+}

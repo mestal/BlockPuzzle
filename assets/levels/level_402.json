@@ -1,0 +1,7 @@
+{
+  "id": 402,
+  "name": {"de": "Gießkanne", "en": "Watering can", "es": "Regadera", "fr": "Arrosoir", "it": "Annaffiatoio", "pl": "Konewka", "pt": "Regador", "tr": "Sulama kabı", "el": "Ποτιστήρι", "bg": "Лейка", "ru": "Лейка", "ar": "مرشة ماء", "hi": "झारी", "zh": "洒水壶", "ja": "じょうろ", "ko": "물뿌리개"},
+  "solution": ["..###.....", ".#...#.#..", ".#...#...#", "#######.##", "#########.", "########.#", "#######..#", "#######.#.", "#######..#", ".#####...."],
+  "colors":   ["..BBB.....", ".B...B.Y..", ".B...B...B", "BBBBBBB.BB", "BBBBBBBBB.", "BBBBBBBB.C", "BBBBBBB..C", "BBBBBBB.C.", "BBBBBBB..C", ".BBBBB...."],
+  "palette":  { "B": "#3B82F6", "C": "#22D3EE", "Y": "#FACC15" }
+}

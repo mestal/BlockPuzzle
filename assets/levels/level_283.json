@@ -1,0 +1,7 @@
+{
+  "id": 283,
+  "name": {"de": "Spielzeugauto", "en": "Toy car", "es": "Coche de juguete", "fr": "Petite voiture", "it": "Macchinina", "pl": "Samochodzik", "pt": "Carrinho", "tr": "Oyuncak araba", "el": "Αυτοκινητάκι", "bg": "Количка", "ru": "Игрушечная машинка", "ar": "سيارة لعبة", "hi": "खिलौना कार", "zh": "玩具车", "ja": "ミニカー", "ko": "장난감 자동차"},
+  "solution": ["#...#...#.", "..........", "..#####...", ".##.#.##..", "##########", "##########", ".##...##..", ".##...##.#", "....#.....", ".#........"],
+  "colors":   ["Y...Y...Y.", "..........", "..RRRRR...", ".RC.R.CR..", "RRRRRRRRRR", "RRRRRRRRRY", ".KK...KK..", ".KK...KK.Y", "....Y.....", ".Y........"],
+  "palette":  { "C": "#22D3EE", "K": "#1F2937", "R": "#E8453C", "Y": "#FACC15" }
+}

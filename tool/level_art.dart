@@ -15,6 +15,21 @@ import 'art/w07_reef.dart';
 import 'art/w08_volcano.dart';
 import 'art/w09_clouds.dart';
 import 'art/w10_space.dart';
+import 'art/w11_blossom.dart';
+import 'art/w12_city.dart';
+import 'art/w13_kitchen.dart';
+import 'art/w14_farm.dart';
+import 'art/w15_toys.dart';
+import 'art/w16_kingdom.dart';
+import 'art/w17_jungle.dart';
+import 'art/w18_ruins.dart';
+import 'art/w19_haunted.dart';
+import 'art/w20_savanna.dart';
+import 'art/w21_garden.dart';
+import 'art/w22_carnival.dart';
+import 'art/w23_pirate.dart';
+import 'art/w24_sports.dart';
+import 'art/w25_wonders.dart';
 
 final class LevelArt {
   const LevelArt(this.world, this.names, this.pixels, {this.pinned = false});
@@ -30,6 +45,11 @@ final class LevelArt {
   /// sorted by difficulty (levels 1 and 2 carry the tutorial).
   final bool pinned;
 }
+
+/// Compact form used by worlds 11+: [names] joined with `|` in
+/// [artLanguages] order.
+LevelArt art(int world, String names, List<String> pixels) =>
+    LevelArt(world, names.split('|'), pixels);
 
 /// Order of [LevelArt.names]. New languages are appended at the end.
 const artLanguages = [
@@ -66,7 +86,7 @@ const artPalette = <String, String>{
   'Z': '#A3E635', // lime
 };
 
-const levelArt = <LevelArt>[
+final levelArt = <LevelArt>[
   ...sunsetArt,
   ...beachArt,
   ...forestArt,
@@ -77,4 +97,19 @@ const levelArt = <LevelArt>[
   ...volcanoArt,
   ...cloudsArt,
   ...spaceArt,
+  ...blossomArt,
+  ...cityArt,
+  ...kitchenArt,
+  ...farmArt,
+  ...toysArt,
+  ...kingdomArt,
+  ...jungleArt,
+  ...ruinsArt,
+  ...hauntedArt,
+  ...savannaArt,
+  ...gardenArt,
+  ...carnivalArt,
+  ...pirateArt,
+  ...sportsArt,
+  ...wondersArt,
 ];

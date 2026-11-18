@@ -1,0 +1,7 @@
+{
+  "id": 324,
+  "name": {"de": "Gorilla", "en": "Gorilla", "es": "Gorila", "fr": "Gorille", "it": "Gorilla", "pl": "Goryl", "pt": "Gorila", "tr": "Goril", "el": "Γορίλας", "bg": "Горила", "ru": "Горилла", "ar": "غوريلا", "hi": "गोरिल्ला", "zh": "大猩猩", "ja": "ゴリラ", "ko": "고릴라"},
+  "solution": ["#..####..#", "..######..", ".########.", ".##.##.##.", ".########.", ".###..###.", "##########", "##########", "##.####.##", "##.####.##", "##.####.##", "##.####.##", "..##..##..", ".###..###.", ".........."],
+  "colors":   ["Y..KKKK..Y", "..KKKKKK..", ".KKEEEEKK.", ".KE.EE.EK.", ".KEEEEEEK.", ".KKE..EKK.", "KKKKEEKKKK", "KKKKKKKKKK", "KK.KKKK.KK", "KK.KEEK.KK", "KK.KEEK.KK", "EE.KKKK.EE", "..KK..KK..", ".KKK..KKK.", ".........."],
+  "palette":  { "E": "#94A3B8", "K": "#1F2937", "Y": "#FACC15" }
+}

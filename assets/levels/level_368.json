@@ -1,0 +1,7 @@
+{
+  "id": 368,
+  "name": {"de": "Kleines Monster", "en": "Little monster", "es": "Monstruito", "fr": "Petit monstre", "it": "Mostriciattolo", "pl": "Potworek", "pt": "Monstrinho", "tr": "Küçük canavar", "el": "Τερατάκι", "bg": "Чудовищенце", "ru": "Монстрик", "ar": "وحش صغير", "hi": "छोटा राक्षस", "zh": "小怪兽", "ja": "ちびモンスター", "ko": "꼬마 괴물"},
+  "solution": ["...#......", ".#......#.", ".##....##.", "..######..", ".########.", "##########", "##########", "##########", "##.#..#.##", "##########", "#.######.#", "#.######.#", "..##..##..", ".###..###.", ".........."],
+  "colors":   ["...Y......", ".G......G.", ".GG....GG.", "..GGGGGG..", ".GGWWWWGG.", "GGWWKKWWGG", "GGGWWWWGGG", "GGGGGGGGGG", "GG.W..W.GG", "GGGGGGGGGG", "G.GGGGGG.G", "G.GGGGGG.G", "..GG..GG..", ".GGG..GGG.", ".........."],
+  "palette":  { "G": "#22C55E", "K": "#1F2937", "W": "#FFFFFF", "Y": "#FACC15" }
+}

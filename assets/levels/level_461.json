@@ -1,0 +1,7 @@
+{
+  "id": 461,
+  "name": {"de": "Baseballschläger", "en": "Baseball bat", "es": "Bate de béisbol", "fr": "Batte de baseball", "it": "Mazza da baseball", "pl": "Kij baseballowy", "pt": "Taco de beisebol", "tr": "Beyzbol sopası", "el": "Ρόπαλο μπέιζμπολ", "bg": "Бухалка за бейзбол", "ru": "Бейсбольная бита", "ar": "مضرب بيسبول", "hi": "बेसबॉल बल्ला", "zh": "棒球棒", "ja": "野球のバット", "ko": "야구 방망이"},
+  "solution": ["..##.....#", ".####.....", ".####.....", ".####.....", "..##......", "#.##..#..#", "..##.###..", "..##..#...", "..##......", ".####.#..."],
+  "colors":   ["..HH.....Y", ".HHHH.....", ".HHHH.....", ".HHHH.....", "..HH......", "Y.HH..W..Y", "..HH.WRW..", "..TT..W...", "..TT......", ".TTTT.Y..."],
+  "palette":  { "H": "#5B3410", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }
+}

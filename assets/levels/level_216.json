@@ -1,0 +1,7 @@
+{
+  "id": 216,
+  "name": {"de": "Steinlaterne", "en": "Stone lantern", "es": "Linterna de piedra", "fr": "Lanterne de pierre", "it": "Lanterna di pietra", "pl": "Kamienna latarnia", "pt": "Lanterna de pedra", "tr": "Taş fener", "el": "Πέτρινο φανάρι", "bg": "Каменен фенер", "ru": "Каменный фонарь", "ar": "فانوس حجري", "hi": "पत्थर की लालटेन", "zh": "石灯笼", "ja": "石灯籠", "ko": "석등"},
+  "solution": ["#...##....", "...####...", ".########.", "##########", "..######..", "..#.##.#..", "..#.##.#..", "..######..", ".########.", "...####...", "....##...#", "....##....", "...####...", ".########.", ".........."],
+  "colors":   ["Y...EE....", "...EEEE...", ".EEEEEEEE.", "EEEEEEEEEE", "..EEEEEE..", "..E.YY.E..", "..E.YY.E..", "..EEEEEE..", ".EEEEEEEE.", "...EEEE...", "....EE...Y", "....EE....", "...EEEE...", ".EEEEEEEE.", ".........."],
+  "palette":  { "E": "#94A3B8", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 476,
+  "name": {"de": "Tischtennisschläger", "en": "Ping-pong paddle", "es": "Pala de ping-pong", "fr": "Raquette de ping-pong", "it": "Racchetta da ping-pong", "pl": "Rakietka do ping-ponga", "pt": "Raquete de pingue-pongue", "tr": "Masa tenisi raketi", "el": "Ρακέτα πινγκ πονγκ", "bg": "Хилка за тенис на маса", "ru": "Ракетка для пинг-понга", "ar": "مضرب بينغ بونغ", "hi": "टेबल टेनिस बैट", "zh": "乒乓球拍", "ja": "卓球のラケット", "ko": "탁구채"},
+  "solution": ["...#......", "#......#..", "..####....", ".######...", "########..", "########..", "########..", ".######...", "..####..#.", "...##.....", "...##.....", "...##...#.", "...##.....", "........#.", "...#......"],
+  "colors":   ["...Y......", "Y......Y..", "..RRRR....", ".RRRRRR...", "RRRRRRRR..", "RRRRRRRR..", "RRRRRRRR..", ".RRRRRR...", "..RRRR..Y.", "...TT.....", "...TT.....", "...TT...W.", "...TT.....", "........Y.", "...Y......"],
+  "palette":  { "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }
+}

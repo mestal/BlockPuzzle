@@ -1,0 +1,7 @@
+{
+  "id": 205,
+  "name": {"de": "Origami-Kranich", "en": "Origami crane", "es": "Grulla de origami", "fr": "Grue en origami", "it": "Gru origami", "pl": "Żuraw origami", "pt": "Tsuru de origami", "tr": "Origami turna", "el": "Γερανός οριγκάμι", "bg": "Жерав оригами", "ru": "Журавлик оригами", "ar": "طائر الكركي الورقي", "hi": "ओरिगामी सारस", "zh": "纸鹤", "ja": "折り鶴", "ko": "종이학"},
+  "solution": [".........#", "........##", ".......#..", "#.....#..#", "##...###..", "###.####..", "#########.", ".#########", "..######..", ".........."],
+  "colors":   [".........P", "........PP", ".......P..", "P.....P..P", "PP...PMP..", "PMP.PMMP..", "PPMPPMMPP.", ".PPMMPPPPP", "..PPPPPP..", ".........."],
+  "palette":  { "M": "#DB2777", "P": "#F472B6" }
+}

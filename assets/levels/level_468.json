@@ -1,0 +1,7 @@
+{
+  "id": 468,
+  "name": {"de": "Volleyball", "en": "Volleyball", "es": "Balón de voleibol", "fr": "Ballon de volley", "it": "Pallone da pallavolo", "pl": "Piłka siatkowa", "pt": "Bola de vôlei", "tr": "Voleybol topu", "el": "Μπάλα βόλεϊ", "bg": "Волейболна топка", "ru": "Волейбольный мяч", "ar": "كرة طائرة", "hi": "वॉलीबॉल", "zh": "排球", "ja": "バレーボール", "ko": "배구공"},
+  "solution": [".#......#.", "...####...", "..##.###..", ".##.###.#.", ".#.##.###.", ".#.#.####.", ".##.###.#.", "..###.##..", "#..####...", ".........#"],
+  "colors":   [".Y......Y.", "...WWWW...", "..WW.WWW..", ".WW.WWW.W.", ".W.WW.WWW.", ".W.W.WWWW.", ".WW.WWW.W.", "..WWW.WW..", "Y..WWWW...", ".........Y"],
+  "palette":  { "W": "#FFFFFF", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 344,
+  "name": {"de": "Römerhelm", "en": "Roman helmet", "es": "Casco romano", "fr": "Casque romain", "it": "Elmo romano", "pl": "Hełm rzymski", "pt": "Elmo romano", "tr": "Roma miğferi", "el": "Ρωμαϊκό κράνος", "bg": "Римски шлем", "ru": "Римский шлем", "ar": "خوذة رومانية", "hi": "रोमन टोप", "zh": "罗马头盔", "ja": "ローマの兜", "ko": "로마 투구"},
+  "solution": ["..######..", ".########.", "...####...", "..######..", ".########.", ".##....##.", ".#......#.", ".##....##.", "..#.#..#..", "###....###"],
+  "colors":   ["..RRRRRR..", ".RRRRRRRR.", "...AAAA...", "..AAAAAA..", ".AAAAAAAA.", ".AA....AA.", ".A......A.", ".AA....AA.", "..A.Y..A..", "AAA....AAA"],
+  "palette":  { "A": "#F59E0B", "R": "#E8453C", "Y": "#FACC15" }
+}

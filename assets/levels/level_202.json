@@ -1,0 +1,7 @@
+{
+  "id": 202,
+  "name": {"de": "Reisball", "en": "Rice ball", "es": "Bola de arroz", "fr": "Boulette de riz", "it": "Polpetta di riso", "pl": "Kulka ryżowa", "pt": "Bolinho de arroz", "tr": "Pirinç topu", "el": "Μπάλα ρυζιού", "bg": "Оризова топка", "ru": "Рисовый шарик", "ar": "كرة أرز", "hi": "चावल का गोला", "zh": "饭团", "ja": "おにぎり", "ko": "주먹밥"},
+  "solution": ["#......#..", "....##....", "...####...", "..#.##.#.#", "..######..", ".###..###.", ".########.", ".########.", ".########.", ".........."],
+  "colors":   ["Y......Y..", "....WW....", "...WWWW...", "..W.WW.W.Y", "..WWWWWW..", ".WWW..WWW.", ".WKKKKKKW.", ".WKKKKKKW.", ".KKKKKKKK.", ".........."],
+  "palette":  { "K": "#1F2937", "W": "#FFFFFF", "Y": "#FACC15" }
+}

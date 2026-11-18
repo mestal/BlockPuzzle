@@ -1,0 +1,7 @@
+{
+  "id": 207,
+  "name": {"de": "Panda", "en": "Panda", "es": "Panda", "fr": "Panda", "it": "Panda", "pl": "Panda", "pt": "Panda", "tr": "Panda", "el": "Πάντα", "bg": "Панда", "ru": "Панда", "ar": "باندا", "hi": "पांडा", "zh": "熊猫", "ja": "パンダ", "ko": "판다"},
+  "solution": ["...#......", "##......##", "##########", ".########.", "##########", "###.##.###", "##########", "##########", ".########.", "..######..", ".########.", "##########", "##.####.##", "..##..##..", "#........#"],
+  "colors":   ["...Y......", "KK......KK", "KKWWWWWWKK", ".WWWWWWWW.", "WWKKWWKKWW", "WKK.WW.KKW", "WKKWWWWKKW", "WWWWKKWWWW", ".WWWWWWWW.", "..WWWWWW..", ".KKWWWWKK.", "KKKWWWWKKK", "KK.WWWW.KK", "..KK..KK..", "Y........Y"],
+  "palette":  { "K": "#1F2937", "W": "#FFFFFF", "Y": "#FACC15" }
+}

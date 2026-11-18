@@ -10,6 +10,9 @@
 // * makes the puzzle solvable by line logic alone (unique, no guessing) by
 //   flipping as few cells as possible when the art is ambiguous,
 // * rates its difficulty with the line solver,
+// * from world [sparkleFromWorld] on, adds a few lone "sparkle" cells around
+//   the picture until it reaches that world's [difficultyFloor], so the
+//   game keeps getting harder (the puzzle stays unique and logic-solvable),
 // and then numbers the pictures world by world: pinned pictures first, then
 // smallest and easiest first.
 import 'dart:io';
@@ -25,7 +28,29 @@ import 'level_art.dart';
 /// stay big enough on a portrait phone.
 const boardSizes = [(5, 5), (10, 5), (5, 10), (10, 10), (15, 10)];
 
+/// Worlds before this one are left exactly as drawn.
+const sparkleFromWorld = 11;
+
+/// Minimum difficulty of a picture in [world] (>= [sparkleFromWorld]); it
+/// rises map by map.
+double difficultyFloor(int world) => 7.5 + 0.4 * (world - sparkleFromWorld);
+
+/// Sparkles per picture are capped so the picture stays the main thing.
+const maxSparkles = 6;
+const sparkleColour = 'Y';
+
 void main() {
+  final seen = <String>{};
+  final duplicates = [
+    for (final art in levelArt)
+      if (!seen.add(art.names[1].toLowerCase())) art.names[1],
+  ];
+  if (duplicates.isNotEmpty) {
+    stderr.writeln('Duplicate pictures: ${duplicates.join(', ')}');
+    exitCode = 1;
+    return;
+  }
+
   final pictures = <_Picture>[];
   final failed = <String>[];
   for (final art in levelArt) {
@@ -46,7 +71,7 @@ void main() {
   // World by world, pinned first (in listed order), then by size and
   // difficulty.
   final listed = {for (final (i, art) in levelArt.indexed) art: i};
-  pictures.sort((a, b) {
+  int byPlay(_Picture a, _Picture b) {
     final world = a.art.world.compareTo(b.art.world);
     if (world != 0) return world;
     if (a.art.pinned || b.art.pinned) {
@@ -57,20 +82,45 @@ void main() {
     final size = (a.rows * a.cols).compareTo(b.rows * b.cols);
     if (size != 0) return size;
     return a.difficulty.compareTo(b.difficulty);
-  });
+  }
+
+  // The first worlds are sorted on their own, exactly as when they shipped,
+  // so their level numbers (and saved progress) never move. Later worlds
+  // break difficulty ties by listed order, so adding worlds stays stable.
+  final shipped = [
+    for (final p in pictures)
+      if (p.art.world < sparkleFromWorld) p,
+  ]..sort(byPlay);
+  final added =
+      [
+        for (final p in pictures)
+          if (p.art.world >= sparkleFromWorld) p,
+      ]..sort((a, b) {
+        final order = byPlay(a, b);
+        return order != 0 ? order : listed[a.art]!.compareTo(listed[b.art]!);
+      });
 
   var id = 1;
   final report = StringBuffer();
-  for (final p in pictures) {
+  for (final p in [...shipped, ...added]) {
     final path = 'assets/levels/level_${id.toString().padLeft(3, '0')}.json';
     File(path).writeAsStringSync(p.toJson(id));
     report.writeln(
       '${id.toString().padLeft(3)}  w${p.art.world}  '
       '${p.rows.toString().padLeft(2)}x${p.cols.toString().padLeft(2)}  '
       'difficulty ${p.difficulty.toStringAsFixed(2).padLeft(6)}  '
-      'flips ${p.flips}  ${p.art.names[1]}',
+      'flips ${p.flips}  sparkles ${p.sparkles}  ${p.art.names[1]}',
     );
     id++;
+  }
+  // Average difficulty per world, to check the curve keeps rising.
+  final byWorld = <int, List<double>>{};
+  for (final p in pictures) {
+    (byWorld[p.art.world] ??= []).add(p.difficulty);
+  }
+  for (final MapEntry(key: world, value: d) in byWorld.entries) {
+    final avg = d.reduce((a, b) => a + b) / d.length;
+    report.writeln('w$world  average difficulty ${avg.toStringAsFixed(2)}');
   }
   stdout
     ..write(report)
@@ -78,7 +128,7 @@ void main() {
 }
 
 class _Picture {
-  _Picture(this.art, this.grid, this.flips, this.difficulty);
+  _Picture(this.art, this.grid, this.flips, this.sparkles, this.difficulty);
 
   factory _Picture.fromArt(LevelArt art) {
     final name = art.names[1];
@@ -104,12 +154,17 @@ class _Picture {
     }
     final (repaired, flips) = _repair(grid);
     grid = repaired;
-    return _Picture(art, grid, flips, _difficulty(_solution(grid)));
+    var sparkles = 0;
+    if (art.world >= sparkleFromWorld) {
+      (grid, sparkles) = _sparkle(grid, difficultyFloor(art.world));
+    }
+    return _Picture(art, grid, flips, sparkles, _difficulty(_solution(grid)));
   }
 
   final LevelArt art;
   final List<List<String>> grid;
   final int flips;
+  final int sparkles;
   final double difficulty;
 
   int get rows => grid.length;
@@ -337,6 +392,67 @@ class _Unsolvable implements Exception {
     flipped.add(best);
     flips++;
   }
+}
+
+/// Raises [input] to [target] difficulty by adding lone sparkle cells (no
+/// filled neighbour, diagonals included) that keep the puzzle solvable by
+/// line logic. Sparkles keep two cells of space between them (four along a
+/// shared row or column), so they read as scattered stars rather than a
+/// pattern. Each step adds the sparkle that makes it hardest.
+(List<List<String>>, int) _sparkle(List<List<String>> input, double target) {
+  final grid = [
+    for (final row in input) [...row],
+  ];
+  final rows = grid.length;
+  final cols = grid.first.length;
+
+  final placed = <(int, int)>[];
+
+  bool lonely(int r, int c) {
+    for (final (pr, pc) in placed) {
+      final dr = (pr - r).abs();
+      final dc = (pc - c).abs();
+      if ((dr <= 2 && dc <= 2) || (dr == 0 && dc < 4) || (dc == 0 && dr < 4)) {
+        return false;
+      }
+    }
+    for (var rr = r - 1; rr <= r + 1; rr++) {
+      for (var cc = c - 1; cc <= c + 1; cc++) {
+        if (rr >= 0 && cc >= 0 && rr < rows && cc < cols) {
+          if (grid[rr][cc] != '.') return false;
+        }
+      }
+    }
+    return true;
+  }
+
+  var added = 0;
+  var current = _difficulty(_solution(grid));
+  while (current < target && added < maxSparkles) {
+    (int, int)? best;
+    var bestScore = current;
+    for (var r = 0; r < rows; r++) {
+      for (var c = 0; c < cols; c++) {
+        if (!lonely(r, c)) continue;
+        grid[r][c] = sparkleColour;
+        final solution = _solution(grid);
+        if (_known(solution) == rows * cols) {
+          final score = _difficulty(solution);
+          if (score > bestScore) {
+            bestScore = score;
+            best = (r, c);
+          }
+        }
+        grid[r][c] = '.';
+      }
+    }
+    if (best == null) break;
+    grid[best.$1][best.$2] = sparkleColour;
+    placed.add(best);
+    added++;
+    current = bestScore;
+  }
+  return (grid, added);
 }
 
 /// Higher is harder: more line-logic sweeps, fewer cells given away by the

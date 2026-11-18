@@ -1,0 +1,7 @@
+{
+  "id": 467,
+  "name": {"de": "Basketball", "en": "Basketball", "es": "Balón de baloncesto", "fr": "Ballon de basket", "it": "Pallone da basket", "pl": "Piłka do koszykówki", "pt": "Bola de basquete", "tr": "Basketbol topu", "el": "Μπάλα μπάσκετ", "bg": "Баскетболна топка", "ru": "Баскетбольный мяч", "ar": "كرة سلة", "hi": "बास्केटबॉल", "zh": "篮球", "ja": "バスケットボール", "ko": "농구공"},
+  "solution": [".#........", "...####..#", "..######..", ".########.", ".########.", ".########.", ".########.", "..######..", "...####...", ".#......#."],
+  "colors":   [".Y........", "...OOOO..Y", "..OKOOKO..", ".OOKOOKOO.", ".KKKKKKKK.", ".OOKOOKOO.", ".OKOOOOKO.", "..OOOOOO..", "...OOOO...", ".Y......Y."],
+  "palette":  { "K": "#1F2937", "O": "#F97316", "Y": "#FACC15" }
+}

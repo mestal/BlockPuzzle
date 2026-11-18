@@ -1,0 +1,7 @@
+{
+  "id": 383,
+  "name": {"de": "Nashorn", "en": "Rhino", "es": "Rinoceronte", "fr": "Rhinocéros", "it": "Rinoceronte", "pl": "Nosorożec", "pt": "Rinoceronte", "tr": "Gergedan", "el": "Ρινόκερος", "bg": "Носорог", "ru": "Носорог", "ar": "وحيد القرن", "hi": "गैंडा", "zh": "犀牛", "ja": "サイ", "ko": "코뿔소"},
+  "solution": ["..#.....#.", "#.....#...", "##...###..", ".#####.###", "##########", "##########", ".#########", "..##.##.##", "..##.##.##", "#........."],
+  "colors":   ["..Y.....Y.", "L.....E...", "LL...EEE..", ".LEEEE.EEE", "EEEEEEEEEE", "EEEEEEEEEE", ".EEEEEEEEE", "..EE.EE.EE", "..EE.EE.EE", "Y........."],
+  "palette":  { "E": "#94A3B8", "L": "#E2E8F0", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 253,
+  "name": {"de": "Kaffeetasse", "en": "Coffee cup", "es": "Taza de café", "fr": "Tasse de café", "it": "Tazzina di caffè", "pl": "Filiżanka kawy", "pt": "Xícara de café", "tr": "Kahve fincanı", "el": "Φλιτζάνι καφέ", "bg": "Чаша кафе", "ru": "Чашка кофе", "ar": "فنجان قهوة", "hi": "कॉफ़ी का कप", "zh": "咖啡杯", "ja": "コーヒーカップ", "ko": "커피잔"},
+  "solution": ["..........", "#.#..#....", "...#..#...", "..#..#....", ".........#", "########..", "##########", "########.#", "########.#", "#########.", ".######...", "##########", ".########.", "..........", "#...#...#."],
+  "colors":   ["..........", "Y.W..W....", "...W..W...", "..W..W....", ".........Y", "WWWWWWWW..", "WHHHHHHWWW", "WWWWWWWW.W", "WWWWWWWW.W", "WWWWWWWWW.", ".WWWWWW...", "EEEEEEEEEE", ".EEEEEEEE.", "..........", "Y...Y...Y."],
+  "palette":  { "E": "#94A3B8", "H": "#5B3410", "W": "#FFFFFF", "Y": "#FACC15" }
+}

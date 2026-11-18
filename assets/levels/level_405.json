@@ -1,0 +1,7 @@
+{
+  "id": 405,
+  "name": {"de": "Marienkäfer", "en": "Ladybug", "es": "Mariquita", "fr": "Coccinelle", "it": "Coccinella", "pl": "Biedronka", "pt": "Joaninha", "tr": "Uğur böceği", "el": "Πασχαλίτσα", "bg": "Калинка", "ru": "Божья коровка", "ar": "دعسوقة", "hi": "लेडीबग", "zh": "瓢虫", "ja": "テントウムシ", "ko": "무당벌레"},
+  "solution": ["#.#....#.#", "...#..#...", "...####...", "..######..", ".########.", "##.####.##", "#..####..#", "##########", "###.##.###", "#.######.#", "##########", ".##.##.##.", "..######..", "...####..#", "#........."],
+  "colors":   ["Y.K....K.Y", "...K..K...", "...KKKK...", "..KKKKKK..", ".RRRKKRRR.", "RR.RKKR.RR", "R..RKKR..R", "RRRRKKRRRR", "RRR.KK.RRR", "R.RRKKRR.R", "RRRRKKRRRR", ".RR.KK.RR.", "..RRKKRR..", "...RKKR..Y", "Y........."],
+  "palette":  { "K": "#1F2937", "R": "#E8453C", "Y": "#FACC15" }
+}

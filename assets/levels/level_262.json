@@ -1,0 +1,7 @@
+{
+  "id": 262,
+  "name": {"de": "Eierkorb", "en": "Egg basket", "es": "Cesta de huevos", "fr": "Panier d'œufs", "it": "Cesto di uova", "pl": "Koszyk jajek", "pt": "Cesta de ovos", "tr": "Yumurta sepeti", "el": "Καλάθι με αυγά", "bg": "Кошница с яйца", "ru": "Корзина яиц", "ar": "سلة بيض", "hi": "अंडों की टोकरी", "zh": "鸡蛋篮", "ja": "たまごかご", "ko": "달걀 바구니"},
+  "solution": ["#.#####..#", "..#....#..", ".#......#.", ".#.####.#.", ".########.", "##########", "##########", ".########.", ".########.", "..######.."],
+  "colors":   ["Y.TTTTT..Y", "..T....T..", ".T......T.", ".T.WWFF.T.", ".TWWWFFFT.", "TTTTTTTTTT", "THTTHTTHTT", ".TTHTTHTT.", ".THTTHTTH.", "..TTTTTT.."],
+  "palette":  { "F": "#FBCFA5", "H": "#5B3410", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }
+}

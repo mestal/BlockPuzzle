@@ -1,0 +1,7 @@
+{
+  "id": 235,
+  "name": {"de": "Briefkasten", "en": "Mailbox", "es": "Buzón", "fr": "Boîte aux lettres", "it": "Cassetta postale", "pl": "Skrzynka pocztowa", "pt": "Caixa de correio", "tr": "Posta kutusu", "el": "Γραμματοκιβώτιο", "bg": "Пощенска кутия", "ru": "Почтовый ящик", "ar": "صندوق بريد", "hi": "डाक पेटी", "zh": "邮箱", "ja": "郵便ポスト", "ko": "우체통"},
+  "solution": ["..........", "..######..", ".########.", ".########.", ".########.", ".########.", ".########.", ".########.", ".########.", "..######..", "...####..#", "...####...", "..######..", "#.........", "...#...#.."],
+  "colors":   ["..........", "..RRRRRR..", ".RRRRRRRR.", ".RKKKKKKR.", ".RRRRRRRR.", ".RRRRRRRR.", ".RRRWWRRR.", ".RRRWWRRR.", ".RRRRRRRR.", "..RRRRRR..", "...RRRR..Y", "...RRRR...", "..RRRRRR..", "Y.........", "...Y...Y.."],
+  "palette":  { "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

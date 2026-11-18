@@ -1,0 +1,7 @@
+{
+  "id": 293,
+  "name": {"de": "Zinnsoldat", "en": "Toy soldier", "es": "Soldadito de plomo", "fr": "Soldat de plomb", "it": "Soldatino", "pl": "Żołnierzyk", "pt": "Soldadinho de chumbo", "tr": "Oyuncak asker", "el": "Στρατιωτάκι", "bg": "Оловно войниче", "ru": "Оловянный солдатик", "ar": "جندي لعبة", "hi": "खिलौना सिपाही", "zh": "玩具士兵", "ja": "おもちゃの兵隊", "ko": "장난감 병정"},
+  "solution": ["#..####...", "...####.#.", "...####...", "...####...", "#..####...", "...####...", "..######..", "#.######.#", "#.######.#", "#.######.#", "..######..", "#.##..##..", "..##..##.#", "..##..##..", ".###..###."],
+  "colors":   ["Y..KKKK...", "...KKKK.Y.", "...KKKK...", "...AAAA...", "Y..FFFF...", "...FFFF...", "..RRRRRR..", "R.RRRRRR.R", "R.RWWWWR.R", "F.RRRRRR.F", "..BBBBBB..", "Y.BB..BB..", "..BB..BB.Y", "..BB..BB..", ".KKK..KKK."],
+  "palette":  { "A": "#F59E0B", "B": "#3B82F6", "F": "#FBCFA5", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

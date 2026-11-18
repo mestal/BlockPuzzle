@@ -1,0 +1,7 @@
+{
+  "id": 463,
+  "name": {"de": "Rugbyball", "en": "Rugby ball", "es": "Balón de rugby", "fr": "Ballon de rugby", "it": "Pallone da rugby", "pl": "Piłka do rugby", "pt": "Bola de rúgbi", "tr": "Ragbi topu", "el": "Μπάλα ράγκμπι", "bg": "Топка за ръгби", "ru": "Мяч для регби", "ar": "كرة رغبي", "hi": "रग्बी गेंद", "zh": "橄榄球", "ja": "ラグビーボール", "ko": "럭비공"},
+  "solution": ["#.....##..", "...######.", "...#######", "..########", ".########.", ".#######..", "#######...", "######....", ".####..#..", ".........."],
+  "colors":   ["Y.....TT..", "...TTTTTT.", "...TTTTTTT", "..TTTWTTTT", ".TTTWTWTT.", ".TTWTWTT..", "TTTTWTT...", "TTTTTT....", ".TTTT..Y..", ".........."],
+  "palette":  { "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }
+}

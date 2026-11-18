@@ -1,0 +1,7 @@
+{
+  "id": 303,
+  "name": {"de": "Narrenkappe", "en": "Jester hat", "es": "Gorro de bufón", "fr": "Bonnet de bouffon", "it": "Cappello da giullare", "pl": "Czapka błazna", "pt": "Chapéu de bobo", "tr": "Soytarı şapkası", "el": "Καπέλο γελωτοποιού", "bg": "Шутовска шапка", "ru": "Шутовской колпак", "ar": "قبعة المهرج", "hi": "विदूषक की टोपी", "zh": "小丑帽", "ja": "道化師の帽子", "ko": "광대 모자"},
+  "solution": ["..........", "#...#.#..#", ".#..#...#.", ".##.#..##.", "..######..", "..######..", ".########.", ".########.", "..........", "#...#...#."],
+  "colors":   ["..........", "Y...Y.Y..Y", ".R..G...B.", ".RR.G..BB.", "..RRGGBB..", "..RRGGBB..", ".YYYYYYYY.", ".YYYYYYYY.", "..........", "Y...Y...Y."],
+  "palette":  { "B": "#3B82F6", "G": "#22C55E", "R": "#E8453C", "Y": "#FACC15" }
+}

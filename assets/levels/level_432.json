@@ -1,0 +1,7 @@
+{
+  "id": 432,
+  "name": {"de": "Zauberhut", "en": "Magic hat", "es": "Sombrero de mago", "fr": "Chapeau de magicien", "it": "Cilindro magico", "pl": "Kapelusz magika", "pt": "Cartola mágica", "tr": "Sihirbaz şapkası", "el": "Καπέλο μάγου", "bg": "Шапка на фокусник", "ru": "Шляпа фокусника", "ar": "قبعة الساحر", "hi": "जादूगर की टोपी", "zh": "魔术帽", "ja": "マジシャンの帽子", "ko": "마술 모자"},
+  "solution": ["#...#....#", "..#....#..", "..##..##..", "...####...", "..#.##.#..", "##########", ".########.", "..######..", "..######..", "..######..", "..######..", "..######..", "..######..", "#........#", "...#......"],
+  "colors":   ["Y...Y....Y", "..W....W..", "..WW..WW..", "...WWWW...", "..W.WW.W..", "KKKKKKKKKK", ".KKKKKKKK.", "..KKKKKK..", "..KKKKKK..", "..RRRRRR..", "..KKKKKK..", "..KKKKKK..", "..KKKKKK..", "Y........Y", "...Y......"],
+  "palette":  { "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

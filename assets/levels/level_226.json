@@ -1,0 +1,7 @@
+{
+  "id": 226,
+  "name": {"de": "Smartphone", "en": "Smartphone", "es": "Teléfono móvil", "fr": "Smartphone", "it": "Smartphone", "pl": "Smartfon", "pt": "Celular", "tr": "Akıllı telefon", "el": "Κινητό τηλέφωνο", "bg": "Смартфон", "ru": "Смартфон", "ar": "هاتف ذكي", "hi": "स्मार्टफ़ोन", "zh": "智能手机", "ja": "スマートフォン", "ko": "스마트폰"},
+  "solution": ["######.#..", "######....", "######.##.", "######..#.", "######..#.", "######.#..", "######....", "######....", "##..##..#.", "######...."],
+  "colors":   ["KKKKKK.Y..", "KCCCCK....", "KCYYCK.CC.", "KCYYCK..C.", "KCCCCK..C.", "KCCCCK.C..", "KCCCCK....", "KKKKKK....", "KK..KK..Y.", "KKKKKK...."],
+  "palette":  { "C": "#22D3EE", "K": "#1F2937", "Y": "#FACC15" }
+}

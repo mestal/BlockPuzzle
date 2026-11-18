@@ -1,0 +1,7 @@
+{
+  "id": 292,
+  "name": {"de": "Matroschka", "en": "Nesting doll", "es": "Matrioska", "fr": "Poupée russe", "it": "Matrioska", "pl": "Matrioszka", "pt": "Matrioska", "tr": "Matruşka", "el": "Μπάμπουσκα", "bg": "Матрьошка", "ru": "Матрёшка", "ar": "دمية ماتريوشكا", "hi": "मात्र्योश्का गुड़िया", "zh": "套娃", "ja": "マトリョーシカ", "ko": "마트료시카"},
+  "solution": ["#.......#.", "...####...", "..######..", ".########.", ".##.##.##.", ".########.", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", "#........#"],
+  "colors":   ["Y.......Y.", "...RRRR...", "..RRRRRR..", ".RRFFFFRR.", ".RF.FF.FR.", ".RFFPPFFR.", "..RFFFFR..", ".RRRRRRRR.", "RRWWWWWWRR", "RRWYYYYWRR", "RRWYRRYWRR", "RRWWWWWWRR", ".RRRRRRRR.", "..RRRRRR..", "Y........Y"],
+  "palette":  { "F": "#FBCFA5", "P": "#F472B6", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

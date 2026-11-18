@@ -1,0 +1,7 @@
+{
+  "id": 385,
+  "name": {"de": "Safari-Jeep", "en": "Safari jeep", "es": "Jeep de safari", "fr": "Jeep de safari", "it": "Jeep da safari", "pl": "Dżip safari", "pt": "Jipe de safári", "tr": "Safari cipi", "el": "Τζιπ σαφάρι", "bg": "Сафари джип", "ru": "Сафари-джип", "ar": "سيارة سفاري", "hi": "सफ़ारी जीप", "zh": "越野吉普", "ja": "サファリジープ", "ko": "사파리 지프"},
+  "solution": ["#...#...#.", "..#...#...", "..#####...", ".########.", "###.#.####", "##########", ".##...##..", ".##...##.#", "....#.....", ".#........"],
+  "colors":   ["Y...Y...Y.", "..K...K...", "..KKKKK...", ".AAAAAAAA.", "AAA.A.AAAA", "AAAAAAAAAA", ".KK...KK..", ".KK...KK.Y", "....Y.....", ".Y........"],
+  "palette":  { "A": "#F59E0B", "K": "#1F2937", "Y": "#FACC15" }
+}

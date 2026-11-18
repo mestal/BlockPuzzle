@@ -1,0 +1,7 @@
+{
+  "id": 301,
+  "name": {"de": "Froschkönig", "en": "Frog prince", "es": "Príncipe rana", "fr": "Prince grenouille", "it": "Principe ranocchio", "pl": "Żabi książę", "pt": "Príncipe sapo", "tr": "Kurbağa prens", "el": "Βάτραχος πρίγκιπας", "bg": "Принцът жаба", "ru": "Принц-лягушка", "ar": "الأمير الضفدع", "hi": "मेंढक राजकुमार", "zh": "青蛙王子", "ja": "カエルの王子", "ko": "개구리 왕자"},
+  "solution": ["#.#.##.#..", "..######..", ".########.", "##.####.##", "##########", "#.######.#", ".########.", "##.####.##", "#..#..#..#", ".........."],
+  "colors":   ["Y.Y.YY.Y..", "..YYYYYY..", ".GGGGGGGG.", "GG.GGGG.GG", "GGGGGGGGGG", "G.RRRRRR.G", ".GGGGGGGG.", "GG.GGGG.GG", "G..G..G..G", ".........."],
+  "palette":  { "G": "#22C55E", "R": "#E8453C", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 281,
+  "name": {"de": "Gamecontroller", "en": "Game controller", "es": "Mando", "fr": "Manette", "it": "Controller", "pl": "Pad", "pt": "Controle", "tr": "Oyun kumandası", "el": "Χειριστήριο", "bg": "Джойстик", "ru": "Геймпад", "ar": "يد التحكم", "hi": "गेम कंट्रोलर", "zh": "游戏手柄", "ja": "ゲームコントローラー", "ko": "게임 컨트롤러"},
+  "solution": ["..........", ".########.", "##########", "##.#######", "#...###.##", "##.#######", "##########", "###....###", "##......##", "...#......"],
+  "colors":   ["..........", ".KKKKKKKK.", "KKKKKKKKKK", "KK.KKKKRKK", "K...KKR.RK", "KK.KKKKRKK", "KKKKKKKKKK", "KKK....KKK", "KK......KK", "...Y......"],
+  "palette":  { "K": "#1F2937", "R": "#E8453C", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 287,
+  "name": {"de": "Puzzleteil", "en": "Puzzle piece", "es": "Pieza de puzle", "fr": "Pièce de puzzle", "it": "Tessera del puzzle", "pl": "Puzzel", "pt": "Peça de quebra-cabeça", "tr": "Yapboz parçası", "el": "Κομμάτι παζλ", "bg": "Парче от пъзел", "ru": "Кусочек пазла", "ar": "قطعة أحجية", "hi": "पहेली का टुकड़ा", "zh": "拼图块", "ja": "パズルのピース", "ko": "퍼즐 조각"},
+  "solution": ["...##....#", "..####....", "########..", "########..", "#########.", "##########", "#########.", "###..###..", "##....##..", ".........#"],
+  "colors":   ["...BB....Y", "..BBBB....", "BBBBBBBB..", "BBBBBBBB..", "BBBBBBBBB.", "BBBBBBBBBB", "BBBBBBBBB.", "BBB..BBB..", "BB....BB..", ".........Y"],
+  "palette":  { "B": "#3B82F6", "Y": "#FACC15" }
+}

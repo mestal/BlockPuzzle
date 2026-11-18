@@ -1,0 +1,7 @@
+{
+  "id": 442,
+  "name": {"de": "Goldmünze", "en": "Gold coin", "es": "Moneda de oro", "fr": "Pièce d'or", "it": "Moneta d'oro", "pl": "Złota moneta", "pt": "Moeda de ouro", "tr": "Altın para", "el": "Χρυσό νόμισμα", "bg": "Златна монета", "ru": "Золотая монета", "ar": "عملة ذهبية", "hi": "सोने का सिक्का", "zh": "金币", "ja": "金貨", "ko": "금화"},
+  "solution": ["...####...", ".########.", "##########", "####..####", "###....###", "###....###", "####..####", "##########", ".########.", "...####..."],
+  "colors":   ["...AAAA...", ".AAAAAAAA.", "AAYYYYYYAA", "AYYY..YYYA", "AYY....YYA", "AYY....YYA", "AYYY..YYYA", "AAYYYYYYAA", ".AAAAAAAA.", "...AAAA..."],
+  "palette":  { "A": "#F59E0B", "Y": "#FACC15" }
+}

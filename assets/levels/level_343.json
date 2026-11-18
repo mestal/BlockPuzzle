@@ -1,0 +1,7 @@
+{
+  "id": 343,
+  "name": {"de": "Steintafel", "en": "Stone tablet", "es": "Tablilla de piedra", "fr": "Tablette de pierre", "it": "Tavoletta di pietra", "pl": "Kamienna tablica", "pt": "Tábua de pedra", "tr": "Taş tablet", "el": "Πέτρινη πλάκα", "bg": "Каменна плоча", "ru": "Каменная скрижаль", "ar": "لوح حجري", "hi": "शिलालेख", "zh": "石碑", "ja": "石板", "ko": "석판"},
+  "solution": [".##...##..", "####.####.", "#.##.#.##.", "####.####.", "#.##.##.#.", "####.####.", "##.#.#.##.", "####.####.", "#.##.##.#.", "####.####."],
+  "colors":   [".EE...EE..", "EEEE.EEEE.", "E.EE.E.EE.", "EEEE.EEEE.", "E.EE.EE.E.", "EEEE.EEEE.", "EE.E.E.EE.", "EEEE.EEEE.", "E.EE.EE.E.", "EEEE.EEEE."],
+  "palette":  { "E": "#94A3B8" }
+}

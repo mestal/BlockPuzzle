@@ -2,7 +2,7 @@
 
 Mobil (yalnızca **dikey / portrait**) bir **nonogram** bulmaca oyunu. Flutter ile yazılır.
 Oyuncu, satır ve sütun ipuçlarına bakarak doğru kareleri doldurur; bölüm bitince dolu bloklar
-renklenip gizli bir **resme** dönüşür. 200 bölüm, kolaydan zora.
+renklenip gizli bir **resme** dönüşür. 500 bölüm (25 harita), kolaydan zora.
 
 > Referans ekran görüntüleri: `G:\My Drive\Projects\BlockPuzzle` — yalnızca **mekanik** referansıdır.
 > Görseller, karakterler, renk paleti ve arayüz **tamamen özgün** olmalı; başka bir oyunun
@@ -169,7 +169,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - Bölüm ve harita adları JSON'da dil haritasıdır: `"name": {"tr": "...", "en": "...", ...}`
   (`LocalizedText`). Testler her dilin ARB anahtarlarını ve tüm adların çevirisini doğrular.
 
-### Zorluk eğrisi (200 bölüm)
+### Zorluk eğrisi (500 bölüm)
 
 | Bölümler | Harita | Izgara (satır × sütun) | Not |
 |---|---|---|---|
@@ -177,6 +177,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 | 11–20 | Gün Batımı Tepeleri | 10×5 / 5×10 | Çoklu ipuçları |
 | 21–100 | Kumsal → Altın Çöl | 10×10 | (Altın Çöl'ün sonunda 15×10 başlar) |
 | 101–200 | Karlı Zirveler → Yıldız Yolu | 10×10 → 15×10 | |
+| 201–500 | Sakura Vadisi → Dünya Harikaları | çoğu 15×10 | Haritalar ortalama zorluğa göre sıralı; yıldız (sparkle) tabanı her haritada artar |
 
 - **Izgara kenarları 5'in katıdır**: yalnızca 5×5, 10×5, 5×10, 10×10, 15×10 (5'lik kılavuz
   çizgileri ızgarayı eşit böler; testle doğrulanır). Her satır/sütunda dolu kare olması gerekmez;
@@ -191,8 +192,14 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   hücreyi değiştirerek mantıkla çözülebilir yapar ve her haritadaki resimleri boyut + çözücüye göre
   zorluk sırasıyla numaralar. `pinned: true` resimler haritanın başında yazıldığı sırayla kalır
   (Bölüm 1–2 öğretici; `tutorial.dart` koordinatları bu resimlere bağlıdır).
-  Yeni resim: ilgili `tool/art/wNN_*.dart` dosyasına ekle (`artLanguages` sırasıyla 16 dilde ad),
-  üreticiyi çalıştır.
+  Yeni resim: ilgili `tool/art/wNN_*.dart` dosyasına ekle (`artLanguages` sırasıyla 16 dilde ad;
+  11+ haritalar kısa `art(dünya, 'tr|en|…', [...])` biçimini kullanır), üreticiyi çalıştır.
+- **Zorluk artışı (11+ haritalar):** Izgara büyüyemediği için zorluk resmin kendisinden ve üreticinin
+  eklediği **yıldızlardan** gelir. Üretici, resim haritanın taban zorluğuna
+  (`difficultyFloor`, harita başına +0.4) ulaşana dek resmin çevresine tek başına duran sarı yıldız
+  kareleri ekler (en fazla `maxSparkles`; bölüm tek çözümlü ve mantıkla çözülebilir kalır). Rapor her
+  haritanın ortalama zorluğunu yazar; yükselmeli. Harita 1–10 olduğu gibi kalır ve ayrı sıralanır,
+  böylece yayınlanmış bölüm numaraları (ve kayıtlı ilerleme) hiç kaymaz.
 
 - 5'ten uzun satır/sütunlarda her 5 karede bir kılavuz çizgisi çizilir (5'lik bloklar sayılabilsin).
 
@@ -256,7 +263,7 @@ lib/
     ads/               # AdService, DummyAdService
     progress/          # ProgressRepository, SlotData
 assets/
-  levels/              # level_001.json ... level_200.json
+  levels/              # level_001.json ... level_500.json
   worlds/              # worlds.json (harita kataloğu)
   audio/  images/
 test/

@@ -1,0 +1,7 @@
+{
+  "id": 285,
+  "name": {"de": "Schaukelpferd", "en": "Rocking horse", "es": "Caballito balancín", "fr": "Cheval à bascule", "it": "Cavallo a dondolo", "pl": "Koń na biegunach", "pt": "Cavalinho de balanço", "tr": "Sallanan at", "el": "Κουνιστό αλογάκι", "bg": "Люлеещо се конче", "ru": "Лошадка-качалка", "ar": "حصان هزاز", "hi": "झूलने वाला घोड़ा", "zh": "摇摇马", "ja": "木馬", "ko": "흔들목마"},
+  "solution": ["..##..#...", ".####.....", "##.##.....", "#########.", "..########", "..######.#", "..#....#..", ".#...#..#.", "##......##", ".########."],
+  "colors":   ["..HH..Y...", ".TTTH.....", "TT.TH.....", "TTTTTTTTT.", "..TTTTTTTH", "..TTTTTT.H", "..T....T..", ".T...Y..T.", "RT......TR", ".RRRRRRRR."],
+  "palette":  { "H": "#5B3410", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
+}

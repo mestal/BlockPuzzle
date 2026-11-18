@@ -1,0 +1,7 @@
+{
+  "id": 209,
+  "name": {"de": "Papierlaterne", "en": "Paper lantern", "es": "Farolillo de papel", "fr": "Lanterne en papier", "it": "Lanterna di carta", "pl": "Papierowy lampion", "pt": "Lanterna de papel", "tr": "Kâğıt fener", "el": "Χάρτινο φανάρι", "bg": "Хартиен фенер", "ru": "Бумажный фонарик", "ar": "فانوس ورقي", "hi": "कागज़ की लालटेन", "zh": "纸灯笼", "ja": "提灯", "ko": "종이 등불"},
+  "solution": ["#...##..#.", "...####...", "..######..", ".########.", "#.######.#", "##.####.##", "###.##.###", "##.####.##", "#.######.#", ".########.", "..######..", "#..####...", "....##..#.", "....##....", "...####..."],
+  "colors":   ["Y...KK..Y.", "...KKKK...", "..RRRRRR..", ".RRRRRRRR.", "R.RRRRRR.R", "RR.RRRR.RR", "RRR.RR.RRR", "RR.RRRR.RR", "R.RRRRRR.R", ".RRRRRRRR.", "..RRRRRR..", "Y..KKKK...", "....AA..Y.", "....AA....", "...AAAA..."],
+  "palette":  { "A": "#F59E0B", "K": "#1F2937", "R": "#E8453C", "Y": "#FACC15" }
+}

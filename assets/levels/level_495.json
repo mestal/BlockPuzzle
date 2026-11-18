@@ -1,0 +1,7 @@
+{
+  "id": 495,
+  "name": {"de": "Freiheitsstatue", "en": "Statue of Liberty", "es": "Estatua de la Libertad", "fr": "Statue de la Liberté", "it": "Statua della Libertà", "pl": "Statua Wolności", "pt": "Estátua da Liberdade", "tr": "Özgürlük Heykeli", "el": "Άγαλμα της Ελευθερίας", "bg": "Статуята на свободата", "ru": "Статуя Свободы", "ar": "تمثال الحرية", "hi": "स्टैच्यू ऑफ़ लिबर्टी", "zh": "自由女神像", "ja": "自由の女神", "ko": "자유의 여신상"},
+  "solution": [".......#..", ".#....###.", ".......#..", ".#.#.#.#..", "..###..#..", "#.###..#..", "...#..##.#", "..#####...", "##.###....", ".#####....", "..####..#.", "..####....", ".######...", ".#######.#", ".#######.."],
+  "colors":   [".......Y..", ".Y....YYY.", ".......Q..", ".Q.Q.Q.Q..", "..QQQ..Q..", "Y.QQQ..Q..", "...Q..QQ.Y", "..QQQQQ...", "QQ.QQQ....", ".QQQQQ....", "..QQQQ..Y.", "..QQQQ....", ".QQQQQQ...", ".EEEEEEE.Y", ".EEEEEEE.."],
+  "palette":  { "E": "#94A3B8", "Q": "#0D9488", "Y": "#FACC15" }
+}

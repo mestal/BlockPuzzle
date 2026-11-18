@@ -1,0 +1,7 @@
+{
+  "id": 310,
+  "name": {"de": "Prinzessin", "en": "Princess", "es": "Princesa", "fr": "Princesse", "it": "Principessa", "pl": "Księżniczka", "pt": "Princesa", "tr": "Prenses", "el": "Πριγκίπισσα", "bg": "Принцеса", "ru": "Принцесса", "ar": "أميرة", "hi": "राजकुमारी", "zh": "公主", "ja": "お姫さま", "ko": "공주"},
+  "solution": ["#........#", "..#.#.#...", "..#####...", ".#######..", "#########.", "###.#.###.", "#########.", "##.###.##.", "#.#####.#.", "..#####...", ".#######.#", ".#######..", "#########.", "#########.", ".........."],
+  "colors":   ["Y........Y", "..Y.Y.Y...", "..YYYYY...", ".AAAAAAA..", "AAFFFFFAA.", "AAF.F.FAA.", "AAFFFFFAA.", "AA.FFF.AA.", "A.PPPPP.A.", "..PPPPP...", ".PPPPPPP.Y", ".PPPPPPP..", "PPPPPPPPP.", "PPPPPPPPP.", ".........."],
+  "palette":  { "A": "#F59E0B", "F": "#FBCFA5", "P": "#F472B6", "Y": "#FACC15" }
+}

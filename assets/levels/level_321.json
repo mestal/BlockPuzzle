@@ -1,0 +1,7 @@
+{
+  "id": 321,
+  "name": {"de": "Jaguar", "en": "Jaguar", "es": "Jaguar", "fr": "Jaguar", "it": "Giaguaro", "pl": "Jaguar", "pt": "Onça-pintada", "tr": "Jaguar", "el": "Τζάγκουαρ", "bg": "Ягуар", "ru": "Ягуар", "ar": "جاكوار", "hi": "जगुआर", "zh": "美洲豹", "ja": "ジャガー", "ko": "재규어"},
+  "solution": [".#......#.", "###.##.###", "##########", "#.######.#", "##########", "####..####", ".#.####.#.", ".########.", "..######..", "#..####..#"],
+  "colors":   [".A......A.", "AAA.AA.AAA", "AAAAAAAAAA", "A.AAAAAA.A", "AAKAAAAKAA", "AAAA..AAAA", ".A.AKKA.A.", ".AAAAAAAA.", "..AWWWWA..", "Y..AWWA..Y"],
+  "palette":  { "A": "#F59E0B", "K": "#1F2937", "W": "#FFFFFF", "Y": "#FACC15" }
+}

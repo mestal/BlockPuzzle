@@ -1,0 +1,7 @@
+{
+  "id": 295,
+  "name": {"de": "Springteufel", "en": "Jack-in-the-box", "es": "Caja sorpresa", "fr": "Diable en boîte", "it": "Pupazzo a molla", "pl": "Diabełek z pudełka", "pt": "Caixa surpresa", "tr": "Kutudan fırlayan palyaço", "el": "Κουτί-έκπληξη", "bg": "Кутия с изненада", "ru": "Чёртик из табакерки", "ar": "علبة المفاجأة", "hi": "जैक-इन-द-बॉक्स", "zh": "玩偶匣", "ja": "びっくり箱", "ko": "깜짝 상자"},
+  "solution": ["#...##..#.", "...####...", "..######..", "..#.##.#.#", "#.######..", "...####...", "#..#....#.", "#...#.....", "#.#..#....", "#...#.....", "##########", "##########", "##########", "##########", ".........."],
+  "colors":   ["Y...PP..Y.", "...PPPP...", "..WWWWWW..", "..W.WW.W.Y", "Y.WWRRWW..", "...WWWW...", "B..E....Y.", "B...E.....", "B.Y..E....", "B...E.....", "BBBBBBBBBB", "BBBYYYYBBB", "BBBBBBBBBB", "BBBBBBBBBB", ".........."],
+  "palette":  { "B": "#3B82F6", "E": "#94A3B8", "P": "#F472B6", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

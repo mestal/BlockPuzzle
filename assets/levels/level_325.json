@@ -1,0 +1,7 @@
+{
+  "id": 325,
+  "name": {"de": "Baumhaus", "en": "Tree house", "es": "Casa del árbol", "fr": "Cabane dans l'arbre", "it": "Casa sull'albero", "pl": "Domek na drzewie", "pt": "Casa na árvore", "tr": "Ağaç ev", "el": "Δεντρόσπιτο", "bg": "Къща на дърво", "ru": "Домик на дереве", "ar": "بيت الشجرة", "hi": "पेड़ घर", "zh": "树屋", "ja": "ツリーハウス", "ko": "나무 위의 집"},
+  "solution": ["..######..", ".########.", "##########", "##########", ".########.", "..######..", "#.#.##.#..", "..######..", "##########", "....###.#.", "....#####.", "#...###.#.", "....#####.", "...####.#.", "##########"],
+  "colors":   ["..GGGGGG..", ".GGGGGGGG.", "GGGRRRRGGG", "GGRRRRRRGG", ".RRRRRRRR.", "..TTTTTT..", "Y.T.TT.T..", "..TTTTTT..", "HHHHHHHHHH", "....HHT.T.", "....HHTTT.", "Y...HHT.T.", "....HHTTT.", "...HHHT.T.", "GGGHHHHGGG"],
+  "palette":  { "G": "#22C55E", "H": "#5B3410", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
+}

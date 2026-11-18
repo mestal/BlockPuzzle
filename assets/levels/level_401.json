@@ -1,0 +1,7 @@
+{
+  "id": 401,
+  "name": {"de": "Maulwurf", "en": "Mole", "es": "Topo", "fr": "Taupe", "it": "Talpa", "pl": "Kret", "pt": "Toupeira", "tr": "Köstebek", "el": "Τυφλοπόντικας", "bg": "Къртица", "ru": "Крот", "ar": "خلد", "hi": "छछूंदर", "zh": "鼹鼠", "ja": "モグラ", "ko": "두더지"},
+  "solution": ["#..####..#", "..######..", ".##.##.##.", ".########.", ".########.", "##.####.##", ".########.", "##########", "###.####.#", ".########."],
+  "colors":   ["Y..KKKK..Y", "..KKKKKK..", ".KK.KK.KK.", ".KKKKKKKK.", ".KKKPPKKK.", "FF.KKKK.FF", ".FFKKKKFF.", "TTTTTTTTTT", "TTT.TTTT.T", ".TTTTTTTT."],
+  "palette":  { "F": "#FBCFA5", "K": "#1F2937", "P": "#F472B6", "T": "#92400E", "Y": "#FACC15" }
+}

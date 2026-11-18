@@ -1,0 +1,7 @@
+{
+  "id": 247,
+  "name": {"de": "Burger", "en": "Burger", "es": "Hamburguesa", "fr": "Hamburger", "it": "Hamburger", "pl": "Burger", "pt": "Hambúrguer", "tr": "Hamburger", "el": "Μπέργκερ", "bg": "Бургер", "ru": "Бургер", "ar": "برغر", "hi": "बर्गर", "zh": "汉堡", "ja": "ハンバーガー", "ko": "햄버거"},
+  "solution": ["#..####..#", "..######..", ".########.", ".##.##.##.", "..######..", ".########.", ".########.", "..#....#..", ".########.", "..######.."],
+  "colors":   ["Y..AAAA..Y", "..AWAAWA..", ".AAAAAAAA.", ".GG.GG.GG.", "..RRRRRR..", ".HHHHHHHH.", ".YYYYYYYY.", "..Y....Y..", ".AAAAAAAA.", "..AAAAAA.."],
+  "palette":  { "A": "#F59E0B", "G": "#22C55E", "H": "#5B3410", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

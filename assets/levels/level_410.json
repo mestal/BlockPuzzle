@@ -1,0 +1,7 @@
+{
+  "id": 410,
+  "name": {"de": "Vogelhaus", "en": "Birdhouse", "es": "Casita para pájaros", "fr": "Nichoir", "it": "Casetta per uccelli", "pl": "Budka lęgowa", "pt": "Casinha de pássaro", "tr": "Kuş evi", "el": "Φωλιά πουλιών", "bg": "Къщичка за птици", "ru": "Скворечник", "ar": "بيت الطيور", "hi": "पक्षी घर", "zh": "鸟屋", "ja": "巣箱", "ko": "새집"},
+  "solution": ["#...##..#.", "...####...", "..######..", ".########.", "##########", ".########.", ".###..###.", ".##....##.", ".###..###.", ".########.", "###.#####.", "....##....", "#...##.#..", "....##....", "..######.."],
+  "colors":   ["Y...RR..Y.", "...RRRR...", "..RRRRRR..", ".RRRRRRRR.", "RRRRRRRRRR", ".TTTTTTTT.", ".TTT..TTT.", ".TT....TT.", ".TTT..TTT.", ".TTTTTTTT.", "HHH.TTTTT.", "....HH....", "Y...HH.Y..", "....HH....", "..HHHHHH.."],
+  "palette":  { "H": "#5B3410", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
+}

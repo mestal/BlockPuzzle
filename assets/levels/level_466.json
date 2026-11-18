@@ -1,0 +1,7 @@
+{
+  "id": 466,
+  "name": {"de": "Baseballkappe", "en": "Baseball cap", "es": "Gorra de béisbol", "fr": "Casquette", "it": "Cappellino", "pl": "Czapka z daszkiem", "pt": "Boné", "tr": "Beyzbol şapkası", "el": "Καπέλο του μπέιζμπολ", "bg": "Шапка с козирка", "ru": "Бейсболка", "ar": "قبعة بيسبول", "hi": "बेसबॉल टोपी", "zh": "棒球帽", "ja": "野球帽", "ko": "야구 모자"},
+  "solution": [".#...#....", "..........", "..####..#.", ".######...", "########..", "########..", "#########.", "......####", "#...#.....", "........#."],
+  "colors":   [".Y...Y....", "..........", "..BBBB..Y.", ".BBBBBB...", "BBBWBBBB..", "BBBBBBBB..", "BBBBBBBBB.", "......BBBB", "Y...Y.....", "........Y."],
+  "palette":  { "B": "#3B82F6", "W": "#FFFFFF", "Y": "#FACC15" }
+}

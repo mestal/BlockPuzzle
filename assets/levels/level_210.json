@@ -1,0 +1,7 @@
+{
+  "id": 210,
+  "name": {"de": "Karpfenfahne", "en": "Carp streamer", "es": "Koinobori", "fr": "Carpe koinobori", "it": "Koinobori", "pl": "Proporzec karp", "pt": "Koinobori", "tr": "Sazan flaması", "el": "Σημαία κυπρίνος", "bg": "Знаме шаран", "ru": "Флаг-карп", "ar": "علم الشبوط", "hi": "कार्प पताका", "zh": "鲤鱼旗", "ja": "こいのぼり", "ko": "잉어 깃발"},
+  "solution": ["#.#...#...", "#.........", "#########.", "##.#######", "#########.", "########.#", "#.........", "########..", "##.#######", "########..", "#######.#.", "#.........", "#.#.......", "#.........", "##...#...."],
+  "colors":   ["Y.Y...Y...", "H.........", "HBBBBBBBB.", "HW.WBBBBBB", "HBBBBBBBB.", "HBBBBBBB.B", "H.........", "HRRRRRRR..", "HW.WRRRRRR", "HRRRRRRR..", "HRRRRRR.R.", "H.........", "H.Y.......", "H.........", "HH...Y...."],
+  "palette":  { "B": "#3B82F6", "H": "#5B3410", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

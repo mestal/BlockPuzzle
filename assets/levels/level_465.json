@@ -1,0 +1,7 @@
+{
+  "id": 465,
+  "name": {"de": "Fußball", "en": "Soccer ball", "es": "Balón de fútbol", "fr": "Ballon de foot", "it": "Pallone da calcio", "pl": "Piłka nożna", "pt": "Bola de futebol", "tr": "Futbol topu", "el": "Μπάλα ποδοσφαίρου", "bg": "Футболна топка", "ru": "Футбольный мяч", "ar": "كرة قدم", "hi": "फ़ुटबॉल", "zh": "足球", "ja": "サッカーボール", "ko": "축구공"},
+  "solution": ["#.......#.", "...####...", "..##..##..", ".##.##.##.", ".#.####.#.", ".#.####.#.", ".##.##.##.", "..##..##..", "...####...", "#.......#."],
+  "colors":   ["Y.......Y.", "...WWWW...", "..WW..WW..", ".WW.WW.WW.", ".W.WWWW.W.", ".W.WWWW.W.", ".WW.WW.WW.", "..WW..WW..", "...WWWW...", "Y.......Y."],
+  "palette":  { "W": "#FFFFFF", "Y": "#FACC15" }
+}

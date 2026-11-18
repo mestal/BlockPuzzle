@@ -1,0 +1,7 @@
+{
+  "id": 246,
+  "name": {"de": "Kochmütze", "en": "Chef hat", "es": "Gorro de chef", "fr": "Toque de chef", "it": "Cappello da chef", "pl": "Czapka kucharska", "pt": "Chapéu de chef", "tr": "Aşçı şapkası", "el": "Σκούφος σεφ", "bg": "Готварска шапка", "ru": "Поварской колпак", "ar": "قبعة الطاهي", "hi": "शेफ की टोपी", "zh": "厨师帽", "ja": "コック帽", "ko": "요리사 모자"},
+  "solution": [".##.##.##.", "##########", "##########", ".########.", "..######..", "#.#.##.#..", "..#.##.#.#", "..######..", "..######..", "#........."],
+  "colors":   [".WW.WW.WW.", "WWWWWWWWWW", "WWWWWWWWWW", ".WWWWWWWW.", "..WWWWWW..", "Y.W.WW.W..", "..W.WW.W.Y", "..WWWWWW..", "..LLLLLL..", "Y........."],
+  "palette":  { "L": "#E2E8F0", "W": "#FFFFFF", "Y": "#FACC15" }
+}

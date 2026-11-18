@@ -1,0 +1,7 @@
+{
+  "id": 208,
+  "name": {"de": "Winkekatze", "en": "Lucky cat", "es": "Gato de la suerte", "fr": "Chat porte-bonheur", "it": "Gatto portafortuna", "pl": "Kot szczęścia", "pt": "Gato da sorte", "tr": "Şans kedisi", "el": "Γάτα της τύχης", "bg": "Котка на късмета", "ru": "Манэки-нэко", "ar": "قطة الحظ", "hi": "भाग्यशाली बिल्ली", "zh": "招财猫", "ja": "招き猫", "ko": "마네키네코"},
+  "solution": ["...#......", ".#...#..##", ".#####..##", "##.#.##.##", "#######.##", "#######.##", ".########.", "..######..", ".########.", "##########", "##########", "##########", ".########.", "..........", "#...#...#."],
+  "colors":   ["...Y......", ".W...W..WW", ".WWWWW..WW", "WW.W.WW.WW", "WWWWWWW.WW", "WWWPPWW.WW", ".WWRRWWWW.", "..WWAWWW..", ".WWWWWWWW.", "WWAAAAAWWW", "WWAAAAAWWW", "WWWWWWWWWW", ".WWWWWWWW.", "..........", "Y...Y...Y."],
+  "palette":  { "A": "#F59E0B", "P": "#F472B6", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

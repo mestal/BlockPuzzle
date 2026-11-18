@@ -1,0 +1,7 @@
+{
+  "id": 469,
+  "name": {"de": "Zielscheibe", "en": "Archery target", "es": "Diana de tiro", "fr": "Cible de tir à l'arc", "it": "Bersaglio", "pl": "Tarcza łucznicza", "pt": "Alvo de arco e flecha", "tr": "Okçuluk hedefi", "el": "Στόχος τοξοβολίας", "bg": "Мишена", "ru": "Мишень", "ar": "هدف الرماية", "hi": "तीरंदाज़ी का निशाना", "zh": "箭靶", "ja": "弓道の的", "ko": "과녁"},
+  "solution": ["....###...", ".##....##.", "#..####..#", "#.#....#.#", "#.#.##.#.#", "#.#.##.#.#", "#.#....#.#", "#..####..#", ".##....##.", "...####..."],
+  "colors":   ["....RRR...", ".RR....RR.", "R..RRRR..R", "R.R....R.R", "R.R.YY.R.R", "R.R.YY.R.R", "R.R....R.R", "R..RRRR..R", ".RR....RR.", "...RRRR..."],
+  "palette":  { "R": "#E8453C", "Y": "#FACC15" }
+}

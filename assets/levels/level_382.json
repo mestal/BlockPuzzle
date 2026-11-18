@@ -1,0 +1,7 @@
+{
+  "id": 382,
+  "name": {"de": "Krokodil", "en": "Crocodile", "es": "Cocodrilo", "fr": "Crocodile", "it": "Coccodrillo", "pl": "Krokodyl", "pt": "Crocodilo", "tr": "Timsah", "el": "Κροκόδειλος", "bg": "Крокодил", "ru": "Крокодил", "ar": "تمساح", "hi": "मगरमच्छ", "zh": "鳄鱼", "ja": "ワニ", "ko": "악어"},
+  "solution": [".....#...#", ".#.#......", "#########.", "##########", "##.#.#.#.#", "#.........", "#.#.#.#.#.", "##########", "#########.", ".........."],
+  "colors":   [".....Y...Y", ".G.G......", "GGGGGGGGG.", "GGGGGGGGGG", "GW.W.W.W.W", "G.........", "G.W.W.W.W.", "GGGGGGGGGG", "GGGGGGGGG.", ".........."],
+  "palette":  { "G": "#22C55E", "W": "#FFFFFF", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 322,
+  "name": {"de": "Tropenhelm", "en": "Explorer hat", "es": "Sombrero de explorador", "fr": "Chapeau d'explorateur", "it": "Cappello da esploratore", "pl": "Kapelusz odkrywcy", "pt": "Chapéu de explorador", "tr": "Kaşif şapkası", "el": "Καπέλο εξερευνητή", "bg": "Шапка на изследовател", "ru": "Шляпа исследователя", "ar": "قبعة المستكشف", "hi": "खोजकर्ता की टोपी", "zh": "探险帽", "ja": "探検帽", "ko": "탐험가 모자"},
+  "solution": ["...####...", "..######..", "..######..", "..######..", "##########", ".########.", "..##...#..", "...#..#...", "....##....", "..#......."],
+  "colors":   ["...SSSS...", "..SSSSSS..", "..SSSSSS..", "..TTTTTT..", "SSSSSSSSSS", ".SSSSSSSS.", "..TT...T..", "...T..T...", "....TT....", "..Y......."],
+  "palette":  { "S": "#FDE68A", "T": "#92400E", "Y": "#FACC15" }
+}

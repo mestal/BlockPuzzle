@@ -1,0 +1,7 @@
+{
+  "id": 425,
+  "name": {"de": "Hotdog", "en": "Hot dog", "es": "Perrito caliente", "fr": "Hot-dog", "it": "Hot dog", "pl": "Hot dog", "pt": "Cachorro-quente", "tr": "Sosisli sandviç", "el": "Χοτ ντογκ", "bg": "Хотдог", "ru": "Хот-дог", "ar": "هوت دوغ", "hi": "हॉट डॉग", "zh": "热狗", "ja": "ホットドッグ", "ko": "핫도그"},
+  "solution": ["#......##.", "....######", "....######", "...######.", "..######..", ".######...", "######....", "#####.....", ".##.......", "....#...#."],
+  "colors":   ["Y......AA.", "....AAAARA", "....AARRYA", "...ARRYRA.", "..ARYRRA..", ".ARRYRA...", "ARYRRA....", "ARRAA.....", ".AA.......", "....Y...Y."],
+  "palette":  { "A": "#F59E0B", "R": "#E8453C", "Y": "#FACC15" }
+}

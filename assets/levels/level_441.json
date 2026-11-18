@@ -1,0 +1,7 @@
+{
+  "id": 441,
+  "name": {"de": "Bullauge", "en": "Porthole", "es": "Ojo de buey", "fr": "Hublot", "it": "Oblò", "pl": "Bulaj", "pt": "Escotilha", "tr": "Lomboz", "el": "Φινιστρίνι", "bg": "Илюминатор", "ru": "Иллюминатор", "ar": "كوة السفينة", "hi": "जहाज़ की खिड़की", "zh": "舷窗", "ja": "舷窓", "ko": "현창"},
+  "solution": ["...####...", ".########.", "##.####.##", "#.######.#", "#.######.#", "#.######.#", "#.######.#", "##.####.##", ".########.", "...####..."],
+  "colors":   ["...EEEE...", ".EEEEEEEE.", "EE.CCCC.EE", "E.CCCCCC.E", "E.CCWCCC.E", "E.BBBBBB.E", "E.BBBBBB.E", "EE.BBBB.EE", ".EEEEEEEE.", "...EEEE..."],
+  "palette":  { "B": "#3B82F6", "C": "#22D3EE", "E": "#94A3B8", "W": "#FFFFFF" }
+}

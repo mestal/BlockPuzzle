@@ -1,0 +1,7 @@
+{
+  "id": 286,
+  "name": {"de": "Farbpalette", "en": "Paint palette", "es": "Paleta de pintura", "fr": "Palette de peinture", "it": "Tavolozza", "pl": "Paleta", "pt": "Paleta de tintas", "tr": "Boya paleti", "el": "Παλέτα", "bg": "Палитра", "ru": "Палитра", "ar": "لوحة الألوان", "hi": "रंग पट्टिका", "zh": "调色板", "ja": "パレット", "ko": "팔레트"},
+  "solution": ["#........#", "..######..", ".########.", "##########", "####..####", "####..####", "##########", ".########.", "..###..##.", "#........."],
+  "colors":   ["Y........Y", "..TTTTTT..", ".TRTTTBTT.", "TTTTTTTTYT", "TTTT..TTTT", "TGTT..TTTT", "TTTTTTTTPT", ".TTTTTTTT.", "..TTT..TT.", "Y........."],
+  "palette":  { "B": "#3B82F6", "G": "#22C55E", "P": "#F472B6", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
+}

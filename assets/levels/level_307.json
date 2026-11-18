@@ -1,0 +1,7 @@
+{
+  "id": 307,
+  "name": {"de": "Königliche Kutsche", "en": "Royal carriage", "es": "Carroza real", "fr": "Carrosse royal", "it": "Carrozza reale", "pl": "Królewska kareta", "pt": "Carruagem real", "tr": "Kraliyet arabası", "el": "Βασιλική άμαξα", "bg": "Кралска карета", "ru": "Королевская карета", "ar": "عربة ملكية", "hi": "शाही बग्घी", "zh": "皇家马车", "ja": "王家の馬車", "ko": "왕실 마차"},
+  "solution": ["....#....#", "...###....", ".#######..", "#########.", "#########.", "#########.", ".#######..", "###...###.", "#.#...#.#.", "###...###."],
+  "colors":   ["....Y....Y", "...AAA....", ".AAAAAAA..", "AACCACCAA.", "AACCACCAA.", "AAAAAAAAA.", ".AAAAAAA..", "KKK...KKK.", "K.K...K.K.", "KKK...KKK."],
+  "palette":  { "A": "#F59E0B", "C": "#22D3EE", "K": "#1F2937", "Y": "#FACC15" }
+}

@@ -1,0 +1,7 @@
+{
+  "id": 309,
+  "name": {"de": "Gläserner Schuh", "en": "Glass slipper", "es": "Zapatilla de cristal", "fr": "Pantoufle de verre", "it": "Scarpetta di cristallo", "pl": "Szklany pantofelek", "pt": "Sapatinho de cristal", "tr": "Cam ayakkabı", "el": "Γυάλινο γοβάκι", "bg": "Стъклена пантофка", "ru": "Хрустальная туфелька", "ar": "حذاء زجاجي", "hi": "कांच की जूती", "zh": "水晶鞋", "ja": "ガラスの靴", "ko": "유리 구두"},
+  "solution": ["......###.", ".....#...#", ".........#", ".####....#", "#....###.#", "#.#......#", ".#########", ".......##.", ".......##.", ".......#.."],
+  "colors":   ["......CCC.", ".....C...C", ".........C", ".CCCC....C", "C....CCC.C", "C.W......C", ".CCCCCCCCC", ".......CC.", ".......CC.", ".......C.."],
+  "palette":  { "C": "#22D3EE", "W": "#FFFFFF" }
+}

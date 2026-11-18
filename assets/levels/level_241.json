@@ -1,0 +1,7 @@
+{
+  "id": 241,
+  "name": {"de": "Sandwich", "en": "Sandwich", "es": "Sándwich", "fr": "Sandwich", "it": "Panino", "pl": "Kanapka", "pt": "Sanduíche", "tr": "Sandviç", "el": "Σάντουιτς", "bg": "Сандвич", "ru": "Сэндвич", "ar": "شطيرة", "hi": "सैंडविच", "zh": "三明治", "ja": "サンドイッチ", "ko": "샌드위치"},
+  "solution": ["#..#...#..", "##........", "###.......", "####......", "#####..#..", "######....", "#######...", "########..", "#########.", "##########"],
+  "colors":   ["A..Y...Y..", "WA........", "WWA.......", "GGGA......", "RRRRA..Y..", "YYYYYA....", "HHHHHHA...", "GGGGGGGA..", "WWWWWWWWA.", "AAAAAAAAAA"],
+  "palette":  { "A": "#F59E0B", "G": "#22C55E", "H": "#5B3410", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }
+}

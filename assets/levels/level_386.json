@@ -1,0 +1,7 @@
+{
+  "id": 386,
+  "name": {"de": "Elefant", "en": "Elephant", "es": "Elefante", "fr": "Éléphant", "it": "Elefante", "pl": "Słoń", "pt": "Elefante", "tr": "Fil", "el": "Ελέφαντας", "bg": "Слон", "ru": "Слон", "ar": "فيل", "hi": "हाथी", "zh": "大象", "ja": "ゾウ", "ko": "코끼리"},
+  "solution": ["..####....", ".########.", "#.##..####", "####..####", "#.########", "#..#######", "#..##..##.", "##.##..##.", "...##..##.", "#........."],
+  "colors":   ["..EEEE....", ".EEEEEEEE.", "E.EE..EEEE", "EEEE..EEEE", "E.EEEEEEEE", "E..EEEEEEE", "E..EE..EE.", "EE.EE..EE.", "...EE..EE.", "Y........."],
+  "palette":  { "E": "#94A3B8", "Y": "#FACC15" }
+}
