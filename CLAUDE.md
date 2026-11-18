@@ -30,7 +30,7 @@ Mod düğmesi yok; işlemi **jest** belirler:
 | Jest | Sonuç |
 |---|---|
 | Tek dokunma | Kareyi **doldur** |
-| Tek dokunup basılı tutarak sürükleme | Geçilen kareleri **doldur** (bir X'ten başlanırsa geçilen karelere **X**) |
+| Tek dokunup basılı tutarak sürükleme | Geçilen kareleri **doldur** |
 | Çift dokunma | Kareye **X** (oyuncunun kendi X'ine çift dokunma X'i **kaldırır**) |
 | Çift dokunup ikinci dokunuşta basılı tutarak sürükleme | Geçilen karelere **X**; oyuncunun kendi X'inden başlanırsa geçilen X'ler **silinir** |
 

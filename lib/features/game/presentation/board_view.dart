@@ -20,8 +20,7 @@ typedef MarkCallback =
 
 /// Clues + grid. Gestures:
 /// * single tap → fill, single press-and-drag → fill along a line
-///   (cells holding the player's X are skipped: remove the X first); a
-///   single press-and-drag that starts on an X draws X marks instead
+///   (cells holding the player's X are skipped: remove the X first)
 /// * double tap → X (or removes a manual X), double tap with the 2nd press
 ///   dragged → X along a line; starting that drag on a manual X removes the
 ///   manual X marks along the line instead
@@ -193,10 +192,7 @@ class _BoardViewState extends State<BoardView> {
       // previous one as a fill right away.
       if (pending != null) _commitFill(pending);
       _isSecondTap = false;
-      // A drag that starts on an X keeps drawing X marks, never fills.
-      _action = _state.board.at(pos.$1, pos.$2).mark == CellMark.crossed
-          ? MoveAction.cross
-          : MoveAction.fill;
+      _action = MoveAction.fill;
       _down = pos;
       if (!_state.board.at(pos.$1, pos.$2).isOpen) {
         _preview = pos;
