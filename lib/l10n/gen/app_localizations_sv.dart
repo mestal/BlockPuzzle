@@ -9,7 +9,7 @@ class AppLocalizationsSv extends AppLocalizations {
   AppLocalizationsSv([String locale = 'sv']) : super(locale);
 
   @override
-  String get appTitle => 'BlockPuzzle';
+  String get appTitle => 'Pixel Bloom';
 
   @override
   String get whoIsPlaying => 'Vem spelar?';

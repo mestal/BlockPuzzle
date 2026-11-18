@@ -9,7 +9,7 @@ class AppLocalizationsMs extends AppLocalizations {
   AppLocalizationsMs([String locale = 'ms']) : super(locale);
 
   @override
-  String get appTitle => 'BlockPuzzle';
+  String get appTitle => 'Pixel Bloom';
 
   @override
   String get whoIsPlaying => 'Siapa yang bermain?';

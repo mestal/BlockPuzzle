@@ -9,7 +9,7 @@ class AppLocalizationsUk extends AppLocalizations {
   AppLocalizationsUk([String locale = 'uk']) : super(locale);
 
   @override
-  String get appTitle => 'BlockPuzzle';
+  String get appTitle => 'Pixel Bloom';
 
   @override
   String get whoIsPlaying => 'Хто грає?';

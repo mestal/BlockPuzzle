@@ -1,4 +1,4 @@
-package com.mestal.block_puzzle
+package com.mestal.nonogram
 
 import io.flutter.embedding.android.FlutterActivity
 

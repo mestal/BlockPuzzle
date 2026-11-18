@@ -9,7 +9,7 @@ class AppLocalizationsTe extends AppLocalizations {
   AppLocalizationsTe([String locale = 'te']) : super(locale);
 
   @override
-  String get appTitle => 'BlockPuzzle';
+  String get appTitle => 'Pixel Bloom';
 
   @override
   String get whoIsPlaying => 'ఎవరు ఆడుతున్నారు?';

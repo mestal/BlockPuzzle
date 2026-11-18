@@ -1,6 +1,8 @@
-# BlockPuzzle — CLAUDE.md
+# Pixel Bloom — CLAUDE.md
 
-Mobil (yalnızca **dikey / portrait**) bir **nonogram** bulmaca oyunu. Flutter ile yazılır.
+**Pixel Bloom**: mobil (yalnızca **dikey / portrait**) bir **nonogram** bulmaca oyunu.
+Uygulama kimliği Android ve iOS'ta `com.mestal.nonogram` (yayından sonra değişmez); görünen ad
+ARB `appTitle`, `AndroidManifest.xml`, `Info.plist` ve `web/` içinde. Flutter ile yazılır.
 Oyuncu, satır ve sütun ipuçlarına bakarak doğru kareleri doldurur; bölüm bitince dolu bloklar
 renklenip gizli bir **resme** dönüşür. 500 bölüm (25 harita), kolaydan zora.
 

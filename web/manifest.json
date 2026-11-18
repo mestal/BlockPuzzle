@@ -1,11 +1,11 @@
 {
-    "name": "block_puzzle",
-    "short_name": "block_puzzle",
+    "name": "Pixel Bloom",
+    "short_name": "Pixel Bloom",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#3B0764",
     "theme_color": "#3B0764",
-    "description": "A new Flutter project.",
+    "description": "Pixel Bloom: a nonogram picture puzzle.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

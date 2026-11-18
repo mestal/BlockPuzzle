@@ -173,7 +173,7 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In tr, this message translates to:
-  /// **'BlockPuzzle'**
+  /// **'Pixel Bloom'**
   String get appTitle;
 
   /// No description provided for @whoIsPlaying.
