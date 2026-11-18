@@ -244,13 +244,20 @@ class AppLocalizationsFil extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): pinupuno ng mga grupo at ng isang puwang sa pagitan ng bawat isa ang buong linya, kaya tiyak ang bawat kahon. Puno ang kahong ito!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, eksaktong haba ng linya. Napupuno ito nang buo ng mga grupo at ng tig-iisang puwang sa pagitan nila, kaya tiyak ang puwesto ng bawat kahon. Puno ang kahong ito!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): itulak ang mga grupo sa simula o sa dulo: laging nasa loob ng isang grupo ang kahong ito. Kaya dapat itong punan!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): kapag itinulak sa simula, sinasakop ng bloke na may habang $size ang mga kahon $early; kapag itinulak sa dulo, ang mga kahon $late. Puno ang mga kahon $common sa parehong kaso, kaya tiyak sila!';
   }
 
   @override
@@ -262,6 +269,24 @@ class AppLocalizationsFil extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): walang grupong aabot sa kahong ito, kaya bakante ito. Naglagay kami ng X dito.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): hanggang sa mga kahong ito lang aabot ang mga grupo: $reach. Nasa labas ng lahat ng ito ang kahon $cell, kaya bakante ito!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): may habang $size na ang katabing bloke ($cells), kasinghaba ng pinakamalaking grupong kakasya rito. Buo na ang bloke, kaya bakante ang kahong ito!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): nasa puwang na $gap lang ang haba ang kahong ito, sa pagitan ng mga X o ng gilid. Kahit ang pinakamaliit na grupong aabot dito ay may habang $size at hindi kakasya, kaya bakante ito!';
+  }
+
+  @override
+  String get hintFixedCross => 'Mali ang X mo rito, kaya inalis namin ito.';
 
   @override
   String get hintFallback => 'Bahagi ng larawan ang kahong ito.';

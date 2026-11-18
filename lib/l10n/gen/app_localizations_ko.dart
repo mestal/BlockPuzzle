@@ -238,13 +238,20 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): 묶음들과 그 사이의 빈칸 하나씩을 더하면 줄 전체가 채워지므로 모든 칸이 정해져요. 이 칸은 채워져요!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, 줄 길이와 딱 같아요. 묶음들과 그 사이 한 칸씩의 빈칸이 줄을 꽉 채우니 모든 칸의 자리가 정해져요. 이 칸은 채워져요!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): 묶음들을 앞쪽으로 밀든 뒤쪽으로 밀든 이 칸은 항상 묶음 안에 있어요. 그러니 반드시 채워져요!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): 길이 $size인 블록을 앞쪽으로 밀면 $early번째 칸, 뒤쪽으로 밀면 $late번째 칸을 덮어요. $common번째 칸은 두 경우 모두 채워지니 확실해요!';
   }
 
   @override
@@ -256,6 +263,24 @@ class AppLocalizationsKo extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): 어떤 묶음도 이 칸에 닿지 않으니 빈칸이에요. 여기에 X를 놓을게요.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): 묶음들은 이 칸까지만 닿아요: $reach. $cell번째 칸은 모두의 바깥이니 빈칸이에요!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): 옆의 블록($cells)은 이미 길이 $size로, 여기에 들어갈 수 있는 가장 큰 묶음과 같아요. 블록이 완성됐으니 이 칸은 빈칸이에요!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): 이 칸은 X나 가장자리 사이의 $gap칸짜리 틈에 있어요. 여기에 닿는 가장 작은 묶음도 길이 $size라 들어가지 않으니 빈칸이에요!';
+  }
+
+  @override
+  String get hintFixedCross => '여기 놓은 X는 틀렸어요. 그래서 지웠어요.';
 
   @override
   String get hintFallback => '이 칸은 그림의 일부예요.';

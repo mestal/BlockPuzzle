@@ -243,13 +243,20 @@ class AppLocalizationsDa extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): grupperne plus ét mellemrum mellem hver fylder hele linjen, så hvert felt ligger fast. Dette felt er udfyldt!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, præcis linjens længde. Grupperne med et mellemrum mellem hver fylder den helt, hvert felt har en fast plads. Dette felt er udfyldt!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): skub grupperne til starten eller slutningen: dette felt er altid inde i en gruppe. Så det skal være udfyldt!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): skubbet til starten dækker blokken på $size felterne $early, skubbet til slutningen felterne $late. Felterne $common er udfyldt i begge tilfælde, altså sikre!';
   }
 
   @override
@@ -261,6 +268,24 @@ class AppLocalizationsDa extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): ingen gruppe kan nå dette felt, så det er tomt. Vi sætter et X her.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): grupperne når kun disse felter: $reach. Felt $cell ligger uden for dem alle, så det er tomt!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): blokken ved siden af ($cells) er allerede $size lang, lige så lang som den største gruppe, der kan være her. Blokken er færdig, så dette felt er tomt!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): dette felt ligger i et mellemrum på kun $gap mellem X\'er eller kanten. Selv den mindste gruppe, der når hertil, er $size lang og kan ikke være der, så det er tomt!';
+  }
+
+  @override
+  String get hintFixedCross => 'Dit X her var forkert, så vi fjernede det.';
 
   @override
   String get hintFallback => 'Dette felt er en del af billedet.';

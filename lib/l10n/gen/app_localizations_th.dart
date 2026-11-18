@@ -241,13 +241,20 @@ class AppLocalizationsTh extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): กลุ่มทั้งหมดรวมช่องว่างคั่นกลุ่มละหนึ่งช่องเต็มทั้งเส้นพอดี ทุกช่องจึงแน่นอน ช่องนี้ต้องเติม!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length เท่ากับความยาวทั้งแถวพอดี กลุ่มต่าง ๆ กับช่องว่างหนึ่งช่องระหว่างกลุ่มเติมเต็มพอดี ทุกช่องมีที่แน่นอน ช่องนี้ต้องเติม!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): ไม่ว่าจะดันกลุ่มไปชิดต้นหรือชิดท้าย ช่องนี้ก็อยู่ในกลุ่มเสมอ ช่องนี้จึงต้องเติม!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): ถ้าดันบล็อกยาว $size ไปชิดต้น จะทับช่อง $early ถ้าดันไปชิดท้าย จะทับช่อง $late ช่อง $common ถูกเติมทั้งสองกรณี จึงแน่นอน!';
   }
 
   @override
@@ -259,6 +266,24 @@ class AppLocalizationsTh extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): ไม่มีกลุ่มไหนไปถึงช่องนี้ได้ ช่องนี้จึงว่าง เราใส่ X ไว้ให้แล้ว';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): กลุ่มต่าง ๆ ไปถึงได้แค่ช่องเหล่านี้: $reach ช่อง $cell อยู่นอกทั้งหมด จึงว่าง!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): บล็อกข้าง ๆ ($cells) ยาว $size แล้ว เท่ากับกลุ่มที่ใหญ่ที่สุดที่ใส่ตรงนี้ได้ บล็อกครบแล้ว ช่องนี้จึงว่าง!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): ช่องนี้อยู่ในช่องว่างยาวแค่ $gap ระหว่าง X หรือขอบ แม้แต่กลุ่มที่เล็กที่สุดที่มาถึงตรงนี้ก็ยาว $size ใส่ไม่ได้ ช่องนี้จึงว่าง!';
+  }
+
+  @override
+  String get hintFixedCross => 'X ของคุณตรงนี้ผิด เราเลยเอาออกให้แล้ว';
 
   @override
   String get hintFallback => 'ช่องนี้เป็นส่วนหนึ่งของภาพ';

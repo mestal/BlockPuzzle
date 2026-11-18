@@ -236,13 +236,20 @@ class AppLocalizationsTr extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): gruplar ve aralarındaki birer boşluk çizgiyi tam dolduruyor, her karenin yeri belli. Bu kare dolu!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, çizginin tam boyu. Gruplar ve aralarındaki birer boşluk çizgiyi tam dolduruyor, her karenin yeri belli. Bu kare dolu!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): grupları en başa da yaslasan en sona da, bu kare hep bir grubun içinde kalıyor. Bu yüzden kesin dolu!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): $size karelik blok en başa itilince $early., en sona itilince $late. kareleri kaplıyor. İkisinde de dolu olan kareler ($common) kesin dolu!';
   }
 
   @override
@@ -254,6 +261,24 @@ class AppLocalizationsTr extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): hiçbir grup bu kareye uzanamıyor, yani burası boş. X koyduk.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): gruplar ancak şu karelere uzanabilir: $reach. $cell. kare hepsinin dışında kalıyor, yani boş!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): yanındaki blok ($cells) zaten $size kare; buraya sığabilecek en büyük grup da bu kadar. Blok tamam, bu kare boş!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): bu kare, X\'ler ya da kenar arasındaki $gap karelik bir boşlukta. Buraya uzanan en küçük grup bile $size kare, sığmıyor. Bu kare boş!';
+  }
+
+  @override
+  String get hintFixedCross => 'Buradaki X\'in yanlıştı, kaldırdık.';
 
   @override
   String get hintFallback => 'Bu kare resmin bir parçası.';

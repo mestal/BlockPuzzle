@@ -246,13 +246,20 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): skupiny s jednou mezerou mezi sebou vyplní celou čáru, takže každé políčko je jisté. Toto políčko je vyplněné!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, přesně délka řady. Skupiny s jednou mezerou mezi sebou ji zaplní celou, každé políčko má pevné místo. Toto políčko je vyplněné!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): posuň skupiny na začátek nebo na konec: toto políčko je vždy uvnitř skupiny. Musí tedy být vyplněné!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): posunutý na začátek zabírá blok délky $size políčka $early, posunutý na konec políčka $late. Políčka $common jsou vyplněná v obou případech, takže jsou jistá!';
   }
 
   @override
@@ -264,6 +271,25 @@ class AppLocalizationsCs extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): žádná skupina na toto políčko nedosáhne, takže je prázdné. Dáme sem X.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): skupiny dosáhnou jen na tato políčka: $reach. Políčko $cell leží mimo všechna, takže je prázdné!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): vedlejší blok ($cells) má už délku $size, stejnou jako největší skupina, která se sem vejde. Blok je hotový, takže toto políčko je prázdné!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): toto políčko leží v mezeře délky jen $gap mezi X nebo okrajem. I nejmenší skupina, která sem dosáhne, má délku $size a nevejde se, takže je prázdné!';
+  }
+
+  @override
+  String get hintFixedCross =>
+      'Tvoje X tu bylo špatně, tak jsme ho odstranili.';
 
   @override
   String get hintFallback => 'Toto políčko je součástí obrázku.';

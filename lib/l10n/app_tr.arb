@@ -171,7 +171,7 @@
       }
     }
   },
-  "hintFullLine": "{line} ({clue}): gruplar ve aralarındaki birer boşluk çizgiyi tam dolduruyor, her karenin yeri belli. Bu kare dolu!",
+  "hintFullLine": "{line} ({clue}): {sum} = {length}, çizginin tam boyu. Gruplar ve aralarındaki birer boşluk çizgiyi tam dolduruyor, her karenin yeri belli. Bu kare dolu!",
   "@hintFullLine": {
     "placeholders": {
       "line": {
@@ -179,16 +179,34 @@
       },
       "clue": {
         "type": "String"
+      },
+      "sum": {
+        "type": "String"
+      },
+      "length": {
+        "type": "int"
       }
     }
   },
-  "hintOverlap": "{line} ({clue}): grupları en başa da yaslasan en sona da, bu kare hep bir grubun içinde kalıyor. Bu yüzden kesin dolu!",
+  "hintOverlap": "{line} ({clue}): {size} karelik blok en başa itilince {early}., en sona itilince {late}. kareleri kaplıyor. İkisinde de dolu olan kareler ({common}) kesin dolu!",
   "@hintOverlap": {
     "placeholders": {
       "line": {
         "type": "String"
       },
       "clue": {
+        "type": "String"
+      },
+      "size": {
+        "type": "int"
+      },
+      "early": {
+        "type": "String"
+      },
+      "late": {
+        "type": "String"
+      },
+      "common": {
         "type": "String"
       }
     }
@@ -215,6 +233,58 @@
       }
     }
   },
+  "hintOutOfReach": "{line} ({clue}): gruplar ancak şu karelere uzanabilir: {reach}. {cell}. kare hepsinin dışında kalıyor, yani boş!",
+  "@hintOutOfReach": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      },
+      "clue": {
+        "type": "String"
+      },
+      "reach": {
+        "type": "String"
+      },
+      "cell": {
+        "type": "int"
+      }
+    }
+  },
+  "hintBlockDone": "{line} ({clue}): yanındaki blok ({cells}) zaten {size} kare; buraya sığabilecek en büyük grup da bu kadar. Blok tamam, bu kare boş!",
+  "@hintBlockDone": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      },
+      "clue": {
+        "type": "String"
+      },
+      "cells": {
+        "type": "String"
+      },
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "hintTooSmall": "{line} ({clue}): bu kare, X'ler ya da kenar arasındaki {gap} karelik bir boşlukta. Buraya uzanan en küçük grup bile {size} kare, sığmıyor. Bu kare boş!",
+  "@hintTooSmall": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      },
+      "clue": {
+        "type": "String"
+      },
+      "gap": {
+        "type": "int"
+      },
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "hintFixedCross": "Buradaki X'in yanlıştı, kaldırdık.",
   "hintFallback": "Bu kare resmin bir parçası.",
   "tutorialSkip": "Atla",
   "tutorialGotIt": "Anladım",

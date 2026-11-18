@@ -245,13 +245,20 @@ class AppLocalizationsPl extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): grupy razem z jedną przerwą między nimi wypełniają całą linię, więc każde pole jest pewne. To pole jest wypełnione!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, czyli cała długość linii. Grupy z jedną przerwą między nimi wypełniają ją dokładnie, każde pole jest ustalone. To pole jest wypełnione!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): przesuń grupy na początek albo na koniec – to pole zawsze jest wewnątrz grupy. Musi więc być wypełnione!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): przesunięty na początek blok o długości $size zajmuje pola $early, przesunięty na koniec – pola $late. Pola $common są wypełnione w obu przypadkach, więc są pewne!';
   }
 
   @override
@@ -263,6 +270,24 @@ class AppLocalizationsPl extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): żadna grupa nie sięga tego pola, więc jest puste. Stawiamy tu X.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): grupy sięgają tylko tych pól: $reach. Pole $cell leży poza nimi wszystkimi, więc jest puste!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): blok obok ($cells) ma już długość $size, tyle co największa grupa, która tu pasuje. Blok jest gotowy, więc to pole jest puste!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): to pole leży w przerwie o długości tylko $gap między X-ami lub krawędzią. Nawet najmniejsza grupa, która tu sięga, ma długość $size i się nie mieści, więc pole jest puste!';
+  }
+
+  @override
+  String get hintFixedCross => 'Twój X był tu błędny, więc go usunęliśmy.';
 
   @override
   String get hintFallback => 'To pole jest częścią obrazka.';

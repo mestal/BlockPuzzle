@@ -242,13 +242,20 @@ class AppLocalizationsIt extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): i gruppi più uno spazio tra ciascuno riempiono tutta la linea, quindi ogni casella è nota. Questa casella è piena!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, l\'intera lunghezza della linea. I gruppi con uno spazio tra l\'uno e l\'altro la riempiono tutta, ogni casella è fissata. Questa casella è piena!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): che tu spinga i gruppi all\'inizio o alla fine, questa casella resta sempre dentro un gruppo. Quindi è sicuramente piena!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): spinto all\'inizio, il blocco da $size copre le caselle $early; spinto alla fine, le caselle $late. Le caselle $common sono piene in entrambi i casi, quindi sicure!';
   }
 
   @override
@@ -260,6 +267,24 @@ class AppLocalizationsIt extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): nessun gruppo può arrivare a questa casella, quindi è vuota. Abbiamo messo una X.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): i gruppi arrivano solo a queste caselle: $reach. La casella $cell è fuori da tutte, quindi è vuota!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): il blocco accanto ($cells) è già lungo $size, quanto il gruppo più grande che ci sta qui. Il blocco è completo, quindi questa casella è vuota!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): questa casella è in uno spazio di appena $gap tra X o il bordo. Anche il gruppo più piccolo che ci arriva è lungo $size e non ci sta, quindi è vuota!';
+  }
+
+  @override
+  String get hintFixedCross => 'La tua X qui era sbagliata, l\'abbiamo tolta.';
 
   @override
   String get hintFallback => 'Questa casella fa parte dell\'immagine.';

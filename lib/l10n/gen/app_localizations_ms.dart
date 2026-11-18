@@ -242,13 +242,20 @@ class AppLocalizationsMs extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): kumpulan-kumpulan dengan satu ruang di antaranya memenuhi seluruh garisan, jadi setiap petak sudah pasti. Petak ini berisi!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, tepat panjang garisan. Kumpulan dengan satu ruang di antara setiap satu memenuhinya sepenuhnya, setiap petak ada tempat tetap. Petak ini berisi!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): tolak kumpulan ke awal atau ke hujung: petak ini sentiasa berada dalam satu kumpulan. Jadi ia mesti berisi!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): jika ditolak ke awal, blok sepanjang $size menutup petak $early; jika ditolak ke hujung, petak $late. Petak $common berisi dalam kedua-dua keadaan, jadi pasti!';
   }
 
   @override
@@ -260,6 +267,24 @@ class AppLocalizationsMs extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): tiada kumpulan yang boleh sampai ke petak ini, jadi ia kosong. Kami letakkan X di sini.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): kumpulan hanya boleh sampai ke petak ini: $reach. Petak $cell di luar semuanya, jadi ia kosong!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): blok di sebelah ($cells) sudah sepanjang $size, sama dengan kumpulan terbesar yang muat di sini. Blok sudah lengkap, jadi petak ini kosong!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): petak ini berada dalam ruang sepanjang $gap sahaja antara X atau tepi. Kumpulan terkecil yang sampai ke sini pun sepanjang $size dan tidak muat, jadi ia kosong!';
+  }
+
+  @override
+  String get hintFixedCross => 'X anda di sini salah, jadi kami membuangnya.';
 
   @override
   String get hintFallback => 'Petak ini sebahagian daripada gambar.';

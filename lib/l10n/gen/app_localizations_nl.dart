@@ -243,13 +243,20 @@ class AppLocalizationsNl extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): de groepen met telkens één lege ruimte ertussen vullen de hele lijn, dus elk vakje ligt vast. Dit vakje is gevuld!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, precies de lengte van de lijn. De groepen met telkens één lege plek ertussen vullen hem helemaal, elk vakje ligt vast. Dit vakje is gevuld!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): schuif de groepen naar het begin of naar het einde: dit vakje valt altijd binnen een groep. Het moet dus gevuld zijn!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): naar het begin geschoven bedekt het blok van $size de vakjes $early, naar het einde de vakjes $late. De vakjes $common zijn in beide gevallen gevuld, dus zeker!';
   }
 
   @override
@@ -261,6 +268,25 @@ class AppLocalizationsNl extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): geen enkele groep kan dit vakje bereiken, dus het is leeg. We zetten hier een X.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): de groepen reiken alleen tot deze vakjes: $reach. Vakje $cell valt buiten allemaal, dus het is leeg!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): het blok ernaast ($cells) is al $size lang, net zo lang als de grootste groep die hier past. Het blok is af, dus dit vakje is leeg!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): dit vakje ligt in een ruimte van maar $gap tussen X\'en of de rand. Zelfs de kleinste groep die hier komt is $size lang en past niet, dus het is leeg!';
+  }
+
+  @override
+  String get hintFixedCross =>
+      'Je X hier was fout, dus we hebben hem weggehaald.';
 
   @override
   String get hintFallback => 'Dit vakje hoort bij het plaatje.';

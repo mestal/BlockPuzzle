@@ -242,13 +242,20 @@ class AppLocalizationsFi extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): ryhmät ja yksi väli kunkin välissä täyttävät koko linjan, joten jokainen ruutu on varma. Tämä ruutu on täytetty!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, juuri rivin pituus. Ryhmät ja yksi väli kunkin välissä täyttävät sen kokonaan, joten jokaisen ruudun paikka on varma. Tämä ruutu on täytetty!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): työnnä ryhmät alkuun tai loppuun: tämä ruutu on aina ryhmän sisällä. Sen on siis oltava täytetty!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): alkuun työnnettynä $size pitkä palkki peittää ruudut $early, loppuun työnnettynä ruudut $late. Ruudut $common ovat täytettyjä kummassakin tapauksessa, joten ne ovat varmoja!';
   }
 
   @override
@@ -260,6 +267,24 @@ class AppLocalizationsFi extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): mikään ryhmä ei ulotu tähän ruutuun, joten se on tyhjä. Laitamme tähän X:n.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): ryhmät ulottuvat vain näihin ruutuihin: $reach. Ruutu $cell on kaikkien ulkopuolella, joten se on tyhjä!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): viereinen palkki ($cells) on jo $size pitkä, yhtä pitkä kuin suurin tähän mahtuva ryhmä. Palkki on valmis, joten tämä ruutu on tyhjä!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): tämä ruutu on X:ien tai reunan välisessä vain $gap pitkässä raossa. Pienin tänne ulottuva ryhmäkin on $size pitkä eikä mahdu, joten ruutu on tyhjä!';
+  }
+
+  @override
+  String get hintFixedCross => 'X:si tässä oli väärin, joten poistimme sen.';
 
   @override
   String get hintFallback => 'Tämä ruutu kuuluu kuvaan.';

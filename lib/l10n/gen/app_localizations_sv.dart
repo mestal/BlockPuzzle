@@ -243,13 +243,20 @@ class AppLocalizationsSv extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): grupperna plus ett mellanrum mellan varje fyller hela linjen, så varje ruta är bestämd. Den här rutan är fylld!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, precis linjens längd. Grupperna med en lucka mellan varje fyller den helt, varje ruta har en bestämd plats. Den här rutan är fylld!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): skjut grupperna till början eller till slutet: den här rutan hamnar alltid i en grupp. Så den måste vara fylld!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): skjutet till början täcker blocket på $size rutorna $early, skjutet till slutet rutorna $late. Rutorna $common är fyllda i båda fallen, alltså säkra!';
   }
 
   @override
@@ -261,6 +268,24 @@ class AppLocalizationsSv extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): ingen grupp når den här rutan, så den är tom. Vi sätter ett X här.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): grupperna når bara de här rutorna: $reach. Ruta $cell ligger utanför alla, så den är tom!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): blocket bredvid ($cells) är redan $size långt, lika långt som den största gruppen som får plats här. Blocket är klart, så den här rutan är tom!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): den här rutan ligger i en lucka på bara $gap mellan X eller kanten. Även den minsta gruppen som når hit är $size lång och får inte plats, så den är tom!';
+  }
+
+  @override
+  String get hintFixedCross => 'Ditt X här var fel, så vi tog bort det.';
 
   @override
   String get hintFallback => 'Den här rutan är en del av bilden.';

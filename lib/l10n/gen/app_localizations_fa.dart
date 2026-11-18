@@ -242,13 +242,20 @@ class AppLocalizationsFa extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): گروه‌ها با یک فاصله بین هرکدام کل خط را پر می‌کنند، پس هر خانه مشخص است. این خانه پر است!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length، یعنی درست به طول کل خط. گروه‌ها با یک فاصله بین هر کدام آن را کامل پر می‌کنند و جای هر خانه معلوم است. این خانه پر است!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): گروه‌ها را به ابتدا یا انتها هل بده؛ این خانه همیشه داخل یک گروه است. پس باید پر باشد!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): خانه‌ها از چپ یا از بالا شمرده می‌شوند. اگر بلوک به طول $size را به ابتدا هل بدهی خانه‌های $early را می‌پوشاند و اگر به انتها، خانه‌های $late را. خانه‌های $common در هر دو حالت پرند، پس قطعی‌اند!';
   }
 
   @override
@@ -260,6 +267,24 @@ class AppLocalizationsFa extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): هیچ گروهی به این خانه نمی‌رسد، پس خالی است. اینجا یک X گذاشتیم.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): خانه‌ها از چپ یا از بالا شمرده می‌شوند. گروه‌ها فقط به این خانه‌ها می‌رسند: $reach. خانهٔ $cell بیرون از همهٔ آن‌هاست، پس خالی است!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): بلوک کناری ($cells) همین حالا طولش $size است، به اندازهٔ بزرگ‌ترین گروهی که اینجا جا می‌شود. بلوک کامل است، پس این خانه خالی است!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): این خانه در فاصله‌ای به طول فقط $gap بین Xها یا لبه است. حتی کوچک‌ترین گروهی که به اینجا می‌رسد طولش $size است و جا نمی‌شود، پس خالی است!';
+  }
+
+  @override
+  String get hintFixedCross => 'X تو در اینجا اشتباه بود، برای همین برداشتیمش.';
 
   @override
   String get hintFallback => 'این خانه بخشی از تصویر است.';

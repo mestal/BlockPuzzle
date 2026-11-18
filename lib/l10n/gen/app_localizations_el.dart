@@ -244,13 +244,20 @@ class AppLocalizationsEl extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): οι ομάδες μαζί με ένα κενό ανάμεσά τους γεμίζουν όλη τη σειρά, άρα κάθε τετράγωνο είναι σίγουρο. Αυτό το τετράγωνο είναι γεμάτο!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, όλο το μήκος της γραμμής. Οι ομάδες με ένα κενό ανάμεσά τους τη γεμίζουν ακριβώς, κάθε τετράγωνο έχει σταθερή θέση. Αυτό το τετράγωνο είναι γεμάτο!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): σπρώξε τις ομάδες στην αρχή ή στο τέλος· αυτό το τετράγωνο είναι πάντα μέσα σε μια ομάδα. Άρα πρέπει να είναι γεμάτο!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): σπρωγμένο στην αρχή, το μπλοκ μήκους $size καλύπτει τα τετράγωνα $early· σπρωγμένο στο τέλος, τα τετράγωνα $late. Τα τετράγωνα $common είναι γεμάτα και στις δύο περιπτώσεις, άρα σίγουρα!';
   }
 
   @override
@@ -262,6 +269,25 @@ class AppLocalizationsEl extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): καμία ομάδα δεν φτάνει σε αυτό το τετράγωνο, άρα είναι κενό. Βάζουμε εδώ ένα X.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): οι ομάδες φτάνουν μόνο σε αυτά τα τετράγωνα: $reach. Το τετράγωνο $cell είναι έξω από όλα, άρα είναι κενό!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): το διπλανό μπλοκ ($cells) έχει ήδη μήκος $size, όσο η μεγαλύτερη ομάδα που χωράει εδώ. Το μπλοκ είναι πλήρες, άρα αυτό το τετράγωνο είναι κενό!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): αυτό το τετράγωνο είναι σε κενό μόλις $gap ανάμεσα σε X ή στην άκρη. Ακόμα και η μικρότερη ομάδα που φτάνει εδώ έχει μήκος $size και δεν χωράει, άρα είναι κενό!';
+  }
+
+  @override
+  String get hintFixedCross =>
+      'Το X σου εδώ ήταν λάθος, γι\' αυτό το αφαιρέσαμε.';
 
   @override
   String get hintFallback => 'Αυτό το τετράγωνο είναι μέρος της εικόνας.';

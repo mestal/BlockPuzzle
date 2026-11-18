@@ -530,7 +530,8 @@ class _GuidePainter extends CustomPainter {
       old.cell != cell || old.rows != rows || old.cols != cols;
 }
 
-/// Outlines the line that explains the current hint and rings its cell.
+/// Outlines the line that explains the current hint, marks the squares its
+/// explanation talks about and rings its cell.
 class _HintLine extends StatelessWidget {
   const _HintLine({
     required this.hint,
@@ -550,6 +551,21 @@ class _HintLine extends StatelessWidget {
         ? Rect.fromLTWH(0, hint.line * cell, cols * cell, cell)
         : Rect.fromLTWH(hint.line * cell, 0, cell, rows * cell);
     final target = Rect.fromLTWH(hint.col * cell, hint.row * cell, cell, cell);
+    final span = switch (hint.span) {
+      (final first, final last) when hint.isRow => Rect.fromLTWH(
+        first * cell,
+        hint.line * cell,
+        (last - first + 1) * cell,
+        cell,
+      ),
+      (final first, final last) => Rect.fromLTWH(
+        hint.line * cell,
+        first * cell,
+        cell,
+        (last - first + 1) * cell,
+      ),
+      null => null,
+    };
     return Positioned.fill(
       child: IgnorePointer(
         child: Stack(
@@ -564,6 +580,17 @@ class _HintLine extends StatelessWidget {
                 ),
               ),
             ),
+            if (span != null)
+              Positioned.fromRect(
+                rect: span.deflate(cell * 0.08),
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                    color: AppColors.gold.withValues(alpha: 0.22),
+                    border: Border.all(color: AppColors.goldDeep, width: 1.5),
+                    borderRadius: BorderRadius.circular(cell * 0.2),
+                  ),
+                ),
+              ),
             Positioned.fromRect(
               rect: target.deflate(cell * 0.02),
               child:

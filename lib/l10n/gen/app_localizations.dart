@@ -551,14 +551,21 @@ abstract class AppLocalizations {
   /// No description provided for @hintFullLine.
   ///
   /// In tr, this message translates to:
-  /// **'{line} ({clue}): gruplar ve aralarındaki birer boşluk çizgiyi tam dolduruyor, her karenin yeri belli. Bu kare dolu!'**
-  String hintFullLine(String line, String clue);
+  /// **'{line} ({clue}): {sum} = {length}, çizginin tam boyu. Gruplar ve aralarındaki birer boşluk çizgiyi tam dolduruyor, her karenin yeri belli. Bu kare dolu!'**
+  String hintFullLine(String line, String clue, String sum, int length);
 
   /// No description provided for @hintOverlap.
   ///
   /// In tr, this message translates to:
-  /// **'{line} ({clue}): grupları en başa da yaslasan en sona da, bu kare hep bir grubun içinde kalıyor. Bu yüzden kesin dolu!'**
-  String hintOverlap(String line, String clue);
+  /// **'{line} ({clue}): {size} karelik blok en başa itilince {early}., en sona itilince {late}. kareleri kaplıyor. İkisinde de dolu olan kareler ({common}) kesin dolu!'**
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  );
 
   /// No description provided for @hintForcedFill.
   ///
@@ -571,6 +578,30 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'{line} ({clue}): hiçbir grup bu kareye uzanamıyor, yani burası boş. X koyduk.'**
   String hintForcedEmpty(String line, String clue);
+
+  /// No description provided for @hintOutOfReach.
+  ///
+  /// In tr, this message translates to:
+  /// **'{line} ({clue}): gruplar ancak şu karelere uzanabilir: {reach}. {cell}. kare hepsinin dışında kalıyor, yani boş!'**
+  String hintOutOfReach(String line, String clue, String reach, int cell);
+
+  /// No description provided for @hintBlockDone.
+  ///
+  /// In tr, this message translates to:
+  /// **'{line} ({clue}): yanındaki blok ({cells}) zaten {size} kare; buraya sığabilecek en büyük grup da bu kadar. Blok tamam, bu kare boş!'**
+  String hintBlockDone(String line, String clue, String cells, int size);
+
+  /// No description provided for @hintTooSmall.
+  ///
+  /// In tr, this message translates to:
+  /// **'{line} ({clue}): bu kare, X\'ler ya da kenar arasındaki {gap} karelik bir boşlukta. Buraya uzanan en küçük grup bile {size} kare, sığmıyor. Bu kare boş!'**
+  String hintTooSmall(String line, String clue, int gap, int size);
+
+  /// No description provided for @hintFixedCross.
+  ///
+  /// In tr, this message translates to:
+  /// **'Buradaki X\'in yanlıştı, kaldırdık.'**
+  String get hintFixedCross;
 
   /// No description provided for @hintFallback.
   ///

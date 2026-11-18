@@ -242,13 +242,20 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): các nhóm cộng với một khoảng trống giữa mỗi nhóm lấp đầy cả dòng, nên mọi ô đều đã xác định. Ô này được tô!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, đúng bằng độ dài của hàng. Các nhóm cùng một ô trống giữa mỗi nhóm lấp đầy nó, mỗi ô đều có vị trí cố định. Ô này được tô!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): dồn các nhóm về đầu hay về cuối thì ô này vẫn luôn nằm trong một nhóm. Vậy ô này phải được tô!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): đẩy về đầu, khối dài $size phủ các ô $early; đẩy về cuối, phủ các ô $late. Các ô $common được tô trong cả hai trường hợp, nên chắc chắn!';
   }
 
   @override
@@ -260,6 +267,25 @@ class AppLocalizationsVi extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): không nhóm nào chạm tới được ô này, nên ô này trống. Chúng tôi đánh X vào đây.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): các nhóm chỉ chạm tới được những ô này: $reach. Ô $cell nằm ngoài tất cả, nên ô này trống!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): khối bên cạnh ($cells) đã dài $size, bằng nhóm lớn nhất có thể nằm ở đây. Khối đã đủ, nên ô này trống!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): ô này nằm trong một khoảng chỉ dài $gap giữa các X hoặc mép. Ngay cả nhóm nhỏ nhất chạm tới đây cũng dài $size và không vừa, nên ô này trống!';
+  }
+
+  @override
+  String get hintFixedCross =>
+      'X của bạn ở đây bị sai, nên chúng tôi đã xóa nó.';
 
   @override
   String get hintFallback => 'Ô này là một phần của bức tranh.';

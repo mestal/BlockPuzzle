@@ -243,13 +243,20 @@ class AppLocalizationsNb extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): gruppene pluss ett mellomrom mellom hver fyller hele linjen, så hver rute er bestemt. Denne ruten er fylt!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, akkurat lengden på linjen. Gruppene med ett mellomrom mellom hver fyller den helt, hver rute har fast plass. Denne ruten er fylt!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): skyv gruppene til starten eller slutten: denne ruten er alltid inne i en gruppe. Den må altså være fylt!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): skjøvet til starten dekker blokken på $size rutene $early, skjøvet til slutten rutene $late. Rutene $common er fylt i begge tilfeller, altså sikre!';
   }
 
   @override
@@ -261,6 +268,24 @@ class AppLocalizationsNb extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): ingen gruppe når denne ruten, så den er tom. Vi setter en X her.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): gruppene når bare disse rutene: $reach. Rute $cell ligger utenfor alle, så den er tom!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): blokken ved siden av ($cells) er allerede $size lang, like lang som den største gruppen som får plass her. Blokken er ferdig, så denne ruten er tom!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): denne ruten ligger i et mellomrom på bare $gap mellom X-er eller kanten. Selv den minste gruppen som når hit er $size lang og får ikke plass, så den er tom!';
+  }
+
+  @override
+  String get hintFixedCross => 'X-en din her var feil, så vi fjernet den.';
 
   @override
   String get hintFallback => 'Denne ruten er en del av bildet.';

@@ -245,13 +245,20 @@ class AppLocalizationsRo extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): grupurile, cu câte un spațiu între ele, umplu toată linia, deci fiecare pătrățel e stabilit. Acest pătrățel e plin!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, exact lungimea liniei. Grupurile cu câte un spațiu între ele o umplu complet, fiecare pătrățel are locul fixat. Acest pătrățel este plin!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): împinge grupurile la început sau la sfârșit: acest pătrățel e mereu într-un grup. Deci trebuie să fie plin!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): împins la început, blocul de lungime $size acoperă pătrățelele $early; împins la sfârșit, pătrățelele $late. Pătrățelele $common sunt pline în ambele cazuri, deci sigure!';
   }
 
   @override
@@ -263,6 +270,24 @@ class AppLocalizationsRo extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): niciun grup nu poate ajunge la acest pătrățel, deci e gol. Punem aici un X.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): grupurile ajung doar la aceste pătrățele: $reach. Pătrățelul $cell e în afara tuturor, deci e gol!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): blocul de alături ($cells) are deja lungimea $size, cât cel mai mare grup care încape aici. Blocul e complet, deci acest pătrățel e gol!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): acest pătrățel e într-un spațiu de doar $gap între X-uri sau margine. Chiar și cel mai mic grup care ajunge aici are lungimea $size și nu încape, deci e gol!';
+  }
+
+  @override
+  String get hintFixedCross => 'X-ul tău de aici era greșit, așa că l-am scos.';
 
   @override
   String get hintFallback => 'Acest pătrățel face parte din imagine.';

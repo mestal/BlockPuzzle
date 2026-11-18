@@ -243,13 +243,20 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue) : les groupes et un espace entre chacun remplissent toute la ligne, chaque case est donc connue. Cette case est pleine !';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue) : $sum = $length, toute la longueur de la ligne. Les groupes et un espace entre chacun la remplissent exactement, chaque case est fixée. Cette case est pleine !';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue) : que tu pousses les groupes au début ou à la fin, cette case reste toujours dans un groupe. Elle est donc forcément pleine !';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue) : poussé au début, le bloc de $size couvre les cases $early ; poussé à la fin, les cases $late. Les cases $common sont pleines dans les deux cas, donc sûres !';
   }
 
   @override
@@ -261,6 +268,24 @@ class AppLocalizationsFr extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue) : aucun groupe ne peut atteindre cette case, elle est donc vide. On y a mis un X.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue) : les groupes ne peuvent atteindre que ces cases : $reach. La case $cell est en dehors de toutes, donc vide !';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue) : le bloc d\'à côté ($cells) a déjà une longueur de $size, comme le plus grand groupe qui tient ici. Le bloc est complet, cette case est donc vide !';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue) : cette case est dans un espace de seulement $gap entre des X ou le bord. Même le plus petit groupe qui l\'atteint a une longueur de $size et n\'y tient pas, donc elle est vide !';
+  }
+
+  @override
+  String get hintFixedCross => 'Ton X ici était faux, on l\'a enlevé.';
 
   @override
   String get hintFallback => 'Cette case fait partie de l\'image.';

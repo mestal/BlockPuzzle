@@ -244,13 +244,20 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): Die Gruppen plus je ein Abstand füllen die ganze Linie, also steht jedes Feld fest. Dieses Feld ist gefüllt!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, genau die Länge der Linie. Die Gruppen mit je einer Lücke dazwischen füllen sie ganz aus, jedes Feld steht fest. Dieses Feld ist gefüllt!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): Ob du die Gruppen ganz nach vorne oder ganz nach hinten schiebst, dieses Feld liegt immer in einer Gruppe. Also ist es sicher gefüllt!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): Ganz nach vorne geschoben deckt der ${size}er-Block die Felder $early ab, ganz nach hinten die Felder $late. Die Felder $common sind in beiden Fällen gefüllt, also sicher!';
   }
 
   @override
@@ -262,6 +269,24 @@ class AppLocalizationsDe extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): Keine Gruppe reicht bis zu diesem Feld, also ist es leer. Wir haben ein X gesetzt.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): Die Gruppen reichen nur bis zu diesen Feldern: $reach. Feld $cell liegt außerhalb von allen, also ist es leer!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): Der Block daneben ($cells) ist schon $size lang, so lang wie die größte Gruppe, die hier passt. Der Block ist fertig, also ist dieses Feld leer!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): Dieses Feld liegt in einer Lücke von nur $gap zwischen X oder dem Rand. Selbst die kleinste Gruppe, die hierher reicht, ist $size lang und passt nicht. Also ist es leer!';
+  }
+
+  @override
+  String get hintFixedCross => 'Dein X hier war falsch, wir haben es entfernt.';
 
   @override
   String get hintFallback => 'Dieses Feld gehört zum Bild.';

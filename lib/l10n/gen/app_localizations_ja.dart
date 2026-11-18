@@ -232,13 +232,20 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line（$clue）：グループとその間のすき間で列がぴったり埋まるので、すべてのマスが決まります。このマスは塗り！';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line（$clue）：$sum = $length、ちょうど列の長さ。グループと間の1マスずつの空きでぴったり埋まるので、どのマスも位置が決まります。このマスは塗り！';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line（$clue）：グループを先頭に寄せても最後に寄せても、このマスは必ずグループの中。だから塗り！';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line（$clue）：長さ$sizeのブロックを先頭に寄せると$earlyマス目、最後に寄せると$lateマス目を覆います。$commonマス目はどちらでも塗られるので確定！';
   }
 
   @override
@@ -250,6 +257,24 @@ class AppLocalizationsJa extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line（$clue）：どのグループもこのマスに届かないので空です。X を付けました。';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line（$clue）：グループが届くのはこのマスだけ：$reach。$cellマス目はどれにも入らないので空です！';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line（$clue）：隣のブロック（$cells）はもう長さ$sizeで、ここに入る最大のグループと同じ。ブロックは完成なので、このマスは空です！';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line（$clue）：このマスはXか端にはさまれた$gapマスだけのすき間にあります。ここに届く一番小さいグループでも長さ$sizeで入らないので、空です！';
+  }
+
+  @override
+  String get hintFixedCross => 'ここのXはまちがいだったので、外しました。';
 
   @override
   String get hintFallback => 'このマスは絵の一部です。';

@@ -243,13 +243,20 @@ class AppLocalizationsBg extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): групите заедно с по едно празно място между тях запълват цялата линия, така че всяко квадратче е сигурно. Това квадратче е запълнено!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, точно дължината на линията. Групите с по едно празно място между тях я запълват изцяло, всяко квадратче е определено. Това квадратче е запълнено!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): избутай групите в началото или в края – това квадратче винаги е вътре в група. Значи трябва да е запълнено!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): избутан в началото, блокът с дължина $size покрива квадратчетата $early; избутан в края – квадратчетата $late. Квадратчетата $common са запълнени и в двата случая, значи са сигурни!';
   }
 
   @override
@@ -261,6 +268,24 @@ class AppLocalizationsBg extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): нито една група не достига това квадратче, така че то е празно. Слагаме тук X.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): групите достигат само тези квадратчета: $reach. Квадратче $cell е извън всички тях, значи е празно!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): съседният блок ($cells) вече е с дължина $size, колкото най-голямата група, която се побира тук. Блокът е завършен, значи това квадратче е празно!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): това квадратче е в празнина от само $gap между X или ръба. Дори най-малката група, която стига дотук, е с дължина $size и не се побира, значи е празно!';
+  }
+
+  @override
+  String get hintFixedCross => 'Твоят X тук беше грешен, затова го махнахме.';
 
   @override
   String get hintFallback => 'Това квадратче е част от картинката.';

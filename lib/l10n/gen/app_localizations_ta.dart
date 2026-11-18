@@ -244,13 +244,20 @@ class AppLocalizationsTa extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): குழுக்களும் அவற்றுக்கு இடையே ஒவ்வொரு இடைவெளியும் சேர்ந்து முழு வரியையும் நிரப்புகின்றன, எனவே ஒவ்வொரு கட்டமும் உறுதி. இந்தக் கட்டம் நிரப்பப்பட்டது!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, அதாவது முழுக் கோட்டின் நீளம். குழுக்களும் ஒவ்வொன்றுக்கும் இடையே ஒரு வெற்றுக் கட்டமும் அதை முழுமையாக நிரப்புகின்றன, ஒவ்வொரு கட்டத்தின் இடமும் உறுதி. இந்தக் கட்டம் நிரப்பப்பட்டது!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): குழுக்களைத் தொடக்கத்துக்கோ முடிவுக்கோ தள்ளுங்கள்: இந்தக் கட்டம் எப்போதும் ஒரு குழுவுக்குள் இருக்கும். எனவே இது நிரப்பப்பட வேண்டும்!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): $size நீளத் தொகுதியைத் தொடக்கத்துக்குத் தள்ளினால் அது $early கட்டங்களை மூடும், முடிவுக்குத் தள்ளினால் $late கட்டங்களை. $common கட்டங்கள் இரண்டிலும் நிரம்பியுள்ளன, எனவே அவை உறுதி!';
   }
 
   @override
@@ -262,6 +269,25 @@ class AppLocalizationsTa extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): எந்தக் குழுவும் இந்தக் கட்டத்தை அடைய முடியாது, எனவே இது காலி. இங்கே ஒரு X இட்டோம்.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): குழுக்கள் இந்தக் கட்டங்கள் வரை மட்டுமே எட்டும்: $reach. கட்டம் $cell இவை அனைத்துக்கும் வெளியே உள்ளது, எனவே அது காலி!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): பக்கத்துத் தொகுதி ($cells) ஏற்கெனவே $size நீளம், இங்கே பொருந்தக்கூடிய மிகப் பெரிய குழுவின் அளவு. தொகுதி முழுமையானது, எனவே இந்தக் கட்டம் காலி!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): இந்தக் கட்டம் X-களுக்கு அல்லது ஓரத்துக்கு இடையிலான $gap நீள இடைவெளியில் உள்ளது. இங்கே எட்டும் மிகச் சிறிய குழுவும் $size நீளம், அது பொருந்தாது. எனவே இந்தக் கட்டம் காலி!';
+  }
+
+  @override
+  String get hintFixedCross =>
+      'இங்கே நீங்கள் இட்ட X தவறு, அதனால் அதை நீக்கினோம்.';
 
   @override
   String get hintFallback => 'இந்தக் கட்டம் படத்தின் ஒரு பகுதி.';

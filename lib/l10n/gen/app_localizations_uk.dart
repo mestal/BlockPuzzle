@@ -246,13 +246,20 @@ class AppLocalizationsUk extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): групи разом із проміжком між ними заповнюють увесь ряд, тож кожна клітинка визначена. Ця клітинка заповнена!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, рівно довжина лінії. Групи з проміжком в одну клітинку між ними заповнюють її повністю, місце кожної клітинки відоме. Ця клітинка заповнена!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): посунь групи на початок або в кінець — ця клітинка завжди всередині групи. Отже, вона заповнена!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): якщо посунути блок довжиною $size на початок, він займає клітинки $early, якщо в кінець — клітинки $late. Клітинки $common заповнені в обох випадках, отже, напевно!';
   }
 
   @override
@@ -264,6 +271,24 @@ class AppLocalizationsUk extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): жодна група не дістає до цієї клітинки, тож вона порожня. Ставимо тут X.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): групи дістають лише до цих клітинок: $reach. Клітинка $cell поза ними всіма, отже, вона порожня!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): сусідній блок ($cells) уже довжиною $size — як найбільша група, що тут вміщується. Блок готовий, отже, ця клітинка порожня!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): ця клітинка в проміжку довжиною лише $gap між X або краєм. Навіть найменша група, що сюди дістає, довжиною $size і не вміщується, отже, клітинка порожня!';
+  }
+
+  @override
+  String get hintFixedCross => 'Твій X тут був помилковим, ми його прибрали.';
 
   @override
   String get hintFallback => 'Ця клітинка — частина картинки.';

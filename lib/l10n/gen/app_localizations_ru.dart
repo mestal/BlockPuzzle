@@ -245,13 +245,20 @@ class AppLocalizationsRu extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): группы с промежутками заполняют всю линию, место каждой клетки известно. Эта клетка закрашена!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, ровно длина линии. Группы с промежутком в одну клетку между ними заполняют её целиком, место каждой клетки известно. Эта клетка закрашена!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): сдвинь группы хоть в начало, хоть в конец — эта клетка всегда внутри группы. Значит, она закрашена!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): если сдвинуть блок длиной $size в начало, он занимает клетки $early, если в конец — клетки $late. Клетки $common закрашены в обоих случаях, значит, точно!';
   }
 
   @override
@@ -263,6 +270,24 @@ class AppLocalizationsRu extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): ни одна группа не дотягивается до этой клетки, значит, она пустая. Мы поставили X.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): группы дотягиваются только до этих клеток: $reach. Клетка $cell вне их всех, значит, она пустая!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): соседний блок ($cells) уже длиной $size — как самая большая группа, которая здесь помещается. Блок готов, значит, эта клетка пустая!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): эта клетка в промежутке длиной всего $gap между X или краем. Даже самая маленькая группа, которая сюда дотягивается, длиной $size и не помещается, значит, клетка пустая!';
+  }
+
+  @override
+  String get hintFixedCross => 'Твой X здесь был ошибкой, мы его убрали.';
 
   @override
   String get hintFallback => 'Эта клетка — часть картинки.';

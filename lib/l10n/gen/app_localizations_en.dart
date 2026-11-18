@@ -243,13 +243,20 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): the groups plus one gap between each fill the whole line, so every square is fixed. This square is filled!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, the full length of the line. The groups plus one gap between each fill it exactly, so every square is fixed. This square is filled!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): push the groups to the start or to the end, this square is always inside a group. So it must be filled!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): pushed to the start, the block of $size covers squares $early; pushed to the end, squares $late. Squares $common are filled either way, so they\'re sure!';
   }
 
   @override
@@ -261,6 +268,24 @@ class AppLocalizationsEn extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): no group can reach this square, so it is empty. We put an X here.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): the groups can only reach these squares: $reach. Square $cell is outside all of them, so it\'s empty!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): the block next to it ($cells) is already $size long, as long as the biggest group that fits there. The block is complete, so this square is empty!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): this square is in a gap of just $gap between X\'s or the edge. Even the smallest group that reaches it is $size long and doesn\'t fit, so it\'s empty!';
+  }
+
+  @override
+  String get hintFixedCross => 'Your X here was wrong, so we removed it.';
 
   @override
   String get hintFallback => 'This square is part of the picture.';

@@ -243,13 +243,20 @@ class AppLocalizationsTe extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): గుంపులు, వాటి మధ్య ఒక్కో ఖాళీ కలిసి మొత్తం గీతను నింపుతాయి, కాబట్టి ప్రతి గడి ఖచ్చితం. ఈ గడి నిండి ఉంది!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, అంటే మొత్తం గీత పొడవు. గుంపులు, ప్రతి రెండింటి మధ్య ఒక ఖాళీ గడి దాన్ని పూర్తిగా నింపుతాయి, ప్రతి గడి స్థానం స్థిరం. ఈ గడి నిండి ఉంది!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): గుంపులను మొదటికి లేదా చివరికి నెట్టండి: ఈ గడి ఎప్పుడూ ఏదో ఒక గుంపులోనే ఉంటుంది. కాబట్టి ఇది నిండి ఉండాలి!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): $size పొడవు బ్లాక్‌ను మొదటికి నెడితే అది $early గడులను కప్పుతుంది, చివరికి నెడితే $late గడులను. $common గడులు రెండు సందర్భాల్లోనూ నిండి ఉంటాయి, కాబట్టి అవి ఖాయం!';
   }
 
   @override
@@ -261,6 +268,25 @@ class AppLocalizationsTe extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): ఏ గుంపూ ఈ గడిని చేరలేదు, కాబట్టి ఇది ఖాళీ. ఇక్కడ X పెట్టాం.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): గుంపులు ఈ గడుల వరకు మాత్రమే చేరగలవు: $reach. గడి $cell వీటన్నింటికీ బయట ఉంది, కాబట్టి అది ఖాళీ!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): పక్కన ఉన్న బ్లాక్ ($cells) ఇప్పటికే $size పొడవు ఉంది, ఇక్కడ పట్టే అతి పెద్ద గుంపు అంత. బ్లాక్ పూర్తయింది, కాబట్టి ఈ గడి ఖాళీ!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): ఈ గడి X లు లేదా అంచు మధ్య కేవలం $gap పొడవు ఖాళీలో ఉంది. ఇక్కడికి చేరే అతి చిన్న గుంపు కూడా $size పొడవు, అది పట్టదు. కాబట్టి ఈ గడి ఖాళీ!';
+  }
+
+  @override
+  String get hintFixedCross =>
+      'ఇక్కడ మీరు పెట్టిన X తప్పు, అందుకే దాన్ని తీసేశాం.';
 
   @override
   String get hintFallback => 'ఈ గడి చిత్రంలో భాగం.';

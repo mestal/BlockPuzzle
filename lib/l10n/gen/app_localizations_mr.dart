@@ -242,13 +242,20 @@ class AppLocalizationsMr extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): गट आणि प्रत्येकामधील एक जागा मिळून संपूर्ण रेषा भरते, म्हणून प्रत्येक चौकोन निश्चित आहे. हा चौकोन भरलेला आहे!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, म्हणजे संपूर्ण रेषेची लांबी. गट आणि प्रत्येक दोन गटांमधील एक रिकामा चौकोन ती पूर्ण भरतात, प्रत्येक चौकोनाची जागा ठरलेली आहे. हा चौकोन भरलेला आहे!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): गट सुरुवातीला किंवा शेवटी ढकला: हा चौकोन नेहमी एखाद्या गटात असतो. म्हणून तो भरलेलाच असला पाहिजे!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): $size लांबीचा ब्लॉक सुरुवातीला ढकलला तर तो चौकोन $early व्यापतो, शेवटी ढकलला तर चौकोन $late. चौकोन $common दोन्ही वेळा भरलेले आहेत, म्हणून ते नक्की!';
   }
 
   @override
@@ -260,6 +267,25 @@ class AppLocalizationsMr extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): कोणताही गट या चौकोनापर्यंत पोहोचू शकत नाही, म्हणून तो रिकामा आहे. आम्ही इथे X लावला.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): गट फक्त या चौकोनांपर्यंत पोहोचू शकतात: $reach. चौकोन $cell या सगळ्यांच्या बाहेर आहे, म्हणून तो रिकामा आहे!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): शेजारचा ब्लॉक ($cells) आधीच $size लांबीचा आहे, इथे बसू शकणाऱ्या सर्वात मोठ्या गटाइतका. ब्लॉक पूर्ण आहे, म्हणून हा चौकोन रिकामा आहे!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): हा चौकोन X किंवा कडेच्या मधल्या फक्त $gap लांबीच्या रिकाम्या जागेत आहे. इथपर्यंत पोहोचणारा सर्वात लहान गटही $size लांबीचा आहे आणि बसत नाही, म्हणून हा रिकामा आहे!';
+  }
+
+  @override
+  String get hintFixedCross =>
+      'इथला तुमचा X चुकीचा होता, म्हणून आम्ही तो काढला.';
 
   @override
   String get hintFallback => 'हा चौकोन चित्राचा भाग आहे.';

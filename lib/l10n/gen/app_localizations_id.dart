@@ -242,13 +242,20 @@ class AppLocalizationsId extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): kelompok-kelompok ditambah satu celah di antaranya memenuhi seluruh garis, jadi setiap kotak sudah pasti. Kotak ini terisi!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, persis panjang garis. Kelompok-kelompok dengan satu celah di antara masing-masing mengisinya penuh, setiap kotak punya tempat pasti. Kotak ini terisi!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): dorong kelompok ke awal atau ke akhir: kotak ini selalu berada di dalam sebuah kelompok. Jadi kotak ini pasti terisi!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): jika didorong ke awal, blok sepanjang $size menutupi kotak $early; jika didorong ke akhir, kotak $late. Kotak $common terisi di kedua keadaan, jadi pasti!';
   }
 
   @override
@@ -260,6 +267,24 @@ class AppLocalizationsId extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): tidak ada kelompok yang bisa mencapai kotak ini, jadi kotak ini kosong. Kami beri X di sini.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): kelompok hanya bisa mencapai kotak-kotak ini: $reach. Kotak $cell ada di luar semuanya, jadi kosong!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): blok di sebelahnya ($cells) sudah sepanjang $size, sama dengan kelompok terbesar yang muat di sini. Blok sudah lengkap, jadi kotak ini kosong!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): kotak ini ada di celah sepanjang $gap saja di antara X atau tepi. Bahkan kelompok terkecil yang sampai ke sini panjangnya $size dan tidak muat, jadi kosong!';
+  }
+
+  @override
+  String get hintFixedCross => 'X-mu di sini salah, jadi kami menghapusnya.';
 
   @override
   String get hintFallback => 'Kotak ini bagian dari gambar.';

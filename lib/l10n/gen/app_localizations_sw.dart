@@ -243,13 +243,20 @@ class AppLocalizationsSw extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): makundi pamoja na nafasi moja kati ya kila moja yanajaza mstari mzima, kwa hiyo kila kisanduku kinajulikana. Kisanduku hiki kimejazwa!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, sawa na urefu wote wa mstari. Makundi pamoja na nafasi moja kati ya kila mawili yanaujaza kabisa, kila kisanduku kina mahali pake. Kisanduku hiki kimejazwa!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): sukuma makundi mwanzoni au mwishoni: kisanduku hiki huwa ndani ya kundi kila wakati. Kwa hiyo lazima kijazwe!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): likisukumwa mwanzoni, bloku la urefu $size hufunika visanduku $early; likisukumwa mwishoni, visanduku $late. Visanduku $common hujazwa katika hali zote mbili, kwa hiyo ni hakika!';
   }
 
   @override
@@ -261,6 +268,25 @@ class AppLocalizationsSw extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): hakuna kundi linaloweza kufika kisanduku hiki, kwa hiyo ni kitupu. Tumeweka X hapa.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): makundi yanaweza kufika visanduku hivi tu: $reach. Kisanduku $cell kiko nje ya vyote, kwa hiyo ni kitupu!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): bloku lililo kando ($cells) tayari lina urefu $size, sawa na kundi kubwa zaidi linaloweza kutoshea hapa. Bloku limekamilika, kwa hiyo kisanduku hiki ni kitupu!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): kisanduku hiki kiko kwenye nafasi ya urefu $gap tu kati ya X au ukingo. Hata kundi dogo zaidi linalofika hapa lina urefu $size na halitoshei, kwa hiyo ni kitupu!';
+  }
+
+  @override
+  String get hintFixedCross =>
+      'X yako hapa ilikuwa si sahihi, kwa hiyo tumeiondoa.';
 
   @override
   String get hintFallback => 'Kisanduku hiki ni sehemu ya picha.';

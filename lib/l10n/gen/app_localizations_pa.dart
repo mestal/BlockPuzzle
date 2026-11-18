@@ -242,13 +242,20 @@ class AppLocalizationsPa extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): ਸਮੂਹ ਅਤੇ ਹਰ ਇੱਕ ਵਿਚਕਾਰ ਇੱਕ ਖਾਲੀ ਥਾਂ ਮਿਲ ਕੇ ਪੂਰੀ ਲਾਈਨ ਭਰ ਦਿੰਦੇ ਹਨ, ਇਸ ਲਈ ਹਰ ਖਾਨਾ ਪੱਕਾ ਹੈ। ਇਹ ਖਾਨਾ ਭਰਿਆ ਹੋਇਆ ਹੈ!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, ਯਾਨੀ ਪੂਰੀ ਲਕੀਰ ਦੀ ਲੰਬਾਈ। ਸਮੂਹ ਅਤੇ ਹਰ ਦੋ ਵਿਚਕਾਰ ਇੱਕ ਖਾਲੀ ਖਾਨਾ ਇਸਨੂੰ ਪੂਰਾ ਭਰ ਦਿੰਦੇ ਹਨ, ਹਰ ਖਾਨੇ ਦੀ ਥਾਂ ਤੈਅ ਹੈ। ਇਹ ਖਾਨਾ ਭਰਿਆ ਹੋਇਆ ਹੈ!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): ਸਮੂਹਾਂ ਨੂੰ ਸ਼ੁਰੂ ਜਾਂ ਅੰਤ ਵੱਲ ਧੱਕੋ: ਇਹ ਖਾਨਾ ਹਮੇਸ਼ਾ ਕਿਸੇ ਸਮੂਹ ਦੇ ਅੰਦਰ ਰਹਿੰਦਾ ਹੈ। ਇਸ ਲਈ ਇਹ ਭਰਿਆ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): $size ਲੰਬੇ ਬਲਾਕ ਨੂੰ ਸ਼ੁਰੂ ਵੱਲ ਧੱਕੋ ਤਾਂ ਇਹ ਖਾਨੇ $early ਢੱਕਦਾ ਹੈ, ਅੰਤ ਵੱਲ ਧੱਕੋ ਤਾਂ ਖਾਨੇ $late। ਖਾਨੇ $common ਦੋਵੇਂ ਹਾਲਤਾਂ ਵਿੱਚ ਭਰੇ ਹਨ, ਇਸ ਲਈ ਪੱਕੇ ਹਨ!';
   }
 
   @override
@@ -260,6 +267,25 @@ class AppLocalizationsPa extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): ਕੋਈ ਵੀ ਸਮੂਹ ਇਸ ਖਾਨੇ ਤੱਕ ਨਹੀਂ ਪਹੁੰਚ ਸਕਦਾ, ਇਸ ਲਈ ਇਹ ਖਾਲੀ ਹੈ। ਅਸੀਂ ਇੱਥੇ X ਲਾ ਦਿੱਤਾ ਹੈ।';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): ਸਮੂਹ ਸਿਰਫ਼ ਇਨ੍ਹਾਂ ਖਾਨਿਆਂ ਤੱਕ ਪਹੁੰਚ ਸਕਦੇ ਹਨ: $reach। ਖਾਨਾ $cell ਇਨ੍ਹਾਂ ਸਭ ਤੋਂ ਬਾਹਰ ਹੈ, ਇਸ ਲਈ ਖਾਲੀ ਹੈ!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): ਨਾਲ ਵਾਲਾ ਬਲਾਕ ($cells) ਪਹਿਲਾਂ ਹੀ $size ਲੰਬਾ ਹੈ, ਇੱਥੇ ਸਮਾ ਸਕਣ ਵਾਲੇ ਸਭ ਤੋਂ ਵੱਡੇ ਸਮੂਹ ਜਿੰਨਾ। ਬਲਾਕ ਪੂਰਾ ਹੈ, ਇਸ ਲਈ ਇਹ ਖਾਨਾ ਖਾਲੀ ਹੈ!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): ਇਹ ਖਾਨਾ X ਜਾਂ ਕਿਨਾਰੇ ਵਿਚਕਾਰ ਸਿਰਫ਼ $gap ਲੰਬੀ ਖਾਲੀ ਥਾਂ ਵਿੱਚ ਹੈ। ਇੱਥੇ ਪਹੁੰਚਣ ਵਾਲਾ ਸਭ ਤੋਂ ਛੋਟਾ ਸਮੂਹ ਵੀ $size ਲੰਬਾ ਹੈ ਅਤੇ ਨਹੀਂ ਸਮਾਉਂਦਾ, ਇਸ ਲਈ ਇਹ ਖਾਲੀ ਹੈ!';
+  }
+
+  @override
+  String get hintFixedCross =>
+      'ਇੱਥੇ ਤੁਹਾਡਾ X ਗਲਤ ਸੀ, ਇਸ ਲਈ ਅਸੀਂ ਇਸਨੂੰ ਹਟਾ ਦਿੱਤਾ।';
 
   @override
   String get hintFallback => 'ਇਹ ਖਾਨਾ ਤਸਵੀਰ ਦਾ ਹਿੱਸਾ ਹੈ।';

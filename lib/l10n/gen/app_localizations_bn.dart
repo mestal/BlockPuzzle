@@ -243,13 +243,20 @@ class AppLocalizationsBn extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): দলগুলো আর প্রতিটির মাঝে একটি করে ফাঁক মিলে পুরো লাইন ভরে যায়, তাই প্রতিটি ঘর নিশ্চিত। এই ঘরটি ভরাট!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, মানে পুরো রেখার দৈর্ঘ্য। দলগুলো আর প্রতি দুটির মাঝে একটি ফাঁকা ঘর রেখাটি পুরো ভরে দেয়, প্রতিটি ঘরের জায়গা নির্দিষ্ট। এই ঘরটি ভরাট!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): দলগুলোকে শুরুতে বা শেষে ঠেলে দাও, এই ঘরটি সবসময় কোনো দলের ভেতরে থাকে। তাই এটি ভরাট হতেই হবে!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): $size লম্বা ব্লকটিকে শুরুতে ঠেলে দিলে এটি $early ঘরগুলো ঢাকে, শেষে ঠেলে দিলে $late ঘরগুলো। $common ঘরগুলো দুই ক্ষেত্রেই ভরাট, তাই এগুলো নিশ্চিত!';
   }
 
   @override
@@ -261,6 +268,25 @@ class AppLocalizationsBn extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): কোনো দলই এই ঘরে পৌঁছাতে পারে না, তাই এটি খালি। এখানে একটি X দিলাম।';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): দলগুলো কেবল এই ঘরগুলো পর্যন্ত পৌঁছাতে পারে: $reach। $cell নম্বর ঘরটি এগুলোর সবগুলোর বাইরে, তাই এটি খালি!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): পাশের ব্লকটি ($cells) ইতিমধ্যে $size লম্বা, এখানে আঁটতে পারে এমন সবচেয়ে বড় দলের সমান। ব্লকটি সম্পূর্ণ, তাই এই ঘরটি খালি!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): এই ঘরটি X বা কিনারার মাঝে মাত্র $gap লম্বা একটি ফাঁকে আছে। এখানে পৌঁছানো সবচেয়ে ছোট দলটিও $size লম্বা, তাই আঁটে না। এই ঘরটি খালি!';
+  }
+
+  @override
+  String get hintFixedCross =>
+      'এখানে তোমার X ভুল ছিল, তাই আমরা সেটি সরিয়ে দিয়েছি।';
 
   @override
   String get hintFallback => 'এই ঘরটি ছবির অংশ।';

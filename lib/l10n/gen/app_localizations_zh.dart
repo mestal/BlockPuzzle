@@ -229,13 +229,20 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line（$clue）：各组加上组间的一个空格正好填满整条线，所以每个方格都已确定。这个方格是填充的！';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line（$clue）：$sum = $length，正好是整行的长度。各组加上组间各一个空格把它完全填满，每个方格的位置都确定了。这个方格是填充的！';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line（$clue）：无论把各组推到最前还是最后，这个方格总在某一组之内。所以它一定是填充的！';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line（$clue）：长度为 $size 的块推到最前时覆盖第 $early 格，推到最后时覆盖第 $late 格。第 $common 格两种情况下都被填充，所以是确定的！';
   }
 
   @override
@@ -247,6 +254,24 @@ class AppLocalizationsZh extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line（$clue）：没有任何一组能延伸到这个方格，所以它是空的。我们放了一个 X。';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line（$clue）：各组只能延伸到这些方格：$reach。第 $cell 格在它们之外，所以是空的！';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line（$clue）：旁边的块（$cells）已经长 $size，和这里能放下的最大一组一样长。这个块已完整，所以这个方格是空的！';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line（$clue）：这个方格位于 X 或边缘之间一段只有 $gap 格的空隙里。能到达这里的最小一组也长 $size，放不下，所以它是空的！';
+  }
+
+  @override
+  String get hintFixedCross => '你在这里画的 X 是错的，我们已把它去掉。';
 
   @override
   String get hintFallback => '这个方格是图画的一部分。';

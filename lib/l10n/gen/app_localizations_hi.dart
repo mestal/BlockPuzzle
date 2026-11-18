@@ -242,13 +242,20 @@ class AppLocalizationsHi extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): समूह और उनके बीच एक-एक खाली खाना मिलकर पूरी रेखा भर देते हैं, इसलिए हर खाना तय है। यह खाना भरा हुआ है!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, यानी पूरी रेखा की लंबाई। समूह और हर दो के बीच एक खाली खाना इसे पूरा भर देते हैं, हर खाने की जगह तय है। यह खाना भरा है!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): समूहों को शुरुआत या अंत की ओर खिसकाएँ, यह खाना हमेशा किसी समूह के अंदर रहता है। इसलिए इसे भरा होना ही चाहिए!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): $size लंबे ब्लॉक को शुरुआत की ओर खिसकाएँ तो यह खाने $early घेरता है, अंत की ओर खिसकाएँ तो खाने $late। खाने $common दोनों हालात में भरे हैं, इसलिए पक्के हैं!';
   }
 
   @override
@@ -260,6 +267,24 @@ class AppLocalizationsHi extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): कोई भी समूह इस खाने तक नहीं पहुँचता, इसलिए यह खाली है। हम यहाँ X लगाते हैं।';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): समूह सिर्फ़ इन खानों तक पहुँच सकते हैं: $reach। खाना $cell इन सबसे बाहर है, इसलिए खाली है!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): बगल वाला ब्लॉक ($cells) पहले से $size लंबा है, यहाँ समा सकने वाले सबसे बड़े समूह जितना। ब्लॉक पूरा है, इसलिए यह खाना खाली है!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): यह खाना X या किनारे के बीच सिर्फ़ $gap लंबी खाली जगह में है। यहाँ तक पहुँचने वाला सबसे छोटा समूह भी $size लंबा है और नहीं समाता, इसलिए यह खाली है!';
+  }
+
+  @override
+  String get hintFixedCross => 'यहाँ आपका X गलत था, इसलिए हमने उसे हटा दिया।';
 
   @override
   String get hintFallback => 'यह खाना तस्वीर का हिस्सा है।';

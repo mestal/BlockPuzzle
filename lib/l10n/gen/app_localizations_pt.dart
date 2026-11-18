@@ -242,13 +242,20 @@ class AppLocalizationsPt extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): os grupos com um espaço entre eles enchem a linha inteira, então cada quadrado está definido. Este quadrado é preenchido!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, o comprimento exato da linha. Os grupos com um espaço entre cada um a preenchem inteira, cada quadrado tem lugar certo. Este quadrado é preenchido!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): empurre os grupos para o início ou para o fim, este quadrado sempre fica dentro de um grupo. Então ele é preenchido!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): empurrado para o início, o bloco de $size cobre os quadrados $early; empurrado para o fim, os quadrados $late. Os quadrados $common ficam preenchidos nos dois casos, então são certos!';
   }
 
   @override
@@ -260,6 +267,24 @@ class AppLocalizationsPt extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): nenhum grupo alcança este quadrado, então ele é vazio. Colocamos um X aqui.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): os grupos só alcançam estes quadrados: $reach. O quadrado $cell fica fora de todos, então é vazio!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): o bloco ao lado ($cells) já tem tamanho $size, igual ao maior grupo que cabe aqui. O bloco está completo, então este quadrado é vazio!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): este quadrado está num espaço de só $gap entre X ou a borda. Até o menor grupo que chega aqui tem tamanho $size e não cabe, então ele é vazio!';
+  }
+
+  @override
+  String get hintFixedCross => 'Seu X aqui estava errado, então o removemos.';
 
   @override
   String get hintFallback => 'Este quadrado faz parte da imagem.';

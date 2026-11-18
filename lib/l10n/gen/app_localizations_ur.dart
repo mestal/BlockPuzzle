@@ -243,13 +243,20 @@ class AppLocalizationsUr extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): گروپ اور ان کے درمیان ایک ایک خلا پوری لکیر بھر دیتے ہیں، اس لیے ہر خانہ طے ہے۔ یہ خانہ بھرا ہوا ہے!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length، یعنی پوری لکیر کی لمبائی۔ گروپ اور ہر دو کے بیچ ایک خالی خانہ اسے پوری طرح بھر دیتے ہیں، ہر خانے کی جگہ طے ہے۔ یہ خانہ بھرا ہوا ہے!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): گروپوں کو شروع یا آخر کی طرف دھکیلیں، یہ خانہ ہمیشہ کسی گروپ کے اندر رہتا ہے۔ لہٰذا اسے بھرنا ہوگا!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): خانے بائیں یا اوپر سے گنے جاتے ہیں۔ $size لمبے بلاک کو شروع کی طرف دھکیلیں تو یہ خانے $early ڈھانپتا ہے، آخر کی طرف دھکیلیں تو خانے $late۔ خانے $common دونوں صورتوں میں بھرے ہیں، لہٰذا یقینی ہیں!';
   }
 
   @override
@@ -261,6 +268,25 @@ class AppLocalizationsUr extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): کوئی گروپ اس خانے تک نہیں پہنچ سکتا، اس لیے یہ خالی ہے۔ ہم نے یہاں X لگا دیا ہے۔';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): خانے بائیں یا اوپر سے گنے جاتے ہیں۔ گروپ صرف ان خانوں تک پہنچ سکتے ہیں: $reach۔ خانہ $cell ان سب سے باہر ہے، اس لیے خالی ہے!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): ساتھ والا بلاک ($cells) پہلے ہی $size لمبا ہے، یہاں سما سکنے والے سب سے بڑے گروپ جتنا۔ بلاک مکمل ہے، اس لیے یہ خانہ خالی ہے!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): یہ خانہ X یا کنارے کے بیچ صرف $gap لمبی خالی جگہ میں ہے۔ یہاں تک پہنچنے والا سب سے چھوٹا گروپ بھی $size لمبا ہے اور نہیں سماتا، اس لیے یہ خالی ہے!';
+  }
+
+  @override
+  String get hintFixedCross =>
+      'یہاں آپ کا X غلط تھا، اس لیے ہم نے اسے ہٹا دیا۔';
 
   @override
   String get hintFallback => 'یہ خانہ تصویر کا حصہ ہے۔';

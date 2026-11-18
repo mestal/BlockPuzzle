@@ -242,13 +242,20 @@ class AppLocalizationsHu extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): a csoportok a köztük lévő egy-egy hellyel együtt kitöltik az egész vonalat, így minden négyzet biztos. Ez a négyzet kitöltött!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length, pont a vonal hossza. A csoportok a köztük lévő egy-egy üres hellyel teljesen kitöltik, minden négyzet helye biztos. Ez a négyzet kitöltött!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): told a csoportokat az elejére vagy a végére: ez a négyzet mindig egy csoporton belül van. Tehát ki kell tölteni!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): az elejére tolva a(z) $size hosszú blokk a(z) $early. négyzeteket fedi, a végére tolva a(z) $late. négyzeteket. A(z) $common. négyzetek mindkét esetben kitöltöttek, tehát biztosak!';
   }
 
   @override
@@ -260,6 +267,24 @@ class AppLocalizationsHu extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): egyik csoport sem éri el ezt a négyzetet, így üres. Ide teszünk egy X-et.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): a csoportok csak ezekig a négyzetekig érnek el: $reach. A(z) $cell. négyzet mindegyiken kívül esik, tehát üres!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): a szomszédos blokk ($cells) már $size hosszú, akkora, mint az ide férő legnagyobb csoport. A blokk kész, tehát ez a négyzet üres!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): ez a négyzet X-ek vagy a szél közötti, mindössze $gap hosszú résben van. Még az ide érő legkisebb csoport is $size hosszú, és nem fér el, tehát üres!';
+  }
+
+  @override
+  String get hintFixedCross => 'Az itteni X-ed hibás volt, ezért levettük.';
 
   @override
   String get hintFallback => 'Ez a négyzet a kép része.';

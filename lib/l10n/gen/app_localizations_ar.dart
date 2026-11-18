@@ -246,13 +246,20 @@ class AppLocalizationsAr extends AppLocalizations {
   }
 
   @override
-  String hintFullLine(String line, String clue) {
-    return '$line ($clue): المجموعات مع فراغ بين كل منها تملأ الخط كله، فمكان كل مربع معروف. هذا المربع مملوء!';
+  String hintFullLine(String line, String clue, String sum, int length) {
+    return '$line ($clue): $sum = $length، وهو طول الخط كاملًا. المجموعات مع فراغ واحد بين كل منها تملؤه تمامًا، فمكان كل مربع محدد. هذا المربع مملوء!';
   }
 
   @override
-  String hintOverlap(String line, String clue) {
-    return '$line ($clue): سواء دفعت المجموعات إلى البداية أو إلى النهاية، يبقى هذا المربع داخل مجموعة. إذن هو مملوء!';
+  String hintOverlap(
+    String line,
+    String clue,
+    int size,
+    String early,
+    String late,
+    String common,
+  ) {
+    return '$line ($clue): المربعات تُعدّ من اليسار أو من الأعلى. إذا دُفعت الكتلة ذات الطول $size إلى البداية غطّت المربعات $early، وإذا دُفعت إلى النهاية غطّت المربعات $late. المربعات $common مملوءة في الحالتين، إذن هي مؤكدة!';
   }
 
   @override
@@ -264,6 +271,24 @@ class AppLocalizationsAr extends AppLocalizations {
   String hintForcedEmpty(String line, String clue) {
     return '$line ($clue): لا تصل أي مجموعة إلى هذا المربع، فهو فارغ. وضعنا X هنا.';
   }
+
+  @override
+  String hintOutOfReach(String line, String clue, String reach, int cell) {
+    return '$line ($clue): المربعات تُعدّ من اليسار أو من الأعلى. لا تصل المجموعات إلا إلى هذه المربعات: $reach. المربع $cell خارجها كلها، إذن هو فارغ!';
+  }
+
+  @override
+  String hintBlockDone(String line, String clue, String cells, int size) {
+    return '$line ($clue): الكتلة المجاورة ($cells) طولها $size بالفعل، مثل أكبر مجموعة تتسع هنا. الكتلة مكتملة، إذن هذا المربع فارغ!';
+  }
+
+  @override
+  String hintTooSmall(String line, String clue, int gap, int size) {
+    return '$line ($clue): هذا المربع في فراغ طوله $gap فقط بين علامات X أو الحافة. حتى أصغر مجموعة تصل إليه طولها $size ولا تتسع، إذن هو فارغ!';
+  }
+
+  @override
+  String get hintFixedCross => 'علامة X التي وضعتها هنا كانت خاطئة، فأزلناها.';
 
   @override
   String get hintFallback => 'هذا المربع جزء من الصورة.';
