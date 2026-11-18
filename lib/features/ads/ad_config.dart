@@ -10,11 +10,29 @@ import 'package:flutter/foundation.dart';
 ///   (`com.google.android.gms.ads.APPLICATION_ID`)
 /// - iOS: `ios/Runner/Info.plist` (`GADApplicationIdentifier`)
 abstract final class AdConfig {
-  /// Master switch for every ad. While false the game shows no ads, does
-  /// not start the AdMob SDK and offers no ad rewards (no extra lives or
-  /// hints). Override for a build with `--dart-define=ADS_ENABLED=true`.
-  // TODO(admob): Flip to true once the production ids below are filled in.
-  static const adsEnabled = bool.fromEnvironment('ADS_ENABLED');
+  /// Per-platform switches. Web never shows ads.
+  static const androidAdsEnabled = true;
+  // TODO(admob): Flip to true once the iOS ids below are filled in.
+  static const iosAdsEnabled = false;
+
+  /// Build-wide kill switch: `--dart-define=ADS_ENABLED=false` turns every
+  /// ad off regardless of platform.
+  static const _masterSwitch = bool.fromEnvironment(
+    'ADS_ENABLED',
+    defaultValue: true,
+  );
+
+  /// Whether ads are shown on the current platform. While false the game
+  /// shows no ads, does not start the AdMob SDK and offers no ad rewards
+  /// (no extra lives or hints).
+  static bool get adsEnabled {
+    if (!_masterSwitch || kIsWeb) return false;
+    return switch (defaultTargetPlatform) {
+      TargetPlatform.android => androidAdsEnabled,
+      TargetPlatform.iOS => iosAdsEnabled,
+      _ => false,
+    };
+  }
 
   static const _androidInterstitial = 'ca-app-pub-2622546463597711/3697612865';
   static const _androidRewarded = 'ca-app-pub-2622546463597711/1755469090';

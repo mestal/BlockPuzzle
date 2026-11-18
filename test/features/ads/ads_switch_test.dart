@@ -2,6 +2,7 @@ import 'package:block_puzzle/features/ads/ad_config.dart';
 import 'package:block_puzzle/features/ads/ad_service.dart';
 import 'package:block_puzzle/features/game/presentation/game_dialogs.dart';
 import 'package:block_puzzle/l10n/gen/app_localizations.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -25,8 +26,21 @@ void main() {
     return context;
   }
 
-  test('ads are off by default', () {
-    expect(AdConfig.adsEnabled, isFalse);
+  test('ads are on for Android only', () {
+    for (final platform in TargetPlatform.values) {
+      debugDefaultTargetPlatformOverride = platform;
+      expect(
+        AdConfig.adsEnabled,
+        platform == TargetPlatform.android,
+        reason: '$platform',
+      );
+    }
+    debugDefaultTargetPlatformOverride = null;
+  });
+
+  test('ads are off on iOS', () {
+    debugDefaultTargetPlatformOverride = TargetPlatform.iOS;
+    addTearDown(() => debugDefaultTargetPlatformOverride = null);
     final container = ProviderContainer();
     addTearDown(container.dispose);
     expect(container.read(adServiceProvider), isA<NoAdService>());

@@ -123,9 +123,9 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - **Tamam** → (geçiş reklamı) → sonraki bölüm.
 
 ### Reklamlar
-- **Şimdilik kapalı** (oyun AdMob olmadan yayınlanıyor): ana anahtar `AdConfig.adsEnabled`
-  (`bool.fromEnvironment('ADS_ENABLED')`, varsayılan `false`; denemek için
-  `--dart-define=ADS_ENABLED=true`). Kapalıyken AdMob başlatılmaz, `adServiceProvider` `NoAdService`
+- **Android'de açık, iOS'ta kapalı, web'de hiç yok**: `AdConfig.adsEnabled` platforma bakar
+  (`androidAdsEnabled = true`, `iosAdsEnabled = false`; iOS üretim kimlikleri girilince aç).
+  `--dart-define=ADS_ENABLED=false` tüm platformlarda kapatır. Kapalıyken AdMob başlatılmaz, `adServiceProvider` `NoAdService`
   verir (geçiş reklamı yok, ödül yok) ve popup'lar reklam teklif etmez: haklar bitince yalnızca
   yeniden başlat / bölümlere dön, ipucu bitince yalnızca bilgi (`outOfLivesBodyNoAds`,
   `noHintsBodyNoAds`). UI `adsEnabledProvider`'ı okur. Açmak için üretim kimliklerini doldurup
@@ -138,7 +138,8 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - Reklam kimlikleri `features/ads/ad_config.dart`'ta; debug/profile ve boş üretim kimliğinde Google
   test kimlikleri kullanılır. Uygulama kimlikleri `AndroidManifest.xml` ve `Info.plist`'te
   (Android: üretim kimliği girildi; iOS şimdilik test kimlikleri, `TODO(admob)`).
-- Web ve testlerde `DummyAdService`: tam ekran sahte reklam, 3 sn geri sayım, sonra kapat.
+- Web'de reklam yoktur (`NoAdService`). `DummyAdService` (tam ekran sahte reklam, 3 sn geri sayım)
+  yalnızca testlerde `adsEnabledProvider` override edilince kullanılır.
 - Reklam türleri: `showInterstitial()` (bölüm geçişi), `showRewarded(reward)` (+1 hak, +1 ipucu).
 
 ### Haritalar (bölüm ilerlemesi)
