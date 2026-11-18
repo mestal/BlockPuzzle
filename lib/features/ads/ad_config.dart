@@ -16,10 +16,8 @@ abstract final class AdConfig {
   // TODO(admob): Flip to true once the production ids below are filled in.
   static const adsEnabled = bool.fromEnvironment('ADS_ENABLED');
 
-  // TODO(admob): Production interstitial ad unit id (Android).
-  static const _androidInterstitial = '';
-  // TODO(admob): Production rewarded ad unit id (Android).
-  static const _androidRewarded = '';
+  static const _androidInterstitial = 'ca-app-pub-2622546463597711/3697612865';
+  static const _androidRewarded = 'ca-app-pub-2622546463597711/1755469090';
   // TODO(admob): Production interstitial ad unit id (iOS).
   static const _iosInterstitial = '';
   // TODO(admob): Production rewarded ad unit id (iOS).

@@ -137,7 +137,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   ödül vermez (hak/ipucu alınamaz).
 - Reklam kimlikleri `features/ads/ad_config.dart`'ta; debug/profile ve boş üretim kimliğinde Google
   test kimlikleri kullanılır. Uygulama kimlikleri `AndroidManifest.xml` ve `Info.plist`'te
-  (şimdilik test kimlikleri, `TODO(admob)`).
+  (Android: üretim kimliği girildi; iOS şimdilik test kimlikleri, `TODO(admob)`).
 - Web ve testlerde `DummyAdService`: tam ekran sahte reklam, 3 sn geri sayım, sonra kapat.
 - Reklam türleri: `showInterstitial()` (bölüm geçişi), `showRewarded(reward)` (+1 hak, +1 ipucu).
 
