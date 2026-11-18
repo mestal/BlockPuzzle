@@ -124,7 +124,8 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   tam dolu çizgi → örtüşme (gruplar başa/sona yaslansa da kapsanan kare) → bilinenlerle zorunlu dolu
   → zorunlu boş (bu durumda altın renkli **ipucu X**'i konur). Dolu adımlar boş adımlara tercih edilir.
   Test: ipuçlarını izleyerek her bölüm hatasız çözülür.
-- İpucu 0 iken düğmeye basılınca: (reklamlar açıkken) **Reklam izle → +1 ipucu**; kapalıyken yeni ipucu yok.
+- İpucu 0 iken düğmeye basılınca: (reklamlar açıkken) **Reklam izle → +1 ipucu** (hak gibi ödüllü
+  reklam; kazanılan ipucu hemen kullanılır, reklam izlenemezse teklif yeniden gelir); kapalıyken yeni ipucu yok.
 
 ### Bölüm sonu
 - Son doğru kare girildiğinde: bloklar dalga halinde dönerek bölümün **renkli resmine** dönüşür,

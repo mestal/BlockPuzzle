@@ -212,6 +212,8 @@ class _GamePlayState extends ConsumerState<_GamePlay>
     }
   }
 
+  /// Out of hints: like an extra life, a rewarded ad earns one, used at
+  /// once. If no ad could be watched, the offer comes back.
   Future<void> _onHint() async {
     if (_game.useHint()) return;
     final watch = await showNoHintsDialog(
@@ -220,7 +222,14 @@ class _GamePlayState extends ConsumerState<_GamePlay>
     );
     if (!watch || !mounted) return;
     final rewarded = await ref.read(adServiceProvider).showRewarded(context);
-    if (rewarded) _game.grantHint();
+    if (!mounted) return;
+    if (rewarded) {
+      _game
+        ..grantHint()
+        ..useHint();
+    } else {
+      unawaited(_onHint());
+    }
   }
 
   /// Skips this level's lesson, or - if the player says so - every lesson.
