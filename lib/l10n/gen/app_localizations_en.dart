@@ -373,15 +373,15 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'The top two rows are [1 1 1]: three single squares with gaps between. 1 + 1 + 1 + 1 + 1 = 5: they fit exactly!';
+      'The top three rows are [1 1 1]: three single squares with gaps between. 1 + 1 + 1 + 1 + 1 = 5: they fit exactly!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'These two squares are empty. Double tap, keep your finger down on the second tap and slide down: a line of X\'s!';
+      'So the top three squares of this column are empty. Double tap, keep your finger down on the second tap and slide down: three X\'s in one go!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Your turn: draw X\'s on the two empty squares of this column.';
+      'Your turn: draw X\'s on the three empty squares of this column in one slide.';
 
   @override
   String get tutorialL4Erase =>

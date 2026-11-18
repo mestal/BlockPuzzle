@@ -749,19 +749,19 @@ abstract class AppLocalizations {
   /// No description provided for @tutorialL4Ones.
   ///
   /// In tr, this message translates to:
-  /// **'Üstteki iki satır [1 1 1]: üç tek kare, aralarında boşluk. 1 + 1 + 1 + 1 + 1 = 5: yerleri belli!'**
+  /// **'Üstteki üç satır [1 1 1]: üç tek kare, aralarında birer boşluk. 1 + 1 + 1 + 1 + 1 = 5: yerleri belli!'**
   String get tutorialL4Ones;
 
   /// No description provided for @tutorialL4CrossDrag.
   ///
   /// In tr, this message translates to:
-  /// **'Bu iki kare boş. Çift dokun, ikinci dokunuşta parmağını kaldırmadan aşağı kaydır: X çizgisi!'**
+  /// **'Yani bu sütunun üstteki üç karesi boş. Çift dokun, ikinci dokunuşta parmağını kaldırmadan aşağı kaydır: üç X birden!'**
   String get tutorialL4CrossDrag;
 
   /// No description provided for @tutorialL4CrossDragSelf.
   ///
   /// In tr, this message translates to:
-  /// **'Şimdi sen: bu sütundaki iki boş kareye X çiz.'**
+  /// **'Şimdi sen: bu sütundaki üç boş kareye tek seferde X çiz.'**
   String get tutorialL4CrossDragSelf;
 
   /// No description provided for @tutorialL4Erase.

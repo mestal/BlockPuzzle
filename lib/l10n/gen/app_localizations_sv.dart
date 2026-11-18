@@ -373,15 +373,15 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'De två översta raderna är [1 1 1]: tre ensamma rutor med mellanrum. 1 + 1 + 1 + 1 + 1 = 5: passar exakt!';
+      'De tre översta raderna är [1 1 1]: tre ensamma rutor med mellanrum. 1 + 1 + 1 + 1 + 1 = 5: passar exakt!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'De här två rutorna är tomma. Dubbeltryck, håll kvar fingret på andra trycket och dra nedåt: en linje av X!';
+      'Alltså är kolumnens tre översta rutor tomma. Dubbeltryck, håll kvar fingret på andra trycket och dra nedåt: tre X på en gång!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Din tur: dra X på kolumnens två tomma rutor.';
+      'Din tur: dra X på kolumnens tre tomma rutor i ett svep.';
 
   @override
   String get tutorialL4Erase =>

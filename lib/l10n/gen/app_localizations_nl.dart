@@ -373,15 +373,15 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'De bovenste twee rijen zijn [1 1 1]: drie losse vakjes met gaten ertussen. 1 + 1 + 1 + 1 + 1 = 5: past precies!';
+      'De bovenste drie rijen zijn [1 1 1]: drie losse vakjes met gaten ertussen. 1 + 1 + 1 + 1 + 1 = 5: past precies!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Deze twee vakjes zijn leeg. Dubbeltik, houd bij de tweede tik je vinger neer en schuif omlaag: een rij X\'jes!';
+      'Dus de bovenste drie vakjes van deze kolom zijn leeg. Dubbeltik, houd bij de tweede tik je vinger neer en schuif omlaag: drie X\'jes in één keer!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Jouw beurt: teken X\'jes op de twee lege vakjes van deze kolom.';
+      'Jouw beurt: teken in één veeg X\'jes op de drie lege vakjes van deze kolom.';
 
   @override
   String get tutorialL4Erase =>

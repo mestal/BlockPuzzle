@@ -359,14 +359,15 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      '위의 두 행은 [1 1 1]: 사이에 빈칸을 두고 한 칸씩 세 개예요. 1 + 1 + 1 + 1 + 1 = 5: 딱 맞아요!';
+      '위의 세 행은 [1 1 1]: 사이에 빈칸을 두고 한 칸씩 세 개예요. 1 + 1 + 1 + 1 + 1 = 5: 딱 맞아요!';
 
   @override
   String get tutorialL4CrossDrag =>
-      '이 두 칸은 빈칸이에요. 더블 탭하고 두 번째 탭에서 손가락을 떼지 말고 아래로 밀어 보세요: X 줄이 그어져요!';
+      '그러니 이 열의 위쪽 세 칸은 빈칸이에요. 더블 탭하고 두 번째 탭에서 손가락을 떼지 말고 아래로 밀어 보세요: X 세 개가 한 번에!';
 
   @override
-  String get tutorialL4CrossDragSelf => '이제 직접 해 보세요: 이 열의 빈칸 두 개에 X를 그으세요.';
+  String get tutorialL4CrossDragSelf =>
+      '이제 직접 해 보세요: 한 번에 밀어서 이 열의 빈칸 세 개에 X를 그으세요.';
 
   @override
   String get tutorialL4Erase =>

@@ -372,15 +372,15 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Le prime due righe sono [1 1 1]: tre caselle singole con spazi in mezzo. 1 + 1 + 1 + 1 + 1 = 5: entrano giuste!';
+      'Le prime tre righe sono [1 1 1]: tre caselle singole con spazi in mezzo. 1 + 1 + 1 + 1 + 1 = 5: entrano giuste!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Queste due caselle sono vuote. Tocca due volte, tieni giù il dito al secondo tocco e scorri in basso: una fila di X!';
+      'Quindi le tre caselle in alto di questa colonna sono vuote. Tocca due volte, tieni giù il dito al secondo tocco e scorri in basso: tre X in un colpo!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Tocca a te: traccia le X sulle due caselle vuote di questa colonna.';
+      'Tocca a te: traccia in un solo gesto le X sulle tre caselle vuote di questa colonna.';
 
   @override
   String get tutorialL4Erase =>

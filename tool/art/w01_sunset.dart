@@ -180,7 +180,7 @@ const sunsetArt = <LevelArt>[
       'ਤਾਜ',
       'มงกุฎ',
     ],
-    ['Y.Y.Y', 'Y.Y.Y', 'YYYYY', 'YRYBY', 'YYYYY'],
+    ['R.B.R', 'Y.Y.Y', 'Y.Y.Y', 'YYYYY', 'YBYRY'],
     pinned: true,
   ),
   LevelArt(

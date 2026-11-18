@@ -374,15 +374,15 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Die oberen zwei Zeilen sind [1 1 1]: drei einzelne Felder mit Lücken. 1 + 1 + 1 + 1 + 1 = 5: passt genau!';
+      'Die oberen drei Zeilen sind [1 1 1]: drei einzelne Felder mit Lücken. 1 + 1 + 1 + 1 + 1 = 5: passt genau!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Diese zwei Felder sind leer. Tippe doppelt, lass beim zweiten Tippen den Finger unten und wische runter: eine X-Linie!';
+      'Also sind die oberen drei Felder dieser Spalte leer. Tippe doppelt, lass beim zweiten Tippen den Finger unten und wische runter: drei X auf einmal!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Du bist dran: Zeichne X auf die zwei leeren Felder dieser Spalte.';
+      'Du bist dran: Zeichne mit einem Wisch X auf die drei leeren Felder dieser Spalte.';
 
   @override
   String get tutorialL4Erase =>

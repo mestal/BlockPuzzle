@@ -121,7 +121,7 @@ final class TutorialStep {
 /// 2. several groups in one clue, double tap for X, X is skipped by a drag,
 ///    mistakes cost hearts
 /// 3. the overlap rule
-/// 4. a line of X marks, removing an X
+/// 4. `1 1 1`, a line of three X marks, removing an X
 /// 5. adding up a clue on your own, the hint button
 @immutable
 final class Tutorial {
@@ -351,50 +351,72 @@ final _level3 = Tutorial(3, [
   const TutorialStep(text: TutorialText.l3Finish, done: _solved),
 ]);
 
-/// Level 4, the crown: a line of X marks, and taking an X back.
+/// Level 4, the crown: `1 1 1`, a line of X marks, and taking an X back.
 /// ```text
-///       5 3 5 3 5
+///       2 5 2 5 2
+///       1   1   1
 /// 1 1 1 # . # . #
 /// 1 1 1 # . # . #
-///   5   # # # # #
+/// 1 1 1 # . # . #
 ///   5   # # # # #
 ///   5   # # # # #
 /// ```
+/// The three `1 1 1` rows leave the top three squares of columns 2 and 4
+/// empty: each is crossed with one double-tap slide.
 final _level4 = Tutorial(4, [
   TutorialStep(
     text: TutorialText.l4Ones,
-    focus: [_row(0), _row(1)],
-    ghostFills: const [(0, 0), (0, 2), (0, 4), (1, 0), (1, 2), (1, 4)],
-    ghostCrosses: const [(0, 1), (0, 3), (1, 1), (1, 3)],
-    obsolete: (b) =>
-        b.at(0, 1).isOpen ||
-        b.at(1, 1).isOpen ||
-        (b.solvedRows.contains(0) && b.solvedRows.contains(1)),
+    focus: [_row(0), _row(1), _row(2)],
+    ghostFills: const [
+      (0, 0), (0, 2), (0, 4), //
+      (1, 0), (1, 2), (1, 4), //
+      (2, 0), (2, 2), (2, 4),
+    ],
+    ghostCrosses: const [
+      (0, 1), (0, 3), //
+      (1, 1), (1, 3), //
+      (2, 1), (2, 3),
+    ],
+    obsolete: (b) => _xLineReady(b, 1),
   ),
   TutorialStep(
     text: TutorialText.l4CrossDrag,
     focus: [_col(1)],
     gesture: TutorialGesture.crossDrag,
     from: (0, 1),
-    to: (1, 1),
-    done: (b) => _crossed(b, const [(0, 1), (1, 1)]),
+    to: (2, 1),
+    done: (b) => _xLineReady(b, 1),
   ),
   TutorialStep(
     text: TutorialText.l4CrossDragSelf,
     focus: [_col(3)],
     gesture: TutorialGesture.crossDrag,
     from: (0, 3),
-    to: (1, 3),
+    to: (2, 3),
     selfTry: true,
-    done: (b) => _crossed(b, const [(0, 3), (1, 3)]),
+    done: (b) => _xLineReady(b, 3),
   ),
-  const TutorialStep(
+  TutorialStep(
     text: TutorialText.l4Erase,
     gesture: TutorialGesture.doubleTap,
     from: (0, 3),
+    // The hand double-taps the player's own X; once that X is gone (or
+    // turned into an automatic one) there is nothing left to show.
+    obsolete: (b) => !b.at(0, 3).isUserCross,
   ),
   const TutorialStep(text: TutorialText.l4Finish, done: _solved),
 ]);
+
+/// Whether the top three squares of column [c] need no X slide any more:
+/// all crossed, or the slide can no longer be shown cleanly - one of them
+/// was already crossed by the game (the player solved a `1 1 1` row first),
+/// or the slide's first square is taken (from a player's X it would erase).
+bool _xLineReady(Board b, int c) {
+  final cells = [for (var r = 0; r < 3; r++) b.at(r, c)];
+  return cells.every((cell) => cell.mark == CellMark.crossed) ||
+      cells.any((cell) => cell.isLocked) ||
+      cells.first.isOpen;
+}
 
 /// Level 5, the trophy: the player adds up a clue alone; the hint button.
 /// ```text

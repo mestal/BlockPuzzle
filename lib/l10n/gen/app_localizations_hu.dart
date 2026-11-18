@@ -372,15 +372,15 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'A felső két sor [1 1 1]: három különálló négyzet, köztük hézaggal. 1 + 1 + 1 + 1 + 1 = 5: pont kijön!';
+      'A felső három sor [1 1 1]: három különálló négyzet, köztük hézaggal. 1 + 1 + 1 + 1 + 1 = 5: pont kijön!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Ez a két négyzet üres. Koppints kétszer, a második koppintásnál tartsd lent az ujjad, és húzd lefelé: X-vonal!';
+      'Tehát az oszlop felső három négyzete üres. Koppints kétszer, a második koppintásnál tartsd lent az ujjad, és húzd lefelé: három X egyszerre!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Te jössz: húzz X-et az oszlop két üres négyzetére.';
+      'Te jössz: egy húzással tegyél X-et az oszlop három üres négyzetére.';
 
   @override
   String get tutorialL4Erase =>

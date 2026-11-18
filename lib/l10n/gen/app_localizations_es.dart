@@ -373,15 +373,15 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Las dos filas de arriba son [1 1 1]: tres casillas sueltas con huecos entre ellas. 1 + 1 + 1 + 1 + 1 = 5: ¡encajan justo!';
+      'Las tres filas de arriba son [1 1 1]: tres casillas sueltas con huecos entre ellas. 1 + 1 + 1 + 1 + 1 = 5: ¡encajan justo!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Estas dos casillas están vacías. Toca dos veces, deja el dedo apoyado en el segundo toque y desliza hacia abajo: ¡una línea de X!';
+      'Así que las tres casillas de arriba de esta columna están vacías. Toca dos veces, deja el dedo apoyado en el segundo toque y desliza hacia abajo: ¡tres X de una vez!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Te toca: dibuja X en las dos casillas vacías de esta columna.';
+      'Te toca: dibuja X de un solo trazo en las tres casillas vacías de esta columna.';
 
   @override
   String get tutorialL4Erase =>

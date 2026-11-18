@@ -372,15 +372,15 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Dua baris teratas adalah [1 1 1]: tiga kotak tunggal dengan jarak di antaranya. 1 + 1 + 1 + 1 + 1 = 5: pas sekali!';
+      'Tiga baris teratas adalah [1 1 1]: tiga kotak tunggal dengan jarak di antaranya. 1 + 1 + 1 + 1 + 1 = 5: pas sekali!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Dua kotak ini kosong. Ketuk dua kali, tahan jari di ketukan kedua, lalu geser ke bawah: garis X!';
+      'Jadi tiga kotak teratas di kolom ini kosong. Ketuk dua kali, tahan jari di ketukan kedua, lalu geser ke bawah: tiga X sekaligus!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Giliranmu: gambar X di dua kotak kosong pada kolom ini.';
+      'Giliranmu: gambar X di tiga kotak kosong pada kolom ini dengan satu geseran.';
 
   @override
   String get tutorialL4Erase =>

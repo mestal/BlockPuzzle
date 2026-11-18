@@ -375,15 +375,15 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Primele două rânduri sunt [1 1 1]: trei pătrățele singure, cu goluri între ele. 1 + 1 + 1 + 1 + 1 = 5: se potrivesc perfect!';
+      'Primele trei rânduri sunt [1 1 1]: trei pătrățele singure, cu goluri între ele. 1 + 1 + 1 + 1 + 1 = 5: se potrivesc perfect!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Aceste două pătrățele sunt goale. Atinge de două ori, ține degetul jos la a doua atingere și glisează în jos: o linie de X!';
+      'Deci primele trei pătrățele din coloana aceasta sunt goale. Atinge de două ori, ține degetul jos la a doua atingere și glisează în jos: trei X dintr-odată!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'E rândul tău: trage X pe cele două pătrățele goale din coloana aceasta.';
+      'E rândul tău: trage dintr-o singură mișcare X pe cele trei pătrățele goale din coloana aceasta.';
 
   @override
   String get tutorialL4Erase =>

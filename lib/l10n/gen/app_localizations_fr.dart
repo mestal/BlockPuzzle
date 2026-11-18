@@ -373,15 +373,15 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Les deux lignes du haut sont [1 1 1] : trois cases seules, séparées par des vides. 1 + 1 + 1 + 1 + 1 = 5 : ça tient pile !';
+      'Les trois lignes du haut sont [1 1 1] : trois cases seules, séparées par des vides. 1 + 1 + 1 + 1 + 1 = 5 : ça tient pile !';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Ces deux cases sont vides. Touche deux fois, garde le doigt posé au second toucher et glisse vers le bas : une ligne de X !';
+      'Donc les trois cases du haut de cette colonne sont vides. Touche deux fois, garde le doigt posé au second toucher et glisse vers le bas : trois X d\'un coup !';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'À toi : trace des X sur les deux cases vides de cette colonne.';
+      'À toi : trace d\'un seul geste des X sur les trois cases vides de cette colonne.';
 
   @override
   String get tutorialL4Erase =>

@@ -372,15 +372,15 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'ওপরের দুই সারি [1 1 1]: তিনটি একক ঘর, মাঝে ফাঁক। 1 + 1 + 1 + 1 + 1 = 5: একদম মাপে মাপে!';
+      'ওপরের তিন সারি [1 1 1]: তিনটি একক ঘর, মাঝে ফাঁক। 1 + 1 + 1 + 1 + 1 = 5: একদম মাপে মাপে!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'এই দুটি ঘর খালি। ডাবল ট্যাপ করো, দ্বিতীয় ট্যাপে আঙুল চেপে রেখে নিচে টানো: X-এর লাইন!';
+      'তাই এই কলামের ওপরের তিনটি ঘর খালি। ডাবল ট্যাপ করো, দ্বিতীয় ট্যাপে আঙুল চেপে রেখে নিচে টানো: একসাথে তিনটি X!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'তোমার পালা: এই কলামের দুটি খালি ঘরে X আঁকো।';
+      'তোমার পালা: এক টানে এই কলামের তিনটি খালি ঘরে X আঁকো।';
 
   @override
   String get tutorialL4Erase =>

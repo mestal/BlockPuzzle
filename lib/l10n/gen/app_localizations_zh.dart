@@ -341,13 +341,13 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      '上面两行是 [1 1 1]：三个单独的方块，中间隔着空格。1 + 1 + 1 + 1 + 1 = 5：正好放下！';
+      '上面三行是 [1 1 1]：三个单独的方块，中间隔着空格。1 + 1 + 1 + 1 + 1 = 5：正好放下！';
 
   @override
-  String get tutorialL4CrossDrag => '这两格是空的。双击，第二下按住不放并往下滑：画出一条 X 线！';
+  String get tutorialL4CrossDrag => '所以这一列最上面的三格是空的。双击，第二下按住不放并往下滑：一次画出三个 X！';
 
   @override
-  String get tutorialL4CrossDragSelf => '轮到你了：在这一列的两个空格上画 X。';
+  String get tutorialL4CrossDragSelf => '轮到你了：一笔在这一列的三个空格上画 X。';
 
   @override
   String get tutorialL4Erase => '打错了 X？再双击一次就会消失。从 X 上双击并滑动，会擦掉经过的 X。';

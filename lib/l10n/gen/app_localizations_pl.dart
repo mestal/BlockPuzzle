@@ -374,15 +374,15 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Dwa górne wiersze to [1 1 1]: trzy pojedyncze pola z przerwami. 1 + 1 + 1 + 1 + 1 = 5: pasują idealnie!';
+      'Trzy górne wiersze to [1 1 1]: trzy pojedyncze pola z przerwami. 1 + 1 + 1 + 1 + 1 = 5: pasują idealnie!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Te dwa pola są puste. Dotknij dwa razy, przy drugim dotknięciu przytrzymaj palec i przesuń w dół: linia X!';
+      'Czyli trzy górne pola tej kolumny są puste. Dotknij dwa razy, przy drugim dotknięciu przytrzymaj palec i przesuń w dół: trzy X naraz!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Twoja kolej: narysuj X na dwóch pustych polach tej kolumny.';
+      'Twoja kolej: jednym ruchem narysuj X na trzech pustych polach tej kolumny.';
 
   @override
   String get tutorialL4Erase =>

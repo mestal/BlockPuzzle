@@ -128,6 +128,19 @@ void main() {
             reason: 'ghost at ($r, $c) shows the answer',
           );
         }
+        if (step.from case (final r, final c)) {
+          final cell = board.at(r, c);
+          // A fill may start on a filled cell (the drag skips it), but never
+          // on an X; an X slide from a taken cell would erase, and a double
+          // tap only acts on an empty cell or the player's own X.
+          final ok = switch (step.gesture!) {
+            TutorialGesture.tap ||
+            TutorialGesture.drag => cell.mark != CellMark.crossed,
+            TutorialGesture.crossDrag => !cell.isOpen,
+            TutorialGesture.doubleTap => !cell.isLocked,
+          };
+          expect(ok, isTrue, reason: 'step $i starts on ($r, $c)');
+        }
         if (step.slide case final length?) {
           final line = step.focus.first;
           final cells = line.isRow ? puzzle.cols : puzzle.rows;
@@ -198,12 +211,31 @@ void main() {
     expect(tutorial.currentStep(board, {mistakes}), mistakes + 1);
   });
 
-  test('the X line lesson needs the X marks, not just a solved row', () {
+  test('the X line lesson needs all three X marks', () {
     final tutorial = Tutorial.forLevel(4)!;
     var board = Board.start(_level(4));
-    board = board.apply(0, 1, MoveAction.cross).board;
-    expect(tutorial.currentStep(board, const {}), 1);
+    expect(tutorial.currentStep(board, const {0}), 1);
     board = board.apply(1, 1, MoveAction.cross).board;
-    expect(tutorial.currentStep(board, const {}), 2);
+    expect(tutorial.currentStep(board, const {0}), 1);
+    board = board.apply(2, 1, MoveAction.cross).board;
+    expect(tutorial.currentStep(board, const {0}), 1);
+    board = board.apply(0, 1, MoveAction.cross).board;
+    expect(tutorial.currentStep(board, const {0}), 2);
+  });
+
+  test('the hand never starts a slide on an automatic X', () {
+    final tutorial = Tutorial.forLevel(4)!;
+    var board = Board.start(_level(4));
+    // The player solves the first `1 1 1` row before drawing any X: the
+    // game crosses (0, 1) and (0, 3) itself.
+    for (final c in [0, 2, 4]) {
+      board = board.apply(0, c, MoveAction.fill).board;
+    }
+    expect(board.at(0, 1).isLocked, isTrue);
+    final i = tutorial.currentStep(board, const {0});
+    final step = tutorial.steps[i!];
+    if (step.from case (final r, final c)) {
+      expect(board.at(r, c).isLocked, isFalse, reason: 'step $i');
+    }
   });
 }

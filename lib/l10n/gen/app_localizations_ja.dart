@@ -349,14 +349,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      '上の 2 行は [1 1 1]：すき間をあけて 1 マスずつ 3 つ。1 + 1 + 1 + 1 + 1 = 5：ぴったり！';
+      '上の 3 行は [1 1 1]：すき間をあけて 1 マスずつ 3 つ。1 + 1 + 1 + 1 + 1 = 5：ぴったり！';
 
   @override
   String get tutorialL4CrossDrag =>
-      'この 2 マスは空き。ダブルタップして、2 回目で指を離さず下へスライド：X の線が引けるよ！';
+      'だからこの列の上の 3 マスは空き。ダブルタップして、2 回目で指を離さず下へスライド：X が 3 つ一気に引けるよ！';
 
   @override
-  String get tutorialL4CrossDragSelf => 'きみの番：この列の空きマス 2 つに X を引こう。';
+  String get tutorialL4CrossDragSelf => 'きみの番：この列の空きマス 3 つに、ひとなぞりで X を引こう。';
 
   @override
   String get tutorialL4Erase =>

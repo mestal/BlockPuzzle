@@ -375,15 +375,15 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Horní dva řádky jsou [1 1 1]: tři samostatná políčka s mezerami. 1 + 1 + 1 + 1 + 1 = 5: sedí přesně!';
+      'Horní tři řádky jsou [1 1 1]: tři samostatná políčka s mezerami. 1 + 1 + 1 + 1 + 1 = 5: sedí přesně!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Tato dvě políčka jsou prázdná. Klepni dvakrát, při druhém klepnutí nech prst dole a táhni dolů: čára z X!';
+      'Takže horní tři políčka tohoto sloupce jsou prázdná. Klepni dvakrát, při druhém klepnutí nech prst dole a táhni dolů: tři X najednou!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Jsi na řadě: nakresli X na dvě prázdná políčka tohoto sloupce.';
+      'Jsi na řadě: jedním tahem nakresli X na tři prázdná políčka tohoto sloupce.';
 
   @override
   String get tutorialL4Erase =>

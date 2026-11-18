@@ -52,7 +52,7 @@ Mod düğmesi yok; işlemi **jest** belirler:
   1. ipucu okuma, dokunma, sürükleme, otomatik X, X'lerden sonra kalan kareleri sayma
   2. çok sayılı ipucu (`2 2`, 2+1+2=5), çift dokunarak X, X'in sürüklemede atlanması, hata = kalp
   3. **örtüşme** (5'te 4 → ortadaki 3, 5'te 3 → orta kare kesin)
-  4. `1 1 1`, çift dokunup sürükleyerek X çizgisi, X silme
+  4. `1 1 1` (`#X#X#`; üç satır alt alta), çift dokunup sürükleyerek tek seferde 3 X'lik çizgi, X silme
   5. ipucunu kendi başına toplama (`3 1`), İpucu düğmesi
 - Görünüm: maskot (jöle blok, `TutorialMascot`) konuşma kartında anlatır; ders/adım göstergesi,
   **Atla**. Adımın çizgileri dışındaki tahta karartılır, ipucu kutuları nabız gibi atar, diğerleri soluklaşır.

@@ -372,15 +372,15 @@ class AppLocalizationsNb extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'De to øverste radene er [1 1 1]: tre enkle ruter med mellomrom. 1 + 1 + 1 + 1 + 1 = 5: passer akkurat!';
+      'De tre øverste radene er [1 1 1]: tre enkle ruter med mellomrom. 1 + 1 + 1 + 1 + 1 = 5: passer akkurat!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Disse to rutene er tomme. Dobbelttrykk, hold fingeren nede på andre trykk og dra nedover: en linje av X-er!';
+      'Altså er de tre øverste rutene i denne kolonnen tomme. Dobbelttrykk, hold fingeren nede på andre trykk og dra nedover: tre X-er på én gang!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Din tur: tegn X-er på de to tomme rutene i denne kolonnen.';
+      'Din tur: tegn X-er på de tre tomme rutene i denne kolonnen i ett drag.';
 
   @override
   String get tutorialL4Erase =>

@@ -373,15 +373,15 @@ class AppLocalizationsSw extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Safu mbili za juu ni [1 1 1]: visanduku vitatu vya pekee vyenye nafasi kati yake. 1 + 1 + 1 + 1 + 1 = 5: vinatosha kabisa!';
+      'Safu tatu za juu ni [1 1 1]: visanduku vitatu vya pekee vyenye nafasi kati yake. 1 + 1 + 1 + 1 + 1 = 5: vinatosha kabisa!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Visanduku hivi viwili ni vitupu. Gusa mara mbili, shikilia kidole kwenye mguso wa pili na telezesha chini: mstari wa X!';
+      'Kwa hiyo visanduku vitatu vya juu vya safu wima hii ni vitupu. Gusa mara mbili, shikilia kidole kwenye mguso wa pili na telezesha chini: X tatu kwa mpigo mmoja!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Zamu yako: chora X kwenye visanduku viwili vitupu vya safu wima hii.';
+      'Zamu yako: kwa kutelezesha mara moja, chora X kwenye visanduku vitatu vitupu vya safu wima hii.';
 
   @override
   String get tutorialL4Erase =>

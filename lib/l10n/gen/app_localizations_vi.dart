@@ -372,15 +372,15 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Hai hàng trên cùng là [1 1 1]: ba ô lẻ, xen giữa là ô trống. 1 + 1 + 1 + 1 + 1 = 5: vừa khít!';
+      'Ba hàng trên cùng là [1 1 1]: ba ô lẻ, xen giữa là ô trống. 1 + 1 + 1 + 1 + 1 = 5: vừa khít!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Hai ô này trống. Chạm hai lần, giữ ngón tay ở lần chạm thứ hai rồi vuốt xuống: một đường X!';
+      'Vậy ba ô trên cùng của cột này trống. Chạm hai lần, giữ ngón tay ở lần chạm thứ hai rồi vuốt xuống: ba dấu X một lúc!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Đến lượt bạn: vẽ X lên hai ô trống của cột này.';
+      'Đến lượt bạn: vuốt một lần để vẽ X lên ba ô trống của cột này.';
 
   @override
   String get tutorialL4Erase =>

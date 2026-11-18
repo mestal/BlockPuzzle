@@ -373,15 +373,15 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'De to øverste rækker er [1 1 1]: tre enkelte felter med mellemrum. 1 + 1 + 1 + 1 + 1 = 5: passer præcis!';
+      'De tre øverste rækker er [1 1 1]: tre enkelte felter med mellemrum. 1 + 1 + 1 + 1 + 1 = 5: passer præcis!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Disse to felter er tomme. Dobbelttryk, hold fingeren nede ved andet tryk og træk nedad: en linje af X\'er!';
+      'Så kolonnens tre øverste felter er tomme. Dobbelttryk, hold fingeren nede ved andet tryk og træk nedad: tre X\'er på én gang!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Din tur: tegn X\'er på kolonnens to tomme felter.';
+      'Din tur: tegn X\'er på kolonnens tre tomme felter i ét træk.';
 
   @override
   String get tutorialL4Erase =>

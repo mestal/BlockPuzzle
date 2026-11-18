@@ -372,15 +372,15 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'As duas linhas de cima são [1 1 1]: três quadrados sozinhos com espaços entre eles. 1 + 1 + 1 + 1 + 1 = 5: cabem certinho!';
+      'As três linhas de cima são [1 1 1]: três quadrados sozinhos com espaços entre eles. 1 + 1 + 1 + 1 + 1 = 5: cabem certinho!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Estes dois quadrados são vazios. Toque duas vezes, mantenha o dedo no segundo toque e deslize para baixo: uma linha de X!';
+      'Então os três quadrados de cima desta coluna são vazios. Toque duas vezes, mantenha o dedo no segundo toque e deslize para baixo: três X de uma vez!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Sua vez: desenhe X nos dois quadrados vazios desta coluna.';
+      'Sua vez: desenhe X de uma só vez nos três quadrados vazios desta coluna.';
 
   @override
   String get tutorialL4Erase =>

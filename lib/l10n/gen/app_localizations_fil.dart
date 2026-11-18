@@ -374,15 +374,15 @@ class AppLocalizationsFil extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Ang dalawang hilera sa itaas ay [1 1 1]: tatlong solong kahon na may puwang sa pagitan. 1 + 1 + 1 + 1 + 1 = 5: saktong-sakto!';
+      'Ang tatlong hilera sa itaas ay [1 1 1]: tatlong solong kahon na may puwang sa pagitan. 1 + 1 + 1 + 1 + 1 = 5: saktong-sakto!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Bakante ang dalawang kahong ito. Mag-double tap, idiin ang daliri sa ikalawang tap at i-slide pababa: isang linya ng X!';
+      'Kaya bakante ang tatlong kahon sa itaas ng kolum na ito. Mag-double tap, idiin ang daliri sa ikalawang tap at i-slide pababa: tatlong X nang sabay-sabay!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Ikaw naman: gumuhit ng X sa dalawang bakanteng kahon ng kolum na ito.';
+      'Ikaw naman: sa isang slide, gumuhit ng X sa tatlong bakanteng kahon ng kolum na ito.';
 
   @override
   String get tutorialL4Erase =>

@@ -371,15 +371,15 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get tutorialL4Ones =>
-      'Kaksi ylintä riviä ovat [1 1 1]: kolme yksittäistä ruutua välein. 1 + 1 + 1 + 1 + 1 = 5: mahtuvat juuri!';
+      'Kolme ylintä riviä ovat [1 1 1]: kolme yksittäistä ruutua välein. 1 + 1 + 1 + 1 + 1 = 5: mahtuvat juuri!';
 
   @override
   String get tutorialL4CrossDrag =>
-      'Nämä kaksi ruutua ovat tyhjiä. Kaksoisnapauta, pidä sormi alhaalla toisella napautuksella ja liu’uta alas: X-viiva!';
+      'Siis tämän sarakkeen kolme ylintä ruutua ovat tyhjiä. Kaksoisnapauta, pidä sormi alhaalla toisella napautuksella ja liu’uta alas: kolme X:ää kerralla!';
 
   @override
   String get tutorialL4CrossDragSelf =>
-      'Sinun vuorosi: vedä X:t tämän sarakkeen kahteen tyhjään ruutuun.';
+      'Sinun vuorosi: vedä yhdellä liu’utuksella X:t tämän sarakkeen kolmeen tyhjään ruutuun.';
 
   @override
   String get tutorialL4Erase =>
