@@ -346,6 +346,7 @@ class _GamePlayState extends ConsumerState<_GamePlay>
               ),
               _BottomBar(
                 hints: hints,
+                canEarnHint: ref.watch(adsEnabledProvider),
                 spotHint: step?.anchor == TutorialAnchor.hint,
                 enabled: state.status == GameStatus.playing,
                 onHint: _onHint,
@@ -535,6 +536,7 @@ class _Lives extends StatelessWidget {
 class _BottomBar extends StatelessWidget {
   const _BottomBar({
     required this.hints,
+    required this.canEarnHint,
     required this.enabled,
     required this.onHint,
     required this.onRestart,
@@ -543,6 +545,10 @@ class _BottomBar extends StatelessWidget {
   });
 
   final int hints;
+
+  /// A rewarded ad can earn a hint (ads switched on). Only then does an
+  /// empty hint count show "+"; otherwise it shows a grey 0.
+  final bool canEarnHint;
 
   /// A tutorial step is talking about the hint button.
   final bool spotHint;
@@ -563,8 +569,12 @@ class _BottomBar extends StatelessWidget {
         ),
         const SizedBox(width: 20),
         Badge(
-          label: Text(hints > 0 ? '$hints' : '+'),
-          backgroundColor: hints > 0 ? AppColors.heart : AppColors.goldDeep,
+          label: Text(hints > 0 || !canEarnHint ? '$hints' : '+'),
+          backgroundColor: hints > 0
+              ? AppColors.heart
+              : canEarnHint
+              ? AppColors.goldDeep
+              : AppColors.crossAuto,
           largeSize: 22,
           textStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
           // The ring goes around the button only, under the badge.
