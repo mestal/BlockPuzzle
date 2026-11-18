@@ -590,47 +590,209 @@ abstract class AppLocalizations {
   /// **'Anladım'**
   String get tutorialGotIt;
 
+  /// No description provided for @tutorialLesson.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eğitim {lesson}/{count}'**
+  String tutorialLesson(int lesson, int count);
+
+  /// No description provided for @tutorialStart.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başlayalım!'**
+  String get tutorialStart;
+
+  /// No description provided for @tutorialSkipTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eğitimi atla?'**
+  String get tutorialSkipTitle;
+
+  /// No description provided for @tutorialSkipBody.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yalnızca bu bölümün eğitimini mi, yoksa tüm eğitimi mi atlamak istersin?'**
+  String get tutorialSkipBody;
+
+  /// No description provided for @tutorialSkipLevel.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yalnızca bu bölüm'**
+  String get tutorialSkipLevel;
+
+  /// No description provided for @tutorialSkipAll.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tüm eğitimi atla'**
+  String get tutorialSkipAll;
+
+  /// No description provided for @tutorialWelcome.
+  ///
+  /// In tr, this message translates to:
+  /// **'Merhaba! Her bulmacada gizli bir resim var. Sayılara bakıp doğru kareleri doldur, resmi ortaya çıkar!'**
+  String get tutorialWelcome;
+
   /// No description provided for @tutorialL1Fill.
   ///
   /// In tr, this message translates to:
-  /// **'Sayılar o satırda kaç dolu kare olduğunu söyler. Bu satırda 5 var, yani 5 karenin hepsi dolu! Bir kareye dokunarak doldur.'**
+  /// **'[5]: bu satırda 5 dolu kare var. Satır da 5 kare, yani hepsi dolu! Bir kareye dokun.'**
   String get tutorialL1Fill;
 
   /// No description provided for @tutorialL1Drag.
   ///
   /// In tr, this message translates to:
-  /// **'Harika! Şimdi parmağını basılı tutup kaydırarak satırın kalanını doldur.'**
+  /// **'Süper! Şimdi parmağını kaldırmadan kaydır, satırın kalanını doldur.'**
   String get tutorialL1Drag;
+
+  /// No description provided for @tutorialL1Row.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu satır da [5]. Bu kez baştan sona tek hamlede kaydır.'**
+  String get tutorialL1Row;
+
+  /// No description provided for @tutorialL1AutoCross.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu sütundaki [2] kare bulundu, kalanlar kendiliğinden X oldu. X, burası boş demek.'**
+  String get tutorialL1AutoCross;
 
   /// No description provided for @tutorialL1Column.
   ///
   /// In tr, this message translates to:
-  /// **'Bu sütunda da 5 var: yukarıdan aşağı kaydır.'**
+  /// **'Üstteki sayılar sütunlar için. Bu sütun [5]: yukarıdan aşağı kaydır.'**
   String get tutorialL1Column;
+
+  /// No description provided for @tutorialL1Count.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu satıra [3] kare lazım. X\'ler boş; geriye tam 3 kare kaldı. Hepsini doldur!'**
+  String get tutorialL1Count;
 
   /// No description provided for @tutorialL1Finish.
   ///
   /// In tr, this message translates to:
-  /// **'Bir satır ya da sütun bitince kalan kareleri kendiliğinden X olur. Resmin kalanını kendin tamamla!'**
+  /// **'Son satırı sen bitir ve resmi ortaya çıkar!'**
   String get tutorialL1Finish;
+
+  /// No description provided for @tutorialL2Groups.
+  ///
+  /// In tr, this message translates to:
+  /// **'[2 2]: iki ayrı grup. 2 dolu, en az 1 boş, sonra 2 dolu. 2 + 1 + 2 = 5: satıra tam sığar!'**
+  String get tutorialL2Groups;
 
   /// No description provided for @tutorialL2Cross.
   ///
   /// In tr, this message translates to:
-  /// **'2 2: önce 2 dolu kare, en az bir boşluk, sonra yine 2 dolu kare. 2 + boşluk + 2 = 5, satır tam belli! Boş kalacak kareye çift dokunarak X koy.'**
+  /// **'Yani ortadaki kare boş. Ona çift dokunarak X koy.'**
   String get tutorialL2Cross;
 
   /// No description provided for @tutorialL2Drag.
   ///
   /// In tr, this message translates to:
-  /// **'X koyduğun kareler kaydırırken atlanır. Satırı baştan sona kaydırarak doldur.'**
+  /// **'X bir nottur, hak götürmez. Şimdi satırı baştan sona kaydır; X\'li kare atlanır.'**
   String get tutorialL2Drag;
 
-  /// No description provided for @tutorialL2Rules.
+  /// No description provided for @tutorialL2CrossSelf.
   ///
   /// In tr, this message translates to:
-  /// **'Yanlış kareyi doldurursan 1 hak gider; X koymak ise serbest. Takılırsan İpucu düğmesi nedenini de anlatır. Gerisi sende!'**
-  String get tutorialL2Rules;
+  /// **'Alttaki satır da [2 2]. Sıra sende: önce boş kareye X koy.'**
+  String get tutorialL2CrossSelf;
+
+  /// No description provided for @tutorialL2DragSelf.
+  ///
+  /// In tr, this message translates to:
+  /// **'Şimdi satırı kaydırarak doldur.'**
+  String get tutorialL2DragSelf;
+
+  /// No description provided for @tutorialL2Mistakes.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dikkat: yanlış kareyi doldurursan kırmızı X olur ve bir kalp gider. Emin değilsen önce X koy!'**
+  String get tutorialL2Mistakes;
+
+  /// No description provided for @tutorialL2Finish.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gerisi sende! Takılınca bir çizgide kaç kare kaldığını say.'**
+  String get tutorialL2Finish;
+
+  /// No description provided for @tutorialL3Overlap.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu sütun [4], yer 5 kare. 4\'lük blok ya en üstte ya en altta durur. İki durumda da ortadaki 3 kare dolu!'**
+  String get tutorialL3Overlap;
+
+  /// No description provided for @tutorialL3OverlapFill.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu kesin kareleri doldur. Bu numaranın adı örtüşme: büyük bulmacaların sırrı!'**
+  String get tutorialL3OverlapFill;
+
+  /// No description provided for @tutorialL3OverlapSelf.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu sütun da [4]. Kesin dolu kareleri sen bul!'**
+  String get tutorialL3OverlapSelf;
+
+  /// No description provided for @tutorialL3OverlapRow.
+  ///
+  /// In tr, this message translates to:
+  /// **'Peki [3]? Sola da yaslansa sağa da, ortadaki kare hep dolu. Onu doldur!'**
+  String get tutorialL3OverlapRow;
+
+  /// No description provided for @tutorialL3Finish.
+  ///
+  /// In tr, this message translates to:
+  /// **'Harika! Bu numarayı büyük bulmacalarda çok kullanacaksın. Şimdi resmi bitir!'**
+  String get tutorialL3Finish;
+
+  /// No description provided for @tutorialL4Ones.
+  ///
+  /// In tr, this message translates to:
+  /// **'Üstteki iki satır [1 1 1]: üç tek kare, aralarında boşluk. 1 + 1 + 1 + 1 + 1 = 5: yerleri belli!'**
+  String get tutorialL4Ones;
+
+  /// No description provided for @tutorialL4CrossDrag.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu iki kare boş. Çift dokun, ikinci dokunuşta parmağını kaldırmadan aşağı kaydır: X çizgisi!'**
+  String get tutorialL4CrossDrag;
+
+  /// No description provided for @tutorialL4CrossDragSelf.
+  ///
+  /// In tr, this message translates to:
+  /// **'Şimdi sen: bu sütundaki iki boş kareye X çiz.'**
+  String get tutorialL4CrossDragSelf;
+
+  /// No description provided for @tutorialL4Erase.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yanlış X mi koydun? X\'e yine çift dokun, silinir. X\'ten başlayıp kaydırırsan geçtiğin X\'ler silinir.'**
+  String get tutorialL4Erase;
+
+  /// No description provided for @tutorialL4Finish.
+  ///
+  /// In tr, this message translates to:
+  /// **'Süper! Şimdi resmi tamamla.'**
+  String get tutorialL4Finish;
+
+  /// No description provided for @tutorialL5Sum.
+  ///
+  /// In tr, this message translates to:
+  /// **'Son ders! Bu sütun [3 1]: 3 + 1 + 1 = 5, yerleri belli. Kendin çöz!'**
+  String get tutorialL5Sum;
+
+  /// No description provided for @tutorialL5Hint.
+  ///
+  /// In tr, this message translates to:
+  /// **'Takılırsan İpucu\'na bas: bir sonraki adımı ve nedenini gösterir.'**
+  String get tutorialL5Hint;
+
+  /// No description provided for @tutorialL5Finish.
+  ///
+  /// In tr, this message translates to:
+  /// **'Artık hazırsın! Büyük ızgaralarda kalın çizgiler 5\'er kareyi ayırır. Resmi bitir!'**
+  String get tutorialL5Finish;
 }
 
 class _AppLocalizationsDelegate

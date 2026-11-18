@@ -272,30 +272,133 @@ class AppLocalizationsEn extends AppLocalizations {
   String get tutorialGotIt => 'Got it';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Lesson $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Let\'s go!';
+
+  @override
+  String get tutorialSkipTitle => 'Skip the tutorial?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Skip just this level\'s lesson, or the whole tutorial?';
+
+  @override
+  String get tutorialSkipLevel => 'Just this level';
+
+  @override
+  String get tutorialSkipAll => 'Skip it all';
+
+  @override
+  String get tutorialWelcome =>
+      'Hi! Every puzzle hides a picture. Read the numbers, fill the right squares and reveal it!';
+
+  @override
   String get tutorialL1Fill =>
-      'The numbers tell how many squares in that row are filled. This row says 5, so all 5 squares are filled! Tap a square to fill it.';
+      '[5]: this row has 5 filled squares. The row is 5 squares long, so all of them are filled! Tap one.';
 
   @override
   String get tutorialL1Drag =>
-      'Great! Now hold your finger down and slide to fill the rest of the row.';
+      'Great! Now slide your finger without lifting it to fill the rest of the row.';
+
+  @override
+  String get tutorialL1Row =>
+      'This row is [5] too. This time, slide from end to end in one go.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'This column\'s [2] squares are found, so the rest got an X by themselves. An X means: empty.';
 
   @override
   String get tutorialL1Column =>
-      'This column says 5 too: slide from top to bottom.';
+      'The numbers on top are for columns. This column is [5]: slide from top to bottom.';
+
+  @override
+  String get tutorialL1Count =>
+      'This row needs [3] squares. The X\'s are empty, so exactly 3 squares are left. Fill them all!';
 
   @override
   String get tutorialL1Finish =>
-      'When a row or column is done, its other squares get an X by themselves. Finish the rest of the picture yourself!';
+      'Finish the last row yourself and reveal the picture!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: two separate groups. 2 filled, at least 1 empty, then 2 filled. 2 + 1 + 2 = 5: a perfect fit!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 means 2 filled squares, at least one gap, then 2 more filled squares. 2 + gap + 2 = 5, so the row is certain! Double tap the empty square to place an X.';
+      'So the middle square is empty. Double tap it to put an X there.';
 
   @override
   String get tutorialL2Drag =>
-      'Squares with your X are skipped when you slide. Slide along the whole row to fill it.';
+      'An X is just a note; it costs nothing. Now slide across the row: the X is skipped.';
 
   @override
-  String get tutorialL2Rules =>
-      'Filling a wrong square costs 1 life; X marks are free. If you get stuck, the Hint button also explains why. The rest is up to you!';
+  String get tutorialL2CrossSelf =>
+      'The row below is [2 2] too. Your turn: put an X on the empty square first.';
+
+  @override
+  String get tutorialL2DragSelf => 'Now slide to fill the row.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Careful: filling a wrong square turns it into a red X and costs a heart. Not sure? Put an X first!';
+
+  @override
+  String get tutorialL2Finish =>
+      'The rest is yours! Stuck? Count how many squares a line still needs.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'This column is [4] with room for 5. The block of 4 sits either at the top or at the bottom. Either way, the middle 3 are filled!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Fill those sure squares. This trick is called overlap: the secret of big puzzles!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'This column is [4] too. Find the sure squares yourself!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'And [3]? Pushed left or right, the middle square is always filled. Fill it!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Great! You\'ll use this trick a lot in big puzzles. Now finish the picture!';
+
+  @override
+  String get tutorialL4Ones =>
+      'The top two rows are [1 1 1]: three single squares with gaps between. 1 + 1 + 1 + 1 + 1 = 5: they fit exactly!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'These two squares are empty. Double tap, keep your finger down on the second tap and slide down: a line of X\'s!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Your turn: draw X\'s on the two empty squares of this column.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Wrong X? Double tap it again to remove it. A double-tap slide that starts on an X erases the X\'s it passes.';
+
+  @override
+  String get tutorialL4Finish => 'Super! Now complete the picture.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Last lesson! This column is [3 1]: 3 + 1 + 1 = 5, so it\'s certain. Solve it yourself!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Stuck? Press Hint: it shows the next step and explains why.';
+
+  @override
+  String get tutorialL5Finish =>
+      'You\'re ready! On big grids, thick lines mark every 5 squares to help you count. Finish the picture!';
 }

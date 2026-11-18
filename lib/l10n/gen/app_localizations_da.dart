@@ -272,30 +272,133 @@ class AppLocalizationsDa extends AppLocalizations {
   String get tutorialGotIt => 'Forstået';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Lektion $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Så kører vi!';
+
+  @override
+  String get tutorialSkipTitle => 'Spring vejledningen over?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Spring kun denne banes lektion over, eller hele vejledningen?';
+
+  @override
+  String get tutorialSkipLevel => 'Kun denne bane';
+
+  @override
+  String get tutorialSkipAll => 'Spring alt over';
+
+  @override
+  String get tutorialWelcome =>
+      'Hej! Hvert puslespil gemmer et billede. Læs tallene, udfyld de rigtige felter og afslør det!';
+
+  @override
   String get tutorialL1Fill =>
-      'Tallene viser, hvor mange felter i rækken der er udfyldt. Denne række siger 5, så alle 5 felter er udfyldt! Tryk på et felt for at udfylde det.';
+      '[5]: denne række har 5 udfyldte felter. Rækken er 5 felter lang, så alle er udfyldt! Tryk på et.';
 
   @override
   String get tutorialL1Drag =>
-      'Godt! Hold nu fingeren nede og træk for at udfylde resten af rækken.';
+      'Flot! Træk nu uden at løfte fingeren, og udfyld resten af rækken.';
+
+  @override
+  String get tutorialL1Row =>
+      'Denne række er også [5]. Træk denne gang fra ende til ende i ét stræk.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Kolonnens [2] felter er fundet, så resten fik selv et X. X betyder: tomt.';
 
   @override
   String get tutorialL1Column =>
-      'Denne kolonne siger også 5: træk oppefra og ned.';
+      'Tallene øverst hører til kolonnerne. Denne kolonne er [5]: træk oppefra og ned.';
+
+  @override
+  String get tutorialL1Count =>
+      'Denne række skal bruge [3] felter. X\'erne er tomme, så der er præcis 3 tilbage. Udfyld dem alle!';
 
   @override
   String get tutorialL1Finish =>
-      'Når en række eller kolonne er færdig, får de andre felter selv et X. Gør resten af billedet færdigt selv!';
+      'Gør selv den sidste række færdig, og afslør billedet!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: to adskilte grupper. 2 udfyldt, mindst 1 tomt, så 2 udfyldt. 2 + 1 + 2 = 5: passer præcis!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 betyder 2 udfyldte felter, mindst ét mellemrum og så 2 udfyldte felter mere. 2 + mellemrum + 2 = 5, så rækken er sikker! Dobbelttryk på det tomme felt for at sætte et X.';
+      'Så det midterste felt er tomt. Dobbelttryk på det for at sætte et X.';
 
   @override
   String get tutorialL2Drag =>
-      'Felter med dit X springes over, når du trækker. Træk hen over hele rækken for at udfylde den.';
+      'Et X er bare en note og koster intet. Træk nu hen over rækken: X-feltet springes over.';
 
   @override
-  String get tutorialL2Rules =>
-      'At udfylde et forkert felt koster 1 liv; X\'er er gratis. Sidder du fast, forklarer Hint-knappen også hvorfor. Resten er op til dig!';
+  String get tutorialL2CrossSelf =>
+      'Rækken nedenunder er også [2 2]. Din tur: sæt først et X på det tomme felt.';
+
+  @override
+  String get tutorialL2DragSelf => 'Træk nu for at udfylde rækken.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Pas på: udfylder du et forkert felt, bliver det et rødt X, og du mister et hjerte. Usikker? Sæt et X først!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Resten er dit! Kører du fast? Tæl hvor mange felter en linje stadig mangler.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Denne kolonne er [4], med plads til 5. Blokken på 4 står enten helt øverst eller helt nederst. Uanset hvad er de midterste 3 udfyldt!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Udfyld de sikre felter. Tricket hedder overlap: hemmeligheden bag store puslespil!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Denne kolonne er også [4]. Find selv de sikre felter!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'Og [3]? Skubbet til venstre eller højre er det midterste felt altid udfyldt. Udfyld det!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Fedt! Det trick får du tit brug for i store puslespil. Gør nu billedet færdigt!';
+
+  @override
+  String get tutorialL4Ones =>
+      'De to øverste rækker er [1 1 1]: tre enkelte felter med mellemrum. 1 + 1 + 1 + 1 + 1 = 5: passer præcis!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Disse to felter er tomme. Dobbelttryk, hold fingeren nede ved andet tryk og træk nedad: en linje af X\'er!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Din tur: tegn X\'er på kolonnens to tomme felter.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Forkert X? Dobbelttryk på det igen, så forsvinder det. Trækker du med dobbelttryk fra et X, sletter du X\'erne på vejen.';
+
+  @override
+  String get tutorialL4Finish => 'Super! Gør nu billedet færdigt.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Sidste lektion! Denne kolonne er [3 1]: 3 + 1 + 1 = 5, så den er sikker. Løs den selv!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Kører du fast? Tryk på Hint: det viser næste skridt og forklarer hvorfor.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Du er klar! På store gitre deler tykke linjer felterne i femmere, så det er let at tælle. Gør billedet færdigt!';
 }

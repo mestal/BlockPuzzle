@@ -78,7 +78,7 @@ class _GamePlayState extends ConsumerState<_GamePlay>
 
   Puzzle get _puzzle => widget.puzzle;
 
-  /// The guided steps of this level (levels 1-2), if any.
+  /// The guided steps of this level (levels 1-5), if any.
   late final _tutorial = Tutorial.forLevel(_puzzle.id);
 
   /// Text-only tutorial steps the player has closed.
@@ -223,6 +223,31 @@ class _GamePlayState extends ConsumerState<_GamePlay>
     if (rewarded) _game.grantHint();
   }
 
+  /// Skips this level's lesson, or - if the player says so - every lesson.
+  Future<void> _skipTutorial() async {
+    final slot = ref.read(activeSlotProvider);
+    final othersLeft = Tutorial.levels.any(
+      (id) =>
+          id != _puzzle.id &&
+          !(slot?.tutorials.contains(id) ?? false) &&
+          !(slot?.completed.contains(id) ?? false),
+    );
+    if (!othersLeft) {
+      _game.finishTutorial();
+      return;
+    }
+    final choice = await showSkipTutorialDialog(context);
+    if (!mounted) return;
+    switch (choice) {
+      case SkipTutorialChoice.level:
+        _game.finishTutorial();
+      case SkipTutorialChoice.all:
+        _game.skipAllTutorials();
+      case null:
+        break;
+    }
+  }
+
   /// Moves past a text-only step; the last one ends the tutorial.
   void _acknowledge(int step) {
     setState(() => _acknowledged.add(step));
@@ -261,6 +286,7 @@ class _GamePlayState extends ConsumerState<_GamePlay>
               _TopBar(
                 level: _puzzle.id,
                 lives: state.lives,
+                spotLives: step?.anchor == TutorialAnchor.lives,
                 title: won ? _puzzle.name.localized(context) : null,
               ),
               _ScoreBar(score: state.score, combo: state.combo),
@@ -299,10 +325,11 @@ class _GamePlayState extends ConsumerState<_GamePlay>
                     onClose: _game.dismissHint,
                   ),
                   _ when step != null => TutorialCard(
+                    lesson: tutorial!.lesson,
                     step: step,
                     index: stepIndex!,
-                    count: tutorial!.steps.length,
-                    onSkip: _game.finishTutorial,
+                    count: tutorial.steps.length,
+                    onSkip: _skipTutorial,
                     onAck: () => _acknowledge(stepIndex),
                   ),
                   _ => const SizedBox(width: double.infinity),
@@ -310,6 +337,7 @@ class _GamePlayState extends ConsumerState<_GamePlay>
               ),
               _BottomBar(
                 hints: hints,
+                spotHint: step?.anchor == TutorialAnchor.hint,
                 enabled: state.status == GameStatus.playing,
                 onHint: _onHint,
                 onRestart: _game.restart,
@@ -327,10 +355,18 @@ class _GamePlayState extends ConsumerState<_GamePlay>
 }
 
 class _TopBar extends ConsumerWidget {
-  const _TopBar({required this.level, required this.lives, this.title});
+  const _TopBar({
+    required this.level,
+    required this.lives,
+    this.spotLives = false,
+    this.title,
+  });
 
   final int level;
   final int lives;
+
+  /// A tutorial step is talking about the hearts.
+  final bool spotLives;
   final String? title;
 
   @override
@@ -357,7 +393,10 @@ class _TopBar extends ConsumerWidget {
               ),
             ),
           ),
-          _Lives(lives: lives),
+          TutorialSpot(
+            active: spotLives,
+            child: _Lives(lives: lives),
+          ),
           IconButton(
             onPressed: () => showRulesDialog(context),
             icon: const Icon(Icons.help_outline_rounded, color: Colors.white),
@@ -491,9 +530,13 @@ class _BottomBar extends StatelessWidget {
     required this.onHint,
     required this.onRestart,
     required this.hintLabel,
+    this.spotHint = false,
   });
 
   final int hints;
+
+  /// A tutorial step is talking about the hint button.
+  final bool spotHint;
   final bool enabled;
   final VoidCallback onHint;
   final VoidCallback onRestart;
@@ -515,15 +558,19 @@ class _BottomBar extends StatelessWidget {
           backgroundColor: hints > 0 ? AppColors.heart : AppColors.goldDeep,
           largeSize: 22,
           textStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
-          child: FilledButton.icon(
-            style: FilledButton.styleFrom(
-              backgroundColor: AppColors.gold,
-              foregroundColor: AppColors.block,
-              padding: const EdgeInsets.symmetric(horizontal: 28),
+          // The ring goes around the button only, under the badge.
+          child: TutorialSpot(
+            active: spotHint,
+            child: FilledButton.icon(
+              style: FilledButton.styleFrom(
+                backgroundColor: AppColors.gold,
+                foregroundColor: AppColors.block,
+                padding: const EdgeInsets.symmetric(horizontal: 28),
+              ),
+              onPressed: enabled ? onHint : null,
+              icon: const Icon(Icons.lightbulb_rounded),
+              label: Text(hintLabel),
             ),
-            onPressed: enabled ? onHint : null,
-            icon: const Icon(Icons.lightbulb_rounded),
-            label: Text(hintLabel),
           ),
         ),
       ],

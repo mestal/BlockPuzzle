@@ -15,92 +15,62 @@ Puzzle _level(int id) => Puzzle.fromJson(
       as Map<String, Object?>,
 );
 
-/// Plays what the hand shows for [step], the way the board view would.
-Board _perform(Board board, TutorialStep step) {
-  final (r, c) = step.from!;
-  switch (step.gesture!) {
-    case TutorialGesture.tap:
-      return board.apply(r, c, MoveAction.fill).board;
-    case TutorialGesture.doubleTap:
-      return board.apply(r, c, MoveAction.cross).board;
-    case TutorialGesture.drag:
-      final (r2, c2) = step.to!;
-      var b = board;
-      for (var i = r; i <= r2; i++) {
-        for (var j = c; j <= c2; j++) {
-          final result = b.apply(i, j, MoveAction.fill);
-          expect(result.mistake, isFalse, reason: 'drag hits an empty cell');
-          b = result.board;
-        }
-      }
-      return b;
-  }
+/// Cells from [from] to [to] along one line, both included.
+List<CellPos> _path(CellPos from, CellPos to) {
+  expect(
+    from.$1 == to.$1 || from.$2 == to.$2,
+    isTrue,
+    reason: 'a drag stays on one line',
+  );
+  final n = (to.$1 - from.$1).abs() + (to.$2 - from.$2).abs();
+  return [
+    for (var i = 0; i <= n; i++)
+      (
+        from.$1 + (to.$1 - from.$1).sign * i,
+        from.$2 + (to.$2 - from.$2).sign * i,
+      ),
+  ];
 }
 
-void main() {
-  test('only the first two levels are guided', () {
-    for (final id in Tutorial.levels) {
-      expect(Tutorial.forLevel(id), isNotNull);
-    }
-    expect(Tutorial.forLevel(3), isNull);
-  });
-
-  for (final id in Tutorial.levels) {
-    test('level $id: following the hand finishes every step', () {
-      final puzzle = _level(id);
-      final tutorial = Tutorial.forLevel(id)!;
-      var board = Board.start(puzzle);
-      final acked = <int>{};
-      var shown = <int>[];
-
-      for (var guard = 0; guard < 20; guard++) {
-        final i = tutorial.currentStep(board, acked);
-        if (i == null) break;
-        shown = [...shown, i];
-        final step = tutorial.steps[i];
-        if (step.focus case final f?) {
-          expect(f.index, lessThan(f.isRow ? puzzle.rows : puzzle.cols));
-        }
-        if (step.gesture == null) {
-          if (step.needsAck) {
-            acked.add(i);
-          } else {
-            // Text-only step that ends with the level: finish it.
-            board = _solve(board);
-          }
-          continue;
-        }
-        final before = board;
-        board = _perform(board, step);
-        expect(board, isNot(same(before)), reason: 'step $i changes nothing');
-        expect(step.done!(board), isTrue, reason: 'step $i not done');
-      }
-      expect(shown, [for (var i = 0; i < tutorial.steps.length; i++) i]);
-      expect(tutorial.currentStep(board, acked), isNull);
-    });
+/// Plays what the hand shows for [step], the way the board view would. The
+/// hand never shows a mistake: fills land on filled cells of the answer and
+/// X marks on empty ones.
+Board _perform(Board board, TutorialStep step) {
+  final from = step.from!;
+  final cells = switch (step.gesture!) {
+    TutorialGesture.tap || TutorialGesture.doubleTap => [from],
+    TutorialGesture.drag ||
+    TutorialGesture.crossDrag => _path(from, step.to ?? from),
+  };
+  final fill =
+      step.gesture == TutorialGesture.tap ||
+      step.gesture == TutorialGesture.drag;
+  var b = board;
+  for (final (r, c) in cells) {
+    // A drag skips cells that are already open (filled or X).
+    if (b.at(r, c).isOpen) continue;
+    expect(
+      b.puzzle.isFilled(r, c),
+      fill,
+      reason: 'the hand ${fill ? 'fills' : 'crosses'} ($r, $c)',
+    );
+    final result = b.apply(r, c, fill ? MoveAction.fill : MoveAction.cross);
+    expect(result.mistake, isFalse);
+    b = result.board;
   }
+  return b;
+}
 
-  test('running ahead skips the steps already covered', () {
-    final tutorial = Tutorial.forLevel(1)!;
-    var board = Board.start(_level(1));
-    for (var c = 0; c < 5; c++) {
-      board = board.apply(1, c, MoveAction.fill).board;
+Board _fillLines(Board board, List<TutorialLine> lines) {
+  var b = board;
+  final p = b.puzzle;
+  for (final line in lines) {
+    for (var i = 0; i < (line.isRow ? p.cols : p.rows); i++) {
+      final (r, c) = line.isRow ? (line.index, i) : (i, line.index);
+      if (p.isFilled(r, c)) b = b.apply(r, c, MoveAction.fill).board;
     }
-    expect(tutorial.currentStep(board, const {}), 2);
-  });
-
-  test('a text-only step waits for the player', () {
-    final tutorial = Tutorial.forLevel(2)!;
-    var board = Board.start(_level(2));
-    board = board.apply(3, 2, MoveAction.cross).board;
-    for (var c = 0; c < 5; c++) {
-      board = board.apply(3, c, MoveAction.fill).board;
-    }
-    final last = tutorial.steps.length - 1;
-    expect(tutorial.steps[last].needsAck, isTrue);
-    expect(tutorial.currentStep(board, const {}), last);
-    expect(tutorial.currentStep(board, {last}), isNull);
-  });
+  }
+  return b;
 }
 
 Board _solve(Board board) {
@@ -112,4 +82,128 @@ Board _solve(Board board) {
     }
   }
   return b;
+}
+
+void main() {
+  test('the first five levels are guided, one lesson each', () {
+    expect(Tutorial.levels, {1, 2, 3, 4, 5});
+    for (final id in Tutorial.levels) {
+      expect(Tutorial.forLevel(id)!.lesson, id);
+    }
+    expect(Tutorial.forLevel(6), isNull);
+  });
+
+  test('every text is used once', () {
+    final used = [
+      for (final id in Tutorial.levels)
+        for (final step in Tutorial.forLevel(id)!.steps) step.text,
+    ];
+    expect(used.toSet().length, used.length);
+    expect(used.toSet(), TutorialText.values.toSet());
+  });
+
+  for (final id in Tutorial.levels) {
+    test('level $id: following the hand finishes every step', () {
+      final puzzle = _level(id);
+      final tutorial = Tutorial.forLevel(id)!;
+      var board = Board.start(puzzle);
+      final acked = <int>{};
+      final shown = <int>[];
+
+      for (var guard = 0; guard < 40; guard++) {
+        final i = tutorial.currentStep(board, acked);
+        if (i == null) break;
+        shown.add(i);
+        final step = tutorial.steps[i];
+        for (final line in step.focus) {
+          expect(
+            line.index,
+            lessThan(line.isRow ? puzzle.rows : puzzle.cols),
+          );
+        }
+        for (final (r, c) in [...step.ghostFills, ...step.ghostCrosses]) {
+          expect(
+            puzzle.isFilled(r, c),
+            step.ghostFills.contains((r, c)),
+            reason: 'ghost at ($r, $c) shows the answer',
+          );
+        }
+        if (step.slide case final length?) {
+          final line = step.focus.first;
+          final cells = line.isRow ? puzzle.cols : puzzle.rows;
+          expect(length * 2, greaterThan(cells), reason: 'overlap exists');
+          final clue = line.isRow
+              ? puzzle.rowClues[line.index]
+              : puzzle.colClues[line.index];
+          expect(clue, [length]);
+        }
+        if (step.needsAck) {
+          acked.add(i);
+        } else if (step.gesture != null) {
+          final before = board;
+          board = _perform(board, step);
+          expect(board, isNot(same(before)), reason: 'step $i does nothing');
+          // A nudge for a try-it-yourself step may show only the start; the
+          // player finishes the line.
+          if (step.selfTry && !step.done!(board)) {
+            board = _fillLines(board, step.focus);
+          }
+          expect(step.done!(board), isTrue, reason: 'step $i not done');
+        } else {
+          // "Finish the picture": the player is on their own.
+          board = _solve(board);
+        }
+      }
+      expect(shown, [for (var i = 0; i < tutorial.steps.length; i++) i]);
+      expect(tutorial.currentStep(board, acked), isNull);
+      expect(board.isSolved, isTrue);
+    });
+  }
+
+  test('running ahead skips the steps already covered', () {
+    final tutorial = Tutorial.forLevel(1)!;
+    var board = Board.start(_level(1));
+    for (var c = 0; c < 5; c++) {
+      board = board.apply(1, c, MoveAction.fill).board;
+    }
+    // Welcome acknowledged; tap and drag on row 2 are done.
+    expect(tutorial.currentStep(board, const {0}), 3);
+  });
+
+  test('a text-only step is skipped once its lesson is done', () {
+    final tutorial = Tutorial.forLevel(3)!;
+    var board = Board.start(_level(3));
+    for (var r = 1; r <= 3; r++) {
+      board = board.apply(r, 0, MoveAction.fill).board;
+    }
+    expect(tutorial.steps[0].needsAck, isTrue);
+    expect(tutorial.currentStep(board, const {}), 2);
+  });
+
+  test('a text-only step waits for the player', () {
+    final tutorial = Tutorial.forLevel(2)!;
+    var board = Board.start(_level(2));
+    for (final r in [3, 4]) {
+      board = board.apply(r, 2, MoveAction.cross).board;
+      for (var c = 0; c < 5; c++) {
+        board = board.apply(r, c, MoveAction.fill).board;
+      }
+    }
+    final mistakes = tutorial.steps.indexWhere(
+      (s) => s.text == TutorialText.l2Mistakes,
+    );
+    expect(tutorial.steps[mistakes].needsAck, isTrue);
+    expect(tutorial.steps[mistakes].anchor, TutorialAnchor.lives);
+    expect(tutorial.currentStep(board, const {}), mistakes);
+    expect(tutorial.currentStep(board, {mistakes}), mistakes + 1);
+  });
+
+  test('the X line lesson needs the X marks, not just a solved row', () {
+    final tutorial = Tutorial.forLevel(4)!;
+    var board = Board.start(_level(4));
+    board = board.apply(0, 1, MoveAction.cross).board;
+    expect(tutorial.currentStep(board, const {}), 1);
+    board = board.apply(1, 1, MoveAction.cross).board;
+    expect(tutorial.currentStep(board, const {}), 2);
+  });
 }

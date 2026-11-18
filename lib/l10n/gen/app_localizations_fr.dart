@@ -272,30 +272,133 @@ class AppLocalizationsFr extends AppLocalizations {
   String get tutorialGotIt => 'Compris';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Leçon $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'C\'est parti !';
+
+  @override
+  String get tutorialSkipTitle => 'Passer le tutoriel ?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Passer seulement la leçon de ce niveau, ou tout le tutoriel ?';
+
+  @override
+  String get tutorialSkipLevel => 'Ce niveau seulement';
+
+  @override
+  String get tutorialSkipAll => 'Tout passer';
+
+  @override
+  String get tutorialWelcome =>
+      'Salut ! Chaque puzzle cache une image. Lis les nombres, remplis les bonnes cases et révèle-la !';
+
+  @override
   String get tutorialL1Fill =>
-      'Les nombres indiquent combien de cases de la ligne sont remplies. Ici c\'est 5 : les 5 cases sont remplies ! Touche une case pour la remplir.';
+      '[5] : cette ligne a 5 cases remplies. Elle fait 5 cases, donc elles sont toutes remplies ! Touche-en une.';
 
   @override
   String get tutorialL1Drag =>
-      'Bravo ! Maintenant, garde le doigt appuyé et glisse pour remplir le reste de la ligne.';
+      'Bravo ! Maintenant glisse sans lever le doigt pour remplir le reste de la ligne.';
+
+  @override
+  String get tutorialL1Row =>
+      'Cette ligne aussi, c\'est [5]. Cette fois, glisse d\'un bout à l\'autre d\'un seul geste.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Les [2] cases de cette colonne sont trouvées : les autres ont reçu un X toutes seules. Un X veut dire : vide.';
 
   @override
   String get tutorialL1Column =>
-      'Cette colonne indique aussi 5 : glisse de haut en bas.';
+      'Les nombres du haut sont pour les colonnes. Cette colonne est [5] : glisse de haut en bas.';
+
+  @override
+  String get tutorialL1Count =>
+      'Cette ligne a besoin de [3] cases. Les X sont vides : il reste pile 3 cases. Remplis-les toutes !';
 
   @override
   String get tutorialL1Finish =>
-      'Quand une ligne ou une colonne est finie, ses autres cases reçoivent un X toutes seules. Termine le reste de l\'image toi-même !';
+      'Termine la dernière ligne toi-même et révèle l\'image !';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2] : deux groupes séparés. 2 remplies, au moins 1 vide, puis 2 remplies. 2 + 1 + 2 = 5 : ça tient pile !';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 veut dire 2 cases remplies, au moins un espace, puis encore 2 cases remplies. 2 + espace + 2 = 5 : la ligne est certaine ! Touche deux fois la case vide pour y mettre un X.';
+      'Donc la case du milieu est vide. Touche-la deux fois pour y mettre un X.';
 
   @override
   String get tutorialL2Drag =>
-      'Les cases avec ton X sont ignorées quand tu glisses. Glisse sur toute la ligne pour la remplir.';
+      'Un X est juste une note, il ne coûte rien. Glisse maintenant sur la ligne : le X est sauté.';
 
   @override
-  String get tutorialL2Rules =>
-      'Remplir une mauvaise case coûte 1 vie ; les X sont gratuits. Si tu bloques, le bouton Indice explique aussi pourquoi. À toi de jouer !';
+  String get tutorialL2CrossSelf =>
+      'La ligne du dessous est aussi [2 2]. À toi : mets d\'abord un X sur la case vide.';
+
+  @override
+  String get tutorialL2DragSelf => 'Maintenant glisse pour remplir la ligne.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Attention : remplir une mauvaise case la change en X rouge et coûte un cœur. Pas sûr ? Mets d\'abord un X !';
+
+  @override
+  String get tutorialL2Finish =>
+      'La suite est à toi ! Bloqué ? Compte combien de cases il manque à une ligne.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Cette colonne est [4] pour 5 cases. Le bloc de 4 est soit en haut, soit en bas. Dans les deux cas, les 3 du milieu sont remplies !';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Remplis ces cases sûres. Cette astuce s\'appelle le chevauchement : le secret des grands puzzles !';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Cette colonne est aussi [4]. Trouve toi-même les cases sûres !';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'Et [3] ? Poussé à gauche ou à droite, la case du milieu est toujours remplie. Remplis-la !';
+
+  @override
+  String get tutorialL3Finish =>
+      'Génial ! Tu utiliseras souvent cette astuce dans les grands puzzles. Termine l\'image !';
+
+  @override
+  String get tutorialL4Ones =>
+      'Les deux lignes du haut sont [1 1 1] : trois cases seules, séparées par des vides. 1 + 1 + 1 + 1 + 1 = 5 : ça tient pile !';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Ces deux cases sont vides. Touche deux fois, garde le doigt posé au second toucher et glisse vers le bas : une ligne de X !';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'À toi : trace des X sur les deux cases vides de cette colonne.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Un X de trop ? Touche-le encore deux fois pour l\'enlever. Un double toucher glissé depuis un X efface les X sur son chemin.';
+
+  @override
+  String get tutorialL4Finish => 'Super ! Maintenant termine l\'image.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Dernière leçon ! Cette colonne est [3 1] : 3 + 1 + 1 = 5, c\'est certain. Résous-la toi-même !';
+
+  @override
+  String get tutorialL5Hint =>
+      'Bloqué ? Appuie sur Indice : il montre l\'étape suivante et explique pourquoi.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Tu es prêt ! Sur les grandes grilles, des traits épais séparent les cases par 5 pour t\'aider à compter. Termine l\'image !';
 }

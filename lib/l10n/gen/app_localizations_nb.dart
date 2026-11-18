@@ -272,30 +272,132 @@ class AppLocalizationsNb extends AppLocalizations {
   String get tutorialGotIt => 'Skjønner';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Leksjon $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Da kjører vi!';
+
+  @override
+  String get tutorialSkipTitle => 'Hoppe over opplæringen?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Hoppe over bare leksjonen på dette nivået, eller hele opplæringen?';
+
+  @override
+  String get tutorialSkipLevel => 'Bare dette nivået';
+
+  @override
+  String get tutorialSkipAll => 'Hopp over alt';
+
+  @override
+  String get tutorialWelcome =>
+      'Hei! Hvert puslespill skjuler et bilde. Les tallene, fyll de riktige rutene og avslør det!';
+
+  @override
   String get tutorialL1Fill =>
-      'Tallene viser hvor mange ruter i raden som er fylt. Denne raden sier 5, så alle 5 rutene er fylt! Trykk på en rute for å fylle den.';
+      '[5]: denne raden har 5 fylte ruter. Raden er 5 ruter lang, så alle er fylt! Trykk på en.';
 
   @override
   String get tutorialL1Drag =>
-      'Flott! Hold nå fingeren nede og dra for å fylle resten av raden.';
+      'Flott! Dra nå uten å løfte fingeren og fyll resten av raden.';
+
+  @override
+  String get tutorialL1Row =>
+      'Denne raden er også [5]. Dra fra ende til ende i ett drag denne gangen.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Kolonnens [2] ruter er funnet, så resten fikk en X av seg selv. X betyr: tom.';
 
   @override
   String get tutorialL1Column =>
-      'Denne kolonnen sier også 5: dra ovenfra og ned.';
+      'Tallene øverst gjelder kolonnene. Denne kolonnen er [5]: dra ovenfra og ned.';
 
   @override
-  String get tutorialL1Finish =>
-      'Når en rad eller kolonne er ferdig, får de andre rutene en X av seg selv. Gjør ferdig resten av bildet selv!';
+  String get tutorialL1Count =>
+      'Denne raden trenger [3] ruter. X-rutene er tomme, så det er nøyaktig 3 igjen. Fyll alle!';
+
+  @override
+  String get tutorialL1Finish => 'Gjør ferdig siste rad selv og avslør bildet!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: to separate grupper. 2 fylt, minst 1 tom, så 2 fylt. 2 + 1 + 2 = 5: passer akkurat!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 betyr 2 fylte ruter, minst ett mellomrom og så 2 fylte ruter til. 2 + mellomrom + 2 = 5, så raden er sikker! Dobbelttrykk på den tomme ruten for å sette en X.';
+      'Altså er midtruten tom. Dobbelttrykk på den for å sette en X.';
 
   @override
   String get tutorialL2Drag =>
-      'Ruter med X-en din hoppes over når du drar. Dra langs hele raden for å fylle den.';
+      'En X er bare et notat og koster ingenting. Dra nå over raden: X-ruten hoppes over.';
 
   @override
-  String get tutorialL2Rules =>
-      'Å fylle feil rute koster 1 liv; X-er er gratis. Står du fast, forklarer Hint-knappen også hvorfor. Resten er opp til deg!';
+  String get tutorialL2CrossSelf =>
+      'Raden under er også [2 2]. Din tur: sett først en X på den tomme ruten.';
+
+  @override
+  String get tutorialL2DragSelf => 'Dra nå for å fylle raden.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Pass på: fyller du feil rute, blir den en rød X, og du mister et hjerte. Usikker? Sett en X først!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Resten er ditt! Står du fast? Tell hvor mange ruter en linje fortsatt mangler.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Denne kolonnen er [4], med plass til 5. Blokken på 4 står enten helt øverst eller helt nederst. Uansett er de 3 midterste fylt!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Fyll de sikre rutene. Trikset heter overlapp: hemmeligheten bak store puslespill!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Denne kolonnen er også [4]. Finn de sikre rutene selv!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'Og [3]? Skjøvet til venstre eller høyre, er midtruten alltid fylt. Fyll den!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Supert! Dette trikset får du bruk for ofte i store puslespill. Gjør nå ferdig bildet!';
+
+  @override
+  String get tutorialL4Ones =>
+      'De to øverste radene er [1 1 1]: tre enkle ruter med mellomrom. 1 + 1 + 1 + 1 + 1 = 5: passer akkurat!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Disse to rutene er tomme. Dobbelttrykk, hold fingeren nede på andre trykk og dra nedover: en linje av X-er!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Din tur: tegn X-er på de to tomme rutene i denne kolonnen.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Feil X? Dobbelttrykk på den igjen, så forsvinner den. Drar du med dobbelttrykk fra en X, sletter du X-ene på veien.';
+
+  @override
+  String get tutorialL4Finish => 'Supert! Fullfør nå bildet.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Siste leksjon! Denne kolonnen er [3 1]: 3 + 1 + 1 = 5, så den er sikker. Løs den selv!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Står du fast? Trykk på Hint: det viser neste steg og forklarer hvorfor.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Du er klar! På store rutenett deler tykke linjer rutene i femmere, så det blir lett å telle. Gjør ferdig bildet!';
 }

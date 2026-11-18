@@ -271,30 +271,133 @@ class AppLocalizationsId extends AppLocalizations {
   String get tutorialGotIt => 'Mengerti';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Pelajaran $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Ayo mulai!';
+
+  @override
+  String get tutorialSkipTitle => 'Lewati tutorial?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Lewati pelajaran level ini saja, atau seluruh tutorial?';
+
+  @override
+  String get tutorialSkipLevel => 'Level ini saja';
+
+  @override
+  String get tutorialSkipAll => 'Lewati semua';
+
+  @override
+  String get tutorialWelcome =>
+      'Hai! Setiap teka-teki menyembunyikan gambar. Baca angkanya, isi kotak yang benar, dan ungkap gambarnya!';
+
+  @override
   String get tutorialL1Fill =>
-      'Angka menunjukkan berapa kotak di baris itu yang terisi. Baris ini bilang 5, jadi kelima kotaknya terisi! Ketuk kotak untuk mengisinya.';
+      '[5]: baris ini punya 5 kotak terisi. Barisnya 5 kotak, jadi semuanya terisi! Ketuk salah satu.';
 
   @override
   String get tutorialL1Drag =>
-      'Bagus! Sekarang tahan jarimu dan geser untuk mengisi sisa baris.';
+      'Mantap! Sekarang geser tanpa mengangkat jari untuk mengisi sisa baris.';
+
+  @override
+  String get tutorialL1Row =>
+      'Baris ini juga [5]. Kali ini geser dari ujung ke ujung sekaligus.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Kedua kotak [2] kolom ini sudah ketemu, jadi sisanya otomatis diberi X. X artinya: kosong.';
 
   @override
   String get tutorialL1Column =>
-      'Kolom ini juga bilang 5: geser dari atas ke bawah.';
+      'Angka di atas untuk kolom. Kolom ini [5]: geser dari atas ke bawah.';
+
+  @override
+  String get tutorialL1Count =>
+      'Baris ini butuh [3] kotak. Kotak ber-X kosong, jadi tersisa tepat 3 kotak. Isi semuanya!';
 
   @override
   String get tutorialL1Finish =>
-      'Saat baris atau kolom selesai, kotak lainnya otomatis diberi X. Selesaikan sisa gambarnya sendiri!';
+      'Selesaikan baris terakhir sendiri dan ungkap gambarnya!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: dua kelompok terpisah. 2 terisi, minimal 1 kosong, lalu 2 terisi. 2 + 1 + 2 = 5: pas sekali!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 berarti 2 kotak terisi, setidaknya satu celah, lalu 2 kotak terisi lagi. 2 + celah + 2 = 5, jadi baris ini pasti! Ketuk dua kali kotak kosong untuk memberi X.';
+      'Jadi kotak tengah kosong. Ketuk dua kali untuk memberinya X.';
 
   @override
   String get tutorialL2Drag =>
-      'Kotak dengan X-mu dilewati saat menggeser. Geser sepanjang baris untuk mengisinya.';
+      'X hanya catatan dan tidak memakan apa pun. Sekarang geser sepanjang baris: kotak ber-X dilewati.';
 
   @override
-  String get tutorialL2Rules =>
-      'Mengisi kotak yang salah membuatmu kehilangan 1 nyawa; tanda X gratis. Jika buntu, tombol Petunjuk juga menjelaskan alasannya. Selebihnya terserah kamu!';
+  String get tutorialL2CrossSelf =>
+      'Baris di bawahnya juga [2 2]. Giliranmu: beri X dulu pada kotak kosong.';
+
+  @override
+  String get tutorialL2DragSelf => 'Sekarang geser untuk mengisi baris.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Hati-hati: mengisi kotak yang salah membuatnya jadi X merah dan kamu kehilangan satu hati. Ragu? Beri X dulu!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Sisanya milikmu! Buntu? Hitung berapa kotak lagi yang dibutuhkan sebuah garis.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Kolom ini [4], dengan ruang untuk 5. Blok 4 itu ada di paling atas atau paling bawah. Mana pun itu, 3 kotak tengah terisi!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Isi kotak-kotak pasti itu. Trik ini namanya tumpang tindih: rahasia teka-teki besar!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Kolom ini juga [4]. Temukan sendiri kotak yang pasti!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'Lalu [3]? Didorong ke kiri atau ke kanan, kotak tengah selalu terisi. Isi kotaknya!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Hebat! Trik ini akan sering kamu pakai di teka-teki besar. Sekarang selesaikan gambarnya!';
+
+  @override
+  String get tutorialL4Ones =>
+      'Dua baris teratas adalah [1 1 1]: tiga kotak tunggal dengan jarak di antaranya. 1 + 1 + 1 + 1 + 1 = 5: pas sekali!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Dua kotak ini kosong. Ketuk dua kali, tahan jari di ketukan kedua, lalu geser ke bawah: garis X!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Giliranmu: gambar X di dua kotak kosong pada kolom ini.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Salah X? Ketuk dua kali lagi untuk menghapusnya. Geseran ketuk dua kali yang dimulai dari X menghapus X yang dilewati.';
+
+  @override
+  String get tutorialL4Finish => 'Keren! Sekarang lengkapi gambarnya.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Pelajaran terakhir! Kolom ini [3 1]: 3 + 1 + 1 = 5, jadi sudah pasti. Selesaikan sendiri!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Buntu? Tekan Petunjuk: ia menunjukkan langkah berikutnya beserta alasannya.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Kamu sudah siap! Di grid besar, garis tebal memisahkan tiap 5 kotak agar mudah dihitung. Selesaikan gambarnya!';
 }

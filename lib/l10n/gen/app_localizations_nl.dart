@@ -272,30 +272,133 @@ class AppLocalizationsNl extends AppLocalizations {
   String get tutorialGotIt => 'Begrepen';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Les $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Daar gaan we!';
+
+  @override
+  String get tutorialSkipTitle => 'Uitleg overslaan?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Alleen de les van dit level overslaan, of de hele uitleg?';
+
+  @override
+  String get tutorialSkipLevel => 'Alleen dit level';
+
+  @override
+  String get tutorialSkipAll => 'Alles overslaan';
+
+  @override
+  String get tutorialWelcome =>
+      'Hoi! In elke puzzel zit een plaatje verstopt. Lees de getallen, vul de juiste vakjes en onthul het!';
+
+  @override
   String get tutorialL1Fill =>
-      'De getallen geven aan hoeveel vakjes in die rij gevuld zijn. Deze rij zegt 5, dus alle 5 vakjes zijn gevuld! Tik op een vakje om het te vullen.';
+      '[5]: deze rij heeft 5 gevulde vakjes. De rij is 5 vakjes lang, dus ze zijn allemaal gevuld! Tik er een aan.';
 
   @override
   String get tutorialL1Drag =>
-      'Goed zo! Houd nu je vinger op het scherm en schuif om de rest van de rij te vullen.';
+      'Top! Schuif nu zonder je vinger op te tillen en vul de rest van de rij.';
+
+  @override
+  String get tutorialL1Row =>
+      'Deze rij is ook [5]. Schuif nu in één keer van begin tot eind.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'De [2] vakjes van deze kolom zijn gevonden, dus de rest kreeg vanzelf een X. Een X betekent: leeg.';
 
   @override
   String get tutorialL1Column =>
-      'Deze kolom zegt ook 5: schuif van boven naar beneden.';
+      'De getallen bovenaan horen bij de kolommen. Deze kolom is [5]: schuif van boven naar beneden.';
+
+  @override
+  String get tutorialL1Count =>
+      'Deze rij heeft [3] vakjes nodig. De X\'jes zijn leeg, dus er zijn precies 3 vakjes over. Vul ze allemaal!';
 
   @override
   String get tutorialL1Finish =>
-      'Is een rij of kolom af, dan krijgen de andere vakjes vanzelf een X. Maak de rest van het plaatje zelf af!';
+      'Maak de laatste rij zelf af en onthul het plaatje!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: twee losse groepen. 2 gevuld, minstens 1 leeg, dan 2 gevuld. 2 + 1 + 2 = 5: past precies!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 betekent 2 gevulde vakjes, minstens één lege ruimte en dan nog 2 gevulde vakjes. 2 + ruimte + 2 = 5, dus de rij ligt vast! Dubbeltik op het lege vakje om een X te plaatsen.';
+      'Het middelste vakje is dus leeg. Dubbeltik erop om er een X te zetten.';
 
   @override
   String get tutorialL2Drag =>
-      'Vakjes met jouw X worden overgeslagen als je schuift. Schuif over de hele rij om hem te vullen.';
+      'Een X is maar een notitie en kost niets. Schuif nu over de rij: de X wordt overgeslagen.';
 
   @override
-  String get tutorialL2Rules =>
-      'Een verkeerd vakje vullen kost 1 leven; X\'jes zijn gratis. Zit je vast? De Hint-knop legt ook uit waarom. De rest is aan jou!';
+  String get tutorialL2CrossSelf =>
+      'De rij eronder is ook [2 2]. Jouw beurt: zet eerst een X op het lege vakje.';
+
+  @override
+  String get tutorialL2DragSelf => 'Schuif nu om de rij te vullen.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Let op: een verkeerd vakje vullen maakt er een rode X van en kost een hartje. Twijfel je? Zet eerst een X!';
+
+  @override
+  String get tutorialL2Finish =>
+      'De rest is aan jou! Vast? Tel hoeveel vakjes een lijn nog nodig heeft.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Deze kolom is [4], met ruimte voor 5. Het blok van 4 staat helemaal boven of helemaal onder. Hoe dan ook: de middelste 3 zijn gevuld!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Vul die zekere vakjes. Deze truc heet overlap: het geheim van grote puzzels!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Deze kolom is ook [4]. Zoek de zekere vakjes zelf!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'En [3]? Links of rechts tegenaan, het middelste vakje is altijd gevuld. Vul het!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Geweldig! Deze truc ga je vaak gebruiken in grote puzzels. Maak nu het plaatje af!';
+
+  @override
+  String get tutorialL4Ones =>
+      'De bovenste twee rijen zijn [1 1 1]: drie losse vakjes met gaten ertussen. 1 + 1 + 1 + 1 + 1 = 5: past precies!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Deze twee vakjes zijn leeg. Dubbeltik, houd bij de tweede tik je vinger neer en schuif omlaag: een rij X\'jes!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Jouw beurt: teken X\'jes op de twee lege vakjes van deze kolom.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Verkeerde X? Dubbeltik er nog eens op en hij is weg. Schuif je met een dubbeltik vanaf een X, dan wis je de X\'jes onderweg.';
+
+  @override
+  String get tutorialL4Finish => 'Super! Maak nu het plaatje af.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Laatste les! Deze kolom is [3 1]: 3 + 1 + 1 = 5, dus hij staat vast. Los hem zelf op!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Vast? Druk op Hint: die toont de volgende stap en legt uit waarom.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Je bent er klaar voor! In grote roosters verdelen dikke lijnen de vakjes per 5, zo tel je makkelijker. Maak het plaatje af!';
 }

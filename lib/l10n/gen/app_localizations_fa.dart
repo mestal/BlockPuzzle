@@ -271,29 +271,132 @@ class AppLocalizationsFa extends AppLocalizations {
   String get tutorialGotIt => 'فهمیدم';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'درس $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'بزن بریم!';
+
+  @override
+  String get tutorialSkipTitle => 'آموزش رد شود؟';
+
+  @override
+  String get tutorialSkipBody => 'فقط درس این مرحله رد شود یا کل آموزش؟';
+
+  @override
+  String get tutorialSkipLevel => 'فقط این مرحله';
+
+  @override
+  String get tutorialSkipAll => 'رد کردن همه';
+
+  @override
+  String get tutorialWelcome =>
+      'سلام! در هر پازل یک تصویر پنهان است. عددها را بخوان، خانه‌های درست را پر کن و آن را آشکار کن!';
+
+  @override
   String get tutorialL1Fill =>
-      'عددها نشان می‌دهند چند خانه در آن ردیف پر است. این ردیف می‌گوید 5، پس هر 5 خانه پر است! روی یک خانه ضربه بزن تا پر شود.';
+      '[5]: این ردیف 5 خانهٔ پر دارد. ردیف هم 5 خانه است، پس همه پرند! روی یکی ضربه بزن.';
 
   @override
   String get tutorialL1Drag =>
-      'آفرین! حالا انگشتت را نگه دار و بکش تا بقیهٔ ردیف پر شود.';
+      'عالی! حالا بدون برداشتن انگشت بکش و بقیهٔ ردیف را پر کن.';
 
   @override
-  String get tutorialL1Column => 'این ستون هم می‌گوید 5: از بالا به پایین بکش.';
+  String get tutorialL1Row =>
+      'این ردیف هم [5] است. این بار یک‌سره از این سر تا آن سر بکش.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'دو خانهٔ [2] این ستون پیدا شد، پس بقیه خودبه‌خود X گرفتند. X یعنی: خالی.';
+
+  @override
+  String get tutorialL1Column =>
+      'عددهای بالا برای ستون‌ها هستند. این ستون [5] است: از بالا به پایین بکش.';
+
+  @override
+  String get tutorialL1Count =>
+      'این ردیف [3] خانه لازم دارد. خانه‌های X خالی‌اند، پس دقیقاً 3 خانه مانده. همه را پر کن!';
 
   @override
   String get tutorialL1Finish =>
-      'وقتی یک ردیف یا ستون تمام شود، بقیهٔ خانه‌هایش خودبه‌خود X می‌گیرند. بقیهٔ تصویر را خودت تمام کن!';
+      'ردیف آخر را خودت تمام کن و تصویر را آشکار کن!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: دو گروه جدا. 2 پر، دست‌کم 1 خالی، بعد 2 پر. 2 + 1 + 2 = 5: دقیقاً جا می‌شود!';
 
   @override
   String get tutorialL2Cross =>
-      '⁦2 2⁩ یعنی 2 خانهٔ پر، دست‌کم یک فاصله، بعد 2 خانهٔ پر دیگر. ⁦2 + فاصله + 2 = 5⁩، پس ردیف قطعی است! روی خانهٔ خالی دو ضربه بزن تا X بگذاری.';
+      'پس خانهٔ وسط خالی است. با دو ضربه رویش X بگذار.';
 
   @override
   String get tutorialL2Drag =>
-      'خانه‌هایی که X تو را دارند هنگام کشیدن رد می‌شوند. روی کل ردیف بکش تا پر شود.';
+      'X فقط یک یادداشت است و هزینه‌ای ندارد. حالا روی ردیف بکش: X رد می‌شود.';
 
   @override
-  String get tutorialL2Rules =>
-      'پر کردن خانهٔ اشتباه 1 جان می‌گیرد؛ علامت X رایگان است. اگر گیر کردی، دکمهٔ راهنما دلیلش را هم توضیح می‌دهد. بقیه‌اش با خودت!';
+  String get tutorialL2CrossSelf =>
+      'ردیف پایینی هم [2 2] است. نوبت توست: اول روی خانهٔ خالی X بگذار.';
+
+  @override
+  String get tutorialL2DragSelf => 'حالا بکش تا ردیف پر شود.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'مراقب باش: پر کردن خانهٔ اشتباه آن را X قرمز می‌کند و یک قلب می‌گیرد. مطمئن نیستی؟ اول X بگذار!';
+
+  @override
+  String get tutorialL2Finish =>
+      'بقیه‌اش با تو! گیر کردی؟ بشمار یک خط هنوز چند خانه کم دارد.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'این ستون [4] است و جا 5 خانه. بلوک 4تایی یا بالای بالا است یا پایین پایین. در هر دو حالت 3 خانهٔ وسط پرند!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'این خانه‌های قطعی را پر کن. اسم این ترفند هم‌پوشانی است: راز پازل‌های بزرگ!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'این ستون هم [4] است. خانه‌های قطعی را خودت پیدا کن!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'و [3]؟ چه به چپ بچسبد چه به راست، خانهٔ وسط همیشه پر است. پرش کن!';
+
+  @override
+  String get tutorialL3Finish =>
+      'عالی! این ترفند را در پازل‌های بزرگ زیاد به کار می‌بری. حالا تصویر را تمام کن!';
+
+  @override
+  String get tutorialL4Ones =>
+      'دو ردیف بالا [1 1 1] هستند: سه خانهٔ تکی با فاصله بینشان. 1 + 1 + 1 + 1 + 1 = 5: دقیقاً جا می‌شوند!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'این دو خانه خالی‌اند. دو ضربه بزن، در ضربهٔ دوم انگشتت را نگه دار و به پایین بکش: یک خط X!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'نوبت توست: روی دو خانهٔ خالی این ستون X بکش.';
+
+  @override
+  String get tutorialL4Erase =>
+      'X اشتباه گذاشتی؟ دوباره دو ضربه بزن تا پاک شود. اگر با دو ضربه از روی یک X بکشی، X‌های سر راه پاک می‌شوند.';
+
+  @override
+  String get tutorialL4Finish => 'عالی! حالا تصویر را کامل کن.';
+
+  @override
+  String get tutorialL5Sum =>
+      'درس آخر! این ستون [3 1] است: 3 + 1 + 1 = 5، پس قطعی است. خودت حلش کن!';
+
+  @override
+  String get tutorialL5Hint =>
+      'گیر کردی؟ راهنما را بزن: قدم بعدی و دلیلش را نشان می‌دهد.';
+
+  @override
+  String get tutorialL5Finish =>
+      'آماده‌ای! در جدول‌های بزرگ، خط‌های ضخیم هر 5 خانه را جدا می‌کنند تا شمردن آسان شود. تصویر را تمام کن!';
 }

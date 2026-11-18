@@ -270,29 +270,129 @@ class AppLocalizationsTh extends AppLocalizations {
   String get tutorialGotIt => 'เข้าใจแล้ว';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'บทเรียน $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'เริ่มกันเลย!';
+
+  @override
+  String get tutorialSkipTitle => 'ข้ามบทแนะนำไหม?';
+
+  @override
+  String get tutorialSkipBody =>
+      'ข้ามเฉพาะบทเรียนของด่านนี้ หรือข้ามบทแนะนำทั้งหมด?';
+
+  @override
+  String get tutorialSkipLevel => 'เฉพาะด่านนี้';
+
+  @override
+  String get tutorialSkipAll => 'ข้ามทั้งหมด';
+
+  @override
+  String get tutorialWelcome =>
+      'สวัสดี! ทุกปริศนาซ่อนภาพไว้ อ่านตัวเลข เติมช่องที่ถูกต้อง แล้วเผยภาพออกมา!';
+
+  @override
   String get tutorialL1Fill =>
-      'ตัวเลขบอกว่าแถวนั้นมีช่องที่ถูกเติมกี่ช่อง แถวนี้บอก 5 ทั้ง 5 ช่องจึงถูกเติม! แตะช่องเพื่อเติม';
+      '[5]: แถวนี้มีช่องที่ถูกเติม 5 ช่อง แถวยาว 5 ช่องพอดี จึงเติมทั้งหมด! แตะสักช่อง';
 
   @override
   String get tutorialL1Drag =>
-      'เยี่ยม! ทีนี้กดนิ้วค้างแล้วลากเพื่อเติมช่องที่เหลือในแถว';
+      'เยี่ยม! ทีนี้ลากโดยไม่ยกนิ้วเพื่อเติมส่วนที่เหลือของแถว';
 
   @override
-  String get tutorialL1Column => 'คอลัมน์นี้ก็บอก 5 เหมือนกัน: ลากจากบนลงล่าง';
+  String get tutorialL1Row => 'แถวนี้ก็ [5] ครั้งนี้ลากจากหัวจรดท้ายในทีเดียว';
 
   @override
-  String get tutorialL1Finish =>
-      'เมื่อแถวหรือคอลัมน์เสร็จ ช่องอื่น ๆ จะได้ X เอง ทำภาพที่เหลือให้เสร็จด้วยตัวเองนะ!';
+  String get tutorialL1AutoCross =>
+      'เจอช่อง [2] ช่องของคอลัมน์นี้แล้ว ช่องที่เหลือจึงได้ X เอง X หมายถึง: ว่าง';
 
   @override
-  String get tutorialL2Cross =>
-      '2 2 หมายถึงช่องที่เติม 2 ช่อง ช่องว่างอย่างน้อยหนึ่งช่อง แล้วช่องที่เติมอีก 2 ช่อง 2 + ช่องว่าง + 2 = 5 แถวนี้จึงแน่นอน! แตะช่องว่างสองครั้งเพื่อใส่ X';
+  String get tutorialL1Column =>
+      'ตัวเลขด้านบนเป็นของคอลัมน์ คอลัมน์นี้คือ [5]: ลากจากบนลงล่าง';
+
+  @override
+  String get tutorialL1Count =>
+      'แถวนี้ต้องการ [3] ช่อง ช่องที่มี X ว่าง จึงเหลือพอดี 3 ช่อง เติมให้หมด!';
+
+  @override
+  String get tutorialL1Finish => 'เติมแถวสุดท้ายเองแล้วเผยภาพออกมา!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: สองกลุ่มแยกกัน เติม 2 ช่อง ว่างอย่างน้อย 1 ช่อง แล้วเติมอีก 2 ช่อง 2 + 1 + 2 = 5: พอดีเป๊ะ!';
+
+  @override
+  String get tutorialL2Cross => 'ช่องตรงกลางจึงว่าง แตะสองครั้งเพื่อใส่ X';
 
   @override
   String get tutorialL2Drag =>
-      'ช่องที่มี X ของคุณจะถูกข้ามเมื่อลาก ลากไปตลอดแถวเพื่อเติม';
+      'X เป็นแค่โน้ต ไม่เสียอะไรเลย ทีนี้ลากไปตามแถว: ช่องที่มี X จะถูกข้าม';
 
   @override
-  String get tutorialL2Rules =>
-      'เติมช่องผิดจะเสีย 1 ชีวิต เครื่องหมาย X ใช้ได้ฟรี ถ้าติด ปุ่มคำใบ้จะอธิบายเหตุผลให้ด้วย ที่เหลือฝากคุณแล้ว!';
+  String get tutorialL2CrossSelf =>
+      'แถวด้านล่างก็ [2 2] ถึงตาคุณแล้ว: ใส่ X ที่ช่องว่างก่อน';
+
+  @override
+  String get tutorialL2DragSelf => 'ทีนี้ลากเพื่อเติมแถว';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'ระวัง: เติมผิดช่องจะกลายเป็น X สีแดงและเสียหัวใจหนึ่งดวง ไม่แน่ใจ? ใส่ X ก่อน!';
+
+  @override
+  String get tutorialL2Finish =>
+      'ที่เหลือเป็นของคุณ! ติดอยู่หรือ? นับดูว่าเส้นนั้นยังขาดอีกกี่ช่อง';
+
+  @override
+  String get tutorialL3Overlap =>
+      'คอลัมน์นี้คือ [4] มีที่ 5 ช่อง บล็อก 4 ช่องจะอยู่บนสุดหรือล่างสุด ไม่ว่าแบบไหน 3 ช่องตรงกลางถูกเติมเสมอ!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'เติมช่องที่แน่นอนเหล่านั้น เทคนิคนี้เรียกว่าการซ้อนทับ: เคล็ดลับของปริศนาใหญ่!';
+
+  @override
+  String get tutorialL3OverlapSelf => 'คอลัมน์นี้ก็ [4] หาช่องที่แน่นอนเองเลย!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'แล้ว [3] ล่ะ? จะชิดซ้ายหรือชิดขวา ช่องตรงกลางก็ถูกเติมเสมอ เติมเลย!';
+
+  @override
+  String get tutorialL3Finish =>
+      'สุดยอด! เทคนิคนี้จะได้ใช้บ่อยในปริศนาใหญ่ ทีนี้เติมภาพให้เสร็จเลย!';
+
+  @override
+  String get tutorialL4Ones =>
+      'สองแถวบนคือ [1 1 1]: ช่องเดี่ยวสามช่องมีช่องว่างคั่น 1 + 1 + 1 + 1 + 1 = 5: พอดีเป๊ะ!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'สองช่องนี้ว่าง แตะสองครั้ง ค้างนิ้วไว้ตอนแตะครั้งที่สองแล้วลากลง: ได้เส้น X!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'ถึงตาคุณ: ลาก X บนสองช่องว่างของคอลัมน์นี้';
+
+  @override
+  String get tutorialL4Erase =>
+      'ใส่ X ผิดหรือ? แตะสองครั้งอีกทีเพื่อลบ ถ้าแตะสองครั้งแล้วลากเริ่มจาก X จะลบ X ที่ผ่าน';
+
+  @override
+  String get tutorialL4Finish => 'เก่งมาก! ทีนี้เติมภาพให้เสร็จ';
+
+  @override
+  String get tutorialL5Sum =>
+      'บทเรียนสุดท้าย! คอลัมน์นี้คือ [3 1]: 3 + 1 + 1 = 5 จึงแน่นอน แก้เองเลย!';
+
+  @override
+  String get tutorialL5Hint =>
+      'ติดอยู่หรือ? กดคำใบ้: จะบอกขั้นต่อไปพร้อมเหตุผล';
+
+  @override
+  String get tutorialL5Finish =>
+      'พร้อมแล้ว! ในตารางใหญ่ เส้นหนาจะแบ่งทุก 5 ช่องให้นับง่าย เติมภาพให้เสร็จเลย!';
 }

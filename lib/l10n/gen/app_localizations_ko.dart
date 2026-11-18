@@ -267,27 +267,122 @@ class AppLocalizationsKo extends AppLocalizations {
   String get tutorialGotIt => '알겠어요';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return '튜토리얼 $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => '시작해요!';
+
+  @override
+  String get tutorialSkipTitle => '튜토리얼을 건너뛸까요?';
+
+  @override
+  String get tutorialSkipBody => '이 레벨의 수업만 건너뛸까요, 아니면 튜토리얼 전체를 건너뛸까요?';
+
+  @override
+  String get tutorialSkipLevel => '이 레벨만';
+
+  @override
+  String get tutorialSkipAll => '모두 건너뛰기';
+
+  @override
+  String get tutorialWelcome =>
+      '안녕하세요! 모든 퍼즐에는 그림이 숨어 있어요. 숫자를 읽고 맞는 칸을 채워 그림을 찾아보세요!';
+
+  @override
   String get tutorialL1Fill =>
-      '숫자는 그 행에 채워진 칸이 몇 개인지 알려 줘요. 이 행은 5이니 5칸이 모두 채워져요! 칸을 탭해서 채워 보세요.';
+      '[5]: 이 행에는 채워진 칸이 5개예요. 행도 5칸이니 모두 채워져요! 한 칸을 탭해 보세요.';
 
   @override
-  String get tutorialL1Drag => '잘했어요! 이제 손가락을 누른 채로 밀어서 나머지 칸을 채워 보세요.';
+  String get tutorialL1Drag => '좋아요! 이제 손가락을 떼지 말고 밀어서 행의 나머지를 채우세요.';
 
   @override
-  String get tutorialL1Column => '이 열도 5예요: 위에서 아래로 밀어 보세요.';
+  String get tutorialL1Row => '이 행도 [5]예요. 이번에는 끝에서 끝까지 한 번에 밀어 보세요.';
 
   @override
-  String get tutorialL1Finish =>
-      '행이나 열이 완성되면 나머지 칸에는 저절로 X가 표시돼요. 나머지 그림을 직접 완성해 보세요!';
+  String get tutorialL1AutoCross =>
+      '이 열의 [2]칸을 찾았으니 나머지 칸에는 저절로 X가 표시됐어요. X는 빈칸이라는 뜻이에요.';
 
   @override
-  String get tutorialL2Cross =>
-      '2 2는 채워진 칸 2개, 적어도 한 칸의 빈칸, 그리고 채워진 칸 2개를 뜻해요. 2 + 빈칸 + 2 = 5이니 이 행은 확실해요! 빈칸을 더블 탭해서 X를 놓으세요.';
+  String get tutorialL1Column => '위쪽 숫자는 열의 단서예요. 이 열은 [5]: 위에서 아래로 밀어 보세요.';
 
   @override
-  String get tutorialL2Drag => '내 X가 있는 칸은 밀 때 건너뛰어요. 행 전체를 따라 밀어서 채워 보세요.';
+  String get tutorialL1Count =>
+      '이 행에는 [3]칸이 필요해요. X 칸은 비어 있으니 딱 3칸 남았어요. 모두 채우세요!';
 
   @override
-  String get tutorialL2Rules =>
-      '틀린 칸을 채우면 목숨 1개를 잃고, X 표시는 무료예요. 막히면 힌트 버튼이 이유까지 알려 줘요. 나머지는 여러분의 몫이에요!';
+  String get tutorialL1Finish => '마지막 행은 직접 채워서 그림을 완성하세요!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: 서로 떨어진 두 묶음이에요. 2칸 채우고, 적어도 1칸 비우고, 다시 2칸. 2 + 1 + 2 = 5: 딱 맞아요!';
+
+  @override
+  String get tutorialL2Cross => '그러니 가운데 칸은 빈칸이에요. 더블 탭해서 X를 놓으세요.';
+
+  @override
+  String get tutorialL2Drag =>
+      'X는 그냥 메모라서 아무것도 잃지 않아요. 이제 행을 따라 밀어 보세요: X 칸은 건너뛰어요.';
+
+  @override
+  String get tutorialL2CrossSelf =>
+      '아래 행도 [2 2]예요. 이제 직접 해 보세요: 먼저 빈칸에 X를 놓으세요.';
+
+  @override
+  String get tutorialL2DragSelf => '이제 밀어서 행을 채우세요.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      '조심하세요: 틀린 칸을 채우면 빨간 X가 되고 하트 하나를 잃어요. 확실하지 않으면 먼저 X를 놓으세요!';
+
+  @override
+  String get tutorialL2Finish => '나머지는 여러분 몫이에요! 막히면 한 줄에 몇 칸이 더 필요한지 세어 보세요.';
+
+  @override
+  String get tutorialL3Overlap =>
+      '이 열은 [4]이고 자리는 5칸이에요. 4칸 묶음은 맨 위 아니면 맨 아래에 있어요. 어느 쪽이든 가운데 3칸은 채워져요!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      '이 확실한 칸들을 채우세요. 이 요령은 겹치기라고 해요: 큰 퍼즐의 비밀이죠!';
+
+  @override
+  String get tutorialL3OverlapSelf => '이 열도 [4]예요. 확실한 칸을 직접 찾아보세요!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      '그럼 [3]은요? 왼쪽에 붙이든 오른쪽에 붙이든 가운데 칸은 항상 채워져요. 채워 보세요!';
+
+  @override
+  String get tutorialL3Finish => '멋져요! 이 요령은 큰 퍼즐에서 자주 쓰여요. 이제 그림을 완성하세요!';
+
+  @override
+  String get tutorialL4Ones =>
+      '위의 두 행은 [1 1 1]: 사이에 빈칸을 두고 한 칸씩 세 개예요. 1 + 1 + 1 + 1 + 1 = 5: 딱 맞아요!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      '이 두 칸은 빈칸이에요. 더블 탭하고 두 번째 탭에서 손가락을 떼지 말고 아래로 밀어 보세요: X 줄이 그어져요!';
+
+  @override
+  String get tutorialL4CrossDragSelf => '이제 직접 해 보세요: 이 열의 빈칸 두 개에 X를 그으세요.';
+
+  @override
+  String get tutorialL4Erase =>
+      'X를 잘못 놓았나요? 다시 더블 탭하면 지워져요. X에서 더블 탭으로 밀면 지나간 X가 지워져요.';
+
+  @override
+  String get tutorialL4Finish => '최고예요! 이제 그림을 완성하세요.';
+
+  @override
+  String get tutorialL5Sum =>
+      '마지막 수업! 이 열은 [3 1]: 3 + 1 + 1 = 5이니 확실해요. 직접 풀어 보세요!';
+
+  @override
+  String get tutorialL5Hint => '막혔나요? 힌트를 누르면 다음 단계와 그 이유를 알려 줘요.';
+
+  @override
+  String get tutorialL5Finish =>
+      '이제 준비 끝! 큰 판에서는 굵은 선이 5칸마다 나눠 줘서 세기 쉬워요. 그림을 완성하세요!';
 }

@@ -12,9 +12,9 @@ void main() {
   });
 
   test('a mistake costs one life on a normal level', () {
-    expect(Lives.canRunOut(3), isTrue);
-    expect(Lives.afterMistake(3, 2), 1);
-    expect(Lives.afterMistake(3, 1), 0);
+    expect(Lives.canRunOut(6), isTrue);
+    expect(Lives.afterMistake(6, 2), 1);
+    expect(Lives.afterMistake(6, 1), 0);
   });
 
   test('tutorial levels never take the last life', () {

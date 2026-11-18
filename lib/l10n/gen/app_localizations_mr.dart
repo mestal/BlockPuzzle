@@ -271,29 +271,131 @@ class AppLocalizationsMr extends AppLocalizations {
   String get tutorialGotIt => 'समजले';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'धडा $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'चला सुरू करूया!';
+
+  @override
+  String get tutorialSkipTitle => 'मार्गदर्शक वगळायचा?';
+
+  @override
+  String get tutorialSkipBody =>
+      'फक्त या स्तराचा धडा वगळायचा की संपूर्ण मार्गदर्शक?';
+
+  @override
+  String get tutorialSkipLevel => 'फक्त हा स्तर';
+
+  @override
+  String get tutorialSkipAll => 'सर्व वगळा';
+
+  @override
+  String get tutorialWelcome =>
+      'नमस्कार! प्रत्येक कोड्यात एक चित्र लपलेले आहे. आकडे वाचा, योग्य चौकोन भरा आणि ते उघड करा!';
+
+  @override
   String get tutorialL1Fill =>
-      'आकडे सांगतात की त्या ओळीत किती चौकोन भरलेले आहेत. ही ओळ 5 सांगते, म्हणजे सर्व 5 चौकोन भरलेले आहेत! चौकोन भरण्यासाठी त्यावर टॅप करा.';
+      '[5]: या ओळीत 5 भरलेले चौकोन आहेत. ओळही 5 चौकोनांची आहे, म्हणजे सर्व भरलेले! एकावर टॅप करा.';
 
   @override
-  String get tutorialL1Drag =>
-      'छान! आता बोट दाबून धरा आणि ओळीचा उरलेला भाग भरण्यासाठी सरकवा.';
+  String get tutorialL1Drag => 'छान! आता बोट न उचलता सरकवा आणि उरलेली ओळ भरा.';
 
   @override
-  String get tutorialL1Column => 'हा स्तंभही 5 सांगतो: वरून खाली सरकवा.';
+  String get tutorialL1Row =>
+      'ही ओळही [5] आहे. या वेळी एकाच हालचालीत एका टोकापासून दुसऱ्या टोकापर्यंत सरकवा.';
 
   @override
-  String get tutorialL1Finish =>
-      'ओळ किंवा स्तंभ पूर्ण झाल्यावर त्यातील इतर चौकोनांवर आपोआप X लागतो. उरलेले चित्र तुम्हीच पूर्ण करा!';
+  String get tutorialL1AutoCross =>
+      'या स्तंभाचे [2] चौकोन सापडले, म्हणून उरलेल्यांवर आपोआप X लागला. X म्हणजे: रिकामे.';
+
+  @override
+  String get tutorialL1Column =>
+      'वरचे आकडे स्तंभांसाठी आहेत. हा स्तंभ [5] आहे: वरून खाली सरकवा.';
+
+  @override
+  String get tutorialL1Count =>
+      'या ओळीला [3] चौकोन हवेत. X असलेले चौकोन रिकामे आहेत, म्हणून नेमके 3 उरले. ते सर्व भरा!';
+
+  @override
+  String get tutorialL1Finish => 'शेवटची ओळ स्वतः पूर्ण करा आणि चित्र उघड करा!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: दोन वेगळे गट. 2 भरलेले, किमान 1 रिकामा, मग 2 भरलेले. 2 + 1 + 2 = 5: अगदी बरोबर बसते!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 म्हणजे 2 भरलेले चौकोन, किमान एक जागा, मग आणखी 2 भरलेले चौकोन. 2 + जागा + 2 = 5, म्हणून ओळ निश्चित आहे! X लावण्यासाठी रिकाम्या चौकोनावर डबल टॅप करा.';
+      'म्हणजे मधला चौकोन रिकामा आहे. त्यावर डबल टॅप करून X लावा.';
 
   @override
   String get tutorialL2Drag =>
-      'सरकवताना तुमचा X असलेले चौकोन वगळले जातात. संपूर्ण ओळ भरण्यासाठी तिच्यावरून सरकवा.';
+      'X ही फक्त नोंद आहे, तिची काही किंमत नाही. आता ओळीवरून सरकवा: X असलेला चौकोन वगळला जातो.';
 
   @override
-  String get tutorialL2Rules =>
-      'चुकीचा चौकोन भरल्यास 1 जीव जातो; X खुणा मोफत आहेत. अडकलात तर सूचना बटण कारणही सांगते. बाकी तुमच्यावर!';
+  String get tutorialL2CrossSelf =>
+      'खालची ओळही [2 2] आहे. तुमची पाळी: आधी रिकाम्या चौकोनावर X लावा.';
+
+  @override
+  String get tutorialL2DragSelf => 'आता सरकवून ओळ भरा.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'लक्ष द्या: चुकीचा चौकोन भरल्यास तो लाल X होतो आणि एक हृदय जाते. खात्री नाही? आधी X लावा!';
+
+  @override
+  String get tutorialL2Finish =>
+      'बाकी तुमचे! अडकलात? एखाद्या रेषेत अजून किती चौकोन हवेत ते मोजा.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'हा स्तंभ [4] आहे आणि जागा 5 चौकोनांची. 4 चा ब्लॉक एकतर अगदी वर किंवा अगदी खाली असतो. दोन्हीत मधले 3 भरलेले!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'हे नक्की चौकोन भरा. या युक्तीचे नाव ओव्हरलॅप: मोठ्या कोड्यांचे रहस्य!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'हा स्तंभही [4] आहे. नक्की चौकोन स्वतः शोधा!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'आणि [3]? डावीकडे सरको की उजवीकडे, मधला चौकोन नेहमी भरलेला. तो भरा!';
+
+  @override
+  String get tutorialL3Finish =>
+      'मस्त! ही युक्ती मोठ्या कोड्यांत खूप उपयोगी पडेल. आता चित्र पूर्ण करा!';
+
+  @override
+  String get tutorialL4Ones =>
+      'वरच्या दोन ओळी [1 1 1] आहेत: तीन एकटे चौकोन, मध्ये रिकामी जागा. 1 + 1 + 1 + 1 + 1 = 5: अगदी बरोबर बसतात!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'हे दोन चौकोन रिकामे आहेत. डबल टॅप करा, दुसऱ्या टॅपला बोट दाबून ठेवा आणि खाली सरकवा: X ची रेषा!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'तुमची पाळी: या स्तंभातील दोन रिकाम्या चौकोनांवर X काढा.';
+
+  @override
+  String get tutorialL4Erase =>
+      'चुकीचा X लावला? त्यावर पुन्हा डबल टॅप करा, तो जाईल. X पासून डबल टॅप करून सरकवल्यास वाटेतले X पुसले जातात.';
+
+  @override
+  String get tutorialL4Finish => 'खूप छान! आता चित्र पूर्ण करा.';
+
+  @override
+  String get tutorialL5Sum =>
+      'शेवटचा धडा! हा स्तंभ [3 1] आहे: 3 + 1 + 1 = 5, म्हणजे नक्की. स्वतः सोडवा!';
+
+  @override
+  String get tutorialL5Hint =>
+      'अडकलात? सूचना दाबा: ती पुढची पायरी आणि त्याचे कारण दाखवते.';
+
+  @override
+  String get tutorialL5Finish =>
+      'तुम्ही तयार आहात! मोठ्या जाळ्यांत जाड रेषा दर 5 चौकोनांनी विभागतात, त्यामुळे मोजणे सोपे होते. चित्र पूर्ण करा!';
 }

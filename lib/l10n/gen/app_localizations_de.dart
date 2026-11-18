@@ -273,30 +273,133 @@ class AppLocalizationsDe extends AppLocalizations {
   String get tutorialGotIt => 'Verstanden';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Lektion $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Los geht\'s!';
+
+  @override
+  String get tutorialSkipTitle => 'Tutorial überspringen?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Nur die Lektion dieses Levels überspringen oder das ganze Tutorial?';
+
+  @override
+  String get tutorialSkipLevel => 'Nur dieses Level';
+
+  @override
+  String get tutorialSkipAll => 'Alles überspringen';
+
+  @override
+  String get tutorialWelcome =>
+      'Hallo! In jedem Rätsel steckt ein Bild. Lies die Zahlen, fülle die richtigen Felder und decke es auf!';
+
+  @override
   String get tutorialL1Fill =>
-      'Die Zahlen sagen, wie viele Felder in dieser Zeile gefüllt sind. Hier steht 5, also sind alle 5 Felder gefüllt! Tippe auf ein Feld, um es zu füllen.';
+      '[5]: In dieser Zeile sind 5 Felder gefüllt. Die Zeile hat genau 5 Felder, also alle! Tippe auf eines.';
 
   @override
   String get tutorialL1Drag =>
-      'Super! Halte jetzt den Finger gedrückt und wische, um den Rest der Zeile zu füllen.';
+      'Super! Wische jetzt, ohne den Finger zu heben, und fülle den Rest der Zeile.';
+
+  @override
+  String get tutorialL1Row =>
+      'Diese Zeile ist auch [5]. Wische diesmal in einem Zug von einem Ende zum anderen.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Die [2] Felder dieser Spalte sind gefunden, die übrigen bekamen von selbst ein X. X heißt: leer.';
 
   @override
   String get tutorialL1Column =>
-      'Diese Spalte hat auch 5: wische von oben nach unten.';
+      'Die Zahlen oben gehören zu den Spalten. Diese Spalte ist [5]: wische von oben nach unten.';
+
+  @override
+  String get tutorialL1Count =>
+      'Diese Zeile braucht [3] Felder. Die X sind leer, also bleiben genau 3 Felder. Fülle sie alle!';
 
   @override
   String get tutorialL1Finish =>
-      'Ist eine Zeile oder Spalte fertig, bekommen die übrigen Felder von selbst ein X. Vervollständige den Rest des Bildes selbst!';
+      'Fülle die letzte Zeile selbst und decke das Bild auf!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: zwei getrennte Gruppen. 2 gefüllt, mindestens 1 leer, dann 2 gefüllt. 2 + 1 + 2 = 5: passt genau!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 heißt: 2 gefüllte Felder, mindestens eine Lücke, dann noch 2 gefüllte Felder. 2 + Lücke + 2 = 5, die Zeile steht fest! Tippe doppelt auf das leere Feld, um ein X zu setzen.';
+      'Das mittlere Feld ist also leer. Tippe doppelt darauf, um ein X zu setzen.';
 
   @override
   String get tutorialL2Drag =>
-      'Felder mit deinem X werden beim Wischen übersprungen. Wische über die ganze Zeile, um sie zu füllen.';
+      'Ein X ist nur eine Notiz und kostet nichts. Wische jetzt über die Zeile: Das X wird übersprungen.';
 
   @override
-  String get tutorialL2Rules =>
-      'Ein falsch gefülltes Feld kostet 1 Leben; X-Markierungen sind gratis. Wenn du nicht weiterkommst, erklärt der Tipp-Knopf auch das Warum. Der Rest liegt bei dir!';
+  String get tutorialL2CrossSelf =>
+      'Die Zeile darunter ist auch [2 2]. Du bist dran: Setze zuerst ein X auf das leere Feld.';
+
+  @override
+  String get tutorialL2DragSelf => 'Wische jetzt, um die Zeile zu füllen.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Vorsicht: Ein falsch gefülltes Feld wird zum roten X und kostet ein Herz. Unsicher? Setze erst ein X!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Der Rest gehört dir! Kommst du nicht weiter, zähle, wie viele Felder einer Linie noch fehlen.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Diese Spalte ist [4], Platz ist für 5. Der 4er-Block steht ganz oben oder ganz unten. So oder so sind die mittleren 3 gefüllt!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Fülle diese sicheren Felder. Der Trick heißt Überlappung: das Geheimnis großer Rätsel!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Diese Spalte ist auch [4]. Finde die sicheren Felder selbst!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'Und [3]? Ob links oder rechts: Das mittlere Feld ist immer gefüllt. Fülle es!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Klasse! Diesen Trick brauchst du in großen Rätseln oft. Mach jetzt das Bild fertig!';
+
+  @override
+  String get tutorialL4Ones =>
+      'Die oberen zwei Zeilen sind [1 1 1]: drei einzelne Felder mit Lücken. 1 + 1 + 1 + 1 + 1 = 5: passt genau!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Diese zwei Felder sind leer. Tippe doppelt, lass beim zweiten Tippen den Finger unten und wische runter: eine X-Linie!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Du bist dran: Zeichne X auf die zwei leeren Felder dieser Spalte.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Falsches X? Tippe noch mal doppelt darauf, dann ist es weg. Wischst du mit Doppeltipp ab einem X, löschst du die X auf dem Weg.';
+
+  @override
+  String get tutorialL4Finish => 'Super! Jetzt vervollständige das Bild.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Letzte Lektion! Diese Spalte ist [3 1]: 3 + 1 + 1 = 5, also steht sie fest. Löse sie selbst!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Kommst du nicht weiter? Drück auf Tipp: Er zeigt den nächsten Schritt und erklärt, warum.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Du bist bereit! In großen Gittern trennen dicke Linien je 5 Felder, das hilft beim Zählen. Mach das Bild fertig!';
 }

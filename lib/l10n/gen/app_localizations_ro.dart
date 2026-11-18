@@ -274,30 +274,133 @@ class AppLocalizationsRo extends AppLocalizations {
   String get tutorialGotIt => 'Am înțeles';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Lecția $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Să începem!';
+
+  @override
+  String get tutorialSkipTitle => 'Sari peste tutorial?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Sari doar peste lecția acestui nivel sau peste tot tutorialul?';
+
+  @override
+  String get tutorialSkipLevel => 'Doar acest nivel';
+
+  @override
+  String get tutorialSkipAll => 'Sari peste tot';
+
+  @override
+  String get tutorialWelcome =>
+      'Salut! Fiecare puzzle ascunde o imagine. Citește numerele, umple pătrățelele potrivite și descoper-o!';
+
+  @override
   String get tutorialL1Fill =>
-      'Numerele arată câte pătrățele din acel rând sunt pline. Acest rând spune 5, deci toate cele 5 pătrățele sunt pline! Atinge un pătrățel ca să-l umpli.';
+      '[5]: rândul acesta are 5 pătrățele pline. Rândul are 5 pătrățele, deci toate sunt pline! Atinge unul.';
 
   @override
   String get tutorialL1Drag =>
-      'Bravo! Acum ține degetul apăsat și glisează ca să umpli restul rândului.';
+      'Super! Acum glisează fără să ridici degetul și umple restul rândului.';
+
+  @override
+  String get tutorialL1Row =>
+      'Și rândul acesta e [5]. De data asta glisează dintr-un capăt în altul dintr-o mișcare.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Cele [2] pătrățele ale coloanei au fost găsite, așa că restul au primit singure X. X înseamnă: gol.';
 
   @override
   String get tutorialL1Column =>
-      'Și această coloană spune 5: glisează de sus în jos.';
+      'Numerele de sus sunt pentru coloane. Coloana aceasta e [5]: glisează de sus în jos.';
+
+  @override
+  String get tutorialL1Count =>
+      'Rândul acesta are nevoie de [3] pătrățele. Cele cu X sunt goale, deci au rămas exact 3. Umple-le pe toate!';
 
   @override
   String get tutorialL1Finish =>
-      'Când un rând sau o coloană e gata, celelalte pătrățele primesc singure un X. Termină restul imaginii singur!';
+      'Termină singur ultimul rând și descoperă imaginea!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: două grupuri separate. 2 pline, cel puțin 1 gol, apoi 2 pline. 2 + 1 + 2 = 5: se potrivește perfect!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 înseamnă 2 pătrățele pline, cel puțin un spațiu, apoi încă 2 pătrățele pline. 2 + spațiu + 2 = 5, deci rândul e sigur! Atinge de două ori pătrățelul gol ca să pui un X.';
+      'Deci pătrățelul din mijloc e gol. Atinge-l de două ori ca să pui un X.';
 
   @override
   String get tutorialL2Drag =>
-      'Pătrățelele cu X-ul tău sunt sărite când glisezi. Glisează pe tot rândul ca să-l umpli.';
+      'X e doar o notiță și nu costă nimic. Acum glisează pe rând: X-ul e sărit.';
 
   @override
-  String get tutorialL2Rules =>
-      'Dacă umpli un pătrățel greșit, pierzi 1 viață; semnele X sunt gratuite. Dacă te blochezi, butonul Indiciu îți explică și de ce. Restul depinde de tine!';
+  String get tutorialL2CrossSelf =>
+      'Și rândul de dedesubt e [2 2]. E rândul tău: pune întâi un X pe pătrățelul gol.';
+
+  @override
+  String get tutorialL2DragSelf => 'Acum glisează ca să umpli rândul.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Atenție: dacă umpli un pătrățel greșit, devine un X roșu și pierzi o inimă. Nu ești sigur? Pune întâi un X!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Restul e al tău! Te-ai blocat? Numără câte pătrățele îi mai trebuie unei linii.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Coloana aceasta e [4], cu loc pentru 5. Blocul de 4 stă fie sus de tot, fie jos de tot. Oricum ar fi, cele 3 din mijloc sunt pline!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Umple aceste pătrățele sigure. Trucul se numește suprapunere: secretul puzzle-urilor mari!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Și coloana aceasta e [4]. Găsește singur pătrățelele sigure!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'Și [3]? Împins la stânga sau la dreapta, pătrățelul din mijloc e mereu plin. Umple-l!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Grozav! Vei folosi des acest truc în puzzle-urile mari. Acum termină imaginea!';
+
+  @override
+  String get tutorialL4Ones =>
+      'Primele două rânduri sunt [1 1 1]: trei pătrățele singure, cu goluri între ele. 1 + 1 + 1 + 1 + 1 = 5: se potrivesc perfect!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Aceste două pătrățele sunt goale. Atinge de două ori, ține degetul jos la a doua atingere și glisează în jos: o linie de X!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'E rândul tău: trage X pe cele două pătrățele goale din coloana aceasta.';
+
+  @override
+  String get tutorialL4Erase =>
+      'X greșit? Atinge-l din nou de două ori și dispare. Dacă glisezi cu dublă atingere pornind de pe un X, ștergi X-urile din cale.';
+
+  @override
+  String get tutorialL4Finish => 'Super! Acum completează imaginea.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Ultima lecție! Coloana aceasta e [3 1]: 3 + 1 + 1 = 5, deci e sigură. Rezolv-o singur!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Te-ai blocat? Apasă Indiciu: îți arată pasul următor și de ce.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Ești gata! Pe grilele mari, linii groase despart câte 5 pătrățele ca să numeri ușor. Termină imaginea!';
 }

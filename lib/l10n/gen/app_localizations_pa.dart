@@ -271,30 +271,131 @@ class AppLocalizationsPa extends AppLocalizations {
   String get tutorialGotIt => 'ਸਮਝ ਗਿਆ';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'ਪਾਠ $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'ਚੱਲੋ ਸ਼ੁਰੂ ਕਰੀਏ!';
+
+  @override
+  String get tutorialSkipTitle => 'ਟਿਊਟੋਰੀਅਲ ਛੱਡਣਾ ਹੈ?';
+
+  @override
+  String get tutorialSkipBody =>
+      'ਸਿਰਫ਼ ਇਸ ਪੱਧਰ ਦਾ ਪਾਠ ਛੱਡਣਾ ਹੈ ਜਾਂ ਪੂਰਾ ਟਿਊਟੋਰੀਅਲ?';
+
+  @override
+  String get tutorialSkipLevel => 'ਸਿਰਫ਼ ਇਹ ਪੱਧਰ';
+
+  @override
+  String get tutorialSkipAll => 'ਸਭ ਛੱਡੋ';
+
+  @override
+  String get tutorialWelcome =>
+      'ਸਤ ਸ੍ਰੀ ਅਕਾਲ! ਹਰ ਬੁਝਾਰਤ ਵਿੱਚ ਇੱਕ ਤਸਵੀਰ ਲੁਕੀ ਹੈ। ਅੰਕ ਪੜ੍ਹੋ, ਸਹੀ ਖਾਨੇ ਭਰੋ ਅਤੇ ਉਸ ਨੂੰ ਸਾਹਮਣੇ ਲਿਆਓ!';
+
+  @override
   String get tutorialL1Fill =>
-      'ਅੰਕ ਦੱਸਦੇ ਹਨ ਕਿ ਉਸ ਕਤਾਰ ਵਿੱਚ ਕਿੰਨੇ ਖਾਨੇ ਭਰੇ ਹਨ। ਇਹ ਕਤਾਰ 5 ਕਹਿੰਦੀ ਹੈ, ਇਸ ਲਈ ਸਾਰੇ 5 ਖਾਨੇ ਭਰੇ ਹਨ! ਖਾਨਾ ਭਰਨ ਲਈ ਉਸ ਉੱਤੇ ਟੈਪ ਕਰੋ।';
+      '[5]: ਇਸ ਕਤਾਰ ਵਿੱਚ 5 ਭਰੇ ਖਾਨੇ ਹਨ। ਕਤਾਰ ਵੀ 5 ਖਾਨਿਆਂ ਦੀ ਹੈ, ਯਾਨੀ ਸਾਰੇ ਭਰੇ ਹਨ! ਕਿਸੇ ਇੱਕ ਉੱਤੇ ਟੈਪ ਕਰੋ।';
 
   @override
   String get tutorialL1Drag =>
-      'ਸ਼ਾਬਾਸ਼! ਹੁਣ ਉਂਗਲ ਦਬਾ ਕੇ ਰੱਖੋ ਅਤੇ ਖਿਸਕਾ ਕੇ ਕਤਾਰ ਦਾ ਬਾਕੀ ਹਿੱਸਾ ਭਰੋ।';
+      'ਵਧੀਆ! ਹੁਣ ਉਂਗਲ ਚੁੱਕੇ ਬਿਨਾਂ ਖਿਸਕਾਓ ਅਤੇ ਬਾਕੀ ਕਤਾਰ ਭਰੋ।';
+
+  @override
+  String get tutorialL1Row =>
+      'ਇਹ ਕਤਾਰ ਵੀ [5] ਹੈ। ਇਸ ਵਾਰ ਇੱਕੋ ਵਾਰ ਵਿੱਚ ਇੱਕ ਸਿਰੇ ਤੋਂ ਦੂਜੇ ਸਿਰੇ ਤੱਕ ਖਿਸਕਾਓ।';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'ਇਸ ਕਾਲਮ ਦੇ [2] ਖਾਨੇ ਮਿਲ ਗਏ, ਇਸ ਲਈ ਬਾਕੀਆਂ ਉੱਤੇ ਆਪਣੇ-ਆਪ X ਲੱਗ ਗਿਆ। X ਦਾ ਮਤਲਬ: ਖਾਲੀ।';
 
   @override
   String get tutorialL1Column =>
-      'ਇਹ ਕਾਲਮ ਵੀ 5 ਕਹਿੰਦਾ ਹੈ: ਉੱਪਰ ਤੋਂ ਹੇਠਾਂ ਖਿਸਕਾਓ।';
+      'ਉੱਪਰਲੇ ਅੰਕ ਕਾਲਮਾਂ ਲਈ ਹਨ। ਇਹ ਕਾਲਮ [5] ਹੈ: ਉੱਪਰ ਤੋਂ ਹੇਠਾਂ ਖਿਸਕਾਓ।';
 
   @override
-  String get tutorialL1Finish =>
-      'ਜਦੋਂ ਕੋਈ ਕਤਾਰ ਜਾਂ ਕਾਲਮ ਪੂਰਾ ਹੋ ਜਾਂਦਾ ਹੈ, ਉਸ ਦੇ ਬਾਕੀ ਖਾਨਿਆਂ ਉੱਤੇ ਆਪਣੇ-ਆਪ X ਲੱਗ ਜਾਂਦਾ ਹੈ। ਬਾਕੀ ਤਸਵੀਰ ਆਪ ਪੂਰੀ ਕਰੋ!';
+  String get tutorialL1Count =>
+      'ਇਸ ਕਤਾਰ ਨੂੰ [3] ਖਾਨੇ ਚਾਹੀਦੇ ਹਨ। X ਵਾਲੇ ਖਾਨੇ ਖਾਲੀ ਹਨ, ਤਾਂ ਠੀਕ 3 ਖਾਨੇ ਬਚੇ ਹਨ। ਸਾਰੇ ਭਰ ਦਿਓ!';
+
+  @override
+  String get tutorialL1Finish => 'ਆਖਰੀ ਕਤਾਰ ਆਪ ਪੂਰੀ ਕਰੋ ਅਤੇ ਤਸਵੀਰ ਸਾਹਮਣੇ ਲਿਆਓ!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: ਦੋ ਵੱਖਰੇ ਸਮੂਹ। 2 ਭਰੇ, ਘੱਟੋ-ਘੱਟ 1 ਖਾਲੀ, ਫਿਰ 2 ਭਰੇ। 2 + 1 + 2 = 5: ਬਿਲਕੁਲ ਫਿੱਟ!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 ਦਾ ਮਤਲਬ ਹੈ 2 ਭਰੇ ਖਾਨੇ, ਘੱਟੋ-ਘੱਟ ਇੱਕ ਖਾਲੀ ਥਾਂ, ਫਿਰ 2 ਹੋਰ ਭਰੇ ਖਾਨੇ। 2 + ਥਾਂ + 2 = 5, ਇਸ ਲਈ ਕਤਾਰ ਪੱਕੀ ਹੈ! X ਲਾਉਣ ਲਈ ਖਾਲੀ ਖਾਨੇ ਉੱਤੇ ਡਬਲ ਟੈਪ ਕਰੋ।';
+      'ਯਾਨੀ ਵਿਚਕਾਰਲਾ ਖਾਨਾ ਖਾਲੀ ਹੈ। ਉਸ ਉੱਤੇ ਡਬਲ ਟੈਪ ਕਰਕੇ X ਲਗਾਓ।';
 
   @override
   String get tutorialL2Drag =>
-      'ਖਿਸਕਾਉਣ ਵੇਲੇ ਤੁਹਾਡੇ X ਵਾਲੇ ਖਾਨੇ ਛੱਡ ਦਿੱਤੇ ਜਾਂਦੇ ਹਨ। ਪੂਰੀ ਕਤਾਰ ਉੱਤੇ ਖਿਸਕਾ ਕੇ ਇਸ ਨੂੰ ਭਰੋ।';
+      'X ਸਿਰਫ਼ ਇੱਕ ਨੋਟ ਹੈ, ਇਸ ਦੀ ਕੋਈ ਕੀਮਤ ਨਹੀਂ। ਹੁਣ ਕਤਾਰ ਉੱਤੇ ਖਿਸਕਾਓ: X ਵਾਲਾ ਖਾਨਾ ਛੱਡ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ।';
 
   @override
-  String get tutorialL2Rules =>
-      'ਗ਼ਲਤ ਖਾਨਾ ਭਰਨ ਨਾਲ 1 ਜਾਨ ਜਾਂਦੀ ਹੈ; X ਨਿਸ਼ਾਨ ਮੁਫ਼ਤ ਹਨ। ਜੇ ਅਟਕ ਜਾਓ, ਤਾਂ ਸੰਕੇਤ ਬਟਨ ਕਾਰਨ ਵੀ ਸਮਝਾਉਂਦਾ ਹੈ। ਬਾਕੀ ਤੁਹਾਡੇ ਹੱਥ!';
+  String get tutorialL2CrossSelf =>
+      'ਹੇਠਲੀ ਕਤਾਰ ਵੀ [2 2] ਹੈ। ਤੁਹਾਡੀ ਵਾਰੀ: ਪਹਿਲਾਂ ਖਾਲੀ ਖਾਨੇ ਉੱਤੇ X ਲਗਾਓ।';
+
+  @override
+  String get tutorialL2DragSelf => 'ਹੁਣ ਖਿਸਕਾ ਕੇ ਕਤਾਰ ਭਰੋ।';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'ਧਿਆਨ ਦਿਓ: ਗਲਤ ਖਾਨਾ ਭਰਨ ਨਾਲ ਉਹ ਲਾਲ X ਬਣ ਜਾਂਦਾ ਹੈ ਅਤੇ ਇੱਕ ਦਿਲ ਜਾਂਦਾ ਹੈ। ਪੱਕਾ ਨਹੀਂ? ਪਹਿਲਾਂ X ਲਗਾਓ!';
+
+  @override
+  String get tutorialL2Finish =>
+      'ਬਾਕੀ ਤੁਹਾਡਾ! ਅਟਕ ਗਏ? ਗਿਣੋ ਕਿ ਕਿਸੇ ਲਕੀਰ ਵਿੱਚ ਅਜੇ ਕਿੰਨੇ ਖਾਨੇ ਬਾਕੀ ਹਨ।';
+
+  @override
+  String get tutorialL3Overlap =>
+      'ਇਹ ਕਾਲਮ [4] ਹੈ ਅਤੇ ਥਾਂ 5 ਖਾਨਿਆਂ ਦੀ। 4 ਦਾ ਬਲਾਕ ਜਾਂ ਤਾਂ ਸਭ ਤੋਂ ਉੱਪਰ ਹੈ ਜਾਂ ਸਭ ਤੋਂ ਹੇਠਾਂ। ਦੋਹਾਂ ਵਿੱਚ ਵਿਚਕਾਰਲੇ 3 ਭਰੇ ਹਨ!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'ਇਹ ਪੱਕੇ ਖਾਨੇ ਭਰੋ। ਇਸ ਜੁਗਤ ਦਾ ਨਾਂ ਓਵਰਲੈਪ ਹੈ: ਵੱਡੀਆਂ ਬੁਝਾਰਤਾਂ ਦਾ ਰਾਜ਼!';
+
+  @override
+  String get tutorialL3OverlapSelf => 'ਇਹ ਕਾਲਮ ਵੀ [4] ਹੈ। ਪੱਕੇ ਖਾਨੇ ਆਪ ਲੱਭੋ!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'ਅਤੇ [3]? ਖੱਬੇ ਹੋਵੇ ਜਾਂ ਸੱਜੇ, ਵਿਚਕਾਰਲਾ ਖਾਨਾ ਹਮੇਸ਼ਾ ਭਰਿਆ ਹੁੰਦਾ ਹੈ। ਉਸ ਨੂੰ ਭਰੋ!';
+
+  @override
+  String get tutorialL3Finish =>
+      'ਸ਼ਾਨਦਾਰ! ਇਹ ਜੁਗਤ ਵੱਡੀਆਂ ਬੁਝਾਰਤਾਂ ਵਿੱਚ ਬਹੁਤ ਕੰਮ ਆਵੇਗੀ। ਹੁਣ ਤਸਵੀਰ ਪੂਰੀ ਕਰੋ!';
+
+  @override
+  String get tutorialL4Ones =>
+      'ਉੱਪਰਲੀਆਂ ਦੋ ਕਤਾਰਾਂ [1 1 1] ਹਨ: ਤਿੰਨ ਇਕੱਲੇ ਖਾਨੇ, ਵਿਚਕਾਰ ਖਾਲੀ ਥਾਂ। 1 + 1 + 1 + 1 + 1 = 5: ਬਿਲਕੁਲ ਫਿੱਟ!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'ਇਹ ਦੋ ਖਾਨੇ ਖਾਲੀ ਹਨ। ਡਬਲ ਟੈਪ ਕਰੋ, ਦੂਜੇ ਟੈਪ ਉੱਤੇ ਉਂਗਲ ਦਬਾਈ ਰੱਖੋ ਅਤੇ ਹੇਠਾਂ ਖਿਸਕਾਓ: X ਦੀ ਲਕੀਰ!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'ਤੁਹਾਡੀ ਵਾਰੀ: ਇਸ ਕਾਲਮ ਦੇ ਦੋ ਖਾਲੀ ਖਾਨਿਆਂ ਉੱਤੇ X ਬਣਾਓ।';
+
+  @override
+  String get tutorialL4Erase =>
+      'ਗਲਤ X ਲੱਗ ਗਿਆ? ਉਸ ਉੱਤੇ ਫਿਰ ਡਬਲ ਟੈਪ ਕਰੋ, ਹਟ ਜਾਵੇਗਾ। X ਤੋਂ ਡਬਲ ਟੈਪ ਕਰਕੇ ਖਿਸਕਾਓ ਤਾਂ ਰਾਹ ਦੇ X ਮਿਟ ਜਾਂਦੇ ਹਨ।';
+
+  @override
+  String get tutorialL4Finish => 'ਬਹੁਤ ਵਧੀਆ! ਹੁਣ ਤਸਵੀਰ ਪੂਰੀ ਕਰੋ।';
+
+  @override
+  String get tutorialL5Sum =>
+      'ਆਖਰੀ ਪਾਠ! ਇਹ ਕਾਲਮ [3 1] ਹੈ: 3 + 1 + 1 = 5, ਯਾਨੀ ਪੱਕਾ ਹੈ। ਆਪ ਹੱਲ ਕਰੋ!';
+
+  @override
+  String get tutorialL5Hint =>
+      'ਅਟਕ ਗਏ? ਸੰਕੇਤ ਦਬਾਓ: ਇਹ ਅਗਲਾ ਕਦਮ ਅਤੇ ਉਸ ਦਾ ਕਾਰਨ ਦਿਖਾਉਂਦਾ ਹੈ।';
+
+  @override
+  String get tutorialL5Finish =>
+      'ਤੁਸੀਂ ਤਿਆਰ ਹੋ! ਵੱਡੇ ਗਰਿੱਡ ਵਿੱਚ ਮੋਟੀਆਂ ਲਕੀਰਾਂ ਹਰ 5 ਖਾਨਿਆਂ ਨੂੰ ਵੱਖ ਕਰਦੀਆਂ ਹਨ ਤਾਂ ਜੋ ਗਿਣਨਾ ਆਸਾਨ ਹੋਵੇ। ਤਸਵੀਰ ਪੂਰੀ ਕਰੋ!';
 }

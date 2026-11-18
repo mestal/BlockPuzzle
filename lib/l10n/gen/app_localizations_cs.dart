@@ -275,29 +275,132 @@ class AppLocalizationsCs extends AppLocalizations {
   String get tutorialGotIt => 'Rozumím';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Lekce $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Jdeme na to!';
+
+  @override
+  String get tutorialSkipTitle => 'Přeskočit výuku?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Přeskočit jen lekci této úrovně, nebo celou výuku?';
+
+  @override
+  String get tutorialSkipLevel => 'Jen tuto úroveň';
+
+  @override
+  String get tutorialSkipAll => 'Přeskočit vše';
+
+  @override
+  String get tutorialWelcome =>
+      'Ahoj! V každé hádance je ukrytý obrázek. Čti čísla, vyplňuj správná políčka a odhal ho!';
+
+  @override
   String get tutorialL1Fill =>
-      'Čísla udávají, kolik políček v řádku je vyplněných. Tento řádek říká 5, takže všech 5 políček je vyplněných! Klepnutím políčko vyplníš.';
+      '[5]: tento řádek má 5 vyplněných políček. Řádek má 5 políček, takže jsou vyplněná všechna! Klepni na jedno.';
 
   @override
   String get tutorialL1Drag =>
-      'Výborně! Teď podrž prst a táhni, abys vyplnil zbytek řádku.';
+      'Super! Teď táhni bez zvednutí prstu a vyplň zbytek řádku.';
 
   @override
-  String get tutorialL1Column => 'Tento sloupec říká také 5: táhni shora dolů.';
+  String get tutorialL1Row =>
+      'I tento řádek je [5]. Tentokrát táhni od kraje ke kraji jedním tahem.';
 
   @override
-  String get tutorialL1Finish =>
-      'Když je řádek nebo sloupec hotový, ostatní políčka dostanou X sama. Zbytek obrázku dokonči sám!';
+  String get tutorialL1AutoCross =>
+      'Obě [2] políčka sloupce jsou nalezena, takže zbytek dostal X sám. X znamená: prázdné.';
+
+  @override
+  String get tutorialL1Column =>
+      'Čísla nahoře patří sloupcům. Tento sloupec je [5]: táhni shora dolů.';
+
+  @override
+  String get tutorialL1Count =>
+      'Tento řádek potřebuje [3] políčka. Políčka s X jsou prázdná, takže zbývají přesně 3. Vyplň je všechna!';
+
+  @override
+  String get tutorialL1Finish => 'Dokonči poslední řádek sám a odhal obrázek!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: dvě oddělené skupiny. 2 vyplněná, aspoň 1 prázdné, pak 2 vyplněná. 2 + 1 + 2 = 5: sedí přesně!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 znamená 2 vyplněná políčka, aspoň jednu mezeru a pak další 2 vyplněná políčka. 2 + mezera + 2 = 5, takže řádek je jistý! Dvakrát klepni na prázdné políčko a dej X.';
+      'Prostřední políčko je tedy prázdné. Dvojím klepnutím na něj dej X.';
 
   @override
   String get tutorialL2Drag =>
-      'Políčka s tvým X se při tažení přeskakují. Táhni po celém řádku a vyplň ho.';
+      'X je jen poznámka a nic nestojí. Teď táhni přes řádek: políčko s X se přeskočí.';
 
   @override
-  String get tutorialL2Rules =>
-      'Vyplnění špatného políčka stojí 1 život; značky X jsou zdarma. Když se zasekneš, tlačítko Nápověda ti vysvětlí i proč. Zbytek je na tobě!';
+  String get tutorialL2CrossSelf =>
+      'Řádek pod ním je taky [2 2]. Jsi na řadě: nejdřív dej X na prázdné políčko.';
+
+  @override
+  String get tutorialL2DragSelf => 'Teď táhni a vyplň řádek.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Pozor: vyplnění špatného políčka z něj udělá červené X a stojí srdíčko. Nejsi si jistý? Dej nejdřív X!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Zbytek je na tobě! Zasekl ses? Spočítej, kolik políček ještě linii chybí.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Tento sloupec je [4] a místa je na 5. Blok 4 políček je buď úplně nahoře, nebo úplně dole. Tak či tak jsou prostřední 3 vyplněná!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Vyplň tato jistá políčka. Ten trik se jmenuje překryv: tajemství velkých hádanek!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'I tento sloupec je [4]. Najdi jistá políčka sám!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'A [3]? Ať je posunutý doleva, nebo doprava, prostřední políčko je vždy vyplněné. Vyplň ho!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Skvělé! Tenhle trik ve velkých hádankách často využiješ. Teď dokonči obrázek!';
+
+  @override
+  String get tutorialL4Ones =>
+      'Horní dva řádky jsou [1 1 1]: tři samostatná políčka s mezerami. 1 + 1 + 1 + 1 + 1 = 5: sedí přesně!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Tato dvě políčka jsou prázdná. Klepni dvakrát, při druhém klepnutí nech prst dole a táhni dolů: čára z X!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Jsi na řadě: nakresli X na dvě prázdná políčka tohoto sloupce.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Špatné X? Klepni na něj znovu dvakrát a zmizí. Tah dvojím klepnutím začatý na X maže X po cestě.';
+
+  @override
+  String get tutorialL4Finish => 'Super! Teď dokonči obrázek.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Poslední lekce! Tento sloupec je [3 1]: 3 + 1 + 1 = 5, takže je jistý. Vyřeš ho sám!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Zasekl ses? Stiskni Nápověda: ukáže další krok a vysvětlí proč.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Jsi připraven! Ve velkých mřížkách dělí silné čáry políčka po 5, takže se snadno počítá. Dokonči obrázek!';
 }

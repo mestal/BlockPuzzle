@@ -272,30 +272,133 @@ class AppLocalizationsSw extends AppLocalizations {
   String get tutorialGotIt => 'Nimeelewa';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Somo $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Twende!';
+
+  @override
+  String get tutorialSkipTitle => 'Ruka mafunzo?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Ruka somo la kiwango hiki tu, au mafunzo yote?';
+
+  @override
+  String get tutorialSkipLevel => 'Kiwango hiki tu';
+
+  @override
+  String get tutorialSkipAll => 'Ruka yote';
+
+  @override
+  String get tutorialWelcome =>
+      'Habari! Kila fumbo lina picha iliyofichwa. Soma namba, jaza visanduku sahihi na uifichue!';
+
+  @override
   String get tutorialL1Fill =>
-      'Namba zinaonyesha visanduku vingapi katika safu hiyo vimejazwa. Safu hii inasema 5, kwa hiyo visanduku vyote 5 vimejazwa! Gusa kisanduku ili kukijaza.';
+      '[5]: safu hii ina visanduku 5 vilivyojazwa. Safu ina visanduku 5, kwa hiyo vyote vimejazwa! Gusa kimoja.';
 
   @override
   String get tutorialL1Drag =>
-      'Vizuri! Sasa shikilia kidole chako na telezesha ili kujaza sehemu iliyobaki ya safu.';
+      'Safi! Sasa telezesha bila kuinua kidole ujaze safu iliyobaki.';
+
+  @override
+  String get tutorialL1Row =>
+      'Safu hii pia ni [5]. Safari hii telezesha kutoka mwisho hadi mwisho kwa mara moja.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Visanduku [2] vya safu wima hii vimepatikana, kwa hiyo vingine vimepata X vyenyewe. X maana yake: tupu.';
 
   @override
   String get tutorialL1Column =>
-      'Safu wima hii pia inasema 5: telezesha kutoka juu hadi chini.';
+      'Namba za juu ni za safu wima. Safu wima hii ni [5]: telezesha kutoka juu hadi chini.';
+
+  @override
+  String get tutorialL1Count =>
+      'Safu hii inahitaji visanduku [3]. Vya X ni vitupu, kwa hiyo vimebaki 3 kamili. Vijaze vyote!';
 
   @override
   String get tutorialL1Finish =>
-      'Safu ikikamilika, visanduku vyake vingine hupata X vyenyewe. Malizia picha iliyobaki mwenyewe!';
+      'Maliza safu ya mwisho mwenyewe na ufichue picha!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: makundi mawili tofauti. 2 vimejazwa, angalau 1 kitupu, kisha 2 vimejazwa. 2 + 1 + 2 = 5: inatosha kabisa!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 inamaanisha visanduku 2 vilivyojazwa, angalau nafasi moja, kisha visanduku 2 zaidi vilivyojazwa. 2 + nafasi + 2 = 5, kwa hiyo safu ni ya uhakika! Gusa mara mbili kisanduku kitupu ili kuweka X.';
+      'Kwa hiyo kisanduku cha katikati ni kitupu. Kiguse mara mbili kuweka X.';
 
   @override
   String get tutorialL2Drag =>
-      'Visanduku vyenye X yako vinarukwa unapotelezesha. Telezesha safu nzima ili kuijaza.';
+      'X ni dokezo tu; haigharimu chochote. Sasa telezesha kwenye safu: kisanduku chenye X kinarukwa.';
 
   @override
-  String get tutorialL2Rules =>
-      'Kujaza kisanduku kisicho sahihi kunagharimu maisha 1; alama za X ni bure. Ukikwama, kitufe cha Kidokezo pia kinaeleza sababu. Mengine ni juu yako!';
+  String get tutorialL2CrossSelf =>
+      'Safu ya chini pia ni [2 2]. Zamu yako: weka X kwenye kisanduku kitupu kwanza.';
+
+  @override
+  String get tutorialL2DragSelf => 'Sasa telezesha ujaze safu.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Tahadhari: ukijaza kisanduku kisicho sahihi kinakuwa X nyekundu na unapoteza moyo mmoja. Huna uhakika? Weka X kwanza!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Yaliyobaki ni yako! Umekwama? Hesabu mstari bado unahitaji visanduku vingapi.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Safu wima hii ni [4], nafasi ni 5. Kipande cha 4 kiko juu kabisa au chini kabisa. Vyovyote vile, 3 vya katikati vimejazwa!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Jaza visanduku hivyo vya uhakika. Mbinu hii inaitwa mwingiliano: siri ya mafumbo makubwa!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Safu wima hii pia ni [4]. Tafuta visanduku vya uhakika mwenyewe!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'Na [3]? Kikisukumwa kushoto au kulia, kisanduku cha katikati hujazwa daima. Kijaze!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Hongera! Utatumia mbinu hii mara nyingi kwenye mafumbo makubwa. Sasa maliza picha!';
+
+  @override
+  String get tutorialL4Ones =>
+      'Safu mbili za juu ni [1 1 1]: visanduku vitatu vya pekee vyenye nafasi kati yake. 1 + 1 + 1 + 1 + 1 = 5: vinatosha kabisa!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Visanduku hivi viwili ni vitupu. Gusa mara mbili, shikilia kidole kwenye mguso wa pili na telezesha chini: mstari wa X!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Zamu yako: chora X kwenye visanduku viwili vitupu vya safu wima hii.';
+
+  @override
+  String get tutorialL4Erase =>
+      'X isiyo sahihi? Iguse mara mbili tena itaondoka. Ukitelezesha kwa mguso wa mara mbili kuanzia kwenye X, unafuta X za njiani.';
+
+  @override
+  String get tutorialL4Finish => 'Safi sana! Sasa kamilisha picha.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Somo la mwisho! Safu wima hii ni [3 1]: 3 + 1 + 1 = 5, kwa hiyo ni ya uhakika. Itatue mwenyewe!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Umekwama? Bonyeza Kidokezo: kinaonyesha hatua inayofuata na sababu yake.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Uko tayari! Kwenye gridi kubwa, mistari minene hutenganisha kila visanduku 5 ili kuhesabu kuwe rahisi. Maliza picha!';
 }

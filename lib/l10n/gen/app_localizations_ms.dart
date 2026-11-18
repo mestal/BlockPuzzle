@@ -271,30 +271,133 @@ class AppLocalizationsMs extends AppLocalizations {
   String get tutorialGotIt => 'Faham';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Pelajaran $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Jom mula!';
+
+  @override
+  String get tutorialSkipTitle => 'Langkau tutorial?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Langkau pelajaran tahap ini sahaja, atau seluruh tutorial?';
+
+  @override
+  String get tutorialSkipLevel => 'Tahap ini sahaja';
+
+  @override
+  String get tutorialSkipAll => 'Langkau semua';
+
+  @override
+  String get tutorialWelcome =>
+      'Hai! Setiap teka-teki menyembunyikan gambar. Baca nombor, isi petak yang betul dan dedahkannya!';
+
+  @override
   String get tutorialL1Fill =>
-      'Nombor menunjukkan berapa petak dalam baris itu yang berisi. Baris ini kata 5, jadi kesemua 5 petak berisi! Ketik petak untuk mengisinya.';
+      '[5]: baris ini ada 5 petak berisi. Baris ini 5 petak panjang, jadi semuanya berisi! Ketik satu.';
 
   @override
   String get tutorialL1Drag =>
-      'Bagus! Sekarang tekan jari anda dan leret untuk mengisi baki baris.';
+      'Hebat! Sekarang leret tanpa mengangkat jari untuk mengisi baki baris.';
+
+  @override
+  String get tutorialL1Row =>
+      'Baris ini juga [5]. Kali ini leret dari hujung ke hujung sekali gus.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Kedua-dua petak [2] lajur ini sudah ditemui, jadi yang lain dapat X dengan sendiri. X bermaksud: kosong.';
 
   @override
   String get tutorialL1Column =>
-      'Lajur ini juga kata 5: leret dari atas ke bawah.';
+      'Nombor di atas untuk lajur. Lajur ini [5]: leret dari atas ke bawah.';
+
+  @override
+  String get tutorialL1Count =>
+      'Baris ini perlukan [3] petak. Petak X kosong, jadi tinggal tepat 3 petak. Isi semuanya!';
 
   @override
   String get tutorialL1Finish =>
-      'Apabila baris atau lajur siap, petak lain di dalamnya mendapat X dengan sendiri. Siapkan baki gambar sendiri!';
+      'Siapkan baris terakhir sendiri dan dedahkan gambarnya!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: dua kumpulan berasingan. 2 berisi, sekurang-kurangnya 1 kosong, kemudian 2 berisi. 2 + 1 + 2 = 5: muat tepat!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 bermaksud 2 petak berisi, sekurang-kurangnya satu ruang, kemudian 2 petak berisi lagi. 2 + ruang + 2 = 5, jadi baris ini pasti! Ketik dua kali pada petak kosong untuk meletakkan X.';
+      'Jadi petak tengah kosong. Ketik dua kali padanya untuk meletakkan X.';
 
   @override
   String get tutorialL2Drag =>
-      'Petak dengan X anda dilangkau semasa meleret. Leret sepanjang baris untuk mengisinya.';
+      'X hanya nota dan tidak menelan kos. Sekarang leret sepanjang baris: petak X dilangkau.';
 
   @override
-  String get tutorialL2Rules =>
-      'Mengisi petak yang salah menyebabkan anda kehilangan 1 nyawa; tanda X percuma. Jika tersekat, butang Petunjuk juga menerangkan sebabnya. Selebihnya terpulang kepada anda!';
+  String get tutorialL2CrossSelf =>
+      'Baris di bawah juga [2 2]. Giliran anda: letakkan X pada petak kosong dahulu.';
+
+  @override
+  String get tutorialL2DragSelf => 'Sekarang leret untuk mengisi baris.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Awas: mengisi petak yang salah menjadikannya X merah dan anda hilang satu hati. Tak pasti? Letakkan X dahulu!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Selebihnya milik anda! Buntu? Kira berapa petak lagi yang diperlukan sesuatu garisan.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Lajur ini [4], dengan ruang untuk 5. Blok 4 itu sama ada paling atas atau paling bawah. Walau apa pun, 3 petak tengah berisi!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Isi petak pasti itu. Helah ini dipanggil pertindihan: rahsia teka-teki besar!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Lajur ini juga [4]. Cari sendiri petak yang pasti!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'Bagaimana dengan [3]? Ditolak ke kiri atau ke kanan, petak tengah sentiasa berisi. Isikannya!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Hebat! Anda akan kerap guna helah ini dalam teka-teki besar. Sekarang siapkan gambar!';
+
+  @override
+  String get tutorialL4Ones =>
+      'Dua baris atas ialah [1 1 1]: tiga petak tunggal dengan jarak di antaranya. 1 + 1 + 1 + 1 + 1 = 5: muat tepat!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Dua petak ini kosong. Ketik dua kali, tahan jari pada ketikan kedua dan leret ke bawah: garisan X!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Giliran anda: lukis X pada dua petak kosong dalam lajur ini.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Tersalah X? Ketik dua kali padanya lagi untuk membuangnya. Leretan ketik dua kali yang bermula pada X memadam X di laluannya.';
+
+  @override
+  String get tutorialL4Finish => 'Bagus! Sekarang lengkapkan gambar.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Pelajaran terakhir! Lajur ini [3 1]: 3 + 1 + 1 = 5, jadi ia pasti. Selesaikannya sendiri!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Buntu? Tekan Petunjuk: ia tunjukkan langkah seterusnya dan sebabnya.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Anda sudah sedia! Pada grid besar, garisan tebal memisahkan setiap 5 petak supaya mudah dikira. Siapkan gambar!';
 }

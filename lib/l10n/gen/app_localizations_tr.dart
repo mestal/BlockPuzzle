@@ -265,29 +265,132 @@ class AppLocalizationsTr extends AppLocalizations {
   String get tutorialGotIt => 'Anladım';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Eğitim $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Başlayalım!';
+
+  @override
+  String get tutorialSkipTitle => 'Eğitimi atla?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Yalnızca bu bölümün eğitimini mi, yoksa tüm eğitimi mi atlamak istersin?';
+
+  @override
+  String get tutorialSkipLevel => 'Yalnızca bu bölüm';
+
+  @override
+  String get tutorialSkipAll => 'Tüm eğitimi atla';
+
+  @override
+  String get tutorialWelcome =>
+      'Merhaba! Her bulmacada gizli bir resim var. Sayılara bakıp doğru kareleri doldur, resmi ortaya çıkar!';
+
+  @override
   String get tutorialL1Fill =>
-      'Sayılar o satırda kaç dolu kare olduğunu söyler. Bu satırda 5 var, yani 5 karenin hepsi dolu! Bir kareye dokunarak doldur.';
+      '[5]: bu satırda 5 dolu kare var. Satır da 5 kare, yani hepsi dolu! Bir kareye dokun.';
 
   @override
   String get tutorialL1Drag =>
-      'Harika! Şimdi parmağını basılı tutup kaydırarak satırın kalanını doldur.';
+      'Süper! Şimdi parmağını kaldırmadan kaydır, satırın kalanını doldur.';
 
   @override
-  String get tutorialL1Column => 'Bu sütunda da 5 var: yukarıdan aşağı kaydır.';
+  String get tutorialL1Row =>
+      'Bu satır da [5]. Bu kez baştan sona tek hamlede kaydır.';
 
   @override
-  String get tutorialL1Finish =>
-      'Bir satır ya da sütun bitince kalan kareleri kendiliğinden X olur. Resmin kalanını kendin tamamla!';
+  String get tutorialL1AutoCross =>
+      'Bu sütundaki [2] kare bulundu, kalanlar kendiliğinden X oldu. X, burası boş demek.';
+
+  @override
+  String get tutorialL1Column =>
+      'Üstteki sayılar sütunlar için. Bu sütun [5]: yukarıdan aşağı kaydır.';
+
+  @override
+  String get tutorialL1Count =>
+      'Bu satıra [3] kare lazım. X\'ler boş; geriye tam 3 kare kaldı. Hepsini doldur!';
+
+  @override
+  String get tutorialL1Finish => 'Son satırı sen bitir ve resmi ortaya çıkar!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: iki ayrı grup. 2 dolu, en az 1 boş, sonra 2 dolu. 2 + 1 + 2 = 5: satıra tam sığar!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2: önce 2 dolu kare, en az bir boşluk, sonra yine 2 dolu kare. 2 + boşluk + 2 = 5, satır tam belli! Boş kalacak kareye çift dokunarak X koy.';
+      'Yani ortadaki kare boş. Ona çift dokunarak X koy.';
 
   @override
   String get tutorialL2Drag =>
-      'X koyduğun kareler kaydırırken atlanır. Satırı baştan sona kaydırarak doldur.';
+      'X bir nottur, hak götürmez. Şimdi satırı baştan sona kaydır; X\'li kare atlanır.';
 
   @override
-  String get tutorialL2Rules =>
-      'Yanlış kareyi doldurursan 1 hak gider; X koymak ise serbest. Takılırsan İpucu düğmesi nedenini de anlatır. Gerisi sende!';
+  String get tutorialL2CrossSelf =>
+      'Alttaki satır da [2 2]. Sıra sende: önce boş kareye X koy.';
+
+  @override
+  String get tutorialL2DragSelf => 'Şimdi satırı kaydırarak doldur.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Dikkat: yanlış kareyi doldurursan kırmızı X olur ve bir kalp gider. Emin değilsen önce X koy!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Gerisi sende! Takılınca bir çizgide kaç kare kaldığını say.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Bu sütun [4], yer 5 kare. 4\'lük blok ya en üstte ya en altta durur. İki durumda da ortadaki 3 kare dolu!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Bu kesin kareleri doldur. Bu numaranın adı örtüşme: büyük bulmacaların sırrı!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Bu sütun da [4]. Kesin dolu kareleri sen bul!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'Peki [3]? Sola da yaslansa sağa da, ortadaki kare hep dolu. Onu doldur!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Harika! Bu numarayı büyük bulmacalarda çok kullanacaksın. Şimdi resmi bitir!';
+
+  @override
+  String get tutorialL4Ones =>
+      'Üstteki iki satır [1 1 1]: üç tek kare, aralarında boşluk. 1 + 1 + 1 + 1 + 1 = 5: yerleri belli!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Bu iki kare boş. Çift dokun, ikinci dokunuşta parmağını kaldırmadan aşağı kaydır: X çizgisi!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Şimdi sen: bu sütundaki iki boş kareye X çiz.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Yanlış X mi koydun? X\'e yine çift dokun, silinir. X\'ten başlayıp kaydırırsan geçtiğin X\'ler silinir.';
+
+  @override
+  String get tutorialL4Finish => 'Süper! Şimdi resmi tamamla.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Son ders! Bu sütun [3 1]: 3 + 1 + 1 = 5, yerleri belli. Kendin çöz!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Takılırsan İpucu\'na bas: bir sonraki adımı ve nedenini gösterir.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Artık hazırsın! Büyük ızgaralarda kalın çizgiler 5\'er kareyi ayırır. Resmi bitir!';
 }

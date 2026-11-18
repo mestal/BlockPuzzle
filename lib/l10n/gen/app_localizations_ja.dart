@@ -261,26 +261,117 @@ class AppLocalizationsJa extends AppLocalizations {
   String get tutorialGotIt => 'わかった';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'レッスン $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'はじめよう！';
+
+  @override
+  String get tutorialSkipTitle => 'チュートリアルをスキップ？';
+
+  @override
+  String get tutorialSkipBody => 'このレベルのレッスンだけスキップする？それともチュートリアル全部？';
+
+  @override
+  String get tutorialSkipLevel => 'このレベルだけ';
+
+  @override
+  String get tutorialSkipAll => '全部スキップ';
+
+  @override
+  String get tutorialWelcome => 'こんにちは！どのパズルにも絵が隠れているよ。数字を読んで正しいマスを塗り、絵を見つけよう！';
+
+  @override
   String get tutorialL1Fill =>
-      '数字はその行で塗られるマスの数です。この行は 5 なので、5 マスすべて塗ります！マスをタップして塗りましょう。';
+      '[5]：この行には塗るマスが 5 つ。行も 5 マスだから、全部塗るよ！どれか 1 マスをタップしよう。';
 
   @override
-  String get tutorialL1Drag => 'すごい！次は指を押したままスライドして、行の残りを塗りましょう。';
+  String get tutorialL1Drag => 'いいね！今度は指を離さずにスライドして、行の残りを塗ろう。';
 
   @override
-  String get tutorialL1Column => 'この列も 5 です。上から下へスライドしましょう。';
+  String get tutorialL1Row => 'この行も [5]。今度は端から端まで一気にスライドしよう。';
 
   @override
-  String get tutorialL1Finish => '行や列が完成すると、残りのマスには自動で X が付きます。残りは自分で完成させよう！';
+  String get tutorialL1AutoCross =>
+      'この列の [2] マスが見つかったので、残りには自動で X が付いたよ。X は「空き」の印。';
 
   @override
-  String get tutorialL2Cross =>
-      '2 2 は、2 マス塗り、1 マス以上あけて、また 2 マス塗るという意味です。2 + すき間 + 2 = 5 なので、この行は確定！空くマスをダブルタップして X を付けよう。';
+  String get tutorialL1Column => '上の数字は列のヒント。この列は [5]：上から下へスライドしよう。';
 
   @override
-  String get tutorialL2Drag => 'X を付けたマスはスライドしても飛ばされます。行全体をスライドして塗りましょう。';
+  String get tutorialL1Count =>
+      'この行には [3] マス必要。X のマスは空きだから、残りはちょうど 3 マス。全部塗ろう！';
 
   @override
-  String get tutorialL2Rules =>
-      'まちがったマスを塗るとライフが 1 減ります。X はいくつ付けても OK。困ったらヒントボタンが理由も教えてくれます。あとは任せた！';
+  String get tutorialL1Finish => '最後の行は自分で塗って、絵を完成させよう！';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]：2 つの別々のかたまり。2 マス塗り、1 マス以上あけて、また 2 マス。2 + 1 + 2 = 5：ぴったり！';
+
+  @override
+  String get tutorialL2Cross => 'つまり真ん中のマスは空き。ダブルタップして X を付けよう。';
+
+  @override
+  String get tutorialL2Drag => 'X はただのメモで、何も減らないよ。行をスライドしよう：X のマスは飛ばされるよ。';
+
+  @override
+  String get tutorialL2CrossSelf => '下の行も [2 2]。きみの番：まず空きマスに X を付けよう。';
+
+  @override
+  String get tutorialL2DragSelf => '今度はスライドして行を塗ろう。';
+
+  @override
+  String get tutorialL2Mistakes =>
+      '注意：まちがったマスを塗ると赤い X になって、ハートが 1 つ減るよ。迷ったら先に X！';
+
+  @override
+  String get tutorialL2Finish => 'あとはきみの番！困ったら、その線にあと何マス必要か数えてみよう。';
+
+  @override
+  String get tutorialL3Overlap =>
+      'この列は [4] で、場所は 5 マス。4 マスのかたまりは一番上か一番下。どちらでも真ん中の 3 マスは塗られる！';
+
+  @override
+  String get tutorialL3OverlapFill => 'この確定マスを塗ろう。この技は「重なり」：大きなパズルの秘密だよ！';
+
+  @override
+  String get tutorialL3OverlapSelf => 'この列も [4]。確定マスを自分で見つけよう！';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'じゃあ [3] は？左に寄せても右に寄せても、真ん中のマスはいつも塗られる。塗ろう！';
+
+  @override
+  String get tutorialL3Finish => 'すごい！この技は大きなパズルでよく使うよ。さあ、絵を完成させよう！';
+
+  @override
+  String get tutorialL4Ones =>
+      '上の 2 行は [1 1 1]：すき間をあけて 1 マスずつ 3 つ。1 + 1 + 1 + 1 + 1 = 5：ぴったり！';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'この 2 マスは空き。ダブルタップして、2 回目で指を離さず下へスライド：X の線が引けるよ！';
+
+  @override
+  String get tutorialL4CrossDragSelf => 'きみの番：この列の空きマス 2 つに X を引こう。';
+
+  @override
+  String get tutorialL4Erase =>
+      'X をまちがえた？もう一度ダブルタップすると消えるよ。X からダブルタップでスライドすると、通った X が消えるよ。';
+
+  @override
+  String get tutorialL4Finish => 'ばっちり！絵を完成させよう。';
+
+  @override
+  String get tutorialL5Sum => '最後のレッスン！この列は [3 1]：3 + 1 + 1 = 5 だから確定。自分で解こう！';
+
+  @override
+  String get tutorialL5Hint => '困ったらヒントを押そう：次の一手と、その理由を教えてくれるよ。';
+
+  @override
+  String get tutorialL5Finish =>
+      'もう準備ばっちり！大きな盤面では太い線が 5 マスごとに区切るから数えやすいよ。絵を完成させよう！';
 }

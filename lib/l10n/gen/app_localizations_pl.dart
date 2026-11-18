@@ -274,29 +274,132 @@ class AppLocalizationsPl extends AppLocalizations {
   String get tutorialGotIt => 'Rozumiem';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Lekcja $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Zaczynamy!';
+
+  @override
+  String get tutorialSkipTitle => 'Pominąć samouczek?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Pominąć tylko lekcję tego poziomu czy cały samouczek?';
+
+  @override
+  String get tutorialSkipLevel => 'Tylko ten poziom';
+
+  @override
+  String get tutorialSkipAll => 'Pomiń wszystko';
+
+  @override
+  String get tutorialWelcome =>
+      'Cześć! W każdej łamigłówce ukryty jest obrazek. Czytaj liczby, wypełniaj właściwe pola i odkryj go!';
+
+  @override
   String get tutorialL1Fill =>
-      'Liczby mówią, ile pól w danym wierszu jest wypełnionych. Ten wiersz ma 5, więc wszystkie 5 pól jest wypełnionych! Dotknij pola, aby je wypełnić.';
+      '[5]: w tym wierszu jest 5 wypełnionych pól. Wiersz ma 5 pól, więc wszystkie są wypełnione! Dotknij jednego.';
 
   @override
   String get tutorialL1Drag =>
-      'Świetnie! Teraz przytrzymaj palec i przesuń, aby wypełnić resztę wiersza.';
+      'Super! Teraz przesuń palec, nie odrywając go, i wypełnij resztę wiersza.';
 
   @override
-  String get tutorialL1Column => 'Ta kolumna też ma 5: przesuń z góry na dół.';
+  String get tutorialL1Row =>
+      'Ten wiersz też ma [5]. Tym razem przesuń od końca do końca jednym ruchem.';
 
   @override
-  String get tutorialL1Finish =>
-      'Gdy wiersz lub kolumna jest gotowa, pozostałe pola same dostają X. Dokończ resztę obrazka samodzielnie!';
+  String get tutorialL1AutoCross =>
+      'Znaleziono [2] pola tej kolumny, więc reszta sama dostała X. X oznacza: puste.';
+
+  @override
+  String get tutorialL1Column =>
+      'Liczby u góry dotyczą kolumn. Ta kolumna ma [5]: przesuń z góry na dół.';
+
+  @override
+  String get tutorialL1Count =>
+      'Ten wiersz potrzebuje [3] pól. Pola z X są puste, więc zostały dokładnie 3. Wypełnij je wszystkie!';
+
+  @override
+  String get tutorialL1Finish => 'Dokończ sam ostatni wiersz i odkryj obrazek!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: dwie osobne grupy. 2 pełne, co najmniej 1 puste, potem 2 pełne. 2 + 1 + 2 = 5: pasuje idealnie!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 oznacza 2 wypełnione pola, co najmniej jedną przerwę, a potem jeszcze 2 wypełnione pola. 2 + przerwa + 2 = 5, więc wiersz jest pewny! Dotknij dwukrotnie puste pole, aby postawić X.';
+      'Czyli środkowe pole jest puste. Dotknij go dwa razy, aby postawić X.';
 
   @override
   String get tutorialL2Drag =>
-      'Pola z twoim X są pomijane przy przesuwaniu. Przesuń wzdłuż całego wiersza, aby go wypełnić.';
+      'X to tylko notatka i nic nie kosztuje. Teraz przesuń wzdłuż wiersza: X zostanie pominięty.';
 
   @override
-  String get tutorialL2Rules =>
-      'Wypełnienie złego pola kosztuje 1 życie; znaki X są darmowe. Jeśli utkniesz, przycisk Podpowiedź wyjaśni też dlaczego. Reszta należy do ciebie!';
+  String get tutorialL2CrossSelf =>
+      'Wiersz poniżej też ma [2 2]. Twoja kolej: najpierw postaw X na pustym polu.';
+
+  @override
+  String get tutorialL2DragSelf => 'Teraz przesuń, aby wypełnić wiersz.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Uwaga: wypełnienie złego pola zmienia je w czerwony X i kosztuje serce. Nie masz pewności? Najpierw postaw X!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Reszta należy do ciebie! Utknąłeś? Policz, ilu pól brakuje w danej linii.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Ta kolumna ma [4], a miejsca jest na 5. Blok 4 pól stoi na samej górze albo na samym dole. Tak czy inaczej środkowe 3 są pełne!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Wypełnij te pewne pola. Ta sztuczka to nakładanie: sekret dużych łamigłówek!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Ta kolumna też ma [4]. Znajdź pewne pola sam!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'A [3]? Przesunięty w lewo czy w prawo, środkowe pole zawsze jest pełne. Wypełnij je!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Świetnie! Ta sztuczka przyda się często w dużych łamigłówkach. Teraz dokończ obrazek!';
+
+  @override
+  String get tutorialL4Ones =>
+      'Dwa górne wiersze to [1 1 1]: trzy pojedyncze pola z przerwami. 1 + 1 + 1 + 1 + 1 = 5: pasują idealnie!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Te dwa pola są puste. Dotknij dwa razy, przy drugim dotknięciu przytrzymaj palec i przesuń w dół: linia X!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Twoja kolej: narysuj X na dwóch pustych polach tej kolumny.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Zły X? Dotknij go znów dwa razy, aby go usunąć. Przesunięcie z podwójnym dotknięciem od X usuwa X na drodze.';
+
+  @override
+  String get tutorialL4Finish => 'Super! Teraz dokończ obrazek.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Ostatnia lekcja! Ta kolumna to [3 1]: 3 + 1 + 1 = 5, więc jest pewna. Rozwiąż ją sam!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Utknąłeś? Naciśnij Podpowiedź: pokaże następny krok i wyjaśni dlaczego.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Jesteś gotowy! Na dużych planszach grube linie dzielą pola co 5, co ułatwia liczenie. Dokończ obrazek!';
 }

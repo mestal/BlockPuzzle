@@ -272,30 +272,131 @@ class AppLocalizationsUr extends AppLocalizations {
   String get tutorialGotIt => 'سمجھ گیا';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'سبق $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'چلیں شروع کریں!';
+
+  @override
+  String get tutorialSkipTitle => 'تربیت چھوڑ دیں؟';
+
+  @override
+  String get tutorialSkipBody => 'صرف اس مرحلے کا سبق چھوڑیں یا پوری تربیت؟';
+
+  @override
+  String get tutorialSkipLevel => 'صرف یہ مرحلہ';
+
+  @override
+  String get tutorialSkipAll => 'سب چھوڑ دیں';
+
+  @override
+  String get tutorialWelcome =>
+      'السلام علیکم! ہر پہیلی میں ایک تصویر چھپی ہے۔ نمبر پڑھیں، صحیح خانے بھریں اور اسے ظاہر کریں!';
+
+  @override
   String get tutorialL1Fill =>
-      'نمبر بتاتے ہیں کہ اس قطار میں کتنے خانے بھرے ہیں۔ یہ قطار 5 کہتی ہے، تو پانچوں خانے بھرے ہیں! خانہ بھرنے کے لیے اس پر ٹیپ کریں۔';
+      '[5]: اس قطار میں 5 بھرے خانے ہیں۔ قطار بھی 5 خانوں کی ہے، یعنی سب بھرے ہیں! کسی ایک پر ٹیپ کریں۔';
 
   @override
   String get tutorialL1Drag =>
-      'شاباش! اب انگلی دبا کر رکھیں اور کھسکا کر باقی قطار بھریں۔';
+      'زبردست! اب انگلی اٹھائے بغیر کھسکائیں اور باقی قطار بھر دیں۔';
+
+  @override
+  String get tutorialL1Row =>
+      'یہ قطار بھی [5] ہے۔ اس بار ایک ہی بار میں ایک سرے سے دوسرے سرے تک کھسکائیں۔';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'اس کالم کے [2] خانے مل گئے، اس لیے باقی پر خود بخود X لگ گیا۔ X کا مطلب ہے: خالی۔';
 
   @override
   String get tutorialL1Column =>
-      'یہ کالم بھی 5 کہتا ہے: اوپر سے نیچے کی طرف کھسکائیں۔';
+      'اوپر والے نمبر کالموں کے لیے ہیں۔ یہ کالم [5] ہے: اوپر سے نیچے کھسکائیں۔';
 
   @override
-  String get tutorialL1Finish =>
-      'جب کوئی قطار یا کالم مکمل ہو جائے تو اس کے باقی خانوں پر خود بخود X لگ جاتا ہے۔ باقی تصویر خود مکمل کریں!';
+  String get tutorialL1Count =>
+      'اس قطار کو [3] خانے چاہییں۔ X والے خانے خالی ہیں، تو ٹھیک 3 خانے بچے ہیں۔ سب بھر دیں!';
+
+  @override
+  String get tutorialL1Finish => 'آخری قطار خود مکمل کریں اور تصویر ظاہر کریں!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: دو الگ گروہ۔ 2 بھرے، کم از کم 1 خالی، پھر 2 بھرے۔ 2 + 1 + 2 = 5: بالکل پورا آتا ہے!';
 
   @override
   String get tutorialL2Cross =>
-      '⁦2 2⁩ کا مطلب ہے 2 بھرے خانے، کم از کم ایک خلا، پھر مزید 2 بھرے خانے۔ ⁦2 + خلا + 2 = 5⁩، اس لیے قطار یقینی ہے! X لگانے کے لیے خالی خانے پر ڈبل ٹیپ کریں۔';
+      'یعنی درمیانی خانہ خالی ہے۔ اس پر ڈبل ٹیپ کر کے X لگائیں۔';
 
   @override
   String get tutorialL2Drag =>
-      'کھسکاتے وقت آپ کے X والے خانے چھوڑ دیے جاتے ہیں۔ پوری قطار پر کھسکا کر اسے بھریں۔';
+      'X صرف ایک نوٹ ہے، اس کی کوئی قیمت نہیں۔ اب قطار پر کھسکائیں: X والا خانہ چھوڑ دیا جاتا ہے۔';
 
   @override
-  String get tutorialL2Rules =>
-      'غلط خانہ بھرنے پر 1 جان جاتی ہے؛ X کے نشان مفت ہیں۔ اگر اٹک جائیں تو اشارہ کا بٹن وجہ بھی بتاتا ہے۔ باقی آپ پر ہے!';
+  String get tutorialL2CrossSelf =>
+      'نیچے والی قطار بھی [2 2] ہے۔ آپ کی باری: پہلے خالی خانے پر X لگائیں۔';
+
+  @override
+  String get tutorialL2DragSelf => 'اب کھسکا کر قطار بھریں۔';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'دھیان دیں: غلط خانہ بھرنے پر وہ سرخ X بن جاتا ہے اور ایک دل جاتا ہے۔ یقین نہیں؟ پہلے X لگائیں!';
+
+  @override
+  String get tutorialL2Finish =>
+      'باقی آپ کا! اٹک گئے؟ گنیں کہ ایک لکیر میں ابھی کتنے خانے کم ہیں۔';
+
+  @override
+  String get tutorialL3Overlap =>
+      'یہ کالم [4] ہے اور جگہ 5 خانوں کی۔ 4 کا بلاک یا بالکل اوپر ہے یا بالکل نیچے۔ دونوں صورتوں میں درمیان کے 3 بھرے ہیں!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'یہ یقینی خانے بھریں۔ اس ترکیب کا نام اوورلیپ ہے: بڑی پہیلیوں کا راز!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'یہ کالم بھی [4] ہے۔ یقینی خانے خود ڈھونڈیں!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'اور [3]؟ بائیں رکھیں یا دائیں، درمیانی خانہ ہمیشہ بھرا ہوتا ہے۔ اسے بھریں!';
+
+  @override
+  String get tutorialL3Finish =>
+      'شاندار! یہ ترکیب بڑی پہیلیوں میں بہت کام آئے گی۔ اب تصویر مکمل کریں!';
+
+  @override
+  String get tutorialL4Ones =>
+      'اوپر کی دو قطاریں [1 1 1] ہیں: تین اکیلے خانے، بیچ میں خالی جگہ۔ 1 + 1 + 1 + 1 + 1 = 5: بالکل پورے آتے ہیں!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'یہ دو خانے خالی ہیں۔ ڈبل ٹیپ کریں، دوسرے ٹیپ پر انگلی دبائے رکھیں اور نیچے کھسکائیں: X کی لکیر!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'آپ کی باری: اس کالم کے دو خالی خانوں پر X بنائیں۔';
+
+  @override
+  String get tutorialL4Erase =>
+      'غلط X لگ گیا؟ اس پر دوبارہ ڈبل ٹیپ کریں، ہٹ جائے گا۔ X سے ڈبل ٹیپ کر کے کھسکائیں تو راستے کے X مٹ جاتے ہیں۔';
+
+  @override
+  String get tutorialL4Finish => 'بہت خوب! اب تصویر مکمل کریں۔';
+
+  @override
+  String get tutorialL5Sum =>
+      'آخری سبق! یہ کالم [3 1] ہے: 3 + 1 + 1 = 5، یعنی یقینی ہے۔ خود حل کریں!';
+
+  @override
+  String get tutorialL5Hint =>
+      'اٹک گئے؟ اشارہ دبائیں: یہ اگلا قدم اور اس کی وجہ دکھاتا ہے۔';
+
+  @override
+  String get tutorialL5Finish =>
+      'آپ تیار ہیں! بڑے جال میں موٹی لکیریں ہر 5 خانوں کو الگ کرتی ہیں تاکہ گننا آسان ہو۔ تصویر مکمل کریں!';
 }

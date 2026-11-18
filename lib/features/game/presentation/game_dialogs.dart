@@ -91,6 +91,36 @@ Future<bool> showNoHintsDialog(
   return result ?? false;
 }
 
+enum SkipTutorialChoice { level, all }
+
+/// Asks whether to skip only this level's tutorial lesson or all of them.
+Future<SkipTutorialChoice?> showSkipTutorialDialog(BuildContext context) {
+  final l10n = AppLocalizations.of(context);
+  return showDialog<SkipTutorialChoice>(
+    context: context,
+    builder: (context) => _GameDialog(
+      icon: Icons.skip_next_rounded,
+      iconColor: AppColors.goldDeep,
+      title: l10n.tutorialSkipTitle,
+      body: Text(l10n.tutorialSkipBody, textAlign: TextAlign.center),
+      actions: [
+        FilledButton(
+          onPressed: () => Navigator.pop(context, SkipTutorialChoice.level),
+          child: Text(l10n.tutorialSkipLevel),
+        ),
+        OutlinedButton(
+          onPressed: () => Navigator.pop(context, SkipTutorialChoice.all),
+          child: Text(l10n.tutorialSkipAll),
+        ),
+        TextButton(
+          onPressed: () => Navigator.pop(context),
+          child: Text(l10n.cancel),
+        ),
+      ],
+    ),
+  );
+}
+
 Future<void> showRulesDialog(BuildContext context) {
   final l10n = AppLocalizations.of(context);
   Widget line(IconData icon, String text) => Padding(

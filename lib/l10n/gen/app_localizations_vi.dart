@@ -271,29 +271,133 @@ class AppLocalizationsVi extends AppLocalizations {
   String get tutorialGotIt => 'Đã hiểu';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Bài $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Bắt đầu nào!';
+
+  @override
+  String get tutorialSkipTitle => 'Bỏ qua hướng dẫn?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Chỉ bỏ qua bài của màn này hay toàn bộ hướng dẫn?';
+
+  @override
+  String get tutorialSkipLevel => 'Chỉ màn này';
+
+  @override
+  String get tutorialSkipAll => 'Bỏ qua tất cả';
+
+  @override
+  String get tutorialWelcome =>
+      'Chào bạn! Mỗi câu đố đều giấu một bức tranh. Đọc các số, tô đúng ô và làm nó hiện ra nhé!';
+
+  @override
   String get tutorialL1Fill =>
-      'Các số cho biết có bao nhiêu ô trong hàng đó được tô. Hàng này ghi 5, vậy cả 5 ô đều được tô! Chạm vào một ô để tô nó.';
+      '[5]: hàng này có 5 ô được tô. Hàng dài đúng 5 ô, nên tô hết! Chạm vào một ô.';
 
   @override
   String get tutorialL1Drag =>
-      'Tuyệt! Giờ hãy giữ ngón tay và vuốt để tô phần còn lại của hàng.';
+      'Tuyệt! Giờ vuốt mà không nhấc ngón tay để tô phần còn lại của hàng.';
 
   @override
-  String get tutorialL1Column => 'Cột này cũng ghi 5: vuốt từ trên xuống dưới.';
+  String get tutorialL1Row =>
+      'Hàng này cũng là [5]. Lần này hãy vuốt một mạch từ đầu đến cuối.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Đã tìm thấy [2] ô của cột này, nên các ô còn lại tự được đánh X. X nghĩa là: trống.';
+
+  @override
+  String get tutorialL1Column =>
+      'Các số ở trên là của cột. Cột này là [5]: vuốt từ trên xuống dưới.';
+
+  @override
+  String get tutorialL1Count =>
+      'Hàng này cần [3] ô. Các ô X là trống, nên còn đúng 3 ô. Tô hết nhé!';
 
   @override
   String get tutorialL1Finish =>
-      'Khi một hàng hay cột hoàn thành, các ô còn lại tự động được đánh X. Hãy tự hoàn thành phần còn lại của bức tranh!';
+      'Tự tô hàng cuối cùng và làm bức tranh hiện ra nhé!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: hai nhóm riêng. 2 ô tô, ít nhất 1 ô trống, rồi 2 ô tô. 2 + 1 + 2 = 5: vừa khít!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 nghĩa là 2 ô được tô, ít nhất một khoảng trống, rồi thêm 2 ô được tô. 2 + khoảng trống + 2 = 5, nên hàng này đã chắc chắn! Chạm hai lần vào ô trống để đánh X.';
+      'Vậy ô ở giữa là trống. Chạm hai lần vào nó để đánh X.';
 
   @override
   String get tutorialL2Drag =>
-      'Các ô có X của bạn sẽ được bỏ qua khi vuốt. Vuốt dọc cả hàng để tô nó.';
+      'X chỉ là ghi chú, không mất gì cả. Giờ vuốt qua hàng: ô có X sẽ được bỏ qua.';
 
   @override
-  String get tutorialL2Rules =>
-      'Tô sai ô sẽ mất 1 mạng; dấu X là miễn phí. Nếu bí, nút Gợi ý cũng giải thích lý do. Phần còn lại là của bạn!';
+  String get tutorialL2CrossSelf =>
+      'Hàng bên dưới cũng là [2 2]. Đến lượt bạn: đánh X vào ô trống trước.';
+
+  @override
+  String get tutorialL2DragSelf => 'Giờ vuốt để tô hàng.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Cẩn thận: tô sai ô sẽ biến nó thành X đỏ và mất một trái tim. Chưa chắc? Đánh X trước!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Phần còn lại là của bạn! Bí à? Đếm xem một đường còn thiếu bao nhiêu ô.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Cột này là [4], chỗ có 5 ô. Khối 4 ô hoặc nằm trên cùng, hoặc nằm dưới cùng. Dù thế nào, 3 ô giữa đều được tô!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Tô các ô chắc chắn đó. Mẹo này gọi là chồng lấp: bí quyết của các câu đố lớn!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Cột này cũng là [4]. Tự tìm các ô chắc chắn nhé!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'Còn [3] thì sao? Đẩy sang trái hay phải, ô giữa luôn được tô. Tô nó đi!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Tuyệt vời! Bạn sẽ dùng mẹo này nhiều ở các câu đố lớn. Giờ hoàn thành bức tranh nhé!';
+
+  @override
+  String get tutorialL4Ones =>
+      'Hai hàng trên cùng là [1 1 1]: ba ô lẻ, xen giữa là ô trống. 1 + 1 + 1 + 1 + 1 = 5: vừa khít!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Hai ô này trống. Chạm hai lần, giữ ngón tay ở lần chạm thứ hai rồi vuốt xuống: một đường X!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Đến lượt bạn: vẽ X lên hai ô trống của cột này.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Đánh X nhầm? Chạm hai lần lần nữa để xóa. Vuốt bằng chạm hai lần bắt đầu từ một X sẽ xóa các X trên đường đi.';
+
+  @override
+  String get tutorialL4Finish => 'Giỏi lắm! Giờ hoàn thành bức tranh nhé.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Bài cuối! Cột này là [3 1]: 3 + 1 + 1 = 5, nên đã chắc chắn. Tự giải nhé!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Bí à? Nhấn Gợi ý: nó chỉ bước tiếp theo và giải thích lý do.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Bạn đã sẵn sàng! Ở lưới lớn, các đường đậm chia mỗi 5 ô để dễ đếm. Hoàn thành bức tranh nhé!';
 }

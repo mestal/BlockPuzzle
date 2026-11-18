@@ -271,30 +271,133 @@ class AppLocalizationsHu extends AppLocalizations {
   String get tutorialGotIt => 'Értem';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Lecke $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Kezdjük!';
+
+  @override
+  String get tutorialSkipTitle => 'Kihagyod a bemutatót?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Csak ennek a pályának a leckéjét hagyod ki, vagy az egész bemutatót?';
+
+  @override
+  String get tutorialSkipLevel => 'Csak ezt a pályát';
+
+  @override
+  String get tutorialSkipAll => 'Mindet kihagyom';
+
+  @override
+  String get tutorialWelcome =>
+      'Szia! Minden rejtvényben egy kép lapul. Olvasd a számokat, töltsd ki a jó négyzeteket, és fedd fel!';
+
+  @override
   String get tutorialL1Fill =>
-      'A számok megmutatják, hány négyzet van kitöltve a sorban. Ez a sor 5-öt mond, tehát mind az 5 négyzet kitöltött! Koppints egy négyzetre a kitöltéshez.';
+      '[5]: ebben a sorban 5 kitöltött négyzet van. A sor 5 négyzet hosszú, tehát mind kitöltött! Koppints egyre.';
 
   @override
   String get tutorialL1Drag =>
-      'Szuper! Most tartsd lenyomva az ujjad, és húzd végig a sor többi részén.';
+      'Szuper! Most húzd az ujjad felemelés nélkül, és töltsd ki a sor többi részét.';
+
+  @override
+  String get tutorialL1Row =>
+      'Ez a sor is [5]. Most húzd végig egy mozdulattal az egyik végétől a másikig.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Az oszlop [2] négyzete megvan, így a többi magától X-et kapott. Az X azt jelenti: üres.';
 
   @override
   String get tutorialL1Column =>
-      'Ez az oszlop is 5-öt mond: húzd fentről lefelé.';
+      'A fenti számok az oszlopokhoz tartoznak. Ez az oszlop [5]: húzd fentről lefelé.';
+
+  @override
+  String get tutorialL1Count =>
+      'Ennek a sornak [3] négyzet kell. Az X-es négyzetek üresek, így pontosan 3 maradt. Töltsd ki mindet!';
 
   @override
   String get tutorialL1Finish =>
-      'Ha egy sor vagy oszlop kész, a többi négyzete magától X-et kap. A kép többi részét fejezd be egyedül!';
+      'Az utolsó sort fejezd be egyedül, és fedd fel a képet!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: két külön csoport. 2 kitöltött, legalább 1 üres, aztán 2 kitöltött. 2 + 1 + 2 = 5: pont kijön!';
 
   @override
   String get tutorialL2Cross =>
-      'A 2 2 azt jelenti: 2 kitöltött négyzet, legalább egy hely, majd még 2 kitöltött négyzet. 2 + hely + 2 = 5, tehát a sor biztos! Koppints duplán az üres négyzetre, hogy X-et tegyél.';
+      'Tehát a középső négyzet üres. Koppints rá kétszer, hogy X-et tegyél.';
 
   @override
   String get tutorialL2Drag =>
-      'A te X-eddel jelölt négyzeteket húzáskor átugorja. Húzd végig az egész soron a kitöltéshez.';
+      'Az X csak jegyzet, semmibe sem kerül. Most húzd végig a soron: az X-es négyzetet átugorja.';
 
   @override
-  String get tutorialL2Rules =>
-      'Egy rossz négyzet kitöltése 1 életbe kerül; az X-ek ingyenesek. Ha elakadsz, a Tipp gomb azt is elmagyarázza, miért. A többi rajtad múlik!';
+  String get tutorialL2CrossSelf =>
+      'Az alatta lévő sor is [2 2]. Te jössz: előbb tegyél X-et az üres négyzetre.';
+
+  @override
+  String get tutorialL2DragSelf => 'Most húzással töltsd ki a sort.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Vigyázz: ha rossz négyzetet töltesz ki, piros X lesz belőle, és elveszítesz egy szívet. Nem vagy biztos? Előbb tegyél X-et!';
+
+  @override
+  String get tutorialL2Finish =>
+      'A többi a tiéd! Elakadtál? Számold meg, hány négyzet hiányzik még egy vonalból.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Ez az oszlop [4], és 5 négyzetnyi a hely. A 4-es blokk vagy legfelül, vagy legalul áll. Így is, úgy is a középső 3 kitöltött!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Töltsd ki ezeket a biztos négyzeteket. A trükk neve átfedés: a nagy rejtvények titka!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Ez az oszlop is [4]. Keresd meg magad a biztos négyzeteket!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'És a [3]? Akár balra, akár jobbra tolod, a középső négyzet mindig kitöltött. Töltsd ki!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Remek! Ezt a trükköt sokszor használod majd a nagy rejtvényekben. Most fejezd be a képet!';
+
+  @override
+  String get tutorialL4Ones =>
+      'A felső két sor [1 1 1]: három különálló négyzet, köztük hézaggal. 1 + 1 + 1 + 1 + 1 = 5: pont kijön!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Ez a két négyzet üres. Koppints kétszer, a második koppintásnál tartsd lent az ujjad, és húzd lefelé: X-vonal!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Te jössz: húzz X-et az oszlop két üres négyzetére.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Rossz X? Koppints rá újra kétszer, és eltűnik. Ha X-ről indítva húzol dupla koppintással, letörlöd az útba eső X-eket.';
+
+  @override
+  String get tutorialL4Finish => 'Szuper! Most fejezd be a képet.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Utolsó lecke! Ez az oszlop [3 1]: 3 + 1 + 1 = 5, tehát biztos. Oldd meg egyedül!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Elakadtál? Nyomd meg a Tipp gombot: megmutatja a következő lépést, és elmagyarázza, miért.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Készen állsz! A nagy rácsokon vastag vonalak választják el az 5-ös csoportokat, így könnyű számolni. Fejezd be a képet!';
 }

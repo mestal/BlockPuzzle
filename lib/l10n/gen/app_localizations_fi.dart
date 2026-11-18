@@ -271,30 +271,132 @@ class AppLocalizationsFi extends AppLocalizations {
   String get tutorialGotIt => 'Selvä';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Oppitunti $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Aloitetaan!';
+
+  @override
+  String get tutorialSkipTitle => 'Ohitetaanko opastus?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Ohitetaanko vain tämän tason oppitunti vai koko opastus?';
+
+  @override
+  String get tutorialSkipLevel => 'Vain tämä taso';
+
+  @override
+  String get tutorialSkipAll => 'Ohita kaikki';
+
+  @override
+  String get tutorialWelcome =>
+      'Hei! Jokaisessa ristikossa on piilossa kuva. Lue numerot, täytä oikeat ruudut ja paljasta se!';
+
+  @override
   String get tutorialL1Fill =>
-      'Numerot kertovat, montako ruutua rivillä on täytetty. Tällä rivillä lukee 5, joten kaikki 5 ruutua ovat täytettyjä! Täytä ruutu napauttamalla sitä.';
+      '[5]: tällä rivillä on 5 täytettyä ruutua. Rivi on 5 ruudun mittainen, joten kaikki täytetään! Napauta yhtä.';
 
   @override
   String get tutorialL1Drag =>
-      'Hienoa! Pidä nyt sormea painettuna ja liu\'uta täyttääksesi loput rivistä.';
+      'Hienoa! Liu’uta nyt sormea nostamatta ja täytä loput rivistä.';
+
+  @override
+  String get tutorialL1Row =>
+      'Tämäkin rivi on [5]. Liu’uta tällä kertaa päästä päähän yhdellä vedolla.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Sarakkeen [2] ruutua löytyi, joten muut saivat X:n itsestään. X tarkoittaa: tyhjä.';
 
   @override
   String get tutorialL1Column =>
-      'Tässäkin sarakkeessa lukee 5: liu\'uta ylhäältä alas.';
+      'Ylhäällä olevat numerot kuuluvat sarakkeille. Tämä sarake on [5]: liu’uta ylhäältä alas.';
 
   @override
-  String get tutorialL1Finish =>
-      'Kun rivi tai sarake on valmis, sen muut ruudut saavat X:n itsestään. Tee loput kuvasta itse!';
+  String get tutorialL1Count =>
+      'Tähän riviin tarvitaan [3] ruutua. X-ruudut ovat tyhjiä, joten jäljellä on tasan 3. Täytä ne kaikki!';
+
+  @override
+  String get tutorialL1Finish => 'Täytä viimeinen rivi itse ja paljasta kuva!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: kaksi erillistä ryhmää. 2 täytettyä, vähintään 1 tyhjä, sitten 2 täytettyä. 2 + 1 + 2 = 5: mahtuu juuri!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 tarkoittaa 2 täytettyä ruutua, vähintään yhtä väliä ja sitten 2 täytettyä ruutua lisää. 2 + väli + 2 = 5, joten rivi on varma! Kaksoisnapauta tyhjää ruutua merkitäksesi X:n.';
+      'Keskimmäinen ruutu on siis tyhjä. Kaksoisnapauta sitä merkitäksesi X:n.';
 
   @override
   String get tutorialL2Drag =>
-      'Ruudut, joissa on X:si, ohitetaan liu\'uttaessa. Liu\'uta koko rivin yli täyttääksesi sen.';
+      'X on vain muistiinpano eikä maksa mitään. Liu’uta nyt rivin yli: X-ruutu ohitetaan.';
 
   @override
-  String get tutorialL2Rules =>
-      'Väärän ruudun täyttäminen maksaa 1 elämän; X-merkit ovat ilmaisia. Jos jäät jumiin, Vihje-painike kertoo myös miksi. Loppu on sinun käsissäsi!';
+  String get tutorialL2CrossSelf =>
+      'Alempikin rivi on [2 2]. Sinun vuorosi: merkitse ensin X tyhjään ruutuun.';
+
+  @override
+  String get tutorialL2DragSelf => 'Liu’uta nyt ja täytä rivi.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Varo: väärän ruudun täyttäminen tekee siitä punaisen X:n ja maksaa sydämen. Epävarma? Merkitse ensin X!';
+
+  @override
+  String get tutorialL2Finish =>
+      'Loput ovat sinun! Jumissa? Laske, montako ruutua linjalta vielä puuttuu.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Tämä sarake on [4], ja tilaa on 5 ruudulle. Neljän palikka on joko ihan ylhäällä tai ihan alhaalla. Kummin vain, keskimmäiset 3 ovat täytettyjä!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Täytä nämä varmat ruudut. Temppu on nimeltään päällekkäisyys: suurten ristikoiden salaisuus!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Tämäkin sarake on [4]. Etsi varmat ruudut itse!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'Entä [3]? Vasemmalle tai oikealle työnnettynä keskiruutu on aina täytetty. Täytä se!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Mahtavaa! Tätä temppua käytät usein isoissa ristikoissa. Viimeistele nyt kuva!';
+
+  @override
+  String get tutorialL4Ones =>
+      'Kaksi ylintä riviä ovat [1 1 1]: kolme yksittäistä ruutua välein. 1 + 1 + 1 + 1 + 1 = 5: mahtuvat juuri!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Nämä kaksi ruutua ovat tyhjiä. Kaksoisnapauta, pidä sormi alhaalla toisella napautuksella ja liu’uta alas: X-viiva!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Sinun vuorosi: vedä X:t tämän sarakkeen kahteen tyhjään ruutuun.';
+
+  @override
+  String get tutorialL4Erase =>
+      'Väärä X? Kaksoisnapauta sitä uudestaan, niin se katoaa. Kaksoisnapautusliu’utus X:stä alkaen pyyhkii matkan X:t.';
+
+  @override
+  String get tutorialL4Finish => 'Huippua! Viimeistele nyt kuva.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Viimeinen oppitunti! Tämä sarake on [3 1]: 3 + 1 + 1 = 5, joten se on varma. Ratkaise se itse!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Jumissa? Paina Vihje: se näyttää seuraavan askeleen ja kertoo miksi.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Olet valmis! Isoissa ruudukoissa paksut viivat jakavat ruudut viitosiin, mikä helpottaa laskemista. Viimeistele kuva!';
 }

@@ -272,30 +272,133 @@ class AppLocalizationsEs extends AppLocalizations {
   String get tutorialGotIt => 'Entendido';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Lección $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => '¡Vamos!';
+
+  @override
+  String get tutorialSkipTitle => '¿Saltar el tutorial?';
+
+  @override
+  String get tutorialSkipBody =>
+      '¿Saltar solo la lección de este nivel o todo el tutorial?';
+
+  @override
+  String get tutorialSkipLevel => 'Solo este nivel';
+
+  @override
+  String get tutorialSkipAll => 'Saltar todo';
+
+  @override
+  String get tutorialWelcome =>
+      '¡Hola! Cada puzle esconde un dibujo. Lee los números, llena las casillas correctas y descúbrelo.';
+
+  @override
   String get tutorialL1Fill =>
-      'Los números dicen cuántas casillas de esa fila están llenas. Esta fila dice 5: ¡las 5 casillas están llenas! Toca una casilla para llenarla.';
+      '[5]: esta fila tiene 5 casillas llenas. La fila mide 5, ¡así que todas están llenas! Toca una.';
 
   @override
   String get tutorialL1Drag =>
-      '¡Genial! Ahora mantén el dedo pulsado y desliza para llenar el resto de la fila.';
+      '¡Genial! Ahora desliza sin levantar el dedo para llenar el resto de la fila.';
+
+  @override
+  String get tutorialL1Row =>
+      'Esta fila también es [5]. Esta vez desliza de punta a punta de una vez.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Las [2] casillas de esta columna ya están, así que las demás recibieron una X solas. X significa: vacía.';
 
   @override
   String get tutorialL1Column =>
-      'Esta columna también dice 5: desliza de arriba abajo.';
+      'Los números de arriba son de las columnas. Esta columna es [5]: desliza de arriba abajo.';
+
+  @override
+  String get tutorialL1Count =>
+      'Esta fila necesita [3] casillas. Las X están vacías, así que quedan justo 3. ¡Llénalas todas!';
 
   @override
   String get tutorialL1Finish =>
-      'Cuando una fila o columna está completa, sus otras casillas reciben una X solas. ¡Termina el resto del dibujo tú solo!';
+      '¡Termina tú la última fila y descubre el dibujo!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: dos grupos separados. 2 llenas, al menos 1 vacía y 2 llenas. 2 + 1 + 2 = 5: ¡encaja justo!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 significa 2 casillas llenas, al menos un hueco y luego otras 2 casillas llenas. 2 + hueco + 2 = 5: ¡la fila es segura! Toca dos veces la casilla vacía para poner una X.';
+      'Así que la casilla del medio está vacía. Tócala dos veces para poner una X.';
 
   @override
   String get tutorialL2Drag =>
-      'Las casillas con tu X se saltan al deslizar. Desliza por toda la fila para llenarla.';
+      'Una X es solo una nota; no cuesta nada. Ahora desliza por la fila: la X se salta.';
 
   @override
-  String get tutorialL2Rules =>
-      'Llenar una casilla equivocada cuesta 1 vida; las X son gratis. Si te atascas, el botón Pista también explica por qué. ¡El resto es cosa tuya!';
+  String get tutorialL2CrossSelf =>
+      'La fila de abajo también es [2 2]. Te toca: primero pon una X en la casilla vacía.';
+
+  @override
+  String get tutorialL2DragSelf => 'Ahora desliza para llenar la fila.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Cuidado: si llenas una casilla equivocada se vuelve una X roja y pierdes un corazón. ¿Dudas? ¡Pon una X primero!';
+
+  @override
+  String get tutorialL2Finish =>
+      '¡El resto es tuyo! ¿Atascado? Cuenta cuántas casillas le faltan a una línea.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Esta columna es [4] y hay sitio para 5. El bloque de 4 va arriba del todo o abajo del todo. ¡En ambos casos, las 3 del medio están llenas!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Llena esas casillas seguras. Este truco se llama superposición: ¡el secreto de los puzles grandes!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Esta columna también es [4]. ¡Encuentra tú las casillas seguras!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      '¿Y [3]? Pegado a la izquierda o a la derecha, la casilla del medio siempre está llena. ¡Llénala!';
+
+  @override
+  String get tutorialL3Finish =>
+      '¡Genial! Usarás mucho este truco en los puzles grandes. ¡Ahora termina el dibujo!';
+
+  @override
+  String get tutorialL4Ones =>
+      'Las dos filas de arriba son [1 1 1]: tres casillas sueltas con huecos entre ellas. 1 + 1 + 1 + 1 + 1 = 5: ¡encajan justo!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Estas dos casillas están vacías. Toca dos veces, deja el dedo apoyado en el segundo toque y desliza hacia abajo: ¡una línea de X!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Te toca: dibuja X en las dos casillas vacías de esta columna.';
+
+  @override
+  String get tutorialL4Erase =>
+      '¿Una X equivocada? Tócala dos veces otra vez para quitarla. Si deslizas con doble toque desde una X, borras las X por las que pasas.';
+
+  @override
+  String get tutorialL4Finish => '¡Súper! Ahora completa el dibujo.';
+
+  @override
+  String get tutorialL5Sum =>
+      '¡Última lección! Esta columna es [3 1]: 3 + 1 + 1 = 5, así que es segura. ¡Resuélvela tú!';
+
+  @override
+  String get tutorialL5Hint =>
+      '¿Atascado? Pulsa Pista: te muestra el siguiente paso y por qué.';
+
+  @override
+  String get tutorialL5Finish =>
+      '¡Ya estás listo! En las cuadrículas grandes, unas líneas gruesas separan cada 5 casillas para ayudarte a contar. ¡Termina el dibujo!';
 }

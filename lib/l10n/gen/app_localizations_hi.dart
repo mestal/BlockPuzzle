@@ -271,29 +271,133 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tutorialGotIt => 'समझ आ गया';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'पाठ $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'चलिए शुरू करें!';
+
+  @override
+  String get tutorialSkipTitle => 'ट्यूटोरियल छोड़ें?';
+
+  @override
+  String get tutorialSkipBody =>
+      'सिर्फ़ इस लेवल का पाठ छोड़ें या पूरा ट्यूटोरियल?';
+
+  @override
+  String get tutorialSkipLevel => 'सिर्फ़ यह लेवल';
+
+  @override
+  String get tutorialSkipAll => 'सब छोड़ें';
+
+  @override
+  String get tutorialWelcome =>
+      'नमस्ते! हर पहेली में एक तस्वीर छिपी है। संख्याएँ पढ़ें, सही खाने भरें और उसे सामने लाएँ!';
+
+  @override
   String get tutorialL1Fill =>
-      'संख्याएँ बताती हैं कि उस पंक्ति में कितने खाने भरे हैं। इस पंक्ति में 5 लिखा है, इसलिए सभी 5 खाने भरे हैं! किसी खाने को भरने के लिए उस पर टैप करें।';
+      '[5]: इस पंक्ति में 5 भरे खाने हैं। पंक्ति भी 5 खानों की है, यानी सभी भरे हैं! किसी एक पर टैप करें।';
 
   @override
   String get tutorialL1Drag =>
-      'बढ़िया! अब उँगली दबाकर रखें और बाकी पंक्ति भरने के लिए खिसकाएँ।';
+      'बढ़िया! अब उँगली उठाए बिना खिसकाएँ और बाकी पंक्ति भरें।';
 
   @override
-  String get tutorialL1Column => 'इस स्तंभ में भी 5 है: ऊपर से नीचे खिसकाएँ।';
+  String get tutorialL1Row =>
+      'यह पंक्ति भी [5] है। इस बार एक ही बार में एक सिरे से दूसरे सिरे तक खिसकाएँ।';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'इस स्तंभ के [2] खाने मिल गए, इसलिए बाकी पर अपने आप X लग गया। X का मतलब है: खाली।';
+
+  @override
+  String get tutorialL1Column =>
+      'ऊपर की संख्याएँ स्तंभों के लिए हैं। यह स्तंभ [5] है: ऊपर से नीचे खिसकाएँ।';
+
+  @override
+  String get tutorialL1Count =>
+      'इस पंक्ति को [3] खाने चाहिए। X वाले खाने खाली हैं, तो ठीक 3 खाने बचे हैं। सब भर दें!';
 
   @override
   String get tutorialL1Finish =>
-      'जब कोई पंक्ति या स्तंभ पूरा हो जाता है, तो उसके बाकी खानों पर अपने आप X लग जाता है। बाकी तस्वीर खुद पूरी करें!';
+      'आखिरी पंक्ति खुद पूरी करें और तस्वीर सामने लाएँ!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: दो अलग समूह। 2 भरे, कम से कम 1 खाली, फिर 2 भरे। 2 + 1 + 2 = 5: बिल्कुल फ़िट!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 का मतलब है 2 भरे खाने, कम से कम एक खाली खाना, फिर 2 और भरे खाने। 2 + खाली + 2 = 5, इसलिए पंक्ति तय है! X लगाने के लिए खाली खाने पर डबल टैप करें।';
+      'यानी बीच वाला खाना खाली है। उस पर डबल टैप करके X लगाएँ।';
 
   @override
   String get tutorialL2Drag =>
-      'खिसकाते समय आपके X वाले खाने छूट जाते हैं। पूरी पंक्ति भरने के लिए उसके साथ-साथ खिसकाएँ।';
+      'X बस एक नोट है, इसकी कोई कीमत नहीं। अब पंक्ति पर खिसकाएँ: X वाला खाना छूट जाता है।';
 
   @override
-  String get tutorialL2Rules =>
-      'गलत खाना भरने पर 1 जान जाती है; X मुफ़्त हैं। अगर अटक जाएँ, तो संकेत बटन यह भी समझाता है कि क्यों। बाकी आप पर है!';
+  String get tutorialL2CrossSelf =>
+      'नीचे वाली पंक्ति भी [2 2] है। आपकी बारी: पहले खाली खाने पर X लगाएँ।';
+
+  @override
+  String get tutorialL2DragSelf => 'अब खिसकाकर पंक्ति भरें।';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'ध्यान दें: गलत खाना भरने पर वह लाल X बन जाता है और एक दिल चला जाता है। पक्का नहीं? पहले X लगाएँ!';
+
+  @override
+  String get tutorialL2Finish =>
+      'बाकी आपका! अटक गए? गिनें कि किसी रेखा में अभी कितने खाने बाकी हैं।';
+
+  @override
+  String get tutorialL3Overlap =>
+      'यह स्तंभ [4] है और जगह 5 खानों की। 4 का ब्लॉक या तो सबसे ऊपर है या सबसे नीचे। दोनों में बीच के 3 खाने भरे हैं!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'ये पक्के खाने भरें। इस तरकीब का नाम ओवरलैप है: बड़ी पहेलियों का राज़!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'यह स्तंभ भी [4] है। पक्के खाने खुद ढूँढें!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'और [3]? बाएँ खिसके या दाएँ, बीच का खाना हमेशा भरा होता है। उसे भरें!';
+
+  @override
+  String get tutorialL3Finish =>
+      'शानदार! यह तरकीब बड़ी पहेलियों में बहुत काम आएगी। अब तस्वीर पूरी करें!';
+
+  @override
+  String get tutorialL4Ones =>
+      'ऊपर की दो पंक्तियाँ [1 1 1] हैं: तीन अकेले खाने, बीच में खाली जगह। 1 + 1 + 1 + 1 + 1 = 5: बिल्कुल फ़िट!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'ये दो खाने खाली हैं। डबल टैप करें, दूसरे टैप पर उँगली दबाए रखें और नीचे खिसकाएँ: X की रेखा!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'आपकी बारी: इस स्तंभ के दो खाली खानों पर X बनाएँ।';
+
+  @override
+  String get tutorialL4Erase =>
+      'गलत X लग गया? उस पर फिर से डबल टैप करें, हट जाएगा। X से डबल टैप करके खिसकाएँ तो रास्ते के X मिट जाते हैं।';
+
+  @override
+  String get tutorialL4Finish => 'बहुत बढ़िया! अब तस्वीर पूरी करें।';
+
+  @override
+  String get tutorialL5Sum =>
+      'आखिरी पाठ! यह स्तंभ [3 1] है: 3 + 1 + 1 = 5, यानी पक्का है। खुद हल करें!';
+
+  @override
+  String get tutorialL5Hint =>
+      'अटक गए? संकेत दबाएँ: यह अगला कदम और उसकी वजह दिखाता है।';
+
+  @override
+  String get tutorialL5Finish =>
+      'आप तैयार हैं! बड़े ग्रिड में मोटी रेखाएँ हर 5 खानों को अलग करती हैं ताकि गिनना आसान हो। तस्वीर पूरी करें!';
 }

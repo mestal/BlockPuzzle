@@ -218,11 +218,48 @@
   "hintFallback": "Bu kare resmin bir parçası.",
   "tutorialSkip": "Atla",
   "tutorialGotIt": "Anladım",
-  "tutorialL1Fill": "Sayılar o satırda kaç dolu kare olduğunu söyler. Bu satırda 5 var, yani 5 karenin hepsi dolu! Bir kareye dokunarak doldur.",
-  "tutorialL1Drag": "Harika! Şimdi parmağını basılı tutup kaydırarak satırın kalanını doldur.",
-  "tutorialL1Column": "Bu sütunda da 5 var: yukarıdan aşağı kaydır.",
-  "tutorialL1Finish": "Bir satır ya da sütun bitince kalan kareleri kendiliğinden X olur. Resmin kalanını kendin tamamla!",
-  "tutorialL2Cross": "2 2: önce 2 dolu kare, en az bir boşluk, sonra yine 2 dolu kare. 2 + boşluk + 2 = 5, satır tam belli! Boş kalacak kareye çift dokunarak X koy.",
-  "tutorialL2Drag": "X koyduğun kareler kaydırırken atlanır. Satırı baştan sona kaydırarak doldur.",
-  "tutorialL2Rules": "Yanlış kareyi doldurursan 1 hak gider; X koymak ise serbest. Takılırsan İpucu düğmesi nedenini de anlatır. Gerisi sende!"
+  "tutorialLesson": "Eğitim {lesson}/{count}",
+  "@tutorialLesson": {
+    "placeholders": {
+      "lesson": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tutorialStart": "Başlayalım!",
+  "tutorialSkipTitle": "Eğitimi atla?",
+  "tutorialSkipBody": "Yalnızca bu bölümün eğitimini mi, yoksa tüm eğitimi mi atlamak istersin?",
+  "tutorialSkipLevel": "Yalnızca bu bölüm",
+  "tutorialSkipAll": "Tüm eğitimi atla",
+  "tutorialWelcome": "Merhaba! Her bulmacada gizli bir resim var. Sayılara bakıp doğru kareleri doldur, resmi ortaya çıkar!",
+  "tutorialL1Fill": "[5]: bu satırda 5 dolu kare var. Satır da 5 kare, yani hepsi dolu! Bir kareye dokun.",
+  "tutorialL1Drag": "Süper! Şimdi parmağını kaldırmadan kaydır, satırın kalanını doldur.",
+  "tutorialL1Row": "Bu satır da [5]. Bu kez baştan sona tek hamlede kaydır.",
+  "tutorialL1AutoCross": "Bu sütundaki [2] kare bulundu, kalanlar kendiliğinden X oldu. X, burası boş demek.",
+  "tutorialL1Column": "Üstteki sayılar sütunlar için. Bu sütun [5]: yukarıdan aşağı kaydır.",
+  "tutorialL1Count": "Bu satıra [3] kare lazım. X'ler boş; geriye tam 3 kare kaldı. Hepsini doldur!",
+  "tutorialL1Finish": "Son satırı sen bitir ve resmi ortaya çıkar!",
+  "tutorialL2Groups": "[2 2]: iki ayrı grup. 2 dolu, en az 1 boş, sonra 2 dolu. 2 + 1 + 2 = 5: satıra tam sığar!",
+  "tutorialL2Cross": "Yani ortadaki kare boş. Ona çift dokunarak X koy.",
+  "tutorialL2Drag": "X bir nottur, hak götürmez. Şimdi satırı baştan sona kaydır; X'li kare atlanır.",
+  "tutorialL2CrossSelf": "Alttaki satır da [2 2]. Sıra sende: önce boş kareye X koy.",
+  "tutorialL2DragSelf": "Şimdi satırı kaydırarak doldur.",
+  "tutorialL2Mistakes": "Dikkat: yanlış kareyi doldurursan kırmızı X olur ve bir kalp gider. Emin değilsen önce X koy!",
+  "tutorialL2Finish": "Gerisi sende! Takılınca bir çizgide kaç kare kaldığını say.",
+  "tutorialL3Overlap": "Bu sütun [4], yer 5 kare. 4'lük blok ya en üstte ya en altta durur. İki durumda da ortadaki 3 kare dolu!",
+  "tutorialL3OverlapFill": "Bu kesin kareleri doldur. Bu numaranın adı örtüşme: büyük bulmacaların sırrı!",
+  "tutorialL3OverlapSelf": "Bu sütun da [4]. Kesin dolu kareleri sen bul!",
+  "tutorialL3OverlapRow": "Peki [3]? Sola da yaslansa sağa da, ortadaki kare hep dolu. Onu doldur!",
+  "tutorialL3Finish": "Harika! Bu numarayı büyük bulmacalarda çok kullanacaksın. Şimdi resmi bitir!",
+  "tutorialL4Ones": "Üstteki iki satır [1 1 1]: üç tek kare, aralarında boşluk. 1 + 1 + 1 + 1 + 1 = 5: yerleri belli!",
+  "tutorialL4CrossDrag": "Bu iki kare boş. Çift dokun, ikinci dokunuşta parmağını kaldırmadan aşağı kaydır: X çizgisi!",
+  "tutorialL4CrossDragSelf": "Şimdi sen: bu sütundaki iki boş kareye X çiz.",
+  "tutorialL4Erase": "Yanlış X mi koydun? X'e yine çift dokun, silinir. X'ten başlayıp kaydırırsan geçtiğin X'ler silinir.",
+  "tutorialL4Finish": "Süper! Şimdi resmi tamamla.",
+  "tutorialL5Sum": "Son ders! Bu sütun [3 1]: 3 + 1 + 1 = 5, yerleri belli. Kendin çöz!",
+  "tutorialL5Hint": "Takılırsan İpucu'na bas: bir sonraki adımı ve nedenini gösterir.",
+  "tutorialL5Finish": "Artık hazırsın! Büyük ızgaralarda kalın çizgiler 5'er kareyi ayırır. Resmi bitir!"
 }

@@ -344,7 +344,13 @@ class _BoardViewState extends State<BoardView> {
         final colClueHeight = colClueUnits * _cell;
         final fontSize = (_cell * 0.42).clamp(11, 28).toDouble();
         final hint = _state.hint;
-        final focus = hint == null ? _guide?.focus : null;
+        final won = _state.status == GameStatus.won;
+        // A tutorial step spotlights its lines: their clues pulse, the other
+        // clues fade back.
+        final focus = hint == null && !won
+            ? _guide?.focus ?? const <TutorialLine>[]
+            : const <TutorialLine>[];
+        bool focused(TutorialLine line) => focus.contains(line);
 
         return Column(
           mainAxisSize: MainAxisSize.min,
@@ -359,7 +365,10 @@ class _BoardViewState extends State<BoardView> {
                     solved: _state.board.solvedCols.contains(c),
                     highlighted:
                         (hint != null && !hint.isRow && hint.line == c) ||
-                        (focus != null && !focus.isRow && focus.index == c),
+                        focused((isRow: false, index: c)),
+                    pulsing: focused((isRow: false, index: c)),
+                    dimmed:
+                        focus.isNotEmpty && !focused((isRow: false, index: c)),
                     vertical: true,
                     width: _cell,
                     height: colClueHeight,
@@ -378,7 +387,11 @@ class _BoardViewState extends State<BoardView> {
                         solved: _state.board.solvedRows.contains(r),
                         highlighted:
                             (hint != null && hint.isRow && hint.line == r) ||
-                            (focus != null && focus.isRow && focus.index == r),
+                            focused((isRow: true, index: r)),
+                        pulsing: focused((isRow: true, index: r)),
+                        dimmed:
+                            focus.isNotEmpty &&
+                            !focused((isRow: true, index: r)),
                         vertical: false,
                         width: rowClueWidth,
                         height: _cell,
@@ -469,9 +482,8 @@ class _BoardViewState extends State<BoardView> {
                   else if (_guide case final guide? when !won)
                     TutorialGuide(
                       step: guide,
+                      board: _state.board,
                       cell: _cell,
-                      rows: _rows,
-                      cols: _cols,
                     ),
                 ],
               ),
@@ -583,11 +595,19 @@ class _ClueChip extends StatelessWidget {
     required this.height,
     required this.fontSize,
     this.highlighted = false,
+    this.pulsing = false,
+    this.dimmed = false,
   });
 
   final List<int> clue;
   final bool solved;
   final bool highlighted;
+
+  /// The clue a tutorial step is about: glows and gently pulses.
+  final bool pulsing;
+
+  /// Faded back while a tutorial step spotlights other lines.
+  final bool dimmed;
   final bool vertical;
   final double width;
   final double height;
@@ -618,7 +638,7 @@ class _ClueChip extends StatelessWidget {
             ],
           );
 
-    return SizedBox(
+    Widget chip = SizedBox(
       width: width,
       height: height,
       child: Padding(
@@ -638,6 +658,15 @@ class _ClueChip extends StatelessWidget {
                     border: highlighted
                         ? Border.all(color: AppColors.goldDeep, width: 2.5)
                         : null,
+                    boxShadow: pulsing
+                        ? [
+                            BoxShadow(
+                              color: AppColors.gold.withValues(alpha: 0.9),
+                              blurRadius: 10,
+                              spreadRadius: 1,
+                            ),
+                          ]
+                        : null,
                   ),
                   alignment: vertical
                       ? Alignment.bottomCenter
@@ -649,6 +678,21 @@ class _ClueChip extends StatelessWidget {
                 .then()
                 .scaleXY(begin: 1, end: 1 / 1.18, duration: 220.ms),
       ),
+    );
+    if (pulsing) {
+      chip = chip
+          .animate(onPlay: (c) => c.repeat(reverse: true))
+          .scaleXY(
+            begin: 1,
+            end: 1.1,
+            duration: 600.ms,
+            curve: Curves.easeInOut,
+          );
+    }
+    return AnimatedOpacity(
+      opacity: dimmed ? 0.4 : 1,
+      duration: const Duration(milliseconds: 300),
+      child: chip,
     );
   }
 }

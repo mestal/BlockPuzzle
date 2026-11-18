@@ -47,12 +47,23 @@ Mod düğmesi yok; işlemi **jest** belirler:
   (`Board.apply(settle: false)`, `GameController.beginStroke/endStroke`): sürükleme bu karelere
   girerse bunlar gerçek doldurma denemesidir (yanlışsa kırmızı X, −1 hak). Parmak kalkınca
   dokunulmayan kareler yeşil X olur (`Board.settled()`).
-- Jestler keşfedilmesi zor olduğundan **Bölüm 1 ve 2 adım adım, el animasyonlu bir öğretici** içerir
-  (`features/game/domain/tutorial.dart`). Bölüm 1: ipucu okuma, dokunarak doldurma, sürükleme,
-  otomatik X. Bölüm 2: çok sayılı ipucu (`2 1`), çift dokunarak X, X'lerin sürüklemede atlanması,
-  haklar ve ipucu. Adım tahtadan türetilir (oyuncu önden giderse kapsanan adımlar atlanır);
-  yalnızca metin olan adım "Anladım" bekler. **Atla** düğmesi öğreticiyi bitirir; bitirilen/atlanan
-  öğreticiler `SlotData.tutorials`'ta saklanır, kazanılmış bölümde gösterilmez.
+- **Bölüm 1–5 birer derslik, adım adım öğretici** içerir (`features/game/domain/tutorial.dart`,
+  sunum `presentation/tutorial_overlay.dart`). Her ders bir-iki fikir öğretir, sonra resmi oyuncuya bırakır:
+  1. ipucu okuma, dokunma, sürükleme, otomatik X, X'lerden sonra kalan kareleri sayma
+  2. çok sayılı ipucu (`2 2`, 2+1+2=5), çift dokunarak X, X'in sürüklemede atlanması, hata = kalp
+  3. **örtüşme** (5'te 4 → ortadaki 3, 5'te 3 → orta kare kesin)
+  4. `1 1 1`, çift dokunup sürükleyerek X çizgisi, X silme
+  5. ipucunu kendi başına toplama (`3 1`), İpucu düğmesi
+- Görünüm: maskot (jöle blok, `TutorialMascot`) konuşma kartında anlatır; ders/adım göstergesi,
+  **Atla**. Adımın çizgileri dışındaki tahta karartılır, ipucu kutuları nabız gibi atar, diğerleri soluklaşır.
+  El jesti oynatır ve etkisi **hayalet** (yarı saydam blok/X) olarak görünür; ipucunun dizilişi hayalet
+  desenle, örtüşme kayan bir blokla gösterilir. "Kendin dene" adımlarında el ~4 sn sonra belirir.
+  Tahta dışı öğeler (kalpler, İpucu düğmesi) `TutorialSpot` ile parlar. Metinde `[2 2]` ipucu rozeti
+  olarak çizilir; `2 + 1 + 2 = 5` gibi toplamlar RTL dillerde soldan sağa yalıtılır.
+- Adım tahtadan türetilir (oyuncu önden giderse kapsanan adımlar atlanır; yalnızca metin olan adım
+  "Anladım" bekler, işi yapılmışsa `obsolete` ile atlanır). **Atla** bu dersi ya da (başka ders kaldıysa
+  sorarak) tüm öğreticiyi bitirir; bitirilen/atlanan dersler `SlotData.tutorials`'ta saklanır, kazanılmış
+  bölümde gösterilmez. Test: elin gösterdiği her hamle hatasızdır ve her ders bölümü bitirir.
 
 ### Doğru / yanlış nasıl anlaşılır
 Her bölümün çözümü (`solution`) oyunda kayıtlıdır. **X serbesttir**: yanlış yere de konabilir,
@@ -101,7 +112,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - Hak sayısı ızgara boyutuna göredir (`features/game/domain/lives.dart`): **5×5 → 3**,
   **10×5 / 5×10 → 4**, **10×10 ve 15×10 → 5** (kalp ikonu + sayı). X serbest ve hatalı doldurma
   kareyi açtığı için haklar az tutulur; tahmin pahalı kalsın.
-- Öğretici bölümlerde (1–2) hatalar kalp götürür ama **son kalp alınmaz**; bölüm kaybedilmez.
+- Öğretici bölümlerde (1–5) hatalar kalp götürür ama **son kalp alınmaz**; bölüm kaybedilmez.
 - Haklar bitince "Hakların bitti" popup'ı: (reklamlar açıkken) **Reklam izle → +1 hak** (bölüm kaldığı yerden devam eder)
   veya **Bölümü yeniden başlat**.
 
@@ -189,7 +200,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 
 | Bölümler | Harita | Izgara (satır × sütun) | Not |
 |---|---|---|---|
-| 1–10 | Gün Batımı Tepeleri | 5×5 | 1–2 öğretici |
+| 1–10 | Gün Batımı Tepeleri | 5×5 | 1–5 öğretici |
 | 11–20 | Gün Batımı Tepeleri | 10×5 / 5×10 | Çoklu ipuçları |
 | 21–100 | Kumsal → Altın Çöl | 10×10 | (Altın Çöl'ün sonunda 15×10 başlar) |
 | 101–200 | Karlı Zirveler → Yıldız Yolu | 10×10 → 15×10 | |
@@ -207,7 +218,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   resmi sığdığı en küçük izinli ızgaranın ortasına koyar, tek çözümlü değilse mümkün olan en az
   hücreyi değiştirerek mantıkla çözülebilir yapar ve her haritadaki resimleri boyut + çözücüye göre
   zorluk sırasıyla numaralar. `pinned: true` resimler haritanın başında yazıldığı sırayla kalır
-  (Bölüm 1–2 öğretici; `tutorial.dart` koordinatları bu resimlere bağlıdır).
+  (Bölüm 1–5 öğretici; `tutorial.dart` koordinatları bu resimlere bağlıdır).
   Yeni resim: ilgili `tool/art/wNN_*.dart` dosyasına ekle (`artLanguages` sırasıyla 38 dilde ad;
   11+ haritalar kısa `art(dünya, 'tr|en|…', [...])` biçimini kullanır), üreticiyi çalıştır.
 - **Zorluk artışı (11+ haritalar):** Izgara büyüyemediği için zorluk resmin kendisinden ve üreticinin

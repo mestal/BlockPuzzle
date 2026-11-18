@@ -271,30 +271,133 @@ class AppLocalizationsPt extends AppLocalizations {
   String get tutorialGotIt => 'Entendi';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'Lição $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'Vamos lá!';
+
+  @override
+  String get tutorialSkipTitle => 'Pular o tutorial?';
+
+  @override
+  String get tutorialSkipBody =>
+      'Pular só a lição desta fase ou o tutorial inteiro?';
+
+  @override
+  String get tutorialSkipLevel => 'Só esta fase';
+
+  @override
+  String get tutorialSkipAll => 'Pular tudo';
+
+  @override
+  String get tutorialWelcome =>
+      'Olá! Cada quebra-cabeça esconde uma imagem. Leia os números, preencha os quadrados certos e revele-a!';
+
+  @override
   String get tutorialL1Fill =>
-      'Os números dizem quantos quadrados da linha estão preenchidos. Aqui é 5, então os 5 quadrados estão preenchidos! Toque em um quadrado para preenchê-lo.';
+      '[5]: esta linha tem 5 quadrados preenchidos. Ela tem 5 quadrados, então todos estão preenchidos! Toque em um.';
 
   @override
   String get tutorialL1Drag =>
-      'Ótimo! Agora segure o dedo e deslize para preencher o resto da linha.';
+      'Ótimo! Agora deslize sem tirar o dedo para preencher o resto da linha.';
+
+  @override
+  String get tutorialL1Row =>
+      'Esta linha também é [5]. Desta vez, deslize de ponta a ponta de uma vez.';
+
+  @override
+  String get tutorialL1AutoCross =>
+      'Os [2] quadrados desta coluna foram achados, então os outros ganharam um X sozinhos. X quer dizer: vazio.';
 
   @override
   String get tutorialL1Column =>
-      'Esta coluna também é 5: deslize de cima para baixo.';
+      'Os números de cima são das colunas. Esta coluna é [5]: deslize de cima para baixo.';
+
+  @override
+  String get tutorialL1Count =>
+      'Esta linha precisa de [3] quadrados. Os X são vazios, então sobram exatamente 3. Preencha todos!';
 
   @override
   String get tutorialL1Finish =>
-      'Quando uma linha ou coluna termina, os outros quadrados ganham um X sozinhos. Termine o resto da imagem sozinho!';
+      'Termine a última linha sozinho e revele a imagem!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: dois grupos separados. 2 preenchidos, pelo menos 1 vazio, depois 2 preenchidos. 2 + 1 + 2 = 5: cabe certinho!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 quer dizer 2 quadrados preenchidos, pelo menos um espaço e depois mais 2 quadrados preenchidos. 2 + espaço + 2 = 5, então a linha está certa! Toque duas vezes no quadrado vazio para colocar um X.';
+      'Então o quadrado do meio é vazio. Toque duas vezes nele para pôr um X.';
 
   @override
   String get tutorialL2Drag =>
-      'Quadrados com o seu X são pulados ao deslizar. Deslize pela linha inteira para preenchê-la.';
+      'Um X é só uma anotação; não custa nada. Agora deslize pela linha: o X é pulado.';
 
   @override
-  String get tutorialL2Rules =>
-      'Preencher um quadrado errado custa 1 vida; os X são livres. Se travar, o botão Dica também explica o porquê. O resto é com você!';
+  String get tutorialL2CrossSelf =>
+      'A linha de baixo também é [2 2]. Sua vez: primeiro ponha um X no quadrado vazio.';
+
+  @override
+  String get tutorialL2DragSelf => 'Agora deslize para preencher a linha.';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'Cuidado: preencher um quadrado errado vira um X vermelho e custa um coração. Na dúvida, ponha um X primeiro!';
+
+  @override
+  String get tutorialL2Finish =>
+      'O resto é com você! Travou? Conte quantos quadrados ainda faltam numa linha.';
+
+  @override
+  String get tutorialL3Overlap =>
+      'Esta coluna é [4] e cabem 5. O bloco de 4 fica lá em cima ou lá embaixo. Nos dois casos, os 3 do meio estão preenchidos!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'Preencha esses quadrados certos. Esse truque se chama sobreposição: o segredo dos quebra-cabeças grandes!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'Esta coluna também é [4]. Encontre você os quadrados certos!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'E [3]? Encostado à esquerda ou à direita, o quadrado do meio está sempre preenchido. Preencha-o!';
+
+  @override
+  String get tutorialL3Finish =>
+      'Ótimo! Você vai usar muito esse truque nos quebra-cabeças grandes. Agora termine a imagem!';
+
+  @override
+  String get tutorialL4Ones =>
+      'As duas linhas de cima são [1 1 1]: três quadrados sozinhos com espaços entre eles. 1 + 1 + 1 + 1 + 1 = 5: cabem certinho!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'Estes dois quadrados são vazios. Toque duas vezes, mantenha o dedo no segundo toque e deslize para baixo: uma linha de X!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'Sua vez: desenhe X nos dois quadrados vazios desta coluna.';
+
+  @override
+  String get tutorialL4Erase =>
+      'X errado? Toque duas vezes nele de novo para tirá-lo. Deslizando com toque duplo a partir de um X, você apaga os X do caminho.';
+
+  @override
+  String get tutorialL4Finish => 'Isso! Agora complete a imagem.';
+
+  @override
+  String get tutorialL5Sum =>
+      'Última lição! Esta coluna é [3 1]: 3 + 1 + 1 = 5, então é certa. Resolva sozinho!';
+
+  @override
+  String get tutorialL5Hint =>
+      'Travou? Toque em Dica: ela mostra o próximo passo e explica por quê.';
+
+  @override
+  String get tutorialL5Finish =>
+      'Você está pronto! Nas grades grandes, linhas grossas separam a cada 5 quadrados para ajudar a contar. Termine a imagem!';
 }

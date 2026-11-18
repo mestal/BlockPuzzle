@@ -7,6 +7,7 @@ import 'package:block_puzzle/features/game/domain/hint.dart';
 import 'package:block_puzzle/features/game/domain/lives.dart';
 import 'package:block_puzzle/features/game/domain/puzzle.dart';
 import 'package:block_puzzle/features/game/domain/scoring.dart';
+import 'package:block_puzzle/features/game/domain/tutorial.dart';
 import 'package:block_puzzle/features/progress/slot_data.dart';
 import 'package:block_puzzle/features/progress/slots_controller.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -191,6 +192,11 @@ class GameController extends Notifier<GameState> {
     (s) => s.tutorials.contains(puzzle.id)
         ? s
         : s.copyWith(tutorials: {...s.tutorials, puzzle.id}),
+  );
+
+  /// Skips every tutorial lesson, not just this level's.
+  void skipAllTutorials() => _editSlot(
+    (s) => s.copyWith(tutorials: {...s.tutorials, ...Tutorial.levels}),
   );
 
   void grantHint() => _editSlot((s) => s.copyWith(hints: s.hints + 1));

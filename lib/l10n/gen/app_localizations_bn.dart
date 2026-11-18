@@ -272,29 +272,132 @@ class AppLocalizationsBn extends AppLocalizations {
   String get tutorialGotIt => 'বুঝেছি';
 
   @override
+  String tutorialLesson(int lesson, int count) {
+    return 'পাঠ $lesson/$count';
+  }
+
+  @override
+  String get tutorialStart => 'চলো শুরু করি!';
+
+  @override
+  String get tutorialSkipTitle => 'টিউটোরিয়াল এড়িয়ে যাবে?';
+
+  @override
+  String get tutorialSkipBody =>
+      'শুধু এই লেভেলের পাঠ এড়াবে, নাকি পুরো টিউটোরিয়াল?';
+
+  @override
+  String get tutorialSkipLevel => 'শুধু এই লেভেল';
+
+  @override
+  String get tutorialSkipAll => 'সব এড়িয়ে যাও';
+
+  @override
+  String get tutorialWelcome =>
+      'হ্যালো! প্রতিটি ধাঁধায় একটি ছবি লুকিয়ে আছে। সংখ্যা পড়ো, সঠিক ঘর ভরাট করো আর ছবিটা বের করো!';
+
+  @override
   String get tutorialL1Fill =>
-      'সংখ্যাগুলো বলে দেয় সেই সারিতে কতগুলো ঘর ভরাট। এই সারি বলছে 5, তাই 5টি ঘরই ভরাট! ঘর ভরাট করতে তাতে ট্যাপ করো।';
+      '[5]: এই সারিতে 5টি ভরাট ঘর। সারিটাও 5 ঘরের, তাই সবগুলোই ভরাট! একটিতে ট্যাপ করো।';
 
   @override
   String get tutorialL1Drag =>
-      'দারুণ! এবার আঙুল চেপে ধরে টেনে সারির বাকিটা ভরাট করো।';
+      'দারুণ! এবার আঙুল না তুলে টেনে বাকি সারিটা ভরাট করো।';
 
   @override
-  String get tutorialL1Column => 'এই কলামও বলছে 5: ওপর থেকে নিচে টেনে নাও।';
+  String get tutorialL1Row =>
+      'এই সারিটাও [5]। এবার এক টানে এক মাথা থেকে অন্য মাথা পর্যন্ত টানো।';
 
   @override
-  String get tutorialL1Finish =>
-      'কোনো সারি বা কলাম শেষ হলে তার বাকি ঘরগুলোতে নিজে থেকেই X পড়ে যায়। ছবির বাকিটা নিজেই শেষ করো!';
+  String get tutorialL1AutoCross =>
+      'এই কলামের [2]টি ঘর পাওয়া গেছে, তাই বাকিগুলোতে নিজে থেকেই X পড়েছে। X মানে: খালি।';
+
+  @override
+  String get tutorialL1Column =>
+      'ওপরের সংখ্যাগুলো কলামের জন্য। এই কলাম [5]: ওপর থেকে নিচে টানো।';
+
+  @override
+  String get tutorialL1Count =>
+      'এই সারিতে [3]টি ঘর দরকার। X দেওয়া ঘরগুলো খালি, তাই ঠিক 3টি ঘর বাকি। সবগুলো ভরাট করো!';
+
+  @override
+  String get tutorialL1Finish => 'শেষ সারিটা নিজেই শেষ করো আর ছবিটা বের করো!';
+
+  @override
+  String get tutorialL2Groups =>
+      '[2 2]: দুটি আলাদা দল। 2টি ভরাট, অন্তত 1টি খালি, তারপর 2টি ভরাট। 2 + 1 + 2 = 5: একদম মাপে মাপে!';
 
   @override
   String get tutorialL2Cross =>
-      '2 2 মানে 2টি ভরাট ঘর, অন্তত একটি ফাঁক, তারপর আরও 2টি ভরাট ঘর। 2 + ফাঁক + 2 = 5, তাই সারিটি নিশ্চিত! X দিতে খালি ঘরে ডাবল ট্যাপ করো।';
+      'তাহলে মাঝের ঘরটি খালি। ওতে ডাবল ট্যাপ করে X দাও।';
 
   @override
   String get tutorialL2Drag =>
-      'টানার সময় তোমার X দেওয়া ঘরগুলো বাদ পড়ে। পুরো সারি বরাবর টেনে সেটি ভরাট করো।';
+      'X শুধু একটা নোট, এর কোনো খরচ নেই। এবার সারি বরাবর টানো: X দেওয়া ঘর বাদ পড়ে।';
 
   @override
-  String get tutorialL2Rules =>
-      'ভুল ঘর ভরাট করলে 1টি জীবন যায়; X চিহ্ন বিনামূল্যে। আটকে গেলে সংকেত বোতাম কারণটাও বুঝিয়ে দেয়। বাকিটা তোমার হাতে!';
+  String get tutorialL2CrossSelf =>
+      'নিচের সারিটাও [2 2]। তোমার পালা: আগে খালি ঘরে X দাও।';
+
+  @override
+  String get tutorialL2DragSelf => 'এবার টেনে সারিটা ভরাট করো।';
+
+  @override
+  String get tutorialL2Mistakes =>
+      'সাবধান: ভুল ঘর ভরাট করলে সেটি লাল X হয়ে যায় আর একটি হৃদয় যায়। নিশ্চিত নও? আগে X দাও!';
+
+  @override
+  String get tutorialL2Finish =>
+      'বাকিটা তোমার! আটকে গেলে গুনে দেখো একটা লাইনে আর কত ঘর বাকি।';
+
+  @override
+  String get tutorialL3Overlap =>
+      'এই কলাম [4], জায়গা 5 ঘরের। 4-এর ব্লকটি হয় একদম ওপরে, নয়তো একদম নিচে। দুই ক্ষেত্রেই মাঝের 3টি ঘর ভরাট!';
+
+  @override
+  String get tutorialL3OverlapFill =>
+      'এই নিশ্চিত ঘরগুলো ভরাট করো। এই কৌশলের নাম ওভারল্যাপ: বড় ধাঁধার রহস্য!';
+
+  @override
+  String get tutorialL3OverlapSelf =>
+      'এই কলামও [4]। নিশ্চিত ঘরগুলো নিজেই খোঁজো!';
+
+  @override
+  String get tutorialL3OverlapRow =>
+      'আর [3]? বাঁয়ে সরুক বা ডানে, মাঝের ঘরটি সবসময় ভরাট। ওটা ভরাট করো!';
+
+  @override
+  String get tutorialL3Finish =>
+      'চমৎকার! বড় ধাঁধায় এই কৌশল অনেক কাজে লাগবে। এবার ছবিটা শেষ করো!';
+
+  @override
+  String get tutorialL4Ones =>
+      'ওপরের দুই সারি [1 1 1]: তিনটি একক ঘর, মাঝে ফাঁক। 1 + 1 + 1 + 1 + 1 = 5: একদম মাপে মাপে!';
+
+  @override
+  String get tutorialL4CrossDrag =>
+      'এই দুটি ঘর খালি। ডাবল ট্যাপ করো, দ্বিতীয় ট্যাপে আঙুল চেপে রেখে নিচে টানো: X-এর লাইন!';
+
+  @override
+  String get tutorialL4CrossDragSelf =>
+      'তোমার পালা: এই কলামের দুটি খালি ঘরে X আঁকো।';
+
+  @override
+  String get tutorialL4Erase =>
+      'ভুল X দিয়েছ? ওতে আবার ডাবল ট্যাপ করো, মুছে যাবে। X থেকে ডাবল ট্যাপ করে টানলে পথের X-গুলো মুছে যায়।';
+
+  @override
+  String get tutorialL4Finish => 'দারুণ! এবার ছবিটা শেষ করো।';
+
+  @override
+  String get tutorialL5Sum =>
+      'শেষ পাঠ! এই কলাম [3 1]: 3 + 1 + 1 = 5, তাই নিশ্চিত। নিজেই সমাধান করো!';
+
+  @override
+  String get tutorialL5Hint =>
+      'আটকে গেলে সংকেত চাপো: এটি পরের ধাপ আর তার কারণ দেখায়।';
+
+  @override
+  String get tutorialL5Finish =>
+      'তুমি তৈরি! বড় গ্রিডে মোটা রেখা প্রতি 5 ঘর আলাদা করে, তাই গোনা সহজ। ছবিটা শেষ করো!';
 }
