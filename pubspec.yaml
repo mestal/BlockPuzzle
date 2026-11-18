@@ -36,6 +36,15 @@ flutter:
   fonts:
     # Fredoka lacks Latin Extended (ş, ğ, İ, ș, ...); Nunito is its rounded
     # fallback so those letters match instead of using the system font.
+    # Static instances (tool/make_fallback_fonts.py): Flutter ignores the
+    # wght axis of a variable font and would draw Nunito ExtraLight.
     - family: Nunito
       fonts:
-        - asset: assets/fonts/Nunito.ttf
+        - asset: assets/fonts/Nunito-400.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito-500.ttf
+          weight: 500
+        - asset: assets/fonts/Nunito-600.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-700.ttf
+          weight: 700

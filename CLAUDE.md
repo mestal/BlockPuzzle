@@ -193,7 +193,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - `supportedLanguages` dillerin kendi adlarının kod noktası sırasındadır (önce Latin — `Čeština`
   gibi aksanlı büyük harfle başlayanlar Latin'in sonunda —, sonra Yunan, Kiril, Arap, Devanagari,
   Bengal, Gurmukhi, Tamil, Telugu, Tay, CJK, Hangul); menü bu sırayı kullanır, test sırayı doğrular.
-- Fredoka yalnızca temel Latin harflerini kapsar (ş, ğ, İ, ș… yok); eksik harfler pakete dahil **Nunito** (`assets/fonts`, `fontFamilyFallback`) ile çizilir. Diğer yazılar sistem fontuna düşer.
+- Fredoka yalnızca temel Latin harflerini kapsar (ş, ğ, İ, ș… yok); eksik harfler pakete dahil **Nunito** (`assets/fonts`, `fontFamilyFallback`) ile çizilir. Nunito, Fredoka ağırlıklarıyla eşleşen **sabit** örneklerdir (`python tool/make_fallback_fonts.py`); Flutter değişken fontun `wght` eksenini uygulamaz, ince (ExtraLight) çizerdi. Diğer yazılar sistem fontuna düşer.
 - Bölüm ve harita adları JSON'da dil haritasıdır: `"name": {"tr": "...", "en": "...", ...}`
   (`LocalizedText`). Testler her dilin ARB anahtarlarını ve tüm adların çevirisini doğrular.
 
