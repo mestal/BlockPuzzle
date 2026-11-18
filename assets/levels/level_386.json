@@ -1,6 +1,6 @@
 {
   "id": 386,
-  "name": {"de": "Elefant", "en": "Elephant", "es": "Elefante", "fr": "Éléphant", "it": "Elefante", "pl": "Słoń", "pt": "Elefante", "tr": "Fil", "el": "Ελέφαντας", "bg": "Слон", "ru": "Слон", "ar": "فيل", "hi": "हाथी", "zh": "大象", "ja": "ゾウ", "ko": "코끼리"},
+  "name": {"id": "Gajah", "ms": "Gajah", "da": "Elefant", "de": "Elefant", "en": "Elephant", "es": "Elefante", "fil": "Elepante", "fr": "Éléphant", "it": "Elefante", "sw": "Tembo", "hu": "Elefánt", "nl": "Olifant", "nb": "Elefant", "pl": "Słoń", "pt": "Elefante", "ro": "Elefant", "fi": "Norsu", "sv": "Elefant", "vi": "Con voi", "tr": "Fil", "cs": "Slon", "el": "Ελέφαντας", "bg": "Слон", "ru": "Слон", "uk": "Слон", "ur": "ہاتھی", "ar": "فيل", "fa": "فیل", "mr": "हत्ती", "hi": "हाथी", "bn": "হাতি", "pa": "ਹਾਥੀ", "ta": "யானை", "te": "ఏనుగు", "th": "ช้าง", "zh": "大象", "ja": "ゾウ", "ko": "코끼리"},
   "solution": ["..####....", ".########.", "#.##..####", "####..####", "#.########", "#..#######", "#..##..##.", "##.##..##.", "...##..##.", "#........."],
   "colors":   ["..EEEE....", ".EEEEEEEE.", "E.EE..EEEE", "EEEE..EEEE", "E.EEEEEEEE", "E..EEEEEEE", "E..EE..EE.", "EE.EE..EE.", "...EE..EE.", "Y........."],
   "palette":  { "E": "#94A3B8", "Y": "#FACC15" }

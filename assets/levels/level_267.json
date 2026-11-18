@@ -1,6 +1,6 @@
 {
   "id": 267,
-  "name": {"de": "Ente", "en": "Duck", "es": "Pato", "fr": "Canard", "it": "Anatra", "pl": "Kaczka", "pt": "Pato", "tr": "Ördek", "el": "Πάπια", "bg": "Патица", "ru": "Утка", "ar": "بطة", "hi": "बत्तख", "zh": "鸭子", "ja": "アヒル", "ko": "오리"},
+  "name": {"id": "Bebek", "ms": "Itik", "da": "And", "de": "Ente", "en": "Duck", "es": "Pato", "fil": "Pato", "fr": "Canard", "it": "Anatra", "sw": "Bata", "hu": "Kacsa", "nl": "Eend", "nb": "And", "pl": "Kaczka", "pt": "Pato", "ro": "Rață", "fi": "Ankka", "sv": "Anka", "vi": "Con vịt", "tr": "Ördek", "cs": "Kachna", "el": "Πάπια", "bg": "Патица", "ru": "Утка", "uk": "Качка", "ur": "بطخ", "ar": "بطة", "fa": "اردک", "mr": "बदक", "hi": "बत्तख", "bn": "হাঁস", "pa": "ਬੱਤਖ਼", "ta": "வாத்து", "te": "బాతు", "th": "เป็ด", "zh": "鸭子", "ja": "アヒル", "ko": "오리"},
   "solution": ["#..###..#.", "..#####...", "..##.####.", "..########", "#..####...", "....##..#.", "#..####...", "#########.", "##########", "##########", ".########.", "..######..", "...#..#...", "..##.##.#.", "#........."],
   "colors":   ["Y..YYY..Y.", "..YYYYY...", "..YY.YYOO.", "..YYYYYOOO", "Y..YYYY...", "....YY..Y.", "Y..YYYY...", "YYYYYYYYY.", "YYYYYYYYYY", "YYYAAAYYYY", ".YYYAAYYY.", "..YYYYYY..", "...O..O...", "..OO.OO.Y.", "Y........."],
   "palette":  { "A": "#F59E0B", "O": "#F97316", "Y": "#FACC15" }

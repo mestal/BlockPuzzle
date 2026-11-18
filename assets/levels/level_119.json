@@ -1,6 +1,6 @@
 {
   "id": 119,
-  "name": {"de": "Husky", "en": "Husky", "es": "Husky", "fr": "Husky", "it": "Husky", "pl": "Husky", "pt": "Husky", "tr": "Husky", "el": "Χάσκι", "bg": "Хъски", "ru": "Хаски", "ar": "هاسكي", "hi": "हस्की", "zh": "哈士奇", "ja": "ハスキー", "ko": "허스키"},
+  "name": {"id": "Husky", "ms": "Husky", "da": "Husky", "de": "Husky", "en": "Husky", "es": "Husky", "fil": "Husky", "fr": "Husky", "it": "Husky", "sw": "Mbwa husky", "hu": "Husky", "nl": "Husky", "nb": "Husky", "pl": "Husky", "pt": "Husky", "ro": "Husky", "fi": "Husky", "sv": "Husky", "vi": "Chó Husky", "tr": "Husky", "cs": "Husky", "el": "Χάσκι", "bg": "Хъски", "ru": "Хаски", "uk": "Хаскі", "ur": "ہسکی", "ar": "هاسكي", "fa": "هاسکی", "mr": "हस्की", "hi": "हस्की", "bn": "হাস্কি", "pa": "ਹਸਕੀ", "ta": "ஹஸ்கி", "te": "హస్కీ", "th": "ฮัสกี้", "zh": "哈士奇", "ja": "ハスキー", "ko": "허스키"},
   "solution": ["..........", "##.......#", "##......##", "###....###", "##########", "##########", "##########", "##########", ".########.", "..######..", "..######..", "...####...", "....##....", "..........", ".........."],
   "colors":   ["..........", "EE.......E", "EE......EE", "EEE....EEE", "EEEEEEEEEE", "EWWEEEEWWE", "WBKWEEWKBW", "WWWWEEWWWW", ".WWWWWWWW.", "..WWKKWW..", "..WWWWWW..", "...WRRW...", "....WW....", "..........", ".........."],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF" }

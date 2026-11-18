@@ -1,6 +1,6 @@
 {
   "id": 86,
-  "name": {"de": "Kompass", "en": "Compass", "es": "Brújula", "fr": "Boussole", "it": "Bussola", "pl": "Kompas", "pt": "Bússola", "tr": "Pusula", "el": "Πυξίδα", "bg": "Компас", "ru": "Компас", "ar": "بوصلة", "hi": "कंपास", "zh": "指南针", "ja": "コンパス", "ko": "나침반"},
+  "name": {"id": "Kompas", "ms": "Kompas", "da": "Kompas", "de": "Kompass", "en": "Compass", "es": "Brújula", "fil": "Kompas", "fr": "Boussole", "it": "Bussola", "sw": "Dira", "hu": "Iránytű", "nl": "Kompas", "nb": "Kompass", "pl": "Kompas", "pt": "Bússola", "ro": "Busolă", "fi": "Kompassi", "sv": "Kompass", "vi": "La bàn", "tr": "Pusula", "cs": "Kompas", "el": "Πυξίδα", "bg": "Компас", "ru": "Компас", "uk": "Компас", "ur": "قطب نما", "ar": "بوصلة", "fa": "قطب‌نما", "mr": "होकायंत्र", "hi": "कंपास", "bn": "কম্পাস", "pa": "ਕੰਪਾਸ", "ta": "திசைகாட்டி", "te": "దిక్సూచి", "th": "เข็มทิศ", "zh": "指南针", "ja": "コンパス", "ko": "나침반"},
   "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", "...####..."],
   "colors":   ["...AAAA...", "..ALLLLA..", ".ALLRLLLA.", "ALLLRRLLLA", "ALLLRRLLLA", "ALLLKKLLLA", "ALLLEELLLA", ".ALLLELLA.", "..ALLLLA..", "...AAAA..."],
   "palette":  { "A": "#F59E0B", "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0", "R": "#E8453C" }

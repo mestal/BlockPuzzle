@@ -1,6 +1,6 @@
 {
   "id": 91,
-  "name": {"de": "Wüstenfuchs", "en": "Fennec fox", "es": "Fénec", "fr": "Fennec", "it": "Fennec", "pl": "Fenek", "pt": "Feneco", "tr": "Çöl tilkisi", "el": "Φενέκ", "bg": "Фенек", "ru": "Фенек", "ar": "ثعلب الفنك", "hi": "फेनेक लोमड़ी", "zh": "耳廓狐", "ja": "フェネック", "ko": "사막여우"},
+  "name": {"id": "Rubah fenek", "ms": "Musang fenek", "da": "Ørkenræv", "de": "Wüstenfuchs", "en": "Fennec fox", "es": "Fénec", "fil": "Soro ng disyerto", "fr": "Fennec", "it": "Fennec", "sw": "Mbweha wa jangwani", "hu": "Sivatagi róka", "nl": "Woestijnvos", "nb": "Ørkenrev", "pl": "Fenek", "pt": "Feneco", "ro": "Fenec", "fi": "Aavikkokettu", "sv": "Ökenräv", "vi": "Cáo sa mạc", "tr": "Çöl tilkisi", "cs": "Fenek", "el": "Φενέκ", "bg": "Фенек", "ru": "Фенек", "uk": "Фенек", "ur": "صحرائی لومڑی", "ar": "ثعلب الفنك", "fa": "روباه فنک", "mr": "वाळवंटी कोल्हा", "hi": "फेनेक लोमड़ी", "bn": "মরু শিয়াল", "pa": "ਮਾਰੂਥਲੀ ਲੂੰਬੜੀ", "ta": "பாலைவன நரி", "te": "ఎడారి నక్క", "th": "หมาจิ้งจอกทะเลทราย", "zh": "耳廓狐", "ja": "フェネック", "ko": "사막여우"},
   "solution": ["#........#", "##......##", "###....###", "####..####", "##########", ".########.", ".########.", "..######..", "...####...", "....##...."],
   "colors":   ["S........S", "SS......SS", "SFS....SFS", "SFSS..SSFS", "SSSSSSSSSS", ".SKSSSSKS.", ".SSSSSSSS.", "..SWWWWS..", "...WKKW...", "....WW...."],
   "palette":  { "F": "#FBCFA5", "K": "#1F2937", "S": "#FDE68A", "W": "#FFFFFF" }

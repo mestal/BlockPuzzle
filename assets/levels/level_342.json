@@ -1,6 +1,6 @@
 {
   "id": 342,
-  "name": {"de": "Kolosseum", "en": "Colosseum", "es": "Coliseo", "fr": "Colisée", "it": "Colosseo", "pl": "Koloseum", "pt": "Coliseu", "tr": "Kolezyum", "el": "Κολοσσαίο", "bg": "Колизеум", "ru": "Колизей", "ar": "الكولوسيوم", "hi": "कोलोसियम", "zh": "罗马斗兽场", "ja": "コロッセオ", "ko": "콜로세움"},
+  "name": {"id": "Koloseum", "ms": "Colosseum", "da": "Colosseum", "de": "Kolosseum", "en": "Colosseum", "es": "Coliseo", "fil": "Colosseum", "fr": "Colisée", "it": "Colosseo", "sw": "Kolosiamu", "hu": "Colosseum", "nl": "Colosseum", "nb": "Colosseum", "pl": "Koloseum", "pt": "Coliseu", "ro": "Colosseum", "fi": "Colosseum", "sv": "Colosseum", "vi": "Đấu trường La Mã", "tr": "Kolezyum", "cs": "Koloseum", "el": "Κολοσσαίο", "bg": "Колизеум", "ru": "Колизей", "uk": "Колізей", "ur": "کولوسیم", "ar": "الكولوسيوم", "fa": "کولوسئوم", "mr": "कोलोसियम", "hi": "कोलोसियम", "bn": "কলোসিয়াম", "pa": "ਕੋਲੋਸੀਅਮ", "ta": "கொலோசியம்", "te": "కొలోసియం", "th": "โคลอสเซียม", "zh": "罗马斗兽场", "ja": "コロッセオ", "ko": "콜로세움"},
   "solution": ["######....", "#.#.#.#..#", "#.#.#.##..", "#########.", "#.#.#.#.##", "#.#.#.#.##", "##########", "#.#.#.#.##", "#.#.#.#.##", "##########"],
   "colors":   ["EEEEEE....", "E.E.E.E..Y", "E.E.E.EE..", "EEEEEEEEE.", "E.E.E.E.EE", "E.E.E.E.EE", "EEEEEEEEEE", "E.E.E.E.EE", "E.E.E.E.EE", "EEEEEEEEEE"],
   "palette":  { "E": "#94A3B8", "Y": "#FACC15" }

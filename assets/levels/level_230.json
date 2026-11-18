@@ -1,6 +1,6 @@
 {
   "id": 230,
-  "name": {"de": "Fernseher", "en": "Television", "es": "Televisión", "fr": "Télévision", "it": "Televisione", "pl": "Telewizor", "pt": "Televisão", "tr": "Televizyon", "el": "Τηλεόραση", "bg": "Телевизор", "ru": "Телевизор", "ar": "تلفاز", "hi": "टेलीविज़न", "zh": "电视", "ja": "テレビ", "ko": "텔레비전"},
+  "name": {"id": "Televisi", "ms": "Televisyen", "da": "Fjernsyn", "de": "Fernseher", "en": "Television", "es": "Televisión", "fil": "Telebisyon", "fr": "Télévision", "it": "Televisione", "sw": "Televisheni", "hu": "Televízió", "nl": "Televisie", "nb": "TV", "pl": "Telewizor", "pt": "Televisão", "ro": "Televizor", "fi": "Televisio", "sv": "Tv", "vi": "Ti vi", "tr": "Televizyon", "cs": "Televize", "el": "Τηλεόραση", "bg": "Телевизор", "ru": "Телевизор", "uk": "Телевізор", "ur": "ٹیلی وژن", "ar": "تلفاز", "fa": "تلویزیون", "mr": "दूरदर्शन", "hi": "टेलीविज़न", "bn": "টেলিভিশন", "pa": "ਟੈਲੀਵਿਜ਼ਨ", "ta": "தொலைக்காட்சி", "te": "టెలివిజన్", "th": "โทรทัศน์", "zh": "电视", "ja": "テレビ", "ko": "텔레비전"},
   "solution": ["..##......", "...#.#....", "....#.....", "#########.", "#.....###.", "#.#...###.", "#.....###.", "#.....###.", "#########.", ".#.....#.."],
   "colors":   ["..KK......", "...K.K....", "....K.....", "TTTTTTTTT.", "T.....TTT.", "T.W...TET.", "T.....TTT.", "T.....TET.", "TTTTTTTTT.", ".T.....T.."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937", "T": "#92400E", "W": "#FFFFFF" }

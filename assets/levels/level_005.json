@@ -1,6 +1,6 @@
 {
   "id": 5,
-  "name": {"de": "Pokal", "en": "Trophy", "es": "Copa", "fr": "Coupe", "it": "Coppa", "pl": "Puchar", "pt": "Troféu", "tr": "Kupa", "el": "Τρόπαιο", "bg": "Трофей", "ru": "Кубок", "ar": "كأس", "hi": "ट्रॉफी", "zh": "奖杯", "ja": "トロフィー", "ko": "트로피"},
+  "name": {"id": "Piala", "ms": "Trofi", "da": "Pokal", "de": "Pokal", "en": "Trophy", "es": "Copa", "fil": "Tropeo", "fr": "Coupe", "it": "Coppa", "sw": "Kombe", "hu": "Kupa", "nl": "Trofee", "nb": "Pokal", "pl": "Puchar", "pt": "Troféu", "ro": "Trofeu", "fi": "Pokaali", "sv": "Pokal", "vi": "Cúp", "tr": "Kupa", "cs": "Pohár", "el": "Τρόπαιο", "bg": "Трофей", "ru": "Кубок", "uk": "Кубок", "ur": "ٹرافی", "ar": "كأس", "fa": "جام", "mr": "चषक", "hi": "ट्रॉफी", "bn": "ট্রফি", "pa": "ਟਰਾਫ਼ੀ", "ta": "கோப்பை", "te": "ట్రోఫీ", "th": "ถ้วยรางวัล", "zh": "奖杯", "ja": "トロフィー", "ko": "트로피"},
   "solution": ["#####", "#####", ".###.", "..#..", ".###."],
   "colors":   ["AYAAA", "AAAAA", ".AAA.", "..T..", ".TTT."],
   "palette":  { "A": "#F59E0B", "T": "#92400E", "Y": "#FACC15" }

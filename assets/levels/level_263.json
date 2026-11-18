@@ -1,6 +1,6 @@
 {
   "id": 263,
-  "name": {"de": "Kuh", "en": "Cow", "es": "Vaca", "fr": "Vache", "it": "Mucca", "pl": "Krowa", "pt": "Vaca", "tr": "İnek", "el": "Αγελάδα", "bg": "Крава", "ru": "Корова", "ar": "بقرة", "hi": "गाय", "zh": "奶牛", "ja": "ウシ", "ko": "젖소"},
+  "name": {"id": "Sapi", "ms": "Lembu", "da": "Ko", "de": "Kuh", "en": "Cow", "es": "Vaca", "fil": "Baka", "fr": "Vache", "it": "Mucca", "sw": "Ng’ombe", "hu": "Tehén", "nl": "Koe", "nb": "Ku", "pl": "Krowa", "pt": "Vaca", "ro": "Vacă", "fi": "Lehmä", "sv": "Ko", "vi": "Con bò", "tr": "İnek", "cs": "Kráva", "el": "Αγελάδα", "bg": "Крава", "ru": "Корова", "uk": "Корова", "ur": "گائے", "ar": "بقرة", "fa": "گاو", "mr": "गाय", "hi": "गाय", "bn": "গরু", "pa": "ਗਾਂ", "ta": "பசு", "te": "ఆవు", "th": "วัว", "zh": "奶牛", "ja": "ウシ", "ko": "젖소"},
   "solution": ["...#......", ".#......#.", ".##....##.", "..######..", "##########", ".########.", ".#.####.#.", ".########.", "..######..", ".########.", "##.####.##", "##########", ".########.", "..######..", "#........#"],
   "colors":   ["...Y......", ".E......E.", ".EE....EE.", "..WKKWWW..", "KKWKKWWWKK", ".KWWWWWKW.", ".W.WWWW.W.", ".WWWWWWWW.", "..WWWWWW..", ".JJJJJJJJ.", "JJ.JJJJ.JJ", "JJJJJJJJJJ", ".JJJJJJJJ.", "..JJJJJJ..", "Y........Y"],
   "palette":  { "E": "#94A3B8", "J": "#FBCFE8", "K": "#1F2937", "W": "#FFFFFF", "Y": "#FACC15" }

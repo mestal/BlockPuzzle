@@ -1,6 +1,6 @@
 {
   "id": 26,
-  "name": {"de": "Eis am Stiel", "en": "Ice pop", "es": "Polo helado", "fr": "Glace à l’eau", "it": "Ghiacciolo", "pl": "Lód na patyku", "pt": "Picolé", "tr": "Buzlu şeker", "el": "Παγωτό ξυλάκι", "bg": "Ледена близалка", "ru": "Фруктовый лёд", "ar": "مصاصة مثلجة", "hi": "आइस कैंडी", "zh": "冰棍", "ja": "アイスキャンディー", "ko": "아이스바"},
+  "name": {"id": "Es lilin", "ms": "Aiskrim batang", "da": "Ispind", "de": "Eis am Stiel", "en": "Ice pop", "es": "Polo helado", "fil": "Ice candy", "fr": "Glace à l’eau", "it": "Ghiacciolo", "sw": "Barafu ya kijiti", "hu": "Jégkrém pálcikán", "nl": "Waterijsje", "nb": "Ispinne", "pl": "Lód na patyku", "pt": "Picolé", "ro": "Înghețată pe băț", "fi": "Mehujää", "sv": "Isglass", "vi": "Kem que", "tr": "Buzlu şeker", "cs": "Nanuk", "el": "Παγωτό ξυλάκι", "bg": "Ледена близалка", "ru": "Фруктовый лёд", "uk": "Фруктовий лід", "ur": "قلفی", "ar": "مصاصة مثلجة", "fa": "بستنی یخی", "mr": "कांडी आइस्क्रीम", "hi": "आइस कैंडी", "bn": "কাঠি আইসক্রিম", "pa": "ਕੁਲਫ਼ੀ", "ta": "குச்சி ஐஸ்", "te": "ఐస్ పుల్ల", "th": "ไอติมแท่ง", "zh": "冰棍", "ja": "アイスキャンディー", "ko": "아이스바"},
   "solution": ["..........", "...####...", "..######..", "..######..", "..######..", "..######..", "..######..", "....##....", "....##....", ".........."],
   "colors":   ["..........", "...PPPP...", "..PPPPPP..", "..PJPPPP..", "..PJPPPP..", "..PPPPPP..", "..PPPPPP..", "....TT....", "....TT....", ".........."],
   "palette":  { "J": "#FBCFE8", "P": "#F472B6", "T": "#92400E" }

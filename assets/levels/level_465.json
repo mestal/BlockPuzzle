@@ -1,6 +1,6 @@
 {
   "id": 465,
-  "name": {"de": "Fußball", "en": "Soccer ball", "es": "Balón de fútbol", "fr": "Ballon de foot", "it": "Pallone da calcio", "pl": "Piłka nożna", "pt": "Bola de futebol", "tr": "Futbol topu", "el": "Μπάλα ποδοσφαίρου", "bg": "Футболна топка", "ru": "Футбольный мяч", "ar": "كرة قدم", "hi": "फ़ुटबॉल", "zh": "足球", "ja": "サッカーボール", "ko": "축구공"},
+  "name": {"id": "Bola sepak", "ms": "Bola sepak", "da": "Fodbold", "de": "Fußball", "en": "Soccer ball", "es": "Balón de fútbol", "fil": "Bola ng soccer", "fr": "Ballon de foot", "it": "Pallone da calcio", "sw": "Mpira wa miguu", "hu": "Focilabda", "nl": "Voetbal", "nb": "Fotball", "pl": "Piłka nożna", "pt": "Bola de futebol", "ro": "Minge de fotbal", "fi": "Jalkapallo", "sv": "Fotboll", "vi": "Quả bóng đá", "tr": "Futbol topu", "cs": "Fotbalový míč", "el": "Μπάλα ποδοσφαίρου", "bg": "Футболна топка", "ru": "Футбольный мяч", "uk": "Футбольний м’яч", "ur": "فٹ بال", "ar": "كرة قدم", "fa": "توپ فوتبال", "mr": "फुटबॉल", "hi": "फ़ुटबॉल", "bn": "ফুটবল", "pa": "ਫੁੱਟਬਾਲ", "ta": "கால்பந்து", "te": "ఫుట్‌బాల్", "th": "ลูกฟุตบอล", "zh": "足球", "ja": "サッカーボール", "ko": "축구공"},
   "solution": ["#.......#.", "...####...", "..##..##..", ".##.##.##.", ".#.####.#.", ".#.####.#.", ".##.##.##.", "..##..##..", "...####...", "#.......#."],
   "colors":   ["Y.......Y.", "...WWWW...", "..WW..WW..", ".WW.WW.WW.", ".W.WWWW.W.", ".W.WWWW.W.", ".WW.WW.WW.", "..WW..WW..", "...WWWW...", "Y.......Y."],
   "palette":  { "W": "#FFFFFF", "Y": "#FACC15" }

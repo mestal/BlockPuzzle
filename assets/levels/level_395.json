@@ -1,6 +1,6 @@
 {
   "id": 395,
-  "name": {"de": "Giraffe", "en": "Giraffe", "es": "Jirafa", "fr": "Girafe", "it": "Giraffa", "pl": "Żyrafa", "pt": "Girafa", "tr": "Zürafa", "el": "Καμηλοπάρδαλη", "bg": "Жираф", "ru": "Жираф", "ar": "زرافة", "hi": "जिराफ़", "zh": "长颈鹿", "ja": "キリン", "ko": "기린"},
+  "name": {"id": "Jerapah", "ms": "Zirafah", "da": "Giraf", "de": "Giraffe", "en": "Giraffe", "es": "Jirafa", "fil": "Hirapa", "fr": "Girafe", "it": "Giraffa", "sw": "Twiga", "hu": "Zsiráf", "nl": "Giraffe", "nb": "Sjiraff", "pl": "Żyrafa", "pt": "Girafa", "ro": "Girafă", "fi": "Kirahvi", "sv": "Giraff", "vi": "Hươu cao cổ", "tr": "Zürafa", "cs": "Žirafa", "el": "Καμηλοπάρδαλη", "bg": "Жираф", "ru": "Жираф", "uk": "Жирафа", "ur": "زرافہ", "ar": "زرافة", "fa": "زرافه", "mr": "जिराफ", "hi": "जिराफ़", "bn": "জিরাফ", "pa": "ਜਿਰਾਫ਼", "ta": "ஒட்டகச்சிவிங்கி", "te": "జిరాఫీ", "th": "ยีราฟ", "zh": "长颈鹿", "ja": "キリン", "ko": "기린"},
   "solution": ["......#.#.", "......###.", "......#.##", "......####", ".....##...", ".#...##...", "....##....", "....##....", "...##.....", ".#######..", "#########.", "#########.", ".#.#..#.#.", ".#.#..#.#.", ".#.#..#.#."],
   "colors":   ["......H.H.", "......AAA.", "......A.AA", "......AAAH", ".....AA...", ".Y...AH...", "....AA....", "....HA....", "...AA.....", ".AAAHAAA..", "AHAAAAHAA.", "AAAAHAAAA.", ".A.A..A.A.", ".A.A..A.A.", ".H.H..H.H."],
   "palette":  { "A": "#F59E0B", "H": "#5B3410", "Y": "#FACC15" }

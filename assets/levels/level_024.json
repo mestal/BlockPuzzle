@@ -1,6 +1,6 @@
 {
   "id": 24,
-  "name": {"de": "Sandburg", "en": "Sandcastle", "es": "Castillo de arena", "fr": "Château de sable", "it": "Castello di sabbia", "pl": "Zamek z piasku", "pt": "Castelo de areia", "tr": "Kumdan kale", "el": "Κάστρο στην άμμο", "bg": "Пясъчен замък", "ru": "Замок из песка", "ar": "قلعة رملية", "hi": "रेत का किला", "zh": "沙堡", "ja": "砂の城", "ko": "모래성"},
+  "name": {"id": "Istana pasir", "ms": "Istana pasir", "da": "Sandslot", "de": "Sandburg", "en": "Sandcastle", "es": "Castillo de arena", "fil": "Kastilyong buhangin", "fr": "Château de sable", "it": "Castello di sabbia", "sw": "Kasri la mchanga", "hu": "Homokvár", "nl": "Zandkasteel", "nb": "Sandslott", "pl": "Zamek z piasku", "pt": "Castelo de areia", "ro": "Castel de nisip", "fi": "Hiekkalinna", "sv": "Sandslott", "vi": "Lâu đài cát", "tr": "Kumdan kale", "cs": "Hrad z písku", "el": "Κάστρο στην άμμο", "bg": "Пясъчен замък", "ru": "Замок из песка", "uk": "Піщаний замок", "ur": "ریت کا قلعہ", "ar": "قلعة رملية", "fa": "قلعه شنی", "mr": "वाळूचा किल्ला", "hi": "रेत का किला", "bn": "বালির দুর্গ", "pa": "ਰੇਤ ਦਾ ਕਿਲ੍ਹਾ", "ta": "மணல் கோட்டை", "te": "ఇసుక కోట", "th": "ปราสาททราย", "zh": "沙堡", "ja": "砂の城", "ko": "모래성"},
   "solution": ["..........", ".#.#.#.#..", ".#######..", "..#####...", "..#####...", "..#####...", "..#####...", ".#######..", "..........", ".........."],
   "colors":   ["..........", ".S.S.S.S..", ".SSSSSSS..", "..SSSSS...", "..STSTS...", "..SSSSS...", "..SSTSS...", ".SSSTSSS..", "..........", ".........."],
   "palette":  { "S": "#FDE68A", "T": "#92400E" }

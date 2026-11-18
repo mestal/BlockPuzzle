@@ -1,6 +1,6 @@
 {
   "id": 88,
-  "name": {"de": "Tonkrug", "en": "Clay jug", "es": "Cántaro", "fr": "Cruche", "it": "Brocca", "pl": "Gliniany dzban", "pt": "Jarro de barro", "tr": "Testi", "el": "Πήλινη κανάτα", "bg": "Глинена стомна", "ru": "Глиняный кувшин", "ar": "جرة فخار", "hi": "सुराही", "zh": "陶罐", "ja": "土のつぼ", "ko": "항아리"},
+  "name": {"id": "Kendi tanah liat", "ms": "Kendi tanah liat", "da": "Lerkrukke", "de": "Tonkrug", "en": "Clay jug", "es": "Cántaro", "fil": "Banga", "fr": "Cruche", "it": "Brocca", "sw": "Mtungi", "hu": "Agyagkancsó", "nl": "Kruik", "nb": "Leirkrukke", "pl": "Gliniany dzban", "pt": "Jarro de barro", "ro": "Ulcior", "fi": "Saviruukku", "sv": "Lerkruka", "vi": "Bình đất sét", "tr": "Testi", "cs": "Džbán", "el": "Πήλινη κανάτα", "bg": "Глинена стомна", "ru": "Глиняный кувшин", "uk": "Глечик", "ur": "مٹی کا گھڑا", "ar": "جرة فخار", "fa": "کوزه سفالی", "mr": "मातीचा घडा", "hi": "सुराही", "bn": "মাটির কলসি", "pa": "ਮਿੱਟੀ ਦਾ ਘੜਾ", "ta": "மண் குடம்", "te": "మట్టి కుండ", "th": "เหยือกดินเผา", "zh": "陶罐", "ja": "土のつぼ", "ko": "항아리"},
   "solution": ["...####...", "....##....", "...####...", "..######..", ".########.", ".########.", ".########.", "..######..", "...####...", "..######.."],
   "colors":   ["...TTTT...", "....TT....", "...TTTT...", "..TTTTTT..", ".THHHHHHT.", ".TTTTTTTT.", ".THTHTHTT.", "..TTTTTT..", "...TTTT...", "..TTTTTT.."],
   "palette":  { "H": "#5B3410", "T": "#92400E" }

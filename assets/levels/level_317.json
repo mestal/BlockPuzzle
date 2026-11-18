@@ -1,6 +1,6 @@
 {
   "id": 317,
-  "name": {"de": "Turm", "en": "Tower", "es": "Torre", "fr": "Tour", "it": "Torre", "pl": "Wieża", "pt": "Torre", "tr": "Kule", "el": "Πύργος", "bg": "Кула", "ru": "Башня", "ar": "برج", "hi": "मीनार", "zh": "高塔", "ja": "塔", "ko": "탑"},
+  "name": {"id": "Menara", "ms": "Menara", "da": "Tårn", "de": "Turm", "en": "Tower", "es": "Torre", "fil": "Tore", "fr": "Tour", "it": "Torre", "sw": "Mnara", "hu": "Torony", "nl": "Toren", "nb": "Tårn", "pl": "Wieża", "pt": "Torre", "ro": "Turn", "fi": "Torni", "sv": "Torn", "vi": "Tòa tháp", "tr": "Kule", "cs": "Věž", "el": "Πύργος", "bg": "Кула", "ru": "Башня", "uk": "Вежа", "ur": "مینار", "ar": "برج", "fa": "برج", "mr": "मनोरा", "hi": "मीनार", "bn": "মিনার", "pa": "ਮੀਨਾਰ", "ta": "கோபுரம்", "te": "గోపురం", "th": "หอคอย", "zh": "高塔", "ja": "塔", "ko": "탑"},
   "solution": [".....##..#", ".....#....", "....##....", "...####...", "..######..", ".########.", "..######..", "..######..", "..######..", "..######..", "..#.####..", "..####.#..", "..######..", "..##..##..", ".###..###."],
   "colors":   [".....RR..Y", ".....R....", "....VV....", "...VVVV...", "..VVVVVV..", ".VVVVVVVV.", "..EEEEEE..", "..EEYYEE..", "..EEYYEE..", "..EEEEEE..", "..E.EEEE..", "..EEEE.E..", "..EEEEEE..", "..EE..EE..", ".EEE..EEE."],
   "palette":  { "E": "#94A3B8", "R": "#E8453C", "V": "#8B5CF6", "Y": "#FACC15" }

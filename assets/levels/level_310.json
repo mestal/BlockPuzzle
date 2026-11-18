@@ -1,6 +1,6 @@
 {
   "id": 310,
-  "name": {"de": "Prinzessin", "en": "Princess", "es": "Princesa", "fr": "Princesse", "it": "Principessa", "pl": "Księżniczka", "pt": "Princesa", "tr": "Prenses", "el": "Πριγκίπισσα", "bg": "Принцеса", "ru": "Принцесса", "ar": "أميرة", "hi": "राजकुमारी", "zh": "公主", "ja": "お姫さま", "ko": "공주"},
+  "name": {"id": "Putri", "ms": "Puteri", "da": "Prinsesse", "de": "Prinzessin", "en": "Princess", "es": "Princesa", "fil": "Prinsesa", "fr": "Princesse", "it": "Principessa", "sw": "Binti mfalme", "hu": "Hercegnő", "nl": "Prinses", "nb": "Prinsesse", "pl": "Księżniczka", "pt": "Princesa", "ro": "Prințesă", "fi": "Prinsessa", "sv": "Prinsessa", "vi": "Công chúa", "tr": "Prenses", "cs": "Princezna", "el": "Πριγκίπισσα", "bg": "Принцеса", "ru": "Принцесса", "uk": "Принцеса", "ur": "شہزادی", "ar": "أميرة", "fa": "شاهزاده خانم", "mr": "राजकन्या", "hi": "राजकुमारी", "bn": "রাজকন্যা", "pa": "ਰਾਜਕੁਮਾਰੀ", "ta": "இளவரசி", "te": "రాకుమారి", "th": "เจ้าหญิง", "zh": "公主", "ja": "お姫さま", "ko": "공주"},
   "solution": ["#........#", "..#.#.#...", "..#####...", ".#######..", "#########.", "###.#.###.", "#########.", "##.###.##.", "#.#####.#.", "..#####...", ".#######.#", ".#######..", "#########.", "#########.", ".........."],
   "colors":   ["Y........Y", "..Y.Y.Y...", "..YYYYY...", ".AAAAAAA..", "AAFFFFFAA.", "AAF.F.FAA.", "AAFFFFFAA.", "AA.FFF.AA.", "A.PPPPP.A.", "..PPPPP...", ".PPPPPPP.Y", ".PPPPPPP..", "PPPPPPPPP.", "PPPPPPPPP.", ".........."],
   "palette":  { "A": "#F59E0B", "F": "#FBCFA5", "P": "#F472B6", "Y": "#FACC15" }

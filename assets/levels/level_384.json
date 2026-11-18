@@ -1,6 +1,6 @@
 {
   "id": 384,
-  "name": {"de": "Hyäne", "en": "Hyena", "es": "Hiena", "fr": "Hyène", "it": "Iena", "pl": "Hiena", "pt": "Hiena", "tr": "Sırtlan", "el": "Ύαινα", "bg": "Хиена", "ru": "Гиена", "ar": "ضبع", "hi": "लकड़बग्घा", "zh": "鬣狗", "ja": "ハイエナ", "ko": "하이에나"},
+  "name": {"id": "Hiena", "ms": "Dubuk", "da": "Hyæne", "de": "Hyäne", "en": "Hyena", "es": "Hiena", "fil": "Hayena", "fr": "Hyène", "it": "Iena", "sw": "Fisi", "hu": "Hiéna", "nl": "Hyena", "nb": "Hyene", "pl": "Hiena", "pt": "Hiena", "ro": "Hienă", "fi": "Hyeena", "sv": "Hyena", "vi": "Linh cẩu", "tr": "Sırtlan", "cs": "Hyena", "el": "Ύαινα", "bg": "Хиена", "ru": "Гиена", "uk": "Гієна", "ur": "لکڑبگڑ", "ar": "ضبع", "fa": "کفتار", "mr": "तरस", "hi": "लकड़बग्घा", "bn": "হায়েনা", "pa": "ਲੱਕੜਬੱਘਾ", "ta": "கழுதைப்புலி", "te": "హైనా", "th": "ไฮยีนา", "zh": "鬣狗", "ja": "ハイエナ", "ko": "하이에나"},
   "solution": [".#..#...#.", "###.......", "#.###.....", "########..", "..#.##.#.#", "..########", "#.#.#..#.#", "..#.#..#.#", ".##.#..#.#", ".........."],
   "colors":   [".T..Y...Y.", "TTT.......", "T.TTT.....", "TTTTTTTT..", "..T.TT.T.T", "..TTTTTTTT", "Y.T.T..T.T", "..T.T..T.T", ".TT.T..T.T", ".........."],
   "palette":  { "T": "#92400E", "Y": "#FACC15" }

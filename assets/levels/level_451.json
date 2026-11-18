@@ -1,6 +1,6 @@
 {
   "id": 451,
-  "name": {"de": "Pirat", "en": "Pirate", "es": "Pirata", "fr": "Pirate", "it": "Pirata", "pl": "Pirat", "pt": "Pirata", "tr": "Korsan", "el": "Πειρατής", "bg": "Пират", "ru": "Пират", "ar": "قرصان", "hi": "समुद्री डाकू", "zh": "海盗", "ja": "海賊", "ko": "해적"},
+  "name": {"id": "Bajak laut", "ms": "Lanun", "da": "Pirat", "de": "Pirat", "en": "Pirate", "es": "Pirata", "fil": "Pirata", "fr": "Pirate", "it": "Pirata", "sw": "Haramia", "hu": "Kalóz", "nl": "Piraat", "nb": "Pirat", "pl": "Pirat", "pt": "Pirata", "ro": "Pirat", "fi": "Merirosvo", "sv": "Pirat", "vi": "Cướp biển", "tr": "Korsan", "cs": "Pirát", "el": "Πειρατής", "bg": "Пират", "ru": "Пират", "uk": "Пірат", "ur": "قزاق", "ar": "قرصان", "fa": "دزد دریایی", "mr": "चाचा", "hi": "समुद्री डाकू", "bn": "জলদস্যু", "pa": "ਸਮੁੰਦਰੀ ਡਾਕੂ", "ta": "கடற்கொள்ளையன்", "te": "సముద్రపు దొంగ", "th": "โจรสลัด", "zh": "海盗", "ja": "海賊", "ko": "해적"},
   "solution": ["#.........", "..######..", "##########", ".########.", ".########.", ".#####.##.", "#########.", ".########.", ".########.", ".########.", "..######..", "#..####...", "....##...#", "..........", "..#...#..."],
   "colors":   ["Y.........", "..RRRRRR..", "RRRWRRRWRR", ".RRRRRRRR.", ".FFFFFFFF.", ".FKKFF.FF.", "AFFFFFFFF.", ".FHHFFHHF.", ".FFHHHHFF.", ".HHHFFHHH.", "..HHHHHH..", "Y..HHHH...", "....HH...Y", "..........", "..Y...Y..."],
   "palette":  { "A": "#F59E0B", "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

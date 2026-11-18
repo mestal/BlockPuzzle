@@ -1,6 +1,6 @@
 {
   "id": 27,
-  "name": {"de": "Palme", "en": "Palm tree", "es": "Palmera", "fr": "Palmier", "it": "Palma", "pl": "Palma", "pt": "Palmeira", "tr": "Palmiye", "el": "Φοίνικας", "bg": "Палма", "ru": "Пальма", "ar": "نخلة", "hi": "ताड़ का पेड़", "zh": "棕榈树", "ja": "ヤシの木", "ko": "야자수"},
+  "name": {"id": "Pohon palem", "ms": "Pokok palma", "da": "Palme", "de": "Palme", "en": "Palm tree", "es": "Palmera", "fil": "Puno ng niyog", "fr": "Palmier", "it": "Palma", "sw": "Mnazi", "hu": "Pálmafa", "nl": "Palmboom", "nb": "Palme", "pl": "Palma", "pt": "Palmeira", "ro": "Palmier", "fi": "Palmu", "sv": "Palm", "vi": "Cây cọ", "tr": "Palmiye", "cs": "Palma", "el": "Φοίνικας", "bg": "Палма", "ru": "Пальма", "uk": "Пальма", "ur": "کھجور کا درخت", "ar": "نخلة", "fa": "درخت نخل", "mr": "ताडाचे झाड", "hi": "ताड़ का पेड़", "bn": "তালগাছ", "pa": "ਖਜੂਰ ਦਾ ਰੁੱਖ", "ta": "பனை மரம்", "te": "తాటి చెట్టు", "th": "ต้นปาล์ม", "zh": "棕榈树", "ja": "ヤシの木", "ko": "야자수"},
   "solution": ["..........", ".###.###..", ".#.###.#..", "...###....", "....#.....", "....#.....", "...#......", ".#######..", "..........", ".........."],
   "colors":   ["..........", ".GGG.GGG..", ".G.GGG.G..", "...GTG....", "....T.....", "....T.....", "...T......", ".SSSSSSS..", "..........", ".........."],
   "palette":  { "G": "#22C55E", "S": "#FDE68A", "T": "#92400E" }

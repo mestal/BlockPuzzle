@@ -1,6 +1,6 @@
 {
   "id": 23,
-  "name": {"de": "Eimer", "en": "Bucket", "es": "Cubo", "fr": "Seau", "it": "Secchiello", "pl": "Wiaderko", "pt": "Balde", "tr": "Kova", "el": "Κουβαδάκι", "bg": "Кофичка", "ru": "Ведёрко", "ar": "دلو", "hi": "बाल्टी", "zh": "小桶", "ja": "バケツ", "ko": "양동이"},
+  "name": {"id": "Ember", "ms": "Baldi", "da": "Spand", "de": "Eimer", "en": "Bucket", "es": "Cubo", "fil": "Timba", "fr": "Seau", "it": "Secchiello", "sw": "Ndoo", "hu": "Vödör", "nl": "Emmer", "nb": "Bøtte", "pl": "Wiaderko", "pt": "Balde", "ro": "Găleată", "fi": "Ämpäri", "sv": "Hink", "vi": "Cái xô", "tr": "Kova", "cs": "Kyblík", "el": "Κουβαδάκι", "bg": "Кофичка", "ru": "Ведёрко", "uk": "Відерце", "ur": "بالٹی", "ar": "دلو", "fa": "سطل", "mr": "बादली", "hi": "बाल्टी", "bn": "বালতি", "pa": "ਬਾਲਟੀ", "ta": "வாளி", "te": "బకెట్", "th": "ถัง", "zh": "小桶", "ja": "バケツ", "ko": "양동이"},
   "solution": ["..........", "...###....", "..#...#...", ".#######..", "..#####...", "..#####...", "..#####...", "...###....", "..........", ".........."],
   "colors":   ["..........", "...EEE....", "..E...E...", ".BBBBBBB..", "..BYYYB...", "..BBBBB...", "..BYYYB...", "...BBB....", "..........", ".........."],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "Y": "#FACC15" }

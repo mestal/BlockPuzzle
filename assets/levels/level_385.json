@@ -1,6 +1,6 @@
 {
   "id": 385,
-  "name": {"de": "Safari-Jeep", "en": "Safari jeep", "es": "Jeep de safari", "fr": "Jeep de safari", "it": "Jeep da safari", "pl": "Dżip safari", "pt": "Jipe de safári", "tr": "Safari cipi", "el": "Τζιπ σαφάρι", "bg": "Сафари джип", "ru": "Сафари-джип", "ar": "سيارة سفاري", "hi": "सफ़ारी जीप", "zh": "越野吉普", "ja": "サファリジープ", "ko": "사파리 지프"},
+  "name": {"id": "Jip safari", "ms": "Jip safari", "da": "Safarijeep", "de": "Safari-Jeep", "en": "Safari jeep", "es": "Jeep de safari", "fil": "Safari jeep", "fr": "Jeep de safari", "it": "Jeep da safari", "sw": "Gari la safari", "hu": "Szafaridzsip", "nl": "Safarijeep", "nb": "Safarijeep", "pl": "Dżip safari", "pt": "Jipe de safári", "ro": "Jeep de safari", "fi": "Safarijeeppi", "sv": "Safarijeep", "vi": "Xe jeep safari", "tr": "Safari cipi", "cs": "Safari džíp", "el": "Τζιπ σαφάρι", "bg": "Сафари джип", "ru": "Сафари-джип", "uk": "Джип для сафарі", "ur": "سفاری جیپ", "ar": "سيارة سفاري", "fa": "جیپ سافاری", "mr": "सफारी जीप", "hi": "सफ़ारी जीप", "bn": "সাফারি জিপ", "pa": "ਸਫ਼ਾਰੀ ਜੀਪ", "ta": "சஃபாரி ஜீப்", "te": "సఫారీ జీప్", "th": "รถจี๊ปซาฟารี", "zh": "越野吉普", "ja": "サファリジープ", "ko": "사파리 지프"},
   "solution": ["#...#...#.", "..#...#...", "..#####...", ".########.", "###.#.####", "##########", ".##...##..", ".##...##.#", "....#.....", ".#........"],
   "colors":   ["Y...Y...Y.", "..K...K...", "..KKKKK...", ".AAAAAAAA.", "AAA.A.AAAA", "AAAAAAAAAA", ".KK...KK..", ".KK...KK.Y", "....Y.....", ".Y........"],
   "palette":  { "A": "#F59E0B", "K": "#1F2937", "Y": "#FACC15" }

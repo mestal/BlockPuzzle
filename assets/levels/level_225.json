@@ -1,6 +1,6 @@
 {
   "id": 225,
-  "name": {"de": "Hydrant", "en": "Fire hydrant", "es": "Hidrante", "fr": "Bouche d'incendie", "it": "Idrante", "pl": "Hydrant", "pt": "Hidrante", "tr": "Yangın musluğu", "el": "Πυροσβεστικός κρουνός", "bg": "Пожарен хидрант", "ru": "Пожарный гидрант", "ar": "صنبور إطفاء", "hi": "अग्नि हाइड्रेंट", "zh": "消防栓", "ja": "消火栓", "ko": "소화전"},
+  "name": {"id": "Hidran", "ms": "Pili bomba", "da": "Brandhane", "de": "Hydrant", "en": "Fire hydrant", "es": "Hidrante", "fil": "Hydrant", "fr": "Bouche d'incendie", "it": "Idrante", "sw": "Bomba la maji", "hu": "Tűzcsap", "nl": "Brandkraan", "nb": "Brannhydrant", "pl": "Hydrant", "pt": "Hidrante", "ro": "Hidrant", "fi": "Paloposti", "sv": "Brandpost", "vi": "Trụ cứu hỏa", "tr": "Yangın musluğu", "cs": "Hydrant", "el": "Πυροσβεστικός κρουνός", "bg": "Пожарен хидрант", "ru": "Пожарный гидрант", "uk": "Пожежний гідрант", "ur": "فائر ہائیڈرنٹ", "ar": "صنبور إطفاء", "fa": "شیر آتش‌نشانی", "mr": "अग्निशमन नळ", "hi": "अग्नि हाइड्रेंट", "bn": "ফায়ার হাইড্রান্ট", "pa": "ਅੱਗ ਬੁਝਾਊ ਨਲਕਾ", "ta": "தீயணைப்புக் குழாய்", "te": "ఫైర్ హైడ్రాంట్", "th": "หัวดับเพลิง", "zh": "消防栓", "ja": "消火栓", "ko": "소화전"},
   "solution": ["..........", "#..####...", "..######.#", "...####...", ".########.", "..######..", "#.######..", "..######..", ".########.", ".........."],
   "colors":   ["..........", "Y..RRRR...", "..RRRRRR.Y", "...RRRR...", ".RRRRRRRR.", "..RRRRRR..", "Y.RRWRRR..", "..RRRRRR..", ".RRRRRRRR.", ".........."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

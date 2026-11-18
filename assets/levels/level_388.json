@@ -1,6 +1,6 @@
 {
   "id": 388,
-  "name": {"de": "Gepard", "en": "Cheetah", "es": "Guepardo", "fr": "Guépard", "it": "Ghepardo", "pl": "Gepard", "pt": "Guepardo", "tr": "Çita", "el": "Τσίτα", "bg": "Гепард", "ru": "Гепард", "ar": "فهد", "hi": "चीता", "zh": "猎豹", "ja": "チーター", "ko": "치타"},
+  "name": {"id": "Cheetah", "ms": "Cheetah", "da": "Gepard", "de": "Gepard", "en": "Cheetah", "es": "Guepardo", "fil": "Cheetah", "fr": "Guépard", "it": "Ghepardo", "sw": "Duma", "hu": "Gepárd", "nl": "Jachtluipaard", "nb": "Gepard", "pl": "Gepard", "pt": "Guepardo", "ro": "Ghepard", "fi": "Gepardi", "sv": "Gepard", "vi": "Báo săn", "tr": "Çita", "cs": "Gepard", "el": "Τσίτα", "bg": "Гепард", "ru": "Гепард", "uk": "Гепард", "ur": "چیتا", "ar": "فهد", "fa": "یوزپلنگ", "mr": "चित्ता", "hi": "चीता", "bn": "চিতা", "pa": "ਚੀਤਾ", "ta": "சிவிங்கிப்புலி", "te": "చీతా", "th": "เสือชีตาห์", "zh": "猎豹", "ja": "チーター", "ko": "치타"},
   "solution": ["......#...", "........##", ".......###", "#.########", ".##.##.##.", "..#######.", "...#..#.#.", "#...#..#.#", "....#....#", "#........."],
   "colors":   ["......Y...", "........AA", ".......AKA", "A.AAAAAAAA", ".AA.AA.AA.", "..AAAAAAA.", "...A..A.A.", "A...A..A.A", "....A....A", "Y........."],
   "palette":  { "A": "#F59E0B", "K": "#1F2937", "Y": "#FACC15" }

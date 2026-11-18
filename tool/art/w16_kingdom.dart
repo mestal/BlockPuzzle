@@ -7,7 +7,7 @@ import '../level_art.dart';
 final kingdomArt = <LevelArt>[
   art(
     16,
-    'Şövalye|Knight|Ritter|Chevalier|Caballero|Cavaliere|骑士|騎士|Рыцарь|فارس|Cavaleiro|Rycerz|Ιππότης|Рицар|기사|शूरवीर',
+    'Şövalye|Knight|Ritter|Chevalier|Caballero|Cavaliere|骑士|騎士|Рыцарь|فارس|Cavaleiro|Rycerz|Ιππότης|Рицар|기사|शूरवीर|Ridder|Лицар|Cavaler|Riddare|Ridder|Ridder|Ritari|Rytíř|Lovag|Kesatria|Kabalyero|নাইট|سورما|Ksatria|Hiệp sĩ|شوالیه|Shujaa|योद्धा|యోధుడు|வீரர்|ਯੋਧਾ|อัศวิน',
     [
       '...EEE...L',
       '..EEEEE..L',
@@ -25,7 +25,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Tek boynuzlu at|Unicorn|Einhorn|Licorne|Unicornio|Unicorno|独角兽|ユニコーン|Единорог|وحيد القرن الأسطوري|Unicórnio|Jednorożec|Μονόκερος|Еднорог|유니콘|यूनिकॉर्न',
+    'Tek boynuzlu at|Unicorn|Einhorn|Licorne|Unicornio|Unicorno|独角兽|ユニコーン|Единорог|وحيد القرن الأسطوري|Unicórnio|Jednorożec|Μονόκερος|Еднорог|유니콘|यूनिकॉर्न|Eenhoorn|Єдиноріг|Unicorn|Enhörning|Enhjørning|Enhjørning|Yksisarvinen|Jednorožec|Egyszarvú|Unikorn|Unicorn|ইউনিকর্ন|یونیکورن|Unicorn|Kỳ lân|اسب تک‌شاخ|Nyati|एकशिंगी घोडा|ఒంటికొమ్ము గుర్రం|ஒற்றைக்கொம்புக் குதிரை|ਇੱਕ-ਸਿੰਗਾ ਘੋੜਾ|ยูนิคอร์น',
     [
       '.......A..',
       '......A...',
@@ -43,7 +43,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Peri|Fairy|Fee|Fée|Hada|Fata|仙女|妖精|Фея|جنية|Fada|Wróżka|Νεράιδα|Фея|요정|परी',
+    'Peri|Fairy|Fee|Fée|Hada|Fata|仙女|妖精|Фея|جنية|Fada|Wróżka|Νεράιδα|Фея|요정|परी|Fee|Фея|Zână|Fe|Fe|Fe|Keiju|Víla|Tündér|Pari-pari|Diwata|পরি|پری|Peri|Nàng tiên|پری|Kichimbakazi|परी|యక్షిణి|தேவதை|ਪਰੀ|นางฟ้า',
     [
       '........Y.',
       '...AA..YYY',
@@ -60,7 +60,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Büyücü|Wizard|Zauberer|Magicien|Mago|Mago|巫师|魔法使い|Волшебник|ساحر|Mago|Czarodziej|Μάγος|Магьосник|마법사|जादूगर',
+    'Büyücü|Wizard|Zauberer|Magicien|Mago|Mago|巫师|魔法使い|Волшебник|ساحر|Mago|Czarodziej|Μάγος|Магьосник|마법사|जादूगर|Tovenaar|Чарівник|Vrăjitor|Trollkarl|Trollmann|Troldmand|Velho|Čaroděj|Varázsló|Ahli sihir|Salamangkero|জাদুকর|جادوگر|Penyihir|Phù thủy|جادوگر|Mchawi|जादूगार|మాంత్రికుడు|மந்திரவாதி|ਜਾਦੂਗਰ|พ่อมด',
     [
       '....V...C.',
       '...VVV.CCC',
@@ -80,7 +80,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Prenses|Princess|Prinzessin|Princesse|Princesa|Principessa|公主|お姫さま|Принцесса|أميرة|Princesa|Księżniczka|Πριγκίπισσα|Принцеса|공주|राजकुमारी',
+    'Prenses|Princess|Prinzessin|Princesse|Princesa|Principessa|公主|お姫さま|Принцесса|أميرة|Princesa|Księżniczka|Πριγκίπισσα|Принцеса|공주|राजकुमारी|Prinses|Принцеса|Prințesă|Prinsessa|Prinsesse|Prinsesse|Prinsessa|Princezna|Hercegnő|Puteri|Prinsesa|রাজকন্যা|شہزادی|Putri|Công chúa|شاهزاده خانم|Binti mfalme|राजकन्या|రాకుమారి|இளவரசி|ਰਾਜਕੁਮਾਰੀ|เจ้าหญิง',
     [
       '..Y.Y.Y...',
       '..YYYYY...',
@@ -99,7 +99,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Kral|King|König|Roi|Rey|Re|国王|王さま|Король|ملك|Rei|Król|Βασιλιάς|Крал|왕|राजा',
+    'Kral|King|König|Roi|Rey|Re|国王|王さま|Король|ملك|Rei|Król|Βασιλιάς|Крал|왕|राजा|Koning|Король|Rege|Kung|Konge|Konge|Kuningas|Král|Király|Raja|Hari|রাজা|بادشاہ|Raja|Nhà vua|پادشاه|Mfalme|राजा|రాజు|அரசர்|ਰਾਜਾ|พระราชา',
     [
       '.Y..Y..Y..',
       '.YYYYYYY..',
@@ -118,7 +118,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Cam ayakkabı|Glass slipper|Gläserner Schuh|Pantoufle de verre|Zapatilla de cristal|Scarpetta di cristallo|水晶鞋|ガラスの靴|Хрустальная туфелька|حذاء زجاجي|Sapatinho de cristal|Szklany pantofelek|Γυάλινο γοβάκι|Стъклена пантофка|유리 구두|कांच की जूती',
+    'Cam ayakkabı|Glass slipper|Gläserner Schuh|Pantoufle de verre|Zapatilla de cristal|Scarpetta di cristallo|水晶鞋|ガラスの靴|Хрустальная туфелька|حذاء زجاجي|Sapatinho de cristal|Szklany pantofelek|Γυάλινο γοβάκι|Стъклена пантофка|유리 구두|कांच की जूती|Glazen muiltje|Кришталевий черевичок|Pantof de cristal|Glastoffel|Glasstøvel|Glassko|Lasikenkä|Skleněný střevíček|Üvegcipő|Kasut kaca|Sapatos na salamin|কাচের জুতো|کانچ کا جوتا|Sepatu kaca|Giày thủy tinh|کفش بلورین|Kiatu cha kioo|काचेचा बूट|గాజు చెప్పు|கண்ணாடிச் செருப்பு|ਕੱਚ ਦੀ ਜੁੱਤੀ|รองเท้าแก้ว',
     [
       '......CCC.',
       '.....C...C',
@@ -134,7 +134,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Sihirli ayna|Magic mirror|Zauberspiegel|Miroir magique|Espejo mágico|Specchio magico|魔镜|魔法の鏡|Волшебное зеркало|المرآة السحرية|Espelho mágico|Magiczne lustro|Μαγικός καθρέφτης|Вълшебно огледало|마법 거울|जादुई आईना',
+    'Sihirli ayna|Magic mirror|Zauberspiegel|Miroir magique|Espejo mágico|Specchio magico|魔镜|魔法の鏡|Волшебное зеркало|المرآة السحرية|Espelho mágico|Magiczne lustro|Μαγικός καθρέφτης|Вълшебно огледало|마법 거울|जादुई आईना|Toverspiegel|Чарівне дзеркало|Oglindă fermecată|Trollspegel|Trollspeil|Tryllespejl|Taikapeili|Kouzelné zrcadlo|Varázstükör|Cermin ajaib|Mahiwagang salamin|জাদুর আয়না|جادوئی آئینہ|Cermin ajaib|Gương thần|آینه جادویی|Kioo cha ajabu|जादूचा आरसा|మాయా అద్దం|மாயக் கண்ணாடி|ਜਾਦੂਈ ਸ਼ੀਸ਼ਾ|กระจกวิเศษ',
     [
       '...AAAA...',
       '..AA..AA..',
@@ -151,7 +151,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Taht|Throne|Thron|Trône|Trono|Trono|王座|玉座|Трон|عرش|Trono|Tron|Θρόνος|Трон|왕좌|सिंहासन',
+    'Taht|Throne|Thron|Trône|Trono|Trono|王座|玉座|Трон|عرش|Trono|Tron|Θρόνος|Трон|왕좌|सिंहासन|Troon|Трон|Tron|Tron|Trone|Trone|Valtaistuin|Trůn|Trón|Takhta|Trono|সিংহাসন|تخت|Takhta|Ngai vàng|تخت پادشاهی|Kiti cha enzi|सिंहासन|సింహాసనం|அரியணை|ਸਿੰਘਾਸਣ|บัลลังก์',
     [
       '..Y....Y..',
       '..RRRRRR..',
@@ -167,7 +167,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Kadeh|Goblet|Kelch|Calice|Cáliz|Calice|高脚杯|ゴブレット|Кубок|كأس|Cálice|Puchar|Κύπελλο|Бокал|성배|प्याला',
+    'Kadeh|Goblet|Kelch|Calice|Cáliz|Calice|高脚杯|ゴブレット|Кубок|كأس|Cálice|Puchar|Κύπελλο|Бокал|성배|प्याला|Bokaal|Кубок|Potir|Bägare|Beger|Bæger|Pikari|Pohár|Serleg|Piala minum|Kopita|পানপাত্র|جام|Piala|Chén thánh|جام شراب|Kikombe cha dhahabu|चषक|పాత్ర|கிண்ணம்|ਜਾਮ|ถ้วยเงิน',
     [
       '.AAAAAAAA.',
       '.ARRRRRRA.',
@@ -183,7 +183,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Parşömen|Scroll|Schriftrolle|Parchemin|Pergamino|Pergamena|卷轴|巻物|Свиток|لفافة|Pergaminho|Zwój|Περγαμηνή|Свитък|두루마리|पत्री',
+    'Parşömen|Scroll|Schriftrolle|Parchemin|Pergamino|Pergamena|卷轴|巻物|Свиток|لفافة|Pergaminho|Zwój|Περγαμηνή|Свитък|두루마리|पत्री|Perkamentrol|Сувій|Pergament|Skriftrulle|Skriftrull|Skriftrulle|Kirjakäär|Svitek|Tekercs|Skrol|Balumbon|পুঁথি|طومار|Gulungan|Cuộn giấy|طومار|Hati ya kukunja|गुंडाळी|తాళపత్రం|சுருள்|ਪੋਥੀ|ม้วนคัมภีร์',
     [
       '.TTTTTTT..',
       '.S.....S..',
@@ -198,7 +198,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Kraliyet arabası|Royal carriage|Königliche Kutsche|Carrosse royal|Carroza real|Carrozza reale|皇家马车|王家の馬車|Королевская карета|عربة ملكية|Carruagem real|Królewska kareta|Βασιλική άμαξα|Кралска карета|왕실 마차|शाही बग्घी',
+    'Kraliyet arabası|Royal carriage|Königliche Kutsche|Carrosse royal|Carroza real|Carrozza reale|皇家马车|王家の馬車|Королевская карета|عربة ملكية|Carruagem real|Królewska kareta|Βασιλική άμαξα|Кралска карета|왕실 마차|शाही बग्घी|Koninklijke koets|Королівська карета|Caleașcă regală|Kunglig vagn|Kongelig vogn|Kongelig karet|Kuninkaallinen vaunu|Královský kočár|Királyi hintó|Kereta kuda diraja|Maharlikang karwahe|রাজকীয় ঘোড়ার গাড়ি|شاہی بگھی|Kereta kencana|Xe ngựa hoàng gia|کالسکه سلطنتی|Gari la kifalme|शाही बग्गी|రాజ రథం|அரச வண்டி|ਸ਼ਾਹੀ ਬੱਘੀ|รถม้าหลวง',
     [
       '....Y.....',
       '...AAA....',
@@ -214,7 +214,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Elf|Elf|Elf|Elfe|Elfo|Elfo|精灵|エルフ|Эльф|إلف|Elfo|Elf|Ξωτικό|Елф|엘프|एल्फ़',
+    'Elf|Elf|Elf|Elfe|Elfo|Elfo|精灵|エルフ|Эльф|إلف|Elfo|Elf|Ξωτικό|Елф|엘프|एल्फ़|Elf|Ельф|Elf|Alv|Alv|Alf|Haltija|Elf|Tünde|Bunian|Duwende|এলফ|بونا|Peri hutan|Tiên tộc|الف|Kibwengo|एल्फ|ఎల్ఫ్|எல்ஃப்|ਐਲਫ਼|เอลฟ์',
     [
       '.....G....',
       '....GG....',
@@ -235,7 +235,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Pegasus|Pegasus|Pegasus|Pégase|Pegaso|Pegaso|飞马|ペガサス|Пегас|بيغاسوس|Pégaso|Pegaz|Πήγασος|Пегас|페가수스|पेगासस',
+    'Pegasus|Pegasus|Pegasus|Pégase|Pegaso|Pegaso|飞马|ペガサス|Пегас|بيغاسوس|Pégaso|Pegaz|Πήγασος|Пегас|페가수스|पेगासस|Pegasus|Пегас|Pegas|Pegasus|Pegasus|Pegasus|Pegasos|Pegas|Pegazus|Pegasus|Pegasus|পেগাসাস|پیگاسس|Pegasus|Ngựa có cánh|پگاسوس|Farasi mwenye mabawa|पंख असलेला घोडा|రెక్కల గుర్రం|சிறகுக் குதிரை|ਖੰਭਾਂ ਵਾਲਾ ਘੋੜਾ|ม้าเพกาซัส',
     [
       '....W.....',
       '....WW....',
@@ -250,7 +250,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Grifon|Griffin|Greif|Griffon|Grifo|Grifone|狮鹫|グリフォン|Грифон|غريفين|Grifo|Gryf|Γρύπας|Грифон|그리핀|ग्रिफ़िन',
+    'Grifon|Griffin|Greif|Griffon|Grifo|Grifone|狮鹫|グリフォン|Грифон|غريفين|Grifo|Gryf|Γρύπας|Грифон|그리핀|ग्रिफ़िन|Griffioen|Грифон|Grifon|Grip|Grif|Grif|Aarnikotka|Gryf|Griff|Griffin|Griffin|গ্রিফিন|گرفن|Griffin|Sư tử đầu chim|شیردال|Grifoni|ग्रिफिन|గ్రిఫిన్|கிரிஃபின்|ਗ੍ਰਿਫ਼ਿਨ|กริฟฟิน',
     [
       '..WWW.....',
       '.W.WW...T.',
@@ -266,7 +266,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Şövalye miğferi|Knight helmet|Ritterhelm|Heaume|Yelmo|Elmo da cavaliere|骑士头盔|騎士のかぶと|Рыцарский шлем|خوذة الفارس|Elmo de cavaleiro|Hełm rycerski|Κράνος ιππότη|Рицарски шлем|기사 투구|शूरवीर का टोप',
+    'Şövalye miğferi|Knight helmet|Ritterhelm|Heaume|Yelmo|Elmo da cavaliere|骑士头盔|騎士のかぶと|Рыцарский шлем|خوذة الفارس|Elmo de cavaleiro|Hełm rycerski|Κράνος ιππότη|Рицарски шлем|기사 투구|शूरवीर का टोप|Ridderhelm|Лицарський шолом|Coif de cavaler|Riddarhjälm|Ridderhjelm|Ridderhjelm|Ritarin kypärä|Rytířská přilba|Lovagsisak|Topi keledar kesatria|Helmet ng kabalyero|নাইটের শিরস্ত্রাণ|سورما کا خود|Helm ksatria|Mũ giáp hiệp sĩ|کلاهخود شوالیه|Kofia ya chuma ya shujaa|योद्ध्याचे शिरस्त्राण|యోధుని శిరస్త్రాణం|வீரர் தலைக்கவசம்|ਯੋਧੇ ਦਾ ਟੋਪ|หมวกเกราะอัศวิน',
     [
       '......RR..',
       '.....RR...',
@@ -284,7 +284,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Taştaki kılıç|Sword in the stone|Schwert im Stein|Épée dans la pierre|Espada en la piedra|Spada nella roccia|石中剑|岩に刺さった剣|Меч в камне|السيف في الحجر|Espada na pedra|Miecz w kamieniu|Σπαθί στην πέτρα|Мечът в камъка|바위 속의 검|पत्थर में तलवार',
+    'Taştaki kılıç|Sword in the stone|Schwert im Stein|Épée dans la pierre|Espada en la piedra|Spada nella roccia|石中剑|岩に刺さった剣|Меч в камне|السيف في الحجر|Espada na pedra|Miecz w kamieniu|Σπαθί στην πέτρα|Мечът в камъка|바위 속의 검|पत्थर में तलवार|Zwaard in de steen|Меч у камені|Sabia din piatră|Svärdet i stenen|Sverdet i steinen|Sværdet i stenen|Miekka kivessä|Meč v kameni|Kardja a kőben|Pedang dalam batu|Espada sa bato|পাথরে গাঁথা তলোয়ার|پتھر میں تلوار|Pedang di batu|Thanh gươm trong đá|شمشیر در سنگ|Upanga ndani ya jiwe|दगडातील तलवार|రాతిలో కత్తి|கல்லில் வாள்|ਪੱਥਰ ਵਿੱਚ ਤਲਵਾਰ|ดาบในหิน',
     [
       '....YY....',
       '....YY....',
@@ -303,7 +303,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Kule|Tower|Turm|Tour|Torre|Torre|高塔|塔|Башня|برج|Torre|Wieża|Πύργος|Кула|탑|मीनार',
+    'Kule|Tower|Turm|Tour|Torre|Torre|高塔|塔|Башня|برج|Torre|Wieża|Πύργος|Кула|탑|मीनार|Toren|Вежа|Turn|Torn|Tårn|Tårn|Torni|Věž|Torony|Menara|Tore|মিনার|مینار|Menara|Tòa tháp|برج|Mnara|मनोरा|గోపురం|கோபுரம்|ਮੀਨਾਰ|หอคอย',
     [
       '.....RR...',
       '.....R....',
@@ -324,7 +324,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Soytarı şapkası|Jester hat|Narrenkappe|Bonnet de bouffon|Gorro de bufón|Cappello da giullare|小丑帽|道化師の帽子|Шутовской колпак|قبعة المهرج|Chapéu de bobo|Czapka błazna|Καπέλο γελωτοποιού|Шутовска шапка|광대 모자|विदूषक की टोपी',
+    'Soytarı şapkası|Jester hat|Narrenkappe|Bonnet de bouffon|Gorro de bufón|Cappello da giullare|小丑帽|道化師の帽子|Шутовской колпак|قبعة المهرج|Chapéu de bobo|Czapka błazna|Καπέλο γελωτοποιού|Шутовска шапка|광대 모자|विदूषक की टोपी|Narrenkap|Ковпак блазня|Bonetă de bufon|Narrmössa|Narrelue|Narrehue|Narrinhattu|Šaškovská čepice|Bohócsipka|Topi badut istana|Sumbrero ng payaso|ভাঁড়ের টুপি|مسخرے کی ٹوپی|Topi badut|Mũ hề|کلاه دلقک|Kofia ya mcheshi|विदूषकाची टोपी|విదూషకుని టోపీ|கோமாளித் தொப்பி|ਮਸਖ਼ਰੇ ਦੀ ਟੋਪੀ|หมวกตัวตลก',
     [
       'Y...Y....Y',
       '.R..G...B.',
@@ -337,7 +337,7 @@ final kingdomArt = <LevelArt>[
   ),
   art(
     16,
-    'Kurbağa prens|Frog prince|Froschkönig|Prince grenouille|Príncipe rana|Principe ranocchio|青蛙王子|カエルの王子|Принц-лягушка|الأمير الضفدع|Príncipe sapo|Żabi książę|Βάτραχος πρίγκιπας|Принцът жаба|개구리 왕자|मेंढक राजकुमार',
+    'Kurbağa prens|Frog prince|Froschkönig|Prince grenouille|Príncipe rana|Principe ranocchio|青蛙王子|カエルの王子|Принц-лягушка|الأمير الضفدع|Príncipe sapo|Żabi książę|Βάτραχος πρίγκιπας|Принцът жаба|개구리 왕자|मेंढक राजकुमार|Kikkerprins|Принц-жаба|Prințul broască|Grodprinsen|Froskeprinsen|Frøprinsen|Sammakkoprinssi|Žabí princ|Békakirályfi|Putera katak|Prinsipeng palaka|ব্যাঙ রাজপুত্র|مینڈک شہزادہ|Pangeran katak|Hoàng tử ếch|شاهزاده قورباغه|Mwana wa mfalme chura|बेडूक राजकुमार|కప్ప రాకుమారుడు|தவளை இளவரசன்|ਡੱਡੂ ਰਾਜਕੁਮਾਰ|เจ้าชายกบ',
     [
       '..Y.YY.Y..',
       '..YYYYYY..',

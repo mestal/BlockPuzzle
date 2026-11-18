@@ -1,6 +1,6 @@
 {
   "id": 10,
-  "name": {"de": "Stern", "en": "Star", "es": "Estrella", "fr": "Étoile", "it": "Stella", "pl": "Gwiazda", "pt": "Estrela", "tr": "Yıldız", "el": "Αστέρι", "bg": "Звезда", "ru": "Звезда", "ar": "نجمة", "hi": "तारा", "zh": "星星", "ja": "星", "ko": "별"},
+  "name": {"id": "Bintang", "ms": "Bintang", "da": "Stjerne", "de": "Stern", "en": "Star", "es": "Estrella", "fil": "Bituin", "fr": "Étoile", "it": "Stella", "sw": "Nyota", "hu": "Csillag", "nl": "Ster", "nb": "Stjerne", "pl": "Gwiazda", "pt": "Estrela", "ro": "Stea", "fi": "Tähti", "sv": "Stjärna", "vi": "Ngôi sao", "tr": "Yıldız", "cs": "Hvězda", "el": "Αστέρι", "bg": "Звезда", "ru": "Звезда", "uk": "Зірка", "ur": "ستارہ", "ar": "نجمة", "fa": "ستاره", "mr": "तारा", "hi": "तारा", "bn": "তারা", "pa": "ਤਾਰਾ", "ta": "நட்சத்திரம்", "te": "నక్షత్రం", "th": "ดาว", "zh": "星星", "ja": "星", "ko": "별"},
   "solution": ["..#..", ".###.", "#####", ".###.", ".#.#."],
   "colors":   ["..Y..", ".YYY.", "YYAYY", ".YYY.", ".Y.Y."],
   "palette":  { "A": "#F59E0B", "Y": "#FACC15" }

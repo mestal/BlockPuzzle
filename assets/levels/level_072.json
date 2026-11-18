@@ -1,6 +1,6 @@
 {
   "id": 72,
-  "name": {"de": "Cupcake", "en": "Cupcake", "es": "Magdalena", "fr": "Cupcake", "it": "Cupcake", "pl": "Babeczka", "pt": "Cupcake", "tr": "Kek", "el": "Κεκάκι", "bg": "Къпкейк", "ru": "Капкейк", "ar": "كب كيك", "hi": "कपकेक", "zh": "纸杯蛋糕", "ja": "カップケーキ", "ko": "컵케이크"},
+  "name": {"id": "Kue mangkuk", "ms": "Kek cawan", "da": "Cupcake", "de": "Cupcake", "en": "Cupcake", "es": "Magdalena", "fil": "Cupcake", "fr": "Cupcake", "it": "Cupcake", "sw": "Keki ndogo", "hu": "Muffin", "nl": "Cupcake", "nb": "Muffins", "pl": "Babeczka", "pt": "Cupcake", "ro": "Brioșă", "fi": "Kuppikakku", "sv": "Muffin", "vi": "Bánh nướng nhỏ", "tr": "Kek", "cs": "Košíček", "el": "Κεκάκι", "bg": "Къпкейк", "ru": "Капкейк", "uk": "Капкейк", "ur": "کپ کیک", "ar": "كب كيك", "fa": "کاپ‌کیک", "mr": "कपकेक", "hi": "कपकेक", "bn": "কাপকেক", "pa": "ਕੱਪਕੇਕ", "ta": "கப்கேக்", "te": "కప్‌కేక్", "th": "คัพเค้ก", "zh": "纸杯蛋糕", "ja": "カップケーキ", "ko": "컵케이크"},
   "solution": ["....#.....", "..#####...", ".#######..", "#########.", "#########.", ".#######..", ".#######..", "..#####...", "..#####...", ".........."],
   "colors":   ["....R.....", "..JJJJJ...", ".JJJJJJJ..", "JJPJJPJJJ.", "JJJJJJJJJ.", ".TTTTTTT..", ".THTHTHT..", "..THTHT...", "..TTTTT...", ".........."],
   "palette":  { "H": "#5B3410", "J": "#FBCFE8", "P": "#F472B6", "R": "#E8453C", "T": "#92400E" }

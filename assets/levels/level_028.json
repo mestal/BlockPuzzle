@@ -1,6 +1,6 @@
 {
   "id": 28,
-  "name": {"de": "Ananas", "en": "Pineapple", "es": "Piña", "fr": "Ananas", "it": "Ananas", "pl": "Ananas", "pt": "Abacaxi", "tr": "Ananas", "el": "Ανανάς", "bg": "Ананас", "ru": "Ананас", "ar": "أناناس", "hi": "अनानास", "zh": "菠萝", "ja": "パイナップル", "ko": "파인애플"},
+  "name": {"id": "Nanas", "ms": "Nanas", "da": "Ananas", "de": "Ananas", "en": "Pineapple", "es": "Piña", "fil": "Pinya", "fr": "Ananas", "it": "Ananas", "sw": "Nanasi", "hu": "Ananász", "nl": "Ananas", "nb": "Ananas", "pl": "Ananas", "pt": "Abacaxi", "ro": "Ananas", "fi": "Ananas", "sv": "Ananas", "vi": "Quả dứa", "tr": "Ananas", "cs": "Ananas", "el": "Ανανάς", "bg": "Ананас", "ru": "Ананас", "uk": "Ананас", "ur": "انناس", "ar": "أناناس", "fa": "آناناس", "mr": "अननस", "hi": "अनानास", "bn": "আনারস", "pa": "ਅਨਾਨਾਸ", "ta": "அன்னாசி", "te": "అనాస", "th": "สับปะรด", "zh": "菠萝", "ja": "パイナップル", "ko": "파인애플"},
   "solution": ["..........", "...#..#...", "....##....", "...####...", "...####...", "..######..", "..######..", "..######..", "...####...", ".........."],
   "colors":   ["..........", "...G..G...", "....GG....", "...GGGG...", "...YAYA...", "..YAYAYA..", "..AYAYAY..", "..YAYAYA..", "...AYAY...", ".........."],
   "palette":  { "A": "#F59E0B", "G": "#22C55E", "Y": "#FACC15" }

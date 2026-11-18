@@ -1,6 +1,6 @@
 {
   "id": 17,
-  "name": {"de": "Fisch", "en": "Fish", "es": "Pez", "fr": "Poisson", "it": "Pesce", "pl": "Ryba", "pt": "Peixe", "tr": "Balık", "el": "Ψάρι", "bg": "Риба", "ru": "Рыба", "ar": "سمكة", "hi": "मछली", "zh": "鱼", "ja": "魚", "ko": "물고기"},
+  "name": {"id": "Ikan", "ms": "Ikan", "da": "Fisk", "de": "Fisch", "en": "Fish", "es": "Pez", "fil": "Isda", "fr": "Poisson", "it": "Pesce", "sw": "Samaki", "hu": "Hal", "nl": "Vis", "nb": "Fisk", "pl": "Ryba", "pt": "Peixe", "ro": "Pește", "fi": "Kala", "sv": "Fisk", "vi": "Con cá", "tr": "Balık", "cs": "Ryba", "el": "Ψάρι", "bg": "Риба", "ru": "Рыба", "uk": "Риба", "ur": "مچھلی", "ar": "سمكة", "fa": "ماهی", "mr": "मासा", "hi": "मछली", "bn": "মাছ", "pa": "ਮੱਛੀ", "ta": "மீன்", "te": "చేప", "th": "ปลา", "zh": "鱼", "ja": "魚", "ko": "물고기"},
   "solution": ["...###...#", ".######.##", "#########.", ".######.##", "...###...#"],
   "colors":   ["...OOO...O", ".OOOWOO.OO", "OKOOWOOOO.", ".OOOWOO.OO", "...OOO...O"],
   "palette":  { "K": "#1F2937", "O": "#F97316", "W": "#FFFFFF" }

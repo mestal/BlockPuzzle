@@ -1,6 +1,6 @@
 {
   "id": 42,
-  "name": {"de": "Pilzhaus", "en": "Mushroom house", "es": "Casa seta", "fr": "Maison champignon", "it": "Casa fungo", "pl": "Grzybowy domek", "pt": "Casa de cogumelo", "tr": "Mantar ev", "el": "Σπίτι-μανιτάρι", "bg": "Къща гъба", "ru": "Домик-гриб", "ar": "بيت الفطر", "hi": "मशरूम घर", "zh": "蘑菇屋", "ja": "キノコの家", "ko": "버섯 집"},
+  "name": {"id": "Rumah jamur", "ms": "Rumah cendawan", "da": "Svampehus", "de": "Pilzhaus", "en": "Mushroom house", "es": "Casa seta", "fil": "Bahay-kabute", "fr": "Maison champignon", "it": "Casa fungo", "sw": "Nyumba ya uyoga", "hu": "Gombaház", "nl": "Paddenstoelenhuis", "nb": "Sopphus", "pl": "Grzybowy domek", "pt": "Casa de cogumelo", "ro": "Casă-ciupercă", "fi": "Sienitalo", "sv": "Svamphus", "vi": "Nhà nấm", "tr": "Mantar ev", "cs": "Houbový domek", "el": "Σπίτι-μανιτάρι", "bg": "Къща гъба", "ru": "Домик-гриб", "uk": "Будиночок-гриб", "ur": "کھمبی کا گھر", "ar": "بيت الفطر", "fa": "خانه قارچی", "mr": "मशरूमचे घर", "hi": "मशरूम घर", "bn": "মাশরুমের বাড়ি", "pa": "ਖੁੰਬ ਦਾ ਘਰ", "ta": "காளான் வீடு", "te": "పుట్టగొడుగు ఇల్లు", "th": "บ้านเห็ด", "zh": "蘑菇屋", "ja": "キノコの家", "ko": "버섯 집"},
   "solution": ["...###....", ".#######..", "#########.", "#########.", ".#######..", ".#######..", ".#######..", ".#######..", "#########.", ".........."],
   "colors":   ["...RRR....", ".RRWRRRR..", "RRRRRRWRR.", "RWRRRRRRR.", ".SSSSSSS..", ".SBSSSBS..", ".SSSTSSS..", ".SSSTSSS..", "GGGGGGGGG.", ".........."],
   "palette":  { "B": "#3B82F6", "G": "#22C55E", "R": "#E8453C", "S": "#FDE68A", "T": "#92400E", "W": "#FFFFFF" }

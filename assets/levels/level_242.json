@@ -1,6 +1,6 @@
 {
   "id": 242,
-  "name": {"de": "Suppenschüssel", "en": "Soup bowl", "es": "Tazón de sopa", "fr": "Bol de soupe", "it": "Scodella di zuppa", "pl": "Miska zupy", "pt": "Tigela de sopa", "tr": "Çorba kâsesi", "el": "Μπολ σούπας", "bg": "Купа супа", "ru": "Тарелка супа", "ar": "وعاء حساء", "hi": "सूप का कटोरा", "zh": "汤碗", "ja": "スープ皿", "ko": "수프 그릇"},
+  "name": {"id": "Mangkuk sup", "ms": "Mangkuk sup", "da": "Suppeskål", "de": "Suppenschüssel", "en": "Soup bowl", "es": "Tazón de sopa", "fil": "Mangkok ng sopas", "fr": "Bol de soupe", "it": "Scodella di zuppa", "sw": "Bakuli la supu", "hu": "Levesestál", "nl": "Soepkom", "nb": "Suppebolle", "pl": "Miska zupy", "pt": "Tigela de sopa", "ro": "Castron de supă", "fi": "Keittokulho", "sv": "Soppskål", "vi": "Bát súp", "tr": "Çorba kâsesi", "cs": "Miska polévky", "el": "Μπολ σούπας", "bg": "Купа супа", "ru": "Тарелка супа", "uk": "Миска супу", "ur": "سوپ کا پیالہ", "ar": "وعاء حساء", "fa": "کاسه سوپ", "mr": "सूपचा वाडगा", "hi": "सूप का कटोरा", "bn": "স্যুপের বাটি", "pa": "ਸੂਪ ਦਾ ਕਟੋਰਾ", "ta": "சூப் கிண்ணம்", "te": "సూప్ గిన్నె", "th": "ชามซุป", "zh": "汤碗", "ja": "スープ皿", "ko": "수프 그릇"},
   "solution": ["#..#.#..#.", "....#.#...", "...#.#....", "..........", "##########", "##########", ".########.", "..######..", "...####..#", "#........."],
   "colors":   ["Y..W.W..Y.", "....W.W...", "...W.W....", "..........", "BOOOOGOOOB", "BBBBBBBBBB", ".BBBBBBBB.", "..BBBBBB..", "...BBBB..Y", "Y........."],
   "palette":  { "B": "#3B82F6", "G": "#22C55E", "O": "#F97316", "W": "#FFFFFF", "Y": "#FACC15" }

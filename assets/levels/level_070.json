@@ -1,6 +1,6 @@
 {
   "id": 70,
-  "name": {"de": "Bonbon", "en": "Candy", "es": "Caramelo", "fr": "Bonbon", "it": "Caramella", "pl": "Cukierek", "pt": "Bala", "tr": "Şeker", "el": "Καραμέλα", "bg": "Бонбон", "ru": "Конфета", "ar": "حلوى", "hi": "टॉफ़ी", "zh": "糖果", "ja": "キャンディ", "ko": "사탕"},
+  "name": {"id": "Permen", "ms": "Gula-gula", "da": "Bolsje", "de": "Bonbon", "en": "Candy", "es": "Caramelo", "fil": "Kendi", "fr": "Bonbon", "it": "Caramella", "sw": "Peremende", "hu": "Cukorka", "nl": "Snoepje", "nb": "Godteri", "pl": "Cukierek", "pt": "Bala", "ro": "Bomboană", "fi": "Karkki", "sv": "Godis", "vi": "Viên kẹo", "tr": "Şeker", "cs": "Bonbon", "el": "Καραμέλα", "bg": "Бонбон", "ru": "Конфета", "uk": "Цукерка", "ur": "ٹافی", "ar": "حلوى", "fa": "آب‌نبات", "mr": "गोळी", "hi": "टॉफ़ी", "bn": "লজেন্স", "pa": "ਟੌਫ਼ੀ", "ta": "மிட்டாய்", "te": "మిఠాయి", "th": "ลูกอม", "zh": "糖果", "ja": "キャンディ", "ko": "사탕"},
   "solution": ["..........", "#.......#.", "##.###.##.", "#########.", ".#######..", "#########.", "##.###.##.", "#.......#.", "..........", ".........."],
   "colors":   ["..........", "R.......R.", "RR.OOO.RR.", "RROOYOORR.", ".ROYOYOR..", "RROOYOORR.", "RR.OOO.RR.", "R.......R.", "..........", ".........."],
   "palette":  { "O": "#F97316", "R": "#E8453C", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 198,
-  "name": {"de": "Teleskop", "en": "Telescope", "es": "Telescopio", "fr": "Télescope", "it": "Telescopio", "pl": "Teleskop", "pt": "Telescópio", "tr": "Teleskop", "el": "Τηλεσκόπιο", "bg": "Телескоп", "ru": "Телескоп", "ar": "تلسكوب", "hi": "दूरबीन", "zh": "望远镜", "ja": "望遠鏡", "ko": "망원경"},
+  "name": {"id": "Teleskop", "ms": "Teleskop", "da": "Teleskop", "de": "Teleskop", "en": "Telescope", "es": "Telescopio", "fil": "Teleskopyo", "fr": "Télescope", "it": "Telescopio", "sw": "Darubini", "hu": "Távcső", "nl": "Telescoop", "nb": "Teleskop", "pl": "Teleskop", "pt": "Telescópio", "ro": "Telescop", "fi": "Kaukoputki", "sv": "Teleskop", "vi": "Kính thiên văn", "tr": "Teleskop", "cs": "Dalekohled", "el": "Τηλεσκόπιο", "bg": "Телескоп", "ru": "Телескоп", "uk": "Телескоп", "ur": "دوربین", "ar": "تلسكوب", "fa": "تلسکوپ", "mr": "दुर्बीण", "hi": "दूरबीन", "bn": "দূরবীন", "pa": "ਦੂਰਬੀਨ", "ta": "தொலைநோக்கி", "te": "టెలిస్కోప్", "th": "กล้องโทรทรรศน์", "zh": "望远镜", "ja": "望遠鏡", "ko": "망원경"},
   "solution": [".......###", "......####", "...#######", "....####..", "...####...", "..####....", ".####.....", "..##......", "...##.....", "...##.....", "..####....", "..#..#....", ".##...#...", ".#....#...", "#........."],
   "colors":   [".......EEE", "......NNNE", "...NNNNNNE", "....NNNN..", "...NNNN...", "..NNNN....", ".NNNN.....", "..NN......", "...EE.....", "...EE.....", "..EEEE....", "..E..E....", ".EE...E...", ".E....E...", "E........."],
   "palette":  { "E": "#94A3B8", "N": "#1E3A8A" }

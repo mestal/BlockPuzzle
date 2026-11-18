@@ -1,6 +1,6 @@
 {
   "id": 456,
-  "name": {"de": "Krake", "en": "Kraken", "es": "Kraken", "fr": "Kraken", "it": "Kraken", "pl": "Kraken", "pt": "Kraken", "tr": "Kraken", "el": "Κράκεν", "bg": "Кракен", "ru": "Кракен", "ar": "كراكن", "hi": "क्रैकन", "zh": "海怪", "ja": "クラーケン", "ko": "크라켄"},
+  "name": {"id": "Kraken", "ms": "Kraken", "da": "Kraken", "de": "Krake", "en": "Kraken", "es": "Kraken", "fil": "Kraken", "fr": "Kraken", "it": "Kraken", "sw": "Kraken", "hu": "Kraken", "nl": "Kraken", "nb": "Kraken", "pl": "Kraken", "pt": "Kraken", "ro": "Kraken", "fi": "Kraken", "sv": "Kraken", "vi": "Thủy quái Kraken", "tr": "Kraken", "cs": "Kraken", "el": "Κράκεν", "bg": "Кракен", "ru": "Кракен", "uk": "Кракен", "ur": "کریکن", "ar": "كراكن", "fa": "کراکن", "mr": "क्रॅकेन", "hi": "क्रैकन", "bn": "ক্র্যাকেন", "pa": "ਕ੍ਰੈਕਨ", "ta": "கிராக்கன்", "te": "క్రాకెన్", "th": "คราเคน", "zh": "海怪", "ja": "クラーケン", "ko": "크라켄"},
   "solution": ["..........", "...####...", "..######..", "..#.##.#..", "..######..", "..######..", ".#.#..#.#.", "#..#..#..#", "#.#....#.#", ".#.#..#.#.", "..#.##.#..", ".#..##....", "#.#.#.#..#", "..........", ".........."],
   "colors":   ["..........", "...MMMM...", "..MMMMMM..", "..M.MM.M..", "..MMMMMM..", "..MMMMMM..", ".M.M..M.M.", "M..M..M..M", "M.M....M.M", ".M.M..M.M.", "..M.MM.M..", ".M..MM....", "M.M.M.M..M", "..........", ".........."],
   "palette":  { "M": "#DB2777" }

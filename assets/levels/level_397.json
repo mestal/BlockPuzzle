@@ -1,6 +1,6 @@
 {
   "id": 397,
-  "name": {"de": "Strauß", "en": "Ostrich", "es": "Avestruz", "fr": "Autruche", "it": "Struzzo", "pl": "Struś", "pt": "Avestruz", "tr": "Devekuşu", "el": "Στρουθοκάμηλος", "bg": "Щраус", "ru": "Страус", "ar": "نعامة", "hi": "शुतुरमुर्ग", "zh": "鸵鸟", "ja": "ダチョウ", "ko": "타조"},
+  "name": {"id": "Burung unta", "ms": "Burung unta", "da": "Struds", "de": "Strauß", "en": "Ostrich", "es": "Avestruz", "fil": "Ostrich", "fr": "Autruche", "it": "Struzzo", "sw": "Mbuni", "hu": "Strucc", "nl": "Struisvogel", "nb": "Struts", "pl": "Struś", "pt": "Avestruz", "ro": "Struț", "fi": "Strutsi", "sv": "Struts", "vi": "Đà điểu", "tr": "Devekuşu", "cs": "Pštros", "el": "Στρουθοκάμηλος", "bg": "Щраус", "ru": "Страус", "uk": "Страус", "ur": "شتر مرغ", "ar": "نعامة", "fa": "شترمرغ", "mr": "शहामृग", "hi": "शुतुरमुर्ग", "bn": "উটপাখি", "pa": "ਸ਼ੁਤਰਮੁਰਗ", "ta": "தீக்கோழி", "te": "నిప్పుకోడి", "th": "นกกระจอกเทศ", "zh": "鸵鸟", "ja": "ダチョウ", "ko": "타조"},
   "solution": ["......###.", "......#.##", ".......##.", ".......#..", "......#...", "......#..#", ".....#....", ".#######..", "#########.", "########..", ".######...", "...#..#...", "...#...#..", "..#....#..", "..##...##."],
   "colors":   ["......KKK.", "......K.KO", ".......KK.", ".......F..", "......F...", "......F..Y", ".....F....", ".KKKKKKK..", "KKWKKKKKK.", "KKKKKKKK..", ".KKKKKK...", "...F..F...", "...F...F..", "..F....F..", "..FF...FF."],
   "palette":  { "F": "#FBCFA5", "K": "#1F2937", "O": "#F97316", "W": "#FFFFFF", "Y": "#FACC15" }

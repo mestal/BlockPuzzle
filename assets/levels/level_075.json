@@ -1,6 +1,6 @@
 {
   "id": 75,
-  "name": {"de": "Lutscher", "en": "Lollipop", "es": "Piruleta", "fr": "Sucette", "it": "Lecca-lecca", "pl": "Lizak", "pt": "Pirulito", "tr": "Lolipop", "el": "Γλειφιτζούρι", "bg": "Близалка", "ru": "Леденец", "ar": "مصاصة", "hi": "लॉलीपॉप", "zh": "棒棒糖", "ja": "ペロペロキャンディ", "ko": "막대사탕"},
+  "name": {"id": "Lolipop", "ms": "Lolipop", "da": "Slikkepind", "de": "Lutscher", "en": "Lollipop", "es": "Piruleta", "fil": "Lollipop", "fr": "Sucette", "it": "Lecca-lecca", "sw": "Pipi ya kijiti", "hu": "Nyalóka", "nl": "Lolly", "nb": "Kjærlighet på pinne", "pl": "Lizak", "pt": "Pirulito", "ro": "Acadea pe băț", "fi": "Tikkari", "sv": "Klubba", "vi": "Kẹo mút", "tr": "Lolipop", "cs": "Lízátko", "el": "Γλειφιτζούρι", "bg": "Близалка", "ru": "Леденец", "uk": "Льодяник", "ur": "لالی پاپ", "ar": "مصاصة", "fa": "آب‌نبات چوبی", "mr": "लॉलीपॉप", "hi": "लॉलीपॉप", "bn": "ললিপপ", "pa": "ਲਾਲੀਪੌਪ", "ta": "லாலிபாப்", "te": "లాలీపాప్", "th": "อมยิ้ม", "zh": "棒棒糖", "ja": "ペロペロキャンディ", "ko": "막대사탕"},
   "solution": ["..#####...", ".#######..", "#########.", "#########.", "#########.", "#########.", ".#######..", "....#.....", "....#.....", ".........."],
   "colors":   ["..PPPPP...", ".PWWWWWP..", "PWPPPPPWP.", "PWPWWWPWP.", "PWPWPPPWP.", "PWPPWWWWP.", ".PPPPPPP..", "....T.....", "....T.....", ".........."],
   "palette":  { "P": "#F472B6", "T": "#92400E", "W": "#FFFFFF" }

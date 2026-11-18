@@ -1,6 +1,6 @@
 {
   "id": 246,
-  "name": {"de": "Kochmütze", "en": "Chef hat", "es": "Gorro de chef", "fr": "Toque de chef", "it": "Cappello da chef", "pl": "Czapka kucharska", "pt": "Chapéu de chef", "tr": "Aşçı şapkası", "el": "Σκούφος σεφ", "bg": "Готварска шапка", "ru": "Поварской колпак", "ar": "قبعة الطاهي", "hi": "शेफ की टोपी", "zh": "厨师帽", "ja": "コック帽", "ko": "요리사 모자"},
+  "name": {"id": "Topi koki", "ms": "Topi cef", "da": "Kokkehue", "de": "Kochmütze", "en": "Chef hat", "es": "Gorro de chef", "fil": "Sumbrero ng kusinero", "fr": "Toque de chef", "it": "Cappello da chef", "sw": "Kofia ya mpishi", "hu": "Szakácssapka", "nl": "Koksmuts", "nb": "Kokkelue", "pl": "Czapka kucharska", "pt": "Chapéu de chef", "ro": "Bonetă de bucătar", "fi": "Kokin hattu", "sv": "Kockmössa", "vi": "Mũ đầu bếp", "tr": "Aşçı şapkası", "cs": "Kuchařská čepice", "el": "Σκούφος σεφ", "bg": "Готварска шапка", "ru": "Поварской колпак", "uk": "Ковпак кухаря", "ur": "شیف کی ٹوپی", "ar": "قبعة الطاهي", "fa": "کلاه آشپز", "mr": "आचाऱ्याची टोपी", "hi": "शेफ की टोपी", "bn": "শেফের টুপি", "pa": "ਸ਼ੈੱਫ਼ ਦੀ ਟੋਪੀ", "ta": "சமையல்காரர் தொப்பி", "te": "వంటవాడి టోపీ", "th": "หมวกเชฟ", "zh": "厨师帽", "ja": "コック帽", "ko": "요리사 모자"},
   "solution": [".##.##.##.", "##########", "##########", ".########.", "..######..", "#.#.##.#..", "..#.##.#.#", "..######..", "..######..", "#........."],
   "colors":   [".WW.WW.WW.", "WWWWWWWWWW", "WWWWWWWWWW", ".WWWWWWWW.", "..WWWWWW..", "Y.W.WW.W..", "..W.WW.W.Y", "..WWWWWW..", "..LLLLLL..", "Y........."],
   "palette":  { "L": "#E2E8F0", "W": "#FFFFFF", "Y": "#FACC15" }

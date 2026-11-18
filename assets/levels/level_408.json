@@ -1,6 +1,6 @@
 {
   "id": 408,
-  "name": {"de": "Motte", "en": "Moth", "es": "Polilla", "fr": "Papillon de nuit", "it": "Falena", "pl": "Ćma", "pt": "Mariposa", "tr": "Güve", "el": "Νυχτοπεταλούδα", "bg": "Нощна пеперуда", "ru": "Мотылёк", "ar": "عثة", "hi": "पतंगा", "zh": "飞蛾", "ja": "ガ", "ko": "나방"},
+  "name": {"id": "Ngengat", "ms": "Kupu-kupu malam", "da": "Møl", "de": "Motte", "en": "Moth", "es": "Polilla", "fil": "Gamugamo", "fr": "Papillon de nuit", "it": "Falena", "sw": "Nondo", "hu": "Lepke", "nl": "Mot", "nb": "Møll", "pl": "Ćma", "pt": "Mariposa", "ro": "Molie", "fi": "Yöperhonen", "sv": "Nattfjäril", "vi": "Bướm đêm", "tr": "Güve", "cs": "Můra", "el": "Νυχτοπεταλούδα", "bg": "Нощна пеперуда", "ru": "Мотылёк", "uk": "Метелик-нічниця", "ur": "پتنگا", "ar": "عثة", "fa": "بید", "mr": "पतंग", "hi": "पतंगा", "bn": "মথ", "pa": "ਪਤੰਗਾ", "ta": "அந்துப்பூச்சி", "te": "చిమ్మట", "th": "ผีเสื้อกลางคืน", "zh": "飞蛾", "ja": "ガ", "ko": "나방"},
   "solution": ["..........", "#.#....#.#", "...#..#...", "###.##.###", "##########", "#.######.#", "##########", ".########.", "..######..", ".########.", "##.####.##", "###.##.###", ".#..##..#.", "....##....", "#......#.."],
   "colors":   ["..........", "Y.K....K.Y", "...K..K...", "EEE.KK.EEE", "EEEEKKEEEE", "E.EEKKEE.E", "EEEEKKEEEE", ".EEEKKEEE.", "..EEKKEE..", ".LLLKKLLL.", "LL.LKKL.LL", "LLL.KK.LLL", ".L..KK..L.", "....KK....", "Y......Y.."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0", "Y": "#FACC15" }

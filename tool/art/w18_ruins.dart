@@ -7,7 +7,7 @@ import '../level_art.dart';
 final ruinsArt = <LevelArt>[
   art(
     18,
-    'Yunan sütunu|Greek column|Griechische Säule|Colonne grecque|Columna griega|Colonna greca|希腊柱|ギリシャの柱|Греческая колонна|عمود يوناني|Coluna grega|Kolumna grecka|Ελληνική κολόνα|Гръцка колона|그리스 기둥|यूनानी स्तंभ',
+    'Yunan sütunu|Greek column|Griechische Säule|Colonne grecque|Columna griega|Colonna greca|希腊柱|ギリシャの柱|Греческая колонна|عمود يوناني|Coluna grega|Kolumna grecka|Ελληνική κολόνα|Гръцка колона|그리스 기둥|यूनानी स्तंभ|Griekse zuil|Грецька колона|Coloană grecească|Grekisk pelare|Gresk søyle|Græsk søjle|Kreikkalainen pylväs|Řecký sloup|Görög oszlop|Tiang Yunani|Haliging Griyego|গ্রিক স্তম্ভ|یونانی ستون|Pilar Yunani|Cột Hy Lạp|ستون یونانی|Nguzo ya Kigiriki|ग्रीक स्तंभ|గ్రీకు స్తంభం|கிரேக்கத் தூண்|ਯੂਨਾਨੀ ਥੰਮ੍ਹ|เสากรีก',
     [
       '.EEEEEEE..',
       '.E.EEE.E..',
@@ -28,7 +28,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Amfora|Amphora|Amphore|Amphore|Ánfora|Anfora|双耳瓶|アンフォラ|Амфора|أمفورة|Ânfora|Amfora|Αμφορέας|Амфора|암포라|सुराही',
+    'Amfora|Amphora|Amphore|Amphore|Ánfora|Anfora|双耳瓶|アンフォラ|Амфора|أمفورة|Ânfora|Amfora|Αμφορέας|Амфора|암포라|सुराही|Amfoor|Амфора|Amforă|Amfora|Amfora|Amfora|Amfora|Amfora|Amfora|Amfora|Ampora|অ্যাম্ফোরা|صراحی|Amfora|Bình gốm cổ|آمفورا|Gudulia la kale|सुरई|కూజా|சாடி|ਸੁਰਾਹੀ|โถแอมโฟรา',
     [
       '...OOOO...',
       '....OO....',
@@ -47,7 +47,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Sfenks|Sphinx|Sphinx|Sphinx|Esfinge|Sfinge|狮身人面像|スフィンクス|Сфинкс|أبو الهول|Esfinge|Sfinks|Σφίγγα|Сфинкс|스핑크스|स्फिंक्स',
+    'Sfenks|Sphinx|Sphinx|Sphinx|Esfinge|Sfinge|狮身人面像|スフィンクス|Сфинкс|أبو الهول|Esfinge|Sfinks|Σφίγγα|Сфинкс|스핑크스|स्फिंक्स|Sfinx|Сфінкс|Sfinx|Sfinx|Sfinks|Sfinks|Sfinksi|Sfinga|Szfinx|Sfinks|Sphinx|স্ফিংক্স|ابوالہول|Sfinks|Tượng nhân sư|ابوالهول|Sfinksi|स्फिंक्स|స్ఫింక్స్|ஸ்பிங்க்ஸ்|ਸਫ਼ਿੰਕਸ|สฟิงซ์',
     [
       '..AAA.....',
       '.AYAYA....',
@@ -62,7 +62,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Firavun|Pharaoh|Pharao|Pharaon|Faraón|Faraone|法老|ファラオ|Фараон|فرعون|Faraó|Faraon|Φαραώ|Фараон|파라오|फ़िरौन',
+    'Firavun|Pharaoh|Pharao|Pharaon|Faraón|Faraone|法老|ファラオ|Фараон|فرعون|Faraó|Faraon|Φαραώ|Фараон|파라오|फ़िरौन|Farao|Фараон|Faraon|Farao|Farao|Farao|Faarao|Faraon|Fáraó|Firaun|Paraon|ফারাও|فرعون|Firaun|Pharaoh|فرعون|Firauni|फॅरो|ఫారో|பாரோ|ਫ਼ਿਰਊਨ|ฟาโรห์',
     [
       '...YYYY...',
       '..YBYYBY..',
@@ -80,7 +80,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Ankh|Ankh|Anch|Ânkh|Anj|Ankh|安卡|アンク|Анх|عنخ|Ankh|Ankh|Ανκχ|Анкх|앙크|अंख',
+    'Ankh|Ankh|Anch|Ânkh|Anj|Ankh|安卡|アンク|Анх|عنخ|Ankh|Ankh|Ανκχ|Анкх|앙크|अंख|Ankh|Анх|Ankh|Ankh|Ankh|Ankh|Ankh|Anch|Ankh|Ankh|Ankh|আংখ|آنخ|Ankh|Biểu tượng Ankh|عنخ|Ankh|आंख चिन्ह|ఆంఖ్|ஆங்க்|ਆਂਖ|อังค์',
     [
       '...AAA....',
       '..A...A...',
@@ -98,7 +98,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Güneş saati|Sundial|Sonnenuhr|Cadran solaire|Reloj de sol|Meridiana|日晷|日時計|Солнечные часы|مزولة|Relógio de sol|Zegar słoneczny|Ηλιακό ρολόι|Слънчев часовник|해시계|धूपघड़ी',
+    'Güneş saati|Sundial|Sonnenuhr|Cadran solaire|Reloj de sol|Meridiana|日晷|日時計|Солнечные часы|مزولة|Relógio de sol|Zegar słoneczny|Ηλιακό ρολόι|Слънчев часовник|해시계|धूपघड़ी|Zonnewijzer|Сонячний годинник|Cadran solar|Solur|Solur|Solur|Aurinkokello|Sluneční hodiny|Napóra|Jam matahari|Orasang araw|সূর্যঘড়ি|دھوپ گھڑی|Jam matahari|Đồng hồ mặt trời|ساعت آفتابی|Saa ya jua|सूर्यघड्याळ|సూర్య గడియారం|சூரியக் கடிகாரம்|ਧੁੱਪ ਘੜੀ|นาฬิกาแดด',
     [
       '.Y........',
       'YYY.K.....',
@@ -115,7 +115,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Taş tekerlek|Stone wheel|Steinrad|Roue de pierre|Rueda de piedra|Ruota di pietra|石轮|石の車輪|Каменное колесо|عجلة حجرية|Roda de pedra|Kamienne koło|Πέτρινος τροχός|Каменно колело|돌 바퀴|पत्थर का पहिया',
+    'Taş tekerlek|Stone wheel|Steinrad|Roue de pierre|Rueda de piedra|Ruota di pietra|石轮|石の車輪|Каменное колесо|عجلة حجرية|Roda de pedra|Kamienne koło|Πέτρινος τροχός|Каменно колело|돌 바퀴|पत्थर का पहिया|Stenen wiel|Кам’яне колесо|Roată de piatră|Stenhjul|Steinhjul|Stenhjul|Kivipyörä|Kamenné kolo|Kőkerék|Roda batu|Gulong na bato|পাথরের চাকা|پتھر کا پہیہ|Roda batu|Bánh xe đá|چرخ سنگی|Gurudumu la jiwe|दगडी चाक|రాతి చక్రం|கல் சக்கரம்|ਪੱਥਰ ਦਾ ਪਹੀਆ|ล้อหิน',
     [
       '...EEEE...',
       '..EEEEEE..',
@@ -129,7 +129,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Kolezyum|Colosseum|Kolosseum|Colisée|Coliseo|Colosseo|罗马斗兽场|コロッセオ|Колизей|الكولوسيوم|Coliseu|Koloseum|Κολοσσαίο|Колизеум|콜로세움|कोलोसियम',
+    'Kolezyum|Colosseum|Kolosseum|Colisée|Coliseo|Colosseo|罗马斗兽场|コロッセオ|Колизей|الكولوسيوم|Coliseu|Koloseum|Κολοσσαίο|Колизеум|콜로세움|कोलोसियम|Colosseum|Колізей|Colosseum|Colosseum|Colosseum|Colosseum|Colosseum|Koloseum|Colosseum|Colosseum|Colosseum|কলোসিয়াম|کولوسیم|Koloseum|Đấu trường La Mã|کولوسئوم|Kolosiamu|कोलोसियम|కొలోసియం|கொலோசியம்|ਕੋਲੋਸੀਅਮ|โคลอสเซียม',
     [
       'EEEEEE....',
       'E.E.E.E...',
@@ -145,7 +145,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Tapınak|Temple|Tempel|Temple|Templo|Tempio|神殿|神殿|Храм|معبد|Templo|Świątynia|Ναός|Храм|신전|मंदिर',
+    'Tapınak|Temple|Tempel|Temple|Templo|Tempio|神殿|神殿|Храм|معبد|Templo|Świątynia|Ναός|Храм|신전|मंदिर|Tempel|Храм|Templu|Tempel|Tempel|Tempel|Temppeli|Chrám|Templom|Kuil|Templo|মন্দির|مندر|Kuil|Đền thờ|معبد|Hekalu|मंदिर|ఆలయం|கோயில்|ਮੰਦਰ|วิหาร',
     [
       '....EE....',
       '..EEEEEE..',
@@ -163,7 +163,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Dikilitaş|Obelisk|Obelisk|Obélisque|Obelisco|Obelisco|方尖碑|オベリスク|Обелиск|مسلة|Obelisco|Obelisk|Οβελίσκος|Обелиск|오벨리스크|ओबिलिस्क',
+    'Dikilitaş|Obelisk|Obelisk|Obélisque|Obelisco|Obelisco|方尖碑|オベリスク|Обелиск|مسلة|Obelisco|Obelisk|Οβελίσκος|Обелиск|오벨리스크|ओबिलिस्क|Obelisk|Обеліск|Obelisc|Obelisk|Obelisk|Obelisk|Obeliski|Obelisk|Obeliszk|Obelisk|Obelisk|স্মৃতিস্তম্ভ|مینار نما ستون|Obelisk|Cột tháp|ستون یادبود|Nguzo ya mawe|स्तंभ|స్తూపం|தூபி|ਥੰਮ੍ਹ|เสาโอเบลิสก์',
     [
       '....A.....',
       '...AAA....',
@@ -183,7 +183,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Altın heykel|Golden idol|Goldenes Götzenbild|Idole en or|Ídolo de oro|Idolo d\'oro|金色神像|黄金の像|Золотой идол|التمثال الذهبي|Ídolo de ouro|Złoty posążek|Χρυσό είδωλο|Златен идол|황금 우상|सोने की मूर्ति',
+    'Altın heykel|Golden idol|Goldenes Götzenbild|Idole en or|Ídolo de oro|Idolo d\'oro|金色神像|黄金の像|Золотой идол|التمثال الذهبي|Ídolo de ouro|Złoty posążek|Χρυσό είδωλο|Златен идол|황금 우상|सोने की मूर्ति|Gouden afgodsbeeld|Золотий ідол|Idol de aur|Guldidol|Gullidol|Guldidol|Kultainen epäjumala|Zlatá modla|Aranybálvány|Berhala emas|Gintong idolo|সোনার মূর্তি|سنہری مورتی|Patung emas|Tượng vàng|بت طلایی|Sanamu ya dhahabu|सोन्याची मूर्ती|బంగారు విగ్రహం|தங்கச் சிலை|ਸੁਨਹਿਰੀ ਮੂਰਤੀ|รูปเคารพทองคำ',
     [
       '...AAAA...',
       '..AAAAAA..',
@@ -203,7 +203,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Totem direği|Totem pole|Totempfahl|Mât totémique|Tótem|Totem|图腾柱|トーテムポール|Тотемный столб|عمود الطوطم|Totem|Totem|Τοτέμ|Тотемен стълб|토템 기둥|टोटेम स्तंभ',
+    'Totem direği|Totem pole|Totempfahl|Mât totémique|Tótem|Totem|图腾柱|トーテムポール|Тотемный столб|عمود الطوطم|Totem|Totem|Τοτέμ|Тотемен стълб|토템 기둥|टोटेम स्तंभ|Totempaal|Тотемний стовп|Stâlp totemic|Totempåle|Totempæl|Totempæl|Toteemipaalu|Totem|Totemoszlop|Tiang totem|Totem|টোটেম খুঁটি|ٹوٹم کھمبا|Tiang totem|Cột vật tổ|ستون توتم|Nguzo ya totemu|टोटेम खांब|టోటెమ్ స్తంభం|டோட்டம் கம்பம்|ਟੋਟਮ ਖੰਭਾ|เสาโทเท็ม',
     [
       'RR......RR',
       '.RRRRRRRR.',
@@ -224,7 +224,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Moai heykeli|Moai|Moai|Moaï|Moái|Moai|摩艾石像|モアイ像|Моаи|تمثال موآي|Moai|Moai|Μοάι|Моаи|모아이|मोआई',
+    'Moai heykeli|Moai|Moai|Moaï|Moái|Moai|摩艾石像|モアイ像|Моаи|تمثال موآي|Moai|Moai|Μοάι|Моаи|모아이|मोआई|Moai|Моаї|Moai|Moai|Moai|Moai|Moai|Moai|Moai|Moai|Moai|মোয়াই|موائی|Moai|Tượng Moai|موآی|Moai|मोआई|మోయాయ్|மோவாய்|ਮੋਆਈ|โมอาย',
     [
       '...EEEE...',
       '..EEEEEE..',
@@ -243,7 +243,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Taş tablet|Stone tablet|Steintafel|Tablette de pierre|Tablilla de piedra|Tavoletta di pietra|石碑|石板|Каменная скрижаль|لوح حجري|Tábua de pedra|Kamienna tablica|Πέτρινη πλάκα|Каменна плоча|석판|शिलालेख',
+    'Taş tablet|Stone tablet|Steintafel|Tablette de pierre|Tablilla de piedra|Tavoletta di pietra|石碑|石板|Каменная скрижаль|لوح حجري|Tábua de pedra|Kamienna tablica|Πέτρινη πλάκα|Каменна плоча|석판|शिलालेख|Stenen tablet|Кам’яна скрижаль|Tăbliță de piatră|Stentavla|Steintavle|Stentavle|Kivitaulu|Kamenná deska|Kőtábla|Loh batu|Tapyas na bato|পাথরের ফলক|پتھر کی تختی|Prasasti batu|Bia đá|لوح سنگی|Bamba la jiwe|शिलालेख|శిలాఫలకం|கல்வெட்டு|ਪੱਥਰ ਦੀ ਤਖ਼ਤੀ|แผ่นจารึกหิน',
     [
       '.EE...EE..',
       'EEEE.EEEE.',
@@ -259,7 +259,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Defne çelengi|Laurel wreath|Lorbeerkranz|Couronne de laurier|Corona de laurel|Corona d\'alloro|月桂冠|月桂冠|Лавровый венок|إكليل الغار|Coroa de louros|Wieniec laurowy|Δάφνινο στεφάνι|Лавров венец|월계관|लॉरेल माला',
+    'Defne çelengi|Laurel wreath|Lorbeerkranz|Couronne de laurier|Corona de laurel|Corona d\'alloro|月桂冠|月桂冠|Лавровый венок|إكليل الغار|Coroa de louros|Wieniec laurowy|Δάφνινο στεφάνι|Лавров венец|월계관|लॉरेल माला|Lauwerkrans|Лавровий вінок|Cunună de lauri|Lagerkrans|Laurbærkrans|Laurbærkrans|Laakeriseppele|Vavřínový věnec|Babérkoszorú|Kalungan daun salam|Korona ng laurel|জয়মাল্য|فتح کا تاج|Mahkota daun salam|Vòng nguyệt quế|تاج افتخار|Taji la majani|विजयी पुष्पमुकुट|విజయ మాల|வெற்றி மாலை|ਜਿੱਤ ਦਾ ਹਾਰ|มงกุฎใบลอเรล',
     [
       '.G......G.',
       'G.G....G.G',
@@ -273,7 +273,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Üç dişli mızrak|Trident|Dreizack|Trident|Tridente|Tridente|三叉戟|三叉槍|Трезубец|رمح ثلاثي|Tridente|Trójząb|Τρίαινα|Тризъбец|삼지창|त्रिशूल',
+    'Üç dişli mızrak|Trident|Dreizack|Trident|Tridente|Tridente|三叉戟|三叉槍|Трезубец|رمح ثلاثي|Tridente|Trójząb|Τρίαινα|Тризъбец|삼지창|त्रिशूल|Drietand|Тризуб|Trident|Treudd|Trefork|Trefork|Atrain|Trojzubec|Szigony|Serampang|Salapang|ত্রিশূল|ترشول|Trisula|Đinh ba|سه‌شاخه|Mkuki wa ncha tatu|त्रिशूळ|త్రిశూలం|திரிசூலம்|ਤ੍ਰਿਸ਼ੂਲ|ตรีศูล',
     [
       '.A..A..A..',
       '.AA.A.AA..',
@@ -293,7 +293,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Savaş arabası|Chariot|Streitwagen|Char|Carro|Biga|战车|戦車|Колесница|عربة حربية|Biga|Rydwan|Άρμα|Колесница|전차|रथ',
+    'Savaş arabası|Chariot|Streitwagen|Char|Carro|Biga|战车|戦車|Колесница|عربة حربية|Biga|Rydwan|Άρμα|Колесница|전차|रथ|Strijdwagen|Колісниця|Car de luptă|Stridsvagn|Stridsvogn|Stridsvogn|Sotavaunu|Válečný vůz|Harci szekér|Kereta perang|Karwahe|রথ|رتھ|Kereta perang|Chiến xa|ارابه|Gari la vita|रथ|రథం|தேர்|ਰੱਥ|รถศึก',
     [
       '.AAAA.....',
       'AAAAAA....',
@@ -308,7 +308,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Truva atı|Trojan horse|Trojanisches Pferd|Cheval de Troie|Caballo de Troya|Cavallo di Troia|特洛伊木马|トロイの木馬|Троянский конь|حصان طروادة|Cavalo de Troia|Koń trojański|Δούρειος ίππος|Троянски кон|트로이 목마|ट्रोजन घोड़ा',
+    'Truva atı|Trojan horse|Trojanisches Pferd|Cheval de Troie|Caballo de Troya|Cavallo di Troia|特洛伊木马|トロイの木馬|Троянский конь|حصان طروادة|Cavalo de Troia|Koń trojański|Δούρειος ίππος|Троянски кон|트로이 목마|ट्रोजन घोड़ा|Paard van Troje|Троянський кінь|Calul troian|Trojanska hästen|Trojanske hesten|Den trojanske hest|Troijan hevonen|Trojský kůň|Trójai faló|Kuda Troy|Kabayo ng Troya|ট্রয়ের ঘোড়া|ٹروجن گھوڑا|Kuda Troya|Ngựa thành Troy|اسب تروا|Farasi wa Troy|ट्रॉयचा घोडा|ట్రోజన్ గుర్రం|டிராய் குதிரை|ਟ੍ਰੋਜਨ ਘੋੜਾ|ม้าไม้เมืองทรอย',
     [
       '......TT..',
       '......TTT.',
@@ -326,7 +326,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Lir|Lyre|Lyra|Lyre|Lira|Lira|里拉琴|竪琴|Лира|قيثار|Lira|Lira|Λύρα|Лира|리라|लायर',
+    'Lir|Lyre|Lyra|Lyre|Lira|Lira|里拉琴|竪琴|Лира|قيثار|Lira|Lira|Λύρα|Лира|리라|लायर|Lier|Ліра|Liră|Lyra|Lyre|Lyre|Lyyra|Lyra|Líra|Lira|Lira|লায়ার|بربط|Lira|Đàn lia|چنگ یونانی|Kinubi|वीणा|వీణ|யாழ்|ਵੀਣਾ|พิณไลร์',
     [
       '.A......A.',
       '.AAAAAAAA.',
@@ -340,7 +340,7 @@ final ruinsArt = <LevelArt>[
   ),
   art(
     18,
-    'Roma miğferi|Roman helmet|Römerhelm|Casque romain|Casco romano|Elmo romano|罗马头盔|ローマの兜|Римский шлем|خوذة رومانية|Elmo romano|Hełm rzymski|Ρωμαϊκό κράνος|Римски шлем|로마 투구|रोमन टोप',
+    'Roma miğferi|Roman helmet|Römerhelm|Casque romain|Casco romano|Elmo romano|罗马头盔|ローマの兜|Римский шлем|خوذة رومانية|Elmo romano|Hełm rzymski|Ρωμαϊκό κράνος|Римски шлем|로마 투구|रोमन टोप|Romeinse helm|Римський шолом|Coif roman|Romersk hjälm|Romersk hjelm|Romersk hjelm|Roomalainen kypärä|Římská přilba|Római sisak|Topi keledar Rom|Helmet ng Romano|রোমান শিরস্ত্রাণ|رومی خود|Helm Romawi|Mũ giáp La Mã|کلاهخود رومی|Kofia ya Kirumi|रोमन शिरस्त्राण|రోమన్ శిరస్త్రాణం|ரோமானியத் தலைக்கவசம்|ਰੋਮਨ ਟੋਪ|หมวกเกราะโรมัน',
     [
       '..RRRRRR..',
       '.RRRRRRRR.',

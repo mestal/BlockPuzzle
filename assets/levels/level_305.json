@@ -1,6 +1,6 @@
 {
   "id": 305,
-  "name": {"de": "Kelch", "en": "Goblet", "es": "Cáliz", "fr": "Calice", "it": "Calice", "pl": "Puchar", "pt": "Cálice", "tr": "Kadeh", "el": "Κύπελλο", "bg": "Бокал", "ru": "Кубок", "ar": "كأس", "hi": "प्याला", "zh": "高脚杯", "ja": "ゴブレット", "ko": "성배"},
+  "name": {"id": "Piala", "ms": "Piala minum", "da": "Bæger", "de": "Kelch", "en": "Goblet", "es": "Cáliz", "fil": "Kopita", "fr": "Calice", "it": "Calice", "sw": "Kikombe cha dhahabu", "hu": "Serleg", "nl": "Bokaal", "nb": "Beger", "pl": "Puchar", "pt": "Cálice", "ro": "Potir", "fi": "Pikari", "sv": "Bägare", "vi": "Chén thánh", "tr": "Kadeh", "cs": "Pohár", "el": "Κύπελλο", "bg": "Бокал", "ru": "Кубок", "uk": "Кубок", "ur": "جام", "ar": "كأس", "fa": "جام شراب", "mr": "चषक", "hi": "प्याला", "bn": "পানপাত্র", "pa": "ਜਾਮ", "ta": "கிண்ணம்", "te": "పాత్ర", "th": "ถ้วยเงิน", "zh": "高脚杯", "ja": "ゴブレット", "ko": "성배"},
   "solution": [".########.", ".########.", ".########.", "..######..", "...####..#", ".#..##....", "....##....", "....##....", "...####..#", "..######.."],
   "colors":   [".AAAAAAAA.", ".ARRRRRRA.", ".AAAAAAAA.", "..AAAAAA..", "...AAAA..Y", ".Y..AA....", "....AA....", "....AA....", "...AAAA..Y", "..AAAAAA.."],
   "palette":  { "A": "#F59E0B", "R": "#E8453C", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 380,
-  "name": {"de": "Hexenbesen", "en": "Broomstick", "es": "Escoba", "fr": "Balai de sorcière", "it": "Scopa", "pl": "Miotła", "pt": "Vassoura", "tr": "Süpürge", "el": "Σκούπα", "bg": "Метла", "ru": "Метла", "ar": "مكنسة", "hi": "झाड़ू", "zh": "扫帚", "ja": "ほうき", "ko": "빗자루"},
+  "name": {"id": "Sapu terbang", "ms": "Penyapu", "da": "Kost", "de": "Hexenbesen", "en": "Broomstick", "es": "Escoba", "fil": "Walis", "fr": "Balai de sorcière", "it": "Scopa", "sw": "Ufagio", "hu": "Seprű", "nl": "Bezemsteel", "nb": "Kost", "pl": "Miotła", "pt": "Vassoura", "ro": "Mătură", "fi": "Luuta", "sv": "Kvast", "vi": "Chổi bay", "tr": "Süpürge", "cs": "Koště", "el": "Σκούπα", "bg": "Метла", "ru": "Метла", "uk": "Мітла", "ur": "جھاڑو", "ar": "مكنسة", "fa": "جارو", "mr": "झाडू", "hi": "झाड़ू", "bn": "ঝাড়ু", "pa": "ਝਾੜੂ", "ta": "துடைப்பம்", "te": "చీపురు", "th": "ไม้กวาด", "zh": "扫帚", "ja": "ほうき", "ko": "빗자루"},
   "solution": ["..........", "#.#.......", ".##.......", "..#.......", "...#......", "#..##.....", ".....###..", "....######", "....######", ".....#####", "......#.##", ".......#.#", "........#.", "..........", ".........."],
   "colors":   ["..........", "T.T.......", ".TT.......", "..T.......", "...T......", "A..TT.....", ".....AAA..", "....AAAAAA", "....AAAAAA", ".....AAAAA", "......A.AA", ".......A.A", "........A.", "..........", ".........."],
   "palette":  { "A": "#F59E0B", "T": "#92400E" }

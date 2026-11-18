@@ -1,6 +1,6 @@
 {
   "id": 378,
-  "name": {"de": "Hexenkessel", "en": "Cauldron", "es": "Caldero", "fr": "Chaudron", "it": "Calderone", "pl": "Kocioł", "pt": "Caldeirão", "tr": "Kazan", "el": "Καζάνι", "bg": "Котел", "ru": "Котёл", "ar": "مرجل", "hi": "कड़ाह", "zh": "大锅", "ja": "大釜", "ko": "가마솥"},
+  "name": {"id": "Kuali", "ms": "Kawah", "da": "Kedel", "de": "Hexenkessel", "en": "Cauldron", "es": "Caldero", "fil": "Kaldero", "fr": "Chaudron", "it": "Calderone", "sw": "Sufuria kubwa", "hu": "Üst", "nl": "Ketel", "nb": "Gryte", "pl": "Kocioł", "pt": "Caldeirão", "ro": "Cazan", "fi": "Pata", "sv": "Kittel", "vi": "Vạc", "tr": "Kazan", "cs": "Kotel", "el": "Καζάνι", "bg": "Котел", "ru": "Котёл", "uk": "Казан", "ur": "دیگ", "ar": "مرجل", "fa": "دیگ جادو", "mr": "कढई", "hi": "कड़ाह", "bn": "কড়াই", "pa": "ਕੜਾਹਾ", "ta": "கொப்பரை", "te": "జ్యోతిష కుండ", "th": "หม้อต้มยา", "zh": "大锅", "ja": "大釜", "ko": "가마솥"},
   "solution": [".....#....", "..##......", ".#..#.##..", "..##.#..#.", "......##..", "##########", "##########", ".########.", "##########", "##########", "##########", ".########.", "..######..", ".##....##.", ".........."],
   "colors":   [".....Y....", "..GG......", ".G..G.GG..", "..GG.G..G.", "......GG..", "KKKKKKKKKK", "KGGZGGZGGK", ".KKKKKKKK.", "KKKKKKKKKK", "KKKKKKKKKK", "KKKKKKKKKK", ".KKKKKKKK.", "..KKKKKK..", ".KK....KK.", ".........."],
   "palette":  { "G": "#22C55E", "K": "#1F2937", "Y": "#FACC15", "Z": "#A3E635" }

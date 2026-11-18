@@ -1,6 +1,6 @@
 {
   "id": 145,
-  "name": {"de": "Vulkan", "en": "Volcano", "es": "Volcán", "fr": "Volcan", "it": "Vulcano", "pl": "Wulkan", "pt": "Vulcão", "tr": "Yanardağ", "el": "Ηφαίστειο", "bg": "Вулкан", "ru": "Вулкан", "ar": "بركان", "hi": "ज्वालामुखी", "zh": "火山", "ja": "火山", "ko": "화산"},
+  "name": {"id": "Gunung berapi", "ms": "Gunung berapi", "da": "Vulkan", "de": "Vulkan", "en": "Volcano", "es": "Volcán", "fil": "Bulkan", "fr": "Volcan", "it": "Vulcano", "sw": "Volkano", "hu": "Vulkán", "nl": "Vulkaan", "nb": "Vulkan", "pl": "Wulkan", "pt": "Vulcão", "ro": "Vulcan", "fi": "Tulivuori", "sv": "Vulkan", "vi": "Núi lửa", "tr": "Yanardağ", "cs": "Sopka", "el": "Ηφαίστειο", "bg": "Вулкан", "ru": "Вулкан", "uk": "Вулкан", "ur": "آتش فشاں", "ar": "بركان", "fa": "آتشفشان", "mr": "ज्वालामुखी", "hi": "ज्वालामुखी", "bn": "আগ্নেয়গিরি", "pa": "ਜਵਾਲਾਮੁਖੀ", "ta": "எரிமலை", "te": "అగ్నిపర్వతం", "th": "ภูเขาไฟ", "zh": "火山", "ja": "火山", "ko": "화산"},
   "solution": ["..........", ".....#....", "...#.#.#..", "....###...", "..#.###.#.", "....###...", "....###...", "...#####..", "...#####..", "..#######.", "..#######.", ".#########", ".#########", "##########", ".........."],
   "colors":   ["..........", ".....O....", "...R.O.R..", "....ROR...", "..O.RYR.O.", "....RYR...", "....HRH...", "...HHRHH..", "...HHHHH..", "..HHHHRHH.", "..HHHHHRH.", ".HHHHHHHHH", ".HHHHHHHHH", "HHHHHHHHHH", ".........."],
   "palette":  { "H": "#5B3410", "O": "#F97316", "R": "#E8453C", "Y": "#FACC15" }

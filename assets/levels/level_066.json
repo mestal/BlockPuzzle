@@ -1,6 +1,6 @@
 {
   "id": 66,
-  "name": {"de": "Keks", "en": "Cookie", "es": "Galleta", "fr": "Biscuit", "it": "Biscotto", "pl": "Ciastko", "pt": "Biscoito", "tr": "Kurabiye", "el": "Μπισκότο", "bg": "Бисквитка", "ru": "Печенье", "ar": "بسكويت", "hi": "कुकी", "zh": "曲奇", "ja": "クッキー", "ko": "쿠키"},
+  "name": {"id": "Kue kering", "ms": "Biskut", "da": "Småkage", "de": "Keks", "en": "Cookie", "es": "Galleta", "fil": "Cookie", "fr": "Biscuit", "it": "Biscotto", "sw": "Biskuti", "hu": "Keksz", "nl": "Koekje", "nb": "Kjeks", "pl": "Ciastko", "pt": "Biscoito", "ro": "Biscuit", "fi": "Keksi", "sv": "Kaka", "vi": "Bánh quy", "tr": "Kurabiye", "cs": "Sušenka", "el": "Μπισκότο", "bg": "Бисквитка", "ru": "Печенье", "uk": "Печиво", "ur": "بسکٹ", "ar": "بسكويت", "fa": "کلوچه", "mr": "कुकी", "hi": "कुकी", "bn": "কুকি", "pa": "ਬਿਸਕੁਟ", "ta": "பிஸ்கட்", "te": "బిస్కెట్", "th": "คุกกี้", "zh": "曲奇", "ja": "クッキー", "ko": "쿠키"},
   "solution": ["..#####...", ".#######..", "#########.", "#########.", "#########.", "#########.", "#########.", ".#######..", "..#####...", ".........."],
   "colors":   ["..TTTTT...", ".TTTHTTT..", "TTHTTTTHT.", "TTTTTHTTT.", "THTTTTTTT.", "TTTTHTTHT.", "THTTTTTTT.", ".TTHTTTT..", "..TTTTT...", ".........."],
   "palette":  { "H": "#5B3410", "T": "#92400E" }

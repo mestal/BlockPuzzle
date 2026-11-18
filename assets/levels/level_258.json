@@ -1,6 +1,6 @@
 {
   "id": 258,
-  "name": {"de": "Nudeln", "en": "Noodles", "es": "Fideos", "fr": "Nouilles", "it": "Noodles", "pl": "Makaron", "pt": "Macarrão", "tr": "Erişte", "el": "Νουντλς", "bg": "Нудели", "ru": "Лапша", "ar": "نودلز", "hi": "नूडल्स", "zh": "面条", "ja": "ラーメン", "ko": "국수"},
+  "name": {"id": "Mi", "ms": "Mi", "da": "Nudler", "de": "Nudeln", "en": "Noodles", "es": "Fideos", "fil": "Pansit", "fr": "Nouilles", "it": "Noodles", "sw": "Tambi", "hu": "Tészta", "nl": "Noedels", "nb": "Nudler", "pl": "Makaron", "pt": "Macarrão", "ro": "Tăiței", "fi": "Nuudelit", "sv": "Nudlar", "vi": "Mì", "tr": "Erişte", "cs": "Nudle", "el": "Νουντλς", "bg": "Нудели", "ru": "Лапша", "uk": "Локшина", "ur": "نوڈلز", "ar": "نودلز", "fa": "رشته فرنگی", "mr": "नूडल्स", "hi": "नूडल्स", "bn": "নুডলস", "pa": "ਨੂਡਲਜ਼", "ta": "நூடுல்ஸ்", "te": "నూడుల్స్", "th": "บะหมี่", "zh": "面条", "ja": "ラーメン", "ko": "국수"},
   "solution": ["..........", ".##.......", "..#...##..", "#..####...", "...#..#...", "..#..#....", "...#..#...", "..#..#....", "##########", "##########", "##########", ".########.", "..######..", "...####...", ".........."],
   "colors":   ["..........", ".TT.......", "..T...TT..", "Y..TYYT...", "...Y..Y...", "..Y..Y....", "...Y..Y...", "..Y..Y....", "RRRRRRRRRR", "RYYYYYYYYR", "RRRRRRRRRR", ".RRRRRRRR.", "..RRRRRR..", "...RRRR...", ".........."],
   "palette":  { "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

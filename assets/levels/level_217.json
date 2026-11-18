@@ -1,6 +1,6 @@
 {
   "id": 217,
-  "name": {"de": "Bonsai", "en": "Bonsai", "es": "Bonsái", "fr": "Bonsaï", "it": "Bonsai", "pl": "Bonsai", "pt": "Bonsai", "tr": "Bonsai", "el": "Μπονσάι", "bg": "Бонсай", "ru": "Бонсай", "ar": "بونساي", "hi": "बोनसाई", "zh": "盆景", "ja": "盆栽", "ko": "분재"},
+  "name": {"id": "Bonsai", "ms": "Bonsai", "da": "Bonsai", "de": "Bonsai", "en": "Bonsai", "es": "Bonsái", "fil": "Bonsai", "fr": "Bonsaï", "it": "Bonsai", "sw": "Bonsai", "hu": "Bonszai", "nl": "Bonsai", "nb": "Bonsai", "pl": "Bonsai", "pt": "Bonsai", "ro": "Bonsai", "fi": "Bonsai", "sv": "Bonsai", "vi": "Cây cảnh bonsai", "tr": "Bonsai", "cs": "Bonsaj", "el": "Μπονσάι", "bg": "Бонсай", "ru": "Бонсай", "uk": "Бонсай", "ur": "بونسائی", "ar": "بونساي", "fa": "بونسای", "mr": "बोन्साय", "hi": "बोनसाई", "bn": "বনসাই", "pa": "ਬੋਨਸਾਈ", "ta": "போன்சாய்", "te": "బోన్సాయ్", "th": "บอนไซ", "zh": "盆景", "ja": "盆栽", "ko": "분재"},
   "solution": [".....#....", ".###......", "#####.###.", ".###.#####", "..#...###.", "..##..#...", "...###....", "....#####.", "....#.##..", "...##.....", "....##....", "##########", ".########.", "..#....#..", ".........."],
   "colors":   [".....Y....", ".GGG......", "GGGGG.GGG.", ".GGG.GGGGG", "..H...GGG.", "..HH..H...", "...HHH....", "....HGGGG.", "....H.GG..", "...HH.....", "....HH....", "RRRRRRRRRR", ".RRRRRRRR.", "..R....R..", ".........."],
   "palette":  { "G": "#22C55E", "H": "#5B3410", "R": "#E8453C", "Y": "#FACC15" }

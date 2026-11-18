@@ -1,6 +1,6 @@
 {
   "id": 64,
-  "name": {"de": "Wackelpudding", "en": "Jelly", "es": "Gelatina", "fr": "Gelée", "it": "Gelatina", "pl": "Galaretka", "pt": "Gelatina", "tr": "Jöle", "el": "Ζελέ", "bg": "Желе", "ru": "Желе", "ar": "جيلي", "hi": "जेली", "zh": "果冻", "ja": "ゼリー", "ko": "젤리"},
+  "name": {"id": "Agar-agar", "ms": "Jeli", "da": "Gelé", "de": "Wackelpudding", "en": "Jelly", "es": "Gelatina", "fil": "Gulaman", "fr": "Gelée", "it": "Gelatina", "sw": "Jeli", "hu": "Zselé", "nl": "Pudding", "nb": "Gelé", "pl": "Galaretka", "pt": "Gelatina", "ro": "Jeleu", "fi": "Hyytelö", "sv": "Gelé", "vi": "Thạch", "tr": "Jöle", "cs": "Želé", "el": "Ζελέ", "bg": "Желе", "ru": "Желе", "uk": "Желе", "ur": "جیلی", "ar": "جيلي", "fa": "ژله", "mr": "जेली", "hi": "जेली", "bn": "জেলি", "pa": "ਜੈਲੀ", "ta": "ஜெல்லி", "te": "జెల్లీ", "th": "เยลลี่", "zh": "果冻", "ja": "ゼリー", "ko": "젤리"},
   "solution": ["...####...", "..######..", "..######..", ".########.", ".########.", "##########", "##########", "##########", ".########.", ".........."],
   "colors":   ["...GGGG...", "..GGWGGG..", "..GWGGGG..", ".GGGGGGGG.", ".GGGGGGGG.", "GGGGGGGGGG", "GGGGGGGGGG", "LLLLLLLLLL", ".LLLLLLLL.", ".........."],
   "palette":  { "G": "#22C55E", "L": "#E2E8F0", "W": "#FFFFFF" }

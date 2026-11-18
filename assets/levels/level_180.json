@@ -1,6 +1,6 @@
 {
   "id": 180,
-  "name": {"de": "Luftballons", "en": "Balloons", "es": "Globos", "fr": "Ballons", "it": "Palloncini", "pl": "Baloniki", "pt": "Balões", "tr": "Balonlar", "el": "Μπαλόνια", "bg": "Балони", "ru": "Воздушные шары", "ar": "بالونات", "hi": "गुब्बारे", "zh": "气球", "ja": "風船", "ko": "풍선"},
+  "name": {"id": "Balon", "ms": "Belon", "da": "Balloner", "de": "Luftballons", "en": "Balloons", "es": "Globos", "fil": "Mga lobo", "fr": "Ballons", "it": "Palloncini", "sw": "Puto", "hu": "Léggömbök", "nl": "Ballonnen", "nb": "Ballonger", "pl": "Baloniki", "pt": "Balões", "ro": "Baloane", "fi": "Ilmapallot", "sv": "Ballonger", "vi": "Bóng bay", "tr": "Balonlar", "cs": "Balonky", "el": "Μπαλόνια", "bg": "Балони", "ru": "Воздушные шары", "uk": "Повітряні кульки", "ur": "غبارے", "ar": "بالونات", "fa": "بادکنک‌ها", "mr": "फुगे", "hi": "गुब्बारे", "bn": "বেলুন", "pa": "ਗੁਬਾਰੇ", "ta": "பலூன்கள்", "te": "బెలూన్లు", "th": "ลูกโป่ง", "zh": "气球", "ja": "風船", "ko": "풍선"},
   "solution": [".##...##..", "####.####.", "####.####.", ".##...##..", "..#..#....", "..#.#.##..", "...#.####.", "...#.####.", "....#.##..", "....#.#...", "....##....", "....#.....", "....#.....", "...#......", "...#......"],
   "colors":   [".RR...BB..", "RRRR.BBBB.", "RRRR.BBBB.", ".RR...BB..", "..T..T....", "..T.T.YY..", "...T.YYYY.", "...T.YYYY.", "....T.YY..", "....T.T...", "....TT....", "....T.....", "....T.....", "...T......", "...T......"],
   "palette":  { "B": "#3B82F6", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

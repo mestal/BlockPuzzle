@@ -1,6 +1,6 @@
 {
   "id": 82,
-  "name": {"de": "Sanduhr", "en": "Hourglass", "es": "Reloj de arena", "fr": "Sablier", "it": "Clessidra", "pl": "Klepsydra", "pt": "Ampulheta", "tr": "Kum saati", "el": "Κλεψύδρα", "bg": "Пясъчен часовник", "ru": "Песочные часы", "ar": "ساعة رملية", "hi": "रेतघड़ी", "zh": "沙漏", "ja": "砂時計", "ko": "모래시계"},
+  "name": {"id": "Jam pasir", "ms": "Jam pasir", "da": "Timeglas", "de": "Sanduhr", "en": "Hourglass", "es": "Reloj de arena", "fil": "Orasa", "fr": "Sablier", "it": "Clessidra", "sw": "Saa ya mchanga", "hu": "Homokóra", "nl": "Zandloper", "nb": "Timeglass", "pl": "Klepsydra", "pt": "Ampulheta", "ro": "Clepsidră", "fi": "Tiimalasi", "sv": "Timglas", "vi": "Đồng hồ cát", "tr": "Kum saati", "cs": "Přesýpací hodiny", "el": "Κλεψύδρα", "bg": "Пясъчен часовник", "ru": "Песочные часы", "uk": "Пісочний годинник", "ur": "ریت گھڑی", "ar": "ساعة رملية", "fa": "ساعت شنی", "mr": "वाळूचे घड्याळ", "hi": "रेतघड़ी", "bn": "বালিঘড়ি", "pa": "ਰੇਤ ਘੜੀ", "ta": "மணல் கடிகாரம்", "te": "ఇసుక గడియారం", "th": "นาฬิกาทราย", "zh": "沙漏", "ja": "砂時計", "ko": "모래시계"},
   "solution": ["##########", ".########.", ".########.", "..######..", "...####...", "...####...", "..######..", ".########.", ".########.", "##########"],
   "colors":   ["TTTTTTTTTT", ".LSSSSSSL.", ".LSSSSSSL.", "..LSSSSL..", "...LSSL...", "...LLSL...", "..LLLSLL..", ".LLLSSSLL.", ".LSSSSSSL.", "TTTTTTTTTT"],
   "palette":  { "L": "#E2E8F0", "S": "#FDE68A", "T": "#92400E" }

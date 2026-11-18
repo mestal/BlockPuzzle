@@ -1,6 +1,6 @@
 {
   "id": 231,
-  "name": {"de": "Turnschuh", "en": "Sneaker", "es": "Zapatilla", "fr": "Basket", "it": "Scarpa da ginnastica", "pl": "But sportowy", "pt": "Tênis", "tr": "Spor ayakkabı", "el": "Αθλητικό παπούτσι", "bg": "Маратонка", "ru": "Кроссовок", "ar": "حذاء رياضي", "hi": "स्नीकर", "zh": "运动鞋", "ja": "スニーカー", "ko": "운동화"},
+  "name": {"id": "Sepatu kets", "ms": "Kasut sukan", "da": "Sneaker", "de": "Turnschuh", "en": "Sneaker", "es": "Zapatilla", "fil": "Rubber shoes", "fr": "Basket", "it": "Scarpa da ginnastica", "sw": "Raba", "hu": "Sportcipő", "nl": "Sneaker", "nb": "Joggesko", "pl": "But sportowy", "pt": "Tênis", "ro": "Adidas", "fi": "Lenkkari", "sv": "Sneaker", "vi": "Giày thể thao", "tr": "Spor ayakkabı", "cs": "Tenisky", "el": "Αθλητικό παπούτσι", "bg": "Маратонка", "ru": "Кроссовок", "uk": "Кросівок", "ur": "جوگر", "ar": "حذاء رياضي", "fa": "کفش کتانی", "mr": "स्पोर्ट्स शू", "hi": "स्नीकर", "bn": "স্নিকার", "pa": "ਸਨੀਕਰ", "ta": "ஓட்டக் காலணி", "te": "స్నీకర్", "th": "รองเท้าผ้าใบ", "zh": "运动鞋", "ja": "スニーカー", "ko": "운동화"},
   "solution": ["..........", ".###......", ".#.#......", ".#.###....", ".#.#.##...", ".#..#..#..", "#........#", "##########", "..........", ".....#...."],
   "colors":   ["..........", ".RRR......", ".R.R......", ".R.RRR....", ".R.W.RR...", ".R..W..R..", "R........R", "WWWWWWWWWW", "..........", ".....Y...."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

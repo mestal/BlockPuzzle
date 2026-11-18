@@ -1,6 +1,6 @@
 {
   "id": 54,
-  "name": {"de": "Eichhörnchen", "en": "Squirrel", "es": "Ardilla", "fr": "Écureuil", "it": "Scoiattolo", "pl": "Wiewiórka", "pt": "Esquilo", "tr": "Sincap", "el": "Σκίουρος", "bg": "Катерица", "ru": "Белка", "ar": "سنجاب", "hi": "गिलहरी", "zh": "松鼠", "ja": "リス", "ko": "다람쥐"},
+  "name": {"id": "Tupai", "ms": "Tupai", "da": "Egern", "de": "Eichhörnchen", "en": "Squirrel", "es": "Ardilla", "fil": "Ardilya", "fr": "Écureuil", "it": "Scoiattolo", "sw": "Kindi", "hu": "Mókus", "nl": "Eekhoorn", "nb": "Ekorn", "pl": "Wiewiórka", "pt": "Esquilo", "ro": "Veveriță", "fi": "Orava", "sv": "Ekorre", "vi": "Con sóc", "tr": "Sincap", "cs": "Veverka", "el": "Σκίουρος", "bg": "Катерица", "ru": "Белка", "uk": "Білка", "ur": "گلہری", "ar": "سنجاب", "fa": "سنجاب", "mr": "खार", "hi": "गिलहरी", "bn": "কাঠবিড়ালি", "pa": "ਗਲਹਿਰੀ", "ta": "அணில்", "te": "ఉడుత", "th": "กระรอก", "zh": "松鼠", "ja": "リス", "ko": "다람쥐"},
   "solution": [".###......", "#####..#..", "##.##.###.", "##..#####.", ".#..#####.", ".#######..", "..######..", "..######..", "...##.##..", ".........."],
   "colors":   [".OOO......", "OOOOO..O..", "OO.OO.OOO.", "OO..OOOKO.", ".O..OOOOO.", ".OOOOOOO..", "..OOOOSO..", "..OOOOOO..", "...OO.OO..", ".........."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "S": "#FDE68A" }

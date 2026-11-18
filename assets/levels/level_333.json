@@ -1,6 +1,6 @@
 {
   "id": 333,
-  "name": {"de": "Papagei", "en": "Parrot", "es": "Loro", "fr": "Perroquet", "it": "Pappagallo", "pl": "Papuga", "pt": "Papagaio", "tr": "Papağan", "el": "Παπαγάλος", "bg": "Папагал", "ru": "Попугай", "ar": "ببغاء", "hi": "तोता", "zh": "鹦鹉", "ja": "オウム", "ko": "앵무새"},
+  "name": {"id": "Burung beo", "ms": "Burung kakak tua", "da": "Papegøje", "de": "Papagei", "en": "Parrot", "es": "Loro", "fil": "Loro", "fr": "Perroquet", "it": "Pappagallo", "sw": "Kasuku", "hu": "Papagáj", "nl": "Papegaai", "nb": "Papegøye", "pl": "Papuga", "pt": "Papagaio", "ro": "Papagal", "fi": "Papukaija", "sv": "Papegoja", "vi": "Con vẹt", "tr": "Papağan", "cs": "Papoušek", "el": "Παπαγάλος", "bg": "Папагал", "ru": "Попугай", "uk": "Папуга", "ur": "طوطا", "ar": "ببغاء", "fa": "طوطی", "mr": "पोपट", "hi": "तोता", "bn": "তোতা", "pa": "ਤੋਤਾ", "ta": "கிளி", "te": "చిలుక", "th": "นกแก้ว", "zh": "鹦鹉", "ja": "オウム", "ko": "앵무새"},
   "solution": ["#...###..#", "...#####..", "...##.###.", "..########", "..#####.#.", ".######...", ".######.#.", "#######...", "#######...", "#######...", ".#####..#.", ".#####....", "##########", ".##.......", ".#..#...#."],
   "colors":   ["Y...RRR..Y", "...RRRRR..", "...RR.RWW.", "..RRRRRWWK", "..RRRRR.K.", ".RRRRRR...", ".RRYYRR.Y.", "RRYYBBR...", "RYYBBBR...", "RYBBBBR...", ".BBBBR..Y.", ".BBOBO....", "HHHHHHHHHH", ".BB.......", ".B..Y...Y."],
   "palette":  { "B": "#3B82F6", "H": "#5B3410", "K": "#1F2937", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

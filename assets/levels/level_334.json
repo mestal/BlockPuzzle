@@ -1,6 +1,6 @@
 {
   "id": 334,
-  "name": {"de": "Kokosnuss", "en": "Coconut", "es": "Coco", "fr": "Noix de coco", "it": "Noce di cocco", "pl": "Kokos", "pt": "Coco", "tr": "Hindistan cevizi", "el": "Καρύδα", "bg": "Кокосов орех", "ru": "Кокос", "ar": "جوز الهند", "hi": "नारियल", "zh": "椰子", "ja": "ココナッツ", "ko": "코코넛"},
+  "name": {"id": "Kelapa", "ms": "Kelapa", "da": "Kokosnød", "de": "Kokosnuss", "en": "Coconut", "es": "Coco", "fil": "Niyog", "fr": "Noix de coco", "it": "Noce di cocco", "sw": "Nazi", "hu": "Kókuszdió", "nl": "Kokosnoot", "nb": "Kokosnøtt", "pl": "Kokos", "pt": "Coco", "ro": "Nucă de cocos", "fi": "Kookospähkinä", "sv": "Kokosnöt", "vi": "Quả dừa", "tr": "Hindistan cevizi", "cs": "Kokos", "el": "Καρύδα", "bg": "Кокосов орех", "ru": "Кокос", "uk": "Кокос", "ur": "ناریل", "ar": "جوز الهند", "fa": "نارگیل", "mr": "नारळ", "hi": "नारियल", "bn": "নারকেল", "pa": "ਨਾਰੀਅਲ", "ta": "தேங்காய்", "te": "కొబ్బరికాయ", "th": "มะพร้าว", "zh": "椰子", "ja": "ココナッツ", "ko": "코코넛"},
   "solution": [".#........", "......#...", ".####.....", "######....", "##.#.#....", "######....", "###.##.#..", ".####.....", "..........", "...#######", "...#######", "....#####.", ".....###..", "#........#", ".....#...."],
   "colors":   [".Y........", "......Y...", ".HHHH.....", "HHHHHH....", "HH.H.H....", "HHHHHH....", "HHH.HH.Y..", ".HHHH.....", "..........", "...HHHHHHH", "...HWWWWWH", "....HWWWH.", ".....HHH..", "Y........Y", ".....Y...."],
   "palette":  { "H": "#5B3410", "W": "#FFFFFF", "Y": "#FACC15" }

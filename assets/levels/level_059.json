@@ -1,6 +1,6 @@
 {
   "id": 59,
-  "name": {"de": "Mondsichel", "en": "Crescent moon", "es": "Luna creciente", "fr": "Croissant de lune", "it": "Falce di luna", "pl": "Półksiężyc", "pt": "Lua crescente", "tr": "Hilal", "el": "Μισοφέγγαρο", "bg": "Полумесец", "ru": "Полумесяц", "ar": "هلال", "hi": "अर्धचंद्र", "zh": "弯月", "ja": "三日月", "ko": "초승달"},
+  "name": {"id": "Bulan sabit", "ms": "Bulan sabit", "da": "Halvmåne", "de": "Mondsichel", "en": "Crescent moon", "es": "Luna creciente", "fil": "Gasuklay na buwan", "fr": "Croissant de lune", "it": "Falce di luna", "sw": "Mwezi mchanga", "hu": "Holdsarló", "nl": "Maansikkel", "nb": "Månesigd", "pl": "Półksiężyc", "pt": "Lua crescente", "ro": "Semilună", "fi": "Kuunsirppi", "sv": "Månskära", "vi": "Trăng lưỡi liềm", "tr": "Hilal", "cs": "Srpek měsíce", "el": "Μισοφέγγαρο", "bg": "Полумесец", "ru": "Полумесяц", "uk": "Півмісяць", "ur": "ہلال", "ar": "هلال", "fa": "هلال ماه", "mr": "चंद्रकोर", "hi": "अर्धचंद्र", "bn": "অর্ধচন্দ্র", "pa": "ਅੱਧਾ ਚੰਨ", "ta": "பிறை நிலா", "te": "నెలవంక", "th": "พระจันทร์เสี้ยว", "zh": "弯月", "ja": "三日月", "ko": "초승달"},
   "solution": ["..........", "....#####.", "..####....", ".###......", ".##.......", ".##.......", ".###......", "..####....", "....#####.", ".........."],
   "colors":   ["..........", "....YYYYY.", "..YYYY....", ".YYY......", ".YY.......", ".YY.......", ".YYY......", "..YYYY....", "....YYYYY.", ".........."],
   "palette":  { "Y": "#FACC15" }

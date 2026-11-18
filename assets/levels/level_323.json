@@ -1,6 +1,6 @@
 {
   "id": 323,
-  "name": {"de": "Wasserfall", "en": "Waterfall", "es": "Cascada", "fr": "Cascade", "it": "Cascata", "pl": "Wodospad", "pt": "Cachoeira", "tr": "Şelale", "el": "Καταρράκτης", "bg": "Водопад", "ru": "Водопад", "ar": "شلال", "hi": "झरना", "zh": "瀑布", "ja": "滝", "ko": "폭포"},
+  "name": {"id": "Air terjun", "ms": "Air terjun", "da": "Vandfald", "de": "Wasserfall", "en": "Waterfall", "es": "Cascada", "fil": "Talon", "fr": "Cascade", "it": "Cascata", "sw": "Maporomoko ya maji", "hu": "Vízesés", "nl": "Waterval", "nb": "Foss", "pl": "Wodospad", "pt": "Cachoeira", "ro": "Cascadă", "fi": "Vesiputous", "sv": "Vattenfall", "vi": "Thác nước", "tr": "Şelale", "cs": "Vodopád", "el": "Καταρράκτης", "bg": "Водопад", "ru": "Водопад", "uk": "Водоспад", "ur": "آبشار", "ar": "شلال", "fa": "آبشار", "mr": "धबधबा", "hi": "झरना", "bn": "জলপ্রপাত", "pa": "ਝਰਨਾ", "ta": "அருவி", "te": "జలపాతం", "th": "น้ำตก", "zh": "瀑布", "ja": "滝", "ko": "폭포"},
   "solution": ["##########", "##.####.##", "#..####..#", "##.####.##", "#..####..#", "##.####.##", "#..####..#", "##.####.##", "#..####..#", "##########", "#.######.#", ".#.####.#.", "##########", "##########", ".........."],
   "colors":   ["EEEBBCBEEE", "EE.BCBB.EE", "E..BBCB..E", "EE.CBBC.EE", "E..BCBB..E", "EE.BBCB.EE", "E..CBBC..E", "EE.BCBB.EE", "E..BBCB..E", "EEWWWWWWEE", "W.WWWWWW.W", ".W.WWWW.W.", "BBBBBBBBBB", "BCBBBBCBBB", ".........."],
   "palette":  { "B": "#3B82F6", "C": "#22D3EE", "E": "#94A3B8", "W": "#FFFFFF" }

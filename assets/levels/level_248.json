@@ -1,6 +1,6 @@
 {
   "id": 248,
-  "name": {"de": "Croissant", "en": "Croissant", "es": "Cruasán", "fr": "Croissant", "it": "Cornetto", "pl": "Rogalik", "pt": "Croissant", "tr": "Kruvasan", "el": "Κρουασάν", "bg": "Кроасан", "ru": "Круассан", "ar": "كرواسون", "hi": "क्रोइसैन", "zh": "牛角包", "ja": "クロワッサン", "ko": "크루아상"},
+  "name": {"id": "Croissant", "ms": "Croissant", "da": "Croissant", "de": "Croissant", "en": "Croissant", "es": "Cruasán", "fil": "Croissant", "fr": "Croissant", "it": "Cornetto", "sw": "Kroisanti", "hu": "Croissant", "nl": "Croissant", "nb": "Croissant", "pl": "Rogalik", "pt": "Croissant", "ro": "Croissant", "fi": "Voisarvi", "sv": "Croissant", "vi": "Bánh sừng bò", "tr": "Kruvasan", "cs": "Croissant", "el": "Κρουασάν", "bg": "Кроасан", "ru": "Круассан", "uk": "Круасан", "ur": "کروسان", "ar": "كرواسون", "fa": "کروسان", "mr": "क्रोसाँ", "hi": "क्रोइसैन", "bn": "ক্রোয়াসাঁ", "pa": "ਕਰੋਸਾਂ", "ta": "குரோசான்ட்", "te": "క్రోసాంట్", "th": "ครัวซองต์", "zh": "牛角包", "ja": "クロワッサン", "ko": "크루아상"},
   "solution": ["#.......#.", "...####...", ".#.####.#.", "###.##.###", "##########", "###....###", "##......##", ".#......#.", "...#......", "........#."],
   "colors":   ["Y.......Y.", "...AAAA...", ".A.AAAA.A.", "AAA.AA.AAA", "AAAAAAAAAA", "AAA....AAA", "AA......AA", ".A......A.", "...Y......", "........Y."],
   "palette":  { "A": "#F59E0B", "Y": "#FACC15" }

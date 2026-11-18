@@ -1,6 +1,6 @@
 {
   "id": 271,
-  "name": {"de": "Heugabel", "en": "Pitchfork", "es": "Horca", "fr": "Fourche", "it": "Forcone", "pl": "Widły", "pt": "Forcado", "tr": "Yaba", "el": "Δικράνι", "bg": "Вила", "ru": "Вилы", "ar": "مذراة", "hi": "पिचफ़ोर्क", "zh": "干草叉", "ja": "ピッチフォーク", "ko": "쇠스랑"},
+  "name": {"id": "Garpu rumput", "ms": "Garpu rumput", "da": "Høtyv", "de": "Heugabel", "en": "Pitchfork", "es": "Horca", "fil": "Tinidor ng dayami", "fr": "Fourche", "it": "Forcone", "sw": "Uma", "hu": "Vasvilla", "nl": "Hooivork", "nb": "Høygaffel", "pl": "Widły", "pt": "Forcado", "ro": "Furcă", "fi": "Talikko", "sv": "Högaffel", "vi": "Cái chĩa", "tr": "Yaba", "cs": "Vidle", "el": "Δικράνι", "bg": "Вила", "ru": "Вилы", "uk": "Вила", "ur": "پنجالی", "ar": "مذراة", "fa": "چنگک", "mr": "गवताचा काटा", "hi": "पिचफ़ोर्क", "bn": "খড় তোলার কাঁটা", "pa": "ਤੰਗਲੀ", "ta": "வைக்கோல் முள்கரண்டி", "te": "గడ్డి పార", "th": "คราด", "zh": "干草叉", "ja": "ピッチフォーク", "ko": "쇠스랑"},
   "solution": [".......#..", ".#.#.#....", ".#.#.#....", ".#.#.#....", ".#####....", "...#...#..", "...#......", "...#...#..", "...#..###.", "...#.#####", "...#######", "..########", ".#########", "##########", ".........."],
   "colors":   [".......Y..", ".E.E.E....", ".E.E.E....", ".E.E.E....", ".EEEEE....", "...T...Y..", "...T......", "...T...S..", "...T..SSS.", "...T.SSASS", "...TSSSSAS", "..SSASSSSS", ".SSSSSASSS", "SSASSSSSSS", ".........."],
   "palette":  { "A": "#F59E0B", "E": "#94A3B8", "S": "#FDE68A", "T": "#92400E", "Y": "#FACC15" }

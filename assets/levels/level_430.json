@@ -1,6 +1,6 @@
 {
   "id": 430,
-  "name": {"de": "Trommel", "en": "Drum", "es": "Tambor", "fr": "Tambour", "it": "Tamburo", "pl": "Bęben", "pt": "Tambor", "tr": "Davul", "el": "Τύμπανο", "bg": "Барабан", "ru": "Барабан", "ar": "طبل", "hi": "ढोल", "zh": "鼓", "ja": "太鼓", "ko": "북"},
+  "name": {"id": "Drum", "ms": "Dram", "da": "Tromme", "de": "Trommel", "en": "Drum", "es": "Tambor", "fil": "Tambol", "fr": "Tambour", "it": "Tamburo", "sw": "Ngoma", "hu": "Dob", "nl": "Trommel", "nb": "Tromme", "pl": "Bęben", "pt": "Tambor", "ro": "Tobă", "fi": "Rumpu", "sv": "Trumma", "vi": "Cái trống", "tr": "Davul", "cs": "Buben", "el": "Τύμπανο", "bg": "Барабан", "ru": "Барабан", "uk": "Барабан", "ur": "ڈھول", "ar": "طبل", "fa": "طبل", "mr": "ढोल", "hi": "ढोल", "bn": "ঢোল", "pa": "ਢੋਲ", "ta": "மேளம்", "te": "డోలు", "th": "กลอง", "zh": "鼓", "ja": "太鼓", "ko": "북"},
   "solution": ["...#......", "..........", ".#.#.#.#.#", "..#.#.#...", "...#.#....", ".#..#..#..", "...#.#....", ".########.", "##########", "#.#.#.#.##", "##.#.#.#.#", "##########", ".########.", "..........", "#...#....."],
   "colors":   ["...Y......", "..........", ".H.R.R.H.Y", "..H.R.H...", "...H.H....", ".Y..H..Y..", "...H.H....", ".WWWWWWWW.", "RRRRRRRRRR", "R.R.R.R.RR", "RR.R.R.R.R", "RRRRRRRRRR", ".WWWWWWWW.", "..........", "Y...Y....."],
   "palette":  { "H": "#5B3410", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

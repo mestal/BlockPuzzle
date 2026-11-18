@@ -1,6 +1,6 @@
 {
   "id": 383,
-  "name": {"de": "Nashorn", "en": "Rhino", "es": "Rinoceronte", "fr": "Rhinocéros", "it": "Rinoceronte", "pl": "Nosorożec", "pt": "Rinoceronte", "tr": "Gergedan", "el": "Ρινόκερος", "bg": "Носорог", "ru": "Носорог", "ar": "وحيد القرن", "hi": "गैंडा", "zh": "犀牛", "ja": "サイ", "ko": "코뿔소"},
+  "name": {"id": "Badak", "ms": "Badak sumbu", "da": "Næsehorn", "de": "Nashorn", "en": "Rhino", "es": "Rinoceronte", "fil": "Rinoseronte", "fr": "Rhinocéros", "it": "Rinoceronte", "sw": "Kifaru", "hu": "Orrszarvú", "nl": "Neushoorn", "nb": "Neshorn", "pl": "Nosorożec", "pt": "Rinoceronte", "ro": "Rinocer", "fi": "Sarvikuono", "sv": "Noshörning", "vi": "Tê giác", "tr": "Gergedan", "cs": "Nosorožec", "el": "Ρινόκερος", "bg": "Носорог", "ru": "Носорог", "uk": "Носоріг", "ur": "گینڈا", "ar": "وحيد القرن", "fa": "کرگدن", "mr": "गेंडा", "hi": "गैंडा", "bn": "গন্ডার", "pa": "ਗੈਂਡਾ", "ta": "காண்டாமிருகம்", "te": "ఖడ్గమృగం", "th": "แรด", "zh": "犀牛", "ja": "サイ", "ko": "코뿔소"},
   "solution": ["..#.....#.", "#.....#...", "##...###..", ".#####.###", "##########", "##########", ".#########", "..##.##.##", "..##.##.##", "#........."],
   "colors":   ["..Y.....Y.", "L.....E...", "LL...EEE..", ".LEEEE.EEE", "EEEEEEEEEE", "EEEEEEEEEE", ".EEEEEEEEE", "..EE.EE.EE", "..EE.EE.EE", "Y........."],
   "palette":  { "E": "#94A3B8", "L": "#E2E8F0", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 77,
-  "name": {"de": "Zuckerwatte", "en": "Cotton candy", "es": "Algodón de azúcar", "fr": "Barbe à papa", "it": "Zucchero filato", "pl": "Wata cukrowa", "pt": "Algodão-doce", "tr": "Pamuk şeker", "el": "Μαλλί της γριάς", "bg": "Захарен памук", "ru": "Сахарная вата", "ar": "غزل البنات", "hi": "कॉटन कैंडी", "zh": "棉花糖", "ja": "わたあめ", "ko": "솜사탕"},
+  "name": {"id": "Gulali", "ms": "Gula-gula kapas", "da": "Candyfloss", "de": "Zuckerwatte", "en": "Cotton candy", "es": "Algodón de azúcar", "fil": "Cotton candy", "fr": "Barbe à papa", "it": "Zucchero filato", "sw": "Pipi pamba", "hu": "Vattacukor", "nl": "Suikerspin", "nb": "Sukkerspinn", "pl": "Wata cukrowa", "pt": "Algodão-doce", "ro": "Vată de zahăr", "fi": "Hattara", "sv": "Sockervadd", "vi": "Kẹo bông", "tr": "Pamuk şeker", "cs": "Cukrová vata", "el": "Μαλλί της γριάς", "bg": "Захарен памук", "ru": "Сахарная вата", "uk": "Цукрова вата", "ur": "بڑھیا کے بال", "ar": "غزل البنات", "fa": "پشمک", "mr": "बुढ्ढीचे केस", "hi": "कॉटन कैंडी", "bn": "হাওয়াই মিঠাই", "pa": "ਬੁੱਢੀ ਦੇ ਵਾਲ", "ta": "பஞ்சு மிட்டாய்", "te": "పీచు మిఠాయి", "th": "สายไหม", "zh": "棉花糖", "ja": "わたあめ", "ko": "솜사탕"},
   "solution": ["..#####...", ".#######..", "#########.", "##########", "#########.", ".#######..", "..#####...", "....#.....", "....#.....", "....#....."],
   "colors":   ["..JJJJJ...", ".JJPJJJJ..", "JJJJJJPJJ.", "JPJJJJJJJJ", "JJJJPJJJJ.", ".JJJJJJJ..", "..JJPJJ...", "....T.....", "....T.....", "....T....."],
   "palette":  { "J": "#FBCFE8", "P": "#F472B6", "T": "#92400E" }

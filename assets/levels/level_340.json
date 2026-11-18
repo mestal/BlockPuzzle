@@ -1,6 +1,6 @@
 {
   "id": 340,
-  "name": {"de": "Banane", "en": "Banana", "es": "Plátano", "fr": "Banane", "it": "Banana", "pl": "Banan", "pt": "Banana", "tr": "Muz", "el": "Μπανάνα", "bg": "Банан", "ru": "Банан", "ar": "موز", "hi": "केला", "zh": "香蕉", "ja": "バナナ", "ko": "바나나"},
+  "name": {"id": "Pisang", "ms": "Pisang", "da": "Banan", "de": "Banane", "en": "Banana", "es": "Plátano", "fil": "Saging", "fr": "Banane", "it": "Banana", "sw": "Ndizi", "hu": "Banán", "nl": "Banaan", "nb": "Banan", "pl": "Banan", "pt": "Banana", "ro": "Banană", "fi": "Banaani", "sv": "Banan", "vi": "Quả chuối", "tr": "Muz", "cs": "Banán", "el": "Μπανάνα", "bg": "Банан", "ru": "Банан", "uk": "Банан", "ur": "کیلا", "ar": "موز", "fa": "موز", "mr": "केळे", "hi": "केला", "bn": "কলা", "pa": "ਕੇਲਾ", "ta": "வாழைப்பழம்", "te": "అరటిపండు", "th": "กล้วย", "zh": "香蕉", "ja": "バナナ", "ko": "바나나"},
   "solution": ["..........", ".......##.", "......###.", ".....####.", "....###.##", "...###..##", "..###...##", ".###...##.", ".##...###.", "###..###..", "#######...", "######....", ".####.....", "..##......", ".........."],
   "colors":   ["..........", ".......HH.", "......YYH.", ".....YYYY.", "....YYY.YY", "...YYY..YY", "..YYY...YY", ".YYY...YY.", ".YY...YYY.", "YYY..YYY..", "YYYYYYY...", "YYYYYY....", ".YYYY.....", "..YH......", ".........."],
   "palette":  { "H": "#5B3410", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 65,
-  "name": {"de": "Kuchenstück", "en": "Cake slice", "es": "Trozo de tarta", "fr": "Part de gâteau", "it": "Fetta di torta", "pl": "Kawałek ciasta", "pt": "Fatia de bolo", "tr": "Pasta dilimi", "el": "Κομμάτι τούρτας", "bg": "Парче торта", "ru": "Кусочек торта", "ar": "قطعة كعك", "hi": "केक का टुकड़ा", "zh": "蛋糕块", "ja": "ケーキ", "ko": "케이크 조각"},
+  "name": {"id": "Potongan kue", "ms": "Hirisan kek", "da": "Kagestykke", "de": "Kuchenstück", "en": "Cake slice", "es": "Trozo de tarta", "fil": "Hiwa ng keyk", "fr": "Part de gâteau", "it": "Fetta di torta", "sw": "Kipande cha keki", "hu": "Tortaszelet", "nl": "Taartpunt", "nb": "Kakestykke", "pl": "Kawałek ciasta", "pt": "Fatia de bolo", "ro": "Felie de tort", "fi": "Kakkupala", "sv": "Tårtbit", "vi": "Miếng bánh kem", "tr": "Pasta dilimi", "cs": "Kousek dortu", "el": "Κομμάτι τούρτας", "bg": "Парче торта", "ru": "Кусочек торта", "uk": "Шматок торта", "ur": "کیک کا ٹکڑا", "ar": "قطعة كعك", "fa": "برش کیک", "mr": "केकचा तुकडा", "hi": "केक का टुकड़ा", "bn": "কেকের টুকরো", "pa": "ਕੇਕ ਦਾ ਟੁਕੜਾ", "ta": "கேக் துண்டு", "te": "కేక్ ముక్క", "th": "เค้กชิ้น", "zh": "蛋糕块", "ja": "ケーキ", "ko": "케이크 조각"},
   "solution": [".......#..", ".....####.", "...######.", ".########.", "#########.", "#########.", "#########.", "#########.", "#########.", ".........."],
   "colors":   [".......R..", ".....JJJJ.", "...JJJJJJ.", ".JJJJJJJJ.", "SSSSSSSSS.", "PPPPPPPPP.", "SSSSSSSSS.", "PPPPPPPPP.", "SSSSSSSSS.", ".........."],
   "palette":  { "J": "#FBCFE8", "P": "#F472B6", "R": "#E8453C", "S": "#FDE68A" }

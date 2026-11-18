@@ -1,6 +1,6 @@
 {
   "id": 277,
-  "name": {"de": "Traktor", "en": "Tractor", "es": "Tractor", "fr": "Tracteur", "it": "Trattore", "pl": "Traktor", "pt": "Trator", "tr": "Traktör", "el": "Τρακτέρ", "bg": "Трактор", "ru": "Трактор", "ar": "جرار", "hi": "ट्रैक्टर", "zh": "拖拉机", "ja": "トラクター", "ko": "트랙터"},
+  "name": {"id": "Traktor", "ms": "Traktor", "da": "Traktor", "de": "Traktor", "en": "Tractor", "es": "Tractor", "fil": "Traktora", "fr": "Tracteur", "it": "Trattore", "sw": "Trekta", "hu": "Traktor", "nl": "Tractor", "nb": "Traktor", "pl": "Traktor", "pt": "Trator", "ro": "Tractor", "fi": "Traktori", "sv": "Traktor", "vi": "Máy cày", "tr": "Traktör", "cs": "Traktor", "el": "Τρακτέρ", "bg": "Трактор", "ru": "Трактор", "uk": "Трактор", "ur": "ٹریکٹر", "ar": "جرار", "fa": "تراکتور", "mr": "ट्रॅक्टर", "hi": "ट्रैक्टर", "bn": "ট্রাক্টর", "pa": "ਟਰੈਕਟਰ", "ta": "உழவு இயந்திரம்", "te": "ట్రాక్టర్", "th": "รถแทรกเตอร์", "zh": "拖拉机", "ja": "トラクター", "ko": "트랙터"},
   "solution": ["#..#.##...", "..#.#..#..", "...#.##...", "..##......", ".#........", ".#..#####.", ".#..#...#.", ".#..#...#.", "##########", "##########", "##########", "##########", "####.#####", ".##..#####", "......###."],
   "colors":   ["Y..E.EE...", "..E.E..E..", "...E.EE...", "..EE......", ".E........", ".E..BBBBB.", ".E..B...B.", ".E..B...B.", "RRRRRRRRRR", "RRRRRRRRRR", "RKKRRRKKKR", "KEEKRKEEEK", "KEEK.KEEEK", ".KK..KEEEK", "......KKK."],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "K": "#1F2937", "R": "#E8453C", "Y": "#FACC15" }

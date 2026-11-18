@@ -7,7 +7,7 @@ import '../level_art.dart';
 final blossomArt = <LevelArt>[
   art(
     11,
-    'Kiraz çiçeği|Cherry blossom|Kirschblüte|Fleur de cerisier|Flor de cerezo|Fiore di ciliegio|樱花|桜|Цветок сакуры|زهرة الكرز|Flor de cerejeira|Kwiat wiśni|Άνθος κερασιάς|Черешов цвят|벚꽃|चेरी का फूल',
+    'Kiraz çiçeği|Cherry blossom|Kirschblüte|Fleur de cerisier|Flor de cerezo|Fiore di ciliegio|樱花|桜|Цветок сакуры|زهرة الكرز|Flor de cerejeira|Kwiat wiśni|Άνθος κερασιάς|Черешов цвят|벚꽃|चेरी का फूल|Kersenbloesem|Цвіт сакури|Floare de cireș|Körsbärsblom|Kirsebærblomst|Kirsebærblomst|Kirsikankukka|Třešňový květ|Cseresznyevirág|Bunga sakura|Bulaklak ng seresa|চেরি ফুল|چیری کا پھول|Bunga sakura|Hoa anh đào|شکوفه گیلاس|Ua la cheri|चेरीचे फूल|చెర్రీ పువ్వు|செர்ரிப் பூ|ਚੈਰੀ ਦਾ ਫੁੱਲ|ดอกซากุระ',
     [
       '......PPP.',
       '......PJP.',
@@ -27,7 +27,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Koi balığı|Koi fish|Koi-Karpfen|Carpe koï|Pez koi|Carpa koi|锦鲤|錦鯉|Карп кои|سمكة الكوي|Peixe koi|Karp koi|Ψάρι κόι|Риба кои|비단잉어|कोई मछली',
+    'Koi balığı|Koi fish|Koi-Karpfen|Carpe koï|Pez koi|Carpa koi|锦鲤|錦鯉|Карп кои|سمكة الكوي|Peixe koi|Karp koi|Ψάρι κόι|Риба кои|비단잉어|कोई मछली|Koikarper|Короп кої|Pește koi|Koikarp|Koikarpe|Koikarpe|Koikarppi|Kapr koi|Koiponty|Ikan koi|Isdang koi|কই মাছ|کوئی مچھلی|Ikan koi|Cá koi|ماهی کوی|Samaki koi|कोई मासा|కోయి చేప|கோய் மீன்|ਕੋਈ ਮੱਛੀ|ปลาคาร์ป',
     [
       '...WWWW...',
       '..WKWWKW..',
@@ -46,7 +46,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Bonsai|Bonsai|Bonsai|Bonsaï|Bonsái|Bonsai|盆景|盆栽|Бонсай|بونساي|Bonsai|Bonsai|Μπονσάι|Бонсай|분재|बोनसाई',
+    'Bonsai|Bonsai|Bonsai|Bonsaï|Bonsái|Bonsai|盆景|盆栽|Бонсай|بونساي|Bonsai|Bonsai|Μπονσάι|Бонсай|분재|बोनसाई|Bonsai|Бонсай|Bonsai|Bonsai|Bonsai|Bonsai|Bonsai|Bonsaj|Bonszai|Bonsai|Bonsai|বনসাই|بونسائی|Bonsai|Cây cảnh bonsai|بونسای|Bonsai|बोन्साय|బోన్సాయ్|போன்சாய்|ਬੋਨਸਾਈ|บอนไซ',
     [
       '.GGG......',
       'GGGGG.GGG.',
@@ -65,7 +65,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Torii kapısı|Torii gate|Torii-Tor|Portail torii|Puerta torii|Portale torii|鸟居|鳥居|Ворота тории|بوابة توري|Portão torii|Brama torii|Πύλη τόριι|Порта тории|도리이|तोरी द्वार',
+    'Torii kapısı|Torii gate|Torii-Tor|Portail torii|Puerta torii|Portale torii|鸟居|鳥居|Ворота тории|بوابة توري|Portão torii|Brama torii|Πύλη τόριι|Порта тории|도리이|तोरी द्वार|Toripoort|Брама торії|Poartă torii|Toriiport|Toriiport|Toriiport|Torii-portti|Brána torii|Toriikapu|Gerbang torii|Tarangkahang torii|তোরিই তোরণ|توری دروازہ|Gerbang torii|Cổng torii|دروازه توری|Lango la torii|तोरी द्वार|టోరీ ద్వారం|டோரி வாயில்|ਤੋਰੀ ਦਰਵਾਜ਼ਾ|เสาโทริอิ',
     [
       'RRRRRRRRRR',
       '.RRRRRRRR.',
@@ -84,7 +84,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Demlik|Teapot|Teekanne|Théière|Tetera|Teiera|茶壶|急須|Чайник|إبريق شاي|Bule|Czajniczek|Τσαγιέρα|Чайник|찻주전자|चायदानी',
+    'Demlik|Teapot|Teekanne|Théière|Tetera|Teiera|茶壶|急須|Чайник|إبريق شاي|Bule|Czajniczek|Τσαγιέρα|Чайник|찻주전자|चायदानी|Theepot|Чайник|Ceainic|Tekanna|Tekanne|Tekande|Teekannu|Konvice na čaj|Teáskanna|Teko|Tsarera|চায়ের কেটলি|چائے دانی|Teko|Ấm trà|قوری|Birika la chai|चहाची किटली|టీ కెటిల్|தேநீர்க் கெண்டி|ਚਾਹਦਾਨੀ|กาน้ำชา',
     [
       '...W.W....',
       '....W.W...',
@@ -100,7 +100,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Bambu|Bamboo|Bambus|Bambou|Bambú|Bambù|竹子|竹|Бамбук|خيزران|Bambu|Bambus|Μπαμπού|Бамбук|대나무|बांस',
+    'Bambu|Bamboo|Bambus|Bambou|Bambú|Bambù|竹子|竹|Бамбук|خيزران|Bambu|Bambus|Μπαμπού|Бамбук|대나무|बांस|Bamboe|Бамбук|Bambus|Bambu|Bambus|Bambus|Bambu|Bambus|Bambusz|Buluh|Kawayan|বাঁশ|بانس|Bambu|Cây tre|بامبو|Mianzi|बांबू|వెదురు|மூங்கில்|ਬਾਂਸ|ไผ่',
     [
       '.GG....GG.',
       '.GG...G...',
@@ -121,7 +121,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Pagoda|Pagoda|Pagode|Pagode|Pagoda|Pagoda|宝塔|五重塔|Пагода|باغودا|Pagode|Pagoda|Παγόδα|Пагода|탑|पगोडा',
+    'Pagoda|Pagoda|Pagode|Pagode|Pagoda|Pagoda|宝塔|五重塔|Пагода|باغودا|Pagode|Pagoda|Παγόδα|Пагода|탑|पगोडा|Pagode|Пагода|Pagodă|Pagod|Pagode|Pagode|Pagodi|Pagoda|Pagoda|Pagoda|Pagoda|প্যাগোডা|پگوڈا|Pagoda|Chùa tháp|پاگودا|Pagoda|पॅगोडा|పగోడా|பகோடா|ਪੈਗੋਡਾ|เจดีย์',
     [
       '....RR....',
       '....RR....',
@@ -140,7 +140,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Origami turna|Origami crane|Origami-Kranich|Grue en origami|Grulla de origami|Gru origami|纸鹤|折り鶴|Журавлик оригами|طائر الكركي الورقي|Tsuru de origami|Żuraw origami|Γερανός οριγκάμι|Жерав оригами|종이학|ओरिगामी सारस',
+    'Origami turna|Origami crane|Origami-Kranich|Grue en origami|Grulla de origami|Gru origami|纸鹤|折り鶴|Журавлик оригами|طائر الكركي الورقي|Tsuru de origami|Żuraw origami|Γερανός οριγκάμι|Жерав оригами|종이학|ओरिगामी सारस|Origamikraanvogel|Журавлик орігамі|Cocor origami|Origamitrana|Origamitrane|Origamitrane|Origamikurki|Origami jeřáb|Origami daru|Burung bangau origami|Origaming tagak|অরিগামি সারস|اوریگامی سارس|Bangau origami|Hạc giấy|درنای کاغذی|Korongo wa karatasi|ओरिगामी करकोचा|ఒరిగామి కొంగ|ஓரிகாமி கொக்கு|ਓਰੀਗਾਮੀ ਸਾਰਸ|นกกระเรียนกระดาษ',
     [
       '.........P',
       '........PP',
@@ -155,7 +155,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Nilüfer|Lotus|Lotus|Lotus|Loto|Loto|莲花|ハス|Лотос|زهرة اللوتس|Lótus|Lotos|Λωτός|Лотос|연꽃|कमल',
+    'Nilüfer|Lotus|Lotus|Lotus|Loto|Loto|莲花|ハス|Лотос|زهرة اللوتس|Lótus|Lotos|Λωτός|Лотос|연꽃|कमल|Lotus|Лотос|Lotus|Lotus|Lotus|Lotus|Lootus|Lotos|Lótusz|Teratai|Lotus|পদ্ম|کنول|Teratai|Hoa sen|نیلوفر آبی|Yungiyungi|कमळ|తామర|தாமரை|ਕਮਲ|ดอกบัว',
     [
       '....PP....',
       '...PJJP...',
@@ -172,7 +172,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Panda|Panda|Panda|Panda|Panda|Panda|熊猫|パンダ|Панда|باندا|Panda|Panda|Πάντα|Панда|판다|पांडा',
+    'Panda|Panda|Panda|Panda|Panda|Panda|熊猫|パンダ|Панда|باندا|Panda|Panda|Πάντα|Панда|판다|पांडा|Panda|Панда|Panda|Panda|Panda|Panda|Panda|Panda|Panda|Panda|Panda|পান্ডা|پانڈا|Panda|Gấu trúc|پاندا|Panda|पांडा|పాండా|பாண்டா|ਪਾਂਡਾ|แพนด้า',
     [
       'KK......KK',
       'KKWWWWWWKK',
@@ -191,7 +191,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Pirinç topu|Rice ball|Reisball|Boulette de riz|Bola de arroz|Polpetta di riso|饭团|おにぎり|Рисовый шарик|كرة أرز|Bolinho de arroz|Kulka ryżowa|Μπάλα ρυζιού|Оризова топка|주먹밥|चावल का गोला',
+    'Pirinç topu|Rice ball|Reisball|Boulette de riz|Bola de arroz|Polpetta di riso|饭团|おにぎり|Рисовый шарик|كرة أرز|Bolinho de arroz|Kulka ryżowa|Μπάλα ρυζιού|Оризова топка|주먹밥|चावल का गोला|Rijstbal|Рисова кулька|Bilă de orez|Risboll|Risball|Risbold|Riisipallo|Rýžová koule|Rizsgombóc|Bebola nasi|Bola ng kanin|ভাতের বল|چاول کا گولا|Nasi kepal|Cơm nắm|گلوله برنج|Mpira wa wali|भाताचा गोळा|అన్నం ముద్ద|சோற்று உருண்டை|ਚੌਲਾਂ ਦਾ ਗੋਲਾ|ข้าวปั้น',
     [
       '....WW....',
       '...WWWW...',
@@ -205,7 +205,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Suşi|Sushi|Sushi|Sushi|Sushi|Sushi|寿司|寿司|Суши|سوشي|Sushi|Sushi|Σούσι|Суши|초밥|सुशी',
+    'Suşi|Sushi|Sushi|Sushi|Sushi|Sushi|寿司|寿司|Суши|سوشي|Sushi|Sushi|Σούσι|Суши|초밥|सुशी|Sushi|Суші|Sushi|Sushi|Sushi|Sushi|Sushi|Suši|Szusi|Sushi|Sushi|সুশি|سوشی|Sushi|Sushi|سوشی|Sushi|सुशी|సుషీ|சுஷி|ਸੁਸ਼ੀ|ซูชิ',
     [
       'T.....T...',
       '.T...T....',
@@ -221,7 +221,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Sazan flaması|Carp streamer|Karpfenfahne|Carpe koinobori|Koinobori|Koinobori|鲤鱼旗|こいのぼり|Флаг-карп|علم الشبوط|Koinobori|Proporzec karp|Σημαία κυπρίνος|Знаме шаран|잉어 깃발|कार्प पताका',
+    'Sazan flaması|Carp streamer|Karpfenfahne|Carpe koinobori|Koinobori|Koinobori|鲤鱼旗|こいのぼり|Флаг-карп|علم الشبوط|Koinobori|Proporzec karp|Σημαία κυπρίνος|Знаме шаран|잉어 깃발|कार्प पताका|Karpervlag|Вітрячок-короп|Steag crap|Karpvimpel|Karpevimpel|Karpevimpel|Karppiviiri|Kapří vlajka|Pontyos szélzsák|Bendera ikan kap|Watawat na karpa|কার্প পতাকা|کارپ جھنڈا|Bendera ikan koi|Cờ cá chép|بادنمای ماهی کپور|Bendera ya samaki|कार्प पताका|కార్ప్ జెండా|கெண்டை மீன் கொடி|ਕਾਰਪ ਝੰਡਾ|ธงปลาคาร์ป',
     [
       'Y.........',
       'H.........',
@@ -242,7 +242,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Daruma bebeği|Daruma doll|Daruma-Puppe|Poupée daruma|Muñeco daruma|Bambola daruma|达摩娃娃|だるま|Кукла дарума|دمية داروما|Boneco daruma|Lalka daruma|Κούκλα νταρούμα|Кукла дарума|다루마 인형|दारुमा गुड़िया',
+    'Daruma bebeği|Daruma doll|Daruma-Puppe|Poupée daruma|Muñeco daruma|Bambola daruma|达摩娃娃|だるま|Кукла дарума|دمية داروما|Boneco daruma|Lalka daruma|Κούκλα νταρούμα|Кукла дарума|다루마 인형|दारुमा गुड़िया|Darumapop|Лялька Дарума|Păpușă Daruma|Darumadocka|Darumadukke|Darumadukke|Daruma-nukke|Panenka Daruma|Darumababa|Anak patung Daruma|Manikang Daruma|দারুমা পুতুল|داروما گڑیا|Boneka Daruma|Búp bê Daruma|عروسک داروما|Mwanasesere Daruma|दारुमा बाहुली|దరుమా బొమ్మ|தருமா பொம்மை|ਦਾਰੂਮਾ ਗੁੱਡੀ|ตุ๊กตาดารุมะ',
     [
       '...RRRR...',
       '..RRRRRR..',
@@ -260,7 +260,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Şans kedisi|Lucky cat|Winkekatze|Chat porte-bonheur|Gato de la suerte|Gatto portafortuna|招财猫|招き猫|Манэки-нэко|قطة الحظ|Gato da sorte|Kot szczęścia|Γάτα της τύχης|Котка на късмета|마네키네코|भाग्यशाली बिल्ली',
+    'Şans kedisi|Lucky cat|Winkekatze|Chat porte-bonheur|Gato de la suerte|Gatto portafortuna|招财猫|招き猫|Манэки-нэко|قطة الحظ|Gato da sorte|Kot szczęścia|Γάτα της τύχης|Котка на късмета|마네키네코|भाग्यशाली बिल्ली|Gelukskat|Кіт удачі|Pisica norocoasă|Lyckokatt|Lykkekatt|Lykkekat|Onnenkissa|Kočka štěstí|Szerencsemacska|Kucing bertuah|Masuwerteng pusa|ভাগ্যবান বিড়াল|خوش قسمت بلی|Kucing keberuntungan|Mèo thần tài|گربه شانس|Paka wa bahati|नशिबाची मांजर|అదృష్ట పిల్లి|அதிர்ஷ்டப் பூனை|ਕਿਸਮਤ ਵਾਲੀ ਬਿੱਲੀ|แมวกวัก',
     [
       '.W...W..WW',
       '.WWWWW..WW',
@@ -278,7 +278,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Kemerli köprü|Arched bridge|Bogenbrücke|Pont en arc|Puente arqueado|Ponte ad arco|拱桥|太鼓橋|Арочный мост|جسر مقوس|Ponte em arco|Most łukowy|Τοξωτή γέφυρα|Сводест мост|아치 다리|मेहराबदार पुल',
+    'Kemerli köprü|Arched bridge|Bogenbrücke|Pont en arc|Puente arqueado|Ponte ad arco|拱桥|太鼓橋|Арочный мост|جسر مقوس|Ponte em arco|Most łukowy|Τοξωτή γέφυρα|Сводест мост|아치 다리|मेहराबदार पुल|Boogbrug|Арковий міст|Pod arcuit|Bågbro|Buebro|Buebro|Kaarisilta|Obloukový most|Ívhíd|Jambatan melengkung|Arkong tulay|খিলান সেতু|محراب دار پل|Jembatan lengkung|Cầu vòm|پل قوسی|Daraja la tao|कमानी पूल|వంపు వంతెన|வளைவுப் பாலம்|ਮਹਿਰਾਬੀ ਪੁਲ|สะพานโค้ง',
     [
       '...R..R...',
       '..RRRRRR..',
@@ -295,7 +295,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Taş fener|Stone lantern|Steinlaterne|Lanterne de pierre|Linterna de piedra|Lanterna di pietra|石灯笼|石灯籠|Каменный фонарь|فانوس حجري|Lanterna de pedra|Kamienna latarnia|Πέτρινο φανάρι|Каменен фенер|석등|पत्थर की लालटेन',
+    'Taş fener|Stone lantern|Steinlaterne|Lanterne de pierre|Linterna de piedra|Lanterna di pietra|石灯笼|石灯籠|Каменный фонарь|فانوس حجري|Lanterna de pedra|Kamienna latarnia|Πέτρινο φανάρι|Каменен фенер|석등|पत्थर की लालटेन|Stenen lantaarn|Кам’яний ліхтар|Felinar de piatră|Stenlykta|Steinlykt|Stenlygte|Kivilyhty|Kamenná lucerna|Kőlámpás|Tanglung batu|Batong parol|পাথরের লণ্ঠন|پتھر کی لالٹین|Lentera batu|Đèn đá|فانوس سنگی|Taa ya mawe|दगडी कंदील|రాతి లాంతరు|கல் விளக்கு|ਪੱਥਰ ਦੀ ਲਾਲਟੈਣ|โคมไฟหิน',
     [
       '....EE....',
       '...EEEE...',
@@ -315,7 +315,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Yelpaze|Folding fan|Fächer|Éventail|Abanico|Ventaglio|折扇|扇子|Веер|مروحة يدوية|Leque|Wachlarz|Βεντάλια|Ветрило|부채|पंखा',
+    'Yelpaze|Folding fan|Fächer|Éventail|Abanico|Ventaglio|折扇|扇子|Веер|مروحة يدوية|Leque|Wachlarz|Βεντάλια|Ветрило|부채|पंखा|Waaier|Віяло|Evantai|Solfjäder|Vifte|Vifte|Viuhka|Vějíř|Legyező|Kipas lipat|Abaniko|হাতপাখা|دستی پنکھا|Kipas lipat|Quạt xếp|بادبزن|Kipepeo cha mkono|पंखा|విసనకర్ర|விசிறி|ਪੱਖੀ|พัด',
     [
       'R.R.RR.R.R',
       'RR.RRRR.RR',
@@ -331,7 +331,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Bento kutusu|Bento box|Bento-Box|Boîte bento|Caja bento|Scatola bento|便当|弁当|Бэнто|علبة بينتو|Caixa bento|Pudełko bento|Κουτί μπέντο|Кутия бенто|도시락|बेंटो बॉक्स',
+    'Bento kutusu|Bento box|Bento-Box|Boîte bento|Caja bento|Scatola bento|便当|弁当|Бэнто|علبة بينتو|Caixa bento|Pudełko bento|Κουτί μπέντο|Кутия бенто|도시락|बेंटो बॉक्स|Bentobox|Бенто|Cutie bento|Bentolåda|Bentoboks|Bentoboks|Bento-rasia|Krabička bento|Bentódoboz|Kotak bento|Bento box|বেন্টো বাক্স|بینٹو ڈبہ|Kotak bento|Hộp cơm bento|جعبه بنتو|Sanduku la bento|बेंटो डबा|బెంటో డబ్బా|பென்டோ பெட்டி|ਬੈਂਟੋ ਡੱਬਾ|กล่องเบนโตะ',
     [
       'RRRRRRRRR.',
       'R..WR.G.R.',
@@ -346,7 +346,7 @@ final blossomArt = <LevelArt>[
   ),
   art(
     11,
-    'Kâğıt fener|Paper lantern|Papierlaterne|Lanterne en papier|Farolillo de papel|Lanterna di carta|纸灯笼|提灯|Бумажный фонарик|فانوس ورقي|Lanterna de papel|Papierowy lampion|Χάρτινο φανάρι|Хартиен фенер|종이 등불|कागज़ की लालटेन',
+    'Kâğıt fener|Paper lantern|Papierlaterne|Lanterne en papier|Farolillo de papel|Lanterna di carta|纸灯笼|提灯|Бумажный фонарик|فانوس ورقي|Lanterna de papel|Papierowy lampion|Χάρτινο φανάρι|Хартиен фенер|종이 등불|कागज़ की लालटेन|Lampion|Паперовий ліхтарик|Lampion de hârtie|Papperslykta|Papirlykt|Papirlampion|Paperilyhty|Papírový lampion|Papírlámpás|Tanglung kertas|Papel na parol|কাগজের লণ্ঠন|کاغذی لالٹین|Lampion kertas|Đèn lồng giấy|فانوس کاغذی|Taa ya karatasi|कागदी कंदील|కాగితపు లాంతరు|காகித விளக்கு|ਕਾਗ਼ਜ਼ੀ ਲਾਲਟੈਣ|โคมกระดาษ',
     [
       '....KK....',
       '...KKKK...',

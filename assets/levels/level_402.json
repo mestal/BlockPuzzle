@@ -1,6 +1,6 @@
 {
   "id": 402,
-  "name": {"de": "Gießkanne", "en": "Watering can", "es": "Regadera", "fr": "Arrosoir", "it": "Annaffiatoio", "pl": "Konewka", "pt": "Regador", "tr": "Sulama kabı", "el": "Ποτιστήρι", "bg": "Лейка", "ru": "Лейка", "ar": "مرشة ماء", "hi": "झारी", "zh": "洒水壶", "ja": "じょうろ", "ko": "물뿌리개"},
+  "name": {"id": "Penyiram tanaman", "ms": "Bekas penyiram", "da": "Vandkande", "de": "Gießkanne", "en": "Watering can", "es": "Regadera", "fil": "Regadera", "fr": "Arrosoir", "it": "Annaffiatoio", "sw": "Chombo cha kumwagilia", "hu": "Locsolókanna", "nl": "Gieter", "nb": "Vannkanne", "pl": "Konewka", "pt": "Regador", "ro": "Stropitoare", "fi": "Kastelukannu", "sv": "Vattenkanna", "vi": "Bình tưới", "tr": "Sulama kabı", "cs": "Konev", "el": "Ποτιστήρι", "bg": "Лейка", "ru": "Лейка", "uk": "Лійка", "ur": "پانی دینے والا برتن", "ar": "مرشة ماء", "fa": "آب‌پاش", "mr": "झारी", "hi": "झारी", "bn": "ঝাঁঝরি", "pa": "ਫੁਹਾਰਾ ਡੱਬਾ", "ta": "பூவாளி", "te": "నీటి డబ్బా", "th": "บัวรดน้ำ", "zh": "洒水壶", "ja": "じょうろ", "ko": "물뿌리개"},
   "solution": ["..###.....", ".#...#.#..", ".#...#...#", "#######.##", "#########.", "########.#", "#######..#", "#######.#.", "#######..#", ".#####...."],
   "colors":   ["..BBB.....", ".B...B.Y..", ".B...B...B", "BBBBBBB.BB", "BBBBBBBBB.", "BBBBBBBB.C", "BBBBBBB..C", "BBBBBBB.C.", "BBBBBBB..C", ".BBBBB...."],
   "palette":  { "B": "#3B82F6", "C": "#22D3EE", "Y": "#FACC15" }

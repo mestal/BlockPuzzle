@@ -7,7 +7,7 @@ import '../level_art.dart';
 final sportsArt = <LevelArt>[
   art(
     24,
-    'Futbol topu|Soccer ball|Fußball|Ballon de foot|Balón de fútbol|Pallone da calcio|足球|サッカーボール|Футбольный мяч|كرة قدم|Bola de futebol|Piłka nożna|Μπάλα ποδοσφαίρου|Футболна топка|축구공|फ़ुटबॉल',
+    'Futbol topu|Soccer ball|Fußball|Ballon de foot|Balón de fútbol|Pallone da calcio|足球|サッカーボール|Футбольный мяч|كرة قدم|Bola de futebol|Piłka nożna|Μπάλα ποδοσφαίρου|Футболна топка|축구공|फ़ुटबॉल|Voetbal|Футбольний м’яч|Minge de fotbal|Fotboll|Fotball|Fodbold|Jalkapallo|Fotbalový míč|Focilabda|Bola sepak|Bola ng soccer|ফুটবল|فٹ بال|Bola sepak|Quả bóng đá|توپ فوتبال|Mpira wa miguu|फुटबॉल|ఫుట్‌బాల్|கால்பந்து|ਫੁੱਟਬਾਲ|ลูกฟุตบอล',
     [
       '...WWWW...',
       '..WW..WW..',
@@ -21,7 +21,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Basketbol topu|Basketball|Basketball|Ballon de basket|Balón de baloncesto|Pallone da basket|篮球|バスケットボール|Баскетбольный мяч|كرة سلة|Bola de basquete|Piłka do koszykówki|Μπάλα μπάσκετ|Баскетболна топка|농구공|बास्केटबॉल',
+    'Basketbol topu|Basketball|Basketball|Ballon de basket|Balón de baloncesto|Pallone da basket|篮球|バスケットボール|Баскетбольный мяч|كرة سلة|Bola de basquete|Piłka do koszykówki|Μπάλα μπάσκετ|Баскетболна топка|농구공|बास्केटबॉल|Basketbal|Баскетбольний м’яч|Minge de baschet|Basketboll|Basketball|Basketball|Koripallo|Basketbalový míč|Kosárlabda|Bola keranjang|Bola ng basketbol|বাস্কেটবল|باسکٹ بال|Bola basket|Quả bóng rổ|توپ بسکتبال|Mpira wa kikapu|बास्केटबॉल|బాస్కెట్‌బాల్|கூடைப்பந்து|ਬਾਸਕਟਬਾਲ|ลูกบาสเกตบอล',
     [
       '...OOOO...',
       '..OKOOKO..',
@@ -35,7 +35,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Tenis raketi|Tennis racket|Tennisschläger|Raquette de tennis|Raqueta de tenis|Racchetta da tennis|网球拍|テニスラケット|Теннисная ракетка|مضرب تنس|Raquete de tênis|Rakieta tenisowa|Ρακέτα τένις|Тенис ракета|테니스 라켓|टेनिस रैकेट',
+    'Tenis raketi|Tennis racket|Tennisschläger|Raquette de tennis|Raqueta de tenis|Racchetta da tennis|网球拍|テニスラケット|Теннисная ракетка|مضرب تنس|Raquete de tênis|Rakieta tenisowa|Ρακέτα τένις|Тенис ракета|테니스 라켓|टेनिस रैकेट|Tennisracket|Тенісна ракетка|Rachetă de tenis|Tennisracket|Tennisracket|Tennisketsjer|Tennismaila|Tenisová raketa|Teniszütő|Raket tenis|Raketa ng tenis|টেনিস র‍্যাকেট|ٹینس ریکٹ|Raket tenis|Vợt tennis|راکت تنیس|Raketi ya tenisi|टेनिस रॅकेट|టెన్నిస్ రాకెట్|டென்னிஸ் மட்டை|ਟੈਨਿਸ ਰੈਕੇਟ|ไม้เทนนิส',
     [
       '..RRRR....',
       '.RWWWWR...',
@@ -53,7 +53,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Madalya|Medal|Medaille|Médaille|Medalla|Medaglia|奖牌|メダル|Медаль|ميدالية|Medalha|Medal|Μετάλλιο|Медал|메달|पदक',
+    'Madalya|Medal|Medaille|Médaille|Medalla|Medaglia|奖牌|メダル|Медаль|ميدالية|Medalha|Medal|Μετάλλιο|Медал|메달|पदक|Medaille|Медаль|Medalie|Medalj|Medalje|Medalje|Mitali|Medaile|Érem|Pingat|Medalya|পদক|تمغہ|Medali|Huy chương|مدال|Medali|पदक|పతకం|பதக்கம்|ਤਮਗ਼ਾ|เหรียญรางวัล',
     [
       '.BB....RR.',
       '..BB..RR..',
@@ -70,7 +70,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Düdük|Whistle|Pfeife|Sifflet|Silbato|Fischietto|哨子|ホイッスル|Свисток|صافرة|Apito|Gwizdek|Σφυρίχτρα|Свирка|호루라기|सीटी',
+    'Düdük|Whistle|Pfeife|Sifflet|Silbato|Fischietto|哨子|ホイッスル|Свисток|صافرة|Apito|Gwizdek|Σφυρίχτρα|Свирка|호루라기|सीटी|Fluitje|Свисток|Fluier|Visselpipa|Fløyte|Fløjte|Pilli|Píšťalka|Síp|Wisel|Pito|বাঁশি|سیٹی|Peluit|Cái còi|سوت|Filimbi|शिट्टी|ఈల|விசில்|ਸੀਟੀ|นกหวีด',
     [
       'R.........',
       '.R........',
@@ -86,7 +86,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Beyzbol şapkası|Baseball cap|Baseballkappe|Casquette|Gorra de béisbol|Cappellino|棒球帽|野球帽|Бейсболка|قبعة بيسبول|Boné|Czapka z daszkiem|Καπέλο του μπέιζμπολ|Шапка с козирка|야구 모자|बेसबॉल टोपी',
+    'Beyzbol şapkası|Baseball cap|Baseballkappe|Casquette|Gorra de béisbol|Cappellino|棒球帽|野球帽|Бейсболка|قبعة بيسبول|Boné|Czapka z daszkiem|Καπέλο του μπέιζμπολ|Шапка с козирка|야구 모자|बेसबॉल टोपी|Pet|Бейсболка|Șapcă|Keps|Caps|Kasket|Lippalakki|Kšiltovka|Baseballsapka|Topi besbol|Sumbrero ng beysbol|বেসবল টুপি|بیس بال کیپ|Topi bisbol|Mũ lưỡi trai|کلاه کپ|Kofia ya besiboli|बेसबॉल टोपी|బేస్‌బాల్ టోపీ|பேஸ்பால் தொப்பி|ਬੇਸਬਾਲ ਟੋਪੀ|หมวกแก๊ป',
     [
       '..BBBB....',
       '.BBBBBB...',
@@ -98,7 +98,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Boks eldiveni|Boxing glove|Boxhandschuh|Gant de boxe|Guante de boxeo|Guantone da boxe|拳击手套|ボクシンググローブ|Боксёрская перчатка|قفاز ملاكمة|Luva de boxe|Rękawica bokserska|Γάντι πυγμαχίας|Боксова ръкавица|권투 장갑|मुक्केबाज़ी दस्ताना',
+    'Boks eldiveni|Boxing glove|Boxhandschuh|Gant de boxe|Guante de boxeo|Guantone da boxe|拳击手套|ボクシンググローブ|Боксёрская перчатка|قفاز ملاكمة|Luva de boxe|Rękawica bokserska|Γάντι πυγμαχίας|Боксова ръкавица|권투 장갑|मुक्केबाज़ी दस्ताना|Bokshandschoen|Боксерська рукавиця|Mănușă de box|Boxningshandske|Boksehanske|Boksehandske|Nyrkkeilyhanska|Boxerská rukavice|Bokszkesztyű|Sarung tinju|Guwantes sa boksing|বক্সিং গ্লাভস|باکسنگ دستانہ|Sarung tinju|Găng tay đấm bốc|دستکش بوکس|Glavu ya ndondi|मुष्टियुद्धाचा हातमोजा|బాక్సింగ్ గ్లవ్|குத்துச்சண்டைக் கையுறை|ਮੁੱਕੇਬਾਜ਼ੀ ਦਸਤਾਨਾ|นวมชกมวย',
     [
       '..RRRR....',
       '.RRRRRR...',
@@ -115,7 +115,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Bowling labutu|Bowling pin|Kegel|Quille de bowling|Bolo de bolos|Birillo|保龄球瓶|ボウリングのピン|Кегля|قارورة بولينغ|Pino de boliche|Kręgiel|Κορίνα μπόουλινγκ|Кегла|볼링 핀|बॉलिंग पिन',
+    'Bowling labutu|Bowling pin|Kegel|Quille de bowling|Bolo de bolos|Birillo|保龄球瓶|ボウリングのピン|Кегля|قارورة بولينغ|Pino de boliche|Kręgiel|Κορίνα μπόουλινγκ|Кегла|볼링 핀|बॉलिंग पिन|Kegel|Кегля|Popic|Bowlingkägla|Bowlingkjegle|Bowlingkegle|Keilan|Kuželka|Bowlingbábu|Pin boling|Bowling pin|বোলিং পিন|بولنگ پن|Pin boling|Ky bowling|پین بولینگ|Pini ya bowling|बॉलिंग पिन|బౌలింగ్ పిన్|பந்துருட்டல் கம்பம்|ਬੌਲਿੰਗ ਪਿੰਨ|พินโบว์ลิ่ง',
     [
       '..WW......',
       '.WWWW.....',
@@ -133,7 +133,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Golf bayrağı|Golf flag|Golffahne|Drapeau de golf|Bandera de golf|Bandiera da golf|高尔夫旗|ゴルフのピン旗|Флажок для гольфа|علم الغولف|Bandeira de golfe|Flaga golfowa|Σημαία γκολφ|Флагче за голф|골프 깃발|गोल्फ़ झंडा',
+    'Golf bayrağı|Golf flag|Golffahne|Drapeau de golf|Bandera de golf|Bandiera da golf|高尔夫旗|ゴルフのピン旗|Флажок для гольфа|علم الغولف|Bandeira de golfe|Flaga golfowa|Σημαία γκολφ|Флагче за голф|골프 깃발|गोल्फ़ झंडा|Golfvlag|Прапорець для гольфу|Steag de golf|Golfflagga|Golfflagg|Golfflag|Golflippu|Golfová vlajka|Golfzászló|Bendera golf|Watawat ng golf|গলফ পতাকা|گالف کا جھنڈا|Bendera golf|Cờ golf|پرچم گلف|Bendera ya gofu|गोल्फ झेंडा|గోల్ఫ్ జెండా|கோல்ஃப் கொடி|ਗੋਲਫ਼ ਝੰਡਾ|ธงกอล์ฟ',
     [
       '.RR.......',
       '.RRRR.....',
@@ -151,7 +151,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Dambıl|Dumbbell|Hantel|Haltère|Mancuerna|Manubrio|哑铃|ダンベル|Гантель|دمبل|Haltere|Hantel|Αλτήρας|Дъмбел|아령|डम्बल',
+    'Dambıl|Dumbbell|Hantel|Haltère|Mancuerna|Manubrio|哑铃|ダンベル|Гантель|دمبل|Haltere|Hantel|Αλτήρας|Дъмбел|아령|डम्बल|Halter|Гантель|Gantera|Hantel|Manual|Håndvægt|Käsipaino|Činka|Súlyzó|Dumbel|Dumbbell|ডাম্বেল|ڈمبل|Dumbel|Quả tạ|دمبل|Chuma cha mazoezi|डंबेल|డంబెల్|டம்பெல்|ਡੰਬਲ|ดัมเบล',
     [
       '.KK.......',
       'KKKK......',
@@ -166,7 +166,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Masa tenisi raketi|Ping-pong paddle|Tischtennisschläger|Raquette de ping-pong|Pala de ping-pong|Racchetta da ping-pong|乒乓球拍|卓球のラケット|Ракетка для пинг-понга|مضرب بينغ بونغ|Raquete de pingue-pongue|Rakietka do ping-ponga|Ρακέτα πινγκ πονγκ|Хилка за тенис на маса|탁구채|टेबल टेनिस बैट',
+    'Masa tenisi raketi|Ping-pong paddle|Tischtennisschläger|Raquette de ping-pong|Pala de ping-pong|Racchetta da ping-pong|乒乓球拍|卓球のラケット|Ракетка для пинг-понга|مضرب بينغ بونغ|Raquete de pingue-pongue|Rakietka do ping-ponga|Ρακέτα πινγκ πονγκ|Хилка за тенис на маса|탁구채|टेबल टेनिस बैट|Pingpongbatje|Ракетка для пінг-понгу|Paletă de ping-pong|Pingisracket|Bordtennisracket|Bordtennisbat|Pingismaila|Pingpongová pálka|Pingpongütő|Bet ping pong|Raketa ng ping-pong|টেবিল টেনিস ব্যাট|ٹیبل ٹینس بیٹ|Bet pingpong|Vợt bóng bàn|راکت پینگ‌پنگ|Kibao cha tenisi ya meza|टेबल टेनिस बॅट|టేబుల్ టెన్నిస్ బ్యాట్|மேசைப்பந்து மட்டை|ਟੇਬਲ ਟੈਨਿਸ ਬੈਟ|ไม้ปิงปอง',
     [
       '..RRRR....',
       '.RRRRRR...',
@@ -183,7 +183,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Kronometre|Stopwatch|Stoppuhr|Chronomètre|Cronómetro|Cronometro|秒表|ストップウォッチ|Секундомер|ساعة إيقاف|Cronômetro|Stoper|Χρονόμετρο|Хронометър|스톱워치|स्टॉपवॉच',
+    'Kronometre|Stopwatch|Stoppuhr|Chronomètre|Cronómetro|Cronometro|秒表|ストップウォッチ|Секундомер|ساعة إيقاف|Cronômetro|Stoper|Χρονόμετρο|Хронометър|스톱워치|स्टॉपवॉच|Stopwatch|Секундомір|Cronometru|Stoppur|Stoppeklokke|Stopur|Sekuntikello|Stopky|Stopperóra|Jam randik|Stopwatch|স্টপওয়াচ|اسٹاپ واچ|Stopwatch|Đồng hồ bấm giờ|کرنومتر|Saa ya kupima muda|स्टॉपवॉच|స్టాప్‌వాచ్|நிறுத்துக் கடிகாரம்|ਸਟਾਪਵਾਚ|นาฬิกาจับเวลา',
     [
       '....KK....',
       '....EE..E.',
@@ -199,7 +199,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Hokey sopası|Hockey stick|Hockeyschläger|Crosse de hockey|Palo de hockey|Bastone da hockey|曲棍球杆|ホッケースティック|Хоккейная клюшка|عصا الهوكي|Taco de hóquei|Kij hokejowy|Μπαστούνι χόκεϊ|Стик за хокей|하키 스틱|हॉकी स्टिक',
+    'Hokey sopası|Hockey stick|Hockeyschläger|Crosse de hockey|Palo de hockey|Bastone da hockey|曲棍球杆|ホッケースティック|Хоккейная клюшка|عصا الهوكي|Taco de hóquei|Kij hokejowy|Μπαστούνι χόκεϊ|Стик за хокей|하키 스틱|हॉकी स्टिक|Hockeystick|Хокейна ключка|Crosă de hochei|Hockeyklubba|Hockeykølle|Hockeystav|Jääkiekkomaila|Hokejka|Hokiütő|Kayu hoki|Hockey stick|হকি স্টিক|ہاکی اسٹک|Tongkat hoki|Gậy khúc côn cầu|چوب هاکی|Fimbo ya magongo|हॉकी स्टिक|హాకీ కర్ర|ஹாக்கி மட்டை|ਹਾਕੀ ਸਟਿੱਕ|ไม้ฮอกกี้',
     [
       '........H.',
       '.......H..',
@@ -218,7 +218,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Ragbi topu|Rugby ball|Rugbyball|Ballon de rugby|Balón de rugby|Pallone da rugby|橄榄球|ラグビーボール|Мяч для регби|كرة رغبي|Bola de rúgbi|Piłka do rugby|Μπάλα ράγκμπι|Топка за ръгби|럭비공|रग्बी गेंद',
+    'Ragbi topu|Rugby ball|Rugbyball|Ballon de rugby|Balón de rugby|Pallone da rugby|橄榄球|ラグビーボール|Мяч для регби|كرة رغبي|Bola de rúgbi|Piłka do rugby|Μπάλα ράγκμπι|Топка за ръгби|럭비공|रग्बी गेंद|Rugbybal|М’яч для регбі|Minge de rugby|Rugbyboll|Rugbyball|Rugbybold|Rugbypallo|Ragbyový míč|Rögbilabda|Bola ragbi|Bola ng rugby|রাগবি বল|رگبی بال|Bola rugbi|Quả bóng bầu dục|توپ راگبی|Mpira wa raga|रग्बी चेंडू|రగ్బీ బంతి|ரக்பி பந்து|ਰਗਬੀ ਗੇਂਦ|ลูกรักบี้',
     [
       '......TT..',
       '....TTTTT.',
@@ -233,7 +233,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Voleybol topu|Volleyball|Volleyball|Ballon de volley|Balón de voleibol|Pallone da pallavolo|排球|バレーボール|Волейбольный мяч|كرة طائرة|Bola de vôlei|Piłka siatkowa|Μπάλα βόλεϊ|Волейболна топка|배구공|वॉलीबॉल',
+    'Voleybol topu|Volleyball|Volleyball|Ballon de volley|Balón de voleibol|Pallone da pallavolo|排球|バレーボール|Волейбольный мяч|كرة طائرة|Bola de vôlei|Piłka siatkowa|Μπάλα βόλεϊ|Волейболна топка|배구공|वॉलीबॉल|Volleybal|Волейбольний м’яч|Minge de volei|Volleyboll|Volleyball|Volleyball|Lentopallo|Volejbalový míč|Röplabda|Bola tampar|Bola ng balibol|ভলিবল|والی بال|Bola voli|Quả bóng chuyền|توپ والیبال|Mpira wa wavu|व्हॉलीबॉल|వాలీబాల్|கைப்பந்து|ਵਾਲੀਬਾਲ|ลูกวอลเลย์บอล',
     [
       '...WWWW...',
       '..WW.WWW..',
@@ -247,7 +247,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Yüzücü gözlüğü|Swim goggles|Schwimmbrille|Lunettes de natation|Gafas de natación|Occhialini da nuoto|泳镜|ゴーグル|Очки для плавания|نظارة سباحة|Óculos de natação|Okulary pływackie|Γυαλιά κολύμβησης|Очила за плуване|수경|तैराकी चश्मा',
+    'Yüzücü gözlüğü|Swim goggles|Schwimmbrille|Lunettes de natation|Gafas de natación|Occhialini da nuoto|泳镜|ゴーグル|Очки для плавания|نظارة سباحة|Óculos de natação|Okulary pływackie|Γυαλιά κολύμβησης|Очила за плуване|수경|तैराकी चश्मा|Zwembril|Окуляри для плавання|Ochelari de înot|Simglasögon|Svømmebriller|Svømmebriller|Uimalasit|Plavecké brýle|Úszószemüveg|Gogal renang|Swimming goggles|সাঁতারের চশমা|تیراکی کا چشمہ|Kacamata renang|Kính bơi|عینک شنا|Miwani ya kuogelea|पोहण्याचा चष्मा|ఈత కళ్లద్దాలు|நீச்சல் கண்ணாடி|ਤੈਰਾਕੀ ਐਨਕ|แว่นว่ายน้ำ',
     [
       '.CCC..CCC.',
       'C.W.CC.W.C',
@@ -260,7 +260,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Sörf tahtası|Surfboard|Surfbrett|Planche de surf|Tabla de surf|Tavola da surf|冲浪板|サーフボード|Доска для серфинга|لوح ركوب الأمواج|Prancha de surfe|Deska surfingowa|Σανίδα του σέρφ|Сърф дъска|서프보드|सर्फ़बोर्ड',
+    'Sörf tahtası|Surfboard|Surfbrett|Planche de surf|Tabla de surf|Tavola da surf|冲浪板|サーフボード|Доска для серфинга|لوح ركوب الأمواج|Prancha de surfe|Deska surfingowa|Σανίδα του σέρφ|Сърф дъска|서프보드|सर्फ़बोर्ड|Surfplank|Дошка для серфінгу|Placă de surf|Surfbräda|Surfebrett|Surfbræt|Surffilauta|Surfové prkno|Szörfdeszka|Papan luncur air|Surfboard|সার্ফবোর্ড|سرف بورڈ|Papan selancar|Ván lướt sóng|تخته موج‌سواری|Ubao wa kuteleza mawimbi|सर्फबोर्ड|సర్ఫ్‌బోర్డ్|அலைச்சறுக்குப் பலகை|ਸਰਫ਼ਬੋਰਡ|กระดานโต้คลื่น',
     [
       '....OO....',
       '...OOOO...',
@@ -279,7 +279,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Badminton topu|Shuttlecock|Federball|Volant|Volante|Volano|羽毛球|シャトル|Волан|ريشة الريشة الطائرة|Peteca|Lotka|Φτερό μπάντμιντον|Перце|셔틀콕|शटलकॉक',
+    'Badminton topu|Shuttlecock|Federball|Volant|Volante|Volano|羽毛球|シャトル|Волан|ريشة الريشة الطائرة|Peteca|Lotka|Φτερό μπάντμιντον|Перце|셔틀콕|शटलकॉक|Shuttle|Волан|Fluturaș|Fjäderboll|Badmintonball|Fjerbold|Sulkapallo|Badmintonový míček|Tollaslabda|Bulu tangkis|Shuttlecock|শাটলকক|شٹل کاک|Kok bulu tangkis|Quả cầu lông|توپ بدمینتون|Kiboya|फूल|షటిల్ కాక్|இறகுப்பந்து|ਸ਼ਟਲਕਾਕ|ลูกขนไก่',
     [
       'WWWWWWWW..',
       '.W.WW.W...',
@@ -293,7 +293,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Okçuluk hedefi|Archery target|Zielscheibe|Cible de tir à l\'arc|Diana de tiro|Bersaglio|箭靶|弓道の的|Мишень|هدف الرماية|Alvo de arco e flecha|Tarcza łucznicza|Στόχος τοξοβολίας|Мишена|과녁|तीरंदाज़ी का निशाना',
+    'Okçuluk hedefi|Archery target|Zielscheibe|Cible de tir à l\'arc|Diana de tiro|Bersaglio|箭靶|弓道の的|Мишень|هدف الرماية|Alvo de arco e flecha|Tarcza łucznicza|Στόχος τοξοβολίας|Мишена|과녁|तीरंदाज़ी का निशाना|Schietschijf|Мішень|Țintă de tir cu arcul|Bågskyttetavla|Blink|Skydeskive|Jousiammuntataulu|Lukostřelecký terč|Céltábla|Sasaran memanah|Target sa pana|তিরন্দাজির লক্ষ্য|تیر اندازی کا نشانہ|Target panahan|Bia bắn cung|سیبل تیراندازی|Shabaha ya mshale|तिरंदाजीचे लक्ष्य|విలువిద్య లక్ష్యం|வில்வித்தை இலக்கு|ਤੀਰਅੰਦਾਜ਼ੀ ਨਿਸ਼ਾਨਾ|เป้ายิงธนู',
     [
       '...RRRR...',
       '.RR....RR.',
@@ -309,7 +309,7 @@ final sportsArt = <LevelArt>[
   ),
   art(
     24,
-    'Beyzbol sopası|Baseball bat|Baseballschläger|Batte de baseball|Bate de béisbol|Mazza da baseball|棒球棒|野球のバット|Бейсбольная бита|مضرب بيسبول|Taco de beisebol|Kij baseballowy|Ρόπαλο μπέιζμπολ|Бухалка за бейзбол|야구 방망이|बेसबॉल बल्ला',
+    'Beyzbol sopası|Baseball bat|Baseballschläger|Batte de baseball|Bate de béisbol|Mazza da baseball|棒球棒|野球のバット|Бейсбольная бита|مضرب بيسبول|Taco de beisebol|Kij baseballowy|Ρόπαλο μπέιζμπολ|Бухалка за бейзбол|야구 방망이|बेसबॉल बल्ला|Honkbalknuppel|Бейсбольна бита|Bâtă de baseball|Basebollträ|Baseballkølle|Baseballbat|Pesäpallomaila|Baseballová pálka|Baseballütő|Kayu besbol|Bat ng beysbol|বেসবল ব্যাট|بیس بال بیٹ|Tongkat bisbol|Gậy bóng chày|چوب بیسبال|Gongo la besiboli|बेसबॉल बॅट|బేస్‌బాల్ బ్యాట్|பேஸ்பால் மட்டை|ਬੇਸਬਾਲ ਬੈਟ|ไม้เบสบอล',
     [
       '....HH....',
       '...HHHH...',

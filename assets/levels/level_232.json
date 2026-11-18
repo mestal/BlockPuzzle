@@ -1,6 +1,6 @@
 {
   "id": 232,
-  "name": {"de": "Kamera", "en": "Camera", "es": "Cámara", "fr": "Appareil photo", "it": "Fotocamera", "pl": "Aparat", "pt": "Câmera", "tr": "Fotoğraf makinesi", "el": "Φωτογραφική μηχανή", "bg": "Фотоапарат", "ru": "Фотоаппарат", "ar": "كاميرا", "hi": "कैमरा", "zh": "相机", "ja": "カメラ", "ko": "카메라"},
+  "name": {"id": "Kamera", "ms": "Kamera", "da": "Kamera", "de": "Kamera", "en": "Camera", "es": "Cámara", "fil": "Kamera", "fr": "Appareil photo", "it": "Fotocamera", "sw": "Kamera", "hu": "Fényképezőgép", "nl": "Camera", "nb": "Kamera", "pl": "Aparat", "pt": "Câmera", "ro": "Aparat foto", "fi": "Kamera", "sv": "Kamera", "vi": "Máy ảnh", "tr": "Fotoğraf makinesi", "cs": "Fotoaparát", "el": "Φωτογραφική μηχανή", "bg": "Фотоапарат", "ru": "Фотоаппарат", "uk": "Фотоапарат", "ur": "کیمرا", "ar": "كاميرا", "fa": "دوربین عکاسی", "mr": "कॅमेरा", "hi": "कैमरा", "bn": "ক্যামেরা", "pa": "ਕੈਮਰਾ", "ta": "புகைப்படக் கருவி", "te": "కెమెరా", "th": "กล้องถ่ายรูป", "zh": "相机", "ja": "カメラ", "ko": "카메라"},
   "solution": [".....#....", "..##...#..", "#########.", "#..###..#.", "#.#...#.#.", "#.#.#.#.#.", "#.#...#.#.", "#..###..#.", "#########.", ".........."],
   "colors":   [".....Y....", "..KK...R..", "KKKKKKKKK.", "K..EEE..K.", "K.E...E.K.", "K.E.C.E.K.", "K.E...E.K.", "K..EEE..K.", "KKKKKKKKK.", ".........."],
   "palette":  { "C": "#22D3EE", "E": "#94A3B8", "K": "#1F2937", "R": "#E8453C", "Y": "#FACC15" }

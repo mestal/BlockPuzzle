@@ -1,6 +1,6 @@
 {
   "id": 181,
-  "name": {"de": "Erde", "en": "Earth", "es": "Tierra", "fr": "Terre", "it": "Terra", "pl": "Ziemia", "pt": "Terra", "tr": "Dünya", "el": "Γη", "bg": "Земя", "ru": "Земля", "ar": "الأرض", "hi": "पृथ्वी", "zh": "地球", "ja": "地球", "ko": "지구"},
+  "name": {"id": "Bumi", "ms": "Bumi", "da": "Jorden", "de": "Erde", "en": "Earth", "es": "Tierra", "fil": "Daigdig", "fr": "Terre", "it": "Terra", "sw": "Dunia", "hu": "Föld", "nl": "Aarde", "nb": "Jorden", "pl": "Ziemia", "pt": "Terra", "ro": "Pământ", "fi": "Maa", "sv": "Jorden", "vi": "Trái Đất", "tr": "Dünya", "cs": "Země", "el": "Γη", "bg": "Земя", "ru": "Земля", "uk": "Земля", "ur": "زمین", "ar": "الأرض", "fa": "زمین", "mr": "पृथ्वी", "hi": "पृथ्वी", "bn": "পৃথিবী", "pa": "ਧਰਤੀ", "ta": "பூமி", "te": "భూమి", "th": "โลก", "zh": "地球", "ja": "地球", "ko": "지구"},
   "solution": ["...####...", "..######..", ".########.", "##########", "##########", "##########", "##########", ".########.", "..######..", "...####..."],
   "colors":   ["...BBBB...", "..BGGBBB..", ".BGGGBBGB.", "BBGGBBBGGB", "BBBGBBGGGB", "BBBBBBGGBB", "BGGBBBBGBB", ".BGGGBBBB.", "..BBGGBB..", "...BBBB..."],
   "palette":  { "B": "#3B82F6", "G": "#22C55E" }

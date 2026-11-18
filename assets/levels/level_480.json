@@ -1,6 +1,6 @@
 {
   "id": 480,
-  "name": {"de": "Medaille", "en": "Medal", "es": "Medalla", "fr": "Médaille", "it": "Medaglia", "pl": "Medal", "pt": "Medalha", "tr": "Madalya", "el": "Μετάλλιο", "bg": "Медал", "ru": "Медаль", "ar": "ميدالية", "hi": "पदक", "zh": "奖牌", "ja": "メダル", "ko": "메달"},
+  "name": {"id": "Medali", "ms": "Pingat", "da": "Medalje", "de": "Medaille", "en": "Medal", "es": "Medalla", "fil": "Medalya", "fr": "Médaille", "it": "Medaglia", "sw": "Medali", "hu": "Érem", "nl": "Medaille", "nb": "Medalje", "pl": "Medal", "pt": "Medalha", "ro": "Medalie", "fi": "Mitali", "sv": "Medalj", "vi": "Huy chương", "tr": "Madalya", "cs": "Medaile", "el": "Μετάλλιο", "bg": "Медал", "ru": "Медаль", "uk": "Медаль", "ur": "تمغہ", "ar": "ميدالية", "fa": "مدال", "mr": "पदक", "hi": "पदक", "bn": "পদক", "pa": "ਤਮਗ਼ਾ", "ta": "பதக்கம்", "te": "పతకం", "th": "เหรียญรางวัล", "zh": "奖牌", "ja": "メダル", "ko": "메달"},
   "solution": ["..........", "....#.....", ".##....##.", "..##..##..", "...####...", "....##....", "...####...", "..######..", ".###..###.", ".##....##.", ".###..###.", "..######..", "#..####...", "..........", ".........."],
   "colors":   ["..........", "....Y.....", ".BB....RR.", "..BB..RR..", "...BBRR...", "....AA....", "...AAAA...", "..AAAAAA..", ".AAA..AAA.", ".AA....AA.", ".AAA..AAA.", "..AAAAAA..", "Y..AAAA...", "..........", ".........."],
   "palette":  { "A": "#F59E0B", "B": "#3B82F6", "R": "#E8453C", "Y": "#FACC15" }

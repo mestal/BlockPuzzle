@@ -1,6 +1,6 @@
 {
   "id": 124,
-  "name": {"de": "Perle", "en": "Pearl", "es": "Perla", "fr": "Perle", "it": "Perla", "pl": "Perła", "pt": "Pérola", "tr": "İnci", "el": "Μαργαριτάρι", "bg": "Перла", "ru": "Жемчужина", "ar": "لؤلؤة", "hi": "मोती", "zh": "珍珠", "ja": "真珠", "ko": "진주"},
+  "name": {"id": "Mutiara", "ms": "Mutiara", "da": "Perle", "de": "Perle", "en": "Pearl", "es": "Perla", "fil": "Perlas", "fr": "Perle", "it": "Perla", "sw": "Lulu", "hu": "Gyöngy", "nl": "Parel", "nb": "Perle", "pl": "Perła", "pt": "Pérola", "ro": "Perlă", "fi": "Helmi", "sv": "Pärla", "vi": "Ngọc trai", "tr": "İnci", "cs": "Perla", "el": "Μαργαριτάρι", "bg": "Перла", "ru": "Жемчужина", "uk": "Перлина", "ur": "موتی", "ar": "لؤلؤة", "fa": "مروارید", "mr": "मोती", "hi": "मोती", "bn": "মুক্তা", "pa": "ਮੋਤੀ", "ta": "முத்து", "te": "ముత్యం", "th": "ไข่มุก", "zh": "珍珠", "ja": "真珠", "ko": "진주"},
   "solution": ["..........", "..######..", ".########.", "##########", "##########", ".########.", ".##.##.##.", "##########", "##########", ".########.", ".########.", "##########", ".########.", "..........", ".........."],
   "colors":   ["..........", "..EEEEEE..", ".ELELLELE.", "ELLELLELLE", "EEELLLLEEE", ".EEEEEEEE.", ".JJ.WW.JJ.", "JJJWWWWJJJ", "JJJWWWWJJJ", ".JJJWWJJJ.", ".EEEEEEEE.", "ELLELLELLE", ".EEEEEEEE.", "..........", ".........."],
   "palette":  { "E": "#94A3B8", "J": "#FBCFE8", "L": "#E2E8F0", "W": "#FFFFFF" }

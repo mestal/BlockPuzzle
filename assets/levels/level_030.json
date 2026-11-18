@@ -1,6 +1,6 @@
 {
   "id": 30,
-  "name": {"de": "Wal", "en": "Whale", "es": "Ballena", "fr": "Baleine", "it": "Balena", "pl": "Wieloryb", "pt": "Baleia", "tr": "Balina", "el": "Φάλαινα", "bg": "Кит", "ru": "Кит", "ar": "حوت", "hi": "व्हेल", "zh": "鲸鱼", "ja": "クジラ", "ko": "고래"},
+  "name": {"id": "Paus", "ms": "Ikan paus", "da": "Hval", "de": "Wal", "en": "Whale", "es": "Ballena", "fil": "Balyena", "fr": "Baleine", "it": "Balena", "sw": "Nyangumi", "hu": "Bálna", "nl": "Walvis", "nb": "Hval", "pl": "Wieloryb", "pt": "Baleia", "ro": "Balenă", "fi": "Valas", "sv": "Val", "vi": "Cá voi", "tr": "Balina", "cs": "Velryba", "el": "Φάλαινα", "bg": "Кит", "ru": "Кит", "uk": "Кит", "ur": "وہیل", "ar": "حوت", "fa": "نهنگ", "mr": "देवमासा", "hi": "व्हेल", "bn": "তিমি", "pa": "ਵ੍ਹੇਲ", "ta": "திமிங்கலம்", "te": "తిమింగలం", "th": "ปลาวาฬ", "zh": "鲸鱼", "ja": "クジラ", "ko": "고래"},
   "solution": ["..........", "...#.#....", "....#.....", "..#####...", ".#######..", ".########.", ".########.", "..#######.", "...####.#.", ".........."],
   "colors":   ["..........", "...C.C....", "....C.....", "..BBBBB...", ".BBBBBBB..", ".BKBBBBBB.", ".BBBBBBBB.", "..IIIIBBB.", "...IIII.B.", ".........."],
   "palette":  { "B": "#3B82F6", "C": "#22D3EE", "I": "#BAE6FD", "K": "#1F2937" }

@@ -7,7 +7,7 @@ import '../level_art.dart';
 final savannaArt = <LevelArt>[
   art(
     20,
-    'Aslan|Lion|Löwe|Lion|León|Leone|狮子|ライオン|Лев|أسد|Leão|Lew|Λιοντάρι|Лъв|사자|शेर',
+    'Aslan|Lion|Löwe|Lion|León|Leone|狮子|ライオン|Лев|أسد|Leão|Lew|Λιοντάρι|Лъв|사자|शेर|Leeuw|Лев|Leu|Lejon|Løve|Løve|Leijona|Lev|Oroszlán|Singa|Leon|সিংহ|شیر|Singa|Sư tử|شیر|Simba|सिंह|సింహం|சிங்கம்|ਸ਼ੇਰ|สิงโต',
     [
       '.O.O..O.O.',
       'OOOOOOOOOO',
@@ -23,7 +23,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Zürafa|Giraffe|Giraffe|Girafe|Jirafa|Giraffa|长颈鹿|キリン|Жираф|زرافة|Girafa|Żyrafa|Καμηλοπάρδαλη|Жираф|기린|जिराफ़',
+    'Zürafa|Giraffe|Giraffe|Girafe|Jirafa|Giraffa|长颈鹿|キリン|Жираф|زرافة|Girafa|Żyrafa|Καμηλοπάρδαλη|Жираф|기린|जिराफ़|Giraffe|Жирафа|Girafă|Giraff|Sjiraff|Giraf|Kirahvi|Žirafa|Zsiráf|Zirafah|Hirapa|জিরাফ|زرافہ|Jerapah|Hươu cao cổ|زرافه|Twiga|जिराफ|జిరాఫీ|ஒட்டகச்சிவிங்கி|ਜਿਰਾਫ਼|ยีราฟ',
     [
       '......H.H.',
       '......AAA.',
@@ -44,7 +44,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Zebra|Zebra|Zebra|Zèbre|Cebra|Zebra|斑马|シマウマ|Зебра|حمار وحشي|Zebra|Zebra|Ζέβρα|Зебра|얼룩말|ज़ेबरा',
+    'Zebra|Zebra|Zebra|Zèbre|Cebra|Zebra|斑马|シマウマ|Зебра|حمار وحشي|Zebra|Zebra|Ζέβρα|Зебра|얼룩말|ज़ेबरा|Zebra|Зебра|Zebră|Sebra|Sebra|Zebra|Seepra|Zebra|Zebra|Kuda belang|Sebra|জেব্রা|زیبرا|Zebra|Ngựa vằn|گورخر|Punda milia|झेब्रा|జీబ్రా|வரிக்குதிரை|ਜ਼ੈਬਰਾ|ม้าลาย',
     [
       '.W......W.',
       '.WW.KK.WW.',
@@ -63,7 +63,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Fil|Elephant|Elefant|Éléphant|Elefante|Elefante|大象|ゾウ|Слон|فيل|Elefante|Słoń|Ελέφαντας|Слон|코끼리|हाथी',
+    'Fil|Elephant|Elefant|Éléphant|Elefante|Elefante|大象|ゾウ|Слон|فيل|Elefante|Słoń|Ελέφαντας|Слон|코끼리|हाथी|Olifant|Слон|Elefant|Elefant|Elefant|Elefant|Norsu|Slon|Elefánt|Gajah|Elepante|হাতি|ہاتھی|Gajah|Con voi|فیل|Tembo|हत्ती|ఏనుగు|யானை|ਹਾਥੀ|ช้าง',
     [
       '..EEEE....',
       '.EEEEEEEE.',
@@ -78,7 +78,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Su aygırı|Hippo|Nilpferd|Hippopotame|Hipopótamo|Ippopotamo|河马|カバ|Бегемот|فرس النهر|Hipopótamo|Hipopotam|Ιπποπόταμος|Хипопотам|하마|दरियाई घोड़ा',
+    'Su aygırı|Hippo|Nilpferd|Hippopotame|Hipopótamo|Ippopotamo|河马|カバ|Бегемот|فرس النهر|Hipopótamo|Hipopotam|Ιπποπόταμος|Хипопотам|하마|दरियाई घोड़ा|Nijlpaard|Бегемот|Hipopotam|Flodhäst|Flodhest|Flodhest|Virtahepo|Hroch|Víziló|Badak air|Hipopotamus|জলহস্তী|دریائی گھوڑا|Kuda nil|Hà mã|اسب آبی|Kiboko|पाणघोडा|నీటి గుర్రం|நீர்யானை|ਦਰਿਆਈ ਘੋੜਾ|ฮิปโป',
     [
       '.EE....EE.',
       'EEEEEEEEEE',
@@ -97,7 +97,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Gergedan|Rhino|Nashorn|Rhinocéros|Rinoceronte|Rinoceronte|犀牛|サイ|Носорог|وحيد القرن|Rinoceronte|Nosorożec|Ρινόκερος|Носорог|코뿔소|गैंडा',
+    'Gergedan|Rhino|Nashorn|Rhinocéros|Rinoceronte|Rinoceronte|犀牛|サイ|Носорог|وحيد القرن|Rinoceronte|Nosorożec|Ρινόκερος|Носорог|코뿔소|गैंडा|Neushoorn|Носоріг|Rinocer|Noshörning|Neshorn|Næsehorn|Sarvikuono|Nosorožec|Orrszarvú|Badak sumbu|Rinoseronte|গন্ডার|گینڈا|Badak|Tê giác|کرگدن|Kifaru|गेंडा|ఖడ్గమృగం|காண்டாமிருகம்|ਗੈਂਡਾ|แรด',
     [
       'L.....E...',
       'LL...EEE..',
@@ -111,7 +111,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Devekuşu|Ostrich|Strauß|Autruche|Avestruz|Struzzo|鸵鸟|ダチョウ|Страус|نعامة|Avestruz|Struś|Στρουθοκάμηλος|Щраус|타조|शुतुरमुर्ग',
+    'Devekuşu|Ostrich|Strauß|Autruche|Avestruz|Struzzo|鸵鸟|ダチョウ|Страус|نعامة|Avestruz|Struś|Στρουθοκάμηλος|Щраус|타조|शुतुरमुर्ग|Struisvogel|Страус|Struț|Struts|Struts|Struds|Strutsi|Pštros|Strucc|Burung unta|Ostrich|উটপাখি|شتر مرغ|Burung unta|Đà điểu|شترمرغ|Mbuni|शहामृग|నిప్పుకోడి|தீக்கோழி|ਸ਼ੁਤਰਮੁਰਗ|นกกระจอกเทศ',
     [
       '......KK..',
       '......K.KO',
@@ -132,7 +132,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Mirket|Meerkat|Erdmännchen|Suricate|Suricata|Suricato|狐獴|ミーアキャット|Сурикат|سرقاط|Suricato|Surykatka|Σουρικάτα|Сурикат|미어캣|मीरकैट',
+    'Mirket|Meerkat|Erdmännchen|Suricate|Suricata|Suricato|狐獴|ミーアキャット|Сурикат|سرقاط|Suricato|Surykatka|Σουρικάτα|Сурикат|미어캣|मीरकैट|Stokstaartje|Сурикат|Suricată|Surikat|Surikat|Surikat|Surikaatti|Surikata|Szurikáta|Meerkat|Meerkat|মিরক্যাট|میرکیٹ|Meerkat|Chồn đất|میرکت|Nguchiro|मीरकॅट|మీర్‌క్యాట్|மீர்காட்|ਮੀਰਕੈਟ|เมียร์แคต',
     [
       '..SSS.....',
       '.SSSSS....',
@@ -152,7 +152,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Çita|Cheetah|Gepard|Guépard|Guepardo|Ghepardo|猎豹|チーター|Гепард|فهد|Guepardo|Gepard|Τσίτα|Гепард|치타|चीता',
+    'Çita|Cheetah|Gepard|Guépard|Guepardo|Ghepardo|猎豹|チーター|Гепард|فهد|Guepardo|Gepard|Τσίτα|Гепард|치타|चीता|Jachtluipaard|Гепард|Ghepard|Gepard|Gepard|Gepard|Gepardi|Gepard|Gepárd|Cheetah|Cheetah|চিতা|چیتا|Cheetah|Báo săn|یوزپلنگ|Duma|चित्ता|చీతా|சிவிங்கிப்புலி|ਚੀਤਾ|เสือชีตาห์',
     [
       '........AA',
       '.......AKA',
@@ -166,7 +166,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Siğil domuzu|Warthog|Warzenschwein|Phacochère|Facóquero|Facocero|疣猪|イボイノシシ|Бородавочник|خنزير الثآليل|Javali-africano|Guziec|Αγριόχοιρος|Брадавичеста свиня|혹멧돼지|वार्टहॉग',
+    'Siğil domuzu|Warthog|Warzenschwein|Phacochère|Facóquero|Facocero|疣猪|イボイノシシ|Бородавочник|خنزير الثآليل|Javali-africano|Guziec|Αγριόχοιρος|Брадавичеста свиня|혹멧돼지|वार्टहॉग|Wrattenzwijn|Бородавочник|Facocer|Vårtsvin|Vortesvin|Vortesvin|Pahkasika|Prase bradavičnaté|Varacskos disznó|Babi hutan Afrika|Warthog|ওয়ার্টহগ|جنگلی سور|Babi hutan Afrika|Lợn bướu|گراز زگیل‌دار|Ngiri|रानडुक्कर|అడవి పంది|காட்டுப்பன்றி|ਜੰਗਲੀ ਸੂਰ|หมูป่าแอฟริกา',
     [
       'T........T',
       'TT.TTTT.TT',
@@ -182,7 +182,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Manda|Buffalo|Büffel|Buffle|Búfalo|Bufalo|水牛|バッファロー|Буйвол|جاموس|Búfalo|Bawół|Βούβαλος|Бивол|물소|भैंस',
+    'Manda|Buffalo|Büffel|Buffle|Búfalo|Bufalo|水牛|バッファロー|Буйвол|جاموس|Búfalo|Bawół|Βούβαλος|Бивол|물소|भैंस|Buffel|Буйвіл|Bivol|Buffel|Bøffel|Bøffel|Puhveli|Buvol|Bivaly|Kerbau|Kalabaw|মহিষ|بھینسا|Kerbau|Con trâu|بوفالو|Nyati|म्हैस|దున్నపోతు|எருமை|ਮੱਝ|ควาย',
     [
       'K........K',
       'K........K',
@@ -199,7 +199,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Baobab|Baobab|Affenbrotbaum|Baobab|Baobab|Baobab|猴面包树|バオバブ|Баобаб|باوباب|Baobá|Baobab|Μπαομπάμπ|Баобаб|바오바브나무|बाओबाब',
+    'Baobab|Baobab|Affenbrotbaum|Baobab|Baobab|Baobab|猴面包树|バオバブ|Баобаб|باوباب|Baobá|Baobab|Μπαομπάμπ|Баобаб|바오바브나무|बाओबाब|Baobab|Баобаб|Baobab|Baobab|Baobab|Baobab|Apinanleipäpuu|Baobab|Majomkenyérfa|Pokok baobab|Baobab|বাওবাব গাছ|باؤباب کا درخت|Pohon baobab|Cây bao báp|درخت بائوباب|Mbuyu|गोरखचिंच|బావోబాబ్ చెట్టు|பெருக்கமரம்|ਬਾਓਬਾਬ ਰੁੱਖ|ต้นเบาบับ',
     [
       'GG..GG..GG',
       'GGG.GG.GGG',
@@ -218,7 +218,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Akasya ağacı|Acacia tree|Akazie|Acacia|Acacia|Acacia|金合欢树|アカシア|Акация|شجرة الأكاسيا|Acácia|Akacja|Ακακία|Акация|아카시아|बबूल',
+    'Akasya ağacı|Acacia tree|Akazie|Acacia|Acacia|Acacia|金合欢树|アカシア|Акация|شجرة الأكاسيا|Acácia|Akacja|Ακακία|Акация|아카시아|बबूल|Acacia|Акація|Salcâm|Akacia|Akasie|Akacie|Akaasia|Akácie|Akácfa|Pokok akasia|Puno ng akasya|বাবলা গাছ|کیکر کا درخت|Pohon akasia|Cây keo|درخت اقاقیا|Mgunga|बाभळीचे झाड|తుమ్మ చెట్టు|வேல மரம்|ਕਿੱਕਰ|ต้นอะเคเชีย',
     [
       '.GGGGGGG..',
       'GGGGGGGGGG',
@@ -235,7 +235,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Antilop|Antelope|Antilope|Antilope|Antílope|Antilope|羚羊|レイヨウ|Антилопа|ظبي|Antílope|Antylopa|Αντιλόπη|Антилопа|영양|मृग',
+    'Antilop|Antelope|Antilope|Antilope|Antílope|Antilope|羚羊|レイヨウ|Антилопа|ظبي|Antílope|Antylopa|Αντιλόπη|Антилопа|영양|मृग|Antilope|Антилопа|Antilopă|Antilop|Antilope|Antilope|Antilooppi|Antilopa|Antilop|Antelop|Antilope|কৃষ্ণসার হরিণ|ہرن|Antelop|Linh dương|آنتلوپ|Swala|काळवीट|జింక|மறிமான்|ਬਾਰਾਸਿੰਗਾ|แอนทีโลป',
     [
       '.K......K.',
       '.K......K.',
@@ -252,7 +252,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Sırtlan|Hyena|Hyäne|Hyène|Hiena|Iena|鬣狗|ハイエナ|Гиена|ضبع|Hiena|Hiena|Ύαινα|Хиена|하이에나|लकड़बग्घा',
+    'Sırtlan|Hyena|Hyäne|Hyène|Hiena|Iena|鬣狗|ハイエナ|Гиена|ضبع|Hiena|Hiena|Ύαινα|Хиена|하이에나|लकड़बग्घा|Hyena|Гієна|Hienă|Hyena|Hyene|Hyæne|Hyeena|Hyena|Hiéna|Dubuk|Hayena|হায়েনা|لکڑبگڑ|Hiena|Linh cẩu|کفتار|Fisi|तरस|హైనా|கழுதைப்புலி|ਲੱਕੜਬੱਘਾ|ไฮยีนา',
     [
       '.T........',
       'TTT.......',
@@ -267,7 +267,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Safari cipi|Safari jeep|Safari-Jeep|Jeep de safari|Jeep de safari|Jeep da safari|越野吉普|サファリジープ|Сафари-джип|سيارة سفاري|Jipe de safári|Dżip safari|Τζιπ σαφάρι|Сафари джип|사파리 지프|सफ़ारी जीप',
+    'Safari cipi|Safari jeep|Safari-Jeep|Jeep de safari|Jeep de safari|Jeep da safari|越野吉普|サファリジープ|Сафари-джип|سيارة سفاري|Jipe de safári|Dżip safari|Τζιπ σαφάρι|Сафари джип|사파리 지프|सफ़ारी जीप|Safarijeep|Джип для сафарі|Jeep de safari|Safarijeep|Safarijeep|Safarijeep|Safarijeeppi|Safari džíp|Szafaridzsip|Jip safari|Safari jeep|সাফারি জিপ|سفاری جیپ|Jip safari|Xe jeep safari|جیپ سافاری|Gari la safari|सफारी जीप|సఫారీ జీప్|சஃபாரி ஜீப்|ਸਫ਼ਾਰੀ ਜੀਪ|รถจี๊ปซาฟารี',
     [
       '..K...K...',
       '..KKKKK...',
@@ -280,7 +280,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Timsah|Crocodile|Krokodil|Crocodile|Cocodrilo|Coccodrillo|鳄鱼|ワニ|Крокодил|تمساح|Crocodilo|Krokodyl|Κροκόδειλος|Крокодил|악어|मगरमच्छ',
+    'Timsah|Crocodile|Krokodil|Crocodile|Cocodrilo|Coccodrillo|鳄鱼|ワニ|Крокодил|تمساح|Crocodilo|Krokodyl|Κροκόδειλος|Крокодил|악어|मगरमच्छ|Krokodil|Крокодил|Crocodil|Krokodil|Krokodille|Krokodille|Krokotiili|Krokodýl|Krokodil|Buaya|Buwaya|কুমির|مگرمچھ|Buaya|Cá sấu|تمساح|Mamba|मगर|మొసలి|முதலை|ਮਗਰਮੱਛ|จระเข้',
     [
       '.G.G......',
       'GGGGGGGGG.',
@@ -294,7 +294,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Flamingo|Flamingo|Flamingo|Flamant rose|Flamenco|Fenicottero|火烈鸟|フラミンゴ|Фламинго|طائر النحام|Flamingo|Flaming|Φλαμίνγκο|Фламинго|플라밍고|राजहंस',
+    'Flamingo|Flamingo|Flamingo|Flamant rose|Flamenco|Fenicottero|火烈鸟|フラミンゴ|Фламинго|طائر النحام|Flamingo|Flaming|Φλαμίνγκο|Фламинго|플라밍고|राजहंस|Flamingo|Фламінго|Flamingo|Flamingo|Flamingo|Flamingo|Flamingo|Plameňák|Flamingó|Burung flamingo|Flamingo|ফ্লেমিংগো|لم ڈھینگ|Flamingo|Hồng hạc|فلامینگو|Heroe|रोहित|రాజహంస|பூநாரை|ਫ਼ਲੇਮਿੰਗੋ|นกฟลามิงโก',
     [
       '...PP.....',
       '..PPPP....',
@@ -315,7 +315,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Yaban öküzü|Wildebeest|Gnu|Gnou|Ñu|Gnu|角马|ヌー|Гну|حيوان النو|Gnu|Gnu|Γκνου|Гну|누|वाइल्डबीस्ट',
+    'Yaban öküzü|Wildebeest|Gnu|Gnou|Ñu|Gnu|角马|ヌー|Гну|حيوان النو|Gnu|Gnu|Γκνου|Гну|누|वाइल्डबीस्ट|Gnoe|Антилопа гну|Gnu|Gnu|Gnu|Gnu|Gnu|Pakůň|Gnú|Wildebeest|Wildebeest|ওয়াইল্ডবিস্ট|نیل گائے|Wildebeest|Linh dương đầu bò|گنو|Nyumbu|रानगाय|అడవి దున్న|காட்டு மான்|ਜੰਗਲੀ ਗਾਂ|วิลเดอบีสต์',
     [
       'K........K',
       '.K......K.',
@@ -332,7 +332,7 @@ final savannaArt = <LevelArt>[
   ),
   art(
     20,
-    'Boynuzgaga|Hornbill|Nashornvogel|Calao|Cálao|Bucero|犀鸟|サイチョウ|Птица-носорог|طائر أبو قرن|Calau|Dzioborożec|Κερατόραμφος|Птица носорог|코뿔새|धनेश',
+    'Boynuzgaga|Hornbill|Nashornvogel|Calao|Cálao|Bucero|犀鸟|サイチョウ|Птица-носорог|طائر أبو قرن|Calau|Dzioborożec|Κερατόραμφος|Птица носорог|코뿔새|धनेश|Neushoornvogel|Птах-носоріг|Pasăre rinocer|Näshornsfågel|Neshornfugl|Næsehornsfugl|Sarvinokka|Zoborožec|Szarvascsőrű madár|Burung enggang|Kalaw|ধনেশ পাখি|دھنیش|Burung rangkong|Chim mỏ sừng|نوک‌شاخی|Hondohondo|धनेश|గరుడ పక్షి|இருவாச்சி|ਧਨੇਸ਼|นกเงือก',
     [
       '...KYYY...',
       '..KKYYYYY.',

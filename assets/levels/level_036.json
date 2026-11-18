@@ -1,6 +1,6 @@
 {
   "id": 36,
-  "name": {"de": "Schildkröte", "en": "Turtle", "es": "Tortuga", "fr": "Tortue", "it": "Tartaruga", "pl": "Żółw", "pt": "Tartaruga", "tr": "Kaplumbağa", "el": "Χελώνα", "bg": "Костенурка", "ru": "Черепаха", "ar": "سلحفاة", "hi": "कछुआ", "zh": "乌龟", "ja": "カメ", "ko": "거북이"},
+  "name": {"id": "Penyu", "ms": "Penyu", "da": "Skildpadde", "de": "Schildkröte", "en": "Turtle", "es": "Tortuga", "fil": "Pagong", "fr": "Tortue", "it": "Tartaruga", "sw": "Kasa", "hu": "Teknős", "nl": "Schildpad", "nb": "Skilpadde", "pl": "Żółw", "pt": "Tartaruga", "ro": "Țestoasă", "fi": "Kilpikonna", "sv": "Sköldpadda", "vi": "Con rùa", "tr": "Kaplumbağa", "cs": "Želva", "el": "Χελώνα", "bg": "Костенурка", "ru": "Черепаха", "uk": "Черепаха", "ur": "کچھوا", "ar": "سلحفاة", "fa": "لاک‌پشت", "mr": "कासव", "hi": "कछुआ", "bn": "কচ্ছপ", "pa": "ਕੱਛੂ", "ta": "ஆமை", "te": "తాబేలు", "th": "เต่า", "zh": "乌龟", "ja": "カメ", "ko": "거북이"},
   "solution": ["..........", "....##....", "..#.##.#..", "...####...", "..######..", "..######..", "..######..", "...####...", "..#....#..", ".........."],
   "colors":   ["..........", "....GG....", "..G.GG.G..", "...DDDD...", "..DZDDZD..", "..DDZZDD..", "..DZDDZD..", "...DDDD...", "..G....G..", ".........."],
   "palette":  { "D": "#15803D", "G": "#22C55E", "Z": "#A3E635" }

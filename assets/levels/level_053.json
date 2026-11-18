@@ -1,6 +1,6 @@
 {
   "id": 53,
-  "name": {"de": "Eichel", "en": "Acorn", "es": "Bellota", "fr": "Gland", "it": "Ghianda", "pl": "Żołądź", "pt": "Bolota", "tr": "Meşe palamudu", "el": "Βελανίδι", "bg": "Жълъд", "ru": "Жёлудь", "ar": "بلوطة", "hi": "बलूत", "zh": "橡果", "ja": "どんぐり", "ko": "도토리"},
+  "name": {"id": "Biji ek", "ms": "Buah ek", "da": "Agern", "de": "Eichel", "en": "Acorn", "es": "Bellota", "fil": "Bunga ng roble", "fr": "Gland", "it": "Ghianda", "sw": "Kokwa ya mwaloni", "hu": "Makk", "nl": "Eikel", "nb": "Eikenøtt", "pl": "Żołądź", "pt": "Bolota", "ro": "Ghindă", "fi": "Terho", "sv": "Ekollon", "vi": "Quả sồi", "tr": "Meşe palamudu", "cs": "Žalud", "el": "Βελανίδι", "bg": "Жълъд", "ru": "Жёлудь", "uk": "Жолудь", "ur": "بلوط کا پھل", "ar": "بلوطة", "fa": "بلوط", "mr": "ओकचे फळ", "hi": "बलूत", "bn": "ওক ফল", "pa": "ਬਲੂਤ ਦਾ ਫਲ", "ta": "கருவாலிக் கொட்டை", "te": "ఓక్ కాయ", "th": "ลูกโอ๊ก", "zh": "橡果", "ja": "どんぐり", "ko": "도토리"},
   "solution": ["..........", "....#.....", "....#.....", "..######..", ".########.", "..######..", "..######..", "...####...", "....##....", ".........."],
   "colors":   ["..........", "....T.....", "....T.....", "..HHHHHH..", ".HHHHHHHH.", "..AAAAAA..", "..AAAAAA..", "...AAAA...", "....AA....", ".........."],
   "palette":  { "A": "#F59E0B", "H": "#5B3410", "T": "#92400E" }

@@ -1,6 +1,6 @@
 {
   "id": 18,
-  "name": {"de": "Blume", "en": "Flower", "es": "Flor", "fr": "Fleur", "it": "Fiore", "pl": "Kwiat", "pt": "Flor", "tr": "Çiçek", "el": "Λουλούδι", "bg": "Цвете", "ru": "Цветок", "ar": "زهرة", "hi": "फूल", "zh": "花", "ja": "花", "ko": "꽃"},
+  "name": {"id": "Bunga", "ms": "Bunga", "da": "Blomst", "de": "Blume", "en": "Flower", "es": "Flor", "fil": "Bulaklak", "fr": "Fleur", "it": "Fiore", "sw": "Ua", "hu": "Virág", "nl": "Bloem", "nb": "Blomst", "pl": "Kwiat", "pt": "Flor", "ro": "Floare", "fi": "Kukka", "sv": "Blomma", "vi": "Bông hoa", "tr": "Çiçek", "cs": "Květina", "el": "Λουλούδι", "bg": "Цвете", "ru": "Цветок", "uk": "Квітка", "ur": "پھول", "ar": "زهرة", "fa": "گل", "mr": "फूल", "hi": "फूल", "bn": "ফুল", "pa": "ਫੁੱਲ", "ta": "பூ", "te": "పువ్వు", "th": "ดอกไม้", "zh": "花", "ja": "花", "ko": "꽃"},
   "solution": [".#.#.", "#####", "#####", "#####", ".#.#.", "..#..", ".##..", "..#..", "..###", "..#.."],
   "colors":   [".P.P.", "PPPPP", "PPYPP", "PPPPP", ".P.P.", "..G..", ".GG..", "..G..", "..GGG", "..G.."],
   "palette":  { "G": "#22C55E", "P": "#F472B6", "Y": "#FACC15" }

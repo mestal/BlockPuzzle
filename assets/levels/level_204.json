@@ -1,6 +1,6 @@
 {
   "id": 204,
-  "name": {"de": "Fächer", "en": "Folding fan", "es": "Abanico", "fr": "Éventail", "it": "Ventaglio", "pl": "Wachlarz", "pt": "Leque", "tr": "Yelpaze", "el": "Βεντάλια", "bg": "Ветрило", "ru": "Веер", "ar": "مروحة يدوية", "hi": "पंखा", "zh": "折扇", "ja": "扇子", "ko": "부채"},
+  "name": {"id": "Kipas lipat", "ms": "Kipas lipat", "da": "Vifte", "de": "Fächer", "en": "Folding fan", "es": "Abanico", "fil": "Abaniko", "fr": "Éventail", "it": "Ventaglio", "sw": "Kipepeo cha mkono", "hu": "Legyező", "nl": "Waaier", "nb": "Vifte", "pl": "Wachlarz", "pt": "Leque", "ro": "Evantai", "fi": "Viuhka", "sv": "Solfjäder", "vi": "Quạt xếp", "tr": "Yelpaze", "cs": "Vějíř", "el": "Βεντάλια", "bg": "Ветрило", "ru": "Веер", "uk": "Віяло", "ur": "دستی پنکھا", "ar": "مروحة يدوية", "fa": "بادبزن", "mr": "पंखा", "hi": "पंखा", "bn": "হাতপাখা", "pa": "ਪੱਖੀ", "ta": "விசிறி", "te": "విసనకర్ర", "th": "พัด", "zh": "折扇", "ja": "扇子", "ko": "부채"},
   "solution": ["#.#.##.#.#", "##.####.##", ".##.##.##.", ".###..###.", "..######..", "#..####...", "....##....", "....##....", ".....#....", "....###..."],
   "colors":   ["R.R.RR.R.R", "RR.RRRR.RR", ".RR.RR.RR.", ".RRR..RRR.", "..RRRRRR..", "Y..RRRR...", "....HH....", "....HH....", ".....A....", "....AAA..."],
   "palette":  { "A": "#F59E0B", "H": "#5B3410", "R": "#E8453C", "Y": "#FACC15" }

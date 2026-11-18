@@ -7,7 +7,7 @@ import '../level_art.dart';
 final toysArt = <LevelArt>[
   art(
     15,
-    'Oyuncak ayı|Teddy bear|Teddybär|Ours en peluche|Osito de peluche|Orsacchiotto|泰迪熊|テディベア|Плюшевый мишка|دب محشو|Ursinho de pelúcia|Miś pluszowy|Αρκουδάκι|Плюшено мече|테디베어|टेडी बियर',
+    'Oyuncak ayı|Teddy bear|Teddybär|Ours en peluche|Osito de peluche|Orsacchiotto|泰迪熊|テディベア|Плюшевый мишка|دب محشو|Ursinho de pelúcia|Miś pluszowy|Αρκουδάκι|Плюшено мече|테디베어|टेडी बियर|Teddybeer|Плюшевий ведмедик|Ursuleț de pluș|Nallebjörn|Teddybjørn|Bamse|Nalle|Plyšový medvídek|Plüssmaci|Patung beruang|Teddy bear|টেডি বিয়ার|ٹیڈی بیئر|Boneka beruang|Gấu bông|خرس عروسکی|Dubu wa kuchezea|टेडी बेअर|టెడ్డీ బేర్|டெடி கரடி|ਟੈਡੀ ਬੀਅਰ|ตุ๊กตาหมี',
     [
       '.TTT..TTT.',
       'TT.TTTT.TT',
@@ -27,7 +27,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Lastik ördek|Rubber duck|Quietscheente|Canard en plastique|Patito de goma|Paperella di gomma|橡皮鸭|ゴムのアヒル|Резиновая уточка|بطة مطاطية|Patinho de borracha|Gumowa kaczka|Λαστιχένιο παπάκι|Гумено пате|고무 오리|रबर की बत्तख',
+    'Lastik ördek|Rubber duck|Quietscheente|Canard en plastique|Patito de goma|Paperella di gomma|橡皮鸭|ゴムのアヒル|Резиновая уточка|بطة مطاطية|Patinho de borracha|Gumowa kaczka|Λαστιχένιο παπάκι|Гумено пате|고무 오리|रबर की बत्तख|Badeendje|Гумова качечка|Rățușcă de cauciuc|Badanka|Badeand|Badeand|Kumiankka|Gumová kachnička|Gumikacsa|Itik getah|Gomang pato|রাবারের হাঁস|ربڑ کی بطخ|Bebek karet|Vịt cao su|اردک پلاستیکی|Bata wa mpira|रबरी बदक|రబ్బరు బాతు|ரப்பர் வாத்து|ਰਬੜ ਦੀ ਬੱਤਖ਼|เป็ดยาง',
     [
       '....YYY...',
       '...YYYYY..',
@@ -45,7 +45,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Yoyo|Yo-yo|Jo-Jo|Yo-yo|Yoyó|Yo-yo|悠悠球|ヨーヨー|Йо-йо|يويو|Ioiô|Jo-jo|Γιο-γιο|Йо-йо|요요|यो-यो',
+    'Yoyo|Yo-yo|Jo-Jo|Yo-yo|Yoyó|Yo-yo|悠悠球|ヨーヨー|Йо-йо|يويو|Ioiô|Jo-jo|Γιο-γιο|Йо-йо|요요|यो-यो|Jojo|Йо-йо|Yo-yo|Jojo|Jojo|Yoyo|Jojo|Jojo|Jojó|Yo-yo|Yo-yo|ইয়ো-ইয়ো|یو یو|Yoyo|Yo-yo|یویو|Yoyo|यो-यो|యో-యో|யோ-யோ|ਯੋ-ਯੋ|โยโย่',
     [
       '.........K',
       '........K.',
@@ -61,7 +61,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Topaç|Spinning top|Kreisel|Toupie|Peonza|Trottola|陀螺|こま|Юла|خذروف|Pião|Bączek|Σβούρα|Пумпал|팽이|लट्टू',
+    'Topaç|Spinning top|Kreisel|Toupie|Peonza|Trottola|陀螺|こま|Юла|خذروف|Pião|Bączek|Σβούρα|Пумпал|팽이|लट्टू|Tol|Дзиґа|Sfârlează|Snurra|Snurrebass|Snurretop|Hyrrä|Káča|Búgócsiga|Gasing|Trumpo|লাটিম|لٹو|Gasing|Con quay|فرفره|Pia|भोवरा|బొంగరం|பம்பரம்|ਲਾਟੂ|ลูกข่าง',
     [
       '....HH....',
       '....HH....',
@@ -79,7 +79,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Oyuncak tren|Toy train|Spielzeugeisenbahn|Train jouet|Tren de juguete|Trenino|玩具火车|おもちゃの汽車|Игрушечный поезд|قطار لعبة|Trem de brinquedo|Kolejka|Τρενάκι|Играчка влакче|장난감 기차|खिलौना रेलगाड़ी',
+    'Oyuncak tren|Toy train|Spielzeugeisenbahn|Train jouet|Tren de juguete|Trenino|玩具火车|おもちゃの汽車|Игрушечный поезд|قطار لعبة|Trem de brinquedo|Kolejka|Τρενάκι|Играчка влакче|장난감 기차|खिलौना रेलगाड़ी|Speelgoedtrein|Іграшковий потяг|Trenuleț de jucărie|Leksakståg|Leketog|Legetøjstog|Lelujuna|Vláček|Játékvonat|Kereta api mainan|Laruang tren|খেলনা ট্রেন|کھلونا ریل گاڑی|Kereta mainan|Tàu hỏa đồ chơi|قطار اسباب‌بازی|Treni ya kuchezea|खेळण्यातली आगगाडी|బొమ్మ రైలు|பொம்மை ரயில்|ਖਿਡੌਣਾ ਰੇਲਗੱਡੀ|รถไฟของเล่น',
     [
       'W.W.......',
       '.W........',
@@ -93,7 +93,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Sallanan at|Rocking horse|Schaukelpferd|Cheval à bascule|Caballito balancín|Cavallo a dondolo|摇摇马|木馬|Лошадка-качалка|حصان هزاز|Cavalinho de balanço|Koń na biegunach|Κουνιστό αλογάκι|Люлеещо се конче|흔들목마|झूलने वाला घोड़ा',
+    'Sallanan at|Rocking horse|Schaukelpferd|Cheval à bascule|Caballito balancín|Cavallo a dondolo|摇摇马|木馬|Лошадка-качалка|حصان هزاز|Cavalinho de balanço|Koń na biegunach|Κουνιστό αλογάκι|Люлеещо се конче|흔들목마|झूलने वाला घोड़ा|Hobbelpaard|Конячка-гойдалка|Căluț balansoar|Gunghäst|Gyngehest|Gyngehest|Keinuhevonen|Houpací kůň|Hintaló|Kuda goyang|Kabayong tumba-tumba|দোলনা ঘোড়া|جھولنے والا گھوڑا|Kuda goyang|Ngựa bập bênh|اسب گهواره‌ای|Farasi wa kubembea|झुलता घोडा|ఊగే గుర్రం|ஆடும் குதிரை|ਝੂਲਣ ਵਾਲਾ ਘੋੜਾ|ม้าโยก',
     [
       '..HH......',
       '.TTTH.....',
@@ -109,7 +109,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Bebek|Doll|Puppe|Poupée|Muñeca|Bambola|洋娃娃|人形|Кукла|دمية|Boneca|Lalka|Κούκλα|Кукла|인형|गुड़िया',
+    'Bebek|Doll|Puppe|Poupée|Muñeca|Bambola|洋娃娃|人形|Кукла|دمية|Boneca|Lalka|Κούκλα|Кукла|인형|गुड़िया|Pop|Лялька|Păpușă|Docka|Dukke|Dukke|Nukke|Panenka|Baba|Anak patung|Manika|পুতুল|گڑیا|Boneka|Búp bê|عروسک|Mwanasesere|बाहुली|బొమ్మ|பொம்மை|ਗੁੱਡੀ|ตุ๊กตา',
     [
       '..TTTTTT..',
       '.TTTTTTTT.',
@@ -129,7 +129,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Kutudan fırlayan palyaço|Jack-in-the-box|Springteufel|Diable en boîte|Caja sorpresa|Pupazzo a molla|玩偶匣|びっくり箱|Чёртик из табакерки|علبة المفاجأة|Caixa surpresa|Diabełek z pudełka|Κουτί-έκπληξη|Кутия с изненада|깜짝 상자|जैक-इन-द-बॉक्स',
+    'Kutudan fırlayan palyaço|Jack-in-the-box|Springteufel|Diable en boîte|Caja sorpresa|Pupazzo a molla|玩偶匣|びっくり箱|Чёртик из табакерки|علبة المفاجأة|Caixa surpresa|Diabełek z pudełka|Κουτί-έκπληξη|Кутия с изненада|깜짝 상자|जैक-इन-द-बॉक्स|Duveltje-in-een-doosje|Чортик у скриньці|Drăcușor în cutie|Gubben i lådan|Troll i eske|Trold i æske|Vieteriukko|Čertík v krabičce|Krampusz a dobozban|Kotak kejutan|Kahong may sorpresa|বাক্সের পুতুল|ڈبے والا جوکر|Kotak kejutan|Hộp lò xo bất ngờ|جعبه شگفتانه|Sanduku la mzaha|डब्यातला विदूषक|పెట్టె బొమ్మ|பெட்டி பொம்மை|ਡੱਬੇ ਵਾਲਾ ਜੋਕਰ|กล่องตุ๊กตาสปริง',
     [
       '....PP....',
       '...PPPP...',
@@ -149,7 +149,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Zar|Dice|Würfel|Dés|Dados|Dadi|骰子|サイコロ|Кубики|نرد|Dados|Kostki|Ζάρια|Зарове|주사위|पासा',
+    'Zar|Dice|Würfel|Dés|Dados|Dadi|骰子|サイコロ|Кубики|نرد|Dados|Kostki|Ζάρια|Зарове|주사위|पासा|Dobbelsteen|Кубик|Zar|Tärning|Terning|Terning|Noppa|Kostka|Dobókocka|Dadu|Dais|ছক্কা|پانسہ|Dadu|Xúc xắc|تاس|Dadu|फासा|పాచిక|பகடை|ਪਾਸਾ|ลูกเต๋า',
     [
       'WWWWW.....',
       'W.WWW.....',
@@ -166,7 +166,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Yapı blokları|Building blocks|Bauklötze|Cubes|Bloques|Costruzioni|积木|積み木|Строительные кубики|مكعبات البناء|Blocos de montar|Klocki|Τουβλάκια|Кубчета|블록|बिल्डिंग ब्लॉक',
+    'Yapı blokları|Building blocks|Bauklötze|Cubes|Bloques|Costruzioni|积木|積み木|Строительные кубики|مكعبات البناء|Blocos de montar|Klocki|Τουβλάκια|Кубчета|블록|बिल्डिंग ब्लॉक|Bouwblokken|Кубики|Cuburi de construcție|Byggklossar|Byggeklosser|Byggeklodser|Rakennuspalikat|Kostky|Építőkocka|Blok binaan|Mga bloke|বিল্ডিং ব্লক|بلڈنگ بلاکس|Balok susun|Khối xếp hình|بلوک‌های ساختنی|Matofali ya kuchezea|बांधकाम ठोकळे|బొమ్మ ఇటుకలు|கட்டுமானக் கட்டைகள்|ਬਿਲਡਿੰਗ ਬਲਾਕ|ตัวต่อ',
     [
       '...YYYY...',
       '...Y..Y...',
@@ -180,7 +180,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Oyuncak araba|Toy car|Spielzeugauto|Petite voiture|Coche de juguete|Macchinina|玩具车|ミニカー|Игрушечная машинка|سيارة لعبة|Carrinho|Samochodzik|Αυτοκινητάκι|Количка|장난감 자동차|खिलौना कार',
+    'Oyuncak araba|Toy car|Spielzeugauto|Petite voiture|Coche de juguete|Macchinina|玩具车|ミニカー|Игрушечная машинка|سيارة لعبة|Carrinho|Samochodzik|Αυτοκινητάκι|Количка|장난감 자동차|खिलौना कार|Speelgoedauto|Іграшкова машинка|Mașinuță|Leksaksbil|Lekebil|Legetøjsbil|Leikkiauto|Autíčko|Játékautó|Kereta mainan|Laruang kotse|খেলনা গাড়ি|کھلونا کار|Mobil mainan|Ô tô đồ chơi|ماشین اسباب‌بازی|Gari la kuchezea|खेळण्यातली गाडी|బొమ్మ కారు|பொம்மைக் கார்|ਖਿਡੌਣਾ ਕਾਰ|รถของเล่น',
     [
       '..RRRRR...',
       '.RC.R.CR..',
@@ -192,7 +192,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Yapboz parçası|Puzzle piece|Puzzleteil|Pièce de puzzle|Pieza de puzle|Tessera del puzzle|拼图块|パズルのピース|Кусочек пазла|قطعة أحجية|Peça de quebra-cabeça|Puzzel|Κομμάτι παζλ|Парче от пъзел|퍼즐 조각|पहेली का टुकड़ा',
+    'Yapboz parçası|Puzzle piece|Puzzleteil|Pièce de puzzle|Pieza de puzle|Tessera del puzzle|拼图块|パズルのピース|Кусочек пазла|قطعة أحجية|Peça de quebra-cabeça|Puzzel|Κομμάτι παζλ|Парче от пъзел|퍼즐 조각|पहेली का टुकड़ा|Puzzelstukje|Пазл|Piesă de puzzle|Pusselbit|Puslebrikke|Puslespilsbrik|Palapelin pala|Dílek skládačky|Puzzle-darab|Kepingan teka-teki|Piraso ng puzzle|পাজলের টুকরো|پزل کا ٹکڑا|Kepingan puzzle|Mảnh ghép|قطعه پازل|Kipande cha fumbo|कोड्याचा तुकडा|పజిల్ ముక్క|புதிர்த் துண்டு|ਬੁਝਾਰਤ ਦਾ ਟੁਕੜਾ|ชิ้นจิ๊กซอว์',
     [
       '...BB.....',
       '..BBBB....',
@@ -207,7 +207,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Oyuncak asker|Toy soldier|Zinnsoldat|Soldat de plomb|Soldadito de plomo|Soldatino|玩具士兵|おもちゃの兵隊|Оловянный солдатик|جندي لعبة|Soldadinho de chumbo|Żołnierzyk|Στρατιωτάκι|Оловно войниче|장난감 병정|खिलौना सिपाही',
+    'Oyuncak asker|Toy soldier|Zinnsoldat|Soldat de plomb|Soldadito de plomo|Soldatino|玩具士兵|おもちゃの兵隊|Оловянный солдатик|جندي لعبة|Soldadinho de chumbo|Żołnierzyk|Στρατιωτάκι|Оловно войниче|장난감 병정|खिलौना सिपाही|Tinnen soldaatje|Олов’яний солдатик|Soldățel de jucărie|Tennsoldat|Tinnsoldat|Tinsoldat|Tinasotilas|Cínový vojáček|Ólomkatona|Askar mainan|Laruang sundalo|খেলনা সৈনিক|کھلونا سپاہی|Prajurit mainan|Lính chì|سرباز اسباب‌بازی|Askari wa kuchezea|खेळण्यातला शिपाई|బొమ్మ సైనికుడు|பொம்மைச் சிப்பாய்|ਖਿਡੌਣਾ ਸਿਪਾਹੀ|ทหารของเล่น',
     [
       '...KKKK...',
       '...KKKK...',
@@ -228,7 +228,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Ksilofon|Xylophone|Xylofon|Xylophone|Xilófono|Xilofono|木琴|木琴|Ксилофон|إكسيليفون|Xilofone|Cymbałki|Ξυλόφωνο|Ксилофон|실로폰|ज़ाइलोफ़ोन',
+    'Ksilofon|Xylophone|Xylofon|Xylophone|Xilófono|Xilofono|木琴|木琴|Ксилофон|إكسيليفون|Xilofone|Cymbałki|Ξυλόφωνο|Ксилофон|실로폰|ज़ाइलोफ़ोन|Xylofoon|Ксилофон|Xilofon|Xylofon|Xylofon|Xylofon|Ksylofoni|Xylofon|Xilofon|Zilofon|Xylophone|জাইলোফোন|زائلوفون|Gambang|Mộc cầm|زیلوفون|Marimba|झायलोफोन|జైలోఫోన్|சைலோபோன்|ਜ਼ਾਈਲੋਫ਼ੋਨ|ระนาด',
     [
       'R.........',
       'R.O.......',
@@ -244,7 +244,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Fırıldak|Pinwheel|Windrad|Moulinet|Molinillo|Girandola|风车|かざぐるま|Вертушка|دوارة ورقية|Cata-vento|Wiatraczek|Χάρτινος ανεμόμυλος|Въртележка|바람개비|फिरकी',
+    'Fırıldak|Pinwheel|Windrad|Moulinet|Molinillo|Girandola|风车|かざぐるま|Вертушка|دوارة ورقية|Cata-vento|Wiatraczek|Χάρτινος ανεμόμυλος|Въртележка|바람개비|फिरकी|Windmolentje|Вітрячок|Morișcă|Väderkvarn|Vindmølle|Mølle|Tuulimylly|Větrník|Szélforgó|Kincir kertas|Elisi|কাগজের চরকি|پھرکی|Kitiran|Chong chóng|فرفره کاغذی|Pangaboi la karatasi|फिरकी|గాలి చక్రం|காற்றாடி|ਫਿਰਕੀ|กังหันกระดาษ',
     [
       'RRRR.....B',
       '.RRR....BB',
@@ -264,7 +264,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Oyun kumandası|Game controller|Gamecontroller|Manette|Mando|Controller|游戏手柄|ゲームコントローラー|Геймпад|يد التحكم|Controle|Pad|Χειριστήριο|Джойстик|게임 컨트롤러|गेम कंट्रोलर',
+    'Oyun kumandası|Game controller|Gamecontroller|Manette|Mando|Controller|游戏手柄|ゲームコントローラー|Геймпад|يد التحكم|Controle|Pad|Χειριστήριο|Джойстик|게임 컨트롤러|गेम कंट्रोलर|Gamecontroller|Геймпад|Controller de jocuri|Handkontroll|Spillkontroller|Controller|Peliohjain|Herní ovladač|Kontroller|Alat kawalan permainan|Game controller|গেম কন্ট্রোলার|گیم کنٹرولر|Stik game|Tay cầm chơi game|دسته بازی|Kidhibiti cha mchezo|गेम कंट्रोलर|గేమ్ కంట్రోలర్|விளையாட்டுக் கட்டுப்படுத்தி|ਗੇਮ ਕੰਟਰੋਲਰ|จอยเกม',
     [
       '.KKKKKKKK.',
       'KKKKKKKKKK',
@@ -278,7 +278,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Pastel boya|Crayon|Wachsmalstift|Crayon de cire|Crayón|Pastello|蜡笔|クレヨン|Восковой мелок|قلم تلوين|Giz de cera|Kredka|Κηρομπογιά|Пастел|크레용|क्रेयॉन',
+    'Pastel boya|Crayon|Wachsmalstift|Crayon de cire|Crayón|Pastello|蜡笔|クレヨン|Восковой мелок|قلم تلوين|Giz de cera|Kredka|Κηρομπογιά|Пастел|크레용|क्रेयॉन|Waskrijtje|Воскова крейда|Creion colorat|Krita|Fargestift|Farvekridt|Vahaliitu|Pastelka|Zsírkréta|Krayon|Krayola|রং পেন্সিল|رنگین پنسل|Krayon|Bút sáp màu|مداد شمعی|Kalamu ya rangi|रंगीत खडू|రంగు క్రేయాన్|வண்ணப் பென்சில்|ਰੰਗਦਾਰ ਪੈਨਸਿਲ|สีเทียน',
     [
       '....R.....',
       '...RRR....',
@@ -297,7 +297,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Matruşka|Nesting doll|Matroschka|Poupée russe|Matrioska|Matrioska|套娃|マトリョーシカ|Матрёшка|دمية ماتريوشكا|Matrioska|Matrioszka|Μπάμπουσκα|Матрьошка|마트료시카|मात्र्योश्का गुड़िया',
+    'Matruşka|Nesting doll|Matroschka|Poupée russe|Matrioska|Matrioska|套娃|マトリョーシカ|Матрёшка|دمية ماتريوشكا|Matrioska|Matrioszka|Μπάμπουσκα|Матрьошка|마트료시카|मात्र्योश्का गुड़िया|Matroesjka|Матрьошка|Matrioșcă|Babusjka|Babusjka|Babusjkadukke|Maatuska|Matrjoška|Matrjoska|Anak patung bersarang|Matryoshka|মাত্রিওশকা পুতুল|ماتریوشکا گڑیا|Boneka matryoshka|Búp bê Matryoshka|ماتریوشکا|Mwanasesere matryoshka|मात्र्योश्का बाहुली|మాత్రియోష్కా బొమ్మ|மாட்ரியோஷ்கா பொம்மை|ਮਾਤਰਿਓਸ਼ਕਾ ਗੁੱਡੀ|ตุ๊กตาแม่ลูกดก',
     [
       '...RRRR...',
       '..RRRRRR..',
@@ -316,7 +316,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Kukla|Puppet|Marionette|Marionnette|Marioneta|Marionetta|木偶|操り人形|Марионетка|دمية متحركة|Marionete|Marionetka|Μαριονέτα|Марионетка|꼭두각시|कठपुतली',
+    'Kukla|Puppet|Marionette|Marionnette|Marioneta|Marionetta|木偶|操り人形|Марионетка|دمية متحركة|Marionete|Marionetka|Μαριονέτα|Марионетка|꼭두각시|कठपुतली|Handpop|Лялька-рукавичка|Marionetă|Handdocka|Hånddukke|Hånddukke|Käsinukke|Loutka|Báb|Boneka tangan|Puppet|পুতুলনাচের পুতুল|کٹھ پتلی|Boneka tangan|Con rối|عروسک خیمه‌شب‌بازی|Kikaragosi|कठपुतळी|తోలుబొమ్మ|கைப்பாவை|ਕਠਪੁਤਲੀ|หุ่นมือ',
     [
       '.HHHHHHHH.',
       '.E..E...E.',
@@ -335,7 +335,7 @@ final toysArt = <LevelArt>[
   ),
   art(
     15,
-    'Boya paleti|Paint palette|Farbpalette|Palette de peinture|Paleta de pintura|Tavolozza|调色板|パレット|Палитра|لوحة الألوان|Paleta de tintas|Paleta|Παλέτα|Палитра|팔레트|रंग पट्टिका',
+    'Boya paleti|Paint palette|Farbpalette|Palette de peinture|Paleta de pintura|Tavolozza|调色板|パレット|Палитра|لوحة الألوان|Paleta de tintas|Paleta|Παλέτα|Палитра|팔레트|रंग पट्टिका|Schilderspalet|Палітра|Paletă de pictor|Palett|Palett|Palet|Paletti|Paleta|Festőpaletta|Palet cat|Paleta ng pintura|রঙের প্যালেট|رنگوں کی پلیٹ|Palet cat|Bảng pha màu|پالت رنگ|Kibao cha rangi|रंगपट|రంగుల పలక|வண்ணத் தட்டு|ਰੰਗਾਂ ਦੀ ਪਲੇਟ|จานสี',
     [
       '..TTTTTT..',
       '.TRTTTBTT.',

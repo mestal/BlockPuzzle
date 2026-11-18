@@ -1,6 +1,6 @@
 {
   "id": 364,
-  "name": {"de": "Grabstein", "en": "Tombstone", "es": "Lápida", "fr": "Pierre tombale", "it": "Lapide", "pl": "Nagrobek", "pt": "Lápide", "tr": "Mezar taşı", "el": "Ταφόπλακα", "bg": "Надгробен камък", "ru": "Надгробие", "ar": "شاهد قبر", "hi": "कब्र का पत्थर", "zh": "墓碑", "ja": "墓石", "ko": "묘비"},
+  "name": {"id": "Batu nisan", "ms": "Batu nisan", "da": "Gravsten", "de": "Grabstein", "en": "Tombstone", "es": "Lápida", "fil": "Lapida", "fr": "Pierre tombale", "it": "Lapide", "sw": "Jiwe la kaburi", "hu": "Sírkő", "nl": "Grafsteen", "nb": "Gravstein", "pl": "Nagrobek", "pt": "Lápide", "ro": "Piatră funerară", "fi": "Hautakivi", "sv": "Gravsten", "vi": "Bia mộ", "tr": "Mezar taşı", "cs": "Náhrobek", "el": "Ταφόπλακα", "bg": "Надгробен камък", "ru": "Надгробие", "uk": "Надгробок", "ur": "کتبہ", "ar": "شاهد قبر", "fa": "سنگ قبر", "mr": "थडग्याचा दगड", "hi": "कब्र का पत्थर", "bn": "সমাধিফলক", "pa": "ਕਬਰ ਦਾ ਪੱਥਰ", "ta": "கல்லறைக் கல்", "te": "సమాధి రాయి", "th": "ป้ายหลุมศพ", "zh": "墓碑", "ja": "墓石", "ko": "묘비"},
   "solution": ["#........#", "..######..", ".########.", "####..####", "##......##", "####..####", "####..####", "##########", "######.###", "#####.####", "######.###", "#.##.#.###", "##########", "..........", "#...#...#."],
   "colors":   ["Y........Y", "..EEEEEE..", ".EEEEEEEE.", "EEEE..EEEE", "EE......EE", "EEEE..EEEE", "EEEE..EEEE", "EEEEEEEEEE", "EEEEEE.EEE", "EEEEE.EEEE", "EEEEEE.EEE", "G.GG.G.GGG", "GGGGGGGGGG", "..........", "Y...Y...Y."],
   "palette":  { "E": "#94A3B8", "G": "#22C55E", "Y": "#FACC15" }

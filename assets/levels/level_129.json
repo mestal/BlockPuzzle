@@ -1,6 +1,6 @@
 {
   "id": 129,
-  "name": {"de": "Seetang", "en": "Seaweed", "es": "Algas", "fr": "Algues", "it": "Alghe", "pl": "Wodorosty", "pt": "Alga marinha", "tr": "Deniz yosunu", "el": "Φύκια", "bg": "Водорасли", "ru": "Водоросли", "ar": "أعشاب بحرية", "hi": "समुद्री शैवाल", "zh": "海草", "ja": "海藻", "ko": "해초"},
+  "name": {"id": "Rumput laut", "ms": "Rumpai laut", "da": "Tang", "de": "Seetang", "en": "Seaweed", "es": "Algas", "fil": "Damong-dagat", "fr": "Algues", "it": "Alghe", "sw": "Mwani", "hu": "Hínár", "nl": "Zeewier", "nb": "Tang", "pl": "Wodorosty", "pt": "Alga marinha", "ro": "Alge", "fi": "Merilevä", "sv": "Sjögräs", "vi": "Rong biển", "tr": "Deniz yosunu", "cs": "Mořská řasa", "el": "Φύκια", "bg": "Водорасли", "ru": "Водоросли", "uk": "Водорості", "ur": "سمندری گھاس", "ar": "أعشاب بحرية", "fa": "جلبک دریایی", "mr": "समुद्री शेवाळ", "hi": "समुद्री शैवाल", "bn": "সামুদ্রিক শৈবাল", "pa": "ਸਮੁੰਦਰੀ ਘਾਹ", "ta": "கடற்பாசி", "te": "సముద్రపు నాచు", "th": "สาหร่ายทะเล", "zh": "海草", "ja": "海藻", "ko": "해초"},
   "solution": ["..........", ".#....#...", ".##..##...", "..#..#..#.", ".##..##.##", ".#....#..#", ".##..##.##", "..#..#..#.", ".##..##.##", ".#....#..#", ".##..##.##", "..#..#..#.", ".##..##.#.", "##########", ".........."],
   "colors":   ["..........", ".G....D...", ".GG..DD...", "..G..D..G.", ".GG..DD.GG", ".G....D..G", ".GG..DD.GG", "..G..D..G.", ".GG..DD.GG", ".G....D..G", ".GG..DD.GG", "..G..D..G.", ".GG..DD.G.", "SSSSSSSSSS", ".........."],
   "palette":  { "D": "#15803D", "G": "#22C55E", "S": "#FDE68A" }

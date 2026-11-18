@@ -1,6 +1,6 @@
 {
   "id": 111,
-  "name": {"de": "Glocke", "en": "Bell", "es": "Campana", "fr": "Cloche", "it": "Campana", "pl": "Dzwonek", "pt": "Sino", "tr": "Çan", "el": "Καμπάνα", "bg": "Камбанка", "ru": "Колокольчик", "ar": "جرس", "hi": "घंटी", "zh": "铃铛", "ja": "ベル", "ko": "종"},
+  "name": {"id": "Lonceng", "ms": "Loceng", "da": "Klokke", "de": "Glocke", "en": "Bell", "es": "Campana", "fil": "Kampana", "fr": "Cloche", "it": "Campana", "sw": "Kengele", "hu": "Csengő", "nl": "Bel", "nb": "Bjelle", "pl": "Dzwonek", "pt": "Sino", "ro": "Clopoțel", "fi": "Kello", "sv": "Klocka", "vi": "Cái chuông", "tr": "Çan", "cs": "Zvonek", "el": "Καμπάνα", "bg": "Камбанка", "ru": "Колокольчик", "uk": "Дзвіночок", "ur": "گھنٹی", "ar": "جرس", "fa": "زنگ", "mr": "घंटा", "hi": "घंटी", "bn": "ঘণ্টা", "pa": "ਘੰਟੀ", "ta": "மணி", "te": "గంట", "th": "กระดิ่ง", "zh": "铃铛", "ja": "ベル", "ko": "종"},
   "solution": ["..........", "..........", "....##....", "...####...", "..######..", "..######..", "..######..", "..######..", ".########.", ".########.", "##########", "....##....", "...####...", "..........", ".........."],
   "colors":   ["..........", "..........", "....AA....", "...AAAA...", "..AAAAAA..", "..AAAAAA..", "..AYAAAA..", "..AYAAAA..", ".AAAAAAAA.", ".AAAAAAAA.", "AAAAAAAAAA", "....AA....", "...RRRR...", "..........", ".........."],
   "palette":  { "A": "#F59E0B", "R": "#E8453C", "Y": "#FACC15" }

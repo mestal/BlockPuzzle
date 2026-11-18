@@ -1,6 +1,6 @@
 {
   "id": 213,
-  "name": {"de": "Lotus", "en": "Lotus", "es": "Loto", "fr": "Lotus", "it": "Loto", "pl": "Lotos", "pt": "Lótus", "tr": "Nilüfer", "el": "Λωτός", "bg": "Лотос", "ru": "Лотос", "ar": "زهرة اللوتس", "hi": "कमल", "zh": "莲花", "ja": "ハス", "ko": "연꽃"},
+  "name": {"id": "Teratai", "ms": "Teratai", "da": "Lotus", "de": "Lotus", "en": "Lotus", "es": "Loto", "fil": "Lotus", "fr": "Lotus", "it": "Loto", "sw": "Yungiyungi", "hu": "Lótusz", "nl": "Lotus", "nb": "Lotus", "pl": "Lotos", "pt": "Lótus", "ro": "Lotus", "fi": "Lootus", "sv": "Lotus", "vi": "Hoa sen", "tr": "Nilüfer", "cs": "Lotos", "el": "Λωτός", "bg": "Лотос", "ru": "Лотос", "uk": "Лотос", "ur": "کنول", "ar": "زهرة اللوتس", "fa": "نیلوفر آبی", "mr": "कमळ", "hi": "कमल", "bn": "পদ্ম", "pa": "ਕਮਲ", "ta": "தாமரை", "te": "తామర", "th": "ดอกบัว", "zh": "莲花", "ja": "ハス", "ko": "연꽃"},
   "solution": [".....#....", "..#.......", "....##....", "...####...", ".#.####.#.", "###.##.###", "##########", ".########.", "..######..", "##.####.##", ".##....##.", "#.##.##.##", ".##.##.##.", "..........", "#........."],
   "colors":   [".....Y....", "..Y.......", "....PP....", "...PJJP...", ".P.PJJP.P.", "PJP.PP.PJP", "PJJPJJPJJP", ".PJJPPJJP.", "..PPPPPP..", "GG.GGGG.GG", ".GG....GG.", "B.BB.BB.BB", ".BB.BB.BB.", "..........", "Y........."],
   "palette":  { "B": "#3B82F6", "G": "#22C55E", "J": "#FBCFE8", "P": "#F472B6", "Y": "#FACC15" }

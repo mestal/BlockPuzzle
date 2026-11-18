@@ -1,6 +1,6 @@
 {
   "id": 262,
-  "name": {"de": "Eierkorb", "en": "Egg basket", "es": "Cesta de huevos", "fr": "Panier d'œufs", "it": "Cesto di uova", "pl": "Koszyk jajek", "pt": "Cesta de ovos", "tr": "Yumurta sepeti", "el": "Καλάθι με αυγά", "bg": "Кошница с яйца", "ru": "Корзина яиц", "ar": "سلة بيض", "hi": "अंडों की टोकरी", "zh": "鸡蛋篮", "ja": "たまごかご", "ko": "달걀 바구니"},
+  "name": {"id": "Keranjang telur", "ms": "Bakul telur", "da": "Æggekurv", "de": "Eierkorb", "en": "Egg basket", "es": "Cesta de huevos", "fil": "Basket ng itlog", "fr": "Panier d'œufs", "it": "Cesto di uova", "sw": "Kikapu cha mayai", "hu": "Tojáskosár", "nl": "Eiermand", "nb": "Eggkurv", "pl": "Koszyk jajek", "pt": "Cesta de ovos", "ro": "Coș cu ouă", "fi": "Munakori", "sv": "Äggkorg", "vi": "Giỏ trứng", "tr": "Yumurta sepeti", "cs": "Košík vajec", "el": "Καλάθι με αυγά", "bg": "Кошница с яйца", "ru": "Корзина яиц", "uk": "Кошик яєць", "ur": "انڈوں کی ٹوکری", "ar": "سلة بيض", "fa": "سبد تخم‌مرغ", "mr": "अंड्यांची टोपली", "hi": "अंडों की टोकरी", "bn": "ডিমের ঝুড়ি", "pa": "ਆਂਡਿਆਂ ਦੀ ਟੋਕਰੀ", "ta": "முட்டைக் கூடை", "te": "గుడ్ల బుట్ట", "th": "ตะกร้าไข่", "zh": "鸡蛋篮", "ja": "たまごかご", "ko": "달걀 바구니"},
   "solution": ["#.#####..#", "..#....#..", ".#......#.", ".#.####.#.", ".########.", "##########", "##########", ".########.", ".########.", "..######.."],
   "colors":   ["Y.TTTTT..Y", "..T....T..", ".T......T.", ".T.WWFF.T.", ".TWWWFFFT.", "TTTTTTTTTT", "THTTHTTHTT", ".TTHTTHTT.", ".THTTHTTH.", "..TTTTTT.."],
   "palette":  { "F": "#FBCFA5", "H": "#5B3410", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }

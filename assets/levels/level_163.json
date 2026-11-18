@@ -1,6 +1,6 @@
 {
   "id": 163,
-  "name": {"de": "Tornado", "en": "Tornado", "es": "Tornado", "fr": "Tornade", "it": "Tornado", "pl": "Tornado", "pt": "Tornado", "tr": "Hortum", "el": "Ανεμοστρόβιλος", "bg": "Торнадо", "ru": "Торнадо", "ar": "إعصار", "hi": "बवंडर", "zh": "龙卷风", "ja": "竜巻", "ko": "토네이도"},
+  "name": {"id": "Tornado", "ms": "Puting beliung", "da": "Tornado", "de": "Tornado", "en": "Tornado", "es": "Tornado", "fil": "Buhawi", "fr": "Tornade", "it": "Tornado", "sw": "Kimbunga", "hu": "Tornádó", "nl": "Tornado", "nb": "Tornado", "pl": "Tornado", "pt": "Tornado", "ro": "Tornadă", "fi": "Tornado", "sv": "Tornado", "vi": "Lốc xoáy", "tr": "Hortum", "cs": "Tornádo", "el": "Ανεμοστρόβιλος", "bg": "Торнадо", "ru": "Торнадо", "uk": "Торнадо", "ur": "بگولا", "ar": "إعصار", "fa": "گردباد", "mr": "चक्रीवादळ", "hi": "बवंडर", "bn": "টর্নেডো", "pa": "ਵਾਵਰੋਲਾ", "ta": "சூறாவளி", "te": "సుడిగాలి", "th": "พายุทอร์นาโด", "zh": "龙卷风", "ja": "竜巻", "ko": "토네이도"},
   "solution": ["##########", ".########.", "#########.", ".#######..", "..######..", "...#####..", "...####...", "....####..", "....###...", ".....##...", "....##....", ".....#....", "....##....", "...##.....", ".........."],
   "colors":   ["EEEEEEEEEE", ".EELLEEEE.", "EEEEEEEEE.", ".EEEELLE..", "..EEEEEE..", "...ELEEE..", "...EEEE...", "....EELE..", "....EEE...", ".....EE...", "....EE....", ".....E....", "....EE....", "...EE.....", ".........."],
   "palette":  { "E": "#94A3B8", "L": "#E2E8F0" }

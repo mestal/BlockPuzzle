@@ -159,13 +159,19 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   (`SlotsController.saveDelay`); uygulama arka plana geçince `flush()` ile hemen yazılır.
 
 ### Dil
-- 16 dil: Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, Portekizce, İtalyanca, Lehçe, Yunanca,
-  Bulgarca, Rusça, Arapça, Hintçe, Japonca, Çince, Korece (`core/languages.dart`). Arapça sağdan soladır; ızgara ve ipuçları her dilde
+- 38 dil (`core/languages.dart`): Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, Portekizce,
+  İtalyanca, Lehçe, Yunanca, Bulgarca, Rusça, Arapça, Hintçe, Japonca, Çince, Korece, Felemenkçe,
+  Ukraynaca, Rumence, İsveççe, Norveççe (`nb`), Danca, Fince, Çekçe, Macarca, Malayca, Filipince
+  (`fil`), Bengalce, Urduca, Endonezce, Vietnamca, Farsça, Svahili, Marathi, Telugu, Tamil,
+  Pencapça, Tayca. Eski/alternatif cihaz kodları eşlenir (`in`→`id`, `no`→`nb`, `tl`→`fil`).
+  Arapça, Urduca ve Farsça sağdan soladır; ızgara ve ipuçları her dilde
   soldan sağa kalır (`BoardView` `Directionality.ltr`), metin içindeki ipucu sayıları LRI/PDI ile yalıtılır.
 - Varsayılan: cihaz dili; desteklenmiyorsa İngilizce. Ayarlar'dan (dişli ikonu) açılır menüyle
   (`LanguageDropdown`) değiştirilebilir, `AppSettings` (`features/settings`) içinde saklanır.
-- `supportedLanguages` dillerin kendi adlarına göre alfabetik sıradadır (önce Latin, sonra Yunan,
-  Kiril, Arap, Devanagari, CJK, Hangul); menü bu sırayı kullanır, test sırayı doğrular.
+- `supportedLanguages` dillerin kendi adlarının kod noktası sırasındadır (önce Latin — `Čeština`
+  gibi aksanlı büyük harfle başlayanlar Latin'in sonunda —, sonra Yunan, Kiril, Arap, Devanagari,
+  Bengal, Gurmukhi, Tamil, Telugu, Tay, CJK, Hangul); menü bu sırayı kullanır, test sırayı doğrular.
+- Fredoka yalnızca Latin harflerini kapsar; diğer yazılar (ve Vietnamca aksanları) sistem fontuna düşer.
 - Bölüm ve harita adları JSON'da dil haritasıdır: `"name": {"tr": "...", "en": "...", ...}`
   (`LocalizedText`). Testler her dilin ARB anahtarlarını ve tüm adların çevirisini doğrular.
 
@@ -192,7 +198,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   hücreyi değiştirerek mantıkla çözülebilir yapar ve her haritadaki resimleri boyut + çözücüye göre
   zorluk sırasıyla numaralar. `pinned: true` resimler haritanın başında yazıldığı sırayla kalır
   (Bölüm 1–2 öğretici; `tutorial.dart` koordinatları bu resimlere bağlıdır).
-  Yeni resim: ilgili `tool/art/wNN_*.dart` dosyasına ekle (`artLanguages` sırasıyla 16 dilde ad;
+  Yeni resim: ilgili `tool/art/wNN_*.dart` dosyasına ekle (`artLanguages` sırasıyla 38 dilde ad;
   11+ haritalar kısa `art(dünya, 'tr|en|…', [...])` biçimini kullanır), üreticiyi çalıştır.
 - **Zorluk artışı (11+ haritalar):** Izgara büyüyemediği için zorluk resmin kendisinden ve üreticinin
   eklediği **yıldızlardan** gelir. Üretici, resim haritanın taban zorluğuna
@@ -243,7 +249,7 @@ Büyük ızgaralarda pinch-zoom + kaydırma desteklenir; dokunma alanı en az 32
 - Kalıcılık: `shared_preferences` (`SharedPreferencesAsync`) üzerinde JSON; bir
   `ProgressRepository` arayüzü arkasında.
 - Reklam: `AdService` arayüzü → `AdMobAdService` (`google_mobile_ads`); web/testte `DummyAdService`.
-- Font: `google_fonts` (Fredoka). Metinler: `flutter gen-l10n` → `lib/l10n/gen/` (16 dil, şablon `app_tr.arb`).
+- Font: `google_fonts` (Fredoka). Metinler: `flutter gen-l10n` → `lib/l10n/gen/` (38 dil, şablon `app_tr.arb`).
 - Lint: `very_good_analysis`. Test: `flutter_test`.
 
 ## 4. Klasör yapısı (feature-first)
@@ -294,7 +300,7 @@ test/
 - `const` constructor'lar, küçük ve odaklı widget'lar, `build` içinde ağır iş yok.
 - Sihirli sayılar yerine tema/sabit dosyaları. Renkler yalnızca `lib/app/theme.dart` içindeki `AppColors`'tan.
 - Kod, tanımlayıcılar ve yorumlar **İngilizce**; kullanıcıya görünen metinler `l10n` (ARB) ile,
-  şablon dil **Türkçe**; yeni metin 16 ARB dosyasının hepsine eklenir.
+  şablon dil **Türkçe**; yeni metin 38 ARB dosyasının hepsine eklenir.
 - ARB değişince: `flutter gen-l10n`.
 - Tarayıcıda dikey önizleme: `flutter build web` + `.claude/launch.json` içindeki "web" sunucusu.
 - Commit'ten önce: `dart format .`, `flutter analyze` ve `flutter test` temiz olmalı.

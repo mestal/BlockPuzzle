@@ -1,6 +1,6 @@
 {
   "id": 466,
-  "name": {"de": "Baseballkappe", "en": "Baseball cap", "es": "Gorra de béisbol", "fr": "Casquette", "it": "Cappellino", "pl": "Czapka z daszkiem", "pt": "Boné", "tr": "Beyzbol şapkası", "el": "Καπέλο του μπέιζμπολ", "bg": "Шапка с козирка", "ru": "Бейсболка", "ar": "قبعة بيسبول", "hi": "बेसबॉल टोपी", "zh": "棒球帽", "ja": "野球帽", "ko": "야구 모자"},
+  "name": {"id": "Topi bisbol", "ms": "Topi besbol", "da": "Kasket", "de": "Baseballkappe", "en": "Baseball cap", "es": "Gorra de béisbol", "fil": "Sumbrero ng beysbol", "fr": "Casquette", "it": "Cappellino", "sw": "Kofia ya besiboli", "hu": "Baseballsapka", "nl": "Pet", "nb": "Caps", "pl": "Czapka z daszkiem", "pt": "Boné", "ro": "Șapcă", "fi": "Lippalakki", "sv": "Keps", "vi": "Mũ lưỡi trai", "tr": "Beyzbol şapkası", "cs": "Kšiltovka", "el": "Καπέλο του μπέιζμπολ", "bg": "Шапка с козирка", "ru": "Бейсболка", "uk": "Бейсболка", "ur": "بیس بال کیپ", "ar": "قبعة بيسبول", "fa": "کلاه کپ", "mr": "बेसबॉल टोपी", "hi": "बेसबॉल टोपी", "bn": "বেসবল টুপি", "pa": "ਬੇਸਬਾਲ ਟੋਪੀ", "ta": "பேஸ்பால் தொப்பி", "te": "బేస్‌బాల్ టోపీ", "th": "หมวกแก๊ป", "zh": "棒球帽", "ja": "野球帽", "ko": "야구 모자"},
   "solution": [".#...#....", "..........", "..####..#.", ".######...", "########..", "########..", "#########.", "......####", "#...#.....", "........#."],
   "colors":   [".Y...Y....", "..........", "..BBBB..Y.", ".BBBBBB...", "BBBWBBBB..", "BBBBBBBB..", "BBBBBBBBB.", "......BBBB", "Y...Y.....", "........Y."],
   "palette":  { "B": "#3B82F6", "W": "#FFFFFF", "Y": "#FACC15" }

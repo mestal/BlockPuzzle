@@ -1,6 +1,6 @@
 {
   "id": 158,
-  "name": {"de": "Ammonit", "en": "Ammonite", "es": "Amonita", "fr": "Ammonite", "it": "Ammonite", "pl": "Amonit", "pt": "Amonite", "tr": "Ammonit", "el": "Αμμωνίτης", "bg": "Амонит", "ru": "Аммонит", "ar": "أمونيت", "hi": "अमोनाइट", "zh": "菊石", "ja": "アンモナイト", "ko": "암모나이트"},
+  "name": {"id": "Amonit", "ms": "Amonit", "da": "Ammonit", "de": "Ammonit", "en": "Ammonite", "es": "Amonita", "fil": "Ammonite", "fr": "Ammonite", "it": "Ammonite", "sw": "Amoniti", "hu": "Ammonitesz", "nl": "Ammoniet", "nb": "Ammonitt", "pl": "Amonit", "pt": "Amonite", "ro": "Amonit", "fi": "Ammoniitti", "sv": "Ammonit", "vi": "Cúc đá", "tr": "Ammonit", "cs": "Amonit", "el": "Αμμωνίτης", "bg": "Амонит", "ru": "Аммонит", "uk": "Амоніт", "ur": "امونائٹ", "ar": "أمونيت", "fa": "آمونیت", "mr": "अमोनाइट", "hi": "अमोनाइट", "bn": "অ্যামোনাইট", "pa": "ਐਮੋਨਾਈਟ", "ta": "அம்மோனைட்", "te": "అమ్మోనైట్", "th": "แอมโมไนต์", "zh": "菊石", "ja": "アンモナイト", "ko": "암모나이트"},
   "solution": ["..........", ".#######..", ".########.", "###....###", "##..##..##", "##.####.##", "##.##.#.##", "##.##.#.##", "##.####.##", "##..#...##", "###....###", ".########.", "..######..", "..........", ".........."],
   "colors":   ["..........", ".EEEEEEE..", ".EELLLLEE.", "EEL....LEE", "EL..EE..LE", "EL.ELLE.LE", "EL.EL.E.LE", "EL.EL.E.LE", "EL.ELEE.LE", "EL..E...LE", "ELL....LLE", ".ELLLLLLE.", "..EEEEEE..", "..........", ".........."],
   "palette":  { "E": "#94A3B8", "L": "#E2E8F0" }

@@ -1,6 +1,6 @@
 {
   "id": 219,
-  "name": {"de": "Koi-Karpfen", "en": "Koi fish", "es": "Pez koi", "fr": "Carpe koï", "it": "Carpa koi", "pl": "Karp koi", "pt": "Peixe koi", "tr": "Koi balığı", "el": "Ψάρι κόι", "bg": "Риба кои", "ru": "Карп кои", "ar": "سمكة الكوي", "hi": "कोई मछली", "zh": "锦鲤", "ja": "錦鯉", "ko": "비단잉어"},
+  "name": {"id": "Ikan koi", "ms": "Ikan koi", "da": "Koikarpe", "de": "Koi-Karpfen", "en": "Koi fish", "es": "Pez koi", "fil": "Isdang koi", "fr": "Carpe koï", "it": "Carpa koi", "sw": "Samaki koi", "hu": "Koiponty", "nl": "Koikarper", "nb": "Koikarpe", "pl": "Karp koi", "pt": "Peixe koi", "ro": "Pește koi", "fi": "Koikarppi", "sv": "Koikarp", "vi": "Cá koi", "tr": "Koi balığı", "cs": "Kapr koi", "el": "Ψάρι κόι", "bg": "Риба кои", "ru": "Карп кои", "uk": "Короп кої", "ur": "کوئی مچھلی", "ar": "سمكة الكوي", "fa": "ماهی کوی", "mr": "कोई मासा", "hi": "कोई मछली", "bn": "কই মাছ", "pa": "ਕੋਈ ਮੱਛੀ", "ta": "கோய் மீன்", "te": "కోయి చేప", "th": "ปลาคาร์ป", "zh": "锦鲤", "ja": "錦鯉", "ko": "비단잉어"},
   "solution": [".#........", "...####...", "..######..", "..######..", "#.######.#", "##.#####.#", "....#####.", "....#####.", ".....####.", ".....###..", "....###...", "...###....", "..##.##...", ".##...##..", ".........."],
   "colors":   [".Y........", "...WWWW...", "..WKWWKW..", "..WWRRWW..", "R.RRRWWR.R", "RR.WRRRW.R", "....WRRWW.", "....RRWWR.", ".....WRRW.", ".....RWW..", "....RRW...", "...RWR....", "..RR.RR...", ".RR...RR..", ".........."],
   "palette":  { "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

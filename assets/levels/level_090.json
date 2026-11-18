@@ -1,6 +1,6 @@
 {
   "id": 90,
-  "name": {"de": "Schlange", "en": "Snake", "es": "Serpiente", "fr": "Serpent", "it": "Serpente", "pl": "Wąż", "pt": "Cobra", "tr": "Yılan", "el": "Φίδι", "bg": "Змия", "ru": "Змея", "ar": "ثعبان", "hi": "साँप", "zh": "蛇", "ja": "ヘビ", "ko": "뱀"},
+  "name": {"id": "Ular", "ms": "Ular", "da": "Slange", "de": "Schlange", "en": "Snake", "es": "Serpiente", "fil": "Ahas", "fr": "Serpent", "it": "Serpente", "sw": "Nyoka", "hu": "Kígyó", "nl": "Slang", "nb": "Slange", "pl": "Wąż", "pt": "Cobra", "ro": "Șarpe", "fi": "Käärme", "sv": "Orm", "vi": "Con rắn", "tr": "Yılan", "cs": "Had", "el": "Φίδι", "bg": "Змия", "ru": "Змея", "uk": "Змія", "ur": "سانپ", "ar": "ثعبان", "fa": "مار", "mr": "साप", "hi": "साँप", "bn": "সাপ", "pa": "ਸੱਪ", "ta": "பாம்பு", "te": "పాము", "th": "งู", "zh": "蛇", "ja": "ヘビ", "ko": "뱀"},
   "solution": ["..######..", ".########.", ".##....##.", ".##.......", ".#######..", "..#######.", ".......##.", ".......##.", ".########.", "..######.."],
   "colors":   ["..GGGGGG..", ".GGGGGGGG.", ".GG....KG.", ".GG.......", ".GGGGGGG..", "..GGGGGGG.", ".......GG.", ".......GG.", ".GGGGGGGG.", "..GGGGGG.."],
   "palette":  { "G": "#22C55E", "K": "#1F2937" }

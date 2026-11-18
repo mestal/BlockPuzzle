@@ -1,6 +1,6 @@
 {
   "id": 108,
-  "name": {"de": "Fäustling", "en": "Mitten", "es": "Manopla", "fr": "Moufle", "it": "Muffola", "pl": "Rękawiczka", "pt": "Luva", "tr": "Eldiven", "el": "Γάντι", "bg": "Ръкавица", "ru": "Варежка", "ar": "قفاز", "hi": "दस्ताना", "zh": "连指手套", "ja": "手袋", "ko": "벙어리장갑"},
+  "name": {"id": "Sarung tangan", "ms": "Sarung tangan", "da": "Luffe", "de": "Fäustling", "en": "Mitten", "es": "Manopla", "fil": "Guwantes", "fr": "Moufle", "it": "Muffola", "sw": "Glavu", "hu": "Egyujjas kesztyű", "nl": "Want", "nb": "Votte", "pl": "Rękawiczka", "pt": "Luva", "ro": "Mănușă cu un deget", "fi": "Lapanen", "sv": "Vante", "vi": "Găng tay", "tr": "Eldiven", "cs": "Palčák", "el": "Γάντι", "bg": "Ръкавица", "ru": "Варежка", "uk": "Рукавиця", "ur": "دستانہ", "ar": "قفاز", "fa": "دستکش", "mr": "हातमोजा", "hi": "दस्ताना", "bn": "দস্তানা", "pa": "ਦਸਤਾਨਾ", "ta": "கையுறை", "te": "చేతి తొడుగు", "th": "ถุงมือ", "zh": "连指手套", "ja": "手袋", "ko": "벙어리장갑"},
   "solution": ["..........", "..........", "....####..", "...######.", "...######.", ".#.######.", "#########.", "#########.", ".########.", "..#######.", "..#######.", "..#######.", "..#######.", "..........", ".........."],
   "colors":   ["..........", "..........", "....RRRR..", "...RRRRRR.", "...RRRRRR.", ".R.RRRRRR.", "RRRRRRRRR.", "RRRRRRRRR.", ".RRRRRRRR.", "..RRRRRRR.", "..WWWWWWW.", "..WRWRWRW.", "..WWWWWWW.", "..........", ".........."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF" }

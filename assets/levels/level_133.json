@@ -1,6 +1,6 @@
 {
   "id": 133,
-  "name": {"de": "Narwal", "en": "Narwhal", "es": "Narval", "fr": "Narval", "it": "Narvalo", "pl": "Narwal", "pt": "Narval", "tr": "Narval", "el": "Ναρβάλ", "bg": "Нарвал", "ru": "Нарвал", "ar": "كركدن البحر", "hi": "नरव्हेल", "zh": "独角鲸", "ja": "イッカク", "ko": "일각고래"},
+  "name": {"id": "Narwhal", "ms": "Narwhal", "da": "Narhval", "de": "Narwal", "en": "Narwhal", "es": "Narval", "fil": "Narwhal", "fr": "Narval", "it": "Narvalo", "sw": "Nyangumi pembe", "hu": "Narvál", "nl": "Narwal", "nb": "Narhval", "pl": "Narwal", "pt": "Narval", "ro": "Narval", "fi": "Sarvivalas", "sv": "Narval", "vi": "Kỳ lân biển", "tr": "Narval", "cs": "Narval", "el": "Ναρβάλ", "bg": "Нарвал", "ru": "Нарвал", "uk": "Нарвал", "ur": "ناروہیل", "ar": "كركدن البحر", "fa": "نروال", "mr": "नारव्हेल", "hi": "नरव्हेल", "bn": "নারহোয়াল", "pa": "ਨਾਰਵ੍ਹੇਲ", "ta": "நார்வால்", "te": "నార్వాల్", "th": "นาร์วาล", "zh": "独角鲸", "ja": "イッカク", "ko": "일각고래"},
   "solution": ["..........", ".......#.#", "........#.", ".......#..", "......#...", "...####...", "..######..", ".########.", "##########", "##########", ".#########", "..###..###", ".........#", "..........", ".........."],
   "colors":   ["..........", ".......I.W", "........W.", ".......W..", "......W...", "...IIII...", "..IIIIII..", ".IKIIIIII.", "IIIIIIIIII", "IIIIIIIIII", ".IIIIIIIII", "..III..III", ".........I", "..........", ".........."],
   "palette":  { "I": "#BAE6FD", "K": "#1F2937", "W": "#FFFFFF" }

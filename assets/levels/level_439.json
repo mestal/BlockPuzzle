@@ -1,6 +1,6 @@
 {
   "id": 439,
-  "name": {"de": "Gitarre", "en": "Guitar", "es": "Guitarra", "fr": "Guitare", "it": "Chitarra", "pl": "Gitara", "pt": "Violão", "tr": "Gitar", "el": "Κιθάρα", "bg": "Китара", "ru": "Гитара", "ar": "غيتار", "hi": "गिटार", "zh": "吉他", "ja": "ギター", "ko": "기타"},
+  "name": {"id": "Gitar", "ms": "Gitar", "da": "Guitar", "de": "Gitarre", "en": "Guitar", "es": "Guitarra", "fil": "Gitara", "fr": "Guitare", "it": "Chitarra", "sw": "Gitaa", "hu": "Gitár", "nl": "Gitaar", "nb": "Gitar", "pl": "Gitara", "pt": "Violão", "ro": "Chitară", "fi": "Kitara", "sv": "Gitarr", "vi": "Đàn ghi-ta", "tr": "Gitar", "cs": "Kytara", "el": "Κιθάρα", "bg": "Китара", "ru": "Гитара", "uk": "Гітара", "ur": "گٹار", "ar": "غيتار", "fa": "گیتار", "mr": "गिटार", "hi": "गिटार", "bn": "গিটার", "pa": "ਗਿਟਾਰ", "ta": "கிட்டார்", "te": "గిటార్", "th": "กีตาร์", "zh": "吉他", "ja": "ギター", "ko": "기타"},
   "solution": ["..........", "........##", ".......##.", "......##..", ".....#..#.", "....#.....", "..###.....", ".#####....", "..####..#.", "###.###...", "###..###..", "########..", ".######...", "..####....", ".........."],
   "colors":   ["..........", "........KK", ".......KK.", "......HK..", ".....H..T.", "....H.....", "..TTH.....", ".TTTTT....", "..TTTT..Y.", "TTT.TTT...", "TTT..TTT..", "TTTTTTTT..", ".TTTTTT...", "..TTTT....", ".........."],
   "palette":  { "H": "#5B3410", "K": "#1F2937", "T": "#92400E", "Y": "#FACC15" }

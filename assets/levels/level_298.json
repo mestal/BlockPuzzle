@@ -1,6 +1,6 @@
 {
   "id": 298,
-  "name": {"de": "Wachsmalstift", "en": "Crayon", "es": "Crayón", "fr": "Crayon de cire", "it": "Pastello", "pl": "Kredka", "pt": "Giz de cera", "tr": "Pastel boya", "el": "Κηρομπογιά", "bg": "Пастел", "ru": "Восковой мелок", "ar": "قلم تلوين", "hi": "क्रेयॉन", "zh": "蜡笔", "ja": "クレヨン", "ko": "크레용"},
+  "name": {"id": "Krayon", "ms": "Krayon", "da": "Farvekridt", "de": "Wachsmalstift", "en": "Crayon", "es": "Crayón", "fil": "Krayola", "fr": "Crayon de cire", "it": "Pastello", "sw": "Kalamu ya rangi", "hu": "Zsírkréta", "nl": "Waskrijtje", "nb": "Fargestift", "pl": "Kredka", "pt": "Giz de cera", "ro": "Creion colorat", "fi": "Vahaliitu", "sv": "Krita", "vi": "Bút sáp màu", "tr": "Pastel boya", "cs": "Pastelka", "el": "Κηρομπογιά", "bg": "Пастел", "ru": "Восковой мелок", "uk": "Воскова крейда", "ur": "رنگین پنسل", "ar": "قلم تلوين", "fa": "مداد شمعی", "mr": "रंगीत खडू", "hi": "क्रेयॉन", "bn": "রং পেন্সিল", "pa": "ਰੰਗਦਾਰ ਪੈਨਸਿਲ", "ta": "வண்ணப் பென்சில்", "te": "రంగు క్రేయాన్", "th": "สีเทียน", "zh": "蜡笔", "ja": "クレヨン", "ko": "크레용"},
   "solution": ["..........", "...#......", "..###.....", "..###.....", ".#####....", ".#####....", ".#####....", ".#####....", ".#####....", ".#####.#..", ".#####.#..", ".#####..#.", ".#####..#.", ".#####.#..", ".........."],
   "colors":   ["..........", "...R......", "..RRR.....", "..RRR.....", ".WWWWW....", ".RRRRR....", ".WWWWW....", ".RRRRR....", ".RRRRR....", ".RRRRR.R..", ".WWWWW.R..", ".RRRRR..R.", ".WWWWW..R.", ".RRRRR.R..", ".........."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF" }

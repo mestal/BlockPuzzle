@@ -1,6 +1,6 @@
 {
   "id": 363,
-  "name": {"de": "Zauberstab", "en": "Magic wand", "es": "Varita mágica", "fr": "Baguette magique", "it": "Bacchetta magica", "pl": "Magiczna różdżka", "pt": "Varinha mágica", "tr": "Sihirli değnek", "el": "Μαγικό ραβδί", "bg": "Вълшебна пръчка", "ru": "Волшебная палочка", "ar": "عصا سحرية", "hi": "जादू की छड़ी", "zh": "魔杖", "ja": "魔法の杖", "ko": "마법 지팡이"},
+  "name": {"id": "Tongkat sihir", "ms": "Tongkat sakti", "da": "Tryllestav", "de": "Zauberstab", "en": "Magic wand", "es": "Varita mágica", "fil": "Mahiwagang baston", "fr": "Baguette magique", "it": "Bacchetta magica", "sw": "Fimbo ya uchawi", "hu": "Varázspálca", "nl": "Toverstaf", "nb": "Tryllestav", "pl": "Magiczna różdżka", "pt": "Varinha mágica", "ro": "Baghetă magică", "fi": "Taikasauva", "sv": "Trollstav", "vi": "Đũa phép", "tr": "Sihirli değnek", "cs": "Kouzelná hůlka", "el": "Μαγικό ραβδί", "bg": "Вълшебна пръчка", "ru": "Волшебная палочка", "uk": "Чарівна паличка", "ur": "جادو کی چھڑی", "ar": "عصا سحرية", "fa": "چوب جادو", "mr": "जादूची छडी", "hi": "जादू की छड़ी", "bn": "জাদুর ছড়ি", "pa": "ਜਾਦੂ ਦੀ ਛੜੀ", "ta": "மந்திரக்கோல்", "te": "మంత్రదండం", "th": "ไม้กายสิทธิ์", "zh": "魔杖", "ja": "魔法の杖", "ko": "마법 지팡이"},
   "solution": [".......#..", ".#...#####", "......###.", "......#.#.", ".....##...", "....#.....", "...##.....", "###.......", ".#..#.#...", "#........."],
   "colors":   [".......Y..", ".Y...YYYYY", "......YYY.", "......Y.Y.", ".....KY...", "....K.....", "...KK.....", "KKK.......", ".K..Y.Y...", "K........."],
   "palette":  { "K": "#1F2937", "Y": "#FACC15" }

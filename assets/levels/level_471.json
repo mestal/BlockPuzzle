@@ -1,6 +1,6 @@
 {
   "id": 471,
-  "name": {"de": "Pfeife", "en": "Whistle", "es": "Silbato", "fr": "Sifflet", "it": "Fischietto", "pl": "Gwizdek", "pt": "Apito", "tr": "Düdük", "el": "Σφυρίχτρα", "bg": "Свирка", "ru": "Свисток", "ar": "صافرة", "hi": "सीटी", "zh": "哨子", "ja": "ホイッスル", "ko": "호루라기"},
+  "name": {"id": "Peluit", "ms": "Wisel", "da": "Fløjte", "de": "Pfeife", "en": "Whistle", "es": "Silbato", "fil": "Pito", "fr": "Sifflet", "it": "Fischietto", "sw": "Filimbi", "hu": "Síp", "nl": "Fluitje", "nb": "Fløyte", "pl": "Gwizdek", "pt": "Apito", "ro": "Fluier", "fi": "Pilli", "sv": "Visselpipa", "vi": "Cái còi", "tr": "Düdük", "cs": "Píšťalka", "el": "Σφυρίχτρα", "bg": "Свирка", "ru": "Свисток", "uk": "Свисток", "ur": "سیٹی", "ar": "صافرة", "fa": "سوت", "mr": "शिट्टी", "hi": "सीटी", "bn": "বাঁশি", "pa": "ਸੀਟੀ", "ta": "விசில்", "te": "ఈల", "th": "นกหวีด", "zh": "哨子", "ja": "ホイッスル", "ko": "호루라기"},
   "solution": ["#.#.......", ".#.....#..", "..#.......", "...#......", "...#######", ".#####.###", ".##..##...", ".#....#...", ".##..##...", "..####...."],
   "colors":   ["R.E.......", ".R.....Y..", "..R.......", "...R......", "...EEEEEEE", ".EEEEE.EEE", ".EE..EE...", ".E....E...", ".EE..EE...", "..EEEE...."],
   "palette":  { "E": "#94A3B8", "R": "#E8453C", "Y": "#FACC15" }

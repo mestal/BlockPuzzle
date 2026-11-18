@@ -1,6 +1,6 @@
 {
   "id": 463,
-  "name": {"de": "Rugbyball", "en": "Rugby ball", "es": "Balón de rugby", "fr": "Ballon de rugby", "it": "Pallone da rugby", "pl": "Piłka do rugby", "pt": "Bola de rúgbi", "tr": "Ragbi topu", "el": "Μπάλα ράγκμπι", "bg": "Топка за ръгби", "ru": "Мяч для регби", "ar": "كرة رغبي", "hi": "रग्बी गेंद", "zh": "橄榄球", "ja": "ラグビーボール", "ko": "럭비공"},
+  "name": {"id": "Bola rugbi", "ms": "Bola ragbi", "da": "Rugbybold", "de": "Rugbyball", "en": "Rugby ball", "es": "Balón de rugby", "fil": "Bola ng rugby", "fr": "Ballon de rugby", "it": "Pallone da rugby", "sw": "Mpira wa raga", "hu": "Rögbilabda", "nl": "Rugbybal", "nb": "Rugbyball", "pl": "Piłka do rugby", "pt": "Bola de rúgbi", "ro": "Minge de rugby", "fi": "Rugbypallo", "sv": "Rugbyboll", "vi": "Quả bóng bầu dục", "tr": "Ragbi topu", "cs": "Ragbyový míč", "el": "Μπάλα ράγκμπι", "bg": "Топка за ръгби", "ru": "Мяч для регби", "uk": "М’яч для регбі", "ur": "رگبی بال", "ar": "كرة رغبي", "fa": "توپ راگبی", "mr": "रग्बी चेंडू", "hi": "रग्बी गेंद", "bn": "রাগবি বল", "pa": "ਰਗਬੀ ਗੇਂਦ", "ta": "ரக்பி பந்து", "te": "రగ్బీ బంతి", "th": "ลูกรักบี้", "zh": "橄榄球", "ja": "ラグビーボール", "ko": "럭비공"},
   "solution": ["#.....##..", "...######.", "...#######", "..########", ".########.", ".#######..", "#######...", "######....", ".####..#..", ".........."],
   "colors":   ["Y.....TT..", "...TTTTTT.", "...TTTTTTT", "..TTTWTTTT", ".TTTWTWTT.", ".TTWTWTT..", "TTTTWTT...", "TTTTTT....", ".TTTT..Y..", ".........."],
   "palette":  { "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 243,
-  "name": {"de": "Pizza", "en": "Pizza", "es": "Pizza", "fr": "Pizza", "it": "Pizza", "pl": "Pizza", "pt": "Pizza", "tr": "Pizza", "el": "Πίτσα", "bg": "Пица", "ru": "Пицца", "ar": "بيتزا", "hi": "पिज़्ज़ा", "zh": "披萨", "ja": "ピザ", "ko": "피자"},
+  "name": {"id": "Piza", "ms": "Piza", "da": "Pizza", "de": "Pizza", "en": "Pizza", "es": "Pizza", "fil": "Pizza", "fr": "Pizza", "it": "Pizza", "sw": "Piza", "hu": "Pizza", "nl": "Pizza", "nb": "Pizza", "pl": "Pizza", "pt": "Pizza", "ro": "Pizza", "fi": "Pizza", "sv": "Pizza", "vi": "Bánh pizza", "tr": "Pizza", "cs": "Pizza", "el": "Πίτσα", "bg": "Пица", "ru": "Пицца", "uk": "Піца", "ur": "پیزا", "ar": "بيتزا", "fa": "پیتزا", "mr": "पिझ्झा", "hi": "पिज़्ज़ा", "bn": "পিৎজা", "pa": "ਪੀਜ਼ਾ", "ta": "பீட்சா", "te": "పిజ్జా", "th": "พิซซ่า", "zh": "披萨", "ja": "ピザ", "ko": "피자"},
   "solution": ["##########", "##########", ".####.###.", ".########.", "..###.##..", "..######..", "#..####...", "...####.#.", "....##....", "..#.#....."],
   "colors":   ["TTTTTTTTTT", "YYYYYYYYYY", ".YRRY.YYY.", ".YRRYYYRY.", "..YYY.YY..", "..YRRYYY..", "Y..YRRY...", "...YYYY.Y.", "....YY....", "..Y.Y....."],
   "palette":  { "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 335,
-  "name": {"de": "Ameise", "en": "Ant", "es": "Hormiga", "fr": "Fourmi", "it": "Formica", "pl": "Mrówka", "pt": "Formiga", "tr": "Karınca", "el": "Μυρμήγκι", "bg": "Мравка", "ru": "Муравей", "ar": "نملة", "hi": "चींटी", "zh": "蚂蚁", "ja": "アリ", "ko": "개미"},
+  "name": {"id": "Semut", "ms": "Semut", "da": "Myre", "de": "Ameise", "en": "Ant", "es": "Hormiga", "fil": "Langgam", "fr": "Fourmi", "it": "Formica", "sw": "Sisimizi", "hu": "Hangya", "nl": "Mier", "nb": "Maur", "pl": "Mrówka", "pt": "Formiga", "ro": "Furnică", "fi": "Muurahainen", "sv": "Myra", "vi": "Con kiến", "tr": "Karınca", "cs": "Mravenec", "el": "Μυρμήγκι", "bg": "Мравка", "ru": "Муравей", "uk": "Мураха", "ur": "چیونٹی", "ar": "نملة", "fa": "مورچه", "mr": "मुंगी", "hi": "चींटी", "bn": "পিঁপড়া", "pa": "ਕੀੜੀ", "ta": "எறும்பு", "te": "చీమ", "th": "มด", "zh": "蚂蚁", "ja": "アリ", "ko": "개미"},
   "solution": [".......#.#", "...#..#...", "...####...", "..######..", "...####...", "##..##.###", ".#.####.#.", "..######..", ".#.####.#.", "....##....", "...####...", "..######..", "..######..", "..######..", "...####..."],
   "colors":   [".......K.Y", "...K..K...", "...RRRR...", "..RRRRRR..", "...RRRR...", "KK..RR.KKK", ".K.RRRR.K.", "..RRRRRR..", ".K.RRRR.K.", "....RR....", "...RRRR...", "..RRRRRR..", "..RRRRRR..", "..RRRRRR..", "...RRRR..."],
   "palette":  { "K": "#1F2937", "R": "#E8453C", "Y": "#FACC15" }

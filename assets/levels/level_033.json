@@ -1,6 +1,6 @@
 {
   "id": 33,
-  "name": {"de": "Muschel", "en": "Seashell", "es": "Concha", "fr": "Coquillage", "it": "Conchiglia", "pl": "Muszelka", "pt": "Concha", "tr": "Deniz Kabuğu", "el": "Κοχύλι", "bg": "Мида", "ru": "Ракушка", "ar": "صدفة", "hi": "सीपी", "zh": "贝壳", "ja": "貝殻", "ko": "조개껍데기"},
+  "name": {"id": "Kerang", "ms": "Kulit kerang", "da": "Muslingeskal", "de": "Muschel", "en": "Seashell", "es": "Concha", "fil": "Kabibe", "fr": "Coquillage", "it": "Conchiglia", "sw": "Kombe la bahari", "hu": "Kagyló", "nl": "Schelp", "nb": "Skjell", "pl": "Muszelka", "pt": "Concha", "ro": "Scoică", "fi": "Simpukka", "sv": "Snäcka", "vi": "Vỏ sò", "tr": "Deniz Kabuğu", "cs": "Mušle", "el": "Κοχύλι", "bg": "Мида", "ru": "Ракушка", "uk": "Мушля", "ur": "سیپی", "ar": "صدفة", "fa": "صدف", "mr": "शिंपला", "hi": "सीपी", "bn": "ঝিনুক", "pa": "ਸਿੱਪੀ", "ta": "சிப்பி", "te": "గవ్వ", "th": "เปลือกหอย", "zh": "贝壳", "ja": "貝殻", "ko": "조개껍데기"},
   "solution": ["..........", "....#.....", "..#####...", ".##.#.##..", ".##.#.##..", ".#######..", "..#####...", "...###....", "..........", ".........."],
   "colors":   ["..........", "....P.....", "..PPPPP...", ".PP.P.PP..", ".PP.P.PP..", ".PPPPPPP..", "..PPPPP...", "...PPP....", "..........", ".........."],
   "palette":  { "P": "#F472B6" }

@@ -1,6 +1,6 @@
 {
   "id": 442,
-  "name": {"de": "Goldmünze", "en": "Gold coin", "es": "Moneda de oro", "fr": "Pièce d'or", "it": "Moneta d'oro", "pl": "Złota moneta", "pt": "Moeda de ouro", "tr": "Altın para", "el": "Χρυσό νόμισμα", "bg": "Златна монета", "ru": "Золотая монета", "ar": "عملة ذهبية", "hi": "सोने का सिक्का", "zh": "金币", "ja": "金貨", "ko": "금화"},
+  "name": {"id": "Koin emas", "ms": "Syiling emas", "da": "Guldmønt", "de": "Goldmünze", "en": "Gold coin", "es": "Moneda de oro", "fil": "Gintong barya", "fr": "Pièce d'or", "it": "Moneta d'oro", "sw": "Sarafu ya dhahabu", "hu": "Aranyérme", "nl": "Gouden munt", "nb": "Gullmynt", "pl": "Złota moneta", "pt": "Moeda de ouro", "ro": "Monedă de aur", "fi": "Kultakolikko", "sv": "Guldmynt", "vi": "Đồng tiền vàng", "tr": "Altın para", "cs": "Zlatá mince", "el": "Χρυσό νόμισμα", "bg": "Златна монета", "ru": "Золотая монета", "uk": "Золота монета", "ur": "سونے کا سکہ", "ar": "عملة ذهبية", "fa": "سکه طلا", "mr": "सोन्याचे नाणे", "hi": "सोने का सिक्का", "bn": "সোনার মুদ্রা", "pa": "ਸੋਨੇ ਦਾ ਸਿੱਕਾ", "ta": "தங்க நாணயம்", "te": "బంగారు నాణెం", "th": "เหรียญทอง", "zh": "金币", "ja": "金貨", "ko": "금화"},
   "solution": ["...####...", ".########.", "##########", "####..####", "###....###", "###....###", "####..####", "##########", ".########.", "...####..."],
   "colors":   ["...AAAA...", ".AAAAAAAA.", "AAYYYYYYAA", "AYYY..YYYA", "AYY....YYA", "AYY....YYA", "AYYY..YYYA", "AAYYYYYYAA", ".AAAAAAAA.", "...AAAA..."],
   "palette":  { "A": "#F59E0B", "Y": "#FACC15" }

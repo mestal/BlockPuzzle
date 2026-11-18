@@ -1,6 +1,6 @@
 {
   "id": 338,
-  "name": {"de": "Mango", "en": "Mango", "es": "Mango", "fr": "Mangue", "it": "Mango", "pl": "Mango", "pt": "Manga", "tr": "Mango", "el": "Μάνγκο", "bg": "Манго", "ru": "Манго", "ar": "مانجو", "hi": "आम", "zh": "芒果", "ja": "マンゴー", "ko": "망고"},
+  "name": {"id": "Mangga", "ms": "Mangga", "da": "Mango", "de": "Mango", "en": "Mango", "es": "Mango", "fil": "Mangga", "fr": "Mangue", "it": "Mango", "sw": "Embe", "hu": "Mangó", "nl": "Mango", "nb": "Mango", "pl": "Mango", "pt": "Manga", "ro": "Mango", "fi": "Mango", "sv": "Mango", "vi": "Quả xoài", "tr": "Mango", "cs": "Mango", "el": "Μάνγκο", "bg": "Манго", "ru": "Манго", "uk": "Манго", "ur": "آم", "ar": "مانجو", "fa": "انبه", "mr": "आंबा", "hi": "आम", "bn": "আম", "pa": "ਅੰਬ", "ta": "மாம்பழம்", "te": "మామిడిపండు", "th": "มะม่วง", "zh": "芒果", "ja": "マンゴー", "ko": "망고"},
   "solution": ["....#.....", "......##..", ".....####.", "....###...", "...####...", "..######..", ".########.", "##########", "##########", "##########", ".########.", "..######..", "...###....", ".#........", ".....#...."],
   "colors":   ["....Y.....", "......GG..", ".....GGGG.", "....HGG...", "...OOOO...", "..OOOOOO..", ".ROOOOOOO.", "RRROOOOOOO", "RRRROOOOOY", "RRRRROOOYY", ".RRRROOYY.", "..RRRYYY..", "...RYY....", ".Y........", ".....Y...."],
   "palette":  { "G": "#22C55E", "H": "#5B3410", "O": "#F97316", "R": "#E8453C", "Y": "#FACC15" }

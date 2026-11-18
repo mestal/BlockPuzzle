@@ -1,6 +1,6 @@
 {
   "id": 136,
-  "name": {"de": "Hummer", "en": "Lobster", "es": "Langosta", "fr": "Homard", "it": "Aragosta", "pl": "Homar", "pt": "Lagosta", "tr": "Istakoz", "el": "Αστακός", "bg": "Омар", "ru": "Омар", "ar": "كركند", "hi": "लॉब्स्टर", "zh": "龙虾", "ja": "ロブスター", "ko": "바닷가재"},
+  "name": {"id": "Lobster", "ms": "Udang galah", "da": "Hummer", "de": "Hummer", "en": "Lobster", "es": "Langosta", "fil": "Ulang", "fr": "Homard", "it": "Aragosta", "sw": "Kamba mti", "hu": "Homár", "nl": "Kreeft", "nb": "Hummer", "pl": "Homar", "pt": "Lagosta", "ro": "Homar", "fi": "Hummeri", "sv": "Hummer", "vi": "Tôm hùm", "tr": "Istakoz", "cs": "Humr", "el": "Αστακός", "bg": "Омар", "ru": "Омар", "uk": "Омар", "ur": "لابسٹر", "ar": "كركند", "fa": "خرچنگ دریایی", "mr": "शेवंड", "hi": "लॉब्स्टर", "bn": "গলদা চিংড়ি", "pa": "ਲੌਬਸਟਰ", "ta": "கல் இறால்", "te": "ఎండ్రకాయ", "th": "กุ้งมังกร", "zh": "龙虾", "ja": "ロブスター", "ko": "바닷가재"},
   "solution": ["..........", "#.#....#.#", "###.#..###", ".#.....##.", "..#....#..", "...####...", "...####...", "...####...", "....##....", "...####...", "...####...", "....##....", "...####...", "..##..##..", ".........."],
   "colors":   ["..........", "R.R....R.R", "RRR.R..RRR", ".R.....RR.", "..R....R..", "...RRRR...", "...RKKR...", "...RRRR...", "....RR....", "...RRRR...", "...RRRR...", "....RR....", "...RRRR...", "..RR..RR..", ".........."],
   "palette":  { "K": "#1F2937", "R": "#E8453C" }

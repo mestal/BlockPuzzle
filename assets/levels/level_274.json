@@ -1,6 +1,6 @@
 {
   "id": 274,
-  "name": {"de": "Schaf", "en": "Sheep", "es": "Oveja", "fr": "Mouton", "it": "Pecora", "pl": "Owca", "pt": "Ovelha", "tr": "Koyun", "el": "Πρόβατο", "bg": "Овца", "ru": "Овца", "ar": "خروف", "hi": "भेड़", "zh": "绵羊", "ja": "ヒツジ", "ko": "양"},
+  "name": {"id": "Domba", "ms": "Biri-biri", "da": "Får", "de": "Schaf", "en": "Sheep", "es": "Oveja", "fil": "Tupa", "fr": "Mouton", "it": "Pecora", "sw": "Kondoo", "hu": "Bárány", "nl": "Schaap", "nb": "Sau", "pl": "Owca", "pt": "Ovelha", "ro": "Oaie", "fi": "Lammas", "sv": "Får", "vi": "Con cừu", "tr": "Koyun", "cs": "Ovce", "el": "Πρόβατο", "bg": "Овца", "ru": "Овца", "uk": "Вівця", "ur": "بھیڑ", "ar": "خروف", "fa": "گوسفند", "mr": "मेंढी", "hi": "भेड़", "bn": "ভেড়া", "pa": "ਭੇਡ", "ta": "செம்மறியாடு", "te": "గొర్రె", "th": "แกะ", "zh": "绵羊", "ja": "ヒツジ", "ko": "양"},
   "solution": ["..........", "#.........", "..#.##....", ".#######..", "##########", "########.#", "##########", "#########.", ".#######..", ".#.#..#.#.", ".#.#..#.#.", "#.#..#..#.", ".#..##.#.#", "..........", ".........."],
   "colors":   ["..........", "Y.........", "..L.LL....", ".LLLLLLL..", "LLLLLLLLKK", "LLLLLLLK.K", "LLLLLLLKKK", "LLLLLLLLK.", ".LLLLLLL..", ".K.K..K.K.", ".K.K..K.K.", "G.G..G..G.", ".G..GG.G.G", "..........", ".........."],
   "palette":  { "G": "#22C55E", "K": "#1F2937", "L": "#E2E8F0", "Y": "#FACC15" }

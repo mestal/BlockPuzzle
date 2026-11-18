@@ -1,6 +1,6 @@
 {
   "id": 443,
-  "name": {"de": "Goldbarren", "en": "Gold bars", "es": "Lingotes de oro", "fr": "Lingots d'or", "it": "Lingotti d'oro", "pl": "Sztabki złota", "pt": "Barras de ouro", "tr": "Altın külçeler", "el": "Ράβδοι χρυσού", "bg": "Златни кюлчета", "ru": "Золотые слитки", "ar": "سبائك ذهبية", "hi": "सोने की ईंटें", "zh": "金条", "ja": "金の延べ棒", "ko": "금괴"},
+  "name": {"id": "Batangan emas", "ms": "Jongkong emas", "da": "Guldbarrer", "de": "Goldbarren", "en": "Gold bars", "es": "Lingotes de oro", "fil": "Gintong bara", "fr": "Lingots d'or", "it": "Lingotti d'oro", "sw": "Vipande vya dhahabu", "hu": "Aranyrudak", "nl": "Goudstaven", "nb": "Gullbarrer", "pl": "Sztabki złota", "pt": "Barras de ouro", "ro": "Lingouri de aur", "fi": "Kultaharkot", "sv": "Guldtackor", "vi": "Thỏi vàng", "tr": "Altın külçeler", "cs": "Zlaté cihly", "el": "Ράβδοι χρυσού", "bg": "Златни кюлчета", "ru": "Золотые слитки", "uk": "Золоті злитки", "ur": "سونے کی اینٹیں", "ar": "سبائك ذهبية", "fa": "شمش طلا", "mr": "सोन्याच्या विटा", "hi": "सोने की ईंटें", "bn": "সোনার বার", "pa": "ਸੋਨੇ ਦੀਆਂ ਇੱਟਾਂ", "ta": "தங்கக் கட்டிகள்", "te": "బంగారు కడ్డీలు", "th": "ทองคำแท่ง", "zh": "金条", "ja": "金の延べ棒", "ko": "금괴"},
   "solution": ["#...#...#.", "..........", "...####...", "..######..", "..######..", ".###..###.", "####..####", "####..####", "..........", "#...#...#."],
   "colors":   ["Y...Y...Y.", "..........", "...AAAA...", "..AYYYYA..", "..AAAAAA..", ".AAA..AAA.", "AYYA..AYYA", "AAAA..AAAA", "..........", "Y...Y...Y."],
   "palette":  { "A": "#F59E0B", "Y": "#FACC15" }

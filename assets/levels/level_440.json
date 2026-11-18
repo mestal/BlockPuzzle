@@ -1,6 +1,6 @@
 {
   "id": 440,
-  "name": {"de": "Mikrofon", "en": "Microphone", "es": "Micrófono", "fr": "Micro", "it": "Microfono", "pl": "Mikrofon", "pt": "Microfone", "tr": "Mikrofon", "el": "Μικρόφωνο", "bg": "Микрофон", "ru": "Микрофон", "ar": "ميكروفون", "hi": "माइक्रोफ़ोन", "zh": "麦克风", "ja": "マイク", "ko": "마이크"},
+  "name": {"id": "Mikrofon", "ms": "Mikrofon", "da": "Mikrofon", "de": "Mikrofon", "en": "Microphone", "es": "Micrófono", "fil": "Mikropono", "fr": "Micro", "it": "Microfono", "sw": "Kipaza sauti", "hu": "Mikrofon", "nl": "Microfoon", "nb": "Mikrofon", "pl": "Mikrofon", "pt": "Microfone", "ro": "Microfon", "fi": "Mikrofoni", "sv": "Mikrofon", "vi": "Micrô", "tr": "Mikrofon", "cs": "Mikrofon", "el": "Μικρόφωνο", "bg": "Микрофон", "ru": "Микрофон", "uk": "Мікрофон", "ur": "مائیکروفون", "ar": "ميكروفون", "fa": "میکروفون", "mr": "माइक", "hi": "माइक्रोफ़ोन", "bn": "মাইক্রোফোন", "pa": "ਮਾਈਕ", "ta": "ஒலிவாங்கி", "te": "మైక్రోఫోన్", "th": "ไมโครโฟน", "zh": "麦克风", "ja": "マイク", "ko": "마이크"},
   "solution": [".#...###..", "....##.##.", "....#.#.#.", "....##.##.", ".....###..", "......#...", "....##....", "....#.....", "...#......", "..##......", "..#.......", "..#.......", "..#.......", ".###......", "######...."],
   "colors":   [".Y...EEE..", "....EE.EE.", "....E.E.E.", "....EE.EE.", ".....EEE..", "......K...", "....KK....", "....K.....", "...K......", "..KK......", "..K.......", "..K.......", "..K.......", ".KKK......", "KKKKKK...."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937", "Y": "#FACC15" }

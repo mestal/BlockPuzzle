@@ -1,6 +1,6 @@
 {
   "id": 361,
-  "name": {"de": "Rabe", "en": "Raven", "es": "Cuervo", "fr": "Corbeau", "it": "Corvo", "pl": "Kruk", "pt": "Corvo", "tr": "Kuzgun", "el": "Κοράκι", "bg": "Гарван", "ru": "Ворон", "ar": "غراب", "hi": "कौआ", "zh": "渡鸦", "ja": "カラス", "ko": "까마귀"},
+  "name": {"id": "Burung gagak", "ms": "Burung gagak", "da": "Ravn", "de": "Rabe", "en": "Raven", "es": "Cuervo", "fil": "Uwak", "fr": "Corbeau", "it": "Corvo", "sw": "Kunguru", "hu": "Holló", "nl": "Raaf", "nb": "Ravn", "pl": "Kruk", "pt": "Corvo", "ro": "Corb", "fi": "Korppi", "sv": "Korp", "vi": "Con quạ", "tr": "Kuzgun", "cs": "Havran", "el": "Κοράκι", "bg": "Гарван", "ru": "Ворон", "uk": "Ворон", "ur": "کوا", "ar": "غراب", "fa": "کلاغ", "mr": "कावळा", "hi": "कौआ", "bn": "দাঁড়কাক", "pa": "ਕਾਂ", "ta": "அண்டங்காக்கை", "te": "కాకి", "th": "อีกา", "zh": "渡鸦", "ja": "カラス", "ko": "까마귀"},
   "solution": ["#..###..#.", "..##.##...", "#######...", "...#####..", "#..######.", "..########", "...#######", "....####.#", ".....#.#..", "##########"],
   "colors":   ["Y..KKK..Y.", "..KK.KK...", "KKKKKKK...", "...KKKKK..", "Y..KKKKKK.", "..KKKKKKKK", "...KKKKKKK", "....KKKK.K", ".....K.K..", "HHHHHHHHHH"],
   "palette":  { "H": "#5B3410", "K": "#1F2937", "Y": "#FACC15" }

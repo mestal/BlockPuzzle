@@ -1,6 +1,6 @@
 {
   "id": 438,
-  "name": {"de": "Saxofon", "en": "Saxophone", "es": "Saxofón", "fr": "Saxophone", "it": "Sassofono", "pl": "Saksofon", "pt": "Saxofone", "tr": "Saksafon", "el": "Σαξόφωνο", "bg": "Саксофон", "ru": "Саксофон", "ar": "ساكسفون", "hi": "सैक्सोफ़ोन", "zh": "萨克斯", "ja": "サックス", "ko": "색소폰"},
+  "name": {"id": "Saksofon", "ms": "Saksofon", "da": "Saxofon", "de": "Saxofon", "en": "Saxophone", "es": "Saxofón", "fil": "Saksopon", "fr": "Saxophone", "it": "Sassofono", "sw": "Saksafoni", "hu": "Szaxofon", "nl": "Saxofoon", "nb": "Saksofon", "pl": "Saksofon", "pt": "Saxofone", "ro": "Saxofon", "fi": "Saksofoni", "sv": "Saxofon", "vi": "Kèn saxophone", "tr": "Saksafon", "cs": "Saxofon", "el": "Σαξόφωνο", "bg": "Саксофон", "ru": "Саксофон", "uk": "Саксофон", "ur": "سیکسوفون", "ar": "ساكسفون", "fa": "ساکسیفون", "mr": "सॅक्सोफोन", "hi": "सैक्सोफ़ोन", "bn": "স্যাক্সোফোন", "pa": "ਸੈਕਸੋਫ਼ੋਨ", "ta": "சாக்ஸபோன்", "te": "సాక్సోఫోన్", "th": "แซกโซโฟน", "zh": "萨克斯", "ja": "サックス", "ko": "색소폰"},
   "solution": ["..........", ".......##.", "........#.", ".......##.", ".......##.", "......###.", "......##..", "......###.", "..##..##..", ".####.###.", "..##..##..", "...#..##..", "...#.##...", "...###...#", "#........."],
   "colors":   ["..........", ".......KK.", "........A.", ".......AA.", ".......AA.", "......AKA.", "......AA..", "......AKA.", "..AA..AA..", ".AAAA.AKA.", "..AA..AA..", "...A..AA..", "...A.AA...", "...AAA...Y", "Y........."],
   "palette":  { "A": "#F59E0B", "K": "#1F2937", "Y": "#FACC15" }

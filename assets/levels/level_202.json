@@ -1,6 +1,6 @@
 {
   "id": 202,
-  "name": {"de": "Reisball", "en": "Rice ball", "es": "Bola de arroz", "fr": "Boulette de riz", "it": "Polpetta di riso", "pl": "Kulka ryżowa", "pt": "Bolinho de arroz", "tr": "Pirinç topu", "el": "Μπάλα ρυζιού", "bg": "Оризова топка", "ru": "Рисовый шарик", "ar": "كرة أرز", "hi": "चावल का गोला", "zh": "饭团", "ja": "おにぎり", "ko": "주먹밥"},
+  "name": {"id": "Nasi kepal", "ms": "Bebola nasi", "da": "Risbold", "de": "Reisball", "en": "Rice ball", "es": "Bola de arroz", "fil": "Bola ng kanin", "fr": "Boulette de riz", "it": "Polpetta di riso", "sw": "Mpira wa wali", "hu": "Rizsgombóc", "nl": "Rijstbal", "nb": "Risball", "pl": "Kulka ryżowa", "pt": "Bolinho de arroz", "ro": "Bilă de orez", "fi": "Riisipallo", "sv": "Risboll", "vi": "Cơm nắm", "tr": "Pirinç topu", "cs": "Rýžová koule", "el": "Μπάλα ρυζιού", "bg": "Оризова топка", "ru": "Рисовый шарик", "uk": "Рисова кулька", "ur": "چاول کا گولا", "ar": "كرة أرز", "fa": "گلوله برنج", "mr": "भाताचा गोळा", "hi": "चावल का गोला", "bn": "ভাতের বল", "pa": "ਚੌਲਾਂ ਦਾ ਗੋਲਾ", "ta": "சோற்று உருண்டை", "te": "అన్నం ముద్ద", "th": "ข้าวปั้น", "zh": "饭团", "ja": "おにぎり", "ko": "주먹밥"},
   "solution": ["#......#..", "....##....", "...####...", "..#.##.#.#", "..######..", ".###..###.", ".########.", ".########.", ".########.", ".........."],
   "colors":   ["Y......Y..", "....WW....", "...WWWW...", "..W.WW.W.Y", "..WWWWWW..", ".WWW..WWW.", ".WKKKKKKW.", ".WKKKKKKW.", ".KKKKKKKK.", ".........."],
   "palette":  { "K": "#1F2937", "W": "#FFFFFF", "Y": "#FACC15" }

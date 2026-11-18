@@ -1,6 +1,6 @@
 {
   "id": 491,
-  "name": {"de": "Big Ben", "en": "Big Ben", "es": "Big Ben", "fr": "Big Ben", "it": "Big Ben", "pl": "Big Ben", "pt": "Big Ben", "tr": "Big Ben", "el": "Μπιγκ Μπεν", "bg": "Биг Бен", "ru": "Биг-Бен", "ar": "بيغ بن", "hi": "बिग बेन", "zh": "大本钟", "ja": "ビッグ・ベン", "ko": "빅벤"},
+  "name": {"id": "Big Ben", "ms": "Big Ben", "da": "Big Ben", "de": "Big Ben", "en": "Big Ben", "es": "Big Ben", "fil": "Big Ben", "fr": "Big Ben", "it": "Big Ben", "sw": "Big Ben", "hu": "Big Ben", "nl": "Big Ben", "nb": "Big Ben", "pl": "Big Ben", "pt": "Big Ben", "ro": "Big Ben", "fi": "Big Ben", "sv": "Big Ben", "vi": "Tháp Big Ben", "tr": "Big Ben", "cs": "Big Ben", "el": "Μπιγκ Μπεν", "bg": "Биг Бен", "ru": "Биг-Бен", "uk": "Біг-Бен", "ur": "بگ بین", "ar": "بيغ بن", "fa": "بیگ بن", "mr": "बिग बेन", "hi": "बिग बेन", "bn": "বিগ বেন", "pa": "ਬਿੱਗ ਬੈਨ", "ta": "பிக் பென்", "te": "బిగ్ బెన్", "th": "บิ๊กเบน", "zh": "大本钟", "ja": "ビッグ・ベン", "ko": "빅벤"},
   "solution": ["#...#..#..", "...###....", "...###....", "..#####...", "..#####...", "#.#.#.#...", "..#.###.#.", "..#####...", "..#####...", "#.#.#.#...", "..#####.#.", "..#.#.#...", "..#####...", "..#.#.#...", ".#######.."],
   "colors":   ["Y...K..Y..", "...EEE....", "...EEE....", "..EEEEE...", "..AAAAA...", "Y.A.K.A...", "..A.KKA.Y.", "..AAAAA...", "..TTTTT...", "Y.T.T.T...", "..TTTTT.Y.", "..T.T.T...", "..TTTTT...", "..T.T.T...", ".TTTTTTT.."],
   "palette":  { "A": "#F59E0B", "E": "#94A3B8", "K": "#1F2937", "T": "#92400E", "Y": "#FACC15" }

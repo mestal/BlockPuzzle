@@ -1,6 +1,6 @@
 {
   "id": 207,
-  "name": {"de": "Panda", "en": "Panda", "es": "Panda", "fr": "Panda", "it": "Panda", "pl": "Panda", "pt": "Panda", "tr": "Panda", "el": "Πάντα", "bg": "Панда", "ru": "Панда", "ar": "باندا", "hi": "पांडा", "zh": "熊猫", "ja": "パンダ", "ko": "판다"},
+  "name": {"id": "Panda", "ms": "Panda", "da": "Panda", "de": "Panda", "en": "Panda", "es": "Panda", "fil": "Panda", "fr": "Panda", "it": "Panda", "sw": "Panda", "hu": "Panda", "nl": "Panda", "nb": "Panda", "pl": "Panda", "pt": "Panda", "ro": "Panda", "fi": "Panda", "sv": "Panda", "vi": "Gấu trúc", "tr": "Panda", "cs": "Panda", "el": "Πάντα", "bg": "Панда", "ru": "Панда", "uk": "Панда", "ur": "پانڈا", "ar": "باندا", "fa": "پاندا", "mr": "पांडा", "hi": "पांडा", "bn": "পান্ডা", "pa": "ਪਾਂਡਾ", "ta": "பாண்டா", "te": "పాండా", "th": "แพนด้า", "zh": "熊猫", "ja": "パンダ", "ko": "판다"},
   "solution": ["...#......", "##......##", "##########", ".########.", "##########", "###.##.###", "##########", "##########", ".########.", "..######..", ".########.", "##########", "##.####.##", "..##..##..", "#........#"],
   "colors":   ["...Y......", "KK......KK", "KKWWWWWWKK", ".WWWWWWWW.", "WWKKWWKKWW", "WKK.WW.KKW", "WKKWWWWKKW", "WWWWKKWWWW", ".WWWWWWWW.", "..WWWWWW..", ".KKWWWWKK.", "KKKWWWWKKK", "KK.WWWW.KK", "..KK..KK..", "Y........Y"],
   "palette":  { "K": "#1F2937", "W": "#FFFFFF", "Y": "#FACC15" }

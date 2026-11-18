@@ -1,6 +1,6 @@
 {
   "id": 60,
-  "name": {"de": "Spinne", "en": "Spider", "es": "Araña", "fr": "Araignée", "it": "Ragno", "pl": "Pająk", "pt": "Aranha", "tr": "Örümcek", "el": "Αράχνη", "bg": "Паяк", "ru": "Паук", "ar": "عنكبوت", "hi": "मकड़ी", "zh": "蜘蛛", "ja": "クモ", "ko": "거미"},
+  "name": {"id": "Laba-laba", "ms": "Labah-labah", "da": "Edderkop", "de": "Spinne", "en": "Spider", "es": "Araña", "fil": "Gagamba", "fr": "Araignée", "it": "Ragno", "sw": "Buibui", "hu": "Pók", "nl": "Spin", "nb": "Edderkopp", "pl": "Pająk", "pt": "Aranha", "ro": "Păianjen", "fi": "Hämähäkki", "sv": "Spindel", "vi": "Con nhện", "tr": "Örümcek", "cs": "Pavouk", "el": "Αράχνη", "bg": "Паяк", "ru": "Паук", "uk": "Павук", "ur": "مکڑی", "ar": "عنكبوت", "fa": "عنکبوت", "mr": "कोळी", "hi": "मकड़ी", "bn": "মাকড়সা", "pa": "ਮੱਕੜੀ", "ta": "சிலந்தி", "te": "సాలీడు", "th": "แมงมุม", "zh": "蜘蛛", "ja": "クモ", "ko": "거미"},
   "solution": ["#......##.", ".......#..", "..#.#.#...", "##.###.##.", "..#####...", "#########.", "..#####...", "...###....", "#..#.#..#.", ".........."],
   "colors":   ["K......KK.", ".......K..", "..K.K.K...", "KK.KKK.KK.", "..KKKKK...", "KKKRKRKKK.", "..KKKKK...", "...KKK....", "K..K.K..K.", ".........."],
   "palette":  { "K": "#1F2937", "R": "#E8453C" }

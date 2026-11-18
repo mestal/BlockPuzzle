@@ -1,6 +1,6 @@
 {
   "id": 403,
-  "name": {"de": "Schubkarre", "en": "Wheelbarrow", "es": "Carretilla", "fr": "Brouette", "it": "Carriola", "pl": "Taczka", "pt": "Carrinho de mão", "tr": "El arabası", "el": "Καρότσι", "bg": "Ръчна количка", "ru": "Тачка", "ar": "عربة يدوية", "hi": "ठेला", "zh": "手推车", "ja": "手押し車", "ko": "외바퀴 손수레"},
+  "name": {"id": "Gerobak dorong", "ms": "Kereta sorong", "da": "Trillebør", "de": "Schubkarre", "en": "Wheelbarrow", "es": "Carretilla", "fil": "Kartilya", "fr": "Brouette", "it": "Carriola", "sw": "Toroli", "hu": "Talicska", "nl": "Kruiwagen", "nb": "Trillebår", "pl": "Taczka", "pt": "Carrinho de mão", "ro": "Roabă", "fi": "Kottikärryt", "sv": "Skottkärra", "vi": "Xe cút kít", "tr": "El arabası", "cs": "Kolečko", "el": "Καρότσι", "bg": "Ръчна количка", "ru": "Тачка", "uk": "Тачка", "ur": "ہتھ گاڑی", "ar": "عربة يدوية", "fa": "فرغون", "mr": "ढकलगाडी", "hi": "ठेला", "bn": "ঠেলাগাড়ি", "pa": "ਹੱਥ ਰੇੜ੍ਹੀ", "ta": "தள்ளுவண்டி", "te": "తోపుడు బండి", "th": "รถเข็นดิน", "zh": "手推车", "ja": "手押し車", "ko": "외바퀴 손수레"},
   "solution": ["###.......", "..#.......", "...#.###..", "...#######", "....######", "#....####.", "....#.###.", "....#.#.#.", "......###.", "#...#....."],
   "colors":   ["TTT.......", "..T.......", "...T.HHH..", "...RRRRRRR", "....RRRRRR", "Y....RRRR.", "....T.EEE.", "....T.E.E.", "......EEE.", "Y...Y....."],
   "palette":  { "E": "#94A3B8", "H": "#5B3410", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 11,
-  "name": {"de": "Burg", "en": "Castle", "es": "Castillo", "fr": "Château", "it": "Castello", "pl": "Zamek", "pt": "Castelo", "tr": "Kale", "el": "Κάστρο", "bg": "Замък", "ru": "Замок", "ar": "قلعة", "hi": "किला", "zh": "城堡", "ja": "お城", "ko": "성"},
+  "name": {"id": "Kastil", "ms": "Istana", "da": "Slot", "de": "Burg", "en": "Castle", "es": "Castillo", "fil": "Kastilyo", "fr": "Château", "it": "Castello", "sw": "Kasri", "hu": "Vár", "nl": "Kasteel", "nb": "Slott", "pl": "Zamek", "pt": "Castelo", "ro": "Castel", "fi": "Linna", "sv": "Slott", "vi": "Lâu đài", "tr": "Kale", "cs": "Hrad", "el": "Κάστρο", "bg": "Замък", "ru": "Замок", "uk": "Замок", "ur": "قلعہ", "ar": "قلعة", "fa": "قلعه", "mr": "किल्ला", "hi": "किला", "bn": "দুর্গ", "pa": "ਕਿਲ੍ਹਾ", "ta": "கோட்டை", "te": "కోట", "th": "ปราสาท", "zh": "城堡", "ja": "お城", "ko": "성"},
   "solution": ["#.#.##.#.#", "##########", "##########", "##########", "##########"],
   "colors":   ["E.E.EE.E.E", "EEEEEEEEEE", "EEBEEEEBEE", "EEEEHHEEEE", "EEEEHHEEEE"],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "H": "#5B3410" }

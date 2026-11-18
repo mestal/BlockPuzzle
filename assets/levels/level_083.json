@@ -1,6 +1,6 @@
 {
   "id": 83,
-  "name": {"de": "Pyramide", "en": "Pyramid", "es": "Pirámide", "fr": "Pyramide", "it": "Piramide", "pl": "Piramida", "pt": "Pirâmide", "tr": "Piramit", "el": "Πυραμίδα", "bg": "Пирамида", "ru": "Пирамида", "ar": "هرم", "hi": "पिरामिड", "zh": "金字塔", "ja": "ピラミッド", "ko": "피라미드"},
+  "name": {"id": "Piramida", "ms": "Piramid", "da": "Pyramide", "de": "Pyramide", "en": "Pyramid", "es": "Pirámide", "fil": "Piramide", "fr": "Pyramide", "it": "Piramide", "sw": "Piramidi", "hu": "Piramis", "nl": "Piramide", "nb": "Pyramide", "pl": "Piramida", "pt": "Pirâmide", "ro": "Piramidă", "fi": "Pyramidi", "sv": "Pyramid", "vi": "Kim tự tháp", "tr": "Piramit", "cs": "Pyramida", "el": "Πυραμίδα", "bg": "Пирамида", "ru": "Пирамида", "uk": "Піраміда", "ur": "اہرام", "ar": "هرم", "fa": "هرم", "mr": "पिरॅमिड", "hi": "पिरामिड", "bn": "পিরামিড", "pa": "ਪਿਰਾਮਿਡ", "ta": "பிரமிடு", "te": "పిరమిడ్", "th": "พีระมิด", "zh": "金字塔", "ja": "ピラミッド", "ko": "피라미드"},
   "solution": ["....##....", "...####...", "...####...", "..######..", "..######..", ".########.", ".########.", "##########", "##########", "##########"],
   "colors":   ["....AA....", "...AAAA...", "...ASAA...", "..AAAAAA..", "..ASAAAA..", ".AAAAAAAA.", ".AAAAAASA.", "AAAAAAAAAA", "AAAASAAAAA", "SSSSSSSSSS"],
   "palette":  { "A": "#F59E0B", "S": "#FDE68A" }

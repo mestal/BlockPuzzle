@@ -1,6 +1,6 @@
 {
   "id": 354,
-  "name": {"de": "Obelisk", "en": "Obelisk", "es": "Obelisco", "fr": "Obélisque", "it": "Obelisco", "pl": "Obelisk", "pt": "Obelisco", "tr": "Dikilitaş", "el": "Οβελίσκος", "bg": "Обелиск", "ru": "Обелиск", "ar": "مسلة", "hi": "ओबिलिस्क", "zh": "方尖碑", "ja": "オベリスク", "ko": "오벨리스크"},
+  "name": {"id": "Obelisk", "ms": "Obelisk", "da": "Obelisk", "de": "Obelisk", "en": "Obelisk", "es": "Obelisco", "fil": "Obelisk", "fr": "Obélisque", "it": "Obelisco", "sw": "Nguzo ya mawe", "hu": "Obeliszk", "nl": "Obelisk", "nb": "Obelisk", "pl": "Obelisk", "pt": "Obelisco", "ro": "Obelisc", "fi": "Obeliski", "sv": "Obelisk", "vi": "Cột tháp", "tr": "Dikilitaş", "cs": "Obelisk", "el": "Οβελίσκος", "bg": "Обелиск", "ru": "Обелиск", "uk": "Обеліск", "ur": "مینار نما ستون", "ar": "مسلة", "fa": "ستون یادبود", "mr": "स्तंभ", "hi": "ओबिलिस्क", "bn": "স্মৃতিস্তম্ভ", "pa": "ਥੰਮ੍ਹ", "ta": "தூபி", "te": "స్తూపం", "th": "เสาโอเบลิสก์", "zh": "方尖碑", "ja": "オベリスク", "ko": "오벨리스크"},
   "solution": [".#..#..#..", "...###....", "...###....", "...#.#....", "...###.#..", "...##.....", ".#.###....", "...#.#....", "...###.#..", "....##....", "...###....", "...###....", "..#####...", ".#######..", ".........#"],
   "colors":   [".Y..A..Y..", "...AAA....", "...EEE....", "...E.E....", "...EEE.Y..", "...EE.....", ".Y.EEE....", "...E.E....", "...EEE.Y..", "....EE....", "...EEE....", "...EEE....", "..EEEEE...", ".EEEEEEE..", ".........Y"],
   "palette":  { "A": "#F59E0B", "E": "#94A3B8", "Y": "#FACC15" }

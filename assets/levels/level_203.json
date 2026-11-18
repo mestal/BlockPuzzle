@@ -1,6 +1,6 @@
 {
   "id": 203,
-  "name": {"de": "Teekanne", "en": "Teapot", "es": "Tetera", "fr": "Théière", "it": "Teiera", "pl": "Czajniczek", "pt": "Bule", "tr": "Demlik", "el": "Τσαγιέρα", "bg": "Чайник", "ru": "Чайник", "ar": "إبريق شاي", "hi": "चायदानी", "zh": "茶壶", "ja": "急須", "ko": "찻주전자"},
+  "name": {"id": "Teko", "ms": "Teko", "da": "Tekande", "de": "Teekanne", "en": "Teapot", "es": "Tetera", "fil": "Tsarera", "fr": "Théière", "it": "Teiera", "sw": "Birika la chai", "hu": "Teáskanna", "nl": "Theepot", "nb": "Tekanne", "pl": "Czajniczek", "pt": "Bule", "ro": "Ceainic", "fi": "Teekannu", "sv": "Tekanna", "vi": "Ấm trà", "tr": "Demlik", "cs": "Konvice na čaj", "el": "Τσαγιέρα", "bg": "Чайник", "ru": "Чайник", "uk": "Чайник", "ur": "چائے دانی", "ar": "إبريق شاي", "fa": "قوری", "mr": "चहाची किटली", "hi": "चायदानी", "bn": "চায়ের কেটলি", "pa": "ਚਾਹਦਾਨੀ", "ta": "தேநீர்க் கெண்டி", "te": "టీ కెటిల్", "th": "กาน้ำชา", "zh": "茶壶", "ja": "急須", "ko": "찻주전자"},
   "solution": ["...#.#....", "....#.#...", "....##....", "...####...", ".########.", "#.######.#", "#.#######.", ".########.", "..######..", "...####..."],
   "colors":   ["...W.W....", "....W.W...", "....KK....", "...QQQQ...", ".QQQQQQQQ.", "Q.QQQQQQ.Q", "Q.QWQQWQQ.", ".QQQQQQQQ.", "..QQQQQQ..", "...QQQQ..."],
   "palette":  { "K": "#1F2937", "Q": "#0D9488", "W": "#FFFFFF" }

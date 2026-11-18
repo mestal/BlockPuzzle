@@ -1,6 +1,6 @@
 {
   "id": 360,
-  "name": {"de": "Amphore", "en": "Amphora", "es": "Ánfora", "fr": "Amphore", "it": "Anfora", "pl": "Amfora", "pt": "Ânfora", "tr": "Amfora", "el": "Αμφορέας", "bg": "Амфора", "ru": "Амфора", "ar": "أمفورة", "hi": "सुराही", "zh": "双耳瓶", "ja": "アンフォラ", "ko": "암포라"},
+  "name": {"id": "Amfora", "ms": "Amfora", "da": "Amfora", "de": "Amphore", "en": "Amphora", "es": "Ánfora", "fil": "Ampora", "fr": "Amphore", "it": "Anfora", "sw": "Gudulia la kale", "hu": "Amfora", "nl": "Amfoor", "nb": "Amfora", "pl": "Amfora", "pt": "Ânfora", "ro": "Amforă", "fi": "Amfora", "sv": "Amfora", "vi": "Bình gốm cổ", "tr": "Amfora", "cs": "Amfora", "el": "Αμφορέας", "bg": "Амфора", "ru": "Амфора", "uk": "Амфора", "ur": "صراحی", "ar": "أمفورة", "fa": "آمفورا", "mr": "सुरई", "hi": "सुराही", "bn": "অ্যাম্ফোরা", "pa": "ਸੁਰਾਹੀ", "ta": "சாடி", "te": "కూజా", "th": "โถแอมโฟรา", "zh": "双耳瓶", "ja": "アンフォラ", "ko": "암포라"},
   "solution": ["........#.", "...####...", "....##....", "..#.##.#..", ".#.####.#.", ".#.####.#.", "..######..", ".########.", ".########.", ".########.", "..######..", "...####...", "....##....", "...####...", "#........."],
   "colors":   ["........Y.", "...OOOO...", "....OO....", "..O.OO.O..", ".O.OOOO.O.", ".O.OOOO.O.", "..OOOOOO..", ".OOKKKKOO.", ".OOOOOOOO.", ".OKOKOKOO.", "..OOOOOO..", "...OOOO...", "....OO....", "...OOOO...", "Y........."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "Y": "#FACC15" }

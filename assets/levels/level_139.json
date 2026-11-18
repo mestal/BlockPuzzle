@@ -1,6 +1,6 @@
 {
   "id": 139,
-  "name": {"de": "Schwertfisch", "en": "Swordfish", "es": "Pez espada", "fr": "Espadon", "it": "Pesce spada", "pl": "Miecznik", "pt": "Peixe-espada", "tr": "Kılıç balığı", "el": "Ξιφίας", "bg": "Риба меч", "ru": "Рыба-меч", "ar": "سمكة أبو سيف", "hi": "स्वोर्डफ़िश", "zh": "剑鱼", "ja": "メカジキ", "ko": "황새치"},
+  "name": {"id": "Ikan todak", "ms": "Ikan todak", "da": "Sværdfisk", "de": "Schwertfisch", "en": "Swordfish", "es": "Pez espada", "fil": "Isdang-espada", "fr": "Espadon", "it": "Pesce spada", "sw": "Samaki panga", "hu": "Kardhal", "nl": "Zwaardvis", "nb": "Sverdfisk", "pl": "Miecznik", "pt": "Peixe-espada", "ro": "Pește-spadă", "fi": "Miekkakala", "sv": "Svärdfisk", "vi": "Cá kiếm", "tr": "Kılıç balığı", "cs": "Mečoun", "el": "Ξιφίας", "bg": "Риба меч", "ru": "Рыба-меч", "uk": "Риба-меч", "ur": "تلوار مچھلی", "ar": "سمكة أبو سيف", "fa": "اره‌ماهی", "mr": "तलवार मासा", "hi": "स्वोर्डफ़िश", "bn": "তলোয়ার মাছ", "pa": "ਤਲਵਾਰ ਮੱਛੀ", "ta": "வாள் மீன்", "te": "కత్తి చేప", "th": "ปลากระโทงดาบ", "zh": "剑鱼", "ja": "メカジキ", "ko": "황새치"},
   "solution": ["..........", "........##", "........#.", ".......#..", "......##..", ".....####.", "....#####.", "...######.", "..#####...", ".######..#", "######....", ".####.....", "#..#......", "##........", ".........."],
   "colors":   ["..........", "........EE", "........E.", ".......E..", "......BB..", ".....BBBB.", "....BKBBB.", "...BBBBBB.", "..BBBBB...", ".BBBBBB..B", "BBBBBB....", ".BBBB.....", "B..B......", "BB........", ".........."],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "K": "#1F2937" }

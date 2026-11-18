@@ -1,6 +1,6 @@
 {
   "id": 464,
-  "name": {"de": "Hantel", "en": "Dumbbell", "es": "Mancuerna", "fr": "Haltère", "it": "Manubrio", "pl": "Hantel", "pt": "Haltere", "tr": "Dambıl", "el": "Αλτήρας", "bg": "Дъмбел", "ru": "Гантель", "ar": "دمبل", "hi": "डम्बल", "zh": "哑铃", "ja": "ダンベル", "ko": "아령"},
+  "name": {"id": "Dumbel", "ms": "Dumbel", "da": "Håndvægt", "de": "Hantel", "en": "Dumbbell", "es": "Mancuerna", "fil": "Dumbbell", "fr": "Haltère", "it": "Manubrio", "sw": "Chuma cha mazoezi", "hu": "Súlyzó", "nl": "Halter", "nb": "Manual", "pl": "Hantel", "pt": "Haltere", "ro": "Gantera", "fi": "Käsipaino", "sv": "Hantel", "vi": "Quả tạ", "tr": "Dambıl", "cs": "Činka", "el": "Αλτήρας", "bg": "Дъмбел", "ru": "Гантель", "uk": "Гантель", "ur": "ڈمبل", "ar": "دمبل", "fa": "دمبل", "mr": "डंबेल", "hi": "डम्बल", "bn": "ডাম্বেল", "pa": "ਡੰਬਲ", "ta": "டம்பெல்", "te": "డంబెల్", "th": "ดัมเบล", "zh": "哑铃", "ja": "ダンベル", "ko": "아령"},
   "solution": [".##..#....", "####......", "#####.....", ".##..##.#.", "......#...", ".......##.", "#.....####", "......####", ".......##.", ".........."],
   "colors":   [".KK..Y....", "KKKK......", "KKKKE.....", ".KK..EE.K.", "......E...", ".......KK.", "Y.....KKKK", "......KKKK", ".......KK.", ".........."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937", "Y": "#FACC15" }

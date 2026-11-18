@@ -1,6 +1,6 @@
 {
   "id": 159,
-  "name": {"de": "Meteor", "en": "Meteor", "es": "Meteorito", "fr": "Météore", "it": "Meteora", "pl": "Meteor", "pt": "Meteoro", "tr": "Göktaşı", "el": "Μετεωρίτης", "bg": "Метеор", "ru": "Метеорит", "ar": "نيزك", "hi": "उल्का", "zh": "流星", "ja": "隕石", "ko": "유성"},
+  "name": {"id": "Meteor", "ms": "Meteor", "da": "Meteor", "de": "Meteor", "en": "Meteor", "es": "Meteorito", "fil": "Bulalakaw", "fr": "Météore", "it": "Meteora", "sw": "Kimondo", "hu": "Meteor", "nl": "Meteoor", "nb": "Meteor", "pl": "Meteor", "pt": "Meteoro", "ro": "Meteor", "fi": "Meteori", "sv": "Meteor", "vi": "Thiên thạch", "tr": "Göktaşı", "cs": "Meteor", "el": "Μετεωρίτης", "bg": "Метеор", "ru": "Метеорит", "uk": "Метеор", "ur": "شہابِ ثاقب", "ar": "نيزك", "fa": "شهاب‌سنگ", "mr": "उल्का", "hi": "उल्का", "bn": "উল্কা", "pa": "ਉਲਕਾ", "ta": "விண்கல்", "te": "ఉల్క", "th": "อุกกาบาต", "zh": "流星", "ja": "隕石", "ko": "유성"},
   "solution": ["..........", "##........", ".#.#......", "..##.#....", ".#.###....", "...###.#..", "..#####...", "....####..", "...######.", "...#######", "...#######", "...#######", "....#####.", ".....###..", ".........."],
   "colors":   ["..........", "OO........", ".O.O......", "..OO.O....", ".O.OOO....", "...OOO.O..", "..OOOOO...", "....OHHH..", "...OHHHHH.", "...HHHHHHH", "...HHEHHHH", "...HHHHEHH", "....HHHHH.", ".....HHH..", ".........."],
   "palette":  { "E": "#94A3B8", "H": "#5B3410", "O": "#F97316" }

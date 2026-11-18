@@ -1,6 +1,6 @@
 {
   "id": 229,
-  "name": {"de": "Skateboard", "en": "Skateboard", "es": "Monopatín", "fr": "Planche à roulettes", "it": "Skateboard", "pl": "Deskorolka", "pt": "Skate", "tr": "Kaykay", "el": "Σκέιτμπορντ", "bg": "Скейтборд", "ru": "Скейтборд", "ar": "لوح تزلج", "hi": "स्केटबोर्ड", "zh": "滑板", "ja": "スケートボード", "ko": "스케이트보드"},
+  "name": {"id": "Papan seluncur", "ms": "Papan luncur", "da": "Skateboard", "de": "Skateboard", "en": "Skateboard", "es": "Monopatín", "fil": "Skateboard", "fr": "Planche à roulettes", "it": "Skateboard", "sw": "Ubao wa kuteleza", "hu": "Gördeszka", "nl": "Skateboard", "nb": "Rullebrett", "pl": "Deskorolka", "pt": "Skate", "ro": "Skateboard", "fi": "Rullalauta", "sv": "Skateboard", "vi": "Ván trượt", "tr": "Kaykay", "cs": "Skateboard", "el": "Σκέιτμπορντ", "bg": "Скейтборд", "ru": "Скейтборд", "uk": "Скейтборд", "ur": "اسکیٹ بورڈ", "ar": "لوح تزلج", "fa": "اسکیت‌بورد", "mr": "स्केटबोर्ड", "hi": "स्केटबोर्ड", "bn": "স্কেটবোর্ড", "pa": "ਸਕੇਟਬੋਰਡ", "ta": "சறுக்குப் பலகை", "te": "స్కేట్‌బోర్డ్", "th": "สเก็ตบอร์ด", "zh": "滑板", "ja": "スケートボード", "ko": "스케이트보드"},
   "solution": ["..#.......", "..........", "#........#", "..#######.", "..#....#..", ".###..###.", "..#....#..", "##########", "..........", "...#......"],
   "colors":   ["..Y.......", "..........", "O........O", "..OOOOOOO.", "..K....K..", ".KKK..KKK.", "..K....K..", "EEEEEEEEEE", "..........", "...Y......"],
   "palette":  { "E": "#94A3B8", "K": "#1F2937", "O": "#F97316", "Y": "#FACC15" }

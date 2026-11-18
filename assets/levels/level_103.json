@@ -1,6 +1,6 @@
 {
   "id": 103,
-  "name": {"de": "Schlitten", "en": "Sled", "es": "Trineo", "fr": "Luge", "it": "Slitta", "pl": "Sanki", "pt": "Trenó", "tr": "Kızak", "el": "Έλκηθρο", "bg": "Шейна", "ru": "Санки", "ar": "مزلجة", "hi": "स्लेज", "zh": "雪橇", "ja": "そり", "ko": "썰매"},
+  "name": {"id": "Kereta luncur", "ms": "Kereta salji", "da": "Kælk", "de": "Schlitten", "en": "Sled", "es": "Trineo", "fil": "Paragos", "fr": "Luge", "it": "Slitta", "sw": "Kigari cha theluji", "hu": "Szánkó", "nl": "Slee", "nb": "Kjelke", "pl": "Sanki", "pt": "Trenó", "ro": "Sanie", "fi": "Kelkka", "sv": "Kälke", "vi": "Xe trượt tuyết", "tr": "Kızak", "cs": "Sáňky", "el": "Έλκηθρο", "bg": "Шейна", "ru": "Санки", "uk": "Санчата", "ur": "برفانی گاڑی", "ar": "مزلجة", "fa": "سورتمه", "mr": "घसरगाडी", "hi": "स्लेज", "bn": "স্লেজ", "pa": "ਬਰਫ਼ ਗੱਡੀ", "ta": "பனிச் சறுக்கு வண்டி", "te": "మంచు బండి", "th": "เลื่อนหิมะ", "zh": "雪橇", "ja": "そり", "ko": "썰매"},
   "solution": ["#........#", "##......##", ".########.", ".########.", ".########.", "..#....#..", "..#....#..", "##########", "#........#", ".........."],
   "colors":   ["R........R", "RR......RR", ".RRRRRRRR.", ".RWRWRWRR.", ".RRRRRRRR.", "..T....T..", "..T....T..", "EEEEEEEEEE", "E........E", ".........."],
   "palette":  { "E": "#94A3B8", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }

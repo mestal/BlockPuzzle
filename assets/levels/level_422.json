@@ -1,6 +1,6 @@
 {
   "id": 422,
-  "name": {"de": "Klavier", "en": "Piano", "es": "Piano", "fr": "Piano", "it": "Pianoforte", "pl": "Pianino", "pt": "Piano", "tr": "Piyano", "el": "Πιάνο", "bg": "Пиано", "ru": "Пианино", "ar": "بيانو", "hi": "पियानो", "zh": "钢琴", "ja": "ピアノ", "ko": "피아노"},
+  "name": {"id": "Piano", "ms": "Piano", "da": "Klaver", "de": "Klavier", "en": "Piano", "es": "Piano", "fil": "Piyano", "fr": "Piano", "it": "Pianoforte", "sw": "Piano", "hu": "Zongora", "nl": "Piano", "nb": "Piano", "pl": "Pianino", "pt": "Piano", "ro": "Pian", "fi": "Piano", "sv": "Piano", "vi": "Đàn piano", "tr": "Piyano", "cs": "Klavír", "el": "Πιάνο", "bg": "Пиано", "ru": "Пианино", "uk": "Піаніно", "ur": "پیانو", "ar": "بيانو", "fa": "پیانو", "mr": "पियानो", "hi": "पियानो", "bn": "পিয়ানো", "pa": "ਪਿਆਨੋ", "ta": "பியானோ", "te": "పియానో", "th": "เปียโน", "zh": "钢琴", "ja": "ピアノ", "ko": "피아노"},
   "solution": ["#.#.#...#.", ".#........", "..#.......", "...#######", ".#########", "#.#.#.####", "##########", ".#.....#..", ".#.#...#.#", ".#.....#.."],
   "colors":   ["K.K.Y...Y.", ".K........", "..K.......", "...KKKKKKK", ".KKKKKKKKK", "K.K.K.KKKK", "KKKKKKKKKK", ".K.....K..", ".K.Y...K.Y", ".K.....K.."],
   "palette":  { "K": "#1F2937", "Y": "#FACC15" }

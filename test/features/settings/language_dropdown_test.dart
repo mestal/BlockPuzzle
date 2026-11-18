@@ -23,8 +23,14 @@ void main() {
     await tester.tap(find.byType(LanguageDropdown));
     await tester.pumpAndSettle();
     // The open menu scrolls to the current choice; scroll back to the top.
-    await tester.drag(find.byType(Scrollable).last, const Offset(0, 400));
+    await tester.drag(find.byType(Scrollable).last, const Offset(0, 2000));
     await tester.pumpAndSettle();
+    // The menu is long and builds lazily: scroll down to the wanted entry.
+    await tester.scrollUntilVisible(
+      find.text(tap),
+      100,
+      scrollable: find.byType(Scrollable).last,
+    );
     await tester.tap(find.text(tap).last);
     await tester.pumpAndSettle();
     return picked;

@@ -1,6 +1,6 @@
 {
   "id": 57,
-  "name": {"de": "Blatt", "en": "Leaf", "es": "Hoja", "fr": "Feuille", "it": "Foglia", "pl": "Liść", "pt": "Folha", "tr": "Yaprak", "el": "Φύλλο", "bg": "Лист", "ru": "Лист", "ar": "ورقة شجر", "hi": "पत्ता", "zh": "树叶", "ja": "葉っぱ", "ko": "나뭇잎"},
+  "name": {"id": "Daun", "ms": "Daun", "da": "Blad", "de": "Blatt", "en": "Leaf", "es": "Hoja", "fil": "Dahon", "fr": "Feuille", "it": "Foglia", "sw": "Jani", "hu": "Levél", "nl": "Blad", "nb": "Blad", "pl": "Liść", "pt": "Folha", "ro": "Frunză", "fi": "Lehti", "sv": "Löv", "vi": "Chiếc lá", "tr": "Yaprak", "cs": "List", "el": "Φύλλο", "bg": "Лист", "ru": "Лист", "uk": "Листок", "ur": "پتا", "ar": "ورقة شجر", "fa": "برگ", "mr": "पान", "hi": "पत्ता", "bn": "পাতা", "pa": "ਪੱਤਾ", "ta": "இலை", "te": "ఆకు", "th": "ใบไม้", "zh": "树叶", "ja": "葉っぱ", "ko": "나뭇잎"},
   "solution": ["..........", "......###.", "...######.", "...######.", "..######..", "..#####...", ".#####....", ".###......", ".#........", ".........."],
   "colors":   ["..........", "......DDD.", "...DDDDDD.", "...DDGDDD.", "..DDGDDD..", "..DGDDD...", ".DGDDD....", ".GDD......", ".G........", ".........."],
   "palette":  { "D": "#15803D", "G": "#22C55E" }

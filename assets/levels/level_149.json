@@ -1,6 +1,6 @@
 {
   "id": 149,
-  "name": {"de": "Salamander", "en": "Salamander", "es": "Salamandra", "fr": "Salamandre", "it": "Salamandra", "pl": "Salamandra", "pt": "Salamandra", "tr": "Semender", "el": "Σαλαμάνδρα", "bg": "Саламандър", "ru": "Саламандра", "ar": "سمندل", "hi": "सैलामैंडर", "zh": "火蜥蜴", "ja": "サンショウウオ", "ko": "도롱뇽"},
+  "name": {"id": "Salamander", "ms": "Salamander", "da": "Salamander", "de": "Salamander", "en": "Salamander", "es": "Salamandra", "fil": "Salamander", "fr": "Salamandre", "it": "Salamandra", "sw": "Salamanda", "hu": "Szalamandra", "nl": "Salamander", "nb": "Salamander", "pl": "Salamandra", "pt": "Salamandra", "ro": "Salamandră", "fi": "Salamanteri", "sv": "Salamander", "vi": "Kỳ giông", "tr": "Semender", "cs": "Mlok", "el": "Σαλαμάνδρα", "bg": "Саламандър", "ru": "Саламандра", "uk": "Саламандра", "ur": "سیلامینڈر", "ar": "سمندل", "fa": "سمندر", "mr": "सॅलामँडर", "hi": "सैलामैंडर", "bn": "স্যালাম্যান্ডার", "pa": "ਸੈਲਾਮੈਂਡਰ", "ta": "சாலமாண்டர்", "te": "సాలమాండర్", "th": "ซาลาแมนเดอร์", "zh": "火蜥蜴", "ja": "サンショウウオ", "ko": "도롱뇽"},
   "solution": ["....##....", "...####...", "...####...", ".#..##..#.", ".########.", "....##....", "....##....", ".#..##..#.", ".########.", "....##....", ".....#....", ".....##...", "......#...", ".....##...", ".........."],
   "colors":   ["....OO....", "...OKKO...", "...OOOO...", ".O..OO..O.", ".OOOOOOOO.", "....OO....", "....OO....", ".O..OO..O.", ".OOOOOOOO.", "....OO....", ".....O....", ".....OO...", "......O...", ".....OO...", ".........."],
   "palette":  { "K": "#1F2937", "O": "#F97316" }

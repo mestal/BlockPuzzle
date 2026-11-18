@@ -11,9 +11,12 @@ Map<String, Object?> _json(String path) =>
 void main() {
   test('resolves the device language or falls back to English', () {
     expect(resolveLanguage(['de', 'en']), 'de');
-    expect(resolveLanguage(['sw', 'fr']), 'fr');
+    expect(resolveLanguage(['am', 'fr']), 'fr');
     expect(resolveLanguage(['ko']), 'ko');
-    expect(resolveLanguage(['sw']), fallbackLanguage);
+    expect(resolveLanguage(['no']), 'nb');
+    expect(resolveLanguage(['in']), 'id');
+    expect(resolveLanguage(['tl']), 'fil');
+    expect(resolveLanguage(['am']), fallbackLanguage);
     expect(resolveLanguage([]), fallbackLanguage);
   });
 
@@ -21,7 +24,7 @@ void main() {
     expect(LocalizedText.fromJson('Plain').of('tr'), 'Plain');
     const text = LocalizedText({'tr': 'Ev', 'en': 'House'});
     expect(text.of('tr'), 'Ev');
-    expect(text.of('sw'), 'House');
+    expect(text.of('am'), 'House');
     expect(const LocalizedText({'tr': 'Ev'}).of('de'), 'Ev');
   });
 

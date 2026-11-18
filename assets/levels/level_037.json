@@ -1,6 +1,6 @@
 {
   "id": 37,
-  "name": {"de": "Krake", "en": "Octopus", "es": "Pulpo", "fr": "Pieuvre", "it": "Polpo", "pl": "Ośmiornica", "pt": "Polvo", "tr": "Ahtapot", "el": "Χταπόδι", "bg": "Октопод", "ru": "Осьминог", "ar": "أخطبوط", "hi": "ऑक्टोपस", "zh": "章鱼", "ja": "タコ", "ko": "문어"},
+  "name": {"id": "Gurita", "ms": "Sotong kurita", "da": "Blæksprutte", "de": "Krake", "en": "Octopus", "es": "Pulpo", "fil": "Pugita", "fr": "Pieuvre", "it": "Polpo", "sw": "Pweza", "hu": "Polip", "nl": "Octopus", "nb": "Blekksprut", "pl": "Ośmiornica", "pt": "Polvo", "ro": "Caracatiță", "fi": "Mustekala", "sv": "Bläckfisk", "vi": "Bạch tuộc", "tr": "Ahtapot", "cs": "Chobotnice", "el": "Χταπόδι", "bg": "Октопод", "ru": "Осьминог", "uk": "Восьминіг", "ur": "آکٹوپس", "ar": "أخطبوط", "fa": "هشت‌پا", "mr": "ऑक्टोपस", "hi": "ऑक्टोपस", "bn": "অক্টোপাস", "pa": "ਆਕਟੋਪਸ", "ta": "ஆக்டோபஸ்", "te": "ఆక్టోపస్", "th": "ปลาหมึกยักษ์", "zh": "章鱼", "ja": "タコ", "ko": "문어"},
   "solution": ["..........", "...####...", "..######..", ".########.", ".########.", "..######..", ".#.##.##..", ".#.#..#.#.", "..#.##.#..", ".........."],
   "colors":   ["..........", "...PPPP...", "..PPPPPP..", ".PPWPPWPP.", ".PPKPPKPP.", "..PPPPPP..", ".P.PP.PP..", ".P.P..P.P.", "..P.PP.P..", ".........."],
   "palette":  { "K": "#1F2937", "P": "#F472B6", "W": "#FFFFFF" }

@@ -1,6 +1,6 @@
 {
   "id": 256,
-  "name": {"de": "Bratpfanne", "en": "Frying pan", "es": "Sartén", "fr": "Poêle", "it": "Padella", "pl": "Patelnia", "pt": "Frigideira", "tr": "Tava", "el": "Τηγάνι", "bg": "Тиган", "ru": "Сковорода", "ar": "مقلاة", "hi": "कड़ाही", "zh": "平底锅", "ja": "フライパン", "ko": "프라이팬"},
+  "name": {"id": "Wajan", "ms": "Kuali leper", "da": "Stegepande", "de": "Bratpfanne", "en": "Frying pan", "es": "Sartén", "fil": "Kawali", "fr": "Poêle", "it": "Padella", "sw": "Kikaango", "hu": "Serpenyő", "nl": "Koekenpan", "nb": "Stekepanne", "pl": "Patelnia", "pt": "Frigideira", "ro": "Tigaie", "fi": "Paistinpannu", "sv": "Stekpanna", "vi": "Chảo rán", "tr": "Tava", "cs": "Pánev", "el": "Τηγάνι", "bg": "Тиган", "ru": "Сковорода", "uk": "Сковорідка", "ur": "فرائنگ پین", "ar": "مقلاة", "fa": "ماهیتابه", "mr": "तवा", "hi": "कड़ाही", "bn": "ফ্রাইং প্যান", "pa": "ਕੜਾਹੀ", "ta": "வாணலி", "te": "బాణలి", "th": "กระทะ", "zh": "平底锅", "ja": "フライパン", "ko": "프라이팬"},
   "solution": ["..........", "..........", "........##", "........#.", ".......#..", "..#######.", ".#.....#..", "#.......#.", "#.......#.", "#.#.....#.", "#.......#.", ".#.....#..", ".######.#.", "..........", ".........."],
   "colors":   ["..........", "..........", "........KK", "........K.", ".......K..", "..KKKKKKK.", ".K.....K..", "K.......K.", "K.......K.", "K.L.....K.", "K.......K.", ".K.....K..", ".KKKKKK.K.", "..........", ".........."],
   "palette":  { "K": "#1F2937", "L": "#E2E8F0" }

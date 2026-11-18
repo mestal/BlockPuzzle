@@ -1,6 +1,6 @@
 {
   "id": 424,
-  "name": {"de": "Trompete", "en": "Trumpet", "es": "Trompeta", "fr": "Trompette", "it": "Tromba", "pl": "Trąbka", "pt": "Trompete", "tr": "Trompet", "el": "Τρομπέτα", "bg": "Тромпет", "ru": "Труба", "ar": "بوق", "hi": "तुरही", "zh": "小号", "ja": "トランペット", "ko": "트럼펫"},
+  "name": {"id": "Terompet", "ms": "Trompet", "da": "Trompet", "de": "Trompete", "en": "Trumpet", "es": "Trompeta", "fil": "Trumpeta", "fr": "Trompette", "it": "Tromba", "sw": "Tarumbeta", "hu": "Trombita", "nl": "Trompet", "nb": "Trompet", "pl": "Trąbka", "pt": "Trompete", "ro": "Trompetă", "fi": "Trumpetti", "sv": "Trumpet", "vi": "Kèn trumpet", "tr": "Trompet", "cs": "Trubka", "el": "Τρομπέτα", "bg": "Тромпет", "ru": "Труба", "uk": "Труба", "ur": "بگل", "ar": "بوق", "fa": "ترومپت", "mr": "तुतारी", "hi": "तुरही", "bn": "ট্রাম্পেট", "pa": "ਤੁਰ੍ਹੀ", "ta": "எக்காளம்", "te": "బాకా", "th": "ทรัมเป็ต", "zh": "小号", "ja": "トランペット", "ko": "트럼펫"},
   "solution": ["...#...#..", "#.........", "...#.#.#..", "...#.#.#.#", "##########", "...#####.#", "#..#...#.#", "...#####..", ".........#", ".....#...."],
   "colors":   ["...Y...Y..", "Y.........", "...A.A.A..", "...A.A.A.A", "AAAAAAAAAA", "...AAAAA.A", "Y..A...A.A", "...AAAAA..", ".........Y", ".....Y...."],
   "palette":  { "A": "#F59E0B", "Y": "#FACC15" }

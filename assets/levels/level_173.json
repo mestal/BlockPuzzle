@@ -1,6 +1,6 @@
 {
   "id": 173,
-  "name": {"de": "Fallschirm", "en": "Parachute", "es": "Paracaídas", "fr": "Parachute", "it": "Paracadute", "pl": "Spadochron", "pt": "Paraquedas", "tr": "Paraşüt", "el": "Αλεξίπτωτο", "bg": "Парашут", "ru": "Парашют", "ar": "مظلة هبوط", "hi": "पैराशूट", "zh": "降落伞", "ja": "パラシュート", "ko": "낙하산"},
+  "name": {"id": "Parasut", "ms": "Payung terjun", "da": "Faldskærm", "de": "Fallschirm", "en": "Parachute", "es": "Paracaídas", "fil": "Parasyut", "fr": "Parachute", "it": "Paracadute", "sw": "Parachuti", "hu": "Ejtőernyő", "nl": "Parachute", "nb": "Fallskjerm", "pl": "Spadochron", "pt": "Paraquedas", "ro": "Parașută", "fi": "Laskuvarjo", "sv": "Fallskärm", "vi": "Dù nhảy", "tr": "Paraşüt", "cs": "Padák", "el": "Αλεξίπτωτο", "bg": "Парашут", "ru": "Парашют", "uk": "Парашут", "ur": "پیراشوٹ", "ar": "مظلة هبوط", "fa": "چتر نجات", "mr": "पॅराशूट", "hi": "पैराशूट", "bn": "প্যারাশুট", "pa": "ਪੈਰਾਸ਼ੂਟ", "ta": "வான்குடை", "te": "పారాచూట్", "th": "ร่มชูชีพ", "zh": "降落伞", "ja": "パラシュート", "ko": "낙하산"},
   "solution": ["..######..", ".########.", "##########", "##########", "#.#.##.#.#", ".#..##..#.", ".#..##..#.", "..#.##.#..", "..#.##.#..", "...####...", "....##....", "...####...", "...####...", "...#..#...", ".........."],
   "colors":   ["..OOOOOO..", ".OOWWOOOO.", "OOWWOOWWOO", "OOOOOOOOOO", "O.O.OO.O.O", ".O..OO..O.", ".O..OO..O.", "..O.OO.O..", "..O.OO.O..", "...OOOO...", "....FF....", "...BBBB...", "...BBBB...", "...B..B...", ".........."],
   "palette":  { "B": "#3B82F6", "F": "#FBCFA5", "O": "#F97316", "W": "#FFFFFF" }

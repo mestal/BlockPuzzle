@@ -1,6 +1,6 @@
 {
   "id": 482,
-  "name": {"de": "Taj Mahal", "en": "Taj Mahal", "es": "Taj Mahal", "fr": "Taj Mahal", "it": "Taj Mahal", "pl": "Tadż Mahal", "pt": "Taj Mahal", "tr": "Tac Mahal", "el": "Ταζ Μαχάλ", "bg": "Тадж Махал", "ru": "Тадж-Махал", "ar": "تاج محل", "hi": "ताज महल", "zh": "泰姬陵", "ja": "タージ・マハル", "ko": "타지마할"},
+  "name": {"id": "Taj Mahal", "ms": "Taj Mahal", "da": "Taj Mahal", "de": "Taj Mahal", "en": "Taj Mahal", "es": "Taj Mahal", "fil": "Taj Mahal", "fr": "Taj Mahal", "it": "Taj Mahal", "sw": "Taj Mahal", "hu": "Tádzs Mahal", "nl": "Taj Mahal", "nb": "Taj Mahal", "pl": "Tadż Mahal", "pt": "Taj Mahal", "ro": "Taj Mahal", "fi": "Taj Mahal", "sv": "Taj Mahal", "vi": "Đền Taj Mahal", "tr": "Tac Mahal", "cs": "Tádž Mahal", "el": "Ταζ Μαχάλ", "bg": "Тадж Махал", "ru": "Тадж-Махал", "uk": "Тадж-Махал", "ur": "تاج محل", "ar": "تاج محل", "fa": "تاج محل", "mr": "ताजमहाल", "hi": "ताज महल", "bn": "তাজমহল", "pa": "ਤਾਜ ਮਹਿਲ", "ta": "தாஜ் மஹால்", "te": "తాజ్ మహల్", "th": "ทัชมาฮาล", "zh": "泰姬陵", "ja": "タージ・マハル", "ko": "타지마할"},
   "solution": [".#..#.....", "...###...#", "..#.#.#...", ".#.....#..", ".#######..", "#.##.##.#.", "#.#...#.#.", "#.#...#.#.", "#########.", ".........."],
   "colors":   [".Y..Y.....", "...WWW...Y", "..W.W.W...", ".W.....W..", ".WWWWWWW..", "W.WW.WW.W.", "W.W...W.W.", "W.W...W.W.", "WWWWWWWWW.", ".........."],
   "palette":  { "W": "#FFFFFF", "Y": "#FACC15" }

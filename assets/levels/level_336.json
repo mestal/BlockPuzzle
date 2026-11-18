@@ -1,6 +1,6 @@
 {
   "id": 336,
-  "name": {"de": "Wasserschwein", "en": "Capybara", "es": "Capibara", "fr": "Capybara", "it": "Capibara", "pl": "Kapibara", "pt": "Capivara", "tr": "Kapibara", "el": "Καπιμπάρα", "bg": "Капибара", "ru": "Капибара", "ar": "كابيبارا", "hi": "कैपिबारा", "zh": "水豚", "ja": "カピバラ", "ko": "카피바라"},
+  "name": {"id": "Kapibara", "ms": "Kapibara", "da": "Kapivar", "de": "Wasserschwein", "en": "Capybara", "es": "Capibara", "fil": "Capybara", "fr": "Capybara", "it": "Capibara", "sw": "Kapibara", "hu": "Vízidisznó", "nl": "Capibara", "nb": "Kapybara", "pl": "Kapibara", "pt": "Capivara", "ro": "Capibara", "fi": "Kapybara", "sv": "Kapybara", "vi": "Chuột lang nước", "tr": "Kapibara", "cs": "Kapybara", "el": "Καπιμπάρα", "bg": "Капибара", "ru": "Капибара", "uk": "Капібара", "ur": "کیپیبارا", "ar": "كابيبارا", "fa": "کاپیبارا", "mr": "कॅपिबारा", "hi": "कैपिबारा", "bn": "ক্যাপিবারা", "pa": "ਕੈਪੀਬਾਰਾ", "ta": "கேபிபரா", "te": "కాపిబారా", "th": "คาปิบารา", "zh": "水豚", "ja": "カピバラ", "ko": "카피바라"},
   "solution": ["...#......", "#.........", "..##......", ".####.....", "##.######.", "##########", "##########", "##########", ".########.", "..#.#..#.#", "..#.#..#.#", "##..##..##", ".###..###.", "..........", "#....#...."],
   "colors":   ["...Y......", "Y.........", "..OO......", ".TTTT.....", "TT.TTTTTT.", "TTTTTTTTTT", "KTTTTTTTTT", "TTTTTTTTTT", ".TTTTTTTT.", "..T.T..T.T", "..T.T..T.T", "BB..BB..BB", ".BBB..BBB.", "..........", "Y....Y...."],
   "palette":  { "B": "#3B82F6", "K": "#1F2937", "O": "#F97316", "T": "#92400E", "Y": "#FACC15" }

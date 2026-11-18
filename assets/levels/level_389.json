@@ -1,6 +1,6 @@
 {
   "id": 389,
-  "name": {"de": "Nilpferd", "en": "Hippo", "es": "Hipopótamo", "fr": "Hippopotame", "it": "Ippopotamo", "pl": "Hipopotam", "pt": "Hipopótamo", "tr": "Su aygırı", "el": "Ιπποπόταμος", "bg": "Хипопотам", "ru": "Бегемот", "ar": "فرس النهر", "hi": "दरियाई घोड़ा", "zh": "河马", "ja": "カバ", "ko": "하마"},
+  "name": {"id": "Kuda nil", "ms": "Badak air", "da": "Flodhest", "de": "Nilpferd", "en": "Hippo", "es": "Hipopótamo", "fil": "Hipopotamus", "fr": "Hippopotame", "it": "Ippopotamo", "sw": "Kiboko", "hu": "Víziló", "nl": "Nijlpaard", "nb": "Flodhest", "pl": "Hipopotam", "pt": "Hipopótamo", "ro": "Hipopotam", "fi": "Virtahepo", "sv": "Flodhäst", "vi": "Hà mã", "tr": "Su aygırı", "cs": "Hroch", "el": "Ιπποπόταμος", "bg": "Хипопотам", "ru": "Бегемот", "uk": "Бегемот", "ur": "دریائی گھوڑا", "ar": "فرس النهر", "fa": "اسب آبی", "mr": "पाणघोडा", "hi": "दरियाई घोड़ा", "bn": "জলহস্তী", "pa": "ਦਰਿਆਈ ਘੋੜਾ", "ta": "நீர்யானை", "te": "నీటి గుర్రం", "th": "ฮิปโป", "zh": "河马", "ja": "カバ", "ko": "하마"},
   "solution": ["....#.....", ".##....##.", "##########", "##.####.##", "##########", ".########.", "##########", "##.####.##", "##########", "##########", "##......##", "#..#.....#", "##......##", "##########", ".........."],
   "colors":   ["....Y.....", ".EE....EE.", "EEEEEEEEEE", "EE.EEEE.EE", "EEEEEEEEEE", ".EEEEEEEE.", "EEEEEEEEEE", "EE.EEEE.EE", "EEEEEEEEEE", "EEEEEEEEEE", "EW......WE", "E..Y.....E", "EW......WE", "EEEEEEEEEE", ".........."],
   "palette":  { "E": "#94A3B8", "W": "#FFFFFF", "Y": "#FACC15" }

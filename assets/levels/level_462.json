@@ -1,6 +1,6 @@
 {
   "id": 462,
-  "name": {"de": "Federball", "en": "Shuttlecock", "es": "Volante", "fr": "Volant", "it": "Volano", "pl": "Lotka", "pt": "Peteca", "tr": "Badminton topu", "el": "Φτερό μπάντμιντον", "bg": "Перце", "ru": "Волан", "ar": "ريشة الريشة الطائرة", "hi": "शटलकॉक", "zh": "羽毛球", "ja": "シャトル", "ko": "셔틀콕"},
+  "name": {"id": "Kok bulu tangkis", "ms": "Bulu tangkis", "da": "Fjerbold", "de": "Federball", "en": "Shuttlecock", "es": "Volante", "fil": "Shuttlecock", "fr": "Volant", "it": "Volano", "sw": "Kiboya", "hu": "Tollaslabda", "nl": "Shuttle", "nb": "Badmintonball", "pl": "Lotka", "pt": "Peteca", "ro": "Fluturaș", "fi": "Sulkapallo", "sv": "Fjäderboll", "vi": "Quả cầu lông", "tr": "Badminton topu", "cs": "Badmintonový míček", "el": "Φτερό μπάντμιντον", "bg": "Перце", "ru": "Волан", "uk": "Волан", "ur": "شٹل کاک", "ar": "ريشة الريشة الطائرة", "fa": "توپ بدمینتون", "mr": "फूल", "hi": "शटलकॉक", "bn": "শাটলকক", "pa": "ਸ਼ਟਲਕਾਕ", "ta": "இறகுப்பந்து", "te": "షటిల్ కాక్", "th": "ลูกขนไก่", "zh": "羽毛球", "ja": "シャトル", "ko": "셔틀콕"},
   "solution": ["..........", ".########.", "..#.##.#..", "#.#.##.#..", "...#..#...", "...####..#", "...####...", "...####...", "....##....", ".#.....#.."],
   "colors":   ["..........", ".WWWWWWWW.", "..W.WW.W..", "Y.W.WW.W..", "...W..W...", "...WWWW..Y", "...RRRR...", "...WWWW...", "....WW....", ".Y.....Y.."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

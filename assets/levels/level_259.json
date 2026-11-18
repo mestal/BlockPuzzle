@@ -1,6 +1,6 @@
 {
   "id": 259,
-  "name": {"de": "Avocado", "en": "Avocado", "es": "Aguacate", "fr": "Avocat", "it": "Avocado", "pl": "Awokado", "pt": "Abacate", "tr": "Avokado", "el": "Αβοκάντο", "bg": "Авокадо", "ru": "Авокадо", "ar": "أفوكادو", "hi": "एवोकाडो", "zh": "牛油果", "ja": "アボカド", "ko": "아보카도"},
+  "name": {"id": "Alpukat", "ms": "Avokado", "da": "Avocado", "de": "Avocado", "en": "Avocado", "es": "Aguacate", "fil": "Abukado", "fr": "Avocat", "it": "Avocado", "sw": "Parachichi", "hu": "Avokádó", "nl": "Avocado", "nb": "Avokado", "pl": "Awokado", "pt": "Abacate", "ro": "Avocado", "fi": "Avokado", "sv": "Avokado", "vi": "Quả bơ", "tr": "Avokado", "cs": "Avokádo", "el": "Αβοκάντο", "bg": "Авокадо", "ru": "Авокадо", "uk": "Авокадо", "ur": "ایووکاڈو", "ar": "أفوكادو", "fa": "آووکادو", "mr": "ॲव्होकॅडो", "hi": "एवोकाडो", "bn": "অ্যাভোকাডো", "pa": "ਐਵੋਕਾਡੋ", "ta": "வெண்ணெய்ப் பழம்", "te": "అవకాడో", "th": "อะโวคาโด", "zh": "牛油果", "ja": "アボカド", "ko": "아보카도"},
   "solution": ["..........", "..........", "....##....", "...####..#", "..######..", "..######..", ".########.", ".########.", "##########", "##########", "##########", ".########.", "..######..", "#.........", ".........."],
   "colors":   ["..........", "..........", "....DD....", "...DZZD..Y", "..DZZZZD..", "..DZZZZD..", ".DZZZZZZD.", ".DZZHHZZD.", "DZZHHHHZZD", "DZZHHHHZZD", "DZZZHHZZZD", ".DZZZZZZD.", "..DDDDDD..", "Y.........", ".........."],
   "palette":  { "D": "#15803D", "H": "#5B3410", "Y": "#FACC15", "Z": "#A3E635" }

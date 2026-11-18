@@ -1,6 +1,6 @@
 {
   "id": 401,
-  "name": {"de": "Maulwurf", "en": "Mole", "es": "Topo", "fr": "Taupe", "it": "Talpa", "pl": "Kret", "pt": "Toupeira", "tr": "Köstebek", "el": "Τυφλοπόντικας", "bg": "Къртица", "ru": "Крот", "ar": "خلد", "hi": "छछूंदर", "zh": "鼹鼠", "ja": "モグラ", "ko": "두더지"},
+  "name": {"id": "Tikus tanah", "ms": "Tikus mondok", "da": "Muldvarp", "de": "Maulwurf", "en": "Mole", "es": "Topo", "fil": "Nunal", "fr": "Taupe", "it": "Talpa", "sw": "Fuko", "hu": "Vakond", "nl": "Mol", "nb": "Muldvarp", "pl": "Kret", "pt": "Toupeira", "ro": "Cârtiță", "fi": "Myyrä", "sv": "Mullvad", "vi": "Chuột chũi", "tr": "Köstebek", "cs": "Krtek", "el": "Τυφλοπόντικας", "bg": "Къртица", "ru": "Крот", "uk": "Кріт", "ur": "چھچھوندر", "ar": "خلد", "fa": "موش کور", "mr": "चिचुंद्री", "hi": "छछूंदर", "bn": "ছুঁচো", "pa": "ਛਛੂੰਦਰ", "ta": "மூஞ்சூறு", "te": "చుంచు ఎలుక", "th": "ตุ่น", "zh": "鼹鼠", "ja": "モグラ", "ko": "두더지"},
   "solution": ["#..####..#", "..######..", ".##.##.##.", ".########.", ".########.", "##.####.##", ".########.", "##########", "###.####.#", ".########."],
   "colors":   ["Y..KKKK..Y", "..KKKKKK..", ".KK.KK.KK.", ".KKKKKKKK.", ".KKKPPKKK.", "FF.KKKK.FF", ".FFKKKKFF.", "TTTTTTTTTT", "TTT.TTTT.T", ".TTTTTTTT."],
   "palette":  { "F": "#FBCFA5", "K": "#1F2937", "P": "#F472B6", "T": "#92400E", "Y": "#FACC15" }

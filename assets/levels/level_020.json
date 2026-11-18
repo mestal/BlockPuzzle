@@ -1,6 +1,6 @@
 {
   "id": 20,
-  "name": {"de": "Kaktus", "en": "Cactus", "es": "Cactus", "fr": "Cactus", "it": "Cactus", "pl": "Kaktus", "pt": "Cacto", "tr": "Kaktüs", "el": "Κάκτος", "bg": "Кактус", "ru": "Кактус", "ar": "صبار", "hi": "कैक्टस", "zh": "仙人掌", "ja": "サボテン", "ko": "선인장"},
+  "name": {"id": "Kaktus", "ms": "Kaktus", "da": "Kaktus", "de": "Kaktus", "en": "Cactus", "es": "Cactus", "fil": "Kaktus", "fr": "Cactus", "it": "Cactus", "sw": "Mpungate", "hu": "Kaktusz", "nl": "Cactus", "nb": "Kaktus", "pl": "Kaktus", "pt": "Cacto", "ro": "Cactus", "fi": "Kaktus", "sv": "Kaktus", "vi": "Xương rồng", "tr": "Kaktüs", "cs": "Kaktus", "el": "Κάκτος", "bg": "Кактус", "ru": "Кактус", "uk": "Кактус", "ur": "کیکٹس", "ar": "صبار", "fa": "کاکتوس", "mr": "निवडुंग", "hi": "कैक्टस", "bn": "ক্যাকটাস", "pa": "ਕੈਕਟਸ", "ta": "கள்ளி", "te": "బ్రహ్మజెముడు", "th": "กระบองเพชร", "zh": "仙人掌", "ja": "サボテン", "ko": "선인장"},
   "solution": ["..#..", "#.#..", "#.#.#", "###.#", "..###", "..#..", "..#..", "..#..", ".###.", ".###."],
   "colors":   ["..G..", "G.G..", "G.G.G", "GGG.G", "..GGG", "..G..", "..G..", "..G..", ".TTT.", ".TTT."],
   "palette":  { "G": "#22C55E", "T": "#92400E" }

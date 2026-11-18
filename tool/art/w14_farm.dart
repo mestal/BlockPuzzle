@@ -7,7 +7,7 @@ import '../level_art.dart';
 final farmArt = <LevelArt>[
   art(
     14,
-    'İnek|Cow|Kuh|Vache|Vaca|Mucca|奶牛|ウシ|Корова|بقرة|Vaca|Krowa|Αγελάδα|Крава|젖소|गाय',
+    'İnek|Cow|Kuh|Vache|Vaca|Mucca|奶牛|ウシ|Корова|بقرة|Vaca|Krowa|Αγελάδα|Крава|젖소|गाय|Koe|Корова|Vacă|Ko|Ku|Ko|Lehmä|Kráva|Tehén|Lembu|Baka|গরু|گائے|Sapi|Con bò|گاو|Ng’ombe|गाय|ఆవు|பசு|ਗਾਂ|วัว',
     [
       '.E......E.',
       '.EE....EE.',
@@ -26,7 +26,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Tavşan|Rabbit|Hase|Lapin|Conejo|Coniglio|兔子|ウサギ|Кролик|أرنب|Coelho|Królik|Κουνέλι|Заек|토끼|खरगोश',
+    'Tavşan|Rabbit|Hase|Lapin|Conejo|Coniglio|兔子|ウサギ|Кролик|أرنب|Coelho|Królik|Κουνέλι|Заек|토끼|खरगोश|Konijn|Кролик|Iepure|Kanin|Kanin|Kanin|Kani|Králík|Nyúl|Arnab|Kuneho|খরগোশ|خرگوش|Kelinci|Con thỏ|خرگوش|Sungura|ससा|కుందేలు|முயல்|ਖ਼ਰਗੋਸ਼|กระต่าย',
     [
       '..W....W..',
       '.WJW..WJW.',
@@ -47,7 +47,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Tavuk|Hen|Henne|Poule|Gallina|Gallina|母鸡|ニワトリ|Курица|دجاجة|Galinha|Kura|Κότα|Кокошка|암탉|मुर्गी',
+    'Tavuk|Hen|Henne|Poule|Gallina|Gallina|母鸡|ニワトリ|Курица|دجاجة|Galinha|Kura|Κότα|Кокошка|암탉|मुर्गी|Kip|Курка|Găină|Höna|Høne|Høne|Kana|Slepice|Tyúk|Ayam betina|Inahin|মুরগি|مرغی|Ayam betina|Con gà mái|مرغ|Kuku|कोंबडी|కోడి|கோழி|ਮੁਰਗੀ|แม่ไก่',
     [
       '....RR....',
       '...RRR....',
@@ -68,7 +68,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Koyun|Sheep|Schaf|Mouton|Oveja|Pecora|绵羊|ヒツジ|Овца|خروف|Ovelha|Owca|Πρόβατο|Овца|양|भेड़',
+    'Koyun|Sheep|Schaf|Mouton|Oveja|Pecora|绵羊|ヒツジ|Овца|خروف|Ovelha|Owca|Πρόβατο|Овца|양|भेड़|Schaap|Вівця|Oaie|Får|Sau|Får|Lammas|Ovce|Bárány|Biri-biri|Tupa|ভেড়া|بھیڑ|Domba|Con cừu|گوسفند|Kondoo|मेंढी|గొర్రె|செம்மறியாடு|ਭੇਡ|แกะ',
     [
       '..L.LL....',
       '.LLLLLLL..',
@@ -85,7 +85,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'At|Horse|Pferd|Cheval|Caballo|Cavallo|马|ウマ|Лошадь|حصان|Cavalo|Koń|Άλογο|Кон|말|घोड़ा',
+    'At|Horse|Pferd|Cheval|Caballo|Cavallo|马|ウマ|Лошадь|حصان|Cavalo|Koń|Άλογο|Кон|말|घोड़ा|Paard|Кінь|Cal|Häst|Hest|Hest|Hevonen|Kůň|Ló|Kuda|Kabayo|ঘোড়া|گھوڑا|Kuda|Con ngựa|اسب|Farasi|घोडा|గుర్రం|குதிரை|ਘੋੜਾ|ม้า',
     [
       '...T.T....',
       '...TTT....',
@@ -103,7 +103,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Traktör|Tractor|Traktor|Tracteur|Tractor|Trattore|拖拉机|トラクター|Трактор|جرار|Trator|Traktor|Τρακτέρ|Трактор|트랙터|ट्रैक्टर',
+    'Traktör|Tractor|Traktor|Tracteur|Tractor|Trattore|拖拉机|トラクター|Трактор|جرار|Trator|Traktor|Τρακτέρ|Трактор|트랙터|ट्रैक्टर|Tractor|Трактор|Tractor|Traktor|Traktor|Traktor|Traktori|Traktor|Traktor|Traktor|Traktora|ট্রাক্টর|ٹریکٹر|Traktor|Máy cày|تراکتور|Trekta|ट्रॅक्टर|ట్రాక్టర్|உழவு இயந்திரம்|ਟਰੈਕਟਰ|รถแทรกเตอร์',
     [
       '...E.EE...',
       '..E.E..E..',
@@ -124,7 +124,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Ahır|Barn|Scheune|Grange|Granero|Fienile|谷仓|納屋|Амбар|حظيرة|Celeiro|Stodoła|Αχυρώνας|Хамбар|헛간|खलिहान',
+    'Ahır|Barn|Scheune|Grange|Granero|Fienile|谷仓|納屋|Амбар|حظيرة|Celeiro|Stodoła|Αχυρώνας|Хамбар|헛간|खलिहान|Schuur|Комора|Hambar|Lada|Låve|Lade|Lato|Stodola|Pajta|Bangsal|Kamalig|গোলাঘর|گودام|Lumbung|Nhà kho|انبار|Ghala|धान्याचे कोठार|గాదె|களஞ்சியம்|ਕੋਠਾ|โรงนา',
     [
       '....RR....',
       '...RRRR...',
@@ -142,7 +142,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Havuç|Carrot|Karotte|Carotte|Zanahoria|Carota|胡萝卜|ニンジン|Морковь|جزرة|Cenoura|Marchewka|Καρότο|Морков|당근|गाजर',
+    'Havuç|Carrot|Karotte|Carotte|Zanahoria|Carota|胡萝卜|ニンジン|Морковь|جزرة|Cenoura|Marchewka|Καρότο|Морков|당근|गाजर|Wortel|Морква|Morcov|Morot|Gulrot|Gulerod|Porkkana|Mrkev|Répa|Lobak merah|Karot|গাজর|گاجر|Wortel|Cà rốt|هویج|Karoti|गाजर|క్యారెట్|கேரட்|ਗਾਜਰ|แครอท',
     [
       '..G.GG.G..',
       '...GGGG...',
@@ -160,7 +160,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Mısır|Corn|Mais|Maïs|Maíz|Mais|玉米|トウモロコシ|Кукуруза|ذرة|Milho|Kukurydza|Καλαμπόκι|Царевица|옥수수|मक्का',
+    'Mısır|Corn|Mais|Maïs|Maíz|Mais|玉米|トウモロコシ|Кукуруза|ذرة|Milho|Kukurydza|Καλαμπόκι|Царевица|옥수수|मक्का|Maïs|Кукурудза|Porumb|Majs|Mais|Majs|Maissi|Kukuřice|Kukorica|Jagung|Mais|ভুট্টা|مکئی|Jagung|Bắp ngô|ذرت|Mahindi|मका|మొక్కజొన్న|சோளம்|ਮੱਕੀ|ข้าวโพด',
     [
       '....YY....',
       '...YYYY...',
@@ -178,7 +178,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Karpuz|Watermelon|Wassermelone|Pastèque|Sandía|Anguria|西瓜|スイカ|Арбуз|بطيخ|Melancia|Arbuz|Καρπούζι|Диня|수박|तरबूज',
+    'Karpuz|Watermelon|Wassermelone|Pastèque|Sandía|Anguria|西瓜|スイカ|Арбуз|بطيخ|Melancia|Arbuz|Καρπούζι|Диня|수박|तरबूज|Watermeloen|Кавун|Pepene verde|Vattenmelon|Vannmelon|Vandmelon|Vesimeloni|Meloun|Görögdinnye|Tembikai|Pakwan|তরমুজ|تربوز|Semangka|Dưa hấu|هندوانه|Tikiti maji|कलिंगड|పుచ్చకాయ|தர்பூசணி|ਤਰਬੂਜ਼|แตงโม',
     [
       'G.........',
       'WG........',
@@ -194,7 +194,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Ördek|Duck|Ente|Canard|Pato|Anatra|鸭子|アヒル|Утка|بطة|Pato|Kaczka|Πάπια|Патица|오리|बत्तख',
+    'Ördek|Duck|Ente|Canard|Pato|Anatra|鸭子|アヒル|Утка|بطة|Pato|Kaczka|Πάπια|Патица|오리|बत्तख|Eend|Качка|Rață|Anka|And|And|Ankka|Kachna|Kacsa|Itik|Pato|হাঁস|بطخ|Bebek|Con vịt|اردک|Bata|बदक|బాతు|வாத்து|ਬੱਤਖ਼|เป็ด',
     [
       '...YYY....',
       '..YYYYY...',
@@ -214,7 +214,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Keçi|Goat|Ziege|Chèvre|Cabra|Capra|山羊|ヤギ|Коза|ماعز|Cabra|Koza|Κατσίκα|Коза|염소|बकरी',
+    'Keçi|Goat|Ziege|Chèvre|Cabra|Capra|山羊|ヤギ|Коза|ماعز|Cabra|Koza|Κατσίκα|Коза|염소|बकरी|Geit|Коза|Capră|Get|Geit|Ged|Vuohi|Koza|Kecske|Kambing|Kambing|ছাগল|بکری|Kambing|Con dê|بز|Mbuzi|शेळी|మేక|ஆடு|ਬੱਕਰੀ|แพะ',
     [
       'T........T',
       'TT......TT',
@@ -232,7 +232,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Yaba|Pitchfork|Heugabel|Fourche|Horca|Forcone|干草叉|ピッチフォーク|Вилы|مذراة|Forcado|Widły|Δικράνι|Вила|쇠스랑|पिचफ़ोर्क',
+    'Yaba|Pitchfork|Heugabel|Fourche|Horca|Forcone|干草叉|ピッチフォーク|Вилы|مذراة|Forcado|Widły|Δικράνι|Вила|쇠스랑|पिचफ़ोर्क|Hooivork|Вила|Furcă|Högaffel|Høygaffel|Høtyv|Talikko|Vidle|Vasvilla|Garpu rumput|Tinidor ng dayami|খড় তোলার কাঁটা|پنجالی|Garpu rumput|Cái chĩa|چنگک|Uma|गवताचा काटा|గడ్డి పార|வைக்கோல் முள்கரண்டி|ਤੰਗਲੀ|คราด',
     [
       '.E.E.E....',
       '.E.E.E....',
@@ -251,7 +251,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Süt şişesi|Milk bottle|Milchflasche|Bouteille de lait|Botella de leche|Bottiglia di latte|牛奶瓶|牛乳びん|Бутылка молока|زجاجة حليب|Garrafa de leite|Butelka mleka|Μπουκάλι γάλα|Бутилка мляко|우유병|दूध की बोतल',
+    'Süt şişesi|Milk bottle|Milchflasche|Bouteille de lait|Botella de leche|Bottiglia di latte|牛奶瓶|牛乳びん|Бутылка молока|زجاجة حليب|Garrafa de leite|Butelka mleka|Μπουκάλι γάλα|Бутилка мляко|우유병|दूध की बोतल|Melkfles|Пляшка молока|Sticlă de lapte|Mjölkflaska|Melkeflaske|Mælkeflaske|Maitopullo|Láhev mléka|Tejesüveg|Botol susu|Bote ng gatas|দুধের বোতল|دودھ کی بوتل|Botol susu|Chai sữa|بطری شیر|Chupa ya maziwa|दुधाची बाटली|పాల సీసా|பால் புட்டி|ਦੁੱਧ ਦੀ ਬੋਤਲ|ขวดนม',
     [
       '...BBBB...',
       '...BBBB...',
@@ -271,7 +271,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Yumurta sepeti|Egg basket|Eierkorb|Panier d\'œufs|Cesta de huevos|Cesto di uova|鸡蛋篮|たまごかご|Корзина яиц|سلة بيض|Cesta de ovos|Koszyk jajek|Καλάθι με αυγά|Кошница с яйца|달걀 바구니|अंडों की टोकरी',
+    'Yumurta sepeti|Egg basket|Eierkorb|Panier d\'œufs|Cesta de huevos|Cesto di uova|鸡蛋篮|たまごかご|Корзина яиц|سلة بيض|Cesta de ovos|Koszyk jajek|Καλάθι με αυγά|Кошница с яйца|달걀 바구니|अंडों की टोकरी|Eiermand|Кошик яєць|Coș cu ouă|Äggkorg|Eggkurv|Æggekurv|Munakori|Košík vajec|Tojáskosár|Bakul telur|Basket ng itlog|ডিমের ঝুড়ি|انڈوں کی ٹوکری|Keranjang telur|Giỏ trứng|سبد تخم‌مرغ|Kikapu cha mayai|अंड्यांची टोपली|గుడ్ల బుట్ట|முட்டைக் கூடை|ਆਂਡਿਆਂ ਦੀ ਟੋਕਰੀ|ตะกร้าไข่',
     [
       '...TTTT...',
       '..T....T..',
@@ -287,7 +287,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Korkuluk|Scarecrow|Vogelscheuche|Épouvantail|Espantapájaros|Spaventapasseri|稻草人|かかし|Пугало|فزاعة|Espantalho|Strach na wróble|Σκιάχτρο|Плашило|허수아비|बिजूका',
+    'Korkuluk|Scarecrow|Vogelscheuche|Épouvantail|Espantapájaros|Spaventapasseri|稻草人|かかし|Пугало|فزاعة|Espantalho|Strach na wróble|Σκιάχτρο|Плашило|허수아비|बिजूका|Vogelverschrikker|Опудало|Sperietoare|Fågelskrämma|Fugleskremsel|Fugleskræmsel|Linnunpelätin|Strašák|Madárijesztő|Orang-orang|Panakot|কাকতাড়ুয়া|بجوکا|Orang-orangan sawah|Bù nhìn|مترسک|Kitisho cha ndege|बुजगावणे|దిష్టిబొమ్మ|சோளக்கொல்லை பொம்மை|ਡਰਨਾ|หุ่นไล่กา',
     [
       '....TT....',
       '...TTTT...',
@@ -308,7 +308,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Ayçiçeği|Sunflower|Sonnenblume|Tournesol|Girasol|Girasole|向日葵|ヒマワリ|Подсолнух|عباد الشمس|Girassol|Słonecznik|Ηλιοτρόπιο|Слънчоглед|해바라기|सूरजमुखी',
+    'Ayçiçeği|Sunflower|Sonnenblume|Tournesol|Girasol|Girasole|向日葵|ヒマワリ|Подсолнух|عباد الشمس|Girassol|Słonecznik|Ηλιοτρόπιο|Слънчоглед|해바라기|सूरजमुखी|Zonnebloem|Соняшник|Floarea-soarelui|Solros|Solsikke|Solsikke|Auringonkukka|Slunečnice|Napraforgó|Bunga matahari|Mirasol|সূর্যমুখী|سورج مکھی|Bunga matahari|Hoa hướng dương|آفتابگردان|Alizeti|सूर्यफूल|పొద్దుతిరుగుడు|சூரியகாந்தி|ਸੂਰਜਮੁਖੀ|ดอกทานตะวัน',
     [
       '..Y.YY.Y..',
       '.YYYYYYYY.',
@@ -329,7 +329,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Eşek|Donkey|Esel|Âne|Burro|Asino|驴|ロバ|Осёл|حمار|Burro|Osioł|Γάιδαρος|Магаре|당나귀|गधा',
+    'Eşek|Donkey|Esel|Âne|Burro|Asino|驴|ロバ|Осёл|حمار|Burro|Osioł|Γάιδαρος|Магаре|당나귀|गधा|Ezel|Віслюк|Măgar|Åsna|Esel|Æsel|Aasi|Osel|Szamár|Keldai|Asno|গাধা|گدھا|Keledai|Con lừa|الاغ|Punda|गाढव|గాడిద|கழுதை|ਗਧਾ|ลา',
     [
       '.E......E.',
       '.EE....EE.',
@@ -348,7 +348,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Üzüm|Grapes|Trauben|Raisins|Uvas|Uva|葡萄|ブドウ|Виноград|عنب|Uvas|Winogrona|Σταφύλια|Грозде|포도|अंगूर',
+    'Üzüm|Grapes|Trauben|Raisins|Uvas|Uva|葡萄|ブドウ|Виноград|عنب|Uvas|Winogrona|Σταφύλια|Грозде|포도|अंगूर|Druiven|Виноград|Struguri|Vindruvor|Druer|Vindruer|Viinirypäleet|Hrozny|Szőlő|Anggur|Ubas|আঙুর|انگور|Anggur|Chùm nho|انگور|Zabibu|द्राक्षे|ద్రాక్ష|திராட்சை|ਅੰਗੂਰ|องุ่น',
     [
       '....T.....',
       '....T.GGG.',
@@ -365,7 +365,7 @@ final farmArt = <LevelArt>[
   ),
   art(
     14,
-    'Hindi|Turkey|Truthahn|Dinde|Pavo|Tacchino|火鸡|七面鳥|Индюк|ديك رومي|Peru|Indyk|Γαλοπούλα|Пуйка|칠면조|टर्की',
+    'Hindi|Turkey|Truthahn|Dinde|Pavo|Tacchino|火鸡|七面鳥|Индюк|ديك رومي|Peru|Indyk|Γαλοπούλα|Пуйка|칠면조|टर्की|Kalkoen|Індик|Curcan|Kalkon|Kalkun|Kalkun|Kalkkuna|Krocan|Pulyka|Ayam belanda|Pabo|টার্কি মুরগি|ٹرکی مرغ|Kalkun|Gà tây|بوقلمون|Bata mzinga|टर्की|టర్కీ కోడి|வான்கோழி|ਟਰਕੀ|ไก่งวง',
     [
       'R..O..O..R',
       'RR.OYYO.RR',

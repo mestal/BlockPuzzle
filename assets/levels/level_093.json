@@ -1,6 +1,6 @@
 {
   "id": 93,
-  "name": {"de": "Eidechse", "en": "Lizard", "es": "Lagarto", "fr": "Lézard", "it": "Lucertola", "pl": "Jaszczurka", "pt": "Lagarto", "tr": "Kertenkele", "el": "Σαύρα", "bg": "Гущер", "ru": "Ящерица", "ar": "سحلية", "hi": "छिपकली", "zh": "蜥蜴", "ja": "トカゲ", "ko": "도마뱀"},
+  "name": {"id": "Kadal", "ms": "Cicak", "da": "Firben", "de": "Eidechse", "en": "Lizard", "es": "Lagarto", "fil": "Butiki", "fr": "Lézard", "it": "Lucertola", "sw": "Mjusi", "hu": "Gyík", "nl": "Hagedis", "nb": "Øgle", "pl": "Jaszczurka", "pt": "Lagarto", "ro": "Șopârlă", "fi": "Lisko", "sv": "Ödla", "vi": "Con thằn lằn", "tr": "Kertenkele", "cs": "Ještěrka", "el": "Σαύρα", "bg": "Гущер", "ru": "Ящерица", "uk": "Ящірка", "ur": "چھپکلی", "ar": "سحلية", "fa": "مارمولک", "mr": "सरडा", "hi": "छिपकली", "bn": "টিকটিকি", "pa": "ਛਿਪਕਲੀ", "ta": "பல்லி", "te": "బల్లి", "th": "จิ้งจก", "zh": "蜥蜴", "ja": "トカゲ", "ko": "도마뱀"},
   "solution": ["....##....", "...####...", "...####...", ".#.####.#.", "..######..", "....##....", ".#.####.#.", "..######..", "....##....", ".....###.."],
   "colors":   ["....GG....", "...GKKG...", "...GGGG...", ".G.GGGG.G.", "..GGGGGG..", "....GG....", ".G.GGGG.G.", "..GGGGGG..", "....GG....", ".....GGG.."],
   "palette":  { "G": "#22C55E", "K": "#1F2937" }

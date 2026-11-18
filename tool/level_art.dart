@@ -2,9 +2,10 @@
 //
 // Each picture is drawn with one letter per cell ('.' = empty) using the
 // shared [artPalette]. Names follow [artLanguages] order (tr, en, de, fr,
-// es, it, zh, ja, ru, ar, pt, pl, el, bg, ko, hi). Pictures are grouped by
-// the world they belong to; the generator orders them by size and
-// difficulty.
+// es, it, zh, ja, ru, ar, pt, pl, el, bg, ko, hi, nl, uk, ro, sv, nb, da,
+// fi, cs, hu, ms, fil, bn, ur, id, vi, fa, sw, mr, te, ta, pa, th).
+// Pictures are grouped by the world they belong to; the generator orders
+// them by size and difficulty.
 import 'art/w01_sunset.dart';
 import 'art/w02_beach.dart';
 import 'art/w03_forest.dart';
@@ -54,7 +55,9 @@ LevelArt art(int world, String names, List<String> pixels) =>
 /// Order of [LevelArt.names]. New languages are appended at the end.
 const artLanguages = [
   'tr', 'en', 'de', 'fr', 'es', 'it', 'zh', 'ja', 'ru', 'ar', 'pt', //
-  'pl', 'el', 'bg', 'ko', 'hi', //
+  'pl', 'el', 'bg', 'ko', 'hi', 'nl', 'uk', 'ro', 'sv', 'nb', 'da', //
+  'fi', 'cs', 'hu', 'ms', 'fil', 'bn', 'ur', 'id', 'vi', 'fa', 'sw', 'mr', //
+  'te', 'ta', 'pa', 'th', //
 ];
 
 const artPalette = <String, String>{

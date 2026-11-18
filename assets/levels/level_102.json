@@ -1,6 +1,6 @@
 {
   "id": 102,
-  "name": {"de": "Kamin", "en": "Fireplace", "es": "Chimenea", "fr": "Cheminée", "it": "Camino", "pl": "Kominek", "pt": "Lareira", "tr": "Şömine", "el": "Τζάκι", "bg": "Камина", "ru": "Камин", "ar": "مدفأة", "hi": "अंगीठी", "zh": "壁炉", "ja": "暖炉", "ko": "벽난로"},
+  "name": {"id": "Perapian", "ms": "Pendiang", "da": "Pejs", "de": "Kamin", "en": "Fireplace", "es": "Chimenea", "fil": "Pugon", "fr": "Cheminée", "it": "Camino", "sw": "Meko", "hu": "Kandalló", "nl": "Open haard", "nb": "Peis", "pl": "Kominek", "pt": "Lareira", "ro": "Șemineu", "fi": "Takka", "sv": "Öppen spis", "vi": "Lò sưởi", "tr": "Şömine", "cs": "Krb", "el": "Τζάκι", "bg": "Камина", "ru": "Камин", "uk": "Камін", "ur": "آتش دان", "ar": "مدفأة", "fa": "شومینه", "mr": "शेकोटीची जागा", "hi": "अंगीठी", "bn": "ফায়ারপ্লেস", "pa": "ਅੰਗੀਠੀ", "ta": "கணப்பு அடுப்பு", "te": "నిప్పుల గూడు", "th": "เตาผิง", "zh": "壁炉", "ja": "暖炉", "ko": "벽난로"},
   "solution": ["##########", "##########", ".########.", ".#......#.", ".#.#..#.#.", ".#.##.###.", ".#.######.", ".########.", ".########.", ".########."],
   "colors":   ["TTTTTTTTTT", "TTTTTTTTTT", ".HHHHHHHH.", ".H......H.", ".H.R..R.H.", ".H.RO.RRH.", ".H.ROORRH.", ".HRYOOYRH.", ".HTTTTTTH.", ".HHHHHHHH."],
   "palette":  { "H": "#5B3410", "O": "#F97316", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

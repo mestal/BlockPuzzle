@@ -1,6 +1,6 @@
 {
   "id": 141,
-  "name": {"de": "Schild", "en": "Shield", "es": "Escudo", "fr": "Bouclier", "it": "Scudo", "pl": "Tarcza", "pt": "Escudo", "tr": "Kalkan", "el": "Ασπίδα", "bg": "Щит", "ru": "Щит", "ar": "درع", "hi": "ढाल", "zh": "盾牌", "ja": "盾", "ko": "방패"},
+  "name": {"id": "Perisai", "ms": "Perisai", "da": "Skjold", "de": "Schild", "en": "Shield", "es": "Escudo", "fil": "Kalasag", "fr": "Bouclier", "it": "Scudo", "sw": "Ngao", "hu": "Pajzs", "nl": "Schild", "nb": "Skjold", "pl": "Tarcza", "pt": "Escudo", "ro": "Scut", "fi": "Kilpi", "sv": "Sköld", "vi": "Cái khiên", "tr": "Kalkan", "cs": "Štít", "el": "Ασπίδα", "bg": "Щит", "ru": "Щит", "uk": "Щит", "ur": "ڈھال", "ar": "درع", "fa": "سپر", "mr": "ढाल", "hi": "ढाल", "bn": "ঢাল", "pa": "ਢਾਲ", "ta": "கேடயம்", "te": "డాలు", "th": "โล่", "zh": "盾牌", "ja": "盾", "ko": "방패"},
   "solution": ["..........", "##########", "##########", "##########", "##########", "##########", "##########", "##########", ".########.", ".########.", "..######..", "..######..", "...####...", "....##....", ".........."],
   "colors":   ["..........", "XXXXXXXXXX", "XAAAAAAAAX", "XAXXAAXXAX", "XAXAAAAXAX", "XAAAXXAAAX", "XAAAXXAAAX", "XAXAAAAXAX", ".XAXXXXAX.", ".XAAAAAAX.", "..XAAAAX..", "..XAAAAX..", "...XAAX...", "....XX....", ".........."],
   "palette":  { "A": "#F59E0B", "X": "#991B1B" }

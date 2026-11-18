@@ -1,6 +1,6 @@
 {
   "id": 414,
-  "name": {"de": "Blumentopf", "en": "Flower pot", "es": "Maceta", "fr": "Pot de fleurs", "it": "Vaso di fiori", "pl": "Doniczka", "pt": "Vaso de flores", "tr": "Saksı", "el": "Γλάστρα", "bg": "Саксия", "ru": "Цветочный горшок", "ar": "أصيص زهور", "hi": "गमला", "zh": "花盆", "ja": "植木鉢", "ko": "화분"},
+  "name": {"id": "Pot bunga", "ms": "Pasu bunga", "da": "Urtepotte", "de": "Blumentopf", "en": "Flower pot", "es": "Maceta", "fil": "Paso", "fr": "Pot de fleurs", "it": "Vaso di fiori", "sw": "Chungu cha maua", "hu": "Virágcserép", "nl": "Bloempot", "nb": "Blomsterpotte", "pl": "Doniczka", "pt": "Vaso de flores", "ro": "Ghiveci", "fi": "Kukkaruukku", "sv": "Blomkruka", "vi": "Chậu hoa", "tr": "Saksı", "cs": "Květináč", "el": "Γλάστρα", "bg": "Саксия", "ru": "Цветочный горшок", "uk": "Вазон", "ur": "گملا", "ar": "أصيص زهور", "fa": "گلدان", "mr": "फुलांची कुंडी", "hi": "गमला", "bn": "ফুলের টব", "pa": "ਗਮਲਾ", "ta": "பூந்தொட்டி", "te": "పూల కుండీ", "th": "กระถางดอกไม้", "zh": "花盆", "ja": "植木鉢", "ko": "화분"},
   "solution": [".#..#..#..", "###...###.", ".#..#..#..", ".#.###.#..", ".#..#..#..", "..#.#.#...", "....##...#", "....#.....", "##########", ".########.", ".########.", "..######..", "..######..", "...####..#", "#........."],
   "colors":   [".P..Y..Y..", "PYP...YRY.", ".P..P..Y..", ".G.PYP.G..", ".G..P..G..", "..G.G.G...", "....GG...Y", "....G.....", "OOOOOOOOOO", ".OOOOOOOO.", ".OOOOOOOO.", "..OOOOOO..", "..OOOOOO..", "...OOOO..Y", "Y........."],
   "palette":  { "G": "#22C55E", "O": "#F97316", "P": "#F472B6", "R": "#E8453C", "Y": "#FACC15" }

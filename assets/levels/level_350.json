@@ -1,6 +1,6 @@
 {
   "id": 350,
-  "name": {"de": "Tempel", "en": "Temple", "es": "Templo", "fr": "Temple", "it": "Tempio", "pl": "Świątynia", "pt": "Templo", "tr": "Tapınak", "el": "Ναός", "bg": "Храм", "ru": "Храм", "ar": "معبد", "hi": "मंदिर", "zh": "神殿", "ja": "神殿", "ko": "신전"},
+  "name": {"id": "Kuil", "ms": "Kuil", "da": "Tempel", "de": "Tempel", "en": "Temple", "es": "Templo", "fil": "Templo", "fr": "Temple", "it": "Tempio", "sw": "Hekalu", "hu": "Templom", "nl": "Tempel", "nb": "Tempel", "pl": "Świątynia", "pt": "Templo", "ro": "Templu", "fi": "Temppeli", "sv": "Tempel", "vi": "Đền thờ", "tr": "Tapınak", "cs": "Chrám", "el": "Ναός", "bg": "Храм", "ru": "Храм", "uk": "Храм", "ur": "مندر", "ar": "معبد", "fa": "معبد", "mr": "मंदिर", "hi": "मंदिर", "bn": "মন্দির", "pa": "ਮੰਦਰ", "ta": "கோயில்", "te": "ఆలయం", "th": "วิหาร", "zh": "神殿", "ja": "神殿", "ko": "신전"},
   "solution": ["#......#..", "....##....", "..######..", "##########", "##########", ".#.#..#.#.", ".#.#..#.#.", ".#.#..#.#.", ".#.#..#.#.", ".#.#..#.#.", ".#.#..#.#.", "##########", "##########", "..........", "#...#...#."],
   "colors":   ["Y......Y..", "....EE....", "..EEEEEE..", "EEEEEEEEEE", "EEEEEEEEEE", ".E.E..E.E.", ".E.E..E.E.", ".E.E..E.E.", ".E.E..E.E.", ".E.E..E.E.", ".E.E..E.E.", "EEEEEEEEEE", "EEEEEEEEEE", "..........", "Y...Y...Y."],
   "palette":  { "E": "#94A3B8", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 171,
-  "name": {"de": "Luftschiff", "en": "Airship", "es": "Dirigible", "fr": "Dirigeable", "it": "Dirigibile", "pl": "Sterowiec", "pt": "Dirigível", "tr": "Zeplin", "el": "Αερόπλοιο", "bg": "Дирижабъл", "ru": "Дирижабль", "ar": "منطاد", "hi": "हवाई पोत", "zh": "飞艇", "ja": "飛行船", "ko": "비행선"},
+  "name": {"id": "Kapal udara", "ms": "Kapal udara", "da": "Luftskib", "de": "Luftschiff", "en": "Airship", "es": "Dirigible", "fil": "Airship", "fr": "Dirigeable", "it": "Dirigibile", "sw": "Meli ya angani", "hu": "Léghajó", "nl": "Luchtschip", "nb": "Luftskip", "pl": "Sterowiec", "pt": "Dirigível", "ro": "Dirijabil", "fi": "Ilmalaiva", "sv": "Luftskepp", "vi": "Khí cầu", "tr": "Zeplin", "cs": "Vzducholoď", "el": "Αερόπλοιο", "bg": "Дирижабъл", "ru": "Дирижабль", "uk": "Дирижабль", "ur": "ہوائی جہاز غبارہ", "ar": "منطاد", "fa": "کشتی هوایی", "mr": "हवाई जहाज फुगा", "hi": "हवाई पोत", "bn": "আকাশযান", "pa": "ਹਵਾਈ ਬੇੜਾ", "ta": "வான்கப்பல்", "te": "గగన నౌక", "th": "เรือเหาะ", "zh": "飞艇", "ja": "飛行船", "ko": "비행선"},
   "solution": ["....##....", "...####...", "..######..", "..######..", "..######..", "..######..", "..######..", "..######..", "..######..", "...####...", "...####...", "...####...", ".##.##.##.", ".#..##..#.", ".........."],
   "colors":   ["....EE....", "...EEEE...", "..EEEEEE..", "..ERRRRE..", "..EEEEEE..", "..EEEEEE..", "..ERRRRE..", "..EEEEEE..", "..EEEEEE..", "...EEEE...", "...TTTT...", "...TKKT...", ".EE.EE.EE.", ".E..EE..E.", ".........."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937", "R": "#E8453C", "T": "#92400E" }

@@ -1,6 +1,6 @@
 {
   "id": 458,
-  "name": {"de": "Fernrohr", "en": "Spyglass", "es": "Catalejo", "fr": "Longue-vue", "it": "Cannocchiale", "pl": "Luneta", "pt": "Luneta", "tr": "Dürbün", "el": "Κιάλι", "bg": "Далекоглед", "ru": "Подзорная труба", "ar": "منظار", "hi": "दूरबीन", "zh": "单筒望远镜", "ja": "望遠鏡", "ko": "망원경"},
+  "name": {"id": "Teropong", "ms": "Teropong", "da": "Kikkert", "de": "Fernrohr", "en": "Spyglass", "es": "Catalejo", "fil": "Largabista", "fr": "Longue-vue", "it": "Cannocchiale", "sw": "Darubini ndogo", "hu": "Látcső", "nl": "Verrekijker", "nb": "Kikkert", "pl": "Luneta", "pt": "Luneta", "ro": "Lunetă", "fi": "Kaukoputki", "sv": "Kikare", "vi": "Ống nhòm", "tr": "Dürbün", "cs": "Kukátko", "el": "Κιάλι", "bg": "Далекоглед", "ru": "Подзорная труба", "uk": "Підзорна труба", "ur": "دوربین", "ar": "منظار", "fa": "دوربین تک‌چشمی", "mr": "दुर्बीण", "hi": "दूरबीन", "bn": "দূরবিন", "pa": "ਦੂਰਬੀਨ", "ta": "தொலைநோக்கி", "te": "దూరదర్శిని", "th": "กล้องส่องทางไกล", "zh": "单筒望远镜", "ja": "望遠鏡", "ko": "망원경"},
   "solution": ["..........", "..#.......", "......##..", "......####", "......###.", ".....###..", "....###...", "...####...", "..####....", ".####.#...", "####......", "###.......", "##........", "..........", ".........."],
   "colors":   ["..........", "..Y.......", "......AA..", "......AAAA", "......AAA.", ".....EEE..", "....HHH...", "...HHHH...", "..HHHH....", ".EEEE.H...", "HHHH......", "HHH.......", "HH........", "..........", ".........."],
   "palette":  { "A": "#F59E0B", "E": "#94A3B8", "H": "#5B3410", "Y": "#FACC15" }

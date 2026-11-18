@@ -1,6 +1,6 @@
 {
   "id": 286,
-  "name": {"de": "Farbpalette", "en": "Paint palette", "es": "Paleta de pintura", "fr": "Palette de peinture", "it": "Tavolozza", "pl": "Paleta", "pt": "Paleta de tintas", "tr": "Boya paleti", "el": "Παλέτα", "bg": "Палитра", "ru": "Палитра", "ar": "لوحة الألوان", "hi": "रंग पट्टिका", "zh": "调色板", "ja": "パレット", "ko": "팔레트"},
+  "name": {"id": "Palet cat", "ms": "Palet cat", "da": "Palet", "de": "Farbpalette", "en": "Paint palette", "es": "Paleta de pintura", "fil": "Paleta ng pintura", "fr": "Palette de peinture", "it": "Tavolozza", "sw": "Kibao cha rangi", "hu": "Festőpaletta", "nl": "Schilderspalet", "nb": "Palett", "pl": "Paleta", "pt": "Paleta de tintas", "ro": "Paletă de pictor", "fi": "Paletti", "sv": "Palett", "vi": "Bảng pha màu", "tr": "Boya paleti", "cs": "Paleta", "el": "Παλέτα", "bg": "Палитра", "ru": "Палитра", "uk": "Палітра", "ur": "رنگوں کی پلیٹ", "ar": "لوحة الألوان", "fa": "پالت رنگ", "mr": "रंगपट", "hi": "रंग पट्टिका", "bn": "রঙের প্যালেট", "pa": "ਰੰਗਾਂ ਦੀ ਪਲੇਟ", "ta": "வண்ணத் தட்டு", "te": "రంగుల పలక", "th": "จานสี", "zh": "调色板", "ja": "パレット", "ko": "팔레트"},
   "solution": ["#........#", "..######..", ".########.", "##########", "####..####", "####..####", "##########", ".########.", "..###..##.", "#........."],
   "colors":   ["Y........Y", "..TTTTTT..", ".TRTTTBTT.", "TTTTTTTTYT", "TTTT..TTTT", "TGTT..TTTT", "TTTTTTTTPT", ".TTTTTTTT.", "..TTT..TT.", "Y........."],
   "palette":  { "B": "#3B82F6", "G": "#22C55E", "P": "#F472B6", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

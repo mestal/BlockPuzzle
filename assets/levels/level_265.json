@@ -1,6 +1,6 @@
 {
   "id": 265,
-  "name": {"de": "Scheune", "en": "Barn", "es": "Granero", "fr": "Grange", "it": "Fienile", "pl": "Stodoła", "pt": "Celeiro", "tr": "Ahır", "el": "Αχυρώνας", "bg": "Хамбар", "ru": "Амбар", "ar": "حظيرة", "hi": "खलिहान", "zh": "谷仓", "ja": "納屋", "ko": "헛간"},
+  "name": {"id": "Lumbung", "ms": "Bangsal", "da": "Lade", "de": "Scheune", "en": "Barn", "es": "Granero", "fil": "Kamalig", "fr": "Grange", "it": "Fienile", "sw": "Ghala", "hu": "Pajta", "nl": "Schuur", "nb": "Låve", "pl": "Stodoła", "pt": "Celeiro", "ro": "Hambar", "fi": "Lato", "sv": "Lada", "vi": "Nhà kho", "tr": "Ahır", "cs": "Stodola", "el": "Αχυρώνας", "bg": "Хамбар", "ru": "Амбар", "uk": "Комора", "ur": "گودام", "ar": "حظيرة", "fa": "انبار", "mr": "धान्याचे कोठार", "hi": "खलिहान", "bn": "গোলাঘর", "pa": "ਕੋਠਾ", "ta": "களஞ்சியம்", "te": "గాదె", "th": "โรงนา", "zh": "谷仓", "ja": "納屋", "ko": "헛간"},
   "solution": ["#......#..", "....##....", "...####...", "..######..", ".########.", "##########", ".########.", ".########.", ".##.##.##.", ".###..###.", ".##.##.##.", ".########.", ".########.", "..........", "#...#...#."],
   "colors":   ["Y......Y..", "....RR....", "...RRRR...", "..RRRRRR..", ".RRRWWRRR.", "RRRRWWRRRR", ".RRRRRRRR.", ".RWWWWWWR.", ".RW.WW.WR.", ".RWW..WWR.", ".RW.WW.WR.", ".RWWWWWWR.", ".RRRRRRRR.", "..........", "Y...Y...Y."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

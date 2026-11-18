@@ -1,6 +1,6 @@
 {
   "id": 373,
-  "name": {"de": "Zaubertrank", "en": "Potion", "es": "Poción", "fr": "Potion", "it": "Pozione", "pl": "Eliksir", "pt": "Poção", "tr": "İksir", "el": "Φίλτρο", "bg": "Отвара", "ru": "Зелье", "ar": "جرعة سحرية", "hi": "जादुई पेय", "zh": "魔药", "ja": "ポーション", "ko": "물약"},
+  "name": {"id": "Ramuan", "ms": "Ramuan", "da": "Trylledrik", "de": "Zaubertrank", "en": "Potion", "es": "Poción", "fil": "Gayuma", "fr": "Potion", "it": "Pozione", "sw": "Dawa ya uchawi", "hu": "Varázsital", "nl": "Toverdrank", "nb": "Trylledrikk", "pl": "Eliksir", "pt": "Poção", "ro": "Poțiune", "fi": "Taikajuoma", "sv": "Trolldryck", "vi": "Lọ thuốc thần", "tr": "İksir", "cs": "Lektvar", "el": "Φίλτρο", "bg": "Отвара", "ru": "Зелье", "uk": "Зілля", "ur": "جادوئی مشروب", "ar": "جرعة سحرية", "fa": "معجون", "mr": "जादूचे औषध", "hi": "जादुई पेय", "bn": "জাদুর পানীয়", "pa": "ਜਾਦੂਈ ਘੋਲ", "ta": "மந்திர மருந்து", "te": "మాయా కషాయం", "th": "ยาวิเศษ", "zh": "魔药", "ja": "ポーション", "ko": "물약"},
   "solution": ["#...#..#..", "...#.#....", "....#.....", "....##....", "#...##.#..", "....##....", "...####...", "..######..", ".########.", "##########", "##########", "##########", ".########.", "..######..", "#........#"],
   "colors":   ["Y...W..Y..", "...W.W....", "....W.....", "....TT....", "Y...EE.Y..", "....EE....", "...EEEE...", "..EVVVVE..", ".EVVVVVVE.", "EVVWVVVVVE", "EVVVVVWVVE", "EVVVVVVVVE", ".EVVVVVVE.", "..EEEEEE..", "Y........Y"],
   "palette":  { "E": "#94A3B8", "T": "#92400E", "V": "#8B5CF6", "W": "#FFFFFF", "Y": "#FACC15" }

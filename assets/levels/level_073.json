@@ -1,6 +1,6 @@
 {
   "id": 73,
-  "name": {"de": "Eisbecher", "en": "Sundae", "es": "Copa de helado", "fr": "Coupe glacée", "it": "Coppa gelato", "pl": "Puchar lodowy", "pt": "Sundae", "tr": "Dondurma kupası", "el": "Παγωτό κύπελλο", "bg": "Сладоледена купа", "ru": "Сандей", "ar": "سانداي", "hi": "संडे आइसक्रीम", "zh": "圣代", "ja": "サンデー", "ko": "선데 아이스크림"},
+  "name": {"id": "Sundae", "ms": "Sundae", "da": "Isbæger", "de": "Eisbecher", "en": "Sundae", "es": "Copa de helado", "fil": "Sundae", "fr": "Coupe glacée", "it": "Coppa gelato", "sw": "Aiskrimu ya kikombe", "hu": "Fagylaltkehely", "nl": "Coupe ijs", "nb": "Iskrembeger", "pl": "Puchar lodowy", "pt": "Sundae", "ro": "Cupă de înghețată", "fi": "Jäätelöannos", "sv": "Glasscoupe", "vi": "Kem ly", "tr": "Dondurma kupası", "cs": "Pohár zmrzliny", "el": "Παγωτό κύπελλο", "bg": "Сладоледена купа", "ru": "Сандей", "uk": "Санде", "ur": "سنڈے", "ar": "سانداي", "fa": "بستنی جامی", "mr": "संडे", "hi": "संडे आइसक्रीम", "bn": "সানডে", "pa": "ਸੰਡੇ", "ta": "சண்டே", "te": "సండే", "th": "ซันเดย์", "zh": "圣代", "ja": "サンデー", "ko": "선데 아이스크림"},
   "solution": ["....##....", "...####...", "..######..", ".########.", "##########", "##########", ".########.", "..######..", "....##....", "..######.."],
   "colors":   ["....RR....", "...PPPP...", "..PPPPPP..", ".JJJJJJJJ.", "JJJJJJJJJJ", "IIIIIIIIII", ".IIIIIIII.", "..IIIIII..", "....II....", "..IIIIII.."],
   "palette":  { "I": "#BAE6FD", "J": "#FBCFE8", "P": "#F472B6", "R": "#E8453C" }

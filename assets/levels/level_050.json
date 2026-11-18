@@ -1,6 +1,6 @@
 {
   "id": 50,
-  "name": {"de": "Eule", "en": "Owl", "es": "Búho", "fr": "Hibou", "it": "Gufo", "pl": "Sowa", "pt": "Coruja", "tr": "Baykuş", "el": "Κουκουβάγια", "bg": "Бухал", "ru": "Сова", "ar": "بومة", "hi": "उल्लू", "zh": "猫头鹰", "ja": "フクロウ", "ko": "부엉이"},
+  "name": {"id": "Burung hantu", "ms": "Burung hantu", "da": "Ugle", "de": "Eule", "en": "Owl", "es": "Búho", "fil": "Kuwago", "fr": "Hibou", "it": "Gufo", "sw": "Bundi", "hu": "Bagoly", "nl": "Uil", "nb": "Ugle", "pl": "Sowa", "pt": "Coruja", "ro": "Bufniță", "fi": "Pöllö", "sv": "Uggla", "vi": "Con cú", "tr": "Baykuş", "cs": "Sova", "el": "Κουκουβάγια", "bg": "Бухал", "ru": "Сова", "uk": "Сова", "ur": "الو", "ar": "بومة", "fa": "جغد", "mr": "घुबड", "hi": "उल्लू", "bn": "পেঁচা", "pa": "ਉੱਲੂ", "ta": "ஆந்தை", "te": "గుడ్లగూబ", "th": "นกฮูก", "zh": "猫头鹰", "ja": "フクロウ", "ko": "부엉이"},
   "solution": ["..........", "......##..", "..######..", ".########.", ".########.", ".########.", "..######..", "..######..", "...#..#...", ".........."],
   "colors":   ["..........", "......TT..", "..TTTTTT..", ".TWWTTWWT.", ".TWKTTKWT.", ".TTTOOTTT.", "..TFFFFT..", "..TFFFFT..", "...O..O...", ".........."],
   "palette":  { "F": "#FBCFA5", "K": "#1F2937", "O": "#F97316", "T": "#92400E", "W": "#FFFFFF" }

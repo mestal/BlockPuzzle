@@ -1,6 +1,6 @@
 {
   "id": 426,
-  "name": {"de": "Kopfhörer", "en": "Headphones", "es": "Auriculares", "fr": "Casque audio", "it": "Cuffie", "pl": "Słuchawki", "pt": "Fones de ouvido", "tr": "Kulaklık", "el": "Ακουστικά", "bg": "Слушалки", "ru": "Наушники", "ar": "سماعات رأس", "hi": "हेडफ़ोन", "zh": "耳机", "ja": "ヘッドホン", "ko": "헤드폰"},
+  "name": {"id": "Headphone", "ms": "Fon kepala", "da": "Hovedtelefoner", "de": "Kopfhörer", "en": "Headphones", "es": "Auriculares", "fil": "Headphones", "fr": "Casque audio", "it": "Cuffie", "sw": "Vipokea sauti", "hu": "Fejhallgató", "nl": "Koptelefoon", "nb": "Hodetelefoner", "pl": "Słuchawki", "pt": "Fones de ouvido", "ro": "Căști", "fi": "Kuulokkeet", "sv": "Hörlurar", "vi": "Tai nghe", "tr": "Kulaklık", "cs": "Sluchátka", "el": "Ακουστικά", "bg": "Слушалки", "ru": "Наушники", "uk": "Навушники", "ur": "ہیڈ فون", "ar": "سماعات رأس", "fa": "هدفون", "mr": "हेडफोन", "hi": "हेडफ़ोन", "bn": "হেডফোন", "pa": "ਹੈੱਡਫ਼ੋਨ", "ta": "தலையணி ஒலிபெருக்கி", "te": "హెడ్‌ఫోన్లు", "th": "หูฟัง", "zh": "耳机", "ja": "ヘッドホン", "ko": "헤드폰"},
   "solution": [".#######..", ".#......#.", "#........#", "#....##..#", "#....#...#", "##..##..##", "##..##..##", "##......##", ".#......#.", "...#......"],
   "colors":   [".KKKKKKK..", ".K......K.", "K........K", "K....KK..K", "K....K...K", "RR..KK..RR", "RR..KK..RR", "RR......RR", ".R......R.", "...Y......"],
   "palette":  { "K": "#1F2937", "R": "#E8453C", "Y": "#FACC15" }

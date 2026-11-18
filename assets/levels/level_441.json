@@ -1,6 +1,6 @@
 {
   "id": 441,
-  "name": {"de": "Bullauge", "en": "Porthole", "es": "Ojo de buey", "fr": "Hublot", "it": "Oblò", "pl": "Bulaj", "pt": "Escotilha", "tr": "Lomboz", "el": "Φινιστρίνι", "bg": "Илюминатор", "ru": "Иллюминатор", "ar": "كوة السفينة", "hi": "जहाज़ की खिड़की", "zh": "舷窗", "ja": "舷窓", "ko": "현창"},
+  "name": {"id": "Jendela kapal", "ms": "Tingkap kapal", "da": "Koøje", "de": "Bullauge", "en": "Porthole", "es": "Ojo de buey", "fil": "Bintanang barko", "fr": "Hublot", "it": "Oblò", "sw": "Dirisha la meli", "hu": "Hajóablak", "nl": "Patrijspoort", "nb": "Koøye", "pl": "Bulaj", "pt": "Escotilha", "ro": "Hublou", "fi": "Ikkuna-aukko", "sv": "Hyttventil", "vi": "Cửa sổ tàu", "tr": "Lomboz", "cs": "Lodní okénko", "el": "Φινιστρίνι", "bg": "Илюминатор", "ru": "Иллюминатор", "uk": "Ілюмінатор", "ur": "جہاز کی کھڑکی", "ar": "كوة السفينة", "fa": "دریچه کشتی", "mr": "जहाजाची खिडकी", "hi": "जहाज़ की खिड़की", "bn": "জাহাজের জানালা", "pa": "ਜਹਾਜ਼ ਦੀ ਖਿੜਕੀ", "ta": "கப்பல் சாளரம்", "te": "ఓడ కిటికీ", "th": "หน้าต่างเรือ", "zh": "舷窗", "ja": "舷窓", "ko": "현창"},
   "solution": ["...####...", ".########.", "##.####.##", "#.######.#", "#.######.#", "#.######.#", "#.######.#", "##.####.##", ".########.", "...####..."],
   "colors":   ["...EEEE...", ".EEEEEEEE.", "EE.CCCC.EE", "E.CCCCCC.E", "E.CCWCCC.E", "E.BBBBBB.E", "E.BBBBBB.E", "EE.BBBB.EE", ".EEEEEEEE.", "...EEEE..."],
   "palette":  { "B": "#3B82F6", "C": "#22D3EE", "E": "#94A3B8", "W": "#FFFFFF" }

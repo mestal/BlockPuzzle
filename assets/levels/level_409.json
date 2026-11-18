@@ -1,6 +1,6 @@
 {
   "id": 409,
-  "name": {"de": "Brunnen", "en": "Fountain", "es": "Fuente", "fr": "Fontaine", "it": "Fontana", "pl": "Fontanna", "pt": "Fonte", "tr": "Çeşme", "el": "Συντριβάνι", "bg": "Фонтан", "ru": "Фонтан", "ar": "نافورة", "hi": "फव्वारा", "zh": "喷泉", "ja": "噴水", "ko": "분수"},
+  "name": {"id": "Air mancur", "ms": "Air pancut", "da": "Springvand", "de": "Brunnen", "en": "Fountain", "es": "Fuente", "fil": "Fuwente", "fr": "Fontaine", "it": "Fontana", "sw": "Chemchemi", "hu": "Szökőkút", "nl": "Fontein", "nb": "Fontene", "pl": "Fontanna", "pt": "Fonte", "ro": "Fântână arteziană", "fi": "Suihkulähde", "sv": "Fontän", "vi": "Đài phun nước", "tr": "Çeşme", "cs": "Fontána", "el": "Συντριβάνι", "bg": "Фонтан", "ru": "Фонтан", "uk": "Фонтан", "ur": "فوارہ", "ar": "نافورة", "fa": "فواره", "mr": "कारंजे", "hi": "फव्वारा", "bn": "ঝরনা", "pa": "ਫੁਹਾਰਾ", "ta": "நீரூற்று", "te": "ఫౌంటెన్", "th": "น้ำพุ", "zh": "喷泉", "ja": "噴水", "ko": "분수"},
   "solution": ["#...##..#.", "....##....", ".#..##..#.", "#...##...#", "#.######.#", "...####...", "#...##..#.", "....##....", ".#..##..#.", "##########", "##########", ".########.", "...####...", "..######..", "#........#"],
   "colors":   ["Y...CC..Y.", "....CC....", ".C..CC..C.", "C...CC...C", "C.EEEEEE.C", "...EEEE...", "Y...EE..Y.", "....EE....", ".C..EE..C.", "ECCCCCCCCE", "EEEEEEEEEE", ".EEEEEEEE.", "...EEEE...", "..EEEEEE..", "Y........Y"],
   "palette":  { "C": "#22D3EE", "E": "#94A3B8", "Y": "#FACC15" }

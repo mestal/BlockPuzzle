@@ -1,6 +1,6 @@
 {
   "id": 74,
-  "name": {"de": "Donut", "en": "Donut", "es": "Dona", "fr": "Beignet", "it": "Ciambella", "pl": "Donut", "pt": "Rosquinha", "tr": "Halka tatlı", "el": "Ντόνατ", "bg": "Поничка", "ru": "Пончик", "ar": "دونات", "hi": "डोनट", "zh": "甜甜圈", "ja": "ドーナツ", "ko": "도넛"},
+  "name": {"id": "Donat", "ms": "Donut", "da": "Donut", "de": "Donut", "en": "Donut", "es": "Dona", "fil": "Donut", "fr": "Beignet", "it": "Ciambella", "sw": "Kaimati", "hu": "Fánk", "nl": "Donut", "nb": "Smultring", "pl": "Donut", "pt": "Rosquinha", "ro": "Gogoașă", "fi": "Donitsi", "sv": "Munk", "vi": "Bánh vòng", "tr": "Halka tatlı", "cs": "Kobliha", "el": "Ντόνατ", "bg": "Поничка", "ru": "Пончик", "uk": "Пончик", "ur": "ڈونٹ", "ar": "دونات", "fa": "دونات", "mr": "डोनट", "hi": "डोनट", "bn": "ডোনাট", "pa": "ਡੋਨਟ", "ta": "டோனட்", "te": "డోనట్", "th": "โดนัท", "zh": "甜甜圈", "ja": "ドーナツ", "ko": "도넛"},
   "solution": ["..#####...", ".#######..", "#########.", "###...###.", "###...###.", "###...###.", "#########.", ".#######..", "..#####...", ".........."],
   "colors":   ["..PPPPP...", ".PPYPPBP..", "PPRPPPPPP.", "PPP...PPP.", "PBP...PYP.", "PPP...PPP.", "PPPPPRPPP.", ".PYPPPPP..", "..PPPPP...", ".........."],
   "palette":  { "B": "#3B82F6", "P": "#F472B6", "R": "#E8453C", "Y": "#FACC15" }

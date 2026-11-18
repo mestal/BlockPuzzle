@@ -1,6 +1,6 @@
 {
   "id": 321,
-  "name": {"de": "Jaguar", "en": "Jaguar", "es": "Jaguar", "fr": "Jaguar", "it": "Giaguaro", "pl": "Jaguar", "pt": "Onça-pintada", "tr": "Jaguar", "el": "Τζάγκουαρ", "bg": "Ягуар", "ru": "Ягуар", "ar": "جاكوار", "hi": "जगुआर", "zh": "美洲豹", "ja": "ジャガー", "ko": "재규어"},
+  "name": {"id": "Jaguar", "ms": "Jaguar", "da": "Jaguar", "de": "Jaguar", "en": "Jaguar", "es": "Jaguar", "fil": "Jaguar", "fr": "Jaguar", "it": "Giaguaro", "sw": "Jagwa", "hu": "Jaguár", "nl": "Jaguar", "nb": "Jaguar", "pl": "Jaguar", "pt": "Onça-pintada", "ro": "Jaguar", "fi": "Jaguaari", "sv": "Jaguar", "vi": "Báo đốm", "tr": "Jaguar", "cs": "Jaguár", "el": "Τζάγκουαρ", "bg": "Ягуар", "ru": "Ягуар", "uk": "Ягуар", "ur": "جیگوار", "ar": "جاكوار", "fa": "جگوار", "mr": "जॅग्वार", "hi": "जगुआर", "bn": "জাগুয়ার", "pa": "ਜੈਗੁਆਰ", "ta": "ஜாகுவார்", "te": "జాగ్వార్", "th": "เสือจากัวร์", "zh": "美洲豹", "ja": "ジャガー", "ko": "재규어"},
   "solution": [".#......#.", "###.##.###", "##########", "#.######.#", "##########", "####..####", ".#.####.#.", ".########.", "..######..", "#..####..#"],
   "colors":   [".A......A.", "AAA.AA.AAA", "AAAAAAAAAA", "A.AAAAAA.A", "AAKAAAAKAA", "AAAA..AAAA", ".A.AKKA.A.", ".AAAAAAAA.", "..AWWWWA..", "Y..AWWA..Y"],
   "palette":  { "A": "#F59E0B", "K": "#1F2937", "W": "#FFFFFF", "Y": "#FACC15" }

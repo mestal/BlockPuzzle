@@ -1,6 +1,6 @@
 {
   "id": 218,
-  "name": {"de": "Bambus", "en": "Bamboo", "es": "Bambú", "fr": "Bambou", "it": "Bambù", "pl": "Bambus", "pt": "Bambu", "tr": "Bambu", "el": "Μπαμπού", "bg": "Бамбук", "ru": "Бамбук", "ar": "خيزران", "hi": "बांस", "zh": "竹子", "ja": "竹", "ko": "대나무"},
+  "name": {"id": "Bambu", "ms": "Buluh", "da": "Bambus", "de": "Bambus", "en": "Bamboo", "es": "Bambú", "fil": "Kawayan", "fr": "Bambou", "it": "Bambù", "sw": "Mianzi", "hu": "Bambusz", "nl": "Bamboe", "nb": "Bambus", "pl": "Bambus", "pt": "Bambu", "ro": "Bambus", "fi": "Bambu", "sv": "Bambu", "vi": "Cây tre", "tr": "Bambu", "cs": "Bambus", "el": "Μπαμπού", "bg": "Бамбук", "ru": "Бамбук", "uk": "Бамбук", "ur": "بانس", "ar": "خيزران", "fa": "بامبو", "mr": "बांबू", "hi": "बांस", "bn": "বাঁশ", "pa": "ਬਾਂਸ", "ta": "மூங்கில்", "te": "వెదురు", "th": "ไผ่", "zh": "竹子", "ja": "竹", "ko": "대나무"},
   "solution": [".##....##.", ".##...#...", ".......##.", ".##.#..##.", ".##....##.", ".##....##.", "....#.....", ".##.##.##.", ".##...###.", ".##....##.", ".##.......", "###....##.", ".##....##.", ".##....##.", "##########"],
   "colors":   [".GG....GG.", ".GG...G...", ".......GG.", ".GG.G..GG.", ".GG....GG.", ".GG....GG.", "....G.....", ".GG.GG.GG.", ".GG...GGG.", ".GG....GG.", ".GG.......", "GGG....GG.", ".GG....GG.", ".GG....GG.", "DDDDDDDDDD"],
   "palette":  { "D": "#15803D", "G": "#22C55E" }

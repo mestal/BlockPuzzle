@@ -1,6 +1,6 @@
 {
   "id": 1,
-  "name": {"de": "Pilz", "en": "Mushroom", "es": "Seta", "fr": "Champignon", "it": "Fungo", "pl": "Grzyb", "pt": "Cogumelo", "tr": "Mantar", "el": "Μανιτάρι", "bg": "Гъба", "ru": "Гриб", "ar": "فطر", "hi": "मशरूम", "zh": "蘑菇", "ja": "キノコ", "ko": "버섯"},
+  "name": {"id": "Jamur", "ms": "Cendawan", "da": "Svamp", "de": "Pilz", "en": "Mushroom", "es": "Seta", "fil": "Kabute", "fr": "Champignon", "it": "Fungo", "sw": "Uyoga", "hu": "Gomba", "nl": "Paddenstoel", "nb": "Sopp", "pl": "Grzyb", "pt": "Cogumelo", "ro": "Ciupercă", "fi": "Sieni", "sv": "Svamp", "vi": "Nấm", "tr": "Mantar", "cs": "Houba", "el": "Μανιτάρι", "bg": "Гъба", "ru": "Гриб", "uk": "Гриб", "ur": "کھمبی", "ar": "فطر", "fa": "قارچ", "mr": "मशरूम", "hi": "मशरूम", "bn": "মাশরুম", "pa": "ਖੁੰਬ", "ta": "காளான்", "te": "పుట్టగొడుగు", "th": "เห็ด", "zh": "蘑菇", "ja": "キノコ", "ko": "버섯"},
   "solution": [".###.", "#####", "#####", "..#..", ".###."],
   "colors":   [".RWR.", "RRRWR", "RWRRR", "..F..", ".FFF."],
   "palette":  { "F": "#FBCFA5", "R": "#E8453C", "W": "#FFFFFF" }

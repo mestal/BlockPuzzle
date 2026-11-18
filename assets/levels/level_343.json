@@ -1,6 +1,6 @@
 {
   "id": 343,
-  "name": {"de": "Steintafel", "en": "Stone tablet", "es": "Tablilla de piedra", "fr": "Tablette de pierre", "it": "Tavoletta di pietra", "pl": "Kamienna tablica", "pt": "Tábua de pedra", "tr": "Taş tablet", "el": "Πέτρινη πλάκα", "bg": "Каменна плоча", "ru": "Каменная скрижаль", "ar": "لوح حجري", "hi": "शिलालेख", "zh": "石碑", "ja": "石板", "ko": "석판"},
+  "name": {"id": "Prasasti batu", "ms": "Loh batu", "da": "Stentavle", "de": "Steintafel", "en": "Stone tablet", "es": "Tablilla de piedra", "fil": "Tapyas na bato", "fr": "Tablette de pierre", "it": "Tavoletta di pietra", "sw": "Bamba la jiwe", "hu": "Kőtábla", "nl": "Stenen tablet", "nb": "Steintavle", "pl": "Kamienna tablica", "pt": "Tábua de pedra", "ro": "Tăbliță de piatră", "fi": "Kivitaulu", "sv": "Stentavla", "vi": "Bia đá", "tr": "Taş tablet", "cs": "Kamenná deska", "el": "Πέτρινη πλάκα", "bg": "Каменна плоча", "ru": "Каменная скрижаль", "uk": "Кам’яна скрижаль", "ur": "پتھر کی تختی", "ar": "لوح حجري", "fa": "لوح سنگی", "mr": "शिलालेख", "hi": "शिलालेख", "bn": "পাথরের ফলক", "pa": "ਪੱਥਰ ਦੀ ਤਖ਼ਤੀ", "ta": "கல்வெட்டு", "te": "శిలాఫలకం", "th": "แผ่นจารึกหิน", "zh": "石碑", "ja": "石板", "ko": "석판"},
   "solution": [".##...##..", "####.####.", "#.##.#.##.", "####.####.", "#.##.##.#.", "####.####.", "##.#.#.##.", "####.####.", "#.##.##.#.", "####.####."],
   "colors":   [".EE...EE..", "EEEE.EEEE.", "E.EE.E.EE.", "EEEE.EEEE.", "E.EE.EE.E.", "EEEE.EEEE.", "EE.E.E.EE.", "EEEE.EEEE.", "E.EE.EE.E.", "EEEE.EEEE."],
   "palette":  { "E": "#94A3B8" }

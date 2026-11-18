@@ -1,6 +1,6 @@
 {
   "id": 394,
-  "name": {"de": "Erdmännchen", "en": "Meerkat", "es": "Suricata", "fr": "Suricate", "it": "Suricato", "pl": "Surykatka", "pt": "Suricato", "tr": "Mirket", "el": "Σουρικάτα", "bg": "Сурикат", "ru": "Сурикат", "ar": "سرقاط", "hi": "मीरकैट", "zh": "狐獴", "ja": "ミーアキャット", "ko": "미어캣"},
+  "name": {"id": "Meerkat", "ms": "Meerkat", "da": "Surikat", "de": "Erdmännchen", "en": "Meerkat", "es": "Suricata", "fil": "Meerkat", "fr": "Suricate", "it": "Suricato", "sw": "Nguchiro", "hu": "Szurikáta", "nl": "Stokstaartje", "nb": "Surikat", "pl": "Surykatka", "pt": "Suricato", "ro": "Suricată", "fi": "Surikaatti", "sv": "Surikat", "vi": "Chồn đất", "tr": "Mirket", "cs": "Surikata", "el": "Σουρικάτα", "bg": "Сурикат", "ru": "Сурикат", "uk": "Сурикат", "ur": "میرکیٹ", "ar": "سرقاط", "fa": "میرکت", "mr": "मीरकॅट", "hi": "मीरकैट", "bn": "মিরক্যাট", "pa": "ਮੀਰਕੈਟ", "ta": "மீர்காட்", "te": "మీర్‌క్యాట్", "th": "เมียร์แคต", "zh": "狐獴", "ja": "ミーアキャット", "ko": "미어캣"},
   "solution": ["..###.....", ".#####....", ".##.###...", ".#######..", "..###.....", "..###.....", ".#####....", "#..###....", "...###....", "...###....", "..####....", "..##.##...", "..#...###.", ".##.....#.", "....#....."],
   "colors":   ["..SSS.....", ".SSSSS....", ".SK.KSS...", ".SSSSSSK..", "..SSS.....", "..SSS.....", ".SSSSS....", "S..SSS....", "...SSS....", "...SSS....", "..SSSS....", "..SS.SS...", "..S...SSS.", ".SS.....S.", "....Y....."],
   "palette":  { "K": "#1F2937", "S": "#FDE68A", "Y": "#FACC15" }

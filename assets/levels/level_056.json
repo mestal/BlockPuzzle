@@ -1,6 +1,6 @@
 {
   "id": 56,
-  "name": {"de": "Wolf", "en": "Wolf", "es": "Lobo", "fr": "Loup", "it": "Lupo", "pl": "Wilk", "pt": "Lobo", "tr": "Kurt", "el": "Λύκος", "bg": "Вълк", "ru": "Волк", "ar": "ذئب", "hi": "भेड़िया", "zh": "狼", "ja": "オオカミ", "ko": "늑대"},
+  "name": {"id": "Serigala", "ms": "Serigala", "da": "Ulv", "de": "Wolf", "en": "Wolf", "es": "Lobo", "fil": "Lobo", "fr": "Loup", "it": "Lupo", "sw": "Mbwa mwitu", "hu": "Farkas", "nl": "Wolf", "nb": "Ulv", "pl": "Wilk", "pt": "Lobo", "ro": "Lup", "fi": "Susi", "sv": "Varg", "vi": "Con sói", "tr": "Kurt", "cs": "Vlk", "el": "Λύκος", "bg": "Вълк", "ru": "Волк", "uk": "Вовк", "ur": "بھیڑیا", "ar": "ذئب", "fa": "گرگ", "mr": "लांडगा", "hi": "भेड़िया", "bn": "নেকড়ে", "pa": "ਬਘਿਆੜ", "ta": "ஓநாய்", "te": "తోడేలు", "th": "หมาป่า", "zh": "狼", "ja": "オオカミ", "ko": "늑대"},
   "solution": ["##......#.", "##.....##.", "#########.", "#########.", "#########.", ".#######..", "..#####...", "...###....", "....#.....", ".........."],
   "colors":   ["EE......E.", "EE.....EE.", "EEEEEEEEE.", "ELYEEEYLE.", "EEEEEEEEE.", ".EEELEEE..", "..ELLLE...", "...LKL....", "....L.....", ".........."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0", "Y": "#FACC15" }

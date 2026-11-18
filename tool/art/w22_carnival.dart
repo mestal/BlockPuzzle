@@ -7,7 +7,7 @@ import '../level_art.dart';
 final carnivalArt = <LevelArt>[
   art(
     22,
-    'Dönme dolap|Ferris wheel|Riesenrad|Grande roue|Noria|Ruota panoramica|摩天轮|観覧車|Колесо обозрения|عجلة دوارة|Roda-gigante|Diabelski młyn|Ρόδα λούνα παρκ|Виенско колело|대관람차|विशाल झूला',
+    'Dönme dolap|Ferris wheel|Riesenrad|Grande roue|Noria|Ruota panoramica|摩天轮|観覧車|Колесо обозрения|عجلة دوارة|Roda-gigante|Diabelski młyn|Ρόδα λούνα παρκ|Виенско колело|대관람차|विशाल झूला|Reuzenrad|Оглядове колесо|Roata mare|Pariserhjul|Pariserhjul|Pariserhjul|Maailmanpyörä|Ruské kolo|Óriáskerék|Roda Ferris|Ferris wheel|নাগরদোলা|بڑا جھولا|Bianglala|Vòng đu quay|چرخ و فلک|Gurudumu kubwa|आकाशपाळणा|జెయింట్ వీల్|ராட்டினம்|ਚੰਡੋਲ|ชิงช้าสวรรค์',
     [
       '....RR....',
       '..EEEEEE..',
@@ -28,7 +28,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Atlıkarınca atı|Carousel horse|Karussellpferd|Cheval de manège|Caballo de carrusel|Cavallo della giostra|旋转木马|メリーゴーランドの馬|Лошадка карусели|حصان الدوامة|Cavalo de carrossel|Konik z karuzeli|Αλογάκι καρουζέλ|Конче от въртележка|회전목마|हिंडोले का घोड़ा',
+    'Atlıkarınca atı|Carousel horse|Karussellpferd|Cheval de manège|Caballo de carrusel|Cavallo della giostra|旋转木马|メリーゴーランドの馬|Лошадка карусели|حصان الدوامة|Cavalo de carrossel|Konik z karuzeli|Αλογάκι καρουζέλ|Конче от въртележка|회전목마|हिंडोले का घोड़ा|Draaimolenpaard|Конячка з каруселі|Căluț de carusel|Karusellhäst|Karusellhest|Karrusellhest|Karusellihevonen|Koník z kolotoče|Körhintaló|Kuda karusel|Kabayo sa carousel|নাগরদোলার ঘোড়া|جھولے کا گھوڑا|Kuda komidi putar|Ngựa gỗ vòng quay|اسب چرخ‌وفلک|Farasi wa jukwaa|गोल झोपाळ्याचा घोडा|రంగులరాట్నం గుర్రం|ராட்டினக் குதிரை|ਝੂਲੇ ਦਾ ਘੋੜਾ|ม้าหมุน',
     [
       '....A.....',
       '....A.....',
@@ -46,7 +46,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Sirk çadırı|Circus tent|Zirkuszelt|Chapiteau|Carpa de circo|Tendone del circo|马戏团帐篷|サーカステント|Цирковой шатёр|خيمة السيرك|Tenda de circo|Namiot cyrkowy|Τέντα τσίρκου|Циркова шатра|서커스 텐트|सर्कस का तंबू',
+    'Sirk çadırı|Circus tent|Zirkuszelt|Chapiteau|Carpa de circo|Tendone del circo|马戏团帐篷|サーカステント|Цирковой шатёр|خيمة السيرك|Tenda de circo|Namiot cyrkowy|Τέντα τσίρκου|Циркова шатра|서커스 텐트|सर्कस का तंबू|Circustent|Цирковий намет|Cort de circ|Cirkustält|Sirkustelt|Cirkustelt|Sirkusteltta|Cirkusový stan|Cirkuszsátor|Khemah sarkas|Tolda ng sirko|সার্কাসের তাঁবু|سرکس کا خیمہ|Tenda sirkus|Lều xiếc|چادر سیرک|Hema la sarakasi|सर्कसचा तंबू|సర్కస్ గుడారం|சர்க்கஸ் கூடாரம்|ਸਰਕਸ ਦਾ ਤੰਬੂ|เต็นท์ละครสัตว์',
     [
       '.....YY...',
       '.....K....',
@@ -64,7 +64,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Palyaço|Clown|Clown|Clown|Payaso|Pagliaccio|小丑|ピエロ|Клоун|مهرج|Palhaço|Klaun|Κλόουν|Клоун|광대|जोकर',
+    'Palyaço|Clown|Clown|Clown|Payaso|Pagliaccio|小丑|ピエロ|Клоун|مهرج|Palhaço|Klaun|Κλόουν|Клоун|광대|जोकर|Clown|Клоун|Clovn|Clown|Klovn|Klovn|Klovni|Klaun|Bohóc|Badut|Payaso|জোকার|جوکر|Badut|Chú hề|دلقک|Mchekeshaji|विदूषक|విదూషకుడు|கோமாளி|ਜੋਕਰ|ตัวตลก',
     [
       'OO......OO',
       'OOO....OOO',
@@ -81,7 +81,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Bilet|Ticket|Eintrittskarte|Ticket|Boleto|Biglietto|门票|チケット|Билет|تذكرة|Ingresso|Bilet|Εισιτήριο|Билет|티켓|टिकट',
+    'Bilet|Ticket|Eintrittskarte|Ticket|Boleto|Biglietto|门票|チケット|Билет|تذكرة|Ingresso|Bilet|Εισιτήριο|Билет|티켓|टिकट|Kaartje|Квиток|Bilet|Biljett|Billett|Billet|Lippu|Vstupenka|Jegy|Tiket|Tiket|টিকিট|ٹکٹ|Tiket|Vé|بلیت|Tiketi|तिकीट|టికెట్|சீட்டு|ਟਿਕਟ|ตั๋ว',
     [
       'RRRRRRRR..',
       'R.R....R..',
@@ -93,7 +93,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Davul|Drum|Trommel|Tambour|Tambor|Tamburo|鼓|太鼓|Барабан|طبل|Tambor|Bęben|Τύμπανο|Барабан|북|ढोल',
+    'Davul|Drum|Trommel|Tambour|Tambor|Tamburo|鼓|太鼓|Барабан|طبل|Tambor|Bęben|Τύμπανο|Барабан|북|ढोल|Trommel|Барабан|Tobă|Trumma|Tromme|Tromme|Rumpu|Buben|Dob|Dram|Tambol|ঢোল|ڈھول|Drum|Cái trống|طبل|Ngoma|ढोल|డోలు|மேளம்|ਢੋਲ|กลอง',
     [
       '.H.....H..',
       '..H...H...',
@@ -110,7 +110,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Gitar|Guitar|Gitarre|Guitare|Guitarra|Chitarra|吉他|ギター|Гитара|غيتار|Violão|Gitara|Κιθάρα|Китара|기타|गिटार',
+    'Gitar|Guitar|Gitarre|Guitare|Guitarra|Chitarra|吉他|ギター|Гитара|غيتار|Violão|Gitara|Κιθάρα|Китара|기타|गिटार|Gitaar|Гітара|Chitară|Gitarr|Gitar|Guitar|Kitara|Kytara|Gitár|Gitar|Gitara|গিটার|گٹار|Gitar|Đàn ghi-ta|گیتار|Gitaa|गिटार|గిటార్|கிட்டார்|ਗਿਟਾਰ|กีตาร์',
     [
       '........KK',
       '.......KK.',
@@ -129,7 +129,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Trompet|Trumpet|Trompete|Trompette|Trompeta|Tromba|小号|トランペット|Труба|بوق|Trompete|Trąbka|Τρομπέτα|Тромпет|트럼펫|तुरही',
+    'Trompet|Trumpet|Trompete|Trompette|Trompeta|Tromba|小号|トランペット|Труба|بوق|Trompete|Trąbka|Τρομπέτα|Тромпет|트럼펫|तुरही|Trompet|Труба|Trompetă|Trumpet|Trompet|Trompet|Trumpetti|Trubka|Trombita|Trompet|Trumpeta|ট্রাম্পেট|بگل|Terompet|Kèn trumpet|ترومپت|Tarumbeta|तुतारी|బాకా|எக்காளம்|ਤੁਰ੍ਹੀ|ทรัมเป็ต',
     [
       '...A.A.A..',
       '...A.A.A.A',
@@ -141,7 +141,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Keman|Violin|Geige|Violon|Violín|Violino|小提琴|バイオリン|Скрипка|كمان|Violino|Skrzypce|Βιολί|Цигулка|바이올린|वायलिन',
+    'Keman|Violin|Geige|Violon|Violín|Violino|小提琴|バイオリン|Скрипка|كمان|Violino|Skrzypce|Βιολί|Цигулка|바이올린|वायलिन|Viool|Скрипка|Vioară|Fiol|Fiolin|Violin|Viulu|Housle|Hegedű|Biola|Biyolin|বেহালা|وائلن|Biola|Đàn vĩ cầm|ویولن|Fidla|व्हायोलिन|వయోలిన్|வயலின்|ਵਾਇਲਨ|ไวโอลิน',
     [
       '....TT....',
       '....T.....',
@@ -159,7 +159,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Piyano|Piano|Klavier|Piano|Piano|Pianoforte|钢琴|ピアノ|Пианино|بيانو|Piano|Pianino|Πιάνο|Пиано|피아노|पियानो',
+    'Piyano|Piano|Klavier|Piano|Piano|Pianoforte|钢琴|ピアノ|Пианино|بيانو|Piano|Pianino|Πιάνο|Пиано|피아노|पियानो|Piano|Піаніно|Pian|Piano|Piano|Klaver|Piano|Klavír|Zongora|Piano|Piyano|পিয়ানো|پیانو|Piano|Đàn piano|پیانو|Piano|पियानो|పియానో|பியானோ|ਪਿਆਨੋ|เปียโน',
     [
       'K.........',
       '.K........',
@@ -175,7 +175,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Nota|Music note|Musiknote|Note de musique|Nota musical|Nota musicale|音符|音符|Нота|نوتة موسيقية|Nota musical|Nuta|Νότα|Нота|음표|संगीत स्वर',
+    'Nota|Music note|Musiknote|Note de musique|Nota musical|Nota musicale|音符|音符|Нота|نوتة موسيقية|Nota musical|Nuta|Νότα|Нота|음표|संगीत स्वर|Muzieknoot|Нота|Notă muzicală|Not|Note|Node|Nuotti|Nota|Hangjegy|Not muzik|Nota|সুরের চিহ্ন|موسیقی کا سُر|Not musik|Nốt nhạc|نت موسیقی|Noti ya muziki|स्वरचिन्ह|సంగీత స్వరం|இசைக் குறி|ਸੰਗੀਤ ਸੁਰ|โน้ตดนตรี',
     [
       '...KKKKKKK',
       '...KKKKKKK',
@@ -190,7 +190,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Mikrofon|Microphone|Mikrofon|Micro|Micrófono|Microfono|麦克风|マイク|Микрофон|ميكروفون|Microfone|Mikrofon|Μικρόφωνο|Микрофон|마이크|माइक्रोफ़ोन',
+    'Mikrofon|Microphone|Mikrofon|Micro|Micrófono|Microfono|麦克风|マイク|Микрофон|ميكروفون|Microfone|Mikrofon|Μικρόφωνο|Микрофон|마이크|माइक्रोफ़ोन|Microfoon|Мікрофон|Microfon|Mikrofon|Mikrofon|Mikrofon|Mikrofoni|Mikrofon|Mikrofon|Mikrofon|Mikropono|মাইক্রোফোন|مائیکروفون|Mikrofon|Micrô|میکروفون|Kipaza sauti|माइक|మైక్రోఫోన్|ஒலிவாங்கி|ਮਾਈਕ|ไมโครโฟน',
     [
       '.....EEE..',
       '....EE.EE.',
@@ -211,7 +211,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Kulaklık|Headphones|Kopfhörer|Casque audio|Auriculares|Cuffie|耳机|ヘッドホン|Наушники|سماعات رأس|Fones de ouvido|Słuchawki|Ακουστικά|Слушалки|헤드폰|हेडफ़ोन',
+    'Kulaklık|Headphones|Kopfhörer|Casque audio|Auriculares|Cuffie|耳机|ヘッドホン|Наушники|سماعات رأس|Fones de ouvido|Słuchawki|Ακουστικά|Слушалки|헤드폰|हेडफ़ोन|Koptelefoon|Навушники|Căști|Hörlurar|Hodetelefoner|Hovedtelefoner|Kuulokkeet|Sluchátka|Fejhallgató|Fon kepala|Headphones|হেডফোন|ہیڈ فون|Headphone|Tai nghe|هدفون|Vipokea sauti|हेडफोन|హెడ్‌ఫోన్లు|தலையணி ஒலிபெருக்கி|ਹੈੱਡਫ਼ੋਨ|หูฟัง',
     [
       '..KKKKKK..',
       '.K......K.',
@@ -226,7 +226,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Sihirbaz şapkası|Magic hat|Zauberhut|Chapeau de magicien|Sombrero de mago|Cilindro magico|魔术帽|マジシャンの帽子|Шляпа фокусника|قبعة الساحر|Cartola mágica|Kapelusz magika|Καπέλο μάγου|Шапка на фокусник|마술 모자|जादूगर की टोपी',
+    'Sihirbaz şapkası|Magic hat|Zauberhut|Chapeau de magicien|Sombrero de mago|Cilindro magico|魔术帽|マジシャンの帽子|Шляпа фокусника|قبعة الساحر|Cartola mágica|Kapelusz magika|Καπέλο μάγου|Шапка на фокусник|마술 모자|जादूगर की टोपी|Goochelhoed|Капелюх фокусника|Joben de magician|Trollkarlshatt|Tryllehatt|Tryllehat|Taikurin hattu|Kouzelnický klobouk|Bűvészkalap|Topi silap mata|Sumbrero ng salamangkero|জাদুকরের টুপি|جادوگر کی ٹوپی|Topi pesulap|Mũ ảo thuật|کلاه شعبده‌باز|Kofia ya mazingaombwe|जादूगाराची टोपी|ఇంద్రజాలికుని టోపీ|மாயாஜாலத் தொப்பி|ਜਾਦੂਗਰ ਦੀ ਟੋਪੀ|หมวกนักมายากล',
     [
       '..W....W..',
       '..WW..WW..',
@@ -244,7 +244,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Hız treni|Roller coaster|Achterbahn|Montagnes russes|Montaña rusa|Montagne russe|过山车|ジェットコースター|Американские горки|أفعوانية|Montanha-russa|Kolejka górska|Τρενάκι του λούνα παρκ|Влакче на ужасите|롤러코스터|रोलर कोस्टर',
+    'Hız treni|Roller coaster|Achterbahn|Montagnes russes|Montaña rusa|Montagne russe|过山车|ジェットコースター|Американские горки|أفعوانية|Montanha-russa|Kolejka górska|Τρενάκι του λούνα παρκ|Влакче на ужасите|롤러코스터|रोलर कोस्टर|Achtbaan|Американські гірки|Montagne russe|Berg-och-dalbana|Berg-og-dal-bane|Rutsjebane|Vuoristorata|Horská dráha|Hullámvasút|Roller coaster|Roller coaster|রোলার কোস্টার|رولر کوسٹر|Roller coaster|Tàu lượn siêu tốc|ترن هوایی|Treni ya kasi ya burudani|रोलर कोस्टर|రోలర్ కోస్టర్|ரோலர் கோஸ்டர்|ਰੋਲਰ ਕੋਸਟਰ|รถไฟเหาะ',
     [
       '.RRR......',
       '.K.K......',
@@ -260,7 +260,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Sosisli sandviç|Hot dog|Hotdog|Hot-dog|Perrito caliente|Hot dog|热狗|ホットドッグ|Хот-дог|هوت دوغ|Cachorro-quente|Hot dog|Χοτ ντογκ|Хотдог|핫도그|हॉट डॉग',
+    'Sosisli sandviç|Hot dog|Hotdog|Hot-dog|Perrito caliente|Hot dog|热狗|ホットドッグ|Хот-дог|هوت دوغ|Cachorro-quente|Hot dog|Χοτ ντογκ|Хотдог|핫도그|हॉट डॉग|Hotdog|Хот-дог|Hot dog|Varmkorv|Pølse i brød|Hotdog|Hodari|Párek v rohlíku|Hot dog|Hot dog|Hotdog|হট ডগ|ہاٹ ڈاگ|Hot dog|Bánh mì xúc xích|هات‌داگ|Hot dog|हॉट डॉग|హాట్ డాగ్|ஹாட் டாக்|ਹੌਟ ਡੌਗ|ฮอตดอก',
     [
       '.......AA.',
       '.....AAARA',
@@ -275,7 +275,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Karnaval maskesi|Carnival mask|Karnevalsmaske|Masque de carnaval|Máscara de carnaval|Maschera di carnevale|狂欢节面具|カーニバルの仮面|Карнавальная маска|قناع الكرنفال|Máscara de carnaval|Maska karnawałowa|Αποκριάτικη μάσκα|Карнавална маска|카니발 가면|कार्निवल मुखौटा',
+    'Karnaval maskesi|Carnival mask|Karnevalsmaske|Masque de carnaval|Máscara de carnaval|Maschera di carnevale|狂欢节面具|カーニバルの仮面|Карнавальная маска|قناع الكرنفال|Máscara de carnaval|Maska karnawałowa|Αποκριάτικη μάσκα|Карнавална маска|카니발 가면|कार्निवल मुखौटा|Carnavalsmasker|Карнавальна маска|Mască de carnaval|Karnevalsmask|Karnevalsmaske|Karnevalsmaske|Karnevaalinaamio|Karnevalová maska|Farsangi maszk|Topeng karnival|Maskara ng karnabal|কার্নিভালের মুখোশ|کارنیول ماسک|Topeng karnaval|Mặt nạ lễ hội|نقاب کارناوال|Kinyago cha kanivali|उत्सवाचा मुखवटा|కార్నివాల్ ముసుగు|திருவிழா முகமூடி|ਮੇਲੇ ਦਾ ਮਖੌਟਾ|หน้ากากงานรื่นเริง',
     [
       'P..Y......',
       '.P.Y.P....',
@@ -292,7 +292,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Marakas|Maracas|Maracas|Maracas|Maracas|Maracas|沙锤|マラカス|Маракасы|ماراكاس|Maracas|Marakasy|Μαράκες|Маракаси|마라카스|माराकास',
+    'Marakas|Maracas|Maracas|Maracas|Maracas|Maracas|沙锤|マラカス|Маракасы|ماراكاس|Maracas|Marakasy|Μαράκες|Маракаси|마라카스|माराकास|Maracas|Маракаси|Maracas|Maracas|Maracas|Maracas|Marakassit|Marakasy|Marakasz|Marakas|Maracas|মারাকাস|ماراکاس|Marakas|Lục lạc maracas|ماراکاس|Marakasi|मराकस|మరాకాస్|மராக்காஸ்|ਮਰਾਕਸ|ลูกแซก',
     [
       '.RR....GG.',
       'RRRR..GGGG',
@@ -308,7 +308,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Arp|Harp|Harfe|Harpe|Arpa|Arpa|竖琴|ハープ|Арфа|قيثارة|Harpa|Harfa|Άρπα|Арфа|하프|वीणा',
+    'Arp|Harp|Harfe|Harpe|Arpa|Arpa|竖琴|ハープ|Арфа|قيثارة|Harpa|Harfa|Άρπα|Арфа|하프|वीणा|Harp|Арфа|Harpă|Harpa|Harpe|Harpe|Harppu|Harfa|Hárfa|Harpa|Alpa|বীণা|ہارپ|Harpa|Đàn hạc|چنگ|Kinubi kikubwa|हार्प|హార్ప్|யாழ் இசைக்கருவி|ਹਾਰਪ|พิณฮาร์ป',
     [
       'AAA.......',
       'A.WAA.....',
@@ -327,7 +327,7 @@ final carnivalArt = <LevelArt>[
   ),
   art(
     22,
-    'Saksafon|Saxophone|Saxofon|Saxophone|Saxofón|Sassofono|萨克斯|サックス|Саксофон|ساكسفون|Saxofone|Saksofon|Σαξόφωνο|Саксофон|색소폰|सैक्सोफ़ोन',
+    'Saksafon|Saxophone|Saxofon|Saxophone|Saxofón|Sassofono|萨克斯|サックス|Саксофон|ساكسفون|Saxofone|Saksofon|Σαξόφωνο|Саксофон|색소폰|सैक्सोफ़ोन|Saxofoon|Саксофон|Saxofon|Saxofon|Saksofon|Saxofon|Saksofoni|Saxofon|Szaxofon|Saksofon|Saksopon|স্যাক্সোফোন|سیکسوفون|Saksofon|Kèn saxophone|ساکسیفون|Saksafoni|सॅक्सोफोन|సాక్సోఫోన్|சாக்ஸபோன்|ਸੈਕਸੋਫ਼ੋਨ|แซกโซโฟน',
     [
       '......KK..',
       '.......A..',

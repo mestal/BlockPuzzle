@@ -1,6 +1,6 @@
 {
   "id": 419,
-  "name": {"de": "Tulpe", "en": "Tulip", "es": "Tulipán", "fr": "Tulipe", "it": "Tulipano", "pl": "Tulipan", "pt": "Tulipa", "tr": "Lale", "el": "Τουλίπα", "bg": "Лале", "ru": "Тюльпан", "ar": "توليب", "hi": "ट्यूलिप", "zh": "郁金香", "ja": "チューリップ", "ko": "튤립"},
+  "name": {"id": "Tulip", "ms": "Tulip", "da": "Tulipan", "de": "Tulpe", "en": "Tulip", "es": "Tulipán", "fil": "Tulip", "fr": "Tulipe", "it": "Tulipano", "sw": "Tulipu", "hu": "Tulipán", "nl": "Tulp", "nb": "Tulipan", "pl": "Tulipan", "pt": "Tulipa", "ro": "Lalea", "fi": "Tulppaani", "sv": "Tulpan", "vi": "Hoa tulip", "tr": "Lale", "cs": "Tulipán", "el": "Τουλίπα", "bg": "Лале", "ru": "Тюльпан", "uk": "Тюльпан", "ur": "گلِ لالہ", "ar": "توليب", "fa": "لاله", "mr": "ट्युलिप", "hi": "ट्यूलिप", "bn": "টিউলিপ", "pa": "ਟਿਊਲਿਪ", "ta": "துலிப்", "te": "ట్యూలిప్", "th": "ทิวลิป", "zh": "郁金香", "ja": "チューリップ", "ko": "튤립"},
   "solution": ["....##..#.", ".##.##.##.", ".########.", ".########.", "..######..", "...####...", "....##....", "#...##...#", "##..##..##", ".##.##.##.", "..######..", "...####...", "....##....", "....##.#..", "..#......."],
   "colors":   ["....RR..R.", ".RR.RR.RR.", ".RRRRRRRR.", ".RRRRRRRR.", "..RRRRRR..", "...RRRR...", "....GG....", "G...GG...G", "GG..GG..GG", ".GG.GG.GG.", "..GGGGGG..", "...GGGG...", "....GG....", "....GG.Y..", "..Y......."],
   "palette":  { "G": "#22C55E", "R": "#E8453C", "Y": "#FACC15" }

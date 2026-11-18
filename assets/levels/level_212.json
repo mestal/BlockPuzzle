@@ -1,6 +1,6 @@
 {
   "id": 212,
-  "name": {"de": "Pagode", "en": "Pagoda", "es": "Pagoda", "fr": "Pagode", "it": "Pagoda", "pl": "Pagoda", "pt": "Pagode", "tr": "Pagoda", "el": "Παγόδα", "bg": "Пагода", "ru": "Пагода", "ar": "باغودا", "hi": "पगोडा", "zh": "宝塔", "ja": "五重塔", "ko": "탑"},
+  "name": {"id": "Pagoda", "ms": "Pagoda", "da": "Pagode", "de": "Pagode", "en": "Pagoda", "es": "Pagoda", "fil": "Pagoda", "fr": "Pagode", "it": "Pagoda", "sw": "Pagoda", "hu": "Pagoda", "nl": "Pagode", "nb": "Pagode", "pl": "Pagoda", "pt": "Pagode", "ro": "Pagodă", "fi": "Pagodi", "sv": "Pagod", "vi": "Chùa tháp", "tr": "Pagoda", "cs": "Pagoda", "el": "Παγόδα", "bg": "Пагода", "ru": "Пагода", "uk": "Пагода", "ur": "پگوڈا", "ar": "باغودا", "fa": "پاگودا", "mr": "पॅगोडा", "hi": "पगोडा", "bn": "প্যাগোডা", "pa": "ਪੈਗੋਡਾ", "ta": "பகோடா", "te": "పగోడా", "th": "เจดีย์", "zh": "宝塔", "ja": "五重塔", "ko": "탑"},
   "solution": [".#.....#..", "....##....", "....##....", "...####..#", ".########.", "...#..#...", "#.######.#", ".########.", "..#.##.#..", "#.######.#", ".########.", "..##..##..", "..##..##..", "##########", ".........."],
   "colors":   [".Y.....Y..", "....RR....", "....RR....", "...RRRR..R", ".RRRRRRRR.", "...W..W...", "R.RRRRRR.R", ".RRRRRRRR.", "..W.WW.W..", "R.RRRRRR.R", ".RRRRRRRR.", "..WW..WW..", "..WW..WW..", "EEEEEEEEEE", ".........."],
   "palette":  { "E": "#94A3B8", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

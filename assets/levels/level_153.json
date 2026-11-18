@@ -1,6 +1,6 @@
 {
   "id": 153,
-  "name": {"de": "Flamme", "en": "Flame", "es": "Llama", "fr": "Flamme", "it": "Fiamma", "pl": "Płomień", "pt": "Chama", "tr": "Alev", "el": "Φλόγα", "bg": "Пламък", "ru": "Пламя", "ar": "لهب", "hi": "लौ", "zh": "火焰", "ja": "炎", "ko": "불꽃"},
+  "name": {"id": "Nyala api", "ms": "Nyalaan api", "da": "Flamme", "de": "Flamme", "en": "Flame", "es": "Llama", "fil": "Apoy", "fr": "Flamme", "it": "Fiamma", "sw": "Mwali wa moto", "hu": "Láng", "nl": "Vlam", "nb": "Flamme", "pl": "Płomień", "pt": "Chama", "ro": "Flacără", "fi": "Liekki", "sv": "Låga", "vi": "Ngọn lửa", "tr": "Alev", "cs": "Plamen", "el": "Φλόγα", "bg": "Пламък", "ru": "Пламя", "uk": "Полум’я", "ur": "شعلہ", "ar": "لهب", "fa": "شعله", "mr": "ज्योत", "hi": "लौ", "bn": "শিখা", "pa": "ਲਾਟ", "ta": "தீச்சுடர்", "te": "మంట", "th": "เปลวไฟ", "zh": "火焰", "ja": "炎", "ko": "불꽃"},
   "solution": ["..........", "....#.....", "....##....", "...###....", "...####...", "..####..#.", "..#######.", ".########.", ".########.", "#########.", "#########.", "#########.", ".#######..", "..#####...", ".........."],
   "colors":   ["..........", "....R.....", "....RR....", "...RRR....", "...RORR...", "..RROR..R.", "..ROOORRR.", ".RROOOORR.", ".ROOYOORR.", "RROYYYORR.", "ROOYYYOOR.", "ROYYWYYOR.", ".ROYYYOR..", "..RRRRR...", ".........."],
   "palette":  { "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

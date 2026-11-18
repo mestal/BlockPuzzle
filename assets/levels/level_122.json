@@ -1,6 +1,6 @@
 {
   "id": 122,
-  "name": {"de": "Seeigel", "en": "Sea urchin", "es": "Erizo de mar", "fr": "Oursin", "it": "Riccio di mare", "pl": "Jeżowiec", "pt": "Ouriço-do-mar", "tr": "Deniz kestanesi", "el": "Αχινός", "bg": "Морски таралеж", "ru": "Морской ёж", "ar": "قنفذ البحر", "hi": "समुद्री अर्चिन", "zh": "海胆", "ja": "ウニ", "ko": "성게"},
+  "name": {"id": "Bulu babi", "ms": "Landak laut", "da": "Søpindsvin", "de": "Seeigel", "en": "Sea urchin", "es": "Erizo de mar", "fil": "Tuyom", "fr": "Oursin", "it": "Riccio di mare", "sw": "Kunguru bahari", "hu": "Tengeri sün", "nl": "Zee-egel", "nb": "Kråkebolle", "pl": "Jeżowiec", "pt": "Ouriço-do-mar", "ro": "Arici de mare", "fi": "Merisiili", "sv": "Sjöborre", "vi": "Nhím biển", "tr": "Deniz kestanesi", "cs": "Ježovka", "el": "Αχινός", "bg": "Морски таралеж", "ru": "Морской ёж", "uk": "Морський їжак", "ur": "سمندری خارپشت", "ar": "قنفذ البحر", "fa": "توتیای دریایی", "mr": "समुद्री साळिंदर", "hi": "समुद्री अर्चिन", "bn": "সামুদ্রিক সজারু", "pa": "ਸਮੁੰਦਰੀ ਖਾਰਪੁਸ਼ਤ", "ta": "கடல் முள்ளெலி", "te": "సముద్రపు ముళ్లపంది", "th": "เม่นทะเล", "zh": "海胆", "ja": "ウニ", "ko": "성게"},
   "solution": ["###.#.#.#.", ".#..#..#..", "..#.#.#...", "...###....", "##########", "...###....", "..#.#.#...", ".#..#..#..", "#.#.#.#.#.", ".........."],
   "colors":   ["UUU.U.U.U.", ".U..U..U..", "..U.U.U...", "...UUU....", "UUUUUUUUUU", "...UUU....", "..U.U.U...", ".U..U..U..", "U.U.U.U.U.", ".........."],
   "palette":  { "U": "#5B21B6" }

@@ -1,6 +1,6 @@
 {
   "id": 284,
-  "name": {"de": "Bauklötze", "en": "Building blocks", "es": "Bloques", "fr": "Cubes", "it": "Costruzioni", "pl": "Klocki", "pt": "Blocos de montar", "tr": "Yapı blokları", "el": "Τουβλάκια", "bg": "Кубчета", "ru": "Строительные кубики", "ar": "مكعبات البناء", "hi": "बिल्डिंग ब्लॉक", "zh": "积木", "ja": "積み木", "ko": "블록"},
+  "name": {"id": "Balok susun", "ms": "Blok binaan", "da": "Byggeklodser", "de": "Bauklötze", "en": "Building blocks", "es": "Bloques", "fil": "Mga bloke", "fr": "Cubes", "it": "Costruzioni", "sw": "Matofali ya kuchezea", "hu": "Építőkocka", "nl": "Bouwblokken", "nb": "Byggeklosser", "pl": "Klocki", "pt": "Blocos de montar", "ro": "Cuburi de construcție", "fi": "Rakennuspalikat", "sv": "Byggklossar", "vi": "Khối xếp hình", "tr": "Yapı blokları", "cs": "Kostky", "el": "Τουβλάκια", "bg": "Кубчета", "ru": "Строительные кубики", "uk": "Кубики", "ur": "بلڈنگ بلاکس", "ar": "مكعبات البناء", "fa": "بلوک‌های ساختنی", "mr": "बांधकाम ठोकळे", "hi": "बिल्डिंग ब्लॉक", "bn": "বিল্ডিং ব্লক", "pa": "ਬਿਲਡਿੰਗ ਬਲਾਕ", "ta": "கட்டுமானக் கட்டைகள்", "te": "బొమ్మ ఇటుకలు", "th": "ตัวต่อ", "zh": "积木", "ja": "積み木", "ko": "블록"},
   "solution": ["#.........", "...####.#.", "...#..#...", "...#..#...", "...####...", "####..####", "#..#..#.##", "#..#..#..#", "####..####", ".........."],
   "colors":   ["Y.........", "...YYYY.Y.", "...Y..Y...", "...Y..Y...", "...YYYY...", "RRRR..BBBB", "R..R..B.BB", "R..R..B..B", "RRRR..BBBB", ".........."],
   "palette":  { "B": "#3B82F6", "R": "#E8453C", "Y": "#FACC15" }

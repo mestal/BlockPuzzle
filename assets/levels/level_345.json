@@ -1,6 +1,6 @@
 {
   "id": 345,
-  "name": {"de": "Streitwagen", "en": "Chariot", "es": "Carro", "fr": "Char", "it": "Biga", "pl": "Rydwan", "pt": "Biga", "tr": "Savaş arabası", "el": "Άρμα", "bg": "Колесница", "ru": "Колесница", "ar": "عربة حربية", "hi": "रथ", "zh": "战车", "ja": "戦車", "ko": "전차"},
+  "name": {"id": "Kereta perang", "ms": "Kereta perang", "da": "Stridsvogn", "de": "Streitwagen", "en": "Chariot", "es": "Carro", "fil": "Karwahe", "fr": "Char", "it": "Biga", "sw": "Gari la vita", "hu": "Harci szekér", "nl": "Strijdwagen", "nb": "Stridsvogn", "pl": "Rydwan", "pt": "Biga", "ro": "Car de luptă", "fi": "Sotavaunu", "sv": "Stridsvagn", "vi": "Chiến xa", "tr": "Savaş arabası", "cs": "Válečný vůz", "el": "Άρμα", "bg": "Колесница", "ru": "Колесница", "uk": "Колісниця", "ur": "رتھ", "ar": "عربة حربية", "fa": "ارابه", "mr": "रथ", "hi": "रथ", "bn": "রথ", "pa": "ਰੱਥ", "ta": "தேர்", "te": "రథం", "th": "รถศึก", "zh": "战车", "ja": "戦車", "ko": "전차"},
   "solution": [".####..#..", "######....", "######....", ".#########", "..###.....", ".#.#.#.#..", ".#####....", ".#.#.#....", "..###.....", ".......#.."],
   "colors":   [".AAAA..Y..", "AAAAAA....", "AAAAAA....", ".AAAAAAAAA", "..KKK.....", ".K.K.K.Y..", ".KKKKK....", ".K.K.K....", "..KKK.....", ".......Y.."],
   "palette":  { "A": "#F59E0B", "K": "#1F2937", "Y": "#FACC15" }

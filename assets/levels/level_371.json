@@ -1,6 +1,6 @@
 {
   "id": 371,
-  "name": {"de": "Gespenst", "en": "Ghost", "es": "Fantasma", "fr": "Fantôme", "it": "Fantasma", "pl": "Duch", "pt": "Fantasma", "tr": "Hayalet", "el": "Φάντασμα", "bg": "Призрак", "ru": "Привидение", "ar": "شبح", "hi": "भूत", "zh": "幽灵", "ja": "おばけ", "ko": "유령"},
+  "name": {"id": "Hantu", "ms": "Hantu", "da": "Spøgelse", "de": "Gespenst", "en": "Ghost", "es": "Fantasma", "fil": "Multo", "fr": "Fantôme", "it": "Fantasma", "sw": "Mzimu", "hu": "Szellem", "nl": "Spook", "nb": "Spøkelse", "pl": "Duch", "pt": "Fantasma", "ro": "Fantomă", "fi": "Kummitus", "sv": "Spöke", "vi": "Con ma", "tr": "Hayalet", "cs": "Duch", "el": "Φάντασμα", "bg": "Призрак", "ru": "Привидение", "uk": "Привид", "ur": "بھوت", "ar": "شبح", "fa": "روح", "mr": "भूत", "hi": "भूत", "bn": "ভূত", "pa": "ਭੂਤ", "ta": "பேய்", "te": "దెయ్యం", "th": "ผี", "zh": "幽灵", "ja": "おばけ", "ko": "유령"},
   "solution": ["#.........", "...####..#", "..######..", ".########.", ".##.##.##.", ".##.##.##.", ".########.", "####..####", "####..####", "##########", "##########", "##########", "##.###.###", "#...#...#.", "..#...#..."],
   "colors":   ["Y.........", "...WWWW..Y", "..WWWWWW..", ".WWWWWWWW.", ".WW.WW.WW.", ".WW.WW.WW.", ".WWWWWWWW.", "WWWW..WWWW", "WWWW..WWWW", "WWWWWWWWWW", "WWWWWWWWWW", "WWWWWWWWWW", "WW.WWW.WWW", "W...W...W.", "..Y...Y..."],
   "palette":  { "W": "#FFFFFF", "Y": "#FACC15" }

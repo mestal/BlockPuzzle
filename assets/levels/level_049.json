@@ -1,6 +1,6 @@
 {
   "id": 49,
-  "name": {"de": "Frosch", "en": "Frog", "es": "Rana", "fr": "Grenouille", "it": "Rana", "pl": "Żaba", "pt": "Sapo", "tr": "Kurbağa", "el": "Βάτραχος", "bg": "Жаба", "ru": "Лягушка", "ar": "ضفدع", "hi": "मेंढक", "zh": "青蛙", "ja": "カエル", "ko": "개구리"},
+  "name": {"id": "Katak", "ms": "Katak", "da": "Frø", "de": "Frosch", "en": "Frog", "es": "Rana", "fil": "Palaka", "fr": "Grenouille", "it": "Rana", "sw": "Chura", "hu": "Béka", "nl": "Kikker", "nb": "Frosk", "pl": "Żaba", "pt": "Sapo", "ro": "Broască", "fi": "Sammakko", "sv": "Groda", "vi": "Con ếch", "tr": "Kurbağa", "cs": "Žába", "el": "Βάτραχος", "bg": "Жаба", "ru": "Лягушка", "uk": "Жаба", "ur": "مینڈک", "ar": "ضفدع", "fa": "قورباغه", "mr": "बेडूक", "hi": "मेंढक", "bn": "ব্যাঙ", "pa": "ਡੱਡੂ", "ta": "தவளை", "te": "కప్ప", "th": "กบ", "zh": "青蛙", "ja": "カエル", "ko": "개구리"},
   "solution": [".##...##..", "####.####.", "#########.", "#########.", "#########.", ".#######..", ".##...##..", "##.....##.", "#.#...#.#.", ".........."],
   "colors":   [".WW...WW..", "WKKW.WKKW.", "GGGGGGGGG.", "GGGGGGGGG.", "GRRRRRRRG.", ".GGGGGGG..", ".GG...GG..", "GG.....GG.", "G.G...G.G.", ".........."],
   "palette":  { "G": "#22C55E", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF" }

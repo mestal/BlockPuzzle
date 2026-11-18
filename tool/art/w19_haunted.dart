@@ -7,7 +7,7 @@ import '../level_art.dart';
 final hauntedArt = <LevelArt>[
   art(
     19,
-    'Hayalet|Ghost|Gespenst|Fantôme|Fantasma|Fantasma|幽灵|おばけ|Привидение|شبح|Fantasma|Duch|Φάντασμα|Призрак|유령|भूत',
+    'Hayalet|Ghost|Gespenst|Fantôme|Fantasma|Fantasma|幽灵|おばけ|Привидение|شبح|Fantasma|Duch|Φάντασμα|Призрак|유령|भूत|Spook|Привид|Fantomă|Spöke|Spøkelse|Spøgelse|Kummitus|Duch|Szellem|Hantu|Multo|ভূত|بھوت|Hantu|Con ma|روح|Mzimu|भूत|దెయ్యం|பேய்|ਭੂਤ|ผี',
     [
       '...WWWW...',
       '..WWWWWW..',
@@ -26,7 +26,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Kafatası|Skull|Totenkopf|Crâne|Calavera|Teschio|骷髅头|ドクロ|Череп|جمجمة|Caveira|Czaszka|Κρανίο|Череп|해골|खोपड़ी',
+    'Kafatası|Skull|Totenkopf|Crâne|Calavera|Teschio|骷髅头|ドクロ|Череп|جمجمة|Caveira|Czaszka|Κρανίο|Череп|해골|खोपड़ी|Schedel|Череп|Craniu|Dödskalle|Hodeskalle|Kranie|Pääkallo|Lebka|Koponya|Tengkorak|Bungo|খুলি|کھوپڑی|Tengkorak|Đầu lâu|جمجمه|Fuvu|कवटी|పుర్రె|மண்டையோடு|ਖੋਪੜੀ|หัวกะโหลก',
     [
       '..WWWWWW..',
       '.WWWWWWWW.',
@@ -47,7 +47,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Cadı şapkası|Witch hat|Hexenhut|Chapeau de sorcière|Sombrero de bruja|Cappello da strega|女巫帽|魔女の帽子|Шляпа ведьмы|قبعة الساحرة|Chapéu de bruxa|Kapelusz czarownicy|Καπέλο μάγισσας|Вещерска шапка|마녀 모자|चुड़ैल की टोपी',
+    'Cadı şapkası|Witch hat|Hexenhut|Chapeau de sorcière|Sombrero de bruja|Cappello da strega|女巫帽|魔女の帽子|Шляпа ведьмы|قبعة الساحرة|Chapéu de bruxa|Kapelusz czarownicy|Καπέλο μάγισσας|Вещерска шапка|마녀 모자|चुड़ैल की टोपी|Heksenhoed|Капелюх відьми|Pălărie de vrăjitoare|Häxhatt|Heksehatt|Heksehat|Noidan hattu|Čarodějnický klobouk|Boszorkánykalap|Topi ahli sihir|Sumbrero ng mangkukulam|ডাইনির টুপি|چڑیل کی ٹوپی|Topi penyihir|Mũ phù thủy|کلاه جادوگر|Kofia ya mchawi|चेटकिणीची टोपी|మంత్రగత్తె టోపీ|சூனியக்காரி தொப்பி|ਡੈਣ ਦੀ ਟੋਪੀ|หมวกแม่มด',
     [
       '........VV',
       '.......VV.',
@@ -64,7 +64,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Kazan|Cauldron|Hexenkessel|Chaudron|Caldero|Calderone|大锅|大釜|Котёл|مرجل|Caldeirão|Kocioł|Καζάνι|Котел|가마솥|कड़ाह',
+    'Kazan|Cauldron|Hexenkessel|Chaudron|Caldero|Calderone|大锅|大釜|Котёл|مرجل|Caldeirão|Kocioł|Καζάνι|Котел|가마솥|कड़ाह|Ketel|Казан|Cazan|Kittel|Gryte|Kedel|Pata|Kotel|Üst|Kawah|Kaldero|কড়াই|دیگ|Kuali|Vạc|دیگ جادو|Sufuria kubwa|कढई|జ్యోతిష కుండ|கொப்பரை|ਕੜਾਹਾ|หม้อต้มยา',
     [
       '..GG......',
       '.G..G.GG..',
@@ -83,7 +83,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Kara kedi|Black cat|Schwarze Katze|Chat noir|Gato negro|Gatto nero|黑猫|黒猫|Чёрная кошка|قطة سوداء|Gato preto|Czarny kot|Μαύρη γάτα|Черна котка|검은 고양이|काली बिल्ली',
+    'Kara kedi|Black cat|Schwarze Katze|Chat noir|Gato negro|Gatto nero|黑猫|黒猫|Чёрная кошка|قطة سوداء|Gato preto|Czarny kot|Μαύρη γάτα|Черна котка|검은 고양이|काली बिल्ली|Zwarte kat|Чорний кіт|Pisică neagră|Svart katt|Svart katt|Sort kat|Musta kissa|Černá kočka|Fekete macska|Kucing hitam|Itim na pusa|কালো বিড়াল|کالی بلی|Kucing hitam|Mèo đen|گربه سیاه|Paka mweusi|काळी मांजर|నల్ల పిల్లి|கருப்புப் பூனை|ਕਾਲੀ ਬਿੱਲੀ|แมวดำ',
     [
       'K....K..YY',
       'KK..KK...Y',
@@ -103,7 +103,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Bal kabağı feneri|Jack-o\'-lantern|Kürbislaterne|Citrouille d\'Halloween|Calabaza de Halloween|Zucca di Halloween|南瓜灯|ジャック・オー・ランタン|Тыква-фонарь|فانوس اليقطين|Abóbora de Halloween|Dynia na Halloween|Φανάρι κολοκύθα|Тиква фенер|호박 등불|कद्दू की लालटेन',
+    'Bal kabağı feneri|Jack-o\'-lantern|Kürbislaterne|Citrouille d\'Halloween|Calabaza de Halloween|Zucca di Halloween|南瓜灯|ジャック・オー・ランタン|Тыква-фонарь|فانوس اليقطين|Abóbora de Halloween|Dynia na Halloween|Φανάρι κολοκύθα|Тиква фенер|호박 등불|कद्दू की लालटेन|Pompoenlantaarn|Гарбуз-ліхтар|Felinar din dovleac|Pumpalykta|Gresskarlykt|Græskarlygte|Kurpitsalyhty|Dýňová lucerna|Töklámpás|Tanglung labu|Kalabasang parol|কুমড়োর লণ্ঠন|کدو کی لالٹین|Lentera labu|Đèn bí ngô|کدو حلوایی فانوسی|Taa ya boga|भोपळ्याचा कंदील|గుమ్మడి లాంతరు|பூசணி விளக்கு|ਕੱਦੂ ਦੀ ਲਾਲਟੈਣ|โคมฟักทอง',
     [
       '....GG....',
       '.OOOOOOOO.',
@@ -121,7 +121,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Perili ev|Haunted house|Spukhaus|Maison hantée|Casa encantada|Casa infestata|鬼屋|幽霊屋敷|Дом с привидениями|منزل مسكون|Casa assombrada|Nawiedzony dom|Στοιχειωμένο σπίτι|Къща с духове|흉가|भूतिया घर',
+    'Perili ev|Haunted house|Spukhaus|Maison hantée|Casa encantada|Casa infestata|鬼屋|幽霊屋敷|Дом с привидениями|منزل مسكون|Casa assombrada|Nawiedzony dom|Στοιχειωμένο σπίτι|Къща с духове|흉가|भूतिया घर|Spookhuis|Будинок з привидами|Casă bântuită|Spökhus|Spøkelseshus|Spøgelseshus|Kummitustalo|Strašidelný dům|Kísértetház|Rumah berhantu|Bahay na may multo|ভুতুড়ে বাড়ি|آسیب زدہ گھر|Rumah hantu|Ngôi nhà ma ám|خانه جن‌زده|Nyumba ya mizimu|झपाटलेले घर|దెయ్యాల ఇల్లు|பேய் வீடு|ਭੂਤੀਆ ਘਰ|บ้านผีสิง',
     [
       'K.K.......',
       '.K.....V..',
@@ -138,7 +138,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Süpürge|Broomstick|Hexenbesen|Balai de sorcière|Escoba|Scopa|扫帚|ほうき|Метла|مكنسة|Vassoura|Miotła|Σκούπα|Метла|빗자루|झाड़ू',
+    'Süpürge|Broomstick|Hexenbesen|Balai de sorcière|Escoba|Scopa|扫帚|ほうき|Метла|مكنسة|Vassoura|Miotła|Σκούπα|Метла|빗자루|झाड़ू|Bezemsteel|Мітла|Mătură|Kvast|Kost|Kost|Luuta|Koště|Seprű|Penyapu|Walis|ঝাড়ু|جھاڑو|Sapu terbang|Chổi bay|جارو|Ufagio|झाडू|చీపురు|துடைப்பம்|ਝਾੜੂ|ไม้กวาด',
     [
       'T.........',
       '.T........',
@@ -156,7 +156,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Örümcek ağı|Spider web|Spinnennetz|Toile d\'araignée|Telaraña|Ragnatela|蜘蛛网|クモの巣|Паутина|بيت العنكبوت|Teia de aranha|Pajęczyna|Ιστός αράχνης|Паяжина|거미줄|मकड़ी का जाला',
+    'Örümcek ağı|Spider web|Spinnennetz|Toile d\'araignée|Telaraña|Ragnatela|蜘蛛网|クモの巣|Паутина|بيت العنكبوت|Teia de aranha|Pajęczyna|Ιστός αράχνης|Паяжина|거미줄|मकड़ी का जाला|Spinnenweb|Павутина|Pânză de păianjen|Spindelnät|Spindelvev|Spindelvæv|Hämähäkinseitti|Pavučina|Pókháló|Sarang labah-labah|Sapot|মাকড়সার জাল|مکڑی کا جالا|Sarang laba-laba|Mạng nhện|تار عنکبوت|Utando wa buibui|कोळ्याचे जाळे|సాలెగూడు|சிலந்தி வலை|ਮੱਕੜੀ ਦਾ ਜਾਲ|ใยแมงมุม',
     [
       'E...E...E.',
       '.EEEEEEE..',
@@ -176,7 +176,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'İksir|Potion|Zaubertrank|Potion|Poción|Pozione|魔药|ポーション|Зелье|جرعة سحرية|Poção|Eliksir|Φίλτρο|Отвара|물약|जादुई पेय',
+    'İksir|Potion|Zaubertrank|Potion|Poción|Pozione|魔药|ポーション|Зелье|جرعة سحرية|Poção|Eliksir|Φίλτρο|Отвара|물약|जादुई पेय|Toverdrank|Зілля|Poțiune|Trolldryck|Trylledrikk|Trylledrik|Taikajuoma|Lektvar|Varázsital|Ramuan|Gayuma|জাদুর পানীয়|جادوئی مشروب|Ramuan|Lọ thuốc thần|معجون|Dawa ya uchawi|जादूचे औषध|మాయా కషాయం|மந்திர மருந்து|ਜਾਦੂਈ ਘੋਲ|ยาวิเศษ',
     [
       '....W.....',
       '...W.W....',
@@ -196,7 +196,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Kristal küre|Crystal ball|Kristallkugel|Boule de cristal|Bola de cristal|Sfera di cristallo|水晶球|水晶玉|Хрустальный шар|كرة بلورية|Bola de cristal|Kryształowa kula|Κρυστάλλινη σφαίρα|Кристално кълбо|수정 구슬|जादुई गोला',
+    'Kristal küre|Crystal ball|Kristallkugel|Boule de cristal|Bola de cristal|Sfera di cristallo|水晶球|水晶玉|Хрустальный шар|كرة بلورية|Bola de cristal|Kryształowa kula|Κρυστάλλινη σφαίρα|Кристално кълбо|수정 구슬|जादुई गोला|Glazen bol|Кришталева куля|Glob de cristal|Kristallkula|Krystallkule|Krystalkugle|Kristallipallo|Křišťálová koule|Kristálygömb|Bola kristal|Bolang kristal|স্ফটিক গোলক|بلوری گیند|Bola kristal|Quả cầu pha lê|گوی بلورین|Tufe la kioo|स्फटिक गोळा|స్ఫటిక గోళం|பளிங்கு உருண்டை|ਬਲੌਰੀ ਗੋਲਾ|ลูกแก้ววิเศษ',
     [
       '...CCCC...',
       '.CC....CC.',
@@ -213,7 +213,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Mezar taşı|Tombstone|Grabstein|Pierre tombale|Lápida|Lapide|墓碑|墓石|Надгробие|شاهد قبر|Lápide|Nagrobek|Ταφόπλακα|Надгробен камък|묘비|कब्र का पत्थर',
+    'Mezar taşı|Tombstone|Grabstein|Pierre tombale|Lápida|Lapide|墓碑|墓石|Надгробие|شاهد قبر|Lápide|Nagrobek|Ταφόπλακα|Надгробен камък|묘비|कब्र का पत्थर|Grafsteen|Надгробок|Piatră funerară|Gravsten|Gravstein|Gravsten|Hautakivi|Náhrobek|Sírkő|Batu nisan|Lapida|সমাধিফলক|کتبہ|Batu nisan|Bia mộ|سنگ قبر|Jiwe la kaburi|थडग्याचा दगड|సమాధి రాయి|கல்லறைக் கல்|ਕਬਰ ਦਾ ਪੱਥਰ|ป้ายหลุมศพ',
     [
       '..EEEEEE..',
       '.EEEEEEEE.',
@@ -231,7 +231,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Mumya|Mummy|Mumie|Momie|Momia|Mummia|木乃伊|ミイラ|Мумия|مومياء|Múmia|Mumia|Μούμια|Мумия|미라|ममी',
+    'Mumya|Mummy|Mumie|Momie|Momia|Mummia|木乃伊|ミイラ|Мумия|مومياء|Múmia|Mumia|Μούμια|Мумия|미라|ममी|Mummie|Мумія|Mumie|Mumie|Mumie|Mumie|Muumio|Mumie|Múmia|Mumia|Mumya|মমি|ممی|Mumi|Xác ướp|مومیایی|Mumia|ममी|మమ్మీ|மம்மி|ਮੰਮੀ|มัมมี่',
     [
       '...LLLL...',
       '..LLLLLL..',
@@ -250,7 +250,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Vampir|Vampire|Vampir|Vampire|Vampiro|Vampiro|吸血鬼|吸血鬼|Вампир|مصاص دماء|Vampiro|Wampir|Βρικόλακας|Вампир|뱀파이어|पिशाच',
+    'Vampir|Vampire|Vampir|Vampire|Vampiro|Vampiro|吸血鬼|吸血鬼|Вампир|مصاص دماء|Vampiro|Wampir|Βρικόλακας|Вампир|뱀파이어|पिशाच|Vampier|Вампір|Vampir|Vampyr|Vampyr|Vampyr|Vampyyri|Upír|Vámpír|Pontianak|Bampira|ভ্যাম্পায়ার|ویمپائر|Vampir|Ma cà rồng|خون‌آشام|Mnyonya damu|रक्तपिपासू|రక్తపిశాచి|காட்டேரி|ਪਿਸ਼ਾਚ|แวมไพร์',
     [
       '...KKKK...',
       '..KKKKKK..',
@@ -270,7 +270,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Kuzgun|Raven|Rabe|Corbeau|Cuervo|Corvo|渡鸦|カラス|Ворон|غراب|Corvo|Kruk|Κοράκι|Гарван|까마귀|कौआ',
+    'Kuzgun|Raven|Rabe|Corbeau|Cuervo|Corvo|渡鸦|カラス|Ворон|غراب|Corvo|Kruk|Κοράκι|Гарван|까마귀|कौआ|Raaf|Ворон|Corb|Korp|Ravn|Ravn|Korppi|Havran|Holló|Burung gagak|Uwak|দাঁড়কাক|کوا|Burung gagak|Con quạ|کلاغ|Kunguru|कावळा|కాకి|அண்டங்காக்கை|ਕਾਂ|อีกา',
     [
       '...KKK....',
       '..KK.KK...',
@@ -286,7 +286,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Eski anahtar|Old key|Alter Schlüssel|Vieille clé|Llave antigua|Chiave antica|古钥匙|古い鍵|Старый ключ|مفتاح قديم|Chave antiga|Stary klucz|Παλιό κλειδί|Стар ключ|낡은 열쇠|पुरानी चाबी',
+    'Eski anahtar|Old key|Alter Schlüssel|Vieille clé|Llave antigua|Chiave antica|古钥匙|古い鍵|Старый ключ|مفتاح قديم|Chave antiga|Stary klucz|Παλιό κλειδί|Стар ключ|낡은 열쇠|पुरानी चाबी|Oude sleutel|Старий ключ|Cheie veche|Gammal nyckel|Gammel nøkkel|Gammel nøgle|Vanha avain|Starý klíč|Régi kulcs|Kunci lama|Lumang susi|পুরনো চাবি|پرانی چابی|Kunci kuno|Chìa khóa cổ|کلید قدیمی|Ufunguo wa zamani|जुनी किल्ली|పాత తాళం చెవి|பழைய சாவி|ਪੁਰਾਣੀ ਚਾਬੀ|กุญแจโบราณ',
     [
       '.AAA......',
       'A...A.....',
@@ -302,7 +302,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Şamdan|Candelabra|Kerzenleuchter|Candélabre|Candelabro|Candelabro|烛台|燭台|Канделябр|شمعدان|Candelabro|Kandelabr|Κηροπήγιο|Свещник|촛대|मोमबत्ती स्टैंड',
+    'Şamdan|Candelabra|Kerzenleuchter|Candélabre|Candelabro|Candelabro|烛台|燭台|Канделябр|شمعدان|Candelabro|Kandelabr|Κηροπήγιο|Свещник|촛대|मोमबत्ती स्टैंड|Kandelaar|Канделябр|Candelabru|Kandelaber|Kandelaber|Kandelaber|Kynttelikkö|Svícen|Kandeláber|Kaki lilin|Kandelabra|মোমবাতিদান|شمع دان|Kandelabra|Chân nến|شمعدان|Kinara|दीपदान|కొవ్వొత్తి స్టాండ్|மெழுகுவர்த்தித் தாங்கி|ਸ਼ਮਾਦਾਨ|เชิงเทียน',
     [
       '.Y..Y..Y..',
       '.O..O..O..',
@@ -319,7 +319,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Sihirli değnek|Magic wand|Zauberstab|Baguette magique|Varita mágica|Bacchetta magica|魔杖|魔法の杖|Волшебная палочка|عصا سحرية|Varinha mágica|Magiczna różdżka|Μαγικό ραβδί|Вълшебна пръчка|마법 지팡이|जादू की छड़ी',
+    'Sihirli değnek|Magic wand|Zauberstab|Baguette magique|Varita mágica|Bacchetta magica|魔杖|魔法の杖|Волшебная палочка|عصا سحرية|Varinha mágica|Magiczna różdżka|Μαγικό ραβδί|Вълшебна пръчка|마법 지팡이|जादू की छड़ी|Toverstaf|Чарівна паличка|Baghetă magică|Trollstav|Tryllestav|Tryllestav|Taikasauva|Kouzelná hůlka|Varázspálca|Tongkat sakti|Mahiwagang baston|জাদুর ছড়ি|جادو کی چھڑی|Tongkat sihir|Đũa phép|چوب جادو|Fimbo ya uchawi|जादूची छडी|మంత్రదండం|மந்திரக்கோல்|ਜਾਦੂ ਦੀ ਛੜੀ|ไม้กายสิทธิ์',
     [
       '.......Y..',
       '.Y...YYYYY',
@@ -335,7 +335,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Büyü kitabı|Spell book|Zauberbuch|Grimoire|Libro de hechizos|Libro degli incantesimi|魔法书|魔法の本|Книга заклинаний|كتاب التعاويذ|Livro de feitiços|Księga zaklęć|Βιβλίο ξορκιών|Книга със заклинания|마법책|जादू की किताब',
+    'Büyü kitabı|Spell book|Zauberbuch|Grimoire|Libro de hechizos|Libro degli incantesimi|魔法书|魔法の本|Книга заклинаний|كتاب التعاويذ|Livro de feitiços|Księga zaklęć|Βιβλίο ξορκιών|Книга със заклинания|마법책|जादू की किताब|Toverboek|Книга заклинань|Carte de vrăji|Trollbok|Trylleformelbok|Tryllebog|Loitsukirja|Kniha kouzel|Varázskönyv|Buku mantera|Aklat ng orasyon|মন্ত্রের বই|جادو کی کتاب|Buku mantra|Sách phép thuật|کتاب طلسم|Kitabu cha uchawi|मंत्रांचे पुस्तक|మంత్రాల పుస్తకం|மந்திரப் புத்தகம்|ਜਾਦੂ ਦੀ ਕਿਤਾਬ|ตำราเวทมนตร์',
     [
       '.Y......Y.',
       '..........',
@@ -352,7 +352,7 @@ final hauntedArt = <LevelArt>[
   ),
   art(
     19,
-    'Küçük canavar|Little monster|Kleines Monster|Petit monstre|Monstruito|Mostriciattolo|小怪兽|ちびモンスター|Монстрик|وحش صغير|Monstrinho|Potworek|Τερατάκι|Чудовищенце|꼬마 괴물|छोटा राक्षस',
+    'Küçük canavar|Little monster|Kleines Monster|Petit monstre|Monstruito|Mostriciattolo|小怪兽|ちびモンスター|Монстрик|وحش صغير|Monstrinho|Potworek|Τερατάκι|Чудовищенце|꼬마 괴물|छोटा राक्षस|Monstertje|Маленький монстр|Monstruleț|Litet monster|Lite monster|Lille monster|Pikku hirviö|Příšerka|Kis szörny|Raksasa kecil|Munting halimaw|ছোট্ট দানব|ننھا عفریت|Monster kecil|Quái vật nhỏ|هیولای کوچولو|Zimwi dogo|छोटा राक्षस|చిన్న రాక్షసుడు|குட்டி அரக்கன்|ਨਿੱਕਾ ਦੈਂਤ|สัตว์ประหลาดตัวน้อย',
     [
       '.G......G.',
       '.GG....GG.',

@@ -1,6 +1,6 @@
 {
   "id": 19,
-  "name": {"de": "Vogel", "en": "Bird", "es": "Pájaro", "fr": "Oiseau", "it": "Uccello", "pl": "Ptak", "pt": "Pássaro", "tr": "Kuş", "el": "Πουλί", "bg": "Птица", "ru": "Птица", "ar": "طائر", "hi": "चिड़िया", "zh": "小鸟", "ja": "鳥", "ko": "새"},
+  "name": {"id": "Burung", "ms": "Burung", "da": "Fugl", "de": "Vogel", "en": "Bird", "es": "Pájaro", "fil": "Ibon", "fr": "Oiseau", "it": "Uccello", "sw": "Ndege", "hu": "Madár", "nl": "Vogel", "nb": "Fugl", "pl": "Ptak", "pt": "Pássaro", "ro": "Pasăre", "fi": "Lintu", "sv": "Fågel", "vi": "Con chim", "tr": "Kuş", "cs": "Pták", "el": "Πουλί", "bg": "Птица", "ru": "Птица", "uk": "Птах", "ur": "پرندہ", "ar": "طائر", "fa": "پرنده", "mr": "पक्षी", "hi": "चिड़िया", "bn": "পাখি", "pa": "ਪੰਛੀ", "ta": "பறவை", "te": "పక్షి", "th": "นก", "zh": "小鸟", "ja": "鳥", "ko": "새"},
   "solution": ["......##..", "##...#####", ".########.", "..######..", "......#..."],
   "colors":   ["......BB..", "BB...BBKBA", ".BBWWBBBB.", "..BBBBBB..", "......A..."],
   "palette":  { "A": "#F59E0B", "B": "#3B82F6", "K": "#1F2937", "W": "#FFFFFF" }

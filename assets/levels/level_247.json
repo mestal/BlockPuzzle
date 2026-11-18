@@ -1,6 +1,6 @@
 {
   "id": 247,
-  "name": {"de": "Burger", "en": "Burger", "es": "Hamburguesa", "fr": "Hamburger", "it": "Hamburger", "pl": "Burger", "pt": "Hambúrguer", "tr": "Hamburger", "el": "Μπέργκερ", "bg": "Бургер", "ru": "Бургер", "ar": "برغر", "hi": "बर्गर", "zh": "汉堡", "ja": "ハンバーガー", "ko": "햄버거"},
+  "name": {"id": "Burger", "ms": "Burger", "da": "Burger", "de": "Burger", "en": "Burger", "es": "Hamburguesa", "fil": "Burger", "fr": "Hamburger", "it": "Hamburger", "sw": "Baga", "hu": "Hamburger", "nl": "Hamburger", "nb": "Hamburger", "pl": "Burger", "pt": "Hambúrguer", "ro": "Burger", "fi": "Hampurilainen", "sv": "Hamburgare", "vi": "Bánh hamburger", "tr": "Hamburger", "cs": "Burger", "el": "Μπέργκερ", "bg": "Бургер", "ru": "Бургер", "uk": "Бургер", "ur": "برگر", "ar": "برغر", "fa": "همبرگر", "mr": "बर्गर", "hi": "बर्गर", "bn": "বার্গার", "pa": "ਬਰਗਰ", "ta": "பர்கர்", "te": "బర్గర్", "th": "แฮมเบอร์เกอร์", "zh": "汉堡", "ja": "ハンバーガー", "ko": "햄버거"},
   "solution": ["#..####..#", "..######..", ".########.", ".##.##.##.", "..######..", ".########.", ".########.", "..#....#..", ".########.", "..######.."],
   "colors":   ["Y..AAAA..Y", "..AWAAWA..", ".AAAAAAAA.", ".GG.GG.GG.", "..RRRRRR..", ".HHHHHHHH.", ".YYYYYYYY.", "..Y....Y..", ".AAAAAAAA.", "..AAAAAA.."],
   "palette":  { "A": "#F59E0B", "G": "#22C55E", "H": "#5B3410", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

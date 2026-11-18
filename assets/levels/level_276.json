@@ -1,6 +1,6 @@
 {
   "id": 276,
-  "name": {"de": "Henne", "en": "Hen", "es": "Gallina", "fr": "Poule", "it": "Gallina", "pl": "Kura", "pt": "Galinha", "tr": "Tavuk", "el": "Κότα", "bg": "Кокошка", "ru": "Курица", "ar": "دجاجة", "hi": "मुर्गी", "zh": "母鸡", "ja": "ニワトリ", "ko": "암탉"},
+  "name": {"id": "Ayam betina", "ms": "Ayam betina", "da": "Høne", "de": "Henne", "en": "Hen", "es": "Gallina", "fil": "Inahin", "fr": "Poule", "it": "Gallina", "sw": "Kuku", "hu": "Tyúk", "nl": "Kip", "nb": "Høne", "pl": "Kura", "pt": "Galinha", "ro": "Găină", "fi": "Kana", "sv": "Höna", "vi": "Con gà mái", "tr": "Tavuk", "cs": "Slepice", "el": "Κότα", "bg": "Кокошка", "ru": "Курица", "uk": "Курка", "ur": "مرغی", "ar": "دجاجة", "fa": "مرغ", "mr": "कोंबडी", "hi": "मुर्गी", "bn": "মুরগি", "pa": "ਮੁਰਗੀ", "ta": "கோழி", "te": "కోడి", "th": "แม่ไก่", "zh": "母鸡", "ja": "ニワトリ", "ko": "암탉"},
   "solution": [".#..##...#", "...###....", "...####...", "..##.###..", "..#######.", "..#####...", "...####...", ".#######..", "#########.", "#########.", "#########.", ".#######..", "..#####...", "...#..#...", "..##..##.."],
   "colors":   [".Y..RR...Y", "...RRR....", "...WWWW...", "..WW.WWO..", "..WWWWWOO.", "..RWWWW...", "...WWWW...", ".WWWWWWW..", "WWWWWWWWW.", "WWWEEWWWW.", "WWWWEEWWW.", ".WWWWWWW..", "..WWWWW...", "...O..O...", "..OO..OO.."],
   "palette":  { "E": "#94A3B8", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

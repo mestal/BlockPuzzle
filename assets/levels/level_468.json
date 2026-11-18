@@ -1,6 +1,6 @@
 {
   "id": 468,
-  "name": {"de": "Volleyball", "en": "Volleyball", "es": "Balón de voleibol", "fr": "Ballon de volley", "it": "Pallone da pallavolo", "pl": "Piłka siatkowa", "pt": "Bola de vôlei", "tr": "Voleybol topu", "el": "Μπάλα βόλεϊ", "bg": "Волейболна топка", "ru": "Волейбольный мяч", "ar": "كرة طائرة", "hi": "वॉलीबॉल", "zh": "排球", "ja": "バレーボール", "ko": "배구공"},
+  "name": {"id": "Bola voli", "ms": "Bola tampar", "da": "Volleyball", "de": "Volleyball", "en": "Volleyball", "es": "Balón de voleibol", "fil": "Bola ng balibol", "fr": "Ballon de volley", "it": "Pallone da pallavolo", "sw": "Mpira wa wavu", "hu": "Röplabda", "nl": "Volleybal", "nb": "Volleyball", "pl": "Piłka siatkowa", "pt": "Bola de vôlei", "ro": "Minge de volei", "fi": "Lentopallo", "sv": "Volleyboll", "vi": "Quả bóng chuyền", "tr": "Voleybol topu", "cs": "Volejbalový míč", "el": "Μπάλα βόλεϊ", "bg": "Волейболна топка", "ru": "Волейбольный мяч", "uk": "Волейбольний м’яч", "ur": "والی بال", "ar": "كرة طائرة", "fa": "توپ والیبال", "mr": "व्हॉलीबॉल", "hi": "वॉलीबॉल", "bn": "ভলিবল", "pa": "ਵਾਲੀਬਾਲ", "ta": "கைப்பந்து", "te": "వాలీబాల్", "th": "ลูกวอลเลย์บอล", "zh": "排球", "ja": "バレーボール", "ko": "배구공"},
   "solution": [".#......#.", "...####...", "..##.###..", ".##.###.#.", ".#.##.###.", ".#.#.####.", ".##.###.#.", "..###.##..", "#..####...", ".........#"],
   "colors":   [".Y......Y.", "...WWWW...", "..WW.WWW..", ".WW.WWW.W.", ".W.WW.WWW.", ".W.W.WWWW.", ".WW.WWW.W.", "..WWW.WW..", "Y..WWWW...", ".........Y"],
   "palette":  { "W": "#FFFFFF", "Y": "#FACC15" }

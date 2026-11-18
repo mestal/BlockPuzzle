@@ -1,6 +1,6 @@
 {
   "id": 67,
-  "name": {"de": "Popcorn", "en": "Popcorn", "es": "Palomitas", "fr": "Pop-corn", "it": "Popcorn", "pl": "Popcorn", "pt": "Pipoca", "tr": "Patlamış mısır", "el": "Ποπ κορν", "bg": "Пуканки", "ru": "Попкорн", "ar": "فشار", "hi": "पॉपकॉर्न", "zh": "爆米花", "ja": "ポップコーン", "ko": "팝콘"},
+  "name": {"id": "Popcorn", "ms": "Bertih jagung", "da": "Popcorn", "de": "Popcorn", "en": "Popcorn", "es": "Palomitas", "fil": "Popcorn", "fr": "Pop-corn", "it": "Popcorn", "sw": "Bisi", "hu": "Pattogatott kukorica", "nl": "Popcorn", "nb": "Popkorn", "pl": "Popcorn", "pt": "Pipoca", "ro": "Floricele", "fi": "Popcorn", "sv": "Popcorn", "vi": "Bỏng ngô", "tr": "Patlamış mısır", "cs": "Popcorn", "el": "Ποπ κορν", "bg": "Пуканки", "ru": "Попкорн", "uk": "Попкорн", "ur": "پاپ کارن", "ar": "فشار", "fa": "پاپ‌کورن", "mr": "पॉपकॉर्न", "hi": "पॉपकॉर्न", "bn": "পপকর্ন", "pa": "ਪੌਪਕੌਰਨ", "ta": "பாப்கார்ன்", "te": "పాప్‌కార్న్", "th": "ป๊อปคอร์น", "zh": "爆米花", "ja": "ポップコーン", "ko": "팝콘"},
   "solution": [".##.##.##.", "##########", ".########.", "##########", "##########", ".########.", ".########.", ".########.", ".########.", "..######.."],
   "colors":   [".WY.WW.YW.", "WWWWYWWWWW", ".WYWWWYWW.", "WWWWWWWWWW", "RWRWRWRWRW", ".RWRWRWRW.", ".RWRWRWRW.", ".RWRWRWRW.", ".RWRWRWRW.", "..RWRWRW.."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

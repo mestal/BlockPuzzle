@@ -1,6 +1,6 @@
 {
   "id": 332,
-  "name": {"de": "Lemur", "en": "Lemur", "es": "Lémur", "fr": "Lémurien", "it": "Lemure", "pl": "Lemur", "pt": "Lêmure", "tr": "Lemur", "el": "Λεμούριος", "bg": "Лемур", "ru": "Лемур", "ar": "ليمور", "hi": "लीमर", "zh": "狐猴", "ja": "キツネザル", "ko": "여우원숭이"},
+  "name": {"id": "Lemur", "ms": "Lemur", "da": "Lemur", "de": "Lemur", "en": "Lemur", "es": "Lémur", "fil": "Lemur", "fr": "Lémurien", "it": "Lemure", "sw": "Komba", "hu": "Maki", "nl": "Maki", "nb": "Lemur", "pl": "Lemur", "pt": "Lêmure", "ro": "Lemur", "fi": "Lemuri", "sv": "Lemur", "vi": "Vượn cáo", "tr": "Lemur", "cs": "Lemur", "el": "Λεμούριος", "bg": "Лемур", "ru": "Лемур", "uk": "Лемур", "ur": "لیمر", "ar": "ليمور", "fa": "لمور", "mr": "लेमूर", "hi": "लीमर", "bn": "লেমুর", "pa": "ਲੈਮੂਰ", "ta": "லெமூர்", "te": "లెమూర్", "th": "ลีเมอร์", "zh": "狐猴", "ja": "キツネザル", "ko": "여우원숭이"},
   "solution": ["..#....#..", "#....#....", "######....", "#.##.#....", "######..##", ".####...##", ".####...##", "######..##", "######..##", "######..##", "########..", ".#..#.....", ".#..#.....", "##.##.....", "........#."],
   "colors":   ["..Y....Y..", "L....L....", "LLLLLL....", "L.LL.L....", "LLKKLL..WW", ".LKKL...KK", ".LLLL...WW", "LLLLLL..KK", "LLLLLL..WW", "LLLLLL..KK", "LLLLLLWW..", ".L..L.....", ".L..L.....", "LL.LL.....", "........Y."],
   "palette":  { "K": "#1F2937", "L": "#E2E8F0", "W": "#FFFFFF", "Y": "#FACC15" }

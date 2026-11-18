@@ -1,6 +1,6 @@
 {
   "id": 138,
-  "name": {"de": "Koralle", "en": "Coral", "es": "Coral", "fr": "Corail", "it": "Corallo", "pl": "Koral", "pt": "Coral", "tr": "Mercan", "el": "Κοράλλι", "bg": "Корал", "ru": "Коралл", "ar": "مرجان", "hi": "मूंगा", "zh": "珊瑚", "ja": "サンゴ", "ko": "산호"},
+  "name": {"id": "Karang", "ms": "Batu karang", "da": "Koral", "de": "Koralle", "en": "Coral", "es": "Coral", "fil": "Korales", "fr": "Corail", "it": "Corallo", "sw": "Tumbawe", "hu": "Korall", "nl": "Koraal", "nb": "Korall", "pl": "Koral", "pt": "Coral", "ro": "Coral", "fi": "Koralli", "sv": "Korall", "vi": "San hô", "tr": "Mercan", "cs": "Korál", "el": "Κοράλλι", "bg": "Корал", "ru": "Коралл", "uk": "Корал", "ur": "مرجان", "ar": "مرجان", "fa": "مرجان", "mr": "प्रवाळ", "hi": "मूंगा", "bn": "প্রবাল", "pa": "ਮੂੰਗਾ", "ta": "பவளம்", "te": "పగడం", "th": "ปะการัง", "zh": "珊瑚", "ja": "サンゴ", "ko": "산호"},
   "solution": ["..........", ".#..#...#.", ".#.##..##.", "##.#...#..", ".###.#.#.#", "..##.#####", "#.#...##..", "###..##...", "..##.#....", "...###....", "....##....", "....##....", "..######..", "..........", ".........."],
   "colors":   ["..........", ".P..P...P.", ".P.PP..PP.", "PP.P...P..", ".PPP.P.P.P", "..PP.PPPPP", "P.P...PP..", "PPP..PP...", "..PP.P....", "...PPP....", "....PP....", "....PP....", "..SSSSSS..", "..........", ".........."],
   "palette":  { "P": "#F472B6", "S": "#FDE68A" }

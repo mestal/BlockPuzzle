@@ -1,6 +1,6 @@
 {
   "id": 48,
-  "name": {"de": "Schmetterling", "en": "Butterfly", "es": "Mariposa", "fr": "Papillon", "it": "Farfalla", "pl": "Motyl", "pt": "Borboleta", "tr": "Kelebek", "el": "Πεταλούδα", "bg": "Пеперуда", "ru": "Бабочка", "ar": "فراشة", "hi": "तितली", "zh": "蝴蝶", "ja": "チョウ", "ko": "나비"},
+  "name": {"id": "Kupu-kupu", "ms": "Rama-rama", "da": "Sommerfugl", "de": "Schmetterling", "en": "Butterfly", "es": "Mariposa", "fil": "Paru-paro", "fr": "Papillon", "it": "Farfalla", "sw": "Kipepeo", "hu": "Pillangó", "nl": "Vlinder", "nb": "Sommerfugl", "pl": "Motyl", "pt": "Borboleta", "ro": "Fluture", "fi": "Perhonen", "sv": "Fjäril", "vi": "Con bướm", "tr": "Kelebek", "cs": "Motýl", "el": "Πεταλούδα", "bg": "Пеперуда", "ru": "Бабочка", "uk": "Метелик", "ur": "تتلی", "ar": "فراشة", "fa": "پروانه", "mr": "फुलपाखरू", "hi": "तितली", "bn": "প্রজাপতি", "pa": "ਤਿਤਲੀ", "ta": "பட்டாம்பூச்சி", "te": "సీతాకోకచిలుక", "th": "ผีเสื้อ", "zh": "蝴蝶", "ja": "チョウ", "ko": "나비"},
   "solution": ["##.....##.", "###...###.", "####.####.", "#########.", ".#######..", "..#####...", ".#######..", "####.####.", "###...###.", ".........."],
   "colors":   ["VV.....VV.", "VPV...VPV.", "VPPV.VPPV.", "VVPVKVPVV.", ".VVVKVVV..", "..VVKVV...", ".VPVKVPV..", "VPPV.VPPV.", "VVV...VVV.", ".........."],
   "palette":  { "K": "#1F2937", "P": "#F472B6", "V": "#8B5CF6" }

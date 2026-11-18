@@ -1,6 +1,6 @@
 {
   "id": 22,
-  "name": {"de": "Segelboot", "en": "Sailboat", "es": "Velero", "fr": "Voilier", "it": "Barca a vela", "pl": "Żaglówka", "pt": "Veleiro", "tr": "Yelkenli", "el": "Ιστιοφόρο", "bg": "Платноходка", "ru": "Парусник", "ar": "مركب شراعي", "hi": "पाल नाव", "zh": "帆船", "ja": "ヨット", "ko": "돛단배"},
+  "name": {"id": "Perahu layar", "ms": "Perahu layar", "da": "Sejlbåd", "de": "Segelboot", "en": "Sailboat", "es": "Velero", "fil": "Bangkang may layag", "fr": "Voilier", "it": "Barca a vela", "sw": "Mashua ya tanga", "hu": "Vitorlás", "nl": "Zeilboot", "nb": "Seilbåt", "pl": "Żaglówka", "pt": "Veleiro", "ro": "Barcă cu pânze", "fi": "Purjevene", "sv": "Segelbåt", "vi": "Thuyền buồm", "tr": "Yelkenli", "cs": "Plachetnice", "el": "Ιστιοφόρο", "bg": "Платноходка", "ru": "Парусник", "uk": "Вітрильник", "ur": "بادبانی کشتی", "ar": "مركب شراعي", "fa": "قایق بادبانی", "mr": "शिडाची होडी", "hi": "पाल नाव", "bn": "পালতোলা নৌকা", "pa": "ਬਾਦਬਾਨੀ ਕਿਸ਼ਤੀ", "ta": "பாய்மரப் படகு", "te": "తెరచాప పడవ", "th": "เรือใบ", "zh": "帆船", "ja": "ヨット", "ko": "돛단배"},
   "solution": ["..........", "....#.....", "....##....", "....###...", "....####..", "....#.....", ".#######..", "..#####...", "..........", ".........."],
   "colors":   ["..........", "....R.....", "....RW....", "....RWW...", "....RWWW..", "....T.....", ".TTTTTTT..", "..TTTTT...", "..........", ".........."],
   "palette":  { "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }

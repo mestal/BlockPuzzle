@@ -1,6 +1,6 @@
 {
   "id": 43,
-  "name": {"de": "Schnecke", "en": "Snail", "es": "Caracol", "fr": "Escargot", "it": "Lumaca", "pl": "Ślimak", "pt": "Caracol", "tr": "Salyangoz", "el": "Σαλιγκάρι", "bg": "Охлюв", "ru": "Улитка", "ar": "حلزون", "hi": "घोंघा", "zh": "蜗牛", "ja": "カタツムリ", "ko": "달팽이"},
+  "name": {"id": "Siput", "ms": "Siput", "da": "Snegl", "de": "Schnecke", "en": "Snail", "es": "Caracol", "fil": "Suso", "fr": "Escargot", "it": "Lumaca", "sw": "Konokono", "hu": "Csiga", "nl": "Slak", "nb": "Snegl", "pl": "Ślimak", "pt": "Caracol", "ro": "Melc", "fi": "Etana", "sv": "Snigel", "vi": "Con ốc sên", "tr": "Salyangoz", "cs": "Šnek", "el": "Σαλιγκάρι", "bg": "Охлюв", "ru": "Улитка", "uk": "Равлик", "ur": "گھونگا", "ar": "حلزون", "fa": "حلزون", "mr": "गोगलगाय", "hi": "घोंघा", "bn": "শামুক", "pa": "ਘੋਗਾ", "ta": "நத்தை", "te": "నత్త", "th": "หอยทาก", "zh": "蜗牛", "ja": "カタツムリ", "ko": "달팽이"},
   "solution": ["..........", ".#.#......", ".#.#.###..", ".########.", ".########.", ".########.", ".#######..", "#########.", ".#######..", ".........."],
   "colors":   ["..........", ".K.K......", ".F.F.TTT..", ".FFFTHHHT.", ".FKFTHTHT.", ".FFFTHHHT.", ".FFFTTTT..", "FFFFFFFFF.", ".FFFFFFF..", ".........."],
   "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "T": "#92400E" }

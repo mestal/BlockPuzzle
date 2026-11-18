@@ -1,6 +1,6 @@
 {
   "id": 341,
-  "name": {"de": "Sphinx", "en": "Sphinx", "es": "Esfinge", "fr": "Sphinx", "it": "Sfinge", "pl": "Sfinks", "pt": "Esfinge", "tr": "Sfenks", "el": "Σφίγγα", "bg": "Сфинкс", "ru": "Сфинкс", "ar": "أبو الهول", "hi": "स्फिंक्स", "zh": "狮身人面像", "ja": "スフィンクス", "ko": "스핑크스"},
+  "name": {"id": "Sfinks", "ms": "Sfinks", "da": "Sfinks", "de": "Sphinx", "en": "Sphinx", "es": "Esfinge", "fil": "Sphinx", "fr": "Sphinx", "it": "Sfinge", "sw": "Sfinksi", "hu": "Szfinx", "nl": "Sfinx", "nb": "Sfinks", "pl": "Sfinks", "pt": "Esfinge", "ro": "Sfinx", "fi": "Sfinksi", "sv": "Sfinx", "vi": "Tượng nhân sư", "tr": "Sfenks", "cs": "Sfinga", "el": "Σφίγγα", "bg": "Сфинкс", "ru": "Сфинкс", "uk": "Сфінкс", "ur": "ابوالہول", "ar": "أبو الهول", "fa": "ابوالهول", "mr": "स्फिंक्स", "hi": "स्फिंक्स", "bn": "স্ফিংক্স", "pa": "ਸਫ਼ਿੰਕਸ", "ta": "ஸ்பிங்க்ஸ்", "te": "స్ఫింక్స్", "th": "สฟิงซ์", "zh": "狮身人面像", "ja": "スフィンクス", "ko": "스핑크스"},
   "solution": ["..###..#..", ".#####....", ".#.###....", ".#####....", "..####....", "#.#######.", "..########", "##########", "##########", ".........."],
   "colors":   ["..AAA..Y..", ".AYAYA....", ".A.AAA....", ".AAAAA....", "..AAAA....", "Y.AAAAAAA.", "..AAAAAAAA", "AAAAAAAAAA", "SSSSSSSSSS", ".........."],
   "palette":  { "A": "#F59E0B", "S": "#FDE68A", "Y": "#FACC15" }

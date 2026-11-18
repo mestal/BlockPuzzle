@@ -1,6 +1,6 @@
 {
   "id": 283,
-  "name": {"de": "Spielzeugauto", "en": "Toy car", "es": "Coche de juguete", "fr": "Petite voiture", "it": "Macchinina", "pl": "Samochodzik", "pt": "Carrinho", "tr": "Oyuncak araba", "el": "Αυτοκινητάκι", "bg": "Количка", "ru": "Игрушечная машинка", "ar": "سيارة لعبة", "hi": "खिलौना कार", "zh": "玩具车", "ja": "ミニカー", "ko": "장난감 자동차"},
+  "name": {"id": "Mobil mainan", "ms": "Kereta mainan", "da": "Legetøjsbil", "de": "Spielzeugauto", "en": "Toy car", "es": "Coche de juguete", "fil": "Laruang kotse", "fr": "Petite voiture", "it": "Macchinina", "sw": "Gari la kuchezea", "hu": "Játékautó", "nl": "Speelgoedauto", "nb": "Lekebil", "pl": "Samochodzik", "pt": "Carrinho", "ro": "Mașinuță", "fi": "Leikkiauto", "sv": "Leksaksbil", "vi": "Ô tô đồ chơi", "tr": "Oyuncak araba", "cs": "Autíčko", "el": "Αυτοκινητάκι", "bg": "Количка", "ru": "Игрушечная машинка", "uk": "Іграшкова машинка", "ur": "کھلونا کار", "ar": "سيارة لعبة", "fa": "ماشین اسباب‌بازی", "mr": "खेळण्यातली गाडी", "hi": "खिलौना कार", "bn": "খেলনা গাড়ি", "pa": "ਖਿਡੌਣਾ ਕਾਰ", "ta": "பொம்மைக் கார்", "te": "బొమ్మ కారు", "th": "รถของเล่น", "zh": "玩具车", "ja": "ミニカー", "ko": "장난감 자동차"},
   "solution": ["#...#...#.", "..........", "..#####...", ".##.#.##..", "##########", "##########", ".##...##..", ".##...##.#", "....#.....", ".#........"],
   "colors":   ["Y...Y...Y.", "..........", "..RRRRR...", ".RC.R.CR..", "RRRRRRRRRR", "RRRRRRRRRY", ".KK...KK..", ".KK...KK.Y", "....Y.....", ".Y........"],
   "palette":  { "C": "#22D3EE", "K": "#1F2937", "R": "#E8453C", "Y": "#FACC15" }

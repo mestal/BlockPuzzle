@@ -1,6 +1,6 @@
 {
   "id": 304,
-  "name": {"de": "Schriftrolle", "en": "Scroll", "es": "Pergamino", "fr": "Parchemin", "it": "Pergamena", "pl": "Zwój", "pt": "Pergaminho", "tr": "Parşömen", "el": "Περγαμηνή", "bg": "Свитък", "ru": "Свиток", "ar": "لفافة", "hi": "पत्री", "zh": "卷轴", "ja": "巻物", "ko": "두루마리"},
+  "name": {"id": "Gulungan", "ms": "Skrol", "da": "Skriftrulle", "de": "Schriftrolle", "en": "Scroll", "es": "Pergamino", "fil": "Balumbon", "fr": "Parchemin", "it": "Pergamena", "sw": "Hati ya kukunja", "hu": "Tekercs", "nl": "Perkamentrol", "nb": "Skriftrull", "pl": "Zwój", "pt": "Pergaminho", "ro": "Pergament", "fi": "Kirjakäär", "sv": "Skriftrulle", "vi": "Cuộn giấy", "tr": "Parşömen", "cs": "Svitek", "el": "Περγαμηνή", "bg": "Свитък", "ru": "Свиток", "uk": "Сувій", "ur": "طومار", "ar": "لفافة", "fa": "طومار", "mr": "गुंडाळी", "hi": "पत्री", "bn": "পুঁথি", "pa": "ਪੋਥੀ", "ta": "சுருள்", "te": "తాళపత్రం", "th": "ม้วนคัมภีร์", "zh": "卷轴", "ja": "巻物", "ko": "두루마리"},
   "solution": [".#######..", ".#.....#.#", ".#.###.#..", ".#.....#..", ".#.##.##..", ".#.....#.#", ".#.#####..", ".#.....#..", ".#######..", ".........#"],
   "colors":   [".TTTTTTT..", ".S.....S.Y", ".S.KKK.S..", ".S.....S..", ".S.KK.KS..", ".S.....S.Y", ".S.KKKKS..", ".S.....S..", ".TTTTTTT..", ".........Y"],
   "palette":  { "K": "#1F2937", "S": "#FDE68A", "T": "#92400E", "Y": "#FACC15" }

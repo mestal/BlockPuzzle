@@ -1,6 +1,6 @@
 {
   "id": 224,
-  "name": {"de": "Laptop", "en": "Laptop", "es": "Portátil", "fr": "Ordinateur portable", "it": "Portatile", "pl": "Laptop", "pt": "Notebook", "tr": "Dizüstü bilgisayar", "el": "Φορητός υπολογιστής", "bg": "Лаптоп", "ru": "Ноутбук", "ar": "حاسوب محمول", "hi": "लैपटॉप", "zh": "笔记本电脑", "ja": "ノートパソコン", "ko": "노트북"},
+  "name": {"id": "Laptop", "ms": "Komputer riba", "da": "Bærbar", "de": "Laptop", "en": "Laptop", "es": "Portátil", "fil": "Laptop", "fr": "Ordinateur portable", "it": "Portatile", "sw": "Kompyuta mpakato", "hu": "Laptop", "nl": "Laptop", "nb": "Bærbar PC", "pl": "Laptop", "pt": "Notebook", "ro": "Laptop", "fi": "Kannettava", "sv": "Bärbar dator", "vi": "Máy tính xách tay", "tr": "Dizüstü bilgisayar", "cs": "Notebook", "el": "Φορητός υπολογιστής", "bg": "Лаптоп", "ru": "Ноутбук", "uk": "Ноутбук", "ur": "لیپ ٹاپ", "ar": "حاسوب محمول", "fa": "لپ‌تاپ", "mr": "लॅपटॉप", "hi": "लैपटॉप", "bn": "ল্যাপটপ", "pa": "ਲੈਪਟਾਪ", "ta": "மடிக்கணினி", "te": "ల్యాప్‌టాప్", "th": "แล็ปท็อป", "zh": "笔记本电脑", "ja": "ノートパソコン", "ko": "노트북"},
   "solution": [".........#", ".#######..", ".#.....#..", ".#.....#..", ".#..#..#..", ".#.....#..", ".#######..", "##########", ".#########", ".........."],
   "colors":   [".........Y", ".KKKKKKK..", ".K.....K..", ".K.....K..", ".K..C..K..", ".K.....K..", ".KKKKKKK..", "EEEEEEEEEE", ".EEEEEEEEE", ".........."],
   "palette":  { "C": "#22D3EE", "E": "#94A3B8", "K": "#1F2937", "Y": "#FACC15" }

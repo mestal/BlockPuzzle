@@ -1,6 +1,6 @@
 {
   "id": 400,
-  "name": {"de": "Antilope", "en": "Antelope", "es": "Antílope", "fr": "Antilope", "it": "Antilope", "pl": "Antylopa", "pt": "Antílope", "tr": "Antilop", "el": "Αντιλόπη", "bg": "Антилопа", "ru": "Антилопа", "ar": "ظبي", "hi": "मृग", "zh": "羚羊", "ja": "レイヨウ", "ko": "영양"},
+  "name": {"id": "Antelop", "ms": "Antelop", "da": "Antilope", "de": "Antilope", "en": "Antelope", "es": "Antílope", "fil": "Antilope", "fr": "Antilope", "it": "Antilope", "sw": "Swala", "hu": "Antilop", "nl": "Antilope", "nb": "Antilope", "pl": "Antylopa", "pt": "Antílope", "ro": "Antilopă", "fi": "Antilooppi", "sv": "Antilop", "vi": "Linh dương", "tr": "Antilop", "cs": "Antilopa", "el": "Αντιλόπη", "bg": "Антилопа", "ru": "Антилопа", "uk": "Антилопа", "ur": "ہرن", "ar": "ظبي", "fa": "آنتلوپ", "mr": "काळवीट", "hi": "मृग", "bn": "কৃষ্ণসার হরিণ", "pa": "ਬਾਰਾਸਿੰਗਾ", "ta": "மறிமான்", "te": "జింక", "th": "แอนทีโลป", "zh": "羚羊", "ja": "レイヨウ", "ko": "영양"},
   "solution": ["..........", "..........", ".#......#.", ".##....##.", "..#....#..", "..#....#..", "...#..#...", "##.####.##", "...####...", "...####...", "..#####...", "....##....", "....##....", "..........", ".....#...."],
   "colors":   ["..........", "..........", ".K......K.", ".KK....KK.", "..K....K..", "..K....K..", "...K..K...", "TT.TTTT.TT", "...KTTK...", "...TTTT...", "..TTWWT...", "....TT....", "....KK....", "..........", ".....Y...."],
   "palette":  { "K": "#1F2937", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }

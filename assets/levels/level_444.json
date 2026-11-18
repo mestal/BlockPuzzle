@@ -1,6 +1,6 @@
 {
   "id": 444,
-  "name": {"de": "Ruderboot", "en": "Rowboat", "es": "Bote de remos", "fr": "Barque", "it": "Barca a remi", "pl": "Łódka", "pt": "Barco a remo", "tr": "Kayık", "el": "Βάρκα", "bg": "Гребна лодка", "ru": "Гребная лодка", "ar": "قارب تجديف", "hi": "नाव", "zh": "划艇", "ja": "手こぎボート", "ko": "노 젓는 배"},
+  "name": {"id": "Perahu dayung", "ms": "Perahu dayung", "da": "Robåd", "de": "Ruderboot", "en": "Rowboat", "es": "Bote de remos", "fil": "Bangkang de-sagwan", "fr": "Barque", "it": "Barca a remi", "sw": "Mashua ya makasia", "hu": "Evezős csónak", "nl": "Roeiboot", "nb": "Robåt", "pl": "Łódka", "pt": "Barco a remo", "ro": "Barcă cu vâsle", "fi": "Soutuvene", "sv": "Roddbåt", "vi": "Thuyền chèo", "tr": "Kayık", "cs": "Loďka na vesla", "el": "Βάρκα", "bg": "Гребна лодка", "ru": "Гребная лодка", "uk": "Весловий човен", "ur": "چپو والی کشتی", "ar": "قارب تجديف", "fa": "قایق پارویی", "mr": "वल्हवण्याची होडी", "hi": "नाव", "bn": "দাঁড়ের নৌকা", "pa": "ਚੱਪੂ ਵਾਲੀ ਕਿਸ਼ਤੀ", "ta": "துடுப்புப் படகு", "te": "తెడ్డు పడవ", "th": "เรือพาย", "zh": "划艇", "ja": "手こぎボート", "ko": "노 젓는 배"},
   "solution": ["........##", ".#..#...#.", "..#....#..", "##########", ".########.", "..######..", "#.#.##.#.#", ".###..###.", "###.##.###", ".........."],
   "colors":   ["........TT", ".T..Y...T.", "..T....T..", "HHHHHHHHHH", ".HHHHHHHH.", "..HHHHHH..", "B.T.BB.T.B", ".BTB..BTB.", "BBB.BB.BBB", ".........."],
   "palette":  { "B": "#3B82F6", "H": "#5B3410", "T": "#92400E", "Y": "#FACC15" }

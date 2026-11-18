@@ -1,6 +1,6 @@
 {
   "id": 278,
-  "name": {"de": "Karotte", "en": "Carrot", "es": "Zanahoria", "fr": "Carotte", "it": "Carota", "pl": "Marchewka", "pt": "Cenoura", "tr": "Havuç", "el": "Καρότο", "bg": "Морков", "ru": "Морковь", "ar": "جزرة", "hi": "गाजर", "zh": "胡萝卜", "ja": "ニンジン", "ko": "당근"},
+  "name": {"id": "Wortel", "ms": "Lobak merah", "da": "Gulerod", "de": "Karotte", "en": "Carrot", "es": "Zanahoria", "fil": "Karot", "fr": "Carotte", "it": "Carota", "sw": "Karoti", "hu": "Répa", "nl": "Wortel", "nb": "Gulrot", "pl": "Marchewka", "pt": "Cenoura", "ro": "Morcov", "fi": "Porkkana", "sv": "Morot", "vi": "Cà rốt", "tr": "Havuç", "cs": "Mrkev", "el": "Καρότο", "bg": "Морков", "ru": "Морковь", "uk": "Морква", "ur": "گاجر", "ar": "جزرة", "fa": "هویج", "mr": "गाजर", "hi": "गाजर", "bn": "গাজর", "pa": "ਗਾਜਰ", "ta": "கேரட்", "te": "క్యారెట్", "th": "แครอท", "zh": "胡萝卜", "ja": "ニンジン", "ko": "당근"},
   "solution": ["..........", "..#.##.#..", "...####...", "....##....", "..######..", "..###.##..", "..######..", "...####..#", "...##.#...", "...####...", "....##....", "....##....", "....#.....", ".#........", ".........."],
   "colors":   ["..........", "..G.GG.G..", "...GGGG...", "....GG....", "..OOOOOO..", "..OOO.OO..", "..OOOOOO..", "...OOOO..Y", "...OO.O...", "...OOOO...", "....OO....", "....OO....", "....O.....", ".Y........", ".........."],
   "palette":  { "G": "#22C55E", "O": "#F97316", "Y": "#FACC15" }

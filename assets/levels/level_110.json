@@ -1,6 +1,6 @@
 {
   "id": 110,
-  "name": {"de": "Pinguin", "en": "Penguin", "es": "Pingüino", "fr": "Pingouin", "it": "Pinguino", "pl": "Pingwin", "pt": "Pinguim", "tr": "Penguen", "el": "Πιγκουίνος", "bg": "Пингвин", "ru": "Пингвин", "ar": "بطريق", "hi": "पेंगुइन", "zh": "企鹅", "ja": "ペンギン", "ko": "펭귄"},
+  "name": {"id": "Penguin", "ms": "Penguin", "da": "Pingvin", "de": "Pinguin", "en": "Penguin", "es": "Pingüino", "fil": "Penguin", "fr": "Pingouin", "it": "Pinguino", "sw": "Pengwini", "hu": "Pingvin", "nl": "Pinguïn", "nb": "Pingvin", "pl": "Pingwin", "pt": "Pinguim", "ro": "Pinguin", "fi": "Pingviini", "sv": "Pingvin", "vi": "Chim cánh cụt", "tr": "Penguen", "cs": "Tučňák", "el": "Πιγκουίνος", "bg": "Пингвин", "ru": "Пингвин", "uk": "Пінгвін", "ur": "پینگوئن", "ar": "بطريق", "fa": "پنگوئن", "mr": "पेंग्विन", "hi": "पेंगुइन", "bn": "পেঙ্গুইন", "pa": "ਪੈਂਗੁਇਨ", "ta": "பென்குயின்", "te": "పెంగ్విన్", "th": "เพนกวิน", "zh": "企鹅", "ja": "ペンギン", "ko": "펭귄"},
   "solution": ["..........", "..........", "...####...", "..######..", ".########.", ".########.", ".########.", "##########", "#.######.#", "..######..", "..######..", "...####...", "..##..##..", "..........", ".........."],
   "colors":   ["..........", "..........", "...KKKK...", "..KKKKKK..", ".KKWWWWKK.", ".KWKWWKWK.", ".KWWOOWWK.", "KKKWWWWKKK", "K.KWWWWK.K", "..KWWWWK..", "..KWWWWK..", "...KKKK...", "..OO..OO..", "..........", ".........."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "W": "#FFFFFF" }

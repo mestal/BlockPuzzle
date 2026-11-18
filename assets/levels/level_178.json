@@ -1,6 +1,6 @@
 {
   "id": 178,
-  "name": {"de": "Taube", "en": "Dove", "es": "Paloma", "fr": "Colombe", "it": "Colomba", "pl": "Gołąb", "pt": "Pomba", "tr": "Güvercin", "el": "Περιστέρι", "bg": "Гълъб", "ru": "Голубь", "ar": "حمامة", "hi": "कबूतर", "zh": "鸽子", "ja": "ハト", "ko": "비둘기"},
+  "name": {"id": "Merpati", "ms": "Burung merpati", "da": "Due", "de": "Taube", "en": "Dove", "es": "Paloma", "fil": "Kalapati", "fr": "Colombe", "it": "Colomba", "sw": "Njiwa", "hu": "Galamb", "nl": "Duif", "nb": "Due", "pl": "Gołąb", "pt": "Pomba", "ro": "Porumbel", "fi": "Kyyhky", "sv": "Duva", "vi": "Chim bồ câu", "tr": "Güvercin", "cs": "Holubice", "el": "Περιστέρι", "bg": "Гълъб", "ru": "Голубь", "uk": "Голуб", "ur": "فاختہ", "ar": "حمامة", "fa": "کبوتر", "mr": "कबूतर", "hi": "कबूतर", "bn": "কবুতর", "pa": "ਘੁੱਗੀ", "ta": "புறா", "te": "పావురం", "th": "นกพิราบ", "zh": "鸽子", "ja": "ハト", "ko": "비둘기"},
   "solution": ["..........", ".....#....", "....###...", "....####..", "....###...", "##..###...", "###.####..", ".########.", "..########", "...######.", "....####..", "...##..#..", "..##..###.", ".......#..", ".........."],
   "colors":   ["..........", ".....W....", "....WWW...", "....WKWO..", "....WWW...", "WW..WWW...", "WWW.WWWW..", ".WWWWWWWW.", "..WWWWWWWW", "...WWWWWW.", "....WWWW..", "...WW..G..", "..WW..GGG.", ".......G..", ".........."],
   "palette":  { "G": "#22C55E", "K": "#1F2937", "O": "#F97316", "W": "#FFFFFF" }

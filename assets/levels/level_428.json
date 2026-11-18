@@ -1,6 +1,6 @@
 {
   "id": 428,
-  "name": {"de": "Maracas", "en": "Maracas", "es": "Maracas", "fr": "Maracas", "it": "Maracas", "pl": "Marakasy", "pt": "Maracas", "tr": "Marakas", "el": "Μαράκες", "bg": "Маракаси", "ru": "Маракасы", "ar": "ماراكاس", "hi": "माराकास", "zh": "沙锤", "ja": "マラカス", "ko": "마라카스"},
+  "name": {"id": "Marakas", "ms": "Marakas", "da": "Maracas", "de": "Maracas", "en": "Maracas", "es": "Maracas", "fil": "Maracas", "fr": "Maracas", "it": "Maracas", "sw": "Marakasi", "hu": "Marakasz", "nl": "Maracas", "nb": "Maracas", "pl": "Marakasy", "pt": "Maracas", "ro": "Maracas", "fi": "Marakassit", "sv": "Maracas", "vi": "Lục lạc maracas", "tr": "Marakas", "cs": "Marakasy", "el": "Μαράκες", "bg": "Маракаси", "ru": "Маракасы", "uk": "Маракаси", "ur": "ماراکاس", "ar": "ماراكاس", "fa": "ماراکاس", "mr": "मराकस", "hi": "माराकास", "bn": "মারাকাস", "pa": "ਮਰਾਕਸ", "ta": "மராக்காஸ்", "te": "మరాకాస్", "th": "ลูกแซก", "zh": "沙锤", "ja": "マラカス", "ko": "마라카스"},
   "solution": [".##....##.", "####..####", "####..####", "####..####", ".##....##.", "..#....#..", "...#..#...", "....##....", "...#......", "..##...#.."],
   "colors":   [".RR....GG.", "RRRR..GGGG", "RYRR..GGYG", "RRRR..GGGG", ".RR....GG.", "..T....T..", "...T..T...", "....TT....", "...T......", "..TT...T.."],
   "palette":  { "G": "#22C55E", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

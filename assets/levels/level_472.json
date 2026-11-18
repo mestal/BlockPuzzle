@@ -1,6 +1,6 @@
 {
   "id": 472,
-  "name": {"de": "Stoppuhr", "en": "Stopwatch", "es": "Cronómetro", "fr": "Chronomètre", "it": "Cronometro", "pl": "Stoper", "pt": "Cronômetro", "tr": "Kronometre", "el": "Χρονόμετρο", "bg": "Хронометър", "ru": "Секундомер", "ar": "ساعة إيقاف", "hi": "स्टॉपवॉच", "zh": "秒表", "ja": "ストップウォッチ", "ko": "스톱워치"},
+  "name": {"id": "Stopwatch", "ms": "Jam randik", "da": "Stopur", "de": "Stoppuhr", "en": "Stopwatch", "es": "Cronómetro", "fil": "Stopwatch", "fr": "Chronomètre", "it": "Cronometro", "sw": "Saa ya kupima muda", "hu": "Stopperóra", "nl": "Stopwatch", "nb": "Stoppeklokke", "pl": "Stoper", "pt": "Cronômetro", "ro": "Cronometru", "fi": "Sekuntikello", "sv": "Stoppur", "vi": "Đồng hồ bấm giờ", "tr": "Kronometre", "cs": "Stopky", "el": "Χρονόμετρο", "bg": "Хронометър", "ru": "Секундомер", "uk": "Секундомір", "ur": "اسٹاپ واچ", "ar": "ساعة إيقاف", "fa": "کرنومتر", "mr": "स्टॉपवॉच", "hi": "स्टॉपवॉच", "bn": "স্টপওয়াচ", "pa": "ਸਟਾਪਵਾਚ", "ta": "நிறுத்துக் கடிகாரம்", "te": "స్టాప్‌వాచ్", "th": "นาฬิกาจับเวลา", "zh": "秒表", "ja": "ストップウォッチ", "ko": "스톱워치"},
   "solution": ["....##....", "....##..#.", "..######..", ".#......#.", "#.#.#....#", "#...#....#", "#.#.###..#", "....#....#", ".#......#.", "..#######."],
   "colors":   ["....KK....", "....EE..E.", "..EEEEEE..", ".E......E.", "E.E.K....E", "E...K....E", "E.E.KKK..E", "....K....E", ".E......E.", "..EEEEEEE."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937" }

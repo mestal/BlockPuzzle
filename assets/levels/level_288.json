@@ -1,6 +1,6 @@
 {
   "id": 288,
-  "name": {"de": "Xylofon", "en": "Xylophone", "es": "Xilófono", "fr": "Xylophone", "it": "Xilofono", "pl": "Cymbałki", "pt": "Xilofone", "tr": "Ksilofon", "el": "Ξυλόφωνο", "bg": "Ксилофон", "ru": "Ксилофон", "ar": "إكسيليفون", "hi": "ज़ाइलोफ़ोन", "zh": "木琴", "ja": "木琴", "ko": "실로폰"},
+  "name": {"id": "Gambang", "ms": "Zilofon", "da": "Xylofon", "de": "Xylofon", "en": "Xylophone", "es": "Xilófono", "fil": "Xylophone", "fr": "Xylophone", "it": "Xilofono", "sw": "Marimba", "hu": "Xilofon", "nl": "Xylofoon", "nb": "Xylofon", "pl": "Cymbałki", "pt": "Xilofone", "ro": "Xilofon", "fi": "Ksylofoni", "sv": "Xylofon", "vi": "Mộc cầm", "tr": "Ksilofon", "cs": "Xylofon", "el": "Ξυλόφωνο", "bg": "Ксилофон", "ru": "Ксилофон", "uk": "Ксилофон", "ur": "زائلوفون", "ar": "إكسيليفون", "fa": "زیلوفون", "mr": "झायलोफोन", "hi": "ज़ाइलोफ़ोन", "bn": "জাইলোফোন", "pa": "ਜ਼ਾਈਲੋਫ਼ੋਨ", "ta": "சைலோபோன்", "te": "జైలోఫోన్", "th": "ระนาด", "zh": "木琴", "ja": "木琴", "ko": "실로폰"},
   "solution": ["#...#.....", "#.#.......", "#.#.#.....", "#.#.#.....", "#.#.#.#.#.", "#.#.#.#.#.", "#.#.#.#.#.", "#.#.#.#.#.", "##########", ".#......#."],
   "colors":   ["R...Y.....", "R.O.......", "R.O.Y.....", "R.O.Y.....", "R.O.Y.G.B.", "R.O.Y.G.B.", "R.O.Y.G.B.", "R.O.Y.G.B.", "EEEEEEEEEE", ".E......E."],
   "palette":  { "B": "#3B82F6", "E": "#94A3B8", "G": "#22C55E", "O": "#F97316", "R": "#E8453C", "Y": "#FACC15" }

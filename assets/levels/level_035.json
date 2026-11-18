@@ -1,6 +1,6 @@
 {
   "id": 35,
-  "name": {"de": "Krabbe", "en": "Crab", "es": "Cangrejo", "fr": "Crabe", "it": "Granchio", "pl": "Krab", "pt": "Caranguejo", "tr": "Yengeç", "el": "Κάβουρας", "bg": "Рак", "ru": "Краб", "ar": "سلطعون", "hi": "केकड़ा", "zh": "螃蟹", "ja": "カニ", "ko": "게"},
+  "name": {"id": "Kepiting", "ms": "Ketam", "da": "Krabbe", "de": "Krabbe", "en": "Crab", "es": "Cangrejo", "fil": "Alimango", "fr": "Crabe", "it": "Granchio", "sw": "Kaa", "hu": "Rák", "nl": "Krab", "nb": "Krabbe", "pl": "Krab", "pt": "Caranguejo", "ro": "Crab", "fi": "Rapu", "sv": "Krabba", "vi": "Con cua", "tr": "Yengeç", "cs": "Krab", "el": "Κάβουρας", "bg": "Рак", "ru": "Краб", "uk": "Краб", "ur": "کیکڑا", "ar": "سلطعون", "fa": "خرچنگ", "mr": "खेकडा", "hi": "केकड़ा", "bn": "কাঁকড়া", "pa": "ਕੇਕੜਾ", "ta": "நண்டு", "te": "పీత", "th": "ปู", "zh": "螃蟹", "ja": "カニ", "ko": "게"},
   "solution": ["..........", ".##...##..", "..##.##...", "..#####...", ".#######..", "..#####...", ".#.#.#.#..", ".#.....#..", "..........", ".........."],
   "colors":   ["..........", ".RR...RR..", "..RK.KR...", "..RRRRR...", ".RRRRRRR..", "..RRRRR...", ".R.R.R.R..", ".R.....R..", "..........", ".........."],
   "palette":  { "K": "#1F2937", "R": "#E8453C" }

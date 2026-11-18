@@ -1,6 +1,6 @@
 {
   "id": 249,
-  "name": {"de": "Spiegelei", "en": "Fried egg", "es": "Huevo frito", "fr": "Œuf au plat", "it": "Uovo fritto", "pl": "Jajko sadzone", "pt": "Ovo frito", "tr": "Sahanda yumurta", "el": "Τηγανητό αυγό", "bg": "Пържено яйце", "ru": "Яичница", "ar": "بيض مقلي", "hi": "तला हुआ अंडा", "zh": "煎蛋", "ja": "目玉焼き", "ko": "달걀 프라이"},
+  "name": {"id": "Telur ceplok", "ms": "Telur goreng", "da": "Spejlæg", "de": "Spiegelei", "en": "Fried egg", "es": "Huevo frito", "fil": "Pritong itlog", "fr": "Œuf au plat", "it": "Uovo fritto", "sw": "Yai la kukaanga", "hu": "Tükörtojás", "nl": "Spiegelei", "nb": "Speilegg", "pl": "Jajko sadzone", "pt": "Ovo frito", "ro": "Ou ochi", "fi": "Paistettu muna", "sv": "Stekt ägg", "vi": "Trứng ốp la", "tr": "Sahanda yumurta", "cs": "Volské oko", "el": "Τηγανητό αυγό", "bg": "Пържено яйце", "ru": "Яичница", "uk": "Яєчня", "ur": "تلا ہوا انڈا", "ar": "بيض مقلي", "fa": "نیمرو", "mr": "अंड्याचे पोळे", "hi": "तला हुआ अंडा", "bn": "ডিম ভাজা", "pa": "ਤਲਿਆ ਆਂਡਾ", "ta": "முட்டை பொரியல்", "te": "ఆమ్లెట్", "th": "ไข่ดาว", "zh": "煎蛋", "ja": "目玉焼き", "ko": "달걀 프라이"},
   "solution": ["...###....", ".#######..", "#########.", "##########", ".#########", "#########.", "#########.", ".#######..", "..##.##...", ".........#"],
   "colors":   ["...WWW....", ".WWWWWWW..", "WWWWWWWWW.", "WWWYYYWWWW", ".WWYYYYWWW", "WWWYYYWWW.", "WWWWWWWWW.", ".WWWWWWW..", "..WW.WW...", ".........Y"],
   "palette":  { "W": "#FFFFFF", "Y": "#FACC15" }

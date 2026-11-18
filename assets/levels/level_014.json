@@ -1,6 +1,6 @@
 {
   "id": 14,
-  "name": {"de": "Roboter", "en": "Robot", "es": "Robot", "fr": "Robot", "it": "Robot", "pl": "Robot", "pt": "Robô", "tr": "Robot", "el": "Ρομπότ", "bg": "Робот", "ru": "Робот", "ar": "روبوت", "hi": "रोबोट", "zh": "机器人", "ja": "ロボット", "ko": "로봇"},
+  "name": {"id": "Robot", "ms": "Robot", "da": "Robot", "de": "Roboter", "en": "Robot", "es": "Robot", "fil": "Robot", "fr": "Robot", "it": "Robot", "sw": "Roboti", "hu": "Robot", "nl": "Robot", "nb": "Robot", "pl": "Robot", "pt": "Robô", "ro": "Robot", "fi": "Robotti", "sv": "Robot", "vi": "Người máy", "tr": "Robot", "cs": "Robot", "el": "Ρομπότ", "bg": "Робот", "ru": "Робот", "uk": "Робот", "ur": "روبوٹ", "ar": "روبوت", "fa": "ربات", "mr": "यंत्रमानव", "hi": "रोबोट", "bn": "রোবট", "pa": "ਰੋਬੋਟ", "ta": "ரோபோ", "te": "రోబో", "th": "หุ่นยนต์", "zh": "机器人", "ja": "ロボット", "ko": "로봇"},
   "solution": ["..#..", ".###.", "#####", "#####", "..#..", "#####", "#####", "#####", ".#.#.", ".#.#."],
   "colors":   ["..R..", ".EEE.", "EBEBE", "EKKKE", "..E..", "EEEEE", "EAEAE", "EEEEE", ".E.E.", ".E.E."],
   "palette":  { "A": "#F59E0B", "B": "#3B82F6", "E": "#94A3B8", "K": "#1F2937", "R": "#E8453C" }

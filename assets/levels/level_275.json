@@ -1,6 +1,6 @@
 {
   "id": 275,
-  "name": {"de": "Pferd", "en": "Horse", "es": "Caballo", "fr": "Cheval", "it": "Cavallo", "pl": "Koń", "pt": "Cavalo", "tr": "At", "el": "Άλογο", "bg": "Кон", "ru": "Лошадь", "ar": "حصان", "hi": "घोड़ा", "zh": "马", "ja": "ウマ", "ko": "말"},
+  "name": {"id": "Kuda", "ms": "Kuda", "da": "Hest", "de": "Pferd", "en": "Horse", "es": "Caballo", "fil": "Kabayo", "fr": "Cheval", "it": "Cavallo", "sw": "Farasi", "hu": "Ló", "nl": "Paard", "nb": "Hest", "pl": "Koń", "pt": "Cavalo", "ro": "Cal", "fi": "Hevonen", "sv": "Häst", "vi": "Con ngựa", "tr": "At", "cs": "Kůň", "el": "Άλογο", "bg": "Кон", "ru": "Лошадь", "uk": "Кінь", "ur": "گھوڑا", "ar": "حصان", "fa": "اسب", "mr": "घोडा", "hi": "घोड़ा", "bn": "ঘোড়া", "pa": "ਘੋੜਾ", "ta": "குதிரை", "te": "గుర్రం", "th": "ม้า", "zh": "马", "ja": "ウマ", "ko": "말"},
   "solution": ["#.........", "...#.#....", "...###..#.", "..#####...", ".###.###..", "#########.", "##########", "###.######", ".....#####", ".....#####", "....######", "....######", "...#######", "#.........", "...#......"],
   "colors":   ["Y.........", "...T.T....", "...TTT..Y.", "..TTTTH...", ".TTT.TTH..", "TTTTTTTHH.", "TTTTTTTTHH", "TTT.TTTTHH", ".....TTTTH", ".....TTTTH", "....TTTTTH", "....TTTTTH", "...TTTTTTT", "Y.........", "...Y......"],
   "palette":  { "H": "#5B3410", "T": "#92400E", "Y": "#FACC15" }

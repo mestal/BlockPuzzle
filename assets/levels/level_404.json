@@ -1,6 +1,6 @@
 {
   "id": 404,
-  "name": {"de": "Grashüpfer", "en": "Grasshopper", "es": "Saltamontes", "fr": "Sauterelle", "it": "Cavalletta", "pl": "Konik polny", "pt": "Gafanhoto", "tr": "Çekirge", "el": "Ακρίδα", "bg": "Скакалец", "ru": "Кузнечик", "ar": "جندب", "hi": "टिड्डा", "zh": "蚱蜢", "ja": "バッタ", "ko": "메뚜기"},
+  "name": {"id": "Belalang", "ms": "Belalang", "da": "Græshoppe", "de": "Grashüpfer", "en": "Grasshopper", "es": "Saltamontes", "fil": "Tipaklong", "fr": "Sauterelle", "it": "Cavalletta", "sw": "Panzi", "hu": "Szöcske", "nl": "Sprinkhaan", "nb": "Gresshoppe", "pl": "Konik polny", "pt": "Gafanhoto", "ro": "Lăcustă", "fi": "Heinäsirkka", "sv": "Gräshoppa", "vi": "Châu chấu", "tr": "Çekirge", "cs": "Kobylka", "el": "Ακρίδα", "bg": "Скакалец", "ru": "Кузнечик", "uk": "Коник", "ur": "ٹڈا", "ar": "جندب", "fa": "ملخ", "mr": "नाकतोडा", "hi": "टिड्डा", "bn": "ঘাসফড়িং", "pa": "ਟਿੱਡਾ", "ta": "வெட்டுக்கிளி", "te": "మిడత", "th": "ตั๊กแตน", "zh": "蚱蜢", "ja": "バッタ", "ko": "메뚜기"},
   "solution": [".#...#...#", "..#.......", "..###.#.#.", ".#.###...#", ".#########", "..#######.", "..#.#..#..", "##..#.....", "#...#.#..#", ".........."],
   "colors":   [".K...Y...Y", "..K.......", "..GGG.G.G.", ".G.GGG...G", ".GGGGGGGGG", "..GGGGGGG.", "..G.G..G..", "GG..G.....", "G...G.Y..G", ".........."],
   "palette":  { "G": "#22C55E", "K": "#1F2937", "Y": "#FACC15" }

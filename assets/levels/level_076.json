@@ -1,6 +1,6 @@
 {
   "id": 76,
-  "name": {"de": "Erdbeere", "en": "Strawberry", "es": "Fresa", "fr": "Fraise", "it": "Fragola", "pl": "Truskawka", "pt": "Morango", "tr": "Çilek", "el": "Φράουλα", "bg": "Ягода", "ru": "Клубника", "ar": "فراولة", "hi": "स्ट्रॉबेरी", "zh": "草莓", "ja": "イチゴ", "ko": "딸기"},
+  "name": {"id": "Stroberi", "ms": "Strawberi", "da": "Jordbær", "de": "Erdbeere", "en": "Strawberry", "es": "Fresa", "fil": "Presa", "fr": "Fraise", "it": "Fragola", "sw": "Stroberi", "hu": "Eper", "nl": "Aardbei", "nb": "Jordbær", "pl": "Truskawka", "pt": "Morango", "ro": "Căpșună", "fi": "Mansikka", "sv": "Jordgubbe", "vi": "Quả dâu tây", "tr": "Çilek", "cs": "Jahoda", "el": "Φράουλα", "bg": "Ягода", "ru": "Клубника", "uk": "Полуниця", "ur": "اسٹرابیری", "ar": "فراولة", "fa": "توت‌فرنگی", "mr": "स्ट्रॉबेरी", "hi": "स्ट्रॉबेरी", "bn": "স্ট্রবেরি", "pa": "ਸਟ੍ਰਾਬੇਰੀ", "ta": "ஸ்ட்ராபெர்ரி", "te": "స్ట్రాబెర్రీ", "th": "สตรอว์เบอร์รี", "zh": "草莓", "ja": "イチゴ", "ko": "딸기"},
   "solution": ["...#..#...", "....##....", "..######..", ".########.", "##########", "##########", "##########", ".########.", "..######..", "....##...."],
   "colors":   ["...D..D...", "....DD....", "..DDDDDD..", ".RRRRRRRR.", "RRYRRRRYRR", "RRRRYRRRRR", "RYRRRRRYRR", ".RRRYRRRR.", "..RRRRRR..", "....RR...."],
   "palette":  { "D": "#15803D", "R": "#E8453C", "Y": "#FACC15" }

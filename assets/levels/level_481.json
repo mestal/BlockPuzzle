@@ -1,6 +1,6 @@
 {
   "id": 481,
-  "name": {"de": "Stonehenge", "en": "Stonehenge", "es": "Stonehenge", "fr": "Stonehenge", "it": "Stonehenge", "pl": "Stonehenge", "pt": "Stonehenge", "tr": "Stonehenge", "el": "Στόουνχεντζ", "bg": "Стоунхендж", "ru": "Стоунхендж", "ar": "ستونهنج", "hi": "स्टोनहेंज", "zh": "巨石阵", "ja": "ストーンヘンジ", "ko": "스톤헨지"},
+  "name": {"id": "Stonehenge", "ms": "Stonehenge", "da": "Stonehenge", "de": "Stonehenge", "en": "Stonehenge", "es": "Stonehenge", "fil": "Stonehenge", "fr": "Stonehenge", "it": "Stonehenge", "sw": "Stonehenge", "hu": "Stonehenge", "nl": "Stonehenge", "nb": "Stonehenge", "pl": "Stonehenge", "pt": "Stonehenge", "ro": "Stonehenge", "fi": "Stonehenge", "sv": "Stonehenge", "vi": "Stonehenge", "tr": "Stonehenge", "cs": "Stonehenge", "el": "Στόουνχεντζ", "bg": "Стоунхендж", "ru": "Стоунхендж", "uk": "Стоунгендж", "ur": "اسٹون ہینج", "ar": "ستونهنج", "fa": "استون‌هنج", "mr": "स्टोनहेंज", "hi": "स्टोनहेंज", "bn": "স্টোনহেঞ্জ", "pa": "ਸਟੋਨਹੈਂਜ", "ta": "ஸ்டோன்ஹெஞ்ச்", "te": "స్టోన్‌హెంజ్", "th": "สโตนเฮนจ์", "zh": "巨石阵", "ja": "ストーンヘンジ", "ko": "스톤헨지"},
   "solution": ["#.........", "........#.", ".....#.###", "####....#.", "#..#.####.", "#..#.#..#.", "#..#.#..#.", "#..#.#..#.", "##########", ".........."],
   "colors":   ["Y.........", "........Y.", ".....Y.YYY", "EEEE....Y.", "E..E.EEEE.", "E..E.E..E.", "E..E.E..E.", "E..E.E..E.", "GGGGGGGGGG", ".........."],
   "palette":  { "E": "#94A3B8", "G": "#22C55E", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 433,
-  "name": {"de": "Clown", "en": "Clown", "es": "Payaso", "fr": "Clown", "it": "Pagliaccio", "pl": "Klaun", "pt": "Palhaço", "tr": "Palyaço", "el": "Κλόουν", "bg": "Клоун", "ru": "Клоун", "ar": "مهرج", "hi": "जोकर", "zh": "小丑", "ja": "ピエロ", "ko": "광대"},
+  "name": {"id": "Badut", "ms": "Badut", "da": "Klovn", "de": "Clown", "en": "Clown", "es": "Payaso", "fil": "Payaso", "fr": "Clown", "it": "Pagliaccio", "sw": "Mchekeshaji", "hu": "Bohóc", "nl": "Clown", "nb": "Klovn", "pl": "Klaun", "pt": "Palhaço", "ro": "Clovn", "fi": "Klovni", "sv": "Clown", "vi": "Chú hề", "tr": "Palyaço", "cs": "Klaun", "el": "Κλόουν", "bg": "Клоун", "ru": "Клоун", "uk": "Клоун", "ur": "جوکر", "ar": "مهرج", "fa": "دلقک", "mr": "विदूषक", "hi": "जोकर", "bn": "জোকার", "pa": "ਜੋਕਰ", "ta": "கோமாளி", "te": "విదూషకుడు", "th": "ตัวตลก", "zh": "小丑", "ja": "ピエロ", "ko": "광대"},
   "solution": ["#.......#.", "....#.....", "##......##", "###....###", "##########", ".##.##.##.", "..######..", "..######..", "..######..", "...####...", ".##.##.##.", ".########.", ".##....##.", "....#.....", ".#.....#.."],
   "colors":   ["Y.......Y.", "....Y.....", "OO......OO", "OOO....OOO", "OOWWWWWWOO", ".OW.WW.WO.", "..WWRRWW..", "..WWRRWW..", "..WRWWRW..", "...WRRW...", ".PP.YY.PP.", ".PPPYYPPP.", ".PP....PP.", "....Y.....", ".Y.....Y.."],
   "palette":  { "O": "#F97316", "P": "#F472B6", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

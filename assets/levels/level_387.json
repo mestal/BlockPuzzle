@@ -1,6 +1,6 @@
 {
   "id": 387,
-  "name": {"de": "Warzenschwein", "en": "Warthog", "es": "Facóquero", "fr": "Phacochère", "it": "Facocero", "pl": "Guziec", "pt": "Javali-africano", "tr": "Siğil domuzu", "el": "Αγριόχοιρος", "bg": "Брадавичеста свиня", "ru": "Бородавочник", "ar": "خنزير الثآليل", "hi": "वार्टहॉग", "zh": "疣猪", "ja": "イボイノシシ", "ko": "혹멧돼지"},
+  "name": {"id": "Babi hutan Afrika", "ms": "Babi hutan Afrika", "da": "Vortesvin", "de": "Warzenschwein", "en": "Warthog", "es": "Facóquero", "fil": "Warthog", "fr": "Phacochère", "it": "Facocero", "sw": "Ngiri", "hu": "Varacskos disznó", "nl": "Wrattenzwijn", "nb": "Vortesvin", "pl": "Guziec", "pt": "Javali-africano", "ro": "Facocer", "fi": "Pahkasika", "sv": "Vårtsvin", "vi": "Lợn bướu", "tr": "Siğil domuzu", "cs": "Prase bradavičnaté", "el": "Αγριόχοιρος", "bg": "Брадавичеста свиня", "ru": "Бородавочник", "uk": "Бородавочник", "ur": "جنگلی سور", "ar": "خنزير الثآليل", "fa": "گراز زگیل‌دار", "mr": "रानडुक्कर", "hi": "वार्टहॉग", "bn": "ওয়ার্টহগ", "pa": "ਜੰਗਲੀ ਸੂਰ", "ta": "காட்டுப்பன்றி", "te": "అడవి పంది", "th": "หมูป่าแอฟริกา", "zh": "疣猪", "ja": "イボイノシシ", "ko": "혹멧돼지"},
   "solution": ["##.......#", "##.####.##", ".########.", "..#.##.#..", "#.######.#", ".########.", "#..####..#", ".#.####.#.", "..######..", "#..####..."],
   "colors":   ["TT.......T", "TT.TTTT.TT", ".TTTTTTTT.", "..T.TT.T..", "T.TTTTTT.T", ".TTTTTTTT.", "W..TTTT..W", ".W.TKKT.W.", "..WTTTTW..", "Y..TTTT..."],
   "palette":  { "K": "#1F2937", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }

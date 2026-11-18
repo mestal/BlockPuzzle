@@ -1,6 +1,6 @@
 {
   "id": 8,
-  "name": {"de": "Katze", "en": "Cat", "es": "Gato", "fr": "Chat", "it": "Gatto", "pl": "Kot", "pt": "Gato", "tr": "Kedi", "el": "Γάτα", "bg": "Котка", "ru": "Кошка", "ar": "قطة", "hi": "बिल्ली", "zh": "猫", "ja": "ネコ", "ko": "고양이"},
+  "name": {"id": "Kucing", "ms": "Kucing", "da": "Kat", "de": "Katze", "en": "Cat", "es": "Gato", "fil": "Pusa", "fr": "Chat", "it": "Gatto", "sw": "Paka", "hu": "Macska", "nl": "Kat", "nb": "Katt", "pl": "Kot", "pt": "Gato", "ro": "Pisică", "fi": "Kissa", "sv": "Katt", "vi": "Con mèo", "tr": "Kedi", "cs": "Kočka", "el": "Γάτα", "bg": "Котка", "ru": "Кошка", "uk": "Кіт", "ur": "بلی", "ar": "قطة", "fa": "گربه", "mr": "मांजर", "hi": "बिल्ली", "bn": "বিড়াল", "pa": "ਬਿੱਲੀ", "ta": "பூனை", "te": "పిల్లి", "th": "แมว", "zh": "猫", "ja": "ネコ", "ko": "고양이"},
   "solution": ["##..#", "#####", "#####", "#####", ".###."],
   "colors":   ["OO..O", "OOOOO", "OKOKO", "OOPOO", ".OOO."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "P": "#F472B6" }

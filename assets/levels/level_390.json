@@ -1,6 +1,6 @@
 {
   "id": 390,
-  "name": {"de": "Affenbrotbaum", "en": "Baobab", "es": "Baobab", "fr": "Baobab", "it": "Baobab", "pl": "Baobab", "pt": "Baobá", "tr": "Baobab", "el": "Μπαομπάμπ", "bg": "Баобаб", "ru": "Баобаб", "ar": "باوباب", "hi": "बाओबाब", "zh": "猴面包树", "ja": "バオバブ", "ko": "바오바브나무"},
+  "name": {"id": "Pohon baobab", "ms": "Pokok baobab", "da": "Baobab", "de": "Affenbrotbaum", "en": "Baobab", "es": "Baobab", "fil": "Baobab", "fr": "Baobab", "it": "Baobab", "sw": "Mbuyu", "hu": "Majomkenyérfa", "nl": "Baobab", "nb": "Baobab", "pl": "Baobab", "pt": "Baobá", "ro": "Baobab", "fi": "Apinanleipäpuu", "sv": "Baobab", "vi": "Cây bao báp", "tr": "Baobab", "cs": "Baobab", "el": "Μπαομπάμπ", "bg": "Баобаб", "ru": "Баобаб", "uk": "Баобаб", "ur": "باؤباب کا درخت", "ar": "باوباب", "fa": "درخت بائوباب", "mr": "गोरखचिंच", "hi": "बाओबाब", "bn": "বাওবাব গাছ", "pa": "ਬਾਓਬਾਬ ਰੁੱਖ", "ta": "பெருக்கமரம்", "te": "బావోబాబ్ చెట్టు", "th": "ต้นเบาบับ", "zh": "猴面包树", "ja": "バオバブ", "ko": "바오바브나무"},
   "solution": ["..........", "##..##..##", "###.##.###", ".#..##..#.", "..#.##.#..", "#..####...", "...####..#", "..######..", "..######..", "#.######..", "..######.#", "..######..", ".########.", "##########", ".........."],
   "colors":   ["..........", "GG..GG..GG", "GGG.GG.GGG", ".H..HH..H.", "..H.HH.H..", "Y..HHHH...", "...HHHH..Y", "..HHHHHH..", "..HHHHHH..", "Y.HHHHHH..", "..HHHHHH.Y", "..HHHHHH..", ".HHHHHHHH.", "SSSSSSSSSS", ".........."],
   "palette":  { "G": "#22C55E", "H": "#5B3410", "S": "#FDE68A", "Y": "#FACC15" }

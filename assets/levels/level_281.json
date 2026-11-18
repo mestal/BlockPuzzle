@@ -1,6 +1,6 @@
 {
   "id": 281,
-  "name": {"de": "Gamecontroller", "en": "Game controller", "es": "Mando", "fr": "Manette", "it": "Controller", "pl": "Pad", "pt": "Controle", "tr": "Oyun kumandası", "el": "Χειριστήριο", "bg": "Джойстик", "ru": "Геймпад", "ar": "يد التحكم", "hi": "गेम कंट्रोलर", "zh": "游戏手柄", "ja": "ゲームコントローラー", "ko": "게임 컨트롤러"},
+  "name": {"id": "Stik game", "ms": "Alat kawalan permainan", "da": "Controller", "de": "Gamecontroller", "en": "Game controller", "es": "Mando", "fil": "Game controller", "fr": "Manette", "it": "Controller", "sw": "Kidhibiti cha mchezo", "hu": "Kontroller", "nl": "Gamecontroller", "nb": "Spillkontroller", "pl": "Pad", "pt": "Controle", "ro": "Controller de jocuri", "fi": "Peliohjain", "sv": "Handkontroll", "vi": "Tay cầm chơi game", "tr": "Oyun kumandası", "cs": "Herní ovladač", "el": "Χειριστήριο", "bg": "Джойстик", "ru": "Геймпад", "uk": "Геймпад", "ur": "گیم کنٹرولر", "ar": "يد التحكم", "fa": "دسته بازی", "mr": "गेम कंट्रोलर", "hi": "गेम कंट्रोलर", "bn": "গেম কন্ট্রোলার", "pa": "ਗੇਮ ਕੰਟਰੋਲਰ", "ta": "விளையாட்டுக் கட்டுப்படுத்தி", "te": "గేమ్ కంట్రోలర్", "th": "จอยเกม", "zh": "游戏手柄", "ja": "ゲームコントローラー", "ko": "게임 컨트롤러"},
   "solution": ["..........", ".########.", "##########", "##.#######", "#...###.##", "##.#######", "##########", "###....###", "##......##", "...#......"],
   "colors":   ["..........", ".KKKKKKKK.", "KKKKKKKKKK", "KK.KKKKRKK", "K...KKR.RK", "KK.KKKKRKK", "KKKKKKKKKK", "KKK....KKK", "KK......KK", "...Y......"],
   "palette":  { "K": "#1F2937", "R": "#E8453C", "Y": "#FACC15" }

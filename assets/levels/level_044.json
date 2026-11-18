@@ -1,6 +1,6 @@
 {
   "id": 44,
-  "name": {"de": "Zelt", "en": "Tent", "es": "Tienda", "fr": "Tente", "it": "Tenda", "pl": "Namiot", "pt": "Barraca", "tr": "Çadır", "el": "Σκηνή", "bg": "Палатка", "ru": "Палатка", "ar": "خيمة", "hi": "तंबू", "zh": "帐篷", "ja": "テント", "ko": "텐트"},
+  "name": {"id": "Tenda", "ms": "Khemah", "da": "Telt", "de": "Zelt", "en": "Tent", "es": "Tienda", "fil": "Tolda", "fr": "Tente", "it": "Tenda", "sw": "Hema", "hu": "Sátor", "nl": "Tent", "nb": "Telt", "pl": "Namiot", "pt": "Barraca", "ro": "Cort", "fi": "Teltta", "sv": "Tält", "vi": "Cái lều", "tr": "Çadır", "cs": "Stan", "el": "Σκηνή", "bg": "Палатка", "ru": "Палатка", "uk": "Намет", "ur": "خیمہ", "ar": "خيمة", "fa": "چادر", "mr": "तंबू", "hi": "तंबू", "bn": "তাঁবু", "pa": "ਤੰਬੂ", "ta": "கூடாரம்", "te": "గుడారం", "th": "เต็นท์", "zh": "帐篷", "ja": "テント", "ko": "텐트"},
   "solution": ["..........", "....##....", "...####...", "...####...", "..######..", "..######..", ".########.", ".########.", ".########.", ".........."],
   "colors":   ["..........", "....OO....", "...OOOO...", "...OKKO...", "..OOKKOO..", "..OKKKKO..", ".OOKKKKOO.", ".OKKKKKKO.", ".DDDDDDDD.", ".........."],
   "palette":  { "D": "#15803D", "K": "#1F2937", "O": "#F97316" }

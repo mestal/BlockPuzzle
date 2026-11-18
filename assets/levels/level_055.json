@@ -1,6 +1,6 @@
 {
   "id": 55,
-  "name": {"de": "Fuchs", "en": "Fox", "es": "Zorro", "fr": "Renard", "it": "Volpe", "pl": "Lis", "pt": "Raposa", "tr": "Tilki", "el": "Αλεπού", "bg": "Лисица", "ru": "Лиса", "ar": "ثعلب", "hi": "लोमड़ी", "zh": "狐狸", "ja": "キツネ", "ko": "여우"},
+  "name": {"id": "Rubah", "ms": "Musang", "da": "Ræv", "de": "Fuchs", "en": "Fox", "es": "Zorro", "fil": "Soro", "fr": "Renard", "it": "Volpe", "sw": "Mbweha", "hu": "Róka", "nl": "Vos", "nb": "Rev", "pl": "Lis", "pt": "Raposa", "ro": "Vulpe", "fi": "Kettu", "sv": "Räv", "vi": "Con cáo", "tr": "Tilki", "cs": "Liška", "el": "Αλεπού", "bg": "Лисица", "ru": "Лиса", "uk": "Лисиця", "ur": "لومڑی", "ar": "ثعلب", "fa": "روباه", "mr": "कोल्हा", "hi": "लोमड़ी", "bn": "শিয়াল", "pa": "ਲੂੰਬੜੀ", "ta": "நரி", "te": "నక్క", "th": "สุนัขจิ้งจอก", "zh": "狐狸", "ja": "キツネ", "ko": "여우"},
   "solution": ["..........", ".##.....#.", ".##....##.", ".########.", ".########.", ".########.", "..######..", "...####...", "....##....", ".........."],
   "colors":   ["..........", ".OO.....O.", ".OO....OO.", ".OOOOOOOO.", ".OWKOOKWO.", ".OOOOOOOO.", "..WWOOWW..", "...WWWW...", "....KK....", ".........."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "W": "#FFFFFF" }

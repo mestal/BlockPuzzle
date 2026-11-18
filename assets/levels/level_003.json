@@ -1,6 +1,6 @@
 {
   "id": 3,
-  "name": {"de": "Bär", "en": "Bear", "es": "Oso", "fr": "Ours", "it": "Orso", "pl": "Miś", "pt": "Urso", "tr": "Ayı", "el": "Αρκούδα", "bg": "Мечка", "ru": "Медведь", "ar": "دب", "hi": "भालू", "zh": "熊", "ja": "クマ", "ko": "곰"},
+  "name": {"id": "Beruang", "ms": "Beruang", "da": "Bjørn", "de": "Bär", "en": "Bear", "es": "Oso", "fil": "Oso", "fr": "Ours", "it": "Orso", "sw": "Dubu", "hu": "Medve", "nl": "Beer", "nb": "Bjørn", "pl": "Miś", "pt": "Urso", "ro": "Urs", "fi": "Karhu", "sv": "Björn", "vi": "Con gấu", "tr": "Ayı", "cs": "Medvěd", "el": "Αρκούδα", "bg": "Мечка", "ru": "Медведь", "uk": "Ведмідь", "ur": "ریچھ", "ar": "دب", "fa": "خرس", "mr": "अस्वल", "hi": "भालू", "bn": "ভালুক", "pa": "ਰਿੱਛ", "ta": "கரடி", "te": "ఎలుగుబంటి", "th": "หมี", "zh": "熊", "ja": "クマ", "ko": "곰"},
   "solution": ["##.##", "#####", "#####", "#####", ".###."],
   "colors":   ["TT.TT", "TTTTT", "TKTKT", "TTHTT", ".TTT."],
   "palette":  { "H": "#5B3410", "K": "#1F2937", "T": "#92400E" }

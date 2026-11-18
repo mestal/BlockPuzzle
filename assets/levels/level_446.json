@@ -1,6 +1,6 @@
 {
   "id": 446,
-  "name": {"de": "Steuerrad", "en": "Ship's wheel", "es": "Timón", "fr": "Gouvernail", "it": "Timone", "pl": "Ster", "pt": "Leme", "tr": "Dümen", "el": "Τιμόνι πλοίου", "bg": "Щурвал", "ru": "Штурвал", "ar": "دفة السفينة", "hi": "जहाज़ का पहिया", "zh": "船舵", "ja": "舵輪", "ko": "조타륜"},
+  "name": {"id": "Kemudi kapal", "ms": "Roda kemudi", "da": "Rat", "de": "Steuerrad", "en": "Ship's wheel", "es": "Timón", "fil": "Timon", "fr": "Gouvernail", "it": "Timone", "sw": "Usukani wa meli", "hu": "Hajókormány", "nl": "Scheepsroer", "nb": "Ror", "pl": "Ster", "pt": "Leme", "ro": "Cârmă", "fi": "Ruori", "sv": "Ratt", "vi": "Bánh lái tàu", "tr": "Dümen", "cs": "Kormidlo", "el": "Τιμόνι πλοίου", "bg": "Щурвал", "ru": "Штурвал", "uk": "Штурвал", "ur": "جہاز کا پہیہ", "ar": "دفة السفينة", "fa": "سکان کشتی", "mr": "सुकाणू", "hi": "जहाज़ का पहिया", "bn": "জাহাজের হাল", "pa": "ਜਹਾਜ਼ ਦਾ ਪਹੀਆ", "ta": "கப்பல் சுக்கான்", "te": "ఓడ చుక్కాని", "th": "พวงมาลัยเรือ", "zh": "船舵", "ja": "舵輪", "ko": "조타륜"},
   "solution": ["....#.....", ".#.###.#..", "..##.##..#", ".##.#.##..", "#########.", ".##.#.##..", "..##.##..#", ".#.###.#..", "....#.....", ".#....#..."],
   "colors":   ["....H.....", ".H.HHH.H..", "..HH.HH..Y", ".HH.H.HH..", "HHHHHHHHH.", ".HH.H.HH..", "..HH.HH..Y", ".H.HHH.H..", "....H.....", ".Y....Y..."],
   "palette":  { "H": "#5B3410", "Y": "#FACC15" }

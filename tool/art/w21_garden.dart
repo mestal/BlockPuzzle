@@ -7,7 +7,7 @@ import '../level_art.dart';
 final gardenArt = <LevelArt>[
   art(
     21,
-    'Uğur böceği|Ladybug|Marienkäfer|Coccinelle|Mariquita|Coccinella|瓢虫|テントウムシ|Божья коровка|دعسوقة|Joaninha|Biedronka|Πασχαλίτσα|Калинка|무당벌레|लेडीबग',
+    'Uğur böceği|Ladybug|Marienkäfer|Coccinelle|Mariquita|Coccinella|瓢虫|テントウムシ|Божья коровка|دعسوقة|Joaninha|Biedronka|Πασχαλίτσα|Калинка|무당벌레|लेडीबग|Lieveheersbeestje|Сонечко|Buburuză|Nyckelpiga|Marihøne|Mariehøne|Leppäkerttu|Beruška|Katicabogár|Kumbang kura-kura|Ladybug|লেডিবার্ড|لیڈی بگ|Kepik|Bọ rùa|کفشدوزک|Kombamwiko mwekundu|ढालकिडा|అక్షింతల పురుగు|பொறிவண்டு|ਲਾਲ ਭੂੰਡੀ|เต่าทอง',
     [
       '..K....K..',
       '...K..K...',
@@ -27,7 +27,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Tırtıl|Caterpillar|Raupe|Chenille|Oruga|Bruco|毛毛虫|イモムシ|Гусеница|يرقة|Lagarta|Gąsienica|Κάμπια|Гъсеница|애벌레|इल्ली',
+    'Tırtıl|Caterpillar|Raupe|Chenille|Oruga|Bruco|毛毛虫|イモムシ|Гусеница|يرقة|Lagarta|Gąsienica|Κάμπια|Гъсеница|애벌레|इल्ली|Rups|Гусениця|Omidă|Larv|Larve|Larve|Toukka|Housenka|Hernyó|Ulat beluncas|Higad|শুঁয়োপোকা|سنڈی|Ulat bulu|Sâu bướm|کرم ابریشم|Kiwavi|सुरवंट|గొంగళి పురుగు|கம்பளிப்பூச்சி|ਸੁੰਡੀ|หนอนผีเสื้อ',
     [
       '..K..K....',
       '...KK.....',
@@ -47,7 +47,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Yusufçuk|Dragonfly|Libelle|Libellule|Libélula|Libellula|蜻蜓|トンボ|Стрекоза|يعسوب|Libélula|Ważka|Λιβελούλα|Водно конче|잠자리|व्याध पतंग',
+    'Yusufçuk|Dragonfly|Libelle|Libellule|Libélula|Libellula|蜻蜓|トンボ|Стрекоза|يعسوب|Libélula|Ważka|Λιβελούλα|Водно конче|잠자리|व्याध पतंग|Libel|Бабка|Libelulă|Trollslända|Øyenstikker|Guldsmed|Sudenkorento|Vážka|Szitakötő|Pepatung|Tutubi|ফড়িং|بھنبھیری|Capung|Chuồn chuồn|سنجاقک|Kereng’ende|चतुर|తూనీగ|தும்பி|ਭੰਬੀਰੀ|แมลงปอ',
     [
       '....BB....',
       '....BB....',
@@ -67,7 +67,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Çekirge|Grasshopper|Grashüpfer|Sauterelle|Saltamontes|Cavalletta|蚱蜢|バッタ|Кузнечик|جندب|Gafanhoto|Konik polny|Ακρίδα|Скакалец|메뚜기|टिड्डा',
+    'Çekirge|Grasshopper|Grashüpfer|Sauterelle|Saltamontes|Cavalletta|蚱蜢|バッタ|Кузнечик|جندب|Gafanhoto|Konik polny|Ακρίδα|Скакалец|메뚜기|टिड्डा|Sprinkhaan|Коник|Lăcustă|Gräshoppa|Gresshoppe|Græshoppe|Heinäsirkka|Kobylka|Szöcske|Belalang|Tipaklong|ঘাসফড়িং|ٹڈا|Belalang|Châu chấu|ملخ|Panzi|नाकतोडा|మిడత|வெட்டுக்கிளி|ਟਿੱਡਾ|ตั๊กแตน',
     [
       '.K........',
       '..K....G..',
@@ -82,7 +82,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Güve|Moth|Motte|Papillon de nuit|Polilla|Falena|飞蛾|ガ|Мотылёк|عثة|Mariposa|Ćma|Νυχτοπεταλούδα|Нощна пеперуда|나방|पतंगा',
+    'Güve|Moth|Motte|Papillon de nuit|Polilla|Falena|飞蛾|ガ|Мотылёк|عثة|Mariposa|Ćma|Νυχτοπεταλούδα|Нощна пеперуда|나방|पतंगा|Mot|Метелик-нічниця|Molie|Nattfjäril|Møll|Møl|Yöperhonen|Můra|Lepke|Kupu-kupu malam|Gamugamo|মথ|پتنگا|Ngengat|Bướm đêm|بید|Nondo|पतंग|చిమ్మట|அந்துப்பூச்சி|ਪਤੰਗਾ|ผีเสื้อกลางคืน',
     [
       '..K....K..',
       '...K..K...',
@@ -101,7 +101,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Gül|Rose|Rose|Rose|Rosa|Rosa|玫瑰|バラ|Роза|وردة|Rosa|Róża|Τριαντάφυλλο|Роза|장미|गुलाब',
+    'Gül|Rose|Rose|Rose|Rosa|Rosa|玫瑰|バラ|Роза|وردة|Rosa|Róża|Τριαντάφυλλο|Роза|장미|गुलाब|Roos|Троянда|Trandafir|Ros|Rose|Rose|Ruusu|Růže|Rózsa|Bunga mawar|Rosas|গোলাপ|گلاب|Mawar|Hoa hồng|گل سرخ|Waridi|गुलाब|గులాబీ|ரோஜா|ਗੁਲਾਬ|กุหลาบ',
     [
       '...RRRR...',
       '..RR..RR..',
@@ -122,7 +122,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Lale|Tulip|Tulpe|Tulipe|Tulipán|Tulipano|郁金香|チューリップ|Тюльпан|توليب|Tulipa|Tulipan|Τουλίπα|Лале|튤립|ट्यूलिप',
+    'Lale|Tulip|Tulpe|Tulipe|Tulipán|Tulipano|郁金香|チューリップ|Тюльпан|توليب|Tulipa|Tulipan|Τουλίπα|Лале|튤립|ट्यूलिप|Tulp|Тюльпан|Lalea|Tulpan|Tulipan|Tulipan|Tulppaani|Tulipán|Tulipán|Tulip|Tulip|টিউলিপ|گلِ لالہ|Tulip|Hoa tulip|لاله|Tulipu|ट्युलिप|ట్యూలిప్|துலிப்|ਟਿਊਲਿਪ|ทิวลิป',
     [
       '.R..RR..R.',
       '.RR.RR.RR.',
@@ -142,7 +142,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Papatya|Daisy|Gänseblümchen|Marguerite|Margarita|Margherita|雏菊|デイジー|Ромашка|أقحوان|Margarida|Stokrotka|Μαργαρίτα|Маргаритка|데이지|डेज़ी',
+    'Papatya|Daisy|Gänseblümchen|Marguerite|Margarita|Margherita|雏菊|デイジー|Ромашка|أقحوان|Margarida|Stokrotka|Μαργαρίτα|Маргаритка|데이지|डेज़ी|Madeliefje|Ромашка|Margaretă|Prästkrage|Prestekrage|Marguerit|Päivänkakkara|Kopretina|Százszorszép|Bunga daisy|Daisy|ডেইজি|گل بابونہ|Bunga aster|Hoa cúc|گل مینا|Ua daisi|शेवंती|చామంతి|டெய்சி மலர்|ਗੁਲਬਹਾਰ|ดอกเดซี่',
     [
       '...W..W...',
       '.W..WW..W.',
@@ -163,7 +163,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Sulama kabı|Watering can|Gießkanne|Arrosoir|Regadera|Annaffiatoio|洒水壶|じょうろ|Лейка|مرشة ماء|Regador|Konewka|Ποτιστήρι|Лейка|물뿌리개|झारी',
+    'Sulama kabı|Watering can|Gießkanne|Arrosoir|Regadera|Annaffiatoio|洒水壶|じょうろ|Лейка|مرشة ماء|Regador|Konewka|Ποτιστήρι|Лейка|물뿌리개|झारी|Gieter|Лійка|Stropitoare|Vattenkanna|Vannkanne|Vandkande|Kastelukannu|Konev|Locsolókanna|Bekas penyiram|Regadera|ঝাঁঝরি|پانی دینے والا برتن|Penyiram tanaman|Bình tưới|آب‌پاش|Chombo cha kumwagilia|झारी|నీటి డబ్బా|பூவாளி|ਫੁਹਾਰਾ ਡੱਬਾ|บัวรดน้ำ',
     [
       '..BBB.....',
       '.B...B....',
@@ -179,7 +179,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Bahçe cücesi|Garden gnome|Gartenzwerg|Nain de jardin|Gnomo de jardín|Nano da giardino|花园矮人|庭の小人|Садовый гном|قزم الحديقة|Gnomo de jardim|Krasnal ogrodowy|Νάνος κήπου|Градинско джудже|정원 난쟁이|बगीचे का बौना',
+    'Bahçe cücesi|Garden gnome|Gartenzwerg|Nain de jardin|Gnomo de jardín|Nano da giardino|花园矮人|庭の小人|Садовый гном|قزم الحديقة|Gnomo de jardim|Krasnal ogrodowy|Νάνος κήπου|Градинско джудже|정원 난쟁이|बगीचे का बौना|Tuinkabouter|Садовий гном|Pitic de grădină|Trädgårdstomte|Hagenisse|Havenisse|Puutarhatonttu|Zahradní trpaslík|Kerti törpe|Patung orang kerdil|Duwende sa hardin|বাগানের বামন|باغ کا بونا|Patung kurcaci|Chú lùn vườn|کوتوله باغ|Kibete wa bustani|बागेतील बुटका|తోట మరుగుజ్జు|தோட்டக் குள்ளன்|ਬਾਗ਼ ਦਾ ਬੌਣਾ|ตุ๊กตาคนแคระ',
     [
       '....R.....',
       '....RR....',
@@ -200,7 +200,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Kuş evi|Birdhouse|Vogelhaus|Nichoir|Casita para pájaros|Casetta per uccelli|鸟屋|巣箱|Скворечник|بيت الطيور|Casinha de pássaro|Budka lęgowa|Φωλιά πουλιών|Къщичка за птици|새집|पक्षी घर',
+    'Kuş evi|Birdhouse|Vogelhaus|Nichoir|Casita para pájaros|Casetta per uccelli|鸟屋|巣箱|Скворечник|بيت الطيور|Casinha de pássaro|Budka lęgowa|Φωλιά πουλιών|Къщичка за птици|새집|पक्षी घर|Vogelhuisje|Шпаківня|Căsuță pentru păsări|Fågelholk|Fuglekasse|Fuglehus|Linnunpönttö|Ptačí budka|Madárodú|Rumah burung|Bahay-ibon|পাখির বাসা|پرندوں کا گھر|Rumah burung|Nhà chim|لانه پرنده|Kibanda cha ndege|पक्ष्यांचे घर|పక్షి గూడు|பறவைக் கூடு|ਆਲ੍ਹਣਾ|บ้านนก',
     [
       '....RR....',
       '...RRRR...',
@@ -221,7 +221,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Köstebek|Mole|Maulwurf|Taupe|Topo|Talpa|鼹鼠|モグラ|Крот|خلد|Toupeira|Kret|Τυφλοπόντικας|Къртица|두더지|छछूंदर',
+    'Köstebek|Mole|Maulwurf|Taupe|Topo|Talpa|鼹鼠|モグラ|Крот|خلد|Toupeira|Kret|Τυφλοπόντικας|Къртица|두더지|छछूंदर|Mol|Кріт|Cârtiță|Mullvad|Muldvarp|Muldvarp|Myyrä|Krtek|Vakond|Tikus mondok|Nunal|ছুঁচো|چھچھوندر|Tikus tanah|Chuột chũi|موش کور|Fuko|चिचुंद्री|చుంచు ఎలుక|மூஞ்சூறு|ਛਛੂੰਦਰ|ตุ่น',
     [
       '...KKKK...',
       '..KKKKKK..',
@@ -237,7 +237,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Solucan|Earthworm|Regenwurm|Ver de terre|Lombriz|Lombrico|蚯蚓|ミミズ|Дождевой червь|دودة الأرض|Minhoca|Dżdżownica|Γαιοσκώληκας|Земен червей|지렁이|केंचुआ',
+    'Solucan|Earthworm|Regenwurm|Ver de terre|Lombriz|Lombrico|蚯蚓|ミミズ|Дождевой червь|دودة الأرض|Minhoca|Dżdżownica|Γαιοσκώληκας|Земен червей|지렁이|केंचुआ|Regenworm|Дощовий черв’як|Râmă|Daggmask|Meitemark|Regnorm|Kastemato|Žížala|Giliszta|Cacing tanah|Bulate|কেঁচো|کیچوا|Cacing tanah|Giun đất|کرم خاکی|Nyungunyungu|गांडूळ|వానపాము|மண்புழு|ਗੰਡੋਆ|ไส้เดือน',
     [
       '...PP.....',
       '..P.PP....',
@@ -258,7 +258,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Kürek|Shovel|Schaufel|Pelle|Pala|Pala|铲子|シャベル|Лопата|مجرفة|Pá|Łopata|Φτυάρι|Лопата|삽|फावड़ा',
+    'Kürek|Shovel|Schaufel|Pelle|Pala|Pala|铲子|シャベル|Лопата|مجرفة|Pá|Łopata|Φτυάρι|Лопата|삽|फावड़ा|Schop|Лопата|Lopată|Spade|Spade|Skovl|Lapio|Lopata|Ásó|Penyodok|Pala|বেলচা|بیلچہ|Sekop|Cái xẻng|بیل|Sepetu|फावडे|పార|மண்வெட்டி|ਬੇਲਚਾ|พลั่ว',
     [
       '.......HHH',
       '.......H.H',
@@ -278,7 +278,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Saksı|Flower pot|Blumentopf|Pot de fleurs|Maceta|Vaso di fiori|花盆|植木鉢|Цветочный горшок|أصيص زهور|Vaso de flores|Doniczka|Γλάστρα|Саксия|화분|गमला',
+    'Saksı|Flower pot|Blumentopf|Pot de fleurs|Maceta|Vaso di fiori|花盆|植木鉢|Цветочный горшок|أصيص زهور|Vaso de flores|Doniczka|Γλάστρα|Саксия|화분|गमला|Bloempot|Вазон|Ghiveci|Blomkruka|Blomsterpotte|Urtepotte|Kukkaruukku|Květináč|Virágcserép|Pasu bunga|Paso|ফুলের টব|گملا|Pot bunga|Chậu hoa|گلدان|Chungu cha maua|फुलांची कुंडी|పూల కుండీ|பூந்தொட்டி|ਗਮਲਾ|กระถางดอกไม้',
     [
       '.P.....Y..',
       'PYP...YRY.',
@@ -298,7 +298,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Salıncak|Swing|Schaukel|Balançoire|Columpio|Altalena|秋千|ブランコ|Качели|أرجوحة|Balanço|Huśtawka|Κούνια|Люлка|그네|झूला',
+    'Salıncak|Swing|Schaukel|Balançoire|Columpio|Altalena|秋千|ブランコ|Качели|أرجوحة|Balanço|Huśtawka|Κούνια|Люлка|그네|झूला|Schommel|Гойдалка|Leagăn|Gunga|Huske|Gynge|Keinu|Houpačka|Hinta|Buaian|Duyan|দোলনা|جھولا|Ayunan|Xích đu|تاب|Bembea|झोका|ఊయల|ஊஞ்சல்|ਝੂਲਾ|ชิงช้า',
     [
       'GGTTTTTTTG',
       '.E...E....',
@@ -319,7 +319,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Kızılgerdan|Robin|Rotkehlchen|Rouge-gorge|Petirrojo|Pettirosso|知更鸟|コマドリ|Малиновка|أبو الحناء|Pisco-de-peito-ruivo|Rudzik|Κοκκινολαίμης|Червеногръдка|울새|रॉबिन',
+    'Kızılgerdan|Robin|Rotkehlchen|Rouge-gorge|Petirrojo|Pettirosso|知更鸟|コマドリ|Малиновка|أبو الحناء|Pisco-de-peito-ruivo|Rudzik|Κοκκινολαίμης|Червеногръдка|울새|रॉबिन|Roodborst|Вільшанка|Măcăleandru|Rödhake|Rødstrupe|Rødhals|Punarinta|Červenka|Vörösbegy|Burung robin|Robin|রবিন পাখি|رابن|Burung robin|Chim cổ đỏ|سینه‌سرخ|Kurumbizi|रॉबिन|రాబిన్ పక్షి|ராபின் பறவை|ਰੌਬਿਨ|นกโรบิน',
     [
       '.....TTT..',
       '....TTTTT.',
@@ -338,7 +338,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Çeşme|Fountain|Brunnen|Fontaine|Fuente|Fontana|喷泉|噴水|Фонтан|نافورة|Fonte|Fontanna|Συντριβάνι|Фонтан|분수|फव्वारा',
+    'Çeşme|Fountain|Brunnen|Fontaine|Fuente|Fontana|喷泉|噴水|Фонтан|نافورة|Fonte|Fontanna|Συντριβάνι|Фонтан|분수|फव्वारा|Fontein|Фонтан|Fântână arteziană|Fontän|Fontene|Springvand|Suihkulähde|Fontána|Szökőkút|Air pancut|Fuwente|ঝরনা|فوارہ|Air mancur|Đài phun nước|فواره|Chemchemi|कारंजे|ఫౌంటెన్|நீரூற்று|ਫੁਹਾਰਾ|น้ำพุ',
     [
       '....CC....',
       '..C.CC.C..',
@@ -358,7 +358,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'Arı kovanı|Beehive|Bienenstock|Ruche|Colmena|Alveare|蜂巢|ミツバチの巣|Улей|خلية نحل|Colmeia|Ul|Κυψέλη|Кошер|벌집|मधुमक्खी का छत्ता',
+    'Arı kovanı|Beehive|Bienenstock|Ruche|Colmena|Alveare|蜂巢|ミツバチの巣|Улей|خلية نحل|Colmeia|Ul|Κυψέλη|Кошер|벌집|मधुमक्खी का छत्ता|Bijenkorf|Вулик|Stup|Bikupa|Bikube|Bistade|Mehiläispesä|Úl|Méhkas|Sarang lebah|Bahay-pukyutan|মৌচাক|شہد کا چھتہ|Sarang lebah|Tổ ong|کندوی عسل|Mzinga wa nyuki|मधमाश्यांचे पोळे|తేనెపట్టు|தேன்கூடு|ਮਖਿਆਲ|รังผึ้ง',
     [
       'YK......YK',
       '....YK....',
@@ -377,7 +377,7 @@ final gardenArt = <LevelArt>[
   ),
   art(
     21,
-    'El arabası|Wheelbarrow|Schubkarre|Brouette|Carretilla|Carriola|手推车|手押し車|Тачка|عربة يدوية|Carrinho de mão|Taczka|Καρότσι|Ръчна количка|외바퀴 손수레|ठेला',
+    'El arabası|Wheelbarrow|Schubkarre|Brouette|Carretilla|Carriola|手推车|手押し車|Тачка|عربة يدوية|Carrinho de mão|Taczka|Καρότσι|Ръчна количка|외바퀴 손수레|ठेला|Kruiwagen|Тачка|Roabă|Skottkärra|Trillebår|Trillebør|Kottikärryt|Kolečko|Talicska|Kereta sorong|Kartilya|ঠেলাগাড়ি|ہتھ گاڑی|Gerobak dorong|Xe cút kít|فرغون|Toroli|ढकलगाडी|తోపుడు బండి|தள்ளுவண்டி|ਹੱਥ ਰੇੜ੍ਹੀ|รถเข็นดิน',
     [
       'TT........',
       '..T.......',

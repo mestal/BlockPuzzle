@@ -1,6 +1,6 @@
 {
   "id": 47,
-  "name": {"de": "Lagerfeuer", "en": "Campfire", "es": "Fogata", "fr": "Feu de camp", "it": "Falò", "pl": "Ognisko", "pt": "Fogueira", "tr": "Kamp ateşi", "el": "Φωτιά κατασκήνωσης", "bg": "Лагерен огън", "ru": "Костёр", "ar": "نار المخيم", "hi": "अलाव", "zh": "篝火", "ja": "たき火", "ko": "모닥불"},
+  "name": {"id": "Api unggun", "ms": "Unggun api", "da": "Lejrbål", "de": "Lagerfeuer", "en": "Campfire", "es": "Fogata", "fil": "Siga", "fr": "Feu de camp", "it": "Falò", "sw": "Moto wa kambi", "hu": "Tábortűz", "nl": "Kampvuur", "nb": "Leirbål", "pl": "Ognisko", "pt": "Fogueira", "ro": "Foc de tabără", "fi": "Nuotio", "sv": "Lägereld", "vi": "Lửa trại", "tr": "Kamp ateşi", "cs": "Táborák", "el": "Φωτιά κατασκήνωσης", "bg": "Лагерен огън", "ru": "Костёр", "uk": "Багаття", "ur": "الاؤ", "ar": "نار المخيم", "fa": "آتش اردو", "mr": "शेकोटी", "hi": "अलाव", "bn": "ক্যাম্পফায়ার", "pa": "ਧੂਣੀ", "ta": "முகாம் தீ", "te": "చలిమంట", "th": "กองไฟ", "zh": "篝火", "ja": "たき火", "ko": "모닥불"},
   "solution": ["..........", "....#.....", "....##....", "...####...", "...####...", "..######..", "..######..", ".##.##.##.", "..######..", ".........."],
   "colors":   ["..........", "....R.....", "....RO....", "...ROOR...", "...OYYO...", "..ROYYOR..", "..ROOOOR..", ".TT.TT.TT.", "..TTTTTT..", ".........."],
   "palette":  { "O": "#F97316", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

@@ -7,7 +7,7 @@ import '../level_art.dart';
 final wondersArt = <LevelArt>[
   art(
     25,
-    'Eyfel Kulesi|Eiffel Tower|Eiffelturm|Tour Eiffel|Torre Eiffel|Torre Eiffel|埃菲尔铁塔|エッフェル塔|Эйфелева башня|برج إيفل|Torre Eiffel|Wieża Eiffla|Πύργος του Άιφελ|Айфелова кула|에펠탑|एफ़िल टॉवर',
+    'Eyfel Kulesi|Eiffel Tower|Eiffelturm|Tour Eiffel|Torre Eiffel|Torre Eiffel|埃菲尔铁塔|エッフェル塔|Эйфелева башня|برج إيفل|Torre Eiffel|Wieża Eiffla|Πύργος του Άιφελ|Айфелова кула|에펠탑|एफ़िल टॉवर|Eiffeltoren|Ейфелева вежа|Turnul Eiffel|Eiffeltornet|Eiffeltårnet|Eiffeltårnet|Eiffel-torni|Eiffelova věž|Eiffel-torony|Menara Eiffel|Tore Eiffel|আইফেল টাওয়ার|ایفل ٹاور|Menara Eiffel|Tháp Eiffel|برج ایفل|Mnara wa Eiffel|आयफेल टॉवर|ఐఫిల్ టవర్|ஈபிள் கோபுரம்|ਆਈਫ਼ਲ ਟਾਵਰ|หอไอเฟล',
     [
       '....K.....',
       '....T.....',
@@ -27,7 +27,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Özgürlük Heykeli|Statue of Liberty|Freiheitsstatue|Statue de la Liberté|Estatua de la Libertad|Statua della Libertà|自由女神像|自由の女神|Статуя Свободы|تمثال الحرية|Estátua da Liberdade|Statua Wolności|Άγαλμα της Ελευθερίας|Статуята на свободата|자유의 여신상|स्टैच्यू ऑफ़ लिबर्टी',
+    'Özgürlük Heykeli|Statue of Liberty|Freiheitsstatue|Statue de la Liberté|Estatua de la Libertad|Statua della Libertà|自由女神像|自由の女神|Статуя Свободы|تمثال الحرية|Estátua da Liberdade|Statua Wolności|Άγαλμα της Ελευθερίας|Статуята на свободата|자유의 여신상|स्टैच्यू ऑफ़ लिबर्टी|Vrijheidsbeeld|Статуя Свободи|Statuia Libertății|Frihetsgudinnan|Frihetsgudinnen|Frihedsgudinden|Vapaudenpatsas|Socha Svobody|Szabadság-szobor|Patung Liberty|Estatwa ng Kalayaan|স্ট্যাচু অব লিবার্টি|مجسمۂ آزادی|Patung Liberty|Tượng Nữ thần Tự do|مجسمه آزادی|Sanamu ya Uhuru|स्वातंत्र्यदेवतेचा पुतळा|స్వేచ్ఛా ప్రతిమ|சுதந்திர தேவி சிலை|ਆਜ਼ਾਦੀ ਦਾ ਬੁੱਤ|เทพีเสรีภาพ',
     [
       '.......Y..',
       '......YYY.',
@@ -48,7 +48,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Big Ben|Big Ben|Big Ben|Big Ben|Big Ben|Big Ben|大本钟|ビッグ・ベン|Биг-Бен|بيغ بن|Big Ben|Big Ben|Μπιγκ Μπεν|Биг Бен|빅벤|बिग बेन',
+    'Big Ben|Big Ben|Big Ben|Big Ben|Big Ben|Big Ben|大本钟|ビッグ・ベン|Биг-Бен|بيغ بن|Big Ben|Big Ben|Μπιγκ Μπεν|Биг Бен|빅벤|बिग बेन|Big Ben|Біг-Бен|Big Ben|Big Ben|Big Ben|Big Ben|Big Ben|Big Ben|Big Ben|Big Ben|Big Ben|বিগ বেন|بگ بین|Big Ben|Tháp Big Ben|بیگ بن|Big Ben|बिग बेन|బిగ్ బెన్|பிக் பென்|ਬਿੱਗ ਬੈਨ|บิ๊กเบน',
     [
       '....K.....',
       '...EEE....',
@@ -69,7 +69,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Tac Mahal|Taj Mahal|Taj Mahal|Taj Mahal|Taj Mahal|Taj Mahal|泰姬陵|タージ・マハル|Тадж-Махал|تاج محل|Taj Mahal|Tadż Mahal|Ταζ Μαχάλ|Тадж Махал|타지마할|ताज महल',
+    'Tac Mahal|Taj Mahal|Taj Mahal|Taj Mahal|Taj Mahal|Taj Mahal|泰姬陵|タージ・マハル|Тадж-Махал|تاج محل|Taj Mahal|Tadż Mahal|Ταζ Μαχάλ|Тадж Махал|타지마할|ताज महल|Taj Mahal|Тадж-Махал|Taj Mahal|Taj Mahal|Taj Mahal|Taj Mahal|Taj Mahal|Tádž Mahal|Tádzs Mahal|Taj Mahal|Taj Mahal|তাজমহল|تاج محل|Taj Mahal|Đền Taj Mahal|تاج محل|Taj Mahal|ताजमहाल|తాజ్ మహల్|தாஜ் மஹால்|ਤਾਜ ਮਹਿਲ|ทัชมาฮาล',
     [
       '....Y.....',
       '...WWW....',
@@ -84,7 +84,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Pisa Kulesi|Leaning Tower of Pisa|Schiefer Turm von Pisa|Tour de Pise|Torre de Pisa|Torre di Pisa|比萨斜塔|ピサの斜塔|Пизанская башня|برج بيزا المائل|Torre de Pisa|Krzywa Wieża w Pizie|Πύργος της Πίζας|Наклонената кула в Пиза|피사의 사탑|पीसा की झुकी मीनार',
+    'Pisa Kulesi|Leaning Tower of Pisa|Schiefer Turm von Pisa|Tour de Pise|Torre de Pisa|Torre di Pisa|比萨斜塔|ピサの斜塔|Пизанская башня|برج بيزا المائل|Torre de Pisa|Krzywa Wieża w Pizie|Πύργος της Πίζας|Наклонената кула в Пиза|피사의 사탑|पीसा की झुकी मीनार|Scheve Toren van Pisa|Пізанська вежа|Turnul înclinat din Pisa|Lutande tornet i Pisa|Det skjeve tårnet i Pisa|Det skæve tårn i Pisa|Pisan kalteva torni|Šikmá věž v Pise|Pisai ferde torony|Menara Condong Pisa|Kiling na Tore ng Pisa|পিসার হেলানো মিনার|پیسا کا جھکا ہوا مینار|Menara Miring Pisa|Tháp nghiêng Pisa|برج کج پیزا|Mnara Uliopinda wa Pisa|पिसाचा झुकता मनोरा|పీసా వాలు గోపురం|பைசா சாய்ந்த கோபுரம்|ਪੀਸਾ ਦਾ ਝੁਕਿਆ ਮੀਨਾਰ|หอเอนเมืองปิซา',
     [
       '.....EEEE.',
       '.....E..E.',
@@ -105,7 +105,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Çin Seddi|Great Wall|Chinesische Mauer|Grande Muraille|Gran Muralla|Grande Muraglia|长城|万里の長城|Великая стена|سور الصين العظيم|Grande Muralha|Wielki Mur|Σινικό Τείχος|Великата китайска стена|만리장성|चीन की महान दीवार',
+    'Çin Seddi|Great Wall|Chinesische Mauer|Grande Muraille|Gran Muralla|Grande Muraglia|长城|万里の長城|Великая стена|سور الصين العظيم|Grande Muralha|Wielki Mur|Σινικό Τείχος|Великата китайска стена|만리장성|चीन की महान दीवार|Chinese Muur|Великий китайський мур|Marele Zid|Kinesiska muren|Den kinesiske mur|Den Kinesiske Mur|Kiinan muuri|Velká čínská zeď|Kínai nagy fal|Tembok Besar|Great Wall|চীনের প্রাচীর|دیوارِ چین|Tembok Besar Tiongkok|Vạn Lý Trường Thành|دیوار چین|Ukuta Mkuu wa China|चीनची भिंत|చైనా మహా కుడ్యం|சீனப் பெருஞ்சுவர்|ਚੀਨ ਦੀ ਮਹਾਨ ਕੰਧ|กำแพงเมืองจีน',
     [
       '........E.',
       '.......E.E',
@@ -125,7 +125,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Galata Kulesi|Galata Tower|Galataturm|Tour de Galata|Torre de Gálata|Torre di Galata|加拉塔塔|ガラタ塔|Галатская башня|برج غلطة|Torre de Gálata|Wieża Galata|Πύργος του Γαλατά|Кула Галата|갈라타 탑|गलाटा टॉवर',
+    'Galata Kulesi|Galata Tower|Galataturm|Tour de Galata|Torre de Gálata|Torre di Galata|加拉塔塔|ガラタ塔|Галатская башня|برج غلطة|Torre de Gálata|Wieża Galata|Πύργος του Γαλατά|Кула Галата|갈라타 탑|गलाटा टॉवर|Galatatoren|Вежа Галата|Turnul Galata|Galatatornet|Galatatårnet|Galatatårnet|Galatan torni|Galatská věž|Galata-torony|Menara Galata|Tore ng Galata|গালাতা টাওয়ার|گلاتا ٹاور|Menara Galata|Tháp Galata|برج گالاتا|Mnara wa Galata|गलाटा टॉवर|గలాటా టవర్|கலாட்டா கோபுரம்|ਗਲਾਟਾ ਟਾਵਰ|หอคอยกาลาตา',
     [
       '....KK....',
       '...N..N...',
@@ -145,7 +145,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Ayasofya|Hagia Sophia|Hagia Sophia|Sainte-Sophie|Santa Sofía|Santa Sofia|圣索菲亚大教堂|アヤソフィア|Собор Святой Софии|آيا صوفيا|Santa Sofia|Hagia Sophia|Αγία Σοφία|Света София|아야 소피아|हागिया सोफ़िया',
+    'Ayasofya|Hagia Sophia|Hagia Sophia|Sainte-Sophie|Santa Sofía|Santa Sofia|圣索菲亚大教堂|アヤソフィア|Собор Святой Софии|آيا صوفيا|Santa Sofia|Hagia Sophia|Αγία Σοφία|Света София|아야 소피아|हागिया सोफ़िया|Hagia Sophia|Свята Софія|Hagia Sofia|Hagia Sofia|Hagia Sofia|Hagia Sofia|Hagia Sofia|Hagia Sofia|Hagia Szophia|Hagia Sophia|Hagia Sophia|আয়া সোফিয়া|آیا صوفیہ|Hagia Sophia|Hagia Sophia|ایاصوفیه|Hagia Sophia|हागिया सोफिया|హాగియా సోఫియా|ஹாகியா சோபியா|ਹਾਗੀਆ ਸੋਫ਼ੀਆ|ฮาเจียโซเฟีย',
     [
       'K.........',
       'E....AA..K',
@@ -162,7 +162,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Sidney Opera Binası|Sydney Opera House|Opernhaus Sydney|Opéra de Sydney|Ópera de Sídney|Teatro dell\'Opera di Sydney|悉尼歌剧院|シドニー・オペラハウス|Сиднейский оперный театр|دار أوبرا سيدني|Ópera de Sydney|Opera w Sydney|Όπερα του Σίδνεϊ|Операта в Сидни|시드니 오페라 하우스|सिडनी ओपेरा हाउस',
+    'Sidney Opera Binası|Sydney Opera House|Opernhaus Sydney|Opéra de Sydney|Ópera de Sídney|Teatro dell\'Opera di Sydney|悉尼歌剧院|シドニー・オペラハウス|Сиднейский оперный театр|دار أوبرا سيدني|Ópera de Sydney|Opera w Sydney|Όπερα του Σίδνεϊ|Операта в Сидни|시드니 오페라 하우스|सिडनी ओपेरा हाउस|Sydney Opera House|Сіднейський оперний театр|Opera din Sydney|Sydneyoperan|Operahuset i Sydney|Operahuset i Sydney|Sydneyn oopperatalo|Opera v Sydney|Sydneyi Operaház|Rumah Opera Sydney|Sydney Opera House|সিডনি অপেরা হাউস|سڈنی اوپیرا ہاؤس|Gedung Opera Sydney|Nhà hát Opera Sydney|خانه اپرای سیدنی|Jumba la Opera la Sydney|सिडनी ऑपेरा हाउस|సిడ్నీ ఒపేరా హౌస్|சிட்னி ஓப்பரா மாளிகை|ਸਿਡਨੀ ਓਪੇਰਾ ਹਾਊਸ|โรงอุปรากรซิดนีย์',
     [
       '..W.......',
       '..WW......',
@@ -178,7 +178,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Fuji Dağı|Mount Fuji|Fuji|Mont Fuji|Monte Fuji|Monte Fuji|富士山|富士山|Фудзияма|جبل فوجي|Monte Fuji|Fudżi|Όρος Φούτζι|Фуджи|후지산|फ़ूजी पर्वत',
+    'Fuji Dağı|Mount Fuji|Fuji|Mont Fuji|Monte Fuji|Monte Fuji|富士山|富士山|Фудзияма|جبل فوجي|Monte Fuji|Fudżi|Όρος Φούτζι|Фуджи|후지산|फ़ूजी पर्वत|Fuji|Гора Фудзі|Muntele Fuji|Fuji|Fuji|Fuji|Fuji-vuori|Fudži|Fudzsi|Gunung Fuji|Bundok Fuji|ফুজি পর্বত|کوہ فوجی|Gunung Fuji|Núi Phú Sĩ|کوه فوجی|Mlima Fuji|फुजी पर्वत|ఫుజి పర్వతం|ஃபுஜி மலை|ਫ਼ੂਜੀ ਪਹਾੜ|ภูเขาไฟฟูจิ',
     [
       'WW......YY',
       '.WWW....YY',
@@ -193,7 +193,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Golden Gate Köprüsü|Golden Gate Bridge|Golden Gate Bridge|Pont du Golden Gate|Puente Golden Gate|Golden Gate Bridge|金门大桥|ゴールデン・ゲート・ブリッジ|Мост Золотые Ворота|جسر البوابة الذهبية|Ponte Golden Gate|Most Golden Gate|Γέφυρα Γκόλντεν Γκέιτ|Голдън Гейт|금문교|गोल्डन गेट ब्रिज',
+    'Golden Gate Köprüsü|Golden Gate Bridge|Golden Gate Bridge|Pont du Golden Gate|Puente Golden Gate|Golden Gate Bridge|金门大桥|ゴールデン・ゲート・ブリッジ|Мост Золотые Ворота|جسر البوابة الذهبية|Ponte Golden Gate|Most Golden Gate|Γέφυρα Γκόλντεν Γκέιτ|Голдън Гейт|금문교|गोल्डन गेट ब्रिज|Golden Gate Bridge|Міст Золоті Ворота|Podul Golden Gate|Golden Gate-bron|Golden Gate-broen|Golden Gate-broen|Golden Gate -silta|Most Golden Gate|Golden Gate híd|Jambatan Golden Gate|Tulay ng Golden Gate|গোল্ডেন গেট সেতু|گولڈن گیٹ پل|Jembatan Golden Gate|Cầu Cổng Vàng|پل گلدن گیت|Daraja la Golden Gate|गोल्डन गेट पूल|గోల్డెన్ గేట్ వంతెన|கோல்டன் கேட் பாலம்|ਗੋਲਡਨ ਗੇਟ ਪੁਲ|สะพานโกลเดนเกต',
     [
       '..R....R..',
       '..R....R..',
@@ -210,7 +210,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Tower Köprüsü|Tower Bridge|Tower Bridge|Tower Bridge|Puente de la Torre|Tower Bridge|伦敦塔桥|タワーブリッジ|Тауэрский мост|جسر البرج|Tower Bridge|Tower Bridge|Γέφυρα του Πύργου|Тауър Бридж|타워 브리지|टॉवर ब्रिज',
+    'Tower Köprüsü|Tower Bridge|Tower Bridge|Tower Bridge|Puente de la Torre|Tower Bridge|伦敦塔桥|タワーブリッジ|Тауэрский мост|جسر البرج|Tower Bridge|Tower Bridge|Γέφυρα του Πύργου|Тауър Бридж|타워 브리지|टॉवर ब्रिज|Tower Bridge|Тауерський міст|Tower Bridge|Tower Bridge|Tower Bridge|Tower Bridge|Tower Bridge|Tower Bridge|Tower híd|Jambatan Menara|Tower Bridge|টাওয়ার ব্রিজ|ٹاور برج|Tower Bridge|Cầu Tháp London|پل برج لندن|Daraja la Mnara|टॉवर ब्रिज|టవర్ బ్రిడ్జ్|டவர் பாலம்|ਟਾਵਰ ਬ੍ਰਿਜ|สะพานทาวเวอร์',
     [
       '.K.....K..',
       '.E.....E..',
@@ -228,7 +228,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Tokyo Kulesi|Tokyo Tower|Tokyo Tower|Tour de Tokyo|Torre de Tokio|Torre di Tokyo|东京塔|東京タワー|Токийская телебашня|برج طوكيو|Torre de Tóquio|Tokyo Tower|Πύργος του Τόκιο|Токийската кула|도쿄 타워|टोक्यो टॉवर',
+    'Tokyo Kulesi|Tokyo Tower|Tokyo Tower|Tour de Tokyo|Torre de Tokio|Torre di Tokyo|东京塔|東京タワー|Токийская телебашня|برج طوكيو|Torre de Tóquio|Tokyo Tower|Πύργος του Τόκιο|Токийската кула|도쿄 타워|टोक्यो टॉवर|Tokyo Tower|Токійська вежа|Turnul Tokyo|Tokyo Tower|Tokyo Tower|Tokyo Tower|Tokion torni|Tokijská věž|Tokiói torony|Menara Tokyo|Tokyo Tower|টোকিও টাওয়ার|ٹوکیو ٹاور|Menara Tokyo|Tháp Tokyo|برج توکیو|Mnara wa Tokyo|टोकियो टॉवर|టోక్యో టవర్|டோக்கியோ கோபுரம்|ਟੋਕੀਓ ਟਾਵਰ|โตเกียวทาวเวอร์',
     [
       '....R.....',
       '....R.....',
@@ -248,7 +248,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Aziz Vasil Katedrali|St Basil\'s Cathedral|Basilius-Kathedrale|Cathédrale Saint-Basile|Catedral de San Basilio|Cattedrale di San Basilio|圣瓦西里大教堂|聖ワシリイ大聖堂|Храм Василия Блаженного|كاتدرائية القديس باسيل|Catedral de São Basílio|Sobór Wasyla Błogosławionego|Καθεδρικός του Αγίου Βασιλείου|Катедралата Свети Василий|성 바실리 대성당|सेंट बेसिल कैथेड्रल',
+    'Aziz Vasil Katedrali|St Basil\'s Cathedral|Basilius-Kathedrale|Cathédrale Saint-Basile|Catedral de San Basilio|Cattedrale di San Basilio|圣瓦西里大教堂|聖ワシリイ大聖堂|Храм Василия Блаженного|كاتدرائية القديس باسيل|Catedral de São Basílio|Sobór Wasyla Błogosławionego|Καθεδρικός του Αγίου Βασιλείου|Катедралата Свети Василий|성 바실리 대성당|सेंट बेसिल कैथेड्रल|Basiliuskathedraal|Собор Василія Блаженного|Catedrala Sfântul Vasile|Vasilijkatedralen|Vasilijkatedralen|Vasilijkatedralen|Pyhän Vasilin katedraali|Chrám Vasila Blaženého|Szent Vazul-székesegyház|Katedral St. Basil|Katedral ni San Basilio|সেন্ট বেসিল ক্যাথিড্রাল|سینٹ باسل کیتھیڈرل|Katedral Santo Basil|Nhà thờ Thánh Basil|کلیسای جامع سنت باسیل|Kanisa Kuu la Mt. Basili|सेंट बेसिल कॅथेड्रल|సెయింట్ బాసిల్ కేథడ్రల్|புனித பசில் பேராலயம்|ਸੇਂਟ ਬੇਸਿਲ ਗਿਰਜਾਘਰ|มหาวิหารเซนต์บาซิล',
     [
       '....Y.....',
       '...R.R....',
@@ -266,7 +266,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Chichén Itzá|Chichen Itza|Chichén Itzá|Chichén Itzá|Chichén Itzá|Chichén Itzá|奇琴伊察|チチェン・イッツァ|Чичен-Ица|تشيتشن إيتزا|Chichén Itzá|Chichén Itzá|Τσιτσέν Ιτζά|Чичен Ица|치첸이트사|चिचेन इट्ज़ा',
+    'Chichén Itzá|Chichen Itza|Chichén Itzá|Chichén Itzá|Chichén Itzá|Chichén Itzá|奇琴伊察|チチェン・イッツァ|Чичен-Ица|تشيتشن إيتزا|Chichén Itzá|Chichén Itzá|Τσιτσέν Ιτζά|Чичен Ица|치첸이트사|चिचेन इट्ज़ा|Chichén Itzá|Чичен-Іца|Chichén Itzá|Chichén Itzá|Chichén Itzá|Chichén Itzá|Chichén Itzá|Chichén Itzá|Chichén Itzá|Chichen Itza|Chichen Itza|চিচেন ইৎজা|چیچن اتزا|Chichen Itza|Chichén Itzá|چیچن ایتزا|Chichen Itza|चिचेन इत्झा|చిచెన్ ఇట్జా|சிச்சென் இட்சா|ਚਿਚੇਨ ਇਤਜ਼ਾ|ชีเชนอิตซา',
     [
       '.YY.......',
       '.YY.......',
@@ -285,7 +285,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Stonehenge|Stonehenge|Stonehenge|Stonehenge|Stonehenge|Stonehenge|巨石阵|ストーンヘンジ|Стоунхендж|ستونهنج|Stonehenge|Stonehenge|Στόουνχεντζ|Стоунхендж|스톤헨지|स्टोनहेंज',
+    'Stonehenge|Stonehenge|Stonehenge|Stonehenge|Stonehenge|Stonehenge|巨石阵|ストーンヘンジ|Стоунхендж|ستونهنج|Stonehenge|Stonehenge|Στόουνχεντζ|Стоунхендж|스톤헨지|स्टोनहेंज|Stonehenge|Стоунгендж|Stonehenge|Stonehenge|Stonehenge|Stonehenge|Stonehenge|Stonehenge|Stonehenge|Stonehenge|Stonehenge|স্টোনহেঞ্জ|اسٹون ہینج|Stonehenge|Stonehenge|استون‌هنج|Stonehenge|स्टोनहेंज|స్టోన్‌హెంజ్|ஸ்டோன்ஹெஞ்ச்|ਸਟੋਨਹੈਂਜ|สโตนเฮนจ์',
     [
       '........Y.',
       '.......YYY',
@@ -299,7 +299,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Burç Halife|Burj Khalifa|Burj Khalifa|Burj Khalifa|Burj Khalifa|Burj Khalifa|哈利法塔|ブルジュ・ハリファ|Бурдж-Халифа|برج خليفة|Burj Khalifa|Burdż Chalifa|Μπουρτζ Χαλίφα|Бурдж Халифа|부르즈 할리파|बुर्ज ख़लीफ़ा',
+    'Burç Halife|Burj Khalifa|Burj Khalifa|Burj Khalifa|Burj Khalifa|Burj Khalifa|哈利法塔|ブルジュ・ハリファ|Бурдж-Халифа|برج خليفة|Burj Khalifa|Burdż Chalifa|Μπουρτζ Χαλίφα|Бурдж Халифа|부르즈 할리파|बुर्ज ख़लीफ़ा|Burj Khalifa|Бурдж-Халіфа|Burj Khalifa|Burj Khalifa|Burj Khalifa|Burj Khalifa|Burj Khalifa|Burdž Chalífa|Burdzs Kalifa|Burj Khalifa|Burj Khalifa|বুর্জ খলিফা|برج خلیفہ|Burj Khalifa|Tháp Burj Khalifa|برج خلیفه|Burj Khalifa|बुर्ज खलिफा|బుర్జ్ ఖలీఫా|புர்ஜ் கலீஃபா|ਬੁਰਜ ਖ਼ਲੀਫ਼ਾ|บุรจญ์เคาะลีฟะฮ์',
     [
       '....K.....',
       '....E.....',
@@ -320,7 +320,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Kız Kulesi|Maiden\'s Tower|Leanderturm|Tour de Léandre|Torre de la Doncella|Torre della Fanciulla|少女塔|乙女の塔|Девичья башня|برج الفتاة|Torre da Donzela|Wieża Panny|Πύργος της Κόρης|Девическата кула|처녀의 탑|मेडन्स टॉवर',
+    'Kız Kulesi|Maiden\'s Tower|Leanderturm|Tour de Léandre|Torre de la Doncella|Torre della Fanciulla|少女塔|乙女の塔|Девичья башня|برج الفتاة|Torre da Donzela|Wieża Panny|Πύργος της Κόρης|Девическата кула|처녀의 탑|मेडन्स टॉवर|Meisjestoren|Дівоча вежа|Turnul Fecioarei|Jungfrutornet|Jomfrutårnet|Jomfrutårnet|Neitsyttorni|Dívčí věž|Leánytorony|Menara Gadis|Tore ng Dalaga|মেইডেনস টাওয়ার|میڈنز ٹاور|Menara Gadis|Tháp Thiếu nữ|برج دختر|Mnara wa Msichana|मेडन्स टॉवर|మెయిడెన్స్ టవర్|கன்னி கோபுரம்|ਕੁਆਰੀ ਦਾ ਬੁਰਜ|หอคอยหญิงสาว',
     [
       '....K.....',
       '...NNN....',
@@ -337,7 +337,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Petronas Kuleleri|Petronas Towers|Petronas Towers|Tours Petronas|Torres Petronas|Torri Petronas|双子塔|ペトロナスツインタワー|Башни Петронас|برجا بتروناس|Torres Petronas|Petronas Towers|Πύργοι Petronas|Кулите Петронас|페트로나스 타워|पेट्रोनास टावर्स',
+    'Petronas Kuleleri|Petronas Towers|Petronas Towers|Tours Petronas|Torres Petronas|Torri Petronas|双子塔|ペトロナスツインタワー|Башни Петронас|برجا بتروناس|Torres Petronas|Petronas Towers|Πύργοι Petronas|Кулите Петронас|페트로나스 타워|पेट्रोनास टावर्स|Petronas Towers|Вежі Петронас|Turnurile Petronas|Petronastornen|Petronas-tårnene|Petronas-tårnene|Petronas-tornit|Petronas Towers|Petronas-tornyok|Menara Berkembar Petronas|Petronas Towers|পেট্রোনাস টাওয়ার|پیٹروناس ٹاورز|Menara Kembar Petronas|Tháp đôi Petronas|برج‌های پتروناس|Minara ya Petronas|पेट्रोनास टॉवर्स|పెట్రోనాస్ టవర్స్|பெட்ரோனாஸ் கோபுரங்கள்|ਪੈਟਰੋਨਾਸ ਟਾਵਰ|ตึกแฝดปิโตรนาส',
     [
       '..K....K..',
       '..E....E..',
@@ -355,7 +355,7 @@ final wondersArt = <LevelArt>[
   ),
   art(
     25,
-    'Sagrada Familia|Sagrada Família|Sagrada Família|Sagrada Família|Sagrada Familia|Sagrada Família|圣家堂|サグラダ・ファミリア|Саграда Фамилия|ساغرادا فاميليا|Sagrada Família|Sagrada Família|Σαγκράδα Φαμίλια|Саграда Фамилия|사그라다 파밀리아|सग्राडा फ़ैमिलिया',
+    'Sagrada Familia|Sagrada Família|Sagrada Família|Sagrada Família|Sagrada Familia|Sagrada Família|圣家堂|サグラダ・ファミリア|Саграда Фамилия|ساغرادا فاميليا|Sagrada Família|Sagrada Família|Σαγκράδα Φαμίλια|Саграда Фамилия|사그라다 파밀리아|सग्राडा फ़ैमिलिया|Sagrada Família|Саграда Фамілія|Sagrada Família|Sagrada Família|Sagrada Família|Sagrada Família|Sagrada Família|Sagrada Família|Sagrada Família|Sagrada Família|Sagrada Família|সাগ্রাদা ফামিলিয়া|ساگرادا فامیلیا|Sagrada Família|Nhà thờ Sagrada Família|ساگرادا فامیلیا|Sagrada Família|साग्रादा फामिलिया|సగ్రాడా ఫామిలియా|சாக்ரடா ஃபெமிலியா|ਸਾਗਰਾਦਾ ਫ਼ਾਮੀਲੀਆ|ซากราดาฟามีเลีย',
     [
       '.Y......Y.',
       '.E.Y..Y.E.',

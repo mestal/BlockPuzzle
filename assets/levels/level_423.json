@@ -1,6 +1,6 @@
 {
   "id": 423,
-  "name": {"de": "Eintrittskarte", "en": "Ticket", "es": "Boleto", "fr": "Ticket", "it": "Biglietto", "pl": "Bilet", "pt": "Ingresso", "tr": "Bilet", "el": "Εισιτήριο", "bg": "Билет", "ru": "Билет", "ar": "تذكرة", "hi": "टिकट", "zh": "门票", "ja": "チケット", "ko": "티켓"},
+  "name": {"id": "Tiket", "ms": "Tiket", "da": "Billet", "de": "Eintrittskarte", "en": "Ticket", "es": "Boleto", "fil": "Tiket", "fr": "Ticket", "it": "Biglietto", "sw": "Tiketi", "hu": "Jegy", "nl": "Kaartje", "nb": "Billett", "pl": "Bilet", "pt": "Ingresso", "ro": "Bilet", "fi": "Lippu", "sv": "Biljett", "vi": "Vé", "tr": "Bilet", "cs": "Vstupenka", "el": "Εισιτήριο", "bg": "Билет", "ru": "Билет", "uk": "Квиток", "ur": "ٹکٹ", "ar": "تذكرة", "fa": "بلیت", "mr": "तिकीट", "hi": "टिकट", "bn": "টিকিট", "pa": "ਟਿਕਟ", "ta": "சீட்டு", "te": "టికెట్", "th": "ตั๋ว", "zh": "门票", "ja": "チケット", "ko": "티켓"},
   "solution": ["#...#....#", "..........", ".########.", ".#.#....#.", "...#..#.#.", "...#.####.", ".#.#..#.#.", ".########.", "..........", "#.....#..."],
   "colors":   ["Y...Y....Y", "..........", ".RRRRRRRR.", ".R.R....R.", "...R..Y.R.", "...R.YYYR.", ".R.R..Y.R.", ".RRRRRRRR.", "..........", "Y.....Y..."],
   "palette":  { "R": "#E8453C", "Y": "#FACC15" }

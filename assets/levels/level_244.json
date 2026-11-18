@@ -1,6 +1,6 @@
 {
   "id": 244,
-  "name": {"de": "Taco", "en": "Taco", "es": "Taco", "fr": "Taco", "it": "Taco", "pl": "Taco", "pt": "Taco", "tr": "Tako", "el": "Τάκο", "bg": "Тако", "ru": "Тако", "ar": "تاكو", "hi": "टैको", "zh": "塔可", "ja": "タコス", "ko": "타코"},
+  "name": {"id": "Taco", "ms": "Taco", "da": "Taco", "de": "Taco", "en": "Taco", "es": "Taco", "fil": "Taco", "fr": "Taco", "it": "Taco", "sw": "Tako", "hu": "Taco", "nl": "Taco", "nb": "Taco", "pl": "Taco", "pt": "Taco", "ro": "Taco", "fi": "Taco", "sv": "Taco", "vi": "Bánh taco", "tr": "Tako", "cs": "Taco", "el": "Τάκο", "bg": "Тако", "ru": "Тако", "uk": "Тако", "ur": "ٹاکو", "ar": "تاكو", "fa": "تاکو", "mr": "टाको", "hi": "टैको", "bn": "টাকো", "pa": "ਟਾਕੋ", "ta": "டாகோ", "te": "టాకో", "th": "ทาโก้", "zh": "塔可", "ja": "タコス", "ko": "타코"},
   "solution": ["..........", ".#.#..#.#.", "#########.", "##########", "##########", "##########", ".########.", "..######..", "#.........", "...#...#.."],
   "colors":   ["..........", ".G.R..G.R.", "GRGGRGRGG.", "AYYGRYGYYA", "AAYYYYYYAA", "AAAAAAAAAA", ".AAAAAAAA.", "..AAAAAA..", "Y.........", "...Y...Y.."],
   "palette":  { "A": "#F59E0B", "G": "#22C55E", "R": "#E8453C", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 52,
-  "name": {"de": "Igel", "en": "Hedgehog", "es": "Erizo", "fr": "Hérisson", "it": "Riccio", "pl": "Jeż", "pt": "Ouriço", "tr": "Kirpi", "el": "Σκαντζόχοιρος", "bg": "Таралеж", "ru": "Ёжик", "ar": "قنفذ", "hi": "हेजहॉग", "zh": "刺猬", "ja": "ハリネズミ", "ko": "고슴도치"},
+  "name": {"id": "Landak", "ms": "Landak", "da": "Pindsvin", "de": "Igel", "en": "Hedgehog", "es": "Erizo", "fil": "Hedgehog", "fr": "Hérisson", "it": "Riccio", "sw": "Kalunguyeye", "hu": "Sün", "nl": "Egel", "nb": "Pinnsvin", "pl": "Jeż", "pt": "Ouriço", "ro": "Arici", "fi": "Siili", "sv": "Igelkott", "vi": "Con nhím", "tr": "Kirpi", "cs": "Ježek", "el": "Σκαντζόχοιρος", "bg": "Таралеж", "ru": "Ёжик", "uk": "Їжак", "ur": "خارپشت", "ar": "قنفذ", "fa": "جوجه‌تیغی", "mr": "साळिंदर", "hi": "हेजहॉग", "bn": "সজারু", "pa": "ਕੰਡੇਦਾਰ ਚੂਹਾ", "ta": "முள்ளம்பன்றி", "te": "ముళ్లపంది", "th": "เม่น", "zh": "刺猬", "ja": "ハリネズミ", "ko": "고슴도치"},
   "solution": ["..........", "...#.#.#..", "..#######.", ".########.", "..#######.", ".########.", ".#######..", "..######..", "...#..#...", ".........."],
   "colors":   ["..........", "...H.H.H..", "..HHHHHHH.", ".HHHHHHHH.", "..FFHHHHH.", ".FKFFHHHH.", ".KFFFFFF..", "..FFFFFF..", "...T..T...", ".........."],
   "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "T": "#92400E" }

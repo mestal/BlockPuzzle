@@ -1,6 +1,6 @@
 {
   "id": 228,
-  "name": {"de": "Roller", "en": "Scooter", "es": "Patinete", "fr": "Trottinette", "it": "Monopattino", "pl": "Hulajnoga", "pt": "Patinete", "tr": "Scooter", "el": "Πατίνι", "bg": "Тротинетка", "ru": "Самокат", "ar": "سكوتر", "hi": "स्कूटर", "zh": "滑板车", "ja": "キックボード", "ko": "킥보드"},
+  "name": {"id": "Skuter", "ms": "Skuter", "da": "Løbehjul", "de": "Roller", "en": "Scooter", "es": "Patinete", "fil": "Scooter", "fr": "Trottinette", "it": "Monopattino", "sw": "Skuta", "hu": "Roller", "nl": "Step", "nb": "Sparkesykkel", "pl": "Hulajnoga", "pt": "Patinete", "ro": "Trotinetă", "fi": "Potkulauta", "sv": "Sparkcykel", "vi": "Xe trượt scooter", "tr": "Scooter", "cs": "Koloběžka", "el": "Πατίνι", "bg": "Тротинетка", "ru": "Самокат", "uk": "Самокат", "ur": "اسکوٹر", "ar": "سكوتر", "fa": "اسکوتر", "mr": "स्कूटर", "hi": "स्कूटर", "bn": "স্কুটার", "pa": "ਸਕੂਟਰ", "ta": "ஸ்கூட்டர்", "te": "స్కూటర్", "th": "สกู๊ตเตอร์", "zh": "滑板车", "ja": "キックボード", "ko": "킥보드"},
   "solution": ["###.......", ".#........", ".#........", "..#.......", "..#.......", "..#.......", "..#.......", "..#######.", ".##....##.", ".##....##."],
   "colors":   ["KKK.......", ".K........", ".K........", "..K.......", "..K.......", "..K.......", "..K.......", "..RRRRRRR.", ".KK....KK.", ".KK....KK."],
   "palette":  { "K": "#1F2937", "R": "#E8453C" }

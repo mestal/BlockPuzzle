@@ -1,6 +1,6 @@
 {
   "id": 266,
-  "name": {"de": "Truthahn", "en": "Turkey", "es": "Pavo", "fr": "Dinde", "it": "Tacchino", "pl": "Indyk", "pt": "Peru", "tr": "Hindi", "el": "Γαλοπούλα", "bg": "Пуйка", "ru": "Индюк", "ar": "ديك رومي", "hi": "टर्की", "zh": "火鸡", "ja": "七面鳥", "ko": "칠면조"},
+  "name": {"id": "Kalkun", "ms": "Ayam belanda", "da": "Kalkun", "de": "Truthahn", "en": "Turkey", "es": "Pavo", "fil": "Pabo", "fr": "Dinde", "it": "Tacchino", "sw": "Bata mzinga", "hu": "Pulyka", "nl": "Kalkoen", "nb": "Kalkun", "pl": "Indyk", "pt": "Peru", "ro": "Curcan", "fi": "Kalkkuna", "sv": "Kalkon", "vi": "Gà tây", "tr": "Hindi", "cs": "Krocan", "el": "Γαλοπούλα", "bg": "Пуйка", "ru": "Индюк", "uk": "Індик", "ur": "ٹرکی مرغ", "ar": "ديك رومي", "fa": "بوقلمون", "mr": "टर्की", "hi": "टर्की", "bn": "টার্কি মুরগি", "pa": "ਟਰਕੀ", "ta": "வான்கோழி", "te": "టర్కీ కోడి", "th": "ไก่งวง", "zh": "火鸡", "ja": "七面鳥", "ko": "칠면조"},
   "solution": ["..........", "#..#..#..#", "##.####.##", ".########.", "#.######.#", "##.#.##.#.", ".#.#####..", "...#####..", ".########.", "####.#####", ".########.", "...####...", "...#..#...", "..##..##.#", "#........."],
   "colors":   ["..........", "R..O..O..R", "RR.OYYO.RR", ".RROYYORR.", "Y.RTTTTR.Y", "YY.T.TT.T.", ".Y.TTOOT..", "...TTRRT..", ".TTTTTTTT.", "TTTT.TTTTT", ".TTTTTTTT.", "...TTTT...", "...O..O...", "..OO..OO.Y", "Y........."],
   "palette":  { "O": "#F97316", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

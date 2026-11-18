@@ -1,6 +1,6 @@
 {
   "id": 174,
-  "name": {"de": "Drachen", "en": "Kite", "es": "Cometa", "fr": "Cerf-volant", "it": "Aquilone", "pl": "Latawiec", "pt": "Pipa", "tr": "Uçurtma", "el": "Χαρταετός", "bg": "Хвърчило", "ru": "Воздушный змей", "ar": "طائرة ورقية", "hi": "पतंग", "zh": "风筝", "ja": "たこ", "ko": "연"},
+  "name": {"id": "Layang-layang", "ms": "Layang-layang", "da": "Drage", "de": "Drachen", "en": "Kite", "es": "Cometa", "fil": "Saranggola", "fr": "Cerf-volant", "it": "Aquilone", "sw": "Tiara", "hu": "Sárkány", "nl": "Vlieger", "nb": "Drage", "pl": "Latawiec", "pt": "Pipa", "ro": "Zmeu", "fi": "Leija", "sv": "Drake", "vi": "Con diều", "tr": "Uçurtma", "cs": "Drak", "el": "Χαρταετός", "bg": "Хвърчило", "ru": "Воздушный змей", "uk": "Повітряний змій", "ur": "پتنگ", "ar": "طائرة ورقية", "fa": "بادبادک", "mr": "पतंग", "hi": "पतंग", "bn": "ঘুড়ি", "pa": "ਪਤੰਗ", "ta": "பட்டம்", "te": "గాలిపటం", "th": "ว่าว", "zh": "风筝", "ja": "たこ", "ko": "연"},
   "solution": ["....#.....", "...###....", "..#####...", ".#######..", "#########.", "#########.", ".#######..", "..#####...", "...###....", "....#.....", ".....#....", ".....#....", ".....##...", "......#...", ".........."],
   "colors":   ["....R.....", "...RRY....", "..RRRYY...", ".RRRRYYY..", "RRRRRYYYY.", "BBBBBGGGG.", ".BBBBGGG..", "..BBBGG...", "...BBG....", "....T.....", ".....T....", ".....T....", ".....TR...", "......T...", ".........."],
   "palette":  { "B": "#3B82F6", "G": "#22C55E", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }

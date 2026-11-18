@@ -1,6 +1,6 @@
 {
   "id": 199,
-  "name": {"de": "Galaxie", "en": "Galaxy", "es": "Galaxia", "fr": "Galaxie", "it": "Galassia", "pl": "Galaktyka", "pt": "Galáxia", "tr": "Galaksi", "el": "Γαλαξίας", "bg": "Галактика", "ru": "Галактика", "ar": "مجرة", "hi": "आकाशगंगा", "zh": "星系", "ja": "銀河", "ko": "은하"},
+  "name": {"id": "Galaksi", "ms": "Galaksi", "da": "Galakse", "de": "Galaxie", "en": "Galaxy", "es": "Galaxia", "fil": "Galaksiya", "fr": "Galaxie", "it": "Galassia", "sw": "Galaksi", "hu": "Galaxis", "nl": "Sterrenstelsel", "nb": "Galakse", "pl": "Galaktyka", "pt": "Galáxia", "ro": "Galaxie", "fi": "Galaksi", "sv": "Galax", "vi": "Thiên hà", "tr": "Galaksi", "cs": "Galaxie", "el": "Γαλαξίας", "bg": "Галактика", "ru": "Галактика", "uk": "Галактика", "ur": "کہکشاں", "ar": "مجرة", "fa": "کهکشان", "mr": "आकाशगंगा", "hi": "आकाशगंगा", "bn": "ছায়াপথ", "pa": "ਆਕਾਸ਼ਗੰਗਾ", "ta": "விண்மீன் திரள்", "te": "పాలపుంత", "th": "กาแล็กซี", "zh": "星系", "ja": "銀河", "ko": "은하"},
   "solution": ["..........", "....###...", "..##...#..", ".#..###.#.", "#..#...#..", "#.#..#..#.", "#.#.###.#.", ".#..##..#.", ".#...#.#.#", "..###.#..#", ".#...#.##.", "..#....#..", "...####...", "..........", ".........."],
   "colors":   ["..........", "....VVV...", "..VV...V..", ".V..UUU.V.", "V..U...U..", "V.U..W..U.", "V.U.WWW.U.", ".U..WW..U.", ".U...W.U.V", "..UUU.U..V", ".V...U.VV.", "..V....V..", "...VVVV...", "..........", ".........."],
   "palette":  { "U": "#5B21B6", "V": "#8B5CF6", "W": "#FFFFFF" }

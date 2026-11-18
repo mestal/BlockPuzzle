@@ -1,6 +1,6 @@
 {
   "id": 106,
-  "name": {"de": "Mütze", "en": "Beanie", "es": "Gorro", "fr": "Bonnet", "it": "Berretto", "pl": "Czapka", "pt": "Gorro", "tr": "Bere", "el": "Σκουφάκι", "bg": "Шапка", "ru": "Шапка", "ar": "قبعة صوفية", "hi": "ऊनी टोपी", "zh": "毛线帽", "ja": "ニット帽", "ko": "비니"},
+  "name": {"id": "Kupluk", "ms": "Topi kait", "da": "Hue", "de": "Mütze", "en": "Beanie", "es": "Gorro", "fil": "Bonete", "fr": "Bonnet", "it": "Berretto", "sw": "Kofia ya sufu", "hu": "Sapka", "nl": "Muts", "nb": "Lue", "pl": "Czapka", "pt": "Gorro", "ro": "Căciulă", "fi": "Pipo", "sv": "Mössa", "vi": "Mũ len", "tr": "Bere", "cs": "Čepice", "el": "Σκουφάκι", "bg": "Шапка", "ru": "Шапка", "uk": "Шапка", "ur": "اونی ٹوپی", "ar": "قبعة صوفية", "fa": "کلاه بافتنی", "mr": "लोकरीची टोपी", "hi": "ऊनी टोपी", "bn": "উলের টুপি", "pa": "ਊਨੀ ਟੋਪੀ", "ta": "கம்பளித் தொப்பி", "te": "ఉన్ని టోపీ", "th": "หมวกไหมพรม", "zh": "毛线帽", "ja": "ニット帽", "ko": "비니"},
   "solution": ["..........", "..........", "....##....", "...####...", "....##....", "..######..", ".########.", ".########.", "##########", "##########", "##########", "##########", "##########", "..........", ".........."],
   "colors":   ["..........", "..........", "....WW....", "...WWWW...", "....WW....", "..BBBBBB..", ".BBWBBWBB.", ".BWBBWBBB.", "BBBBBBBBBB", "BBBBBBBBBB", "WWWWWWWWWW", "WBWBWBWBWB", "WWWWWWWWWW", "..........", ".........."],
   "palette":  { "B": "#3B82F6", "W": "#FFFFFF" }

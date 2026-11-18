@@ -1,6 +1,6 @@
 {
   "id": 4,
-  "name": {"de": "Krone", "en": "Crown", "es": "Corona", "fr": "Couronne", "it": "Corona", "pl": "Korona", "pt": "Coroa", "tr": "Taç", "el": "Στέμμα", "bg": "Корона", "ru": "Корона", "ar": "تاج", "hi": "मुकुट", "zh": "王冠", "ja": "王冠", "ko": "왕관"},
+  "name": {"id": "Mahkota", "ms": "Mahkota", "da": "Krone", "de": "Krone", "en": "Crown", "es": "Corona", "fil": "Korona", "fr": "Couronne", "it": "Corona", "sw": "Taji", "hu": "Korona", "nl": "Kroon", "nb": "Krone", "pl": "Korona", "pt": "Coroa", "ro": "Coroană", "fi": "Kruunu", "sv": "Krona", "vi": "Vương miện", "tr": "Taç", "cs": "Koruna", "el": "Στέμμα", "bg": "Корона", "ru": "Корона", "uk": "Корона", "ur": "تاج", "ar": "تاج", "fa": "تاج", "mr": "मुकुट", "hi": "मुकुट", "bn": "মুকুট", "pa": "ਤਾਜ", "ta": "கிரீடம்", "te": "కిరీటం", "th": "มงกุฎ", "zh": "王冠", "ja": "王冠", "ko": "왕관"},
   "solution": ["#.#.#", "#.#.#", "#####", "#####", "#####"],
   "colors":   ["Y.Y.Y", "Y.Y.Y", "YYYYY", "YRYBY", "YYYYY"],
   "palette":  { "B": "#3B82F6", "R": "#E8453C", "Y": "#FACC15" }

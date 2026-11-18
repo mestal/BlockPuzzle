@@ -1,6 +1,6 @@
 {
   "id": 84,
-  "name": {"de": "Diamant", "en": "Diamond", "es": "Diamante", "fr": "Diamant", "it": "Diamante", "pl": "Diament", "pt": "Diamante", "tr": "Elmas", "el": "Διαμάντι", "bg": "Диамант", "ru": "Бриллиант", "ar": "ماسة", "hi": "हीरा", "zh": "钻石", "ja": "ダイヤモンド", "ko": "다이아몬드"},
+  "name": {"id": "Berlian", "ms": "Berlian", "da": "Diamant", "de": "Diamant", "en": "Diamond", "es": "Diamante", "fil": "Diyamante", "fr": "Diamant", "it": "Diamante", "sw": "Almasi", "hu": "Gyémánt", "nl": "Diamant", "nb": "Diamant", "pl": "Diament", "pt": "Diamante", "ro": "Diamant", "fi": "Timantti", "sv": "Diamant", "vi": "Kim cương", "tr": "Elmas", "cs": "Diamant", "el": "Διαμάντι", "bg": "Диамант", "ru": "Бриллиант", "uk": "Діамант", "ur": "ہیرا", "ar": "ماسة", "fa": "الماس", "mr": "हिरा", "hi": "हीरा", "bn": "হীরা", "pa": "ਹੀਰਾ", "ta": "வைரம்", "te": "వజ్రం", "th": "เพชร", "zh": "钻石", "ja": "ダイヤモンド", "ko": "다이아몬드"},
   "solution": ["..........", "..######..", ".########.", "##########", "##########", ".########.", "..######..", "...####...", "....##....", ".........."],
   "colors":   ["..........", "..CCCCCC..", ".CIICCIIC.", "CIICCCCIIC", "CCCCCCCCCC", ".CCCCCCCC.", "..CCCCCC..", "...CCCC...", "....CC....", ".........."],
   "palette":  { "C": "#22D3EE", "I": "#BAE6FD" }

@@ -1,6 +1,6 @@
 {
   "id": 398,
-  "name": {"de": "Flamingo", "en": "Flamingo", "es": "Flamenco", "fr": "Flamant rose", "it": "Fenicottero", "pl": "Flaming", "pt": "Flamingo", "tr": "Flamingo", "el": "Φλαμίνγκο", "bg": "Фламинго", "ru": "Фламинго", "ar": "طائر النحام", "hi": "राजहंस", "zh": "火烈鸟", "ja": "フラミンゴ", "ko": "플라밍고"},
+  "name": {"id": "Flamingo", "ms": "Burung flamingo", "da": "Flamingo", "de": "Flamingo", "en": "Flamingo", "es": "Flamenco", "fil": "Flamingo", "fr": "Flamant rose", "it": "Fenicottero", "sw": "Heroe", "hu": "Flamingó", "nl": "Flamingo", "nb": "Flamingo", "pl": "Flaming", "pt": "Flamingo", "ro": "Flamingo", "fi": "Flamingo", "sv": "Flamingo", "vi": "Hồng hạc", "tr": "Flamingo", "cs": "Plameňák", "el": "Φλαμίνγκο", "bg": "Фламинго", "ru": "Фламинго", "uk": "Фламінго", "ur": "لم ڈھینگ", "ar": "طائر النحام", "fa": "فلامینگو", "mr": "रोहित", "hi": "राजहंस", "bn": "ফ্লেমিংগো", "pa": "ਫ਼ਲੇਮਿੰਗੋ", "ta": "பூநாரை", "te": "రాజహంస", "th": "นกฟลามิงโก", "zh": "火烈鸟", "ja": "フラミンゴ", "ko": "플라밍고"},
   "solution": [".###......", ".####.....", ".#..##....", ".#...#....", "..#.......", "#..#......", "...#......", "..####....", "..######..", "..#######.", "....#.....", "....#.....", "....#.#...", "....##....", "....#....."],
   "colors":   [".PPP......", ".PPPP.....", ".P..KK....", ".P...K....", "..P.......", "Y..P......", "...P......", "..PPPP....", "..PPPPPP..", "..PPPPPPP.", "....P.....", "....P.....", "....P.P...", "....PP....", "....P....."],
   "palette":  { "K": "#1F2937", "P": "#F472B6", "Y": "#FACC15" }

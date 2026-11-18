@@ -1,6 +1,6 @@
 {
   "id": 370,
-  "name": {"de": "Mumie", "en": "Mummy", "es": "Momia", "fr": "Momie", "it": "Mummia", "pl": "Mumia", "pt": "Múmia", "tr": "Mumya", "el": "Μούμια", "bg": "Мумия", "ru": "Мумия", "ar": "مومياء", "hi": "ममी", "zh": "木乃伊", "ja": "ミイラ", "ko": "미라"},
+  "name": {"id": "Mumi", "ms": "Mumia", "da": "Mumie", "de": "Mumie", "en": "Mummy", "es": "Momia", "fil": "Mumya", "fr": "Momie", "it": "Mummia", "sw": "Mumia", "hu": "Múmia", "nl": "Mummie", "nb": "Mumie", "pl": "Mumia", "pt": "Múmia", "ro": "Mumie", "fi": "Muumio", "sv": "Mumie", "vi": "Xác ướp", "tr": "Mumya", "cs": "Mumie", "el": "Μούμια", "bg": "Мумия", "ru": "Мумия", "uk": "Мумія", "ur": "ممی", "ar": "مومياء", "fa": "مومیایی", "mr": "ममी", "hi": "ममी", "bn": "মমি", "pa": "ਮੰਮੀ", "ta": "மம்மி", "te": "మమ్మీ", "th": "มัมมี่", "zh": "木乃伊", "ja": "ミイラ", "ko": "미라"},
   "solution": [".#......#.", "...####...", "..######..", "#.######..", "..####.#..", "..######..", "...####...", "###.######", "######.###", "...####...", "#..##.##..", "...####..#", "...#..#...", "..##..##..", "#........."],
   "colors":   [".Y......Y.", "...LLLL...", "..LLLLLL..", "Y.LKLLKL..", "..LLLL.L..", "..LLLLLL..", "...LLLL...", "LLL.LLLLLL", "LLLLLL.LLL", "...LLLL...", "Y..LL.LL..", "...LLLL..Y", "...L..L...", "..LL..LL..", "Y........."],
   "palette":  { "K": "#1F2937", "L": "#E2E8F0", "Y": "#FACC15" }

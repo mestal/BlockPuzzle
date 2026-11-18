@@ -1,6 +1,6 @@
 {
   "id": 356,
-  "name": {"de": "Dreizack", "en": "Trident", "es": "Tridente", "fr": "Trident", "it": "Tridente", "pl": "Trójząb", "pt": "Tridente", "tr": "Üç dişli mızrak", "el": "Τρίαινα", "bg": "Тризъбец", "ru": "Трезубец", "ar": "رمح ثلاثي", "hi": "त्रिशूल", "zh": "三叉戟", "ja": "三叉槍", "ko": "삼지창"},
+  "name": {"id": "Trisula", "ms": "Serampang", "da": "Trefork", "de": "Dreizack", "en": "Trident", "es": "Tridente", "fil": "Salapang", "fr": "Trident", "it": "Tridente", "sw": "Mkuki wa ncha tatu", "hu": "Szigony", "nl": "Drietand", "nb": "Trefork", "pl": "Trójząb", "pt": "Tridente", "ro": "Trident", "fi": "Atrain", "sv": "Treudd", "vi": "Đinh ba", "tr": "Üç dişli mızrak", "cs": "Trojzubec", "el": "Τρίαινα", "bg": "Тризъбец", "ru": "Трезубец", "uk": "Тризуб", "ur": "ترشول", "ar": "رمح ثلاثي", "fa": "سه‌شاخه", "mr": "त्रिशूळ", "hi": "त्रिशूल", "bn": "ত্রিশূল", "pa": "ਤ੍ਰਿਸ਼ੂਲ", "ta": "திரிசூலம்", "te": "త్రిశూలం", "th": "ตรีศูล", "zh": "三叉戟", "ja": "三叉槍", "ko": "삼지창"},
   "solution": [".#..#..#.#", ".##.#.##..", ".#..#..#..", ".#######..", "....#.....", "....#.....", "....#.....", "....#.....", "....#.....", "....#.....", "....#.....", "....#.....", "....#.....", "...###..#.", ".#........"],
   "colors":   [".A..A..A.Y", ".AA.A.AA..", ".A..A..A..", ".AAAAAAA..", "....A.....", "....A.....", "....A.....", "....A.....", "....A.....", "....A.....", "....A.....", "....A.....", "....A.....", "...AAA..Y.", ".Y........"],
   "palette":  { "A": "#F59E0B", "Y": "#FACC15" }

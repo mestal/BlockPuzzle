@@ -1,6 +1,6 @@
 {
   "id": 291,
-  "name": {"de": "Puppe", "en": "Doll", "es": "Muñeca", "fr": "Poupée", "it": "Bambola", "pl": "Lalka", "pt": "Boneca", "tr": "Bebek", "el": "Κούκλα", "bg": "Кукла", "ru": "Кукла", "ar": "دمية", "hi": "गुड़िया", "zh": "洋娃娃", "ja": "人形", "ko": "인형"},
+  "name": {"id": "Boneka", "ms": "Anak patung", "da": "Dukke", "de": "Puppe", "en": "Doll", "es": "Muñeca", "fil": "Manika", "fr": "Poupée", "it": "Bambola", "sw": "Mwanasesere", "hu": "Baba", "nl": "Pop", "nb": "Dukke", "pl": "Lalka", "pt": "Boneca", "ro": "Păpușă", "fi": "Nukke", "sv": "Docka", "vi": "Búp bê", "tr": "Bebek", "cs": "Panenka", "el": "Κούκλα", "bg": "Кукла", "ru": "Кукла", "uk": "Лялька", "ur": "گڑیا", "ar": "دمية", "fa": "عروسک", "mr": "बाहुली", "hi": "गुड़िया", "bn": "পুতুল", "pa": "ਗੁੱਡੀ", "ta": "பொம்மை", "te": "బొమ్మ", "th": "ตุ๊กตา", "zh": "洋娃娃", "ja": "人形", "ko": "인형"},
   "solution": ["..######..", ".########.", "##########", "###.##.###", "#.######.#", "..######..", "#..####...", "..######..", ".########.", "#.######.#", "..######..", ".########.", "...#..#...", "#.##..##.#", ".........."],
   "colors":   ["..TTTTTT..", ".TTTTTTTT.", "TTFFFFFFTT", "TTF.FF.FTT", "T.FFFFFF.T", "..FFRRFF..", "Y..FFFF...", "..PPPPPP..", ".PPPWWPPP.", "F.PPPPPP.F", "..PPPPPP..", ".PPPPPPPP.", "...F..F...", "Y.KK..KK.Y", ".........."],
   "palette":  { "F": "#FBCFA5", "K": "#1F2937", "P": "#F472B6", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF", "Y": "#FACC15" }

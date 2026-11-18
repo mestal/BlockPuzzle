@@ -1,6 +1,6 @@
 {
   "id": 245,
-  "name": {"de": "Brokkoli", "en": "Broccoli", "es": "Brócoli", "fr": "Brocoli", "it": "Broccolo", "pl": "Brokuł", "pt": "Brócolis", "tr": "Brokoli", "el": "Μπρόκολο", "bg": "Броколи", "ru": "Брокколи", "ar": "بروكلي", "hi": "ब्रोकली", "zh": "西兰花", "ja": "ブロッコリー", "ko": "브로콜리"},
+  "name": {"id": "Brokoli", "ms": "Brokoli", "da": "Broccoli", "de": "Brokkoli", "en": "Broccoli", "es": "Brócoli", "fil": "Brokoli", "fr": "Brocoli", "it": "Broccolo", "sw": "Brokoli", "hu": "Brokkoli", "nl": "Broccoli", "nb": "Brokkoli", "pl": "Brokuł", "pt": "Brócolis", "ro": "Broccoli", "fi": "Parsakaali", "sv": "Broccoli", "vi": "Bông cải xanh", "tr": "Brokoli", "cs": "Brokolice", "el": "Μπρόκολο", "bg": "Броколи", "ru": "Брокколи", "uk": "Броколі", "ur": "بروکلی", "ar": "بروكلي", "fa": "کلم بروکلی", "mr": "ब्रोकोली", "hi": "ब्रोकली", "bn": "ব্রকলি", "pa": "ਬ੍ਰੋਕਲੀ", "ta": "புரோக்கோலி", "te": "బ్రోకలీ", "th": "บรอกโคลี", "zh": "西兰花", "ja": "ブロッコリー", "ko": "브로콜리"},
   "solution": ["..##.##...", ".########.", "###.######", "######.###", ".########.", "..#.##.#..", "#..####...", "....##..#.", "....##....", "...####..."],
   "colors":   ["..DD.DD...", ".DDDDDDDD.", "DDD.DDDDDD", "DDDDDD.DDD", ".DDDDDDDD.", "..G.GG.G..", "Y..GGGG...", "....GG..Y.", "....GG....", "...GGGG..."],
   "palette":  { "D": "#15803D", "G": "#22C55E", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 160,
-  "name": {"de": "Chilischote", "en": "Chili pepper", "es": "Chile", "fr": "Piment", "it": "Peperoncino", "pl": "Papryczka chili", "pt": "Pimenta", "tr": "Acı biber", "el": "Καυτερή πιπεριά", "bg": "Люта чушка", "ru": "Перец чили", "ar": "فلفل حار", "hi": "मिर्च", "zh": "辣椒", "ja": "トウガラシ", "ko": "고추"},
+  "name": {"id": "Cabai", "ms": "Cili", "da": "Chili", "de": "Chilischote", "en": "Chili pepper", "es": "Chile", "fil": "Sili", "fr": "Piment", "it": "Peperoncino", "sw": "Pilipili", "hu": "Csilipaprika", "nl": "Chilipeper", "nb": "Chilipepper", "pl": "Papryczka chili", "pt": "Pimenta", "ro": "Ardei iute", "fi": "Chilipippuri", "sv": "Chilipeppar", "vi": "Quả ớt", "tr": "Acı biber", "cs": "Chilli paprička", "el": "Καυτερή πιπεριά", "bg": "Люта чушка", "ru": "Перец чили", "uk": "Перець чилі", "ur": "ہری مرچ", "ar": "فلفل حار", "fa": "فلفل تند", "mr": "मिरची", "hi": "मिर्च", "bn": "লঙ্কা", "pa": "ਮਿਰਚ", "ta": "மிளகாய்", "te": "మిరపకాయ", "th": "พริก", "zh": "辣椒", "ja": "トウガラシ", "ko": "고추"},
   "solution": ["..........", "......#...", "......#...", "....####..", "....#####.", "....#####.", "....#####.", "....#####.", "....####..", "....####..", "...####...", "...###....", "..###.....", ".##.......", ".........."],
   "colors":   ["..........", "......G...", "......G...", "....RGGG..", "....RRRRR.", "....RRRRR.", "....RWRRR.", "....RRRRR.", "....RRRR..", "....RRRR..", "...RRRR...", "...RRR....", "..RRR.....", ".RR.......", ".........."],
   "palette":  { "G": "#22C55E", "R": "#E8453C", "W": "#FFFFFF" }

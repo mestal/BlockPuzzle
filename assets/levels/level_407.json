@@ -1,6 +1,6 @@
 {
   "id": 407,
-  "name": {"de": "Libelle", "en": "Dragonfly", "es": "Libélula", "fr": "Libellule", "it": "Libellula", "pl": "Ważka", "pt": "Libélula", "tr": "Yusufçuk", "el": "Λιβελούλα", "bg": "Водно конче", "ru": "Стрекоза", "ar": "يعسوب", "hi": "व्याध पतंग", "zh": "蜻蜓", "ja": "トンボ", "ko": "잠자리"},
+  "name": {"id": "Capung", "ms": "Pepatung", "da": "Guldsmed", "de": "Libelle", "en": "Dragonfly", "es": "Libélula", "fil": "Tutubi", "fr": "Libellule", "it": "Libellula", "sw": "Kereng’ende", "hu": "Szitakötő", "nl": "Libel", "nb": "Øyenstikker", "pl": "Ważka", "pt": "Libélula", "ro": "Libelulă", "fi": "Sudenkorento", "sv": "Trollslända", "vi": "Chuồn chuồn", "tr": "Yusufçuk", "cs": "Vážka", "el": "Λιβελούλα", "bg": "Водно конче", "ru": "Стрекоза", "uk": "Бабка", "ur": "بھنبھیری", "ar": "يعسوب", "fa": "سنجاقک", "mr": "चतुर", "hi": "व्याध पतंग", "bn": "ফড়িং", "pa": "ਭੰਬੀਰੀ", "ta": "தும்பி", "te": "తూనీగ", "th": "แมลงปอ", "zh": "蜻蜓", "ja": "トンボ", "ko": "잠자리"},
   "solution": ["#...##.#..", "....##....", "##..##..##", "###.##.###", ".########.", "...####...", ".########.", "###.##.###", "##..##..##", "....##....", "#...##.#..", "....##....", "....##....", "....#.....", "#.....#..."],
   "colors":   ["Y...BB.Y..", "....BB....", "CC..NN..CC", "CCC.NN.CCC", ".CCCNNCCC.", "...CNNC...", ".CCCNNCCC.", "CCC.NN.CCC", "CC..NN..CC", "....NN....", "Y...NN.Y..", "....NN....", "....NN....", "....N.....", "Y.....Y..."],
   "palette":  { "B": "#3B82F6", "C": "#22D3EE", "N": "#1E3A8A", "Y": "#FACC15" }

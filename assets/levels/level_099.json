@@ -1,6 +1,6 @@
 {
   "id": 99,
-  "name": {"de": "Käfer", "en": "Beetle", "es": "Escarabajo", "fr": "Scarabée", "it": "Scarabeo", "pl": "Chrząszcz", "pt": "Besouro", "tr": "Böcek", "el": "Σκαθάρι", "bg": "Бръмбар", "ru": "Жук", "ar": "خنفساء", "hi": "भृंग", "zh": "甲虫", "ja": "カブトムシ", "ko": "딱정벌레"},
+  "name": {"id": "Kumbang", "ms": "Kumbang", "da": "Bille", "de": "Käfer", "en": "Beetle", "es": "Escarabajo", "fil": "Salagubang", "fr": "Scarabée", "it": "Scarabeo", "sw": "Mbawakavu", "hu": "Bogár", "nl": "Kever", "nb": "Bille", "pl": "Chrząszcz", "pt": "Besouro", "ro": "Gândac", "fi": "Kovakuoriainen", "sv": "Skalbagge", "vi": "Con bọ cánh cứng", "tr": "Böcek", "cs": "Brouk", "el": "Σκαθάρι", "bg": "Бръмбар", "ru": "Жук", "uk": "Жук", "ur": "بھنورا", "ar": "خنفساء", "fa": "سوسک", "mr": "भुंगा", "hi": "भृंग", "bn": "গুবরে পোকা", "pa": "ਭੂੰਡ", "ta": "வண்டு", "te": "పెంకు పురుగు", "th": "ด้วง", "zh": "甲虫", "ja": "カブトムシ", "ko": "딱정벌레"},
   "solution": ["..........", "..........", "..#....#..", "...#..#...", "...####...", "#.######.#", ".########.", "..######..", "#.######.#", ".########.", "..######..", "...####...", "..#....#..", "..........", ".........."],
   "colors":   ["..........", "..........", "..K....K..", "...K..K...", "...BBBB...", "K.BBBBBB.K", ".KBBBBBBK.", "..BBNNBB..", "K.BBNNBB.K", ".KBBNNBBK.", "..BBBBBB..", "...BBBB...", "..K....K..", "..........", ".........."],
   "palette":  { "B": "#3B82F6", "K": "#1F2937", "N": "#1E3A8A" }

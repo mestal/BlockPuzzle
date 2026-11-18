@@ -1,6 +1,6 @@
 {
   "id": 7,
-  "name": {"de": "Herz", "en": "Heart", "es": "Corazón", "fr": "Cœur", "it": "Cuore", "pl": "Serce", "pt": "Coração", "tr": "Kalp", "el": "Καρδιά", "bg": "Сърце", "ru": "Сердце", "ar": "قلب", "hi": "दिल", "zh": "爱心", "ja": "ハート", "ko": "하트"},
+  "name": {"id": "Hati", "ms": "Hati", "da": "Hjerte", "de": "Herz", "en": "Heart", "es": "Corazón", "fil": "Puso", "fr": "Cœur", "it": "Cuore", "sw": "Moyo", "hu": "Szív", "nl": "Hart", "nb": "Hjerte", "pl": "Serce", "pt": "Coração", "ro": "Inimă", "fi": "Sydän", "sv": "Hjärta", "vi": "Trái tim", "tr": "Kalp", "cs": "Srdce", "el": "Καρδιά", "bg": "Сърце", "ru": "Сердце", "uk": "Серце", "ur": "دل", "ar": "قلب", "fa": "قلب", "mr": "हृदय", "hi": "दिल", "bn": "হৃদয়", "pa": "ਦਿਲ", "ta": "இதயம்", "te": "హృదయం", "th": "หัวใจ", "zh": "爱心", "ja": "ハート", "ko": "하트"},
   "solution": [".#.#.", "#####", "#####", ".###.", "..#.."],
   "colors":   [".R.R.", "RWRRR", "RRRRR", ".RRR.", "..R.."],
   "palette":  { "R": "#E8453C", "W": "#FFFFFF" }

@@ -1,6 +1,6 @@
 {
   "id": 94,
-  "name": {"de": "Kamel", "en": "Camel", "es": "Camello", "fr": "Chameau", "it": "Cammello", "pl": "Wielbłąd", "pt": "Camelo", "tr": "Deve", "el": "Καμήλα", "bg": "Камила", "ru": "Верблюд", "ar": "جمل", "hi": "ऊँट", "zh": "骆驼", "ja": "ラクダ", "ko": "낙타"},
+  "name": {"id": "Unta", "ms": "Unta", "da": "Kamel", "de": "Kamel", "en": "Camel", "es": "Camello", "fil": "Kamelyo", "fr": "Chameau", "it": "Cammello", "sw": "Ngamia", "hu": "Teve", "nl": "Kameel", "nb": "Kamel", "pl": "Wielbłąd", "pt": "Camelo", "ro": "Cămilă", "fi": "Kameli", "sv": "Kamel", "vi": "Lạc đà", "tr": "Deve", "cs": "Velbloud", "el": "Καμήλα", "bg": "Камила", "ru": "Верблюд", "uk": "Верблюд", "ur": "اونٹ", "ar": "جمل", "fa": "شتر", "mr": "उंट", "hi": "ऊँट", "bn": "উট", "pa": "ਊਠ", "ta": "ஒட்டகம்", "te": "ఒంటె", "th": "อูฐ", "zh": "骆驼", "ja": "ラクダ", "ko": "낙타"},
   "solution": ["........##", ".......###", "..#.#..##.", ".#####.##.", "#########.", "#########.", ".#######..", ".#.#..#.#.", ".#.#..#.#.", ".#.#..#.#."],
   "colors":   ["........TT", ".......TKT", "..T.T..TT.", ".TTTTT.TT.", "TTTTTTTTT.", "TTTTTTTTT.", ".TTTTTTT..", ".T.T..T.T.", ".T.T..T.T.", ".T.T..T.T."],
   "palette":  { "K": "#1F2937", "T": "#92400E" }

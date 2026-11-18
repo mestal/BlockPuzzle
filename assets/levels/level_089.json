@@ -1,6 +1,6 @@
 {
   "id": 89,
-  "name": {"de": "Geier", "en": "Vulture", "es": "Buitre", "fr": "Vautour", "it": "Avvoltoio", "pl": "Sęp", "pt": "Abutre", "tr": "Akbaba", "el": "Γύπας", "bg": "Лешояд", "ru": "Гриф", "ar": "نسر", "hi": "गिद्ध", "zh": "秃鹫", "ja": "ハゲワシ", "ko": "독수리"},
+  "name": {"id": "Burung nasar", "ms": "Burung hering", "da": "Grib", "de": "Geier", "en": "Vulture", "es": "Buitre", "fil": "Buwitre", "fr": "Vautour", "it": "Avvoltoio", "sw": "Tai", "hu": "Keselyű", "nl": "Gier", "nb": "Gribb", "pl": "Sęp", "pt": "Abutre", "ro": "Vultur", "fi": "Korppikotka", "sv": "Gam", "vi": "Kền kền", "tr": "Akbaba", "cs": "Sup", "el": "Γύπας", "bg": "Лешояд", "ru": "Гриф", "uk": "Гриф", "ur": "گدھ", "ar": "نسر", "fa": "کرکس", "mr": "गिधाड", "hi": "गिद्ध", "bn": "শকুন", "pa": "ਗਿੱਧ", "ta": "கழுகு", "te": "రాబందు", "th": "อีแร้ง", "zh": "秃鹫", "ja": "ハゲワシ", "ko": "독수리"},
   "solution": ["....##....", "...####...", "...####...", "##.####.##", "##########", ".########.", "..######..", "...####...", "...#..#...", "..##..##.."],
   "colors":   ["....HH....", "...HFFH...", "...HKHF...", "HH.HHHH.HH", "HHHHHHHHHH", ".HHHHHHHH.", "..HHHHHH..", "...HHHH...", "...H..H...", "..YY..YY.."],
   "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "Y": "#FACC15" }

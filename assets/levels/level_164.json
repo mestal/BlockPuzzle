@@ -1,6 +1,6 @@
 {
   "id": 164,
-  "name": {"de": "Flugzeug", "en": "Airplane", "es": "Avión", "fr": "Avion", "it": "Aereo", "pl": "Samolot", "pt": "Avião", "tr": "Uçak", "el": "Αεροπλάνο", "bg": "Самолет", "ru": "Самолёт", "ar": "طائرة", "hi": "हवाई जहाज़", "zh": "飞机", "ja": "飛行機", "ko": "비행기"},
+  "name": {"id": "Pesawat", "ms": "Kapal terbang", "da": "Fly", "de": "Flugzeug", "en": "Airplane", "es": "Avión", "fil": "Eroplano", "fr": "Avion", "it": "Aereo", "sw": "Ndege", "hu": "Repülőgép", "nl": "Vliegtuig", "nb": "Fly", "pl": "Samolot", "pt": "Avião", "ro": "Avion", "fi": "Lentokone", "sv": "Flygplan", "vi": "Máy bay", "tr": "Uçak", "cs": "Letadlo", "el": "Αεροπλάνο", "bg": "Самолет", "ru": "Самолёт", "uk": "Літак", "ur": "ہوائی جہاز", "ar": "طائرة", "fa": "هواپیما", "mr": "विमान", "hi": "हवाई जहाज़", "bn": "উড়োজাহাজ", "pa": "ਹਵਾਈ ਜਹਾਜ਼", "ta": "விமானம்", "te": "విమానం", "th": "เครื่องบิน", "zh": "飞机", "ja": "飛行機", "ko": "비행기"},
   "solution": ["....##....", "...####...", "...####...", "...####...", "...####...", ".########.", "##########", "##.####.##", "...####...", "...####...", "...####...", "..######..", ".########.", "....##....", ".........."],
   "colors":   ["....BB....", "...BBBB...", "...BCCB...", "...BBBB...", "...BBBB...", ".BBBBBBBB.", "BBBBBBBBBB", "BB.BBBB.BB", "...BBBB...", "...BBBB...", "...BBBB...", "..BBBBBB..", ".BBBBBBBB.", "....BB....", ".........."],
   "palette":  { "B": "#3B82F6", "C": "#22D3EE" }

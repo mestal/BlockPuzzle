@@ -1,6 +1,6 @@
 {
   "id": 25,
-  "name": {"de": "Leuchtturm", "en": "Lighthouse", "es": "Faro", "fr": "Phare", "it": "Faro", "pl": "Latarnia morska", "pt": "Farol", "tr": "Deniz feneri", "el": "Φάρος", "bg": "Фар", "ru": "Маяк", "ar": "منارة", "hi": "प्रकाशस्तंभ", "zh": "灯塔", "ja": "灯台", "ko": "등대"},
+  "name": {"id": "Mercusuar", "ms": "Rumah api", "da": "Fyrtårn", "de": "Leuchtturm", "en": "Lighthouse", "es": "Faro", "fil": "Parola", "fr": "Phare", "it": "Faro", "sw": "Mnara wa taa", "hu": "Világítótorony", "nl": "Vuurtoren", "nb": "Fyrtårn", "pl": "Latarnia morska", "pt": "Farol", "ro": "Far", "fi": "Majakka", "sv": "Fyr", "vi": "Hải đăng", "tr": "Deniz feneri", "cs": "Maják", "el": "Φάρος", "bg": "Фар", "ru": "Маяк", "uk": "Маяк", "ur": "لائٹ ہاؤس", "ar": "منارة", "fa": "فانوس دریایی", "mr": "दीपगृह", "hi": "प्रकाशस्तंभ", "bn": "বাতিঘর", "pa": "ਚਾਨਣ ਮੁਨਾਰਾ", "ta": "கலங்கரை விளக்கம்", "te": "లైట్‌హౌస్", "th": "ประภาคาร", "zh": "灯塔", "ja": "灯台", "ko": "등대"},
   "solution": ["..........", ".#.###.#..", "...###....", "...###....", "...###....", "...###....", "..#####...", ".#######..", "..........", ".........."],
   "colors":   ["..........", ".Y.YYY.Y..", "...KKK....", "...RRR....", "...WWW....", "...RRR....", "..WWWWW...", ".BBBBBBB..", "..........", ".........."],
   "palette":  { "B": "#3B82F6", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

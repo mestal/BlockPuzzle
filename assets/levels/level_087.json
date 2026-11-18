@@ -1,6 +1,6 @@
 {
   "id": 87,
-  "name": {"de": "Wunderlampe", "en": "Magic lamp", "es": "Lámpara mágica", "fr": "Lampe magique", "it": "Lampada magica", "pl": "Magiczna lampa", "pt": "Lâmpada mágica", "tr": "Sihirli lamba", "el": "Μαγικό λυχνάρι", "bg": "Вълшебна лампа", "ru": "Волшебная лампа", "ar": "المصباح السحري", "hi": "जादुई चिराग", "zh": "神灯", "ja": "魔法のランプ", "ko": "요술 램프"},
+  "name": {"id": "Lampu ajaib", "ms": "Lampu ajaib", "da": "Trylleløbe", "de": "Wunderlampe", "en": "Magic lamp", "es": "Lámpara mágica", "fil": "Mahiwagang lampara", "fr": "Lampe magique", "it": "Lampada magica", "sw": "Taa ya ajabu", "hu": "Varázslámpa", "nl": "Toverlamp", "nb": "Trollampe", "pl": "Magiczna lampa", "pt": "Lâmpada mágica", "ro": "Lampă fermecată", "fi": "Taikalamppu", "sv": "Trollampa", "vi": "Cây đèn thần", "tr": "Sihirli lamba", "cs": "Kouzelná lampa", "el": "Μαγικό λυχνάρι", "bg": "Вълшебна лампа", "ru": "Волшебная лампа", "uk": "Чарівна лампа", "ur": "جادوئی چراغ", "ar": "المصباح السحري", "fa": "چراغ جادو", "mr": "जादूचा दिवा", "hi": "जादुई चिराग", "bn": "জাদুর প্রদীপ", "pa": "ਜਾਦੂਈ ਚਿਰਾਗ", "ta": "அற்புத விளக்கு", "te": "అద్భుత దీపం", "th": "ตะเกียงวิเศษ", "zh": "神灯", "ja": "魔法のランプ", "ko": "요술 램프"},
   "solution": [".....#....", "....###...", "...#####..", "#.#######.", "##########", ".########.", "..########", "...#####..", "....###...", "...#####.."],
   "colors":   [".....A....", "....AAA...", "...AAAAA..", "A.AAAAAAA.", "AAAAAAAAAA", ".AAAAAAAA.", "..AAAAAAAA", "...AAAAA..", "....AAA...", "...AAAAA.."],
   "palette":  { "A": "#F59E0B" }

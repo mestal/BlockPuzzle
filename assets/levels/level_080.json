@@ -1,6 +1,6 @@
 {
   "id": 80,
-  "name": {"de": "Kirschen", "en": "Cherries", "es": "Cerezas", "fr": "Cerises", "it": "Ciliegie", "pl": "Czereśnie", "pt": "Cerejas", "tr": "Kiraz", "el": "Κεράσια", "bg": "Череши", "ru": "Вишни", "ar": "كرز", "hi": "चेरी", "zh": "樱桃", "ja": "さくらんぼ", "ko": "체리"},
+  "name": {"id": "Ceri", "ms": "Ceri", "da": "Kirsebær", "de": "Kirschen", "en": "Cherries", "es": "Cerezas", "fil": "Seresa", "fr": "Cerises", "it": "Ciliegie", "sw": "Cheri", "hu": "Cseresznye", "nl": "Kersen", "nb": "Kirsebær", "pl": "Czereśnie", "pt": "Cerejas", "ro": "Cireșe", "fi": "Kirsikat", "sv": "Körsbär", "vi": "Quả anh đào", "tr": "Kiraz", "cs": "Třešně", "el": "Κεράσια", "bg": "Череши", "ru": "Вишни", "uk": "Вишні", "ur": "چیری", "ar": "كرز", "fa": "گیلاس", "mr": "चेरी", "hi": "चेरी", "bn": "চেরি", "pa": "ਚੈਰੀਆਂ", "ta": "செர்ரிப் பழங்கள்", "te": "చెర్రీలు", "th": "เชอร์รี่", "zh": "樱桃", "ja": "さくらんぼ", "ko": "체리"},
   "solution": ["......#...", ".....##...", "....#.#...", ".......#..", "..#....#..", ".##...##..", "####.####.", "####.####.", ".##...##..", ".........."],
   "colors":   ["......D...", ".....DD...", "....D.D...", ".......D..", "..D....D..", ".RR...RR..", "RRWR.RRWR.", "RRRR.RRRR.", ".RR...RR..", ".........."],
   "palette":  { "D": "#15803D", "R": "#E8453C", "W": "#FFFFFF" }

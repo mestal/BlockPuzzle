@@ -7,7 +7,7 @@ import '../level_art.dart';
 final kitchenArt = <LevelArt>[
   art(
     13,
-    'Pizza|Pizza|Pizza|Pizza|Pizza|Pizza|披萨|ピザ|Пицца|بيتزا|Pizza|Pizza|Πίτσα|Пица|피자|पिज़्ज़ा',
+    'Pizza|Pizza|Pizza|Pizza|Pizza|Pizza|披萨|ピザ|Пицца|بيتزا|Pizza|Pizza|Πίτσα|Пица|피자|पिज़्ज़ा|Pizza|Піца|Pizza|Pizza|Pizza|Pizza|Pizza|Pizza|Pizza|Piza|Pizza|পিৎজা|پیزا|Piza|Bánh pizza|پیتزا|Piza|पिझ्झा|పిజ్జా|பீட்சா|ਪੀਜ਼ਾ|พิซซ่า',
     [
       'TTTTTTTTTT',
       'YYYYYYYYYY',
@@ -23,7 +23,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Hamburger|Burger|Burger|Hamburger|Hamburguesa|Hamburger|汉堡|ハンバーガー|Бургер|برغر|Hambúrguer|Burger|Μπέργκερ|Бургер|햄버거|बर्गर',
+    'Hamburger|Burger|Burger|Hamburger|Hamburguesa|Hamburger|汉堡|ハンバーガー|Бургер|برغر|Hambúrguer|Burger|Μπέργκερ|Бургер|햄버거|बर्गर|Hamburger|Бургер|Burger|Hamburgare|Hamburger|Burger|Hampurilainen|Burger|Hamburger|Burger|Burger|বার্গার|برگر|Burger|Bánh hamburger|همبرگر|Baga|बर्गर|బర్గర్|பர்கர்|ਬਰਗਰ|แฮมเบอร์เกอร์',
     [
       '...AAAA...',
       '..AWAAWA..',
@@ -39,7 +39,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Patates kızartması|Fries|Pommes|Frites|Papas fritas|Patatine|薯条|フライドポテト|Картофель фри|بطاطس مقلية|Batata frita|Frytki|Πατάτες τηγανητές|Пържени картофки|감자튀김|फ्रेंच फ्राइज़',
+    'Patates kızartması|Fries|Pommes|Frites|Papas fritas|Patatine|薯条|フライドポテト|Картофель фри|بطاطس مقلية|Batata frita|Frytki|Πατάτες τηγανητές|Пържени картофки|감자튀김|फ्रेंच फ्राइज़|Friet|Картопля фрі|Cartofi prăjiți|Pommes frites|Pommes frites|Pomfritter|Ranskalaiset|Hranolky|Sült krumpli|Kentang goreng|French fries|ফ্রেঞ্চ ফ্রাই|فرنچ فرائز|Kentang goreng|Khoai tây chiên|سیب‌زمینی سرخ‌کرده|Chipsi|फ्रेंच फ्राइज|ఫ్రెంచ్ ఫ్రైస్|பொரித்த உருளைக்கிழங்கு|ਫ਼੍ਰੈਂਚ ਫ਼੍ਰਾਈਜ਼|เฟรนช์ฟรายส์',
     [
       '..Y...Y...',
       '..Y.Y.Y.Y.',
@@ -58,7 +58,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Tako|Taco|Taco|Taco|Taco|Taco|塔可|タコス|Тако|تاكو|Taco|Taco|Τάκο|Тако|타코|टैको',
+    'Tako|Taco|Taco|Taco|Taco|Taco|塔可|タコス|Тако|تاكو|Taco|Taco|Τάκο|Тако|타코|टैको|Taco|Тако|Taco|Taco|Taco|Taco|Taco|Taco|Taco|Taco|Taco|টাকো|ٹاکو|Taco|Bánh taco|تاکو|Tako|टाको|టాకో|டாகோ|ਟਾਕੋ|ทาโก้',
     [
       '.G.R..G.R.',
       'GRGGRGRGG.',
@@ -71,7 +71,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Sandviç|Sandwich|Sandwich|Sandwich|Sándwich|Panino|三明治|サンドイッチ|Сэндвич|شطيرة|Sanduíche|Kanapka|Σάντουιτς|Сандвич|샌드위치|सैंडविच',
+    'Sandviç|Sandwich|Sandwich|Sandwich|Sándwich|Panino|三明治|サンドイッチ|Сэндвич|شطيرة|Sanduíche|Kanapka|Σάντουιτς|Сандвич|샌드위치|सैंडविच|Broodje|Сендвіч|Sandviș|Smörgås|Smørbrød|Sandwich|Voileipä|Sendvič|Szendvics|Sandwic|Sandwich|স্যান্ডউইচ|سینڈوچ|Roti lapis|Bánh mì kẹp|ساندویچ|Sandwichi|सँडविच|శాండ్‌విచ్|சாண்ட்விச்|ਸੈਂਡਵਿਚ|แซนด์วิช',
     [
       'A.........',
       'WA........',
@@ -87,7 +87,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Kruvasan|Croissant|Croissant|Croissant|Cruasán|Cornetto|牛角包|クロワッサン|Круассан|كرواسون|Croissant|Rogalik|Κρουασάν|Кроасан|크루아상|क्रोइसैन',
+    'Kruvasan|Croissant|Croissant|Croissant|Cruasán|Cornetto|牛角包|クロワッサン|Круассан|كرواسون|Croissant|Rogalik|Κρουασάν|Кроасан|크루아상|क्रोइसैन|Croissant|Круасан|Croissant|Croissant|Croissant|Croissant|Voisarvi|Croissant|Croissant|Croissant|Croissant|ক্রোয়াসাঁ|کروسان|Croissant|Bánh sừng bò|کروسان|Kroisanti|क्रोसाँ|క్రోసాంట్|குரோசான்ட்|ਕਰੋਸਾਂ|ครัวซองต์',
     [
       '...AAAA...',
       '.A.AAAA.A.',
@@ -100,7 +100,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Pretzel|Pretzel|Brezel|Bretzel|Pretzel|Pretzel|椒盐卷饼|プレッツェル|Крендель|بريتزل|Pretzel|Precel|Πρέτσελ|Геврек|프레첼|प्रेट्ज़ेल',
+    'Pretzel|Pretzel|Brezel|Bretzel|Pretzel|Pretzel|椒盐卷饼|プレッツェル|Крендель|بريتزل|Pretzel|Precel|Πρέτσελ|Геврек|프레첼|प्रेट्ज़ेल|Pretzel|Брецель|Covrig|Kringla|Kringle|Kringle|Rinkeli|Preclík|Perec|Pretzel|Pretzel|প্রেটজেল|پریٹزل|Pretzel|Bánh quy xoắn|پرتزل|Pretzeli|प्रेट्झेल|ప్రెట్జెల్|பிரெட்செல்|ਪ੍ਰੈਟਜ਼ਲ|เพรตเซล',
     [
       '.TTT..TTT.',
       'T..W..W..T',
@@ -116,7 +116,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Peynir|Cheese|Käse|Fromage|Queso|Formaggio|奶酪|チーズ|Сыр|جبن|Queijo|Ser|Τυρί|Сирене|치즈|पनीर',
+    'Peynir|Cheese|Käse|Fromage|Queso|Formaggio|奶酪|チーズ|Сыр|جبن|Queijo|Ser|Τυρί|Сирене|치즈|पनीर|Kaas|Сир|Brânză|Ost|Ost|Ost|Juusto|Sýr|Sajt|Keju|Keso|পনির|پنیر|Keju|Phô mai|پنیر|Jibini|चीज|జున్ను|பாலாடைக்கட்டி|ਪਨੀਰ|ชีส',
     [
       '.......YY.',
       '.....YYYY.',
@@ -133,7 +133,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Ekmek|Bread|Brot|Pain|Pan|Pane|面包|パン|Хлеб|خبز|Pão|Chleb|Ψωμί|Хляб|빵|ब्रेड',
+    'Ekmek|Bread|Brot|Pain|Pan|Pane|面包|パン|Хлеб|خبز|Pão|Chleb|Ψωμί|Хляб|빵|ब्रेड|Brood|Хліб|Pâine|Bröd|Brød|Brød|Leipä|Chléb|Kenyér|Roti|Tinapay|রুটি|ڈبل روٹی|Roti|Bánh mì|نان|Mkate|ब्रेड|రొట్టె|ரொட்டி|ਡਬਲਰੋਟੀ|ขนมปัง',
     [
       '..TTTTTT..',
       '.T......T.',
@@ -147,7 +147,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Kahve fincanı|Coffee cup|Kaffeetasse|Tasse de café|Taza de café|Tazzina di caffè|咖啡杯|コーヒーカップ|Чашка кофе|فنجان قهوة|Xícara de café|Filiżanka kawy|Φλιτζάνι καφέ|Чаша кафе|커피잔|कॉफ़ी का कप',
+    'Kahve fincanı|Coffee cup|Kaffeetasse|Tasse de café|Taza de café|Tazzina di caffè|咖啡杯|コーヒーカップ|Чашка кофе|فنجان قهوة|Xícara de café|Filiżanka kawy|Φλιτζάνι καφέ|Чаша кафе|커피잔|कॉफ़ी का कप|Koffiekopje|Чашка кави|Ceașcă de cafea|Kaffekopp|Kaffekopp|Kaffekop|Kahvikuppi|Šálek kávy|Kávéscsésze|Cawan kopi|Tasa ng kape|কফির কাপ|کافی کا کپ|Cangkir kopi|Tách cà phê|فنجان قهوه|Kikombe cha kahawa|कॉफीचा कप|కాఫీ కప్పు|காபிக் கோப்பை|ਕੌਫ਼ੀ ਦਾ ਕੱਪ|แก้วกาแฟ',
     [
       '..W..W....',
       '...W..W...',
@@ -165,7 +165,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Tava|Frying pan|Bratpfanne|Poêle|Sartén|Padella|平底锅|フライパン|Сковорода|مقلاة|Frigideira|Patelnia|Τηγάνι|Тиган|프라이팬|कड़ाही',
+    'Tava|Frying pan|Bratpfanne|Poêle|Sartén|Padella|平底锅|フライパン|Сковорода|مقلاة|Frigideira|Patelnia|Τηγάνι|Тиган|프라이팬|कड़ाही|Koekenpan|Сковорідка|Tigaie|Stekpanna|Stekepanne|Stegepande|Paistinpannu|Pánev|Serpenyő|Kuali leper|Kawali|ফ্রাইং প্যান|فرائنگ پین|Wajan|Chảo rán|ماهیتابه|Kikaango|तवा|బాణలి|வாணலி|ਕੜਾਹੀ|กระทะ',
     [
       '.........K',
       '........K.',
@@ -182,7 +182,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Aşçı şapkası|Chef hat|Kochmütze|Toque de chef|Gorro de chef|Cappello da chef|厨师帽|コック帽|Поварской колпак|قبعة الطاهي|Chapéu de chef|Czapka kucharska|Σκούφος σεφ|Готварска шапка|요리사 모자|शेफ की टोपी',
+    'Aşçı şapkası|Chef hat|Kochmütze|Toque de chef|Gorro de chef|Cappello da chef|厨师帽|コック帽|Поварской колпак|قبعة الطاهي|Chapéu de chef|Czapka kucharska|Σκούφος σεφ|Готварска шапка|요리사 모자|शेफ की टोपी|Koksmuts|Ковпак кухаря|Bonetă de bucătar|Kockmössa|Kokkelue|Kokkehue|Kokin hattu|Kuchařská čepice|Szakácssapka|Topi cef|Sumbrero ng kusinero|শেফের টুপি|شیف کی ٹوپی|Topi koki|Mũ đầu bếp|کلاه آشپز|Kofia ya mpishi|आचाऱ्याची टोपी|వంటవాడి టోపీ|சமையல்காரர் தொப்பி|ਸ਼ੈੱਫ਼ ਦੀ ਟੋਪੀ|หมวกเชฟ',
     [
       '.WW.WW.WW.',
       'WWWWWWWWWW',
@@ -197,7 +197,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Çırpma teli|Whisk|Schneebesen|Fouet|Batidor|Frusta|打蛋器|泡立て器|Венчик|مضرب البيض|Batedor|Trzepaczka|Σύρμα χτυπήματος|Бъркалка|거품기|फेंटनी',
+    'Çırpma teli|Whisk|Schneebesen|Fouet|Batidor|Frusta|打蛋器|泡立て器|Венчик|مضرب البيض|Batedor|Trzepaczka|Σύρμα χτυπήματος|Бъркалка|거품기|फेंटनी|Garde|Віночок|Tel|Visp|Visp|Piskeris|Vispilä|Metla|Habverő|Pemukul telur|Batidor|ডিম ফেটানোর যন্ত্র|انڈا پھینٹنے والا|Pengocok|Cây đánh trứng|همزن|Kipigo|फेटणी|గుడ్డు బీటర్|முட்டை அடிப்பான்|ਫੈਂਟਣੀ|ตะกร้อตีไข่',
     [
       '..LLLL....',
       '.L.LL.L...',
@@ -216,7 +216,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Çorba kâsesi|Soup bowl|Suppenschüssel|Bol de soupe|Tazón de sopa|Scodella di zuppa|汤碗|スープ皿|Тарелка супа|وعاء حساء|Tigela de sopa|Miska zupy|Μπολ σούπας|Купа супа|수프 그릇|सूप का कटोरा',
+    'Çorba kâsesi|Soup bowl|Suppenschüssel|Bol de soupe|Tazón de sopa|Scodella di zuppa|汤碗|スープ皿|Тарелка супа|وعاء حساء|Tigela de sopa|Miska zupy|Μπολ σούπας|Купа супа|수프 그릇|सूप का कटोरा|Soepkom|Миска супу|Castron de supă|Soppskål|Suppebolle|Suppeskål|Keittokulho|Miska polévky|Levesestál|Mangkuk sup|Mangkok ng sopas|স্যুপের বাটি|سوپ کا پیالہ|Mangkuk sup|Bát súp|کاسه سوپ|Bakuli la supu|सूपचा वाडगा|సూప్ గిన్నె|சூப் கிண்ணம்|ਸੂਪ ਦਾ ਕਟੋਰਾ|ชามซุป',
     [
       '...W.W....',
       '....W.W...',
@@ -231,7 +231,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Erişte|Noodles|Nudeln|Nouilles|Fideos|Noodles|面条|ラーメン|Лапша|نودلز|Macarrão|Makaron|Νουντλς|Нудели|국수|नूडल्स',
+    'Erişte|Noodles|Nudeln|Nouilles|Fideos|Noodles|面条|ラーメン|Лапша|نودلز|Macarrão|Makaron|Νουντλς|Нудели|국수|नूडल्स|Noedels|Локшина|Tăiței|Nudlar|Nudler|Nudler|Nuudelit|Nudle|Tészta|Mi|Pansit|নুডলস|نوڈلز|Mi|Mì|رشته فرنگی|Tambi|नूडल्स|నూడుల్స్|நூடுல்ஸ்|ਨੂਡਲਜ਼|บะหมี่',
     [
       '.T......T.',
       '..T....T..',
@@ -250,7 +250,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Ekmek kızartma makinesi|Toaster|Toaster|Grille-pain|Tostadora|Tostapane|烤面包机|トースター|Тостер|محمصة خبز|Torradeira|Toster|Φρυγανιέρα|Тостер|토스터|टोस्टर',
+    'Ekmek kızartma makinesi|Toaster|Toaster|Grille-pain|Tostadora|Tostapane|烤面包机|トースター|Тостер|محمصة خبز|Torradeira|Toster|Φρυγανιέρα|Тостер|토스터|टोस्टर|Broodrooster|Тостер|Prăjitor de pâine|Brödrost|Brødrister|Brødrister|Leivänpaahdin|Topinkovač|Kenyérpirító|Pembakar roti|Toaster|টোস্টার|ٹوسٹر|Pemanggang roti|Máy nướng bánh mì|توستر|Kibanio cha mkate|टोस्टर|టోస్టర్|ரொட்டி வாட்டி|ਟੋਸਟਰ|เครื่องปิ้งขนมปัง',
     [
       '.AAA..AAA.',
       '.A.A..A.A.',
@@ -265,7 +265,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Avokado|Avocado|Avocado|Avocat|Aguacate|Avocado|牛油果|アボカド|Авокадо|أفوكادو|Abacate|Awokado|Αβοκάντο|Авокадо|아보카도|एवोकाडो',
+    'Avokado|Avocado|Avocado|Avocat|Aguacate|Avocado|牛油果|アボカド|Авокадо|أفوكادو|Abacate|Awokado|Αβοκάντο|Авокадо|아보카도|एवोकाडो|Avocado|Авокадо|Avocado|Avokado|Avokado|Avocado|Avokado|Avokádo|Avokádó|Avokado|Abukado|অ্যাভোকাডো|ایووکاڈو|Alpukat|Quả bơ|آووکادو|Parachichi|ॲव्होकॅडो|అవకాడో|வெண்ணெய்ப் பழம்|ਐਵੋਕਾਡੋ|อะโวคาโด',
     [
       '....DD....',
       '...DZZD...',
@@ -282,7 +282,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Limon|Lemon|Zitrone|Citron|Limón|Limone|柠檬|レモン|Лимон|ليمون|Limão|Cytryna|Λεμόνι|Лимон|레몬|नींबू',
+    'Limon|Lemon|Zitrone|Citron|Limón|Limone|柠檬|レモン|Лимон|ليمون|Limão|Cytryna|Λεμόνι|Лимон|레몬|नींबू|Citroen|Лимон|Lămâie|Citron|Sitron|Citron|Sitruuna|Citron|Citrom|Lemon|Limon|লেবু|لیموں|Lemon|Quả chanh|لیمو|Limau|लिंबू|నిమ్మకాయ|எலுமிச்சை|ਨਿੰਬੂ|มะนาว',
     [
       '.YYYY.....',
       'YYYYYY....',
@@ -300,7 +300,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Sahanda yumurta|Fried egg|Spiegelei|Œuf au plat|Huevo frito|Uovo fritto|煎蛋|目玉焼き|Яичница|بيض مقلي|Ovo frito|Jajko sadzone|Τηγανητό αυγό|Пържено яйце|달걀 프라이|तला हुआ अंडा',
+    'Sahanda yumurta|Fried egg|Spiegelei|Œuf au plat|Huevo frito|Uovo fritto|煎蛋|目玉焼き|Яичница|بيض مقلي|Ovo frito|Jajko sadzone|Τηγανητό αυγό|Пържено яйце|달걀 프라이|तला हुआ अंडा|Spiegelei|Яєчня|Ou ochi|Stekt ägg|Speilegg|Spejlæg|Paistettu muna|Volské oko|Tükörtojás|Telur goreng|Pritong itlog|ডিম ভাজা|تلا ہوا انڈا|Telur ceplok|Trứng ốp la|نیمرو|Yai la kukaanga|अंड्याचे पोळे|ఆమ్లెట్|முட்டை பொரியல்|ਤਲਿਆ ਆਂਡਾ|ไข่ดาว',
     [
       '...WWW....',
       '.WWWWWWW..',
@@ -315,7 +315,7 @@ final kitchenArt = <LevelArt>[
   ),
   art(
     13,
-    'Brokoli|Broccoli|Brokkoli|Brocoli|Brócoli|Broccolo|西兰花|ブロッコリー|Брокколи|بروكلي|Brócolis|Brokuł|Μπρόκολο|Броколи|브로콜리|ब्रोकली',
+    'Brokoli|Broccoli|Brokkoli|Brocoli|Brócoli|Broccolo|西兰花|ブロッコリー|Брокколи|بروكلي|Brócolis|Brokuł|Μπρόκολο|Броколи|브로콜리|ब्रोकली|Broccoli|Броколі|Broccoli|Broccoli|Brokkoli|Broccoli|Parsakaali|Brokolice|Brokkoli|Brokoli|Brokoli|ব্রকলি|بروکلی|Brokoli|Bông cải xanh|کلم بروکلی|Brokoli|ब्रोकोली|బ్రోకలీ|புரோக்கோலி|ਬ੍ਰੋਕਲੀ|บรอกโคลี',
     [
       '..DD.DD...',
       '.DDDDDDDD.',

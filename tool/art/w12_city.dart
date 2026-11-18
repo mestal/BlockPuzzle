@@ -7,7 +7,7 @@ import '../level_art.dart';
 final cityArt = <LevelArt>[
   art(
     12,
-    'Gökdelen|Skyscraper|Wolkenkratzer|Gratte-ciel|Rascacielos|Grattacielo|摩天大楼|高層ビル|Небоскрёб|ناطحة سحاب|Arranha-céu|Wieżowiec|Ουρανοξύστης|Небостъргач|고층 빌딩|गगनचुंबी इमारत',
+    'Gökdelen|Skyscraper|Wolkenkratzer|Gratte-ciel|Rascacielos|Grattacielo|摩天大楼|高層ビル|Небоскрёб|ناطحة سحاب|Arranha-céu|Wieżowiec|Ουρανοξύστης|Небостъргач|고층 빌딩|गगनचुंबी इमारत|Wolkenkrabber|Хмарочос|Zgârie-nori|Skyskrapa|Skyskraper|Skyskraber|Pilvenpiirtäjä|Mrakodrap|Felhőkarcoló|Pencakar langit|Gusaling tukudlangit|গগনচুম্বী অট্টালিকা|فلک بوس عمارت|Gedung pencakar langit|Nhà chọc trời|آسمان‌خراش|Jengo refu|गगनचुंबी इमारत|ఆకాశహర్మ్యం|வானளாவி|ਅਸਮਾਨ ਛੂੰਹਦੀ ਇਮਾਰਤ|ตึกระฟ้า',
     [
       '...K......',
       '...K......',
@@ -27,7 +27,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Taksi|Taxi|Taxi|Taxi|Taxi|Taxi|出租车|タクシー|Такси|سيارة أجرة|Táxi|Taksówka|Ταξί|Такси|택시|टैक्सी',
+    'Taksi|Taxi|Taxi|Taxi|Taxi|Taxi|出租车|タクシー|Такси|سيارة أجرة|Táxi|Taksówka|Ταξί|Такси|택시|टैक्सी|Taxi|Таксі|Taxi|Taxi|Drosje|Taxa|Taksi|Taxi|Taxi|Teksi|Taxi|ট্যাক্সি|ٹیکسی|Taksi|Xe taxi|تاکسی|Teksi|टॅक्सी|టాక్సీ|டாக்ஸி|ਟੈਕਸੀ|แท็กซี่',
     [
       '....KK....',
       '..YYYYYY..',
@@ -39,7 +39,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Otobüs|Bus|Bus|Bus|Autobús|Autobus|公共汽车|バス|Автобус|حافلة|Ônibus|Autobus|Λεωφορείο|Автобус|버스|बस',
+    'Otobüs|Bus|Bus|Bus|Autobús|Autobus|公共汽车|バス|Автобус|حافلة|Ônibus|Autobus|Λεωφορείο|Автобус|버스|बस|Bus|Автобус|Autobuz|Buss|Buss|Bus|Bussi|Autobus|Busz|Bas|Bus|বাস|بس|Bus|Xe buýt|اتوبوس|Basi|बस|బస్సు|பேருந்து|ਬੱਸ|รถเมล์',
     [
       '..BBBBBB..',
       '.BCCCCCCB.',
@@ -52,7 +52,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Trafik lambası|Traffic light|Ampel|Feu de circulation|Semáforo|Semaforo|红绿灯|信号機|Светофор|إشارة مرور|Semáforo|Sygnalizacja świetlna|Φανάρι κυκλοφορίας|Светофар|신호등|ट्रैफ़िक लाइट',
+    'Trafik lambası|Traffic light|Ampel|Feu de circulation|Semáforo|Semaforo|红绿灯|信号機|Светофор|إشارة مرور|Semáforo|Sygnalizacja świetlna|Φανάρι κυκλοφορίας|Светофар|신호등|ट्रैफ़िक लाइट|Verkeerslicht|Світлофор|Semafor|Trafikljus|Trafikklys|Lyskurv|Liikennevalo|Semafor|Közlekedési lámpa|Lampu isyarat|Ilaw trapiko|ট্রাফিক বাতি|ٹریفک لائٹ|Lampu lalu lintas|Đèn giao thông|چراغ راهنمایی|Taa za barabarani|सिग्नल|ట్రాఫిక్ లైట్|போக்குவரத்து விளக்கு|ਟ੍ਰੈਫ਼ਿਕ ਬੱਤੀ|สัญญาณไฟจราจร',
     [
       '..KKKK....',
       '..KRRK....',
@@ -73,7 +73,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'İtfaiye aracı|Fire truck|Feuerwehrauto|Camion de pompiers|Camión de bomberos|Camion dei pompieri|消防车|消防車|Пожарная машина|سيارة إطفاء|Caminhão de bombeiros|Wóz strażacki|Πυροσβεστικό όχημα|Пожарна кола|소방차|दमकल गाड़ी',
+    'İtfaiye aracı|Fire truck|Feuerwehrauto|Camion de pompiers|Camión de bomberos|Camion dei pompieri|消防车|消防車|Пожарная машина|سيارة إطفاء|Caminhão de bombeiros|Wóz strażacki|Πυροσβεστικό όχημα|Пожарна кола|소방차|दमकल गाड़ी|Brandweerwagen|Пожежна машина|Mașină de pompieri|Brandbil|Brannbil|Brandbil|Paloauto|Hasičské auto|Tűzoltóautó|Kereta bomba|Trak ng bumbero|দমকল গাড়ি|فائر بریگیڈ|Mobil pemadam kebakaran|Xe cứu hỏa|ماشین آتش‌نشانی|Gari la zimamoto|अग्निशमन गाडी|అగ్నిమాపక వాహనం|தீயணைப்பு வண்டி|ਫ਼ਾਇਰ ਬ੍ਰਿਗੇਡ ਗੱਡੀ|รถดับเพลิง',
     [
       'EEEEEEE...',
       'E.E.E.E...',
@@ -87,7 +87,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Bisiklet|Bicycle|Fahrrad|Vélo|Bicicleta|Bicicletta|自行车|自転車|Велосипед|دراجة|Bicicleta|Rower|Ποδήλατο|Велосипед|자전거|साइकिल',
+    'Bisiklet|Bicycle|Fahrrad|Vélo|Bicicleta|Bicicletta|自行车|自転車|Велосипед|دراجة|Bicicleta|Rower|Ποδήλατο|Велосипед|자전거|साइकिल|Fiets|Велосипед|Bicicletă|Cykel|Sykkel|Cykel|Polkupyörä|Kolo|Kerékpár|Basikal|Bisikleta|সাইকেল|سائیکل|Sepeda|Xe đạp|دوچرخه|Baiskeli|सायकल|సైకిల్|மிதிவண்டி|ਸਾਈਕਲ|จักรยาน',
     [
       '.......KK.',
       '.KK....K..',
@@ -101,7 +101,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Scooter|Scooter|Roller|Trottinette|Patinete|Monopattino|滑板车|キックボード|Самокат|سكوتر|Patinete|Hulajnoga|Πατίνι|Тротинетка|킥보드|स्कूटर',
+    'Scooter|Scooter|Roller|Trottinette|Patinete|Monopattino|滑板车|キックボード|Самокат|سكوتر|Patinete|Hulajnoga|Πατίνι|Тротинетка|킥보드|स्कूटर|Step|Самокат|Trotinetă|Sparkcykel|Sparkesykkel|Løbehjul|Potkulauta|Koloběžka|Roller|Skuter|Scooter|স্কুটার|اسکوٹر|Skuter|Xe trượt scooter|اسکوتر|Skuta|स्कूटर|స్కూటర్|ஸ்கூட்டர்|ਸਕੂਟਰ|สกู๊ตเตอร์',
     [
       'KKK.......',
       '.K........',
@@ -117,7 +117,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Tramvay|Tram|Straßenbahn|Tramway|Tranvía|Tram|有轨电车|路面電車|Трамвай|ترام|Bonde|Tramwaj|Τραμ|Трамвай|트램|ट्राम',
+    'Tramvay|Tram|Straßenbahn|Tramway|Tranvía|Tram|有轨电车|路面電車|Трамвай|ترام|Bonde|Tramwaj|Τραμ|Трамвай|트램|ट्राम|Tram|Трамвай|Tramvai|Spårvagn|Trikk|Sporvogn|Raitiovaunu|Tramvaj|Villamos|Trem|Tram|ট্রাম|ٹرام|Trem|Xe điện|تراموا|Tramu|ट्राम|ట్రామ్|டிராம்|ਟਰਾਮ|รถราง',
     [
       '...K.K....',
       '....K.....',
@@ -133,7 +133,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Yangın musluğu|Fire hydrant|Hydrant|Bouche d\'incendie|Hidrante|Idrante|消防栓|消火栓|Пожарный гидрант|صنبور إطفاء|Hidrante|Hydrant|Πυροσβεστικός κρουνός|Пожарен хидрант|소화전|अग्नि हाइड्रेंट',
+    'Yangın musluğu|Fire hydrant|Hydrant|Bouche d\'incendie|Hidrante|Idrante|消防栓|消火栓|Пожарный гидрант|صنبور إطفاء|Hidrante|Hydrant|Πυροσβεστικός κρουνός|Пожарен хидрант|소화전|अग्नि हाइड्रेंट|Brandkraan|Пожежний гідрант|Hidrant|Brandpost|Brannhydrant|Brandhane|Paloposti|Hydrant|Tűzcsap|Pili bomba|Hydrant|ফায়ার হাইড্রান্ট|فائر ہائیڈرنٹ|Hidran|Trụ cứu hỏa|شیر آتش‌نشانی|Bomba la maji|अग्निशमन नळ|ఫైర్ హైడ్రాంట్|தீயணைப்புக் குழாய்|ਅੱਗ ਬੁਝਾਊ ਨਲਕਾ|หัวดับเพลิง',
     [
       '...RRRR...',
       '..RRRRRR..',
@@ -147,7 +147,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Sokak lambası|Street lamp|Straßenlaterne|Réverbère|Farola|Lampione|路灯|街灯|Фонарный столб|عمود إنارة|Poste de luz|Latarnia uliczna|Φανοστάτης|Уличен стълб|가로등|स्ट्रीट लैंप',
+    'Sokak lambası|Street lamp|Straßenlaterne|Réverbère|Farola|Lampione|路灯|街灯|Фонарный столб|عمود إنارة|Poste de luz|Latarnia uliczna|Φανοστάτης|Уличен стълб|가로등|स्ट्रीट लैंप|Straatlantaarn|Ліхтарний стовп|Felinar stradal|Gatlykta|Gatelykt|Gadelygte|Katulamppu|Pouliční lampa|Utcai lámpa|Lampu jalan|Poste ng ilaw|রাস্তার বাতি|اسٹریٹ لیمپ|Lampu jalan|Đèn đường|چراغ خیابان|Taa ya barabarani|पथदिवा|వీధి దీపం|தெரு விளக்கு|ਸੜਕ ਦੀ ਬੱਤੀ|เสาไฟถนน',
     [
       '..EEEE....',
       '.E....E...',
@@ -167,7 +167,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Posta kutusu|Mailbox|Briefkasten|Boîte aux lettres|Buzón|Cassetta postale|邮箱|郵便ポスト|Почтовый ящик|صندوق بريد|Caixa de correio|Skrzynka pocztowa|Γραμματοκιβώτιο|Пощенска кутия|우체통|डाक पेटी',
+    'Posta kutusu|Mailbox|Briefkasten|Boîte aux lettres|Buzón|Cassetta postale|邮箱|郵便ポスト|Почтовый ящик|صندوق بريد|Caixa de correio|Skrzynka pocztowa|Γραμματοκιβώτιο|Пощенска кутия|우체통|डाक पेटी|Brievenbus|Поштова скринька|Cutie poștală|Brevlåda|Postkasse|Postkasse|Postilaatikko|Poštovní schránka|Postaláda|Peti surat|Mailbox|চিঠির বাক্স|لیٹر باکس|Kotak surat|Hộp thư|صندوق پست|Sanduku la barua|टपाल पेटी|తపాలా పెట్టె|அஞ்சல் பெட்டி|ਡਾਕ ਡੱਬਾ|ตู้ไปรษณีย์',
     [
       '..RRRRRR..',
       '.RRRRRRRR.',
@@ -185,7 +185,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Akıllı telefon|Smartphone|Smartphone|Smartphone|Teléfono móvil|Smartphone|智能手机|スマートフォン|Смартфон|هاتف ذكي|Celular|Smartfon|Κινητό τηλέφωνο|Смартфон|스마트폰|स्मार्टफ़ोन',
+    'Akıllı telefon|Smartphone|Smartphone|Smartphone|Teléfono móvil|Smartphone|智能手机|スマートフォン|Смартфон|هاتف ذكي|Celular|Smartfon|Κινητό τηλέφωνο|Смартфон|스마트폰|स्मार्टफ़ोन|Smartphone|Смартфон|Telefon mobil|Mobiltelefon|Mobiltelefon|Mobiltelefon|Älypuhelin|Mobil|Okostelefon|Telefon pintar|Smartphone|স্মার্টফোন|اسمارٹ فون|Ponsel|Điện thoại|گوشی هوشمند|Simu janja|स्मार्टफोन|స్మార్ట్‌ఫోన్|திறன்பேசி|ਸਮਾਰਟਫ਼ੋਨ|สมาร์ตโฟน',
     [
       '.KKKKKK...',
       '.KCCCCK...',
@@ -201,7 +201,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Fotoğraf makinesi|Camera|Kamera|Appareil photo|Cámara|Fotocamera|相机|カメラ|Фотоаппарат|كاميرا|Câmera|Aparat|Φωτογραφική μηχανή|Фотоапарат|카메라|कैमरा',
+    'Fotoğraf makinesi|Camera|Kamera|Appareil photo|Cámara|Fotocamera|相机|カメラ|Фотоаппарат|كاميرا|Câmera|Aparat|Φωτογραφική μηχανή|Фотоапарат|카메라|कैमरा|Camera|Фотоапарат|Aparat foto|Kamera|Kamera|Kamera|Kamera|Fotoaparát|Fényképezőgép|Kamera|Kamera|ক্যামেরা|کیمرا|Kamera|Máy ảnh|دوربین عکاسی|Kamera|कॅमेरा|కెమెరా|புகைப்படக் கருவி|ਕੈਮਰਾ|กล้องถ่ายรูป',
     [
       '..KK...R..',
       'KKKKKKKKK.',
@@ -215,7 +215,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Televizyon|Television|Fernseher|Télévision|Televisión|Televisione|电视|テレビ|Телевизор|تلفاز|Televisão|Telewizor|Τηλεόραση|Телевизор|텔레비전|टेलीविज़न',
+    'Televizyon|Television|Fernseher|Télévision|Televisión|Televisione|电视|テレビ|Телевизор|تلفاز|Televisão|Telewizor|Τηλεόραση|Телевизор|텔레비전|टेलीविज़न|Televisie|Телевізор|Televizor|Tv|TV|Fjernsyn|Televisio|Televize|Televízió|Televisyen|Telebisyon|টেলিভিশন|ٹیلی وژن|Televisi|Ti vi|تلویزیون|Televisheni|दूरदर्शन|టెలివిజన్|தொலைக்காட்சி|ਟੈਲੀਵਿਜ਼ਨ|โทรทัศน์',
     [
       '..K...K...',
       '...K.K....',
@@ -231,7 +231,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Dizüstü bilgisayar|Laptop|Laptop|Ordinateur portable|Portátil|Portatile|笔记本电脑|ノートパソコン|Ноутбук|حاسوب محمول|Notebook|Laptop|Φορητός υπολογιστής|Лаптоп|노트북|लैपटॉप',
+    'Dizüstü bilgisayar|Laptop|Laptop|Ordinateur portable|Portátil|Portatile|笔记本电脑|ノートパソコン|Ноутбук|حاسوب محمول|Notebook|Laptop|Φορητός υπολογιστής|Лаптоп|노트북|लैपटॉप|Laptop|Ноутбук|Laptop|Bärbar dator|Bærbar PC|Bærbar|Kannettava|Notebook|Laptop|Komputer riba|Laptop|ল্যাপটপ|لیپ ٹاپ|Laptop|Máy tính xách tay|لپ‌تاپ|Kompyuta mpakato|लॅपटॉप|ల్యాప్‌టాప్|மடிக்கணினி|ਲੈਪਟਾਪ|แล็ปท็อป',
     [
       '.KKKKKKK..',
       '.K.....K..',
@@ -245,7 +245,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'İnşaat vinci|Construction crane|Baukran|Grue de chantier|Grúa de construcción|Gru edile|塔吊|クレーン|Строительный кран|رافعة بناء|Guindaste|Dźwig budowlany|Γερανός οικοδομής|Строителен кран|타워 크레인|निर्माण क्रेन',
+    'İnşaat vinci|Construction crane|Baukran|Grue de chantier|Grúa de construcción|Gru edile|塔吊|クレーン|Строительный кран|رافعة بناء|Guindaste|Dźwig budowlany|Γερανός οικοδομής|Строителен кран|타워 크레인|निर्माण क्रेन|Bouwkraan|Будівельний кран|Macara|Byggkran|Byggekran|Byggekran|Rakennusnosturi|Stavební jeřáb|Építési daru|Kren pembinaan|Crane|নির্মাণ ক্রেন|تعمیراتی کرین|Derek konstruksi|Cần cẩu|جرثقیل ساختمانی|Winchi ya ujenzi|बांधकाम क्रेन|నిర్మాణ క్రేన్|கட்டுமானப் பாரந்தூக்கி|ਉਸਾਰੀ ਕਰੇਨ|ปั้นจั่นก่อสร้าง',
     [
       '...AA.....',
       'AAAAAAAAAA',
@@ -266,7 +266,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Alışveriş çantası|Shopping bag|Einkaufstasche|Sac de courses|Bolsa de compras|Borsa della spesa|购物袋|買い物袋|Сумка для покупок|حقيبة تسوق|Sacola de compras|Torba na zakupy|Τσάντα για ψώνια|Пазарска чанта|쇼핑백|शॉपिंग बैग',
+    'Alışveriş çantası|Shopping bag|Einkaufstasche|Sac de courses|Bolsa de compras|Borsa della spesa|购物袋|買い物袋|Сумка для покупок|حقيبة تسوق|Sacola de compras|Torba na zakupy|Τσάντα για ψώνια|Пазарска чанта|쇼핑백|शॉपिंग बैग|Boodschappentas|Пакет для покупок|Sacoșă de cumpărături|Shoppingkasse|Handlepose|Indkøbspose|Ostoskassi|Nákupní taška|Bevásárlótáska|Beg beli-belah|Shopping bag|শপিং ব্যাগ|شاپنگ بیگ|Tas belanja|Túi mua sắm|کیسه خرید|Mfuko wa manunuzi|खरेदीची पिशवी|షాపింగ్ సంచి|கடைப் பை|ਸ਼ਾਪਿੰਗ ਬੈਗ|ถุงช้อปปิ้ง',
     [
       '...KKKK...',
       '..K....K..',
@@ -282,7 +282,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Atari makinesi|Arcade machine|Spielautomat|Borne d\'arcade|Máquina recreativa|Cabinato arcade|街机|アーケードゲーム機|Игровой автомат|آلة ألعاب|Fliperama|Automat do gier|Μηχάνημα αρκέιντ|Игрален автомат|오락기|आर्केड मशीन',
+    'Atari makinesi|Arcade machine|Spielautomat|Borne d\'arcade|Máquina recreativa|Cabinato arcade|街机|アーケードゲーム機|Игровой автомат|آلة ألعاب|Fliperama|Automat do gier|Μηχάνημα αρκέιντ|Игрален автомат|오락기|आर्केड मशीन|Arcadekast|Ігровий автомат|Automat de jocuri|Arkadmaskin|Arkademaskin|Arkademaskine|Pelikone|Herní automat|Játékautomata|Mesin arked|Arcade machine|আর্কেড মেশিন|آرکیڈ مشین|Mesin arkade|Máy chơi game thùng|دستگاه بازی|Mashine ya michezo|आर्केड यंत्र|ఆర్కేడ్ యంత్రం|ஆர்கேட் இயந்திரம்|ਆਰਕੇਡ ਮਸ਼ੀਨ|ตู้เกม',
     [
       '.VVVVVV...',
       '.VYYYYV...',
@@ -301,7 +301,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Kaykay|Skateboard|Skateboard|Planche à roulettes|Monopatín|Skateboard|滑板|スケートボード|Скейтборд|لوح تزلج|Skate|Deskorolka|Σκέιτμπορντ|Скейтборд|스케이트보드|स्केटबोर्ड',
+    'Kaykay|Skateboard|Skateboard|Planche à roulettes|Monopatín|Skateboard|滑板|スケートボード|Скейтборд|لوح تزلج|Skate|Deskorolka|Σκέιτμπορντ|Скейтборд|스케이트보드|स्केटबोर्ड|Skateboard|Скейтборд|Skateboard|Skateboard|Rullebrett|Skateboard|Rullalauta|Skateboard|Gördeszka|Papan luncur|Skateboard|স্কেটবোর্ড|اسکیٹ بورڈ|Papan seluncur|Ván trượt|اسکیت‌بورد|Ubao wa kuteleza|स्केटबोर्ड|స్కేట్‌బోర్డ్|சறுக்குப் பலகை|ਸਕੇਟਬੋਰਡ|สเก็ตบอร์ด',
     [
       'O........O',
       '.OOOOOOOO.',
@@ -313,7 +313,7 @@ final cityArt = <LevelArt>[
   ),
   art(
     12,
-    'Spor ayakkabı|Sneaker|Turnschuh|Basket|Zapatilla|Scarpa da ginnastica|运动鞋|スニーカー|Кроссовок|حذاء رياضي|Tênis|But sportowy|Αθλητικό παπούτσι|Маратонка|운동화|स्नीकर',
+    'Spor ayakkabı|Sneaker|Turnschuh|Basket|Zapatilla|Scarpa da ginnastica|运动鞋|スニーカー|Кроссовок|حذاء رياضي|Tênis|But sportowy|Αθλητικό παπούτσι|Маратонка|운동화|स्नीकर|Sneaker|Кросівок|Adidas|Sneaker|Joggesko|Sneaker|Lenkkari|Tenisky|Sportcipő|Kasut sukan|Rubber shoes|স্নিকার|جوگر|Sepatu kets|Giày thể thao|کفش کتانی|Raba|स्पोर्ट्स शू|స్నీకర్|ஓட்டக் காலணி|ਸਨੀਕਰ|รองเท้าผ้าใบ',
     [
       '.RRR......',
       '.R.R......',

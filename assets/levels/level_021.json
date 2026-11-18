@@ -1,6 +1,6 @@
 {
   "id": 21,
-  "name": {"de": "Wasserball", "en": "Beach ball", "es": "Pelota de playa", "fr": "Ballon de plage", "it": "Pallone da spiaggia", "pl": "Piłka plażowa", "pt": "Bola de praia", "tr": "Plaj topu", "el": "Μπάλα θαλάσσης", "bg": "Плажна топка", "ru": "Пляжный мяч", "ar": "كرة الشاطئ", "hi": "बीच बॉल", "zh": "沙滩球", "ja": "ビーチボール", "ko": "비치볼"},
+  "name": {"id": "Bola pantai", "ms": "Bola pantai", "da": "Badebold", "de": "Wasserball", "en": "Beach ball", "es": "Pelota de playa", "fil": "Bola sa dalampasigan", "fr": "Ballon de plage", "it": "Pallone da spiaggia", "sw": "Mpira wa ufukweni", "hu": "Strandlabda", "nl": "Strandbal", "nb": "Badeball", "pl": "Piłka plażowa", "pt": "Bola de praia", "ro": "Minge de plajă", "fi": "Rantapallo", "sv": "Badboll", "vi": "Bóng bãi biển", "tr": "Plaj topu", "cs": "Plážový míč", "el": "Μπάλα θαλάσσης", "bg": "Плажна топка", "ru": "Пляжный мяч", "uk": "Пляжний м’яч", "ur": "ساحلی گیند", "ar": "كرة الشاطئ", "fa": "توپ ساحلی", "mr": "किनाऱ्यावरचा चेंडू", "hi": "बीच बॉल", "bn": "সৈকতের বল", "pa": "ਬੀਚ ਬਾਲ", "ta": "கடற்கரைப் பந்து", "te": "బీచ్ బంతి", "th": "ลูกบอลชายหาด", "zh": "沙滩球", "ja": "ビーチボール", "ko": "비치볼"},
   "solution": ["..........", "...###....", "..#####...", ".#######..", ".#######..", ".#######..", "..#####...", "...###....", "..........", ".........."],
   "colors":   ["..........", "...RWB....", "..RRWBB...", ".RRRWBBB..", ".RRRWBBB..", ".RRRWBBB..", "..RRWBB...", "...RWB....", "..........", ".........."],
   "palette":  { "B": "#3B82F6", "R": "#E8453C", "W": "#FFFFFF" }

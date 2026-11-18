@@ -1,6 +1,6 @@
 {
   "id": 9,
-  "name": {"de": "Boot", "en": "Boat", "es": "Barco", "fr": "Bateau", "it": "Barca", "pl": "Łódka", "pt": "Barco", "tr": "Tekne", "el": "Βάρκα", "bg": "Лодка", "ru": "Лодка", "ar": "قارب", "hi": "नाव", "zh": "小船", "ja": "ボート", "ko": "보트"},
+  "name": {"id": "Perahu", "ms": "Bot", "da": "Båd", "de": "Boot", "en": "Boat", "es": "Barco", "fil": "Bangka", "fr": "Bateau", "it": "Barca", "sw": "Mashua", "hu": "Csónak", "nl": "Boot", "nb": "Båt", "pl": "Łódka", "pt": "Barco", "ro": "Barcă", "fi": "Vene", "sv": "Båt", "vi": "Con thuyền", "tr": "Tekne", "cs": "Loďka", "el": "Βάρκα", "bg": "Лодка", "ru": "Лодка", "uk": "Човен", "ur": "کشتی", "ar": "قارب", "fa": "قایق", "mr": "होडी", "hi": "नाव", "bn": "নৌকা", "pa": "ਕਿਸ਼ਤੀ", "ta": "படகு", "te": "పడవ", "th": "เรือ", "zh": "小船", "ja": "ボート", "ko": "보트"},
   "solution": ["..#..", ".##..", "..#..", "#####", ".###."],
   "colors":   ["..W..", ".WW..", "..T..", "TTTTT", ".TTT."],
   "palette":  { "T": "#92400E", "W": "#FFFFFF" }

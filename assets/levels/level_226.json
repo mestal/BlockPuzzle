@@ -1,6 +1,6 @@
 {
   "id": 226,
-  "name": {"de": "Smartphone", "en": "Smartphone", "es": "Teléfono móvil", "fr": "Smartphone", "it": "Smartphone", "pl": "Smartfon", "pt": "Celular", "tr": "Akıllı telefon", "el": "Κινητό τηλέφωνο", "bg": "Смартфон", "ru": "Смартфон", "ar": "هاتف ذكي", "hi": "स्मार्टफ़ोन", "zh": "智能手机", "ja": "スマートフォン", "ko": "스마트폰"},
+  "name": {"id": "Ponsel", "ms": "Telefon pintar", "da": "Mobiltelefon", "de": "Smartphone", "en": "Smartphone", "es": "Teléfono móvil", "fil": "Smartphone", "fr": "Smartphone", "it": "Smartphone", "sw": "Simu janja", "hu": "Okostelefon", "nl": "Smartphone", "nb": "Mobiltelefon", "pl": "Smartfon", "pt": "Celular", "ro": "Telefon mobil", "fi": "Älypuhelin", "sv": "Mobiltelefon", "vi": "Điện thoại", "tr": "Akıllı telefon", "cs": "Mobil", "el": "Κινητό τηλέφωνο", "bg": "Смартфон", "ru": "Смартфон", "uk": "Смартфон", "ur": "اسمارٹ فون", "ar": "هاتف ذكي", "fa": "گوشی هوشمند", "mr": "स्मार्टफोन", "hi": "स्मार्टफ़ोन", "bn": "স্মার্টফোন", "pa": "ਸਮਾਰਟਫ਼ੋਨ", "ta": "திறன்பேசி", "te": "స్మార్ట్‌ఫోన్", "th": "สมาร์ตโฟน", "zh": "智能手机", "ja": "スマートフォン", "ko": "스마트폰"},
   "solution": ["######.#..", "######....", "######.##.", "######..#.", "######..#.", "######.#..", "######....", "######....", "##..##..#.", "######...."],
   "colors":   ["KKKKKK.Y..", "KCCCCK....", "KCYYCK.CC.", "KCYYCK..C.", "KCCCCK..C.", "KCCCCK.C..", "KCCCCK....", "KKKKKK....", "KK..KK..Y.", "KKKKKK...."],
   "palette":  { "C": "#22D3EE", "K": "#1F2937", "Y": "#FACC15" }

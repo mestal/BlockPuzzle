@@ -1,6 +1,6 @@
 {
   "id": 252,
-  "name": {"de": "Brezel", "en": "Pretzel", "es": "Pretzel", "fr": "Bretzel", "it": "Pretzel", "pl": "Precel", "pt": "Pretzel", "tr": "Pretzel", "el": "Πρέτσελ", "bg": "Геврек", "ru": "Крендель", "ar": "بريتزل", "hi": "प्रेट्ज़ेल", "zh": "椒盐卷饼", "ja": "プレッツェル", "ko": "프레첼"},
+  "name": {"id": "Pretzel", "ms": "Pretzel", "da": "Kringle", "de": "Brezel", "en": "Pretzel", "es": "Pretzel", "fil": "Pretzel", "fr": "Bretzel", "it": "Pretzel", "sw": "Pretzeli", "hu": "Perec", "nl": "Pretzel", "nb": "Kringle", "pl": "Precel", "pt": "Pretzel", "ro": "Covrig", "fi": "Rinkeli", "sv": "Kringla", "vi": "Bánh quy xoắn", "tr": "Pretzel", "cs": "Preclík", "el": "Πρέτσελ", "bg": "Геврек", "ru": "Крендель", "uk": "Брецель", "ur": "پریٹزل", "ar": "بريتزل", "fa": "پرتزل", "mr": "प्रेट्झेल", "hi": "प्रेट्ज़ेल", "bn": "প্রেটজেল", "pa": "ਪ੍ਰੈਟਜ਼ਲ", "ta": "பிரெட்செல்", "te": "ప్రెట్జెల్", "th": "เพรตเซล", "zh": "椒盐卷饼", "ja": "プレッツェル", "ko": "프레첼"},
   "solution": ["####..####", "#..#..#..#", "#...##...#", "#...##...#", "#..#..#..#", ".##....##.", ".#.#..#.#.", ".#..##..#.", "..#.##.#..", "...####..."],
   "colors":   ["TTTT..TTTT", "T..W..W..T", "T...TT...T", "T...TT...T", "T..T..T..T", ".TT....TT.", ".T.T..T.T.", ".W..TT..W.", "..T.TT.T..", "...TTTT..."],
   "palette":  { "T": "#92400E", "W": "#FFFFFF" }

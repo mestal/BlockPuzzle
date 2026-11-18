@@ -1,6 +1,6 @@
 {
   "id": 45,
-  "name": {"de": "Tanne", "en": "Pine tree", "es": "Pino", "fr": "Sapin", "it": "Pino", "pl": "Sosna", "pt": "Pinheiro", "tr": "Çam ağacı", "el": "Πεύκο", "bg": "Бор", "ru": "Сосна", "ar": "شجرة صنوبر", "hi": "चीड़ का पेड़", "zh": "松树", "ja": "松の木", "ko": "소나무"},
+  "name": {"id": "Pohon pinus", "ms": "Pokok pain", "da": "Fyrretræ", "de": "Tanne", "en": "Pine tree", "es": "Pino", "fil": "Puno ng pino", "fr": "Sapin", "it": "Pino", "sw": "Msonobari", "hu": "Fenyőfa", "nl": "Den", "nb": "Furu", "pl": "Sosna", "pt": "Pinheiro", "ro": "Pin", "fi": "Mänty", "sv": "Tall", "vi": "Cây thông", "tr": "Çam ağacı", "cs": "Borovice", "el": "Πεύκο", "bg": "Бор", "ru": "Сосна", "uk": "Сосна", "ur": "چیڑ کا درخت", "ar": "شجرة صنوبر", "fa": "درخت کاج", "mr": "पाइनचे झाड", "hi": "चीड़ का पेड़", "bn": "পাইন গাছ", "pa": "ਚੀੜ ਦਾ ਰੁੱਖ", "ta": "பைன் மரம்", "te": "పైన్ చెట్టు", "th": "ต้นสน", "zh": "松树", "ja": "松の木", "ko": "소나무"},
   "solution": ["..........", "....##....", "...####...", "....##....", "...####...", "..######..", ".########.", "....##....", "....##....", ".........."],
   "colors":   ["..........", "....DD....", "...DDDD...", "....DD....", "...DDDD...", "..DDDDDD..", ".DDDDDDDD.", "....TT....", "....TT....", ".........."],
   "palette":  { "D": "#15803D", "T": "#92400E" }

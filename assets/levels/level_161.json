@@ -1,6 +1,6 @@
 {
   "id": 161,
-  "name": {"de": "Regenbogen", "en": "Rainbow", "es": "Arcoíris", "fr": "Arc-en-ciel", "it": "Arcobaleno", "pl": "Tęcza", "pt": "Arco-íris", "tr": "Gökkuşağı", "el": "Ουράνιο τόξο", "bg": "Дъга", "ru": "Радуга", "ar": "قوس قزح", "hi": "इंद्रधनुष", "zh": "彩虹", "ja": "虹", "ko": "무지개"},
+  "name": {"id": "Pelangi", "ms": "Pelangi", "da": "Regnbue", "de": "Regenbogen", "en": "Rainbow", "es": "Arcoíris", "fil": "Bahaghari", "fr": "Arc-en-ciel", "it": "Arcobaleno", "sw": "Upinde wa mvua", "hu": "Szivárvány", "nl": "Regenboog", "nb": "Regnbue", "pl": "Tęcza", "pt": "Arco-íris", "ro": "Curcubeu", "fi": "Sateenkaari", "sv": "Regnbåge", "vi": "Cầu vồng", "tr": "Gökkuşağı", "cs": "Duha", "el": "Ουράνιο τόξο", "bg": "Дъга", "ru": "Радуга", "uk": "Веселка", "ur": "قوس قزح", "ar": "قوس قزح", "fa": "رنگین‌کمان", "mr": "इंद्रधनुष्य", "hi": "इंद्रधनुष", "bn": "রংধনু", "pa": "ਸਤਰੰਗੀ ਪੀਂਘ", "ta": "வானவில்", "te": "ఇంద్రధనుస్సు", "th": "รุ้ง", "zh": "彩虹", "ja": "虹", "ko": "무지개"},
   "solution": ["...####...", ".########.", "##########", "##########", "##########", "####..####", "####..####", "####..####", "####..####", ".##....##."],
   "colors":   ["...RRRR...", ".RROOOORR.", "RROOYYOORR", "ROYYGGYYOR", "ROYGBBGYOR", "OYGB..BGYO", "OYGB..BGYO", "WWWW..WWWW", "WWWW..WWWW", ".WW....WW."],
   "palette":  { "B": "#3B82F6", "G": "#22C55E", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

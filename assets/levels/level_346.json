@@ -1,6 +1,6 @@
 {
   "id": 346,
-  "name": {"de": "Steinrad", "en": "Stone wheel", "es": "Rueda de piedra", "fr": "Roue de pierre", "it": "Ruota di pietra", "pl": "Kamienne koło", "pt": "Roda de pedra", "tr": "Taş tekerlek", "el": "Πέτρινος τροχός", "bg": "Каменно колело", "ru": "Каменное колесо", "ar": "عجلة حجرية", "hi": "पत्थर का पहिया", "zh": "石轮", "ja": "石の車輪", "ko": "돌 바퀴"},
+  "name": {"id": "Roda batu", "ms": "Roda batu", "da": "Stenhjul", "de": "Steinrad", "en": "Stone wheel", "es": "Rueda de piedra", "fil": "Gulong na bato", "fr": "Roue de pierre", "it": "Ruota di pietra", "sw": "Gurudumu la jiwe", "hu": "Kőkerék", "nl": "Stenen wiel", "nb": "Steinhjul", "pl": "Kamienne koło", "pt": "Roda de pedra", "ro": "Roată de piatră", "fi": "Kivipyörä", "sv": "Stenhjul", "vi": "Bánh xe đá", "tr": "Taş tekerlek", "cs": "Kamenné kolo", "el": "Πέτρινος τροχός", "bg": "Каменно колело", "ru": "Каменное колесо", "uk": "Кам’яне колесо", "ur": "پتھر کا پہیہ", "ar": "عجلة حجرية", "fa": "چرخ سنگی", "mr": "दगडी चाक", "hi": "पत्थर का पहिया", "bn": "পাথরের চাকা", "pa": "ਪੱਥਰ ਦਾ ਪਹੀਆ", "ta": "கல் சக்கரம்", "te": "రాతి చక్రం", "th": "ล้อหิน", "zh": "石轮", "ja": "石の車輪", "ko": "돌 바퀴"},
   "solution": ["#.......#.", "...####...", "..######..", ".##.#####.", ".###..###.", ".###..###.", ".#####.##.", "..######..", "...####...", ".#......#."],
   "colors":   ["Y.......Y.", "...EEEE...", "..EEEEEE..", ".EE.EEEEE.", ".EEE..EEE.", ".EEE..EEE.", ".EEEEE.EE.", "..EEEEEE..", "...EEEE...", ".Y......Y."],
   "palette":  { "E": "#94A3B8", "Y": "#FACC15" }

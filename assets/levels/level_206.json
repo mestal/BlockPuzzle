@@ -1,6 +1,6 @@
 {
   "id": 206,
-  "name": {"de": "Sushi", "en": "Sushi", "es": "Sushi", "fr": "Sushi", "it": "Sushi", "pl": "Sushi", "pt": "Sushi", "tr": "Suşi", "el": "Σούσι", "bg": "Суши", "ru": "Суши", "ar": "سوشي", "hi": "सुशी", "zh": "寿司", "ja": "寿司", "ko": "초밥"},
+  "name": {"id": "Sushi", "ms": "Sushi", "da": "Sushi", "de": "Sushi", "en": "Sushi", "es": "Sushi", "fil": "Sushi", "fr": "Sushi", "it": "Sushi", "sw": "Sushi", "hu": "Szusi", "nl": "Sushi", "nb": "Sushi", "pl": "Sushi", "pt": "Sushi", "ro": "Sushi", "fi": "Sushi", "sv": "Sushi", "vi": "Sushi", "tr": "Suşi", "cs": "Suši", "el": "Σούσι", "bg": "Суши", "ru": "Суши", "uk": "Суші", "ur": "سوشی", "ar": "سوشي", "fa": "سوشی", "mr": "सुशी", "hi": "सुशी", "bn": "সুশি", "pa": "ਸੁਸ਼ੀ", "ta": "சுஷி", "te": "సుషీ", "th": "ซูชิ", "zh": "寿司", "ja": "寿司", "ko": "초밥"},
   "solution": [".#.#.#.#..", "..#.#.#...", "...#.#....", "....#.....", "...#.#....", "..#...#...", "...#####..", "..#######.", "..#######.", "...#####.."],
   "colors":   [".T.W.W.T..", "..T.W.T...", "...T.T....", "....T.....", "...T.T....", "..T...T...", "...OOOOO..", "..OWOOWOO.", "..WWWWWWW.", "...WWWWW.."],
   "palette":  { "O": "#F97316", "T": "#92400E", "W": "#FFFFFF" }

@@ -7,7 +7,7 @@ import '../level_art.dart';
 final jungleArt = <LevelArt>[
   art(
     17,
-    'Maymun|Monkey|Affe|Singe|Mono|Scimmia|猴子|サル|Обезьяна|قرد|Macaco|Małpa|Μαϊμού|Маймуна|원숭이|बंदर',
+    'Maymun|Monkey|Affe|Singe|Mono|Scimmia|猴子|サル|Обезьяна|قرد|Macaco|Małpa|Μαϊμού|Маймуна|원숭이|बंदर|Aap|Мавпа|Maimuță|Apa|Ape|Abe|Apina|Opice|Majom|Monyet|Unggoy|বানর|بندر|Monyet|Con khỉ|میمون|Tumbili|माकड|కోతి|குரங்கு|ਬਾਂਦਰ|ลิง',
     [
       '...HHHH...',
       '.HHHHHHHH.',
@@ -28,7 +28,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Papağan|Parrot|Papagei|Perroquet|Loro|Pappagallo|鹦鹉|オウム|Попугай|ببغاء|Papagaio|Papuga|Παπαγάλος|Папагал|앵무새|तोता',
+    'Papağan|Parrot|Papagei|Perroquet|Loro|Pappagallo|鹦鹉|オウム|Попугай|ببغاء|Papagaio|Papuga|Παπαγάλος|Папагал|앵무새|तोता|Papegaai|Папуга|Papagal|Papegoja|Papegøye|Papegøje|Papukaija|Papoušek|Papagáj|Burung kakak tua|Loro|তোতা|طوطا|Burung beo|Con vẹt|طوطی|Kasuku|पोपट|చిలుక|கிளி|ਤੋਤਾ|นกแก้ว',
     [
       '....RRR...',
       '...RRRRR..',
@@ -49,7 +49,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Tukan|Toucan|Tukan|Toucan|Tucán|Tucano|巨嘴鸟|オオハシ|Тукан|طوقان|Tucano|Tukan|Τουκάν|Тукан|큰부리새|टूकेन',
+    'Tukan|Toucan|Tukan|Toucan|Tucán|Tucano|巨嘴鸟|オオハシ|Тукан|طوقان|Tucano|Tukan|Τουκάν|Тукан|큰부리새|टूकेन|Toekan|Тукан|Tucan|Tukan|Tukan|Tukan|Tukaani|Tukan|Tukán|Burung tukan|Toucan|টুকান|ٹوکن|Burung tukan|Chim toucan|توکان|Tukani|टूकन|టూకాన్|டூக்கான்|ਟੂਕਨ|นกทูแคน',
     [
       '..KKKK....',
       '.KKKKKK...',
@@ -70,7 +70,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Kaplan|Tiger|Tiger|Tigre|Tigre|Tigre|老虎|トラ|Тигр|نمر|Tigre|Tygrys|Τίγρη|Тигър|호랑이|बाघ',
+    'Kaplan|Tiger|Tiger|Tigre|Tigre|Tigre|老虎|トラ|Тигр|نمر|Tigre|Tygrys|Τίγρη|Тигър|호랑이|बाघ|Tijger|Тигр|Tigru|Tiger|Tiger|Tiger|Tiikeri|Tygr|Tigris|Harimau|Tigre|বাঘ|شیر ببر|Harimau|Con hổ|ببر|Simbamarara|वाघ|పులి|புலி|ਬਾਘ|เสือ',
     [
       '.O......O.',
       'OOO.OO.OOO',
@@ -88,7 +88,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Muz|Banana|Banane|Banane|Plátano|Banana|香蕉|バナナ|Банан|موز|Banana|Banan|Μπανάνα|Банан|바나나|केला',
+    'Muz|Banana|Banane|Banane|Plátano|Banana|香蕉|バナナ|Банан|موز|Banana|Banan|Μπανάνα|Банан|바나나|केला|Banaan|Банан|Banană|Banan|Banan|Banan|Banaani|Banán|Banán|Pisang|Saging|কলা|کیلا|Pisang|Quả chuối|موز|Ndizi|केळे|అరటిపండు|வாழைப்பழம்|ਕੇਲਾ|กล้วย',
     [
       '.......HH.',
       '......YYH.',
@@ -107,7 +107,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Goril|Gorilla|Gorilla|Gorille|Gorila|Gorilla|大猩猩|ゴリラ|Горилла|غوريلا|Gorila|Goryl|Γορίλας|Горила|고릴라|गोरिल्ला',
+    'Goril|Gorilla|Gorilla|Gorille|Gorila|Gorilla|大猩猩|ゴリラ|Горилла|غوريلا|Gorila|Goryl|Γορίλας|Горила|고릴라|गोरिल्ला|Gorilla|Горила|Gorilă|Gorilla|Gorilla|Gorilla|Gorilla|Gorila|Gorilla|Gorila|Gorilya|গরিলা|گوریلا|Gorila|Khỉ đột|گوریل|Sokwe mtu|गोरिला|గొరిల్లా|கொரில்லா|ਗੋਰਿੱਲਾ|กอริลลา',
     [
       '...KKKK...',
       '..KKKKKK..',
@@ -127,7 +127,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Bukalemun|Chameleon|Chamäleon|Caméléon|Camaleón|Camaleonte|变色龙|カメレオン|Хамелеон|حرباء|Camaleão|Kameleon|Χαμαιλέοντας|Хамелеон|카멜레온|गिरगिट',
+    'Bukalemun|Chameleon|Chamäleon|Caméléon|Camaleón|Camaleonte|变色龙|カメレオン|Хамелеон|حرباء|Camaleão|Kameleon|Χαμαιλέοντας|Хамелеон|카멜레온|गिरगिट|Kameleon|Хамелеон|Cameleon|Kameleont|Kameleon|Kamæleon|Kameleontti|Chameleon|Kaméleon|Sesumpah|Hunyango|গিরগিটি|گرگٹ|Bunglon|Tắc kè hoa|آفتاب‌پرست|Kinyonga|सरडा|ఊసరవెల్లి|பச்சோந்தி|ਗਿਰਗਿਟ|กิ้งก่าคาเมเลียน',
     [
       '..GGGG....',
       '.GG.GGG...',
@@ -145,7 +145,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Tembel hayvan|Sloth|Faultier|Paresseux|Perezoso|Bradipo|树懒|ナマケモノ|Ленивец|كسلان|Preguiça|Leniwiec|Βραδύπους|Ленивец|나무늘보|स्लॉथ',
+    'Tembel hayvan|Sloth|Faultier|Paresseux|Perezoso|Bradipo|树懒|ナマケモノ|Ленивец|كسلان|Preguiça|Leniwiec|Βραδύπους|Ленивец|나무늘보|स्लॉथ|Luiaard|Лінивець|Leneș|Sengångare|Dovendyr|Dovendyr|Laiskiainen|Lenochod|Lajhár|Sloth|Sloth|শ্লথ|سلوتھ|Kungkang|Con lười|تنبل|Kiumbe mvivu|स्लॉथ|స్లాత్|தேவாங்கு|ਸਲੋਥ|สลอธ',
     [
       'HHHHHHHHHH',
       '..E....E..',
@@ -165,7 +165,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Hindistan cevizi|Coconut|Kokosnuss|Noix de coco|Coco|Noce di cocco|椰子|ココナッツ|Кокос|جوز الهند|Coco|Kokos|Καρύδα|Кокосов орех|코코넛|नारियल',
+    'Hindistan cevizi|Coconut|Kokosnuss|Noix de coco|Coco|Noce di cocco|椰子|ココナッツ|Кокос|جوز الهند|Coco|Kokos|Καρύδα|Кокосов орех|코코넛|नारियल|Kokosnoot|Кокос|Nucă de cocos|Kokosnöt|Kokosnøtt|Kokosnød|Kookospähkinä|Kokos|Kókuszdió|Kelapa|Niyog|নারকেল|ناریل|Kelapa|Quả dừa|نارگیل|Nazi|नारळ|కొబ్బరికాయ|தேங்காய்|ਨਾਰੀਅਲ|มะพร้าว',
     [
       '.HHHH.....',
       'HHHHHH....',
@@ -182,7 +182,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Lemur|Lemur|Lemur|Lémurien|Lémur|Lemure|狐猴|キツネザル|Лемур|ليمور|Lêmure|Lemur|Λεμούριος|Лемур|여우원숭이|लीमर',
+    'Lemur|Lemur|Lemur|Lémurien|Lémur|Lemure|狐猴|キツネザル|Лемур|ليمور|Lêmure|Lemur|Λεμούριος|Лемур|여우원숭이|लीमर|Maki|Лемур|Lemur|Lemur|Lemur|Lemur|Lemuri|Lemur|Maki|Lemur|Lemur|লেমুর|لیمر|Lemur|Vượn cáo|لمور|Komba|लेमूर|లెమూర్|லெமூர்|ਲੈਮੂਰ|ลีเมอร์',
     [
       'L....L....',
       'LLLLLL....',
@@ -201,7 +201,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Orkide|Orchid|Orchidee|Orchidée|Orquídea|Orchidea|兰花|ラン|Орхидея|سحلبية|Orquídea|Storczyk|Ορχιδέα|Орхидея|난초|ऑर्किड',
+    'Orkide|Orchid|Orchidee|Orchidée|Orquídea|Orchidea|兰花|ラン|Орхидея|سحلبية|Orquídea|Storczyk|Ορχιδέα|Орхидея|난초|ऑर्किड|Orchidee|Орхідея|Orhidee|Orkidé|Orkidé|Orkidé|Orkidea|Orchidej|Orchidea|Orkid|Orkidyas|অর্কিড|آرکڈ|Anggrek|Hoa lan|ارکیده|Okidi|ऑर्किड|ఆర్కిడ్|ஆர்க்கிட்|ਆਰਕਿਡ|กล้วยไม้',
     [
       '....PP....',
       '.PP.PP.PP.',
@@ -222,7 +222,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Mango|Mango|Mango|Mangue|Mango|Mango|芒果|マンゴー|Манго|مانجو|Manga|Mango|Μάνγκο|Манго|망고|आम',
+    'Mango|Mango|Mango|Mangue|Mango|Mango|芒果|マンゴー|Манго|مانجو|Manga|Mango|Μάνγκο|Манго|망고|आम|Mango|Манго|Mango|Mango|Mango|Mango|Mango|Mango|Mangó|Mangga|Mangga|আম|آم|Mangga|Quả xoài|انبه|Embe|आंबा|మామిడిపండు|மாம்பழம்|ਅੰਬ|มะม่วง',
     [
       '......GG..',
       '.....GGGG.',
@@ -240,7 +240,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Şelale|Waterfall|Wasserfall|Cascade|Cascada|Cascata|瀑布|滝|Водопад|شلال|Cachoeira|Wodospad|Καταρράκτης|Водопад|폭포|झरना',
+    'Şelale|Waterfall|Wasserfall|Cascade|Cascada|Cascata|瀑布|滝|Водопад|شلال|Cachoeira|Wodospad|Καταρράκτης|Водопад|폭포|झरना|Waterval|Водоспад|Cascadă|Vattenfall|Foss|Vandfald|Vesiputous|Vodopád|Vízesés|Air terjun|Talon|জলপ্রপাত|آبشار|Air terjun|Thác nước|آبشار|Maporomoko ya maji|धबधबा|జలపాతం|அருவி|ਝਰਨਾ|น้ำตก',
     [
       'EEEBBCBEEE',
       'EE.BCBB.EE',
@@ -260,7 +260,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Kaşif şapkası|Explorer hat|Tropenhelm|Chapeau d\'explorateur|Sombrero de explorador|Cappello da esploratore|探险帽|探検帽|Шляпа исследователя|قبعة المستكشف|Chapéu de explorador|Kapelusz odkrywcy|Καπέλο εξερευνητή|Шапка на изследовател|탐험가 모자|खोजकर्ता की टोपी',
+    'Kaşif şapkası|Explorer hat|Tropenhelm|Chapeau d\'explorateur|Sombrero de explorador|Cappello da esploratore|探险帽|探検帽|Шляпа исследователя|قبعة المستكشف|Chapéu de explorador|Kapelusz odkrywcy|Καπέλο εξερευνητή|Шапка на изследовател|탐험가 모자|खोजकर्ता की टोपी|Ontdekkingsreizigershoed|Капелюх дослідника|Pălărie de explorator|Upptäckarhatt|Oppdagerhatt|Opdagelseshat|Tutkimusmatkailijan hattu|Cestovatelský klobouk|Felfedezőkalap|Topi penjelajah|Sumbrero ng manlalakbay|অভিযাত্রীর টুপি|مہم جو کی ٹوپی|Topi penjelajah|Mũ thám hiểm|کلاه کاوشگر|Kofia ya mvumbuzi|संशोधकाची टोपी|అన్వేషకుని టోపీ|ஆய்வாளர் தொப்பி|ਖੋਜੀ ਦੀ ਟੋਪੀ|หมวกนักสำรวจ',
     [
       '...SSSS...',
       '..SSSSSS..',
@@ -275,7 +275,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Ağaç ev|Tree house|Baumhaus|Cabane dans l\'arbre|Casa del árbol|Casa sull\'albero|树屋|ツリーハウス|Домик на дереве|بيت الشجرة|Casa na árvore|Domek na drzewie|Δεντρόσπιτο|Къща на дърво|나무 위의 집|पेड़ घर',
+    'Ağaç ev|Tree house|Baumhaus|Cabane dans l\'arbre|Casa del árbol|Casa sull\'albero|树屋|ツリーハウス|Домик на дереве|بيت الشجرة|Casa na árvore|Domek na drzewie|Δεντρόσπιτο|Къща на дърво|나무 위의 집|पेड़ घर|Boomhut|Будиночок на дереві|Căsuță în copac|Trädkoja|Trehytte|Træhus|Puumaja|Domek na stromě|Lombház|Rumah pokok|Bahay sa puno|গাছবাড়ি|درخت پر گھر|Rumah pohon|Nhà trên cây|خانه درختی|Nyumba ya mtini|झाडावरचे घर|చెట్టు ఇల్లు|மர வீடு|ਰੁੱਖ ਉੱਤੇ ਘਰ|บ้านต้นไม้',
     [
       '..GGGGGG..',
       '.GGGGGGGG.',
@@ -296,7 +296,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Jaguar|Jaguar|Jaguar|Jaguar|Jaguar|Giaguaro|美洲豹|ジャガー|Ягуар|جاكوار|Onça-pintada|Jaguar|Τζάγκουαρ|Ягуар|재규어|जगुआर',
+    'Jaguar|Jaguar|Jaguar|Jaguar|Jaguar|Giaguaro|美洲豹|ジャガー|Ягуар|جاكوار|Onça-pintada|Jaguar|Τζάγκουαρ|Ягуар|재규어|जगुआर|Jaguar|Ягуар|Jaguar|Jaguar|Jaguar|Jaguar|Jaguaari|Jaguár|Jaguár|Jaguar|Jaguar|জাগুয়ার|جیگوار|Jaguar|Báo đốm|جگوار|Jagwa|जॅग्वार|జాగ్వార్|ஜாகுவார்|ਜੈਗੁਆਰ|เสือจากัวร์',
     [
       '.A......A.',
       'AAA.AA.AAA',
@@ -312,7 +312,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Kapibara|Capybara|Wasserschwein|Capybara|Capibara|Capibara|水豚|カピバラ|Капибара|كابيبارا|Capivara|Kapibara|Καπιμπάρα|Капибара|카피바라|कैपिबारा',
+    'Kapibara|Capybara|Wasserschwein|Capybara|Capibara|Capibara|水豚|カピバラ|Капибара|كابيبارا|Capivara|Kapibara|Καπιμπάρα|Капибара|카피바라|कैपिबारा|Capibara|Капібара|Capibara|Kapybara|Kapybara|Kapivar|Kapybara|Kapybara|Vízidisznó|Kapibara|Capybara|ক্যাপিবারা|کیپیبارا|Kapibara|Chuột lang nước|کاپیبارا|Kapibara|कॅपिबारा|కాపిబారా|கேபிபரா|ਕੈਪੀਬਾਰਾ|คาปิบารา',
     [
       '..OO......',
       '.TTTT.....',
@@ -329,7 +329,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Venüs sinekkapanı|Venus flytrap|Venusfliegenfalle|Dionée|Venus atrapamoscas|Dionea|捕蝇草|ハエトリグサ|Венерина мухоловка|خناق الذباب|Vênus papa-moscas|Muchołówka|Διωναία|Венерина мухоловка|파리지옥|वीनस फ्लाईट्रैप',
+    'Venüs sinekkapanı|Venus flytrap|Venusfliegenfalle|Dionée|Venus atrapamoscas|Dionea|捕蝇草|ハエトリグサ|Венерина мухоловка|خناق الذباب|Vênus papa-moscas|Muchołówka|Διωναία|Венерина мухоловка|파리지옥|वीनस फ्लाईट्रैप|Venusvliegenvanger|Венерина мухоловка|Capcana Venerei|Venusflugfälla|Fluefanger|Fluefanger|Kärpäsloukku|Mucholapka|Vénusz légycsapója|Venus perangkap lalat|Venus flytrap|ভেনাস ফ্লাইট্র্যাপ|مکھی خور پودا|Venus penangkap lalat|Cây bắt ruồi|گیاه گوشت‌خوار|Mmea mla nzi|माशीखाऊ वनस्पती|ఈగలు పట్టే మొక్క|ஈ பிடிக்கும் தாவரம்|ਮੱਖੀ ਖਾਣ ਵਾਲਾ ਪੌਦਾ|ต้นกาบหอยแครง',
     [
       'G.G.G.G...',
       'GGGGGGGG..',
@@ -350,7 +350,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Sinekkuşu|Hummingbird|Kolibri|Colibri|Colibrí|Colibrì|蜂鸟|ハチドリ|Колибри|طائر الطنان|Beija-flor|Koliber|Κολιμπρί|Колибри|벌새|हमिंगबर्ड',
+    'Sinekkuşu|Hummingbird|Kolibri|Colibri|Colibrí|Colibrì|蜂鸟|ハチドリ|Колибри|طائر الطنان|Beija-flor|Koliber|Κολιμπρί|Колибри|벌새|हमिंगबर्ड|Kolibrie|Колібрі|Colibri|Kolibri|Kolibri|Kolibri|Kolibri|Kolibřík|Kolibri|Burung kolibri|Hummingbird|হামিংবার্ড|ہمنگ برڈ|Burung kolibri|Chim ruồi|مرغ مگس‌خوار|Kolibri|हमिंगबर्ड|హమ్మింగ్‌బర్డ్|ரீங்காரச் சிட்டு|ਹਮਿੰਗਬਰਡ|นกฮัมมิงเบิร์ด',
     [
       'C.........',
       'CC........',
@@ -369,7 +369,7 @@ final jungleArt = <LevelArt>[
   ),
   art(
     17,
-    'Karınca|Ant|Ameise|Fourmi|Hormiga|Formica|蚂蚁|アリ|Муравей|نملة|Formiga|Mrówka|Μυρμήγκι|Мравка|개미|चींटी',
+    'Karınca|Ant|Ameise|Fourmi|Hormiga|Formica|蚂蚁|アリ|Муравей|نملة|Formiga|Mrówka|Μυρμήγκι|Мравка|개미|चींटी|Mier|Мураха|Furnică|Myra|Maur|Myre|Muurahainen|Mravenec|Hangya|Semut|Langgam|পিঁপড়া|چیونٹی|Semut|Con kiến|مورچه|Sisimizi|मुंगी|చీమ|எறும்பு|ਕੀੜੀ|มด',
     [
       '..K....K..',
       '...K..K...',

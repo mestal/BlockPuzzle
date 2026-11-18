@@ -1,6 +1,6 @@
 {
   "id": 100,
-  "name": {"de": "Skorpion", "en": "Scorpion", "es": "Escorpión", "fr": "Scorpion", "it": "Scorpione", "pl": "Skorpion", "pt": "Escorpião", "tr": "Akrep", "el": "Σκορπιός", "bg": "Скорпион", "ru": "Скорпион", "ar": "عقرب", "hi": "बिच्छू", "zh": "蝎子", "ja": "サソリ", "ko": "전갈"},
+  "name": {"id": "Kalajengking", "ms": "Kala jengking", "da": "Skorpion", "de": "Skorpion", "en": "Scorpion", "es": "Escorpión", "fil": "Alakdan", "fr": "Scorpion", "it": "Scorpione", "sw": "Nge", "hu": "Skorpió", "nl": "Schorpioen", "nb": "Skorpion", "pl": "Skorpion", "pt": "Escorpião", "ro": "Scorpion", "fi": "Skorpioni", "sv": "Skorpion", "vi": "Bọ cạp", "tr": "Akrep", "cs": "Štír", "el": "Σκορπιός", "bg": "Скорпион", "ru": "Скорпион", "uk": "Скорпіон", "ur": "بچھو", "ar": "عقرب", "fa": "عقرب", "mr": "विंचू", "hi": "बिच्छू", "bn": "বিছা", "pa": "ਬਿੱਛੂ", "ta": "தேள்", "te": "తేలు", "th": "แมงป่อง", "zh": "蝎子", "ja": "サソリ", "ko": "전갈"},
   "solution": ["..........", "..........", "...#..#...", "..##..##..", "..#....#..", "...#..#...", "....##....", "...####...", ".#######..", ".#.####.##", "#..####..#", "....##....", "....##....", "..........", ".........."],
   "colors":   ["..........", "..........", "...O..O...", "..OO..OO..", "..O....O..", "...O..O...", "....OO....", "...OOOO...", ".OOOOOOO..", ".O.OOOO.OO", "O..OOOO..O", "....OO....", "....OO....", "..........", ".........."],
   "palette":  { "O": "#F97316" }

@@ -1,6 +1,6 @@
 {
   "id": 261,
-  "name": {"de": "Wassermelone", "en": "Watermelon", "es": "Sandía", "fr": "Pastèque", "it": "Anguria", "pl": "Arbuz", "pt": "Melancia", "tr": "Karpuz", "el": "Καρπούζι", "bg": "Диня", "ru": "Арбуз", "ar": "بطيخ", "hi": "तरबूज", "zh": "西瓜", "ja": "スイカ", "ko": "수박"},
+  "name": {"id": "Semangka", "ms": "Tembikai", "da": "Vandmelon", "de": "Wassermelone", "en": "Watermelon", "es": "Sandía", "fil": "Pakwan", "fr": "Pastèque", "it": "Anguria", "sw": "Tikiti maji", "hu": "Görögdinnye", "nl": "Watermeloen", "nb": "Vannmelon", "pl": "Arbuz", "pt": "Melancia", "ro": "Pepene verde", "fi": "Vesimeloni", "sv": "Vattenmelon", "vi": "Dưa hấu", "tr": "Karpuz", "cs": "Meloun", "el": "Καρπούζι", "bg": "Диня", "ru": "Арбуз", "uk": "Кавун", "ur": "تربوز", "ar": "بطيخ", "fa": "هندوانه", "mr": "कलिंगड", "hi": "तरबूज", "bn": "তরমুজ", "pa": "ਤਰਬੂਜ਼", "ta": "தர்பூசணி", "te": "పుచ్చకాయ", "th": "แตงโม", "zh": "西瓜", "ja": "スイカ", "ko": "수박"},
   "solution": ["#..#...#..", "##........", "###.......", "####......", "#.###..#..", "######....", "##.####...", "########..", "#.##.####.", "##########"],
   "colors":   ["G..Y...Y..", "WG........", "RWG.......", "RRWG......", "R.RWG..Y..", "RRRRWG....", "RR.RRWG...", "RRRRRRWG..", "R.RR.RRWG.", "RRRRRRRRWG"],
   "palette":  { "G": "#22C55E", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

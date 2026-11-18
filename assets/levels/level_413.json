@@ -1,6 +1,6 @@
 {
   "id": 413,
-  "name": {"de": "Schaukel", "en": "Swing", "es": "Columpio", "fr": "Balançoire", "it": "Altalena", "pl": "Huśtawka", "pt": "Balanço", "tr": "Salıncak", "el": "Κούνια", "bg": "Люлка", "ru": "Качели", "ar": "أرجوحة", "hi": "झूला", "zh": "秋千", "ja": "ブランコ", "ko": "그네"},
+  "name": {"id": "Ayunan", "ms": "Buaian", "da": "Gynge", "de": "Schaukel", "en": "Swing", "es": "Columpio", "fil": "Duyan", "fr": "Balançoire", "it": "Altalena", "sw": "Bembea", "hu": "Hinta", "nl": "Schommel", "nb": "Huske", "pl": "Huśtawka", "pt": "Balanço", "ro": "Leagăn", "fi": "Keinu", "sv": "Gunga", "vi": "Xích đu", "tr": "Salıncak", "cs": "Houpačka", "el": "Κούνια", "bg": "Люлка", "ru": "Качели", "uk": "Гойдалка", "ur": "جھولا", "ar": "أرجوحة", "fa": "تاب", "mr": "झोका", "hi": "झूला", "bn": "দোলনা", "pa": "ਝੂਲਾ", "ta": "ஊஞ்சல்", "te": "ఊయల", "th": "ชิงช้า", "zh": "秋千", "ja": "ブランコ", "ko": "그네"},
   "solution": ["##########", ".#...#....", ".#...#....", "..#...#.#.", "..#...#...", "#.##......", "...#.#.#.#", "...#...#..", "...#...#..", "....#...#.", "#..#######", "...#######", "..........", ".#.#..#.#.", "##########"],
   "colors":   ["GGTTTTTTTG", ".E...E....", ".E...E....", "..E...E.Y.", "..E...E...", "Y.EE......", "...E.Y.E.Y", "...E...E..", "...E...E..", "....E...E.", "Y..TTTTTTT", "...TTTTTTT", "..........", ".G.G..G.G.", "GGGGGGGGGG"],
   "palette":  { "E": "#94A3B8", "G": "#22C55E", "T": "#92400E", "Y": "#FACC15" }

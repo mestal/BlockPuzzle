@@ -1,6 +1,6 @@
 {
   "id": 222,
-  "name": {"de": "Straßenbahn", "en": "Tram", "es": "Tranvía", "fr": "Tramway", "it": "Tram", "pl": "Tramwaj", "pt": "Bonde", "tr": "Tramvay", "el": "Τραμ", "bg": "Трамвай", "ru": "Трамвай", "ar": "ترام", "hi": "ट्राम", "zh": "有轨电车", "ja": "路面電車", "ko": "트램"},
+  "name": {"id": "Trem", "ms": "Trem", "da": "Sporvogn", "de": "Straßenbahn", "en": "Tram", "es": "Tranvía", "fil": "Tram", "fr": "Tramway", "it": "Tram", "sw": "Tramu", "hu": "Villamos", "nl": "Tram", "nb": "Trikk", "pl": "Tramwaj", "pt": "Bonde", "ro": "Tramvai", "fi": "Raitiovaunu", "sv": "Spårvagn", "vi": "Xe điện", "tr": "Tramvay", "cs": "Tramvaj", "el": "Τραμ", "bg": "Трамвай", "ru": "Трамвай", "uk": "Трамвай", "ur": "ٹرام", "ar": "ترام", "fa": "تراموا", "mr": "ट्राम", "hi": "ट्राम", "bn": "ট্রাম", "pa": "ਟਰਾਮ", "ta": "டிராம்", "te": "ట్రామ్", "th": "รถราง", "zh": "有轨电车", "ja": "路面電車", "ko": "트램"},
   "solution": ["#..#.#.#..", "....#.....", "..######..", ".########.", ".########.", ".########.", ".########.", ".########.", "..#....#..", "##########"],
   "colors":   ["Y..K.K.Y..", "....K.....", "..RRRRRR..", ".RCCCCCCR.", ".RCCCCCCR.", ".RRRRRRRR.", ".RWRRRRWR.", ".RRRRRRRR.", "..K....K..", "EEEEEEEEEE"],
   "palette":  { "C": "#22D3EE", "E": "#94A3B8", "K": "#1F2937", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

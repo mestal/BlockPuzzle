@@ -1,6 +1,6 @@
 {
   "id": 362,
-  "name": {"de": "Alter Schlüssel", "en": "Old key", "es": "Llave antigua", "fr": "Vieille clé", "it": "Chiave antica", "pl": "Stary klucz", "pt": "Chave antiga", "tr": "Eski anahtar", "el": "Παλιό κλειδί", "bg": "Стар ключ", "ru": "Старый ключ", "ar": "مفتاح قديم", "hi": "पुरानी चाबी", "zh": "古钥匙", "ja": "古い鍵", "ko": "낡은 열쇠"},
+  "name": {"id": "Kunci kuno", "ms": "Kunci lama", "da": "Gammel nøgle", "de": "Alter Schlüssel", "en": "Old key", "es": "Llave antigua", "fil": "Lumang susi", "fr": "Vieille clé", "it": "Chiave antica", "sw": "Ufunguo wa zamani", "hu": "Régi kulcs", "nl": "Oude sleutel", "nb": "Gammel nøkkel", "pl": "Stary klucz", "pt": "Chave antiga", "ro": "Cheie veche", "fi": "Vanha avain", "sv": "Gammal nyckel", "vi": "Chìa khóa cổ", "tr": "Eski anahtar", "cs": "Starý klíč", "el": "Παλιό κλειδί", "bg": "Стар ключ", "ru": "Старый ключ", "uk": "Старий ключ", "ur": "پرانی چابی", "ar": "مفتاح قديم", "fa": "کلید قدیمی", "mr": "जुनी किल्ली", "hi": "पुरानी चाबी", "bn": "পুরনো চাবি", "pa": "ਪੁਰਾਣੀ ਚਾਬੀ", "ta": "பழைய சாவி", "te": "పాత తాళం చెవి", "th": "กุญแจโบราณ", "zh": "古钥匙", "ja": "古い鍵", "ko": "낡은 열쇠"},
   "solution": ["...##.#...", "....#.....", "#...#.....", ".####.....", "....##....", ".....##...", "......##..", "......###.", "......#.##", ".....##..#"],
   "colors":   ["...AA.A...", "....A.....", "A...A.....", ".AAAA.....", "....AA....", ".....AA...", "......AA..", "......AAA.", "......A.AA", ".....AA..A"],
   "palette":  { "A": "#F59E0B" }

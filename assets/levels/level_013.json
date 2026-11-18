@@ -1,6 +1,6 @@
 {
   "id": 13,
-  "name": {"de": "Eis", "en": "Ice cream", "es": "Helado", "fr": "Glace", "it": "Gelato", "pl": "Lody", "pt": "Sorvete", "tr": "Dondurma", "el": "Παγωτό", "bg": "Сладолед", "ru": "Мороженое", "ar": "آيس كريم", "hi": "आइसक्रीम", "zh": "冰淇淋", "ja": "アイスクリーム", "ko": "아이스크림"},
+  "name": {"id": "Es krim", "ms": "Aiskrim", "da": "Is", "de": "Eis", "en": "Ice cream", "es": "Helado", "fil": "Sorbetes", "fr": "Glace", "it": "Gelato", "sw": "Aiskrimu", "hu": "Fagylalt", "nl": "IJsje", "nb": "Is", "pl": "Lody", "pt": "Sorvete", "ro": "Înghețată", "fi": "Jäätelö", "sv": "Glass", "vi": "Kem", "tr": "Dondurma", "cs": "Zmrzlina", "el": "Παγωτό", "bg": "Сладолед", "ru": "Мороженое", "uk": "Морозиво", "ur": "آئس کریم", "ar": "آيس كريم", "fa": "بستنی", "mr": "आइस्क्रीम", "hi": "आइसक्रीम", "bn": "আইসক্রিম", "pa": "ਆਈਸਕ੍ਰੀਮ", "ta": "ஐஸ்கிரீம்", "te": "ఐస్‌క్రీమ్", "th": "ไอศกรีม", "zh": "冰淇淋", "ja": "アイスクリーム", "ko": "아이스크림"},
   "solution": [".###.", "#####", "#####", ".###.", "#####", "#####", "#####", ".###.", ".###.", "..#.."],
   "colors":   [".PPP.", "PPPPP", "PJPPP", ".WWW.", "WWWWW", "WLWWW", "AAAAA", ".AAA.", ".AAA.", "..A.."],
   "palette":  { "A": "#F59E0B", "J": "#FBCFE8", "L": "#E2E8F0", "P": "#F472B6", "W": "#FFFFFF" }

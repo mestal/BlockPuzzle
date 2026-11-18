@@ -1,6 +1,6 @@
 {
   "id": 6,
-  "name": {"de": "Apfel", "en": "Apple", "es": "Manzana", "fr": "Pomme", "it": "Mela", "pl": "Jabłko", "pt": "Maçã", "tr": "Elma", "el": "Μήλο", "bg": "Ябълка", "ru": "Яблоко", "ar": "تفاحة", "hi": "सेब", "zh": "苹果", "ja": "リンゴ", "ko": "사과"},
+  "name": {"id": "Apel", "ms": "Epal", "da": "Æble", "de": "Apfel", "en": "Apple", "es": "Manzana", "fil": "Mansanas", "fr": "Pomme", "it": "Mela", "sw": "Tufaha", "hu": "Alma", "nl": "Appel", "nb": "Eple", "pl": "Jabłko", "pt": "Maçã", "ro": "Măr", "fi": "Omena", "sv": "Äpple", "vi": "Quả táo", "tr": "Elma", "cs": "Jablko", "el": "Μήλο", "bg": "Ябълка", "ru": "Яблоко", "uk": "Яблуко", "ur": "سیب", "ar": "تفاحة", "fa": "سیب", "mr": "सफरचंद", "hi": "सेब", "bn": "আপেল", "pa": "ਸੇਬ", "ta": "ஆப்பிள்", "te": "ఆపిల్", "th": "แอปเปิล", "zh": "苹果", "ja": "リンゴ", "ko": "사과"},
   "solution": ["..##.", ".###.", "#####", "#####", ".###."],
   "colors":   ["..TG.", ".RRR.", "RWRRR", "RRRRR", ".RRR."],
   "palette":  { "G": "#22C55E", "R": "#E8453C", "T": "#92400E", "W": "#FFFFFF" }

@@ -1,6 +1,6 @@
 {
   "id": 329,
-  "name": {"de": "Chamäleon", "en": "Chameleon", "es": "Camaleón", "fr": "Caméléon", "it": "Camaleonte", "pl": "Kameleon", "pt": "Camaleão", "tr": "Bukalemun", "el": "Χαμαιλέοντας", "bg": "Хамелеон", "ru": "Хамелеон", "ar": "حرباء", "hi": "गिरगिट", "zh": "变色龙", "ja": "カメレオン", "ko": "카멜레온"},
+  "name": {"id": "Bunglon", "ms": "Sesumpah", "da": "Kamæleon", "de": "Chamäleon", "en": "Chameleon", "es": "Camaleón", "fil": "Hunyango", "fr": "Caméléon", "it": "Camaleonte", "sw": "Kinyonga", "hu": "Kaméleon", "nl": "Kameleon", "nb": "Kameleon", "pl": "Kameleon", "pt": "Camaleão", "ro": "Cameleon", "fi": "Kameleontti", "sv": "Kameleont", "vi": "Tắc kè hoa", "tr": "Bukalemun", "cs": "Chameleon", "el": "Χαμαιλέοντας", "bg": "Хамелеон", "ru": "Хамелеон", "uk": "Хамелеон", "ur": "گرگٹ", "ar": "حرباء", "fa": "آفتاب‌پرست", "mr": "सरडा", "hi": "गिरगिट", "bn": "গিরগিটি", "pa": "ਗਿਰਗਿਟ", "ta": "பச்சோந்தி", "te": "ఊసరవెల్లి", "th": "กิ้งก่าคาเมเลียน", "zh": "变色龙", "ja": "カメレオン", "ko": "카멜레온"},
   "solution": ["#......#..", "..####....", ".##.###...", "########..", ".########.", "..########", "...#..#.##", "########.#", ".....#####", "...#.#....", ".....#.##.", ".....#..#.", ".....####.", "...#......", ".......#.."],
   "colors":   ["Y......Y..", "..GGGG....", ".GG.GGG...", "GGGGGGGG..", ".GGZZZGGG.", "..GGGGGGGG", "...G..G.GG", "HHHHHHHH.G", ".....GGGGG", "...Y.G....", ".....G.GG.", ".....G..G.", ".....GGGG.", "...Y......", ".......Y.."],
   "palette":  { "G": "#22C55E", "H": "#5B3410", "Y": "#FACC15", "Z": "#A3E635" }

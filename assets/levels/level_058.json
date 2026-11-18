@@ -1,6 +1,6 @@
 {
   "id": 58,
-  "name": {"de": "Fledermaus", "en": "Bat", "es": "Murciélago", "fr": "Chauve-souris", "it": "Pipistrello", "pl": "Nietoperz", "pt": "Morcego", "tr": "Yarasa", "el": "Νυχτερίδα", "bg": "Прилеп", "ru": "Летучая мышь", "ar": "خفاش", "hi": "चमगादड़", "zh": "蝙蝠", "ja": "コウモリ", "ko": "박쥐"},
+  "name": {"id": "Kelelawar", "ms": "Kelawar", "da": "Flagermus", "de": "Fledermaus", "en": "Bat", "es": "Murciélago", "fil": "Paniki", "fr": "Chauve-souris", "it": "Pipistrello", "sw": "Popo", "hu": "Denevér", "nl": "Vleermuis", "nb": "Flaggermus", "pl": "Nietoperz", "pt": "Morcego", "ro": "Liliac", "fi": "Lepakko", "sv": "Fladdermus", "vi": "Con dơi", "tr": "Yarasa", "cs": "Netopýr", "el": "Νυχτερίδα", "bg": "Прилеп", "ru": "Летучая мышь", "uk": "Кажан", "ur": "چمگادڑ", "ar": "خفاش", "fa": "خفاش", "mr": "वटवाघूळ", "hi": "चमगादड़", "bn": "বাদুড়", "pa": "ਚਮਗਿੱਦੜ", "ta": "வௌவால்", "te": "గబ్బిలం", "th": "ค้างคาว", "zh": "蝙蝠", "ja": "コウモリ", "ko": "박쥐"},
   "solution": ["..........", "..#....#..", ".###..###.", ".########.", ".########.", "..######..", "...####...", "..#.##.#..", "....##....", ".........."],
   "colors":   ["..........", "..U....U..", ".UUU..UUU.", ".UUUUUUUU.", ".UUUYUYUU.", "..UUUUUU..", "...UUUU...", "..U.UU.U..", "....UU....", ".........."],
   "palette":  { "U": "#5B21B6", "Y": "#FACC15" }

@@ -1,6 +1,6 @@
 {
   "id": 381,
-  "name": {"de": "Löwe", "en": "Lion", "es": "León", "fr": "Lion", "it": "Leone", "pl": "Lew", "pt": "Leão", "tr": "Aslan", "el": "Λιοντάρι", "bg": "Лъв", "ru": "Лев", "ar": "أسد", "hi": "शेर", "zh": "狮子", "ja": "ライオン", "ko": "사자"},
+  "name": {"id": "Singa", "ms": "Singa", "da": "Løve", "de": "Löwe", "en": "Lion", "es": "León", "fil": "Leon", "fr": "Lion", "it": "Leone", "sw": "Simba", "hu": "Oroszlán", "nl": "Leeuw", "nb": "Løve", "pl": "Lew", "pt": "Leão", "ro": "Leu", "fi": "Leijona", "sv": "Lejon", "vi": "Sư tử", "tr": "Aslan", "cs": "Lev", "el": "Λιοντάρι", "bg": "Лъв", "ru": "Лев", "uk": "Лев", "ur": "شیر", "ar": "أسد", "fa": "شیر", "mr": "सिंह", "hi": "शेर", "bn": "সিংহ", "pa": "ਸ਼ੇਰ", "ta": "சிங்கம்", "te": "సింహం", "th": "สิงโต", "zh": "狮子", "ja": "ライオン", "ko": "사자"},
   "solution": [".#.#..#.#.", "##########", ".########.", "###.##.###", ".########.", "##########", ".########.", "##.####.##", ".#.####.#.", "..#....#.."],
   "colors":   [".O.O..O.O.", "OOOOOOOOOO", ".OOAAAAOO.", "OOA.AA.AOO", ".OAAAAAAO.", "OOAAKKAAOO", ".OAAAAAAO.", "OO.AAAA.OO", ".O.OOOO.O.", "..O....O.."],
   "palette":  { "A": "#F59E0B", "K": "#1F2937", "O": "#F97316" }

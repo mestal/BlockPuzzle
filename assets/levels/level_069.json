@@ -1,6 +1,6 @@
 {
   "id": 69,
-  "name": {"de": "Gummibär", "en": "Gummy bear", "es": "Osito de goma", "fr": "Ourson en gélatine", "it": "Orsetto gommoso", "pl": "Żelkowy miś", "pt": "Ursinho de goma", "tr": "Jelibon ayı", "el": "Ζελεδάκι αρκουδάκι", "bg": "Желирано мече", "ru": "Мармеладный мишка", "ar": "دب الجيلي", "hi": "गमी बेयर", "zh": "小熊软糖", "ja": "グミベア", "ko": "젤리곰"},
+  "name": {"id": "Permen beruang", "ms": "Gula-gula beruang", "da": "Vingummibamse", "de": "Gummibär", "en": "Gummy bear", "es": "Osito de goma", "fil": "Gummy bear", "fr": "Ourson en gélatine", "it": "Orsetto gommoso", "sw": "Peremende ya dubu", "hu": "Gumimaci", "nl": "Gummibeertje", "nb": "Gelébamse", "pl": "Żelkowy miś", "pt": "Ursinho de goma", "ro": "Ursuleț de jeleu", "fi": "Nallekarkki", "sv": "Gelébjörn", "vi": "Kẹo dẻo gấu", "tr": "Jelibon ayı", "cs": "Gumový medvídek", "el": "Ζελεδάκι αρκουδάκι", "bg": "Желирано мече", "ru": "Мармеладный мишка", "uk": "Желейний ведмедик", "ur": "جیلی بھالو", "ar": "دب الجيلي", "fa": "پاستیل خرسی", "mr": "जेली अस्वल", "hi": "गमी बेयर", "bn": "জেলি ভালুক", "pa": "ਜੈਲੀ ਭਾਲੂ", "ta": "ஜெல்லி கரடி", "te": "జెల్లీ ఎలుగుబంటి", "th": "เยลลี่หมี", "zh": "小熊软糖", "ja": "グミベア", "ko": "젤리곰"},
   "solution": [".##....##.", "##########", ".########.", ".########.", ".########.", "..######..", "##########", "##########", ".########.", ".###..###."],
   "colors":   [".RR....RR.", "RRRRRRRRRR", ".RRRRRRRR.", ".RKRRRRKR.", ".RRRXXRRR.", "..RRRRRR..", "RRRRRRRRRR", "RRRRRRRRRR", ".RRRRRRRR.", ".RRR..RRR."],
   "palette":  { "K": "#1F2937", "R": "#E8453C", "X": "#991B1B" }

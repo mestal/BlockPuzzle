@@ -1,6 +1,6 @@
 {
   "id": 415,
-  "name": {"de": "Regenwurm", "en": "Earthworm", "es": "Lombriz", "fr": "Ver de terre", "it": "Lombrico", "pl": "Dżdżownica", "pt": "Minhoca", "tr": "Solucan", "el": "Γαιοσκώληκας", "bg": "Земен червей", "ru": "Дождевой червь", "ar": "دودة الأرض", "hi": "केंचुआ", "zh": "蚯蚓", "ja": "ミミズ", "ko": "지렁이"},
+  "name": {"id": "Cacing tanah", "ms": "Cacing tanah", "da": "Regnorm", "de": "Regenwurm", "en": "Earthworm", "es": "Lombriz", "fil": "Bulate", "fr": "Ver de terre", "it": "Lombrico", "sw": "Nyungunyungu", "hu": "Giliszta", "nl": "Regenworm", "nb": "Meitemark", "pl": "Dżdżownica", "pt": "Minhoca", "ro": "Râmă", "fi": "Kastemato", "sv": "Daggmask", "vi": "Giun đất", "tr": "Solucan", "cs": "Žížala", "el": "Γαιοσκώληκας", "bg": "Земен червей", "ru": "Дождевой червь", "uk": "Дощовий черв’як", "ur": "کیچوا", "ar": "دودة الأرض", "fa": "کرم خاکی", "mr": "गांडूळ", "hi": "केंचुआ", "bn": "কেঁচো", "pa": "ਗੰਡੋਆ", "ta": "மண்புழு", "te": "వానపాము", "th": "ไส้เดือน", "zh": "蚯蚓", "ja": "ミミズ", "ko": "지렁이"},
   "solution": ["...##.....", "..#.##....", "..####....", "....##....", ".....##...", "......##..", "......##..", ".....##...", "#...##....", "...##.....", "...##.....", "....##....", "#.#..###.#", "####.#####", "##########"],
   "colors":   ["...PP.....", "..P.PP....", "..PPPP....", "....PP....", ".....PP...", "......PP..", "......PP..", ".....PP...", "Y...PP....", "...PP.....", "...PP.....", "....PP....", "T.T..PPT.T", "TTTT.TTTTT", "TTTTTTTTTT"],
   "palette":  { "P": "#F472B6", "T": "#92400E", "Y": "#FACC15" }

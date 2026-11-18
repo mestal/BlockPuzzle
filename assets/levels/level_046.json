@@ -1,6 +1,6 @@
 {
   "id": 46,
-  "name": {"de": "Laterne", "en": "Lantern", "es": "Farol", "fr": "Lanterne", "it": "Lanterna", "pl": "Latarnia", "pt": "Lanterna", "tr": "Fener", "el": "Φανάρι", "bg": "Фенер", "ru": "Фонарь", "ar": "فانوس", "hi": "लालटेन", "zh": "灯笼", "ja": "ランタン", "ko": "랜턴"},
+  "name": {"id": "Lentera", "ms": "Tanglung", "da": "Lygte", "de": "Laterne", "en": "Lantern", "es": "Farol", "fil": "Parol", "fr": "Lanterne", "it": "Lanterna", "sw": "Taa ya kandili", "hu": "Lámpás", "nl": "Lantaarn", "nb": "Lykt", "pl": "Latarnia", "pt": "Lanterna", "ro": "Felinar", "fi": "Lyhty", "sv": "Lykta", "vi": "Đèn lồng", "tr": "Fener", "cs": "Lucerna", "el": "Φανάρι", "bg": "Фенер", "ru": "Фонарь", "uk": "Ліхтар", "ur": "لالٹین", "ar": "فانوس", "fa": "فانوس", "mr": "कंदील", "hi": "लालटेन", "bn": "লণ্ঠন", "pa": "ਲਾਲਟੈਣ", "ta": "லாந்தர்", "te": "లాంతరు", "th": "ตะเกียง", "zh": "灯笼", "ja": "ランタン", "ko": "랜턴"},
   "solution": ["...###....", "..#...#...", ".#######..", ".#######..", ".#######..", ".#######..", ".#######..", ".#######..", "...###....", ".........."],
   "colors":   ["...KKK....", "..K...K...", ".KKKKKKK..", ".KYYYYYK..", ".KYOOOYK..", ".KYOOOYK..", ".KYYYYYK..", ".KKKKKKK..", "...KKK....", ".........."],
   "palette":  { "K": "#1F2937", "O": "#F97316", "Y": "#FACC15" }

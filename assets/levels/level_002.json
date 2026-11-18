@@ -1,6 +1,6 @@
 {
   "id": 2,
-  "name": {"de": "Haus", "en": "House", "es": "Casa", "fr": "Maison", "it": "Casa", "pl": "Dom", "pt": "Casa", "tr": "Ev", "el": "Σπίτι", "bg": "Къща", "ru": "Дом", "ar": "بيت", "hi": "घर", "zh": "房子", "ja": "家", "ko": "집"},
+  "name": {"id": "Rumah", "ms": "Rumah", "da": "Hus", "de": "Haus", "en": "House", "es": "Casa", "fil": "Bahay", "fr": "Maison", "it": "Casa", "sw": "Nyumba", "hu": "Ház", "nl": "Huis", "nb": "Hus", "pl": "Dom", "pt": "Casa", "ro": "Casă", "fi": "Talo", "sv": "Hus", "vi": "Ngôi nhà", "tr": "Ev", "cs": "Dům", "el": "Σπίτι", "bg": "Къща", "ru": "Дом", "uk": "Будинок", "ur": "گھر", "ar": "بيت", "fa": "خانه", "mr": "घर", "hi": "घर", "bn": "বাড়ি", "pa": "ਘਰ", "ta": "வீடு", "te": "ఇల్లు", "th": "บ้าน", "zh": "房子", "ja": "家", "ko": "집"},
   "solution": ["..#..", ".###.", "#####", "##.##", "##.##"],
   "colors":   ["..R..", ".RRR.", "YYBYY", "YY.YY", "YY.YY"],
   "palette":  { "B": "#3B82F6", "R": "#E8453C", "Y": "#FACC15" }

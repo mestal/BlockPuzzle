@@ -7,7 +7,7 @@ import '../level_art.dart';
 final pirateArt = <LevelArt>[
   art(
     23,
-    'Korsan gemisi|Pirate ship|Piratenschiff|Bateau pirate|Barco pirata|Nave pirata|海盗船|海賊船|Пиратский корабль|سفينة القراصنة|Navio pirata|Statek piracki|Πειρατικό πλοίο|Пиратски кораб|해적선|समुद्री डाकू जहाज़',
+    'Korsan gemisi|Pirate ship|Piratenschiff|Bateau pirate|Barco pirata|Nave pirata|海盗船|海賊船|Пиратский корабль|سفينة القراصنة|Navio pirata|Statek piracki|Πειρατικό πλοίο|Пиратски кораб|해적선|समुद्री डाकू जहाज़|Piratenschip|Піратський корабель|Navă de pirați|Piratskepp|Piratskip|Piratskib|Merirosvolaiva|Pirátská loď|Kalózhajó|Kapal lanun|Barko ng pirata|জলদস্যুর জাহাজ|قزاقوں کا جہاز|Kapal bajak laut|Tàu cướp biển|کشتی دزدان دریایی|Meli ya maharamia|चाच्यांचे जहाज|దొంగల ఓడ|கடற்கொள்ளையர் கப்பல்|ਸਮੁੰਦਰੀ ਡਾਕੂਆਂ ਦਾ ਜਹਾਜ਼|เรือโจรสลัด',
     [
       '....KKK...',
       '.WWWHWWW..',
@@ -26,7 +26,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Hazine haritası|Treasure map|Schatzkarte|Carte au trésor|Mapa del tesoro|Mappa del tesoro|藏宝图|宝の地図|Карта сокровищ|خريطة الكنز|Mapa do tesouro|Mapa skarbów|Χάρτης θησαυρού|Карта на съкровище|보물 지도|खज़ाने का नक्शा',
+    'Hazine haritası|Treasure map|Schatzkarte|Carte au trésor|Mapa del tesoro|Mappa del tesoro|藏宝图|宝の地図|Карта сокровищ|خريطة الكنز|Mapa do tesouro|Mapa skarbów|Χάρτης θησαυρού|Карта на съкровище|보물 지도|खज़ाने का नक्शा|Schatkaart|Карта скарбів|Harta comorii|Skattkarta|Skattekart|Skattekort|Aarrekartta|Mapa pokladu|Kincses térkép|Peta harta karun|Mapa ng kayamanan|গুপ্তধনের মানচিত্র|خزانے کا نقشہ|Peta harta karun|Bản đồ kho báu|نقشه گنج|Ramani ya hazina|खजिन्याचा नकाशा|నిధి పటం|புதையல் வரைபடம்|ਖ਼ਜ਼ਾਨੇ ਦਾ ਨਕਸ਼ਾ|แผนที่สมบัติ',
     [
       'SSSSSSSSSS',
       'S........S',
@@ -46,7 +46,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Korsan şapkası|Pirate hat|Piratenhut|Chapeau de pirate|Sombrero pirata|Cappello da pirata|海盗帽|海賊帽|Пиратская шляпа|قبعة القرصان|Chapéu pirata|Kapelusz piracki|Πειρατικό καπέλο|Пиратска шапка|해적 모자|समुद्री डाकू टोपी',
+    'Korsan şapkası|Pirate hat|Piratenhut|Chapeau de pirate|Sombrero pirata|Cappello da pirata|海盗帽|海賊帽|Пиратская шляпа|قبعة القرصان|Chapéu pirata|Kapelusz piracki|Πειρατικό καπέλο|Пиратска шапка|해적 모자|समुद्री डाकू टोपी|Piratenhoed|Піратський капелюх|Pălărie de pirat|Pirathatt|Piratlue|Piratlue|Merirosvon hattu|Pirátský klobouk|Kalózkalap|Topi lanun|Sumbrero ng pirata|জলদস্যুর টুপি|قزاق کی ٹوپی|Topi bajak laut|Mũ cướp biển|کلاه دزد دریایی|Kofia ya haramia|चाच्याची टोपी|దొంగ టోపీ|கடற்கொள்ளையர் தொப்பி|ਸਮੁੰਦਰੀ ਡਾਕੂ ਦੀ ਟੋਪੀ|หมวกโจรสลัด',
     [
       '....KK....',
       '..KKKKKK..',
@@ -61,7 +61,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Top|Cannon|Kanone|Canon|Cañón|Cannone|大炮|大砲|Пушка|مدفع|Canhão|Armata|Κανόνι|Оръдие|대포|तोप',
+    'Top|Cannon|Kanone|Canon|Cañón|Cannone|大炮|大砲|Пушка|مدفع|Canhão|Armata|Κανόνι|Оръдие|대포|तोप|Kanon|Гармата|Tun|Kanon|Kanon|Kanon|Tykki|Dělo|Ágyú|Meriam|Kanyon|কামান|توپ|Meriam|Khẩu pháo|توپ جنگی|Mzinga|तोफ|ఫిరంగి|பீரங்கி|ਤੋਪ|ปืนใหญ่',
     [
       '........KK',
       '.......KKK',
@@ -81,7 +81,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Kanca|Hook|Haken|Crochet|Garfio|Uncino|铁钩|フック|Крюк|خطاف|Gancho|Hak|Γάντζος|Кука|갈고리|हुक',
+    'Kanca|Hook|Haken|Crochet|Garfio|Uncino|铁钩|フック|Крюк|خطاف|Gancho|Hak|Γάντζος|Кука|갈고리|हुक|Haak|Гак|Cârlig|Krok|Krok|Krog|Koukku|Hák|Kampó|Cangkuk|Kawit|হুক|کانٹا|Kait|Cái móc|قلاب|Ndoano|आकडा|కొక్కెం|கொக்கி|ਕੁੰਡੀ|ตะขอ',
     [
       '...HHHH...',
       '..HHHHHH..',
@@ -99,7 +99,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Dürbün|Spyglass|Fernrohr|Longue-vue|Catalejo|Cannocchiale|单筒望远镜|望遠鏡|Подзорная труба|منظار|Luneta|Luneta|Κιάλι|Далекоглед|망원경|दूरबीन',
+    'Dürbün|Spyglass|Fernrohr|Longue-vue|Catalejo|Cannocchiale|单筒望远镜|望遠鏡|Подзорная труба|منظار|Luneta|Luneta|Κιάλι|Далекоглед|망원경|दूरबीन|Verrekijker|Підзорна труба|Lunetă|Kikare|Kikkert|Kikkert|Kaukoputki|Kukátko|Látcső|Teropong|Largabista|দূরবিন|دوربین|Teropong|Ống nhòm|دوربین تک‌چشمی|Darubini ndogo|दुर्बीण|దూరదర్శిని|தொலைநோக்கி|ਦੂਰਬੀਨ|กล้องส่องทางไกล',
     [
       '........AA',
       '.......AAA',
@@ -116,7 +116,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Dümen|Ship\'s wheel|Steuerrad|Gouvernail|Timón|Timone|船舵|舵輪|Штурвал|دفة السفينة|Leme|Ster|Τιμόνι πλοίου|Щурвал|조타륜|जहाज़ का पहिया',
+    'Dümen|Ship\'s wheel|Steuerrad|Gouvernail|Timón|Timone|船舵|舵輪|Штурвал|دفة السفينة|Leme|Ster|Τιμόνι πλοίου|Щурвал|조타륜|जहाज़ का पहिया|Scheepsroer|Штурвал|Cârmă|Ratt|Ror|Rat|Ruori|Kormidlo|Hajókormány|Roda kemudi|Timon|জাহাজের হাল|جہاز کا پہیہ|Kemudi kapal|Bánh lái tàu|سکان کشتی|Usukani wa meli|सुकाणू|ఓడ చుక్కాని|கப்பல் சுக்கான்|ਜਹਾਜ਼ ਦਾ ਪਹੀਆ|พวงมาลัยเรือ',
     [
       '....H.....',
       '.H.HHH.H..',
@@ -131,7 +131,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Fıçı|Barrel|Fass|Tonneau|Barril|Barile|木桶|樽|Бочка|برميل|Barril|Beczka|Βαρέλι|Бъчва|술통|पीपा',
+    'Fıçı|Barrel|Fass|Tonneau|Barril|Barile|木桶|樽|Бочка|برميل|Barril|Beczka|Βαρέλι|Бъчва|술통|पीपा|Ton|Бочка|Butoi|Tunna|Tønne|Tønde|Tynnyri|Sud|Hordó|Tong|Bariles|পিপে|بیرل|Tong kayu|Thùng gỗ|بشکه|Pipa|पिंप|పీపా|பீப்பாய்|ਢੋਲ|ถังไม้',
     [
       '..TTTTTT..',
       '.EEEEEEEE.',
@@ -148,7 +148,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Altın para|Gold coin|Goldmünze|Pièce d\'or|Moneda de oro|Moneta d\'oro|金币|金貨|Золотая монета|عملة ذهبية|Moeda de ouro|Złota moneta|Χρυσό νόμισμα|Златна монета|금화|सोने का सिक्का',
+    'Altın para|Gold coin|Goldmünze|Pièce d\'or|Moneda de oro|Moneta d\'oro|金币|金貨|Золотая монета|عملة ذهبية|Moeda de ouro|Złota moneta|Χρυσό νόμισμα|Златна монета|금화|सोने का सिक्का|Gouden munt|Золота монета|Monedă de aur|Guldmynt|Gullmynt|Guldmønt|Kultakolikko|Zlatá mince|Aranyérme|Syiling emas|Gintong barya|সোনার মুদ্রা|سونے کا سکہ|Koin emas|Đồng tiền vàng|سکه طلا|Sarafu ya dhahabu|सोन्याचे नाणे|బంగారు నాణెం|தங்க நாணயம்|ਸੋਨੇ ਦਾ ਸਿੱਕਾ|เหรียญทอง',
     [
       '...AAAA...',
       '.AAAAAAAA.',
@@ -164,7 +164,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Şişedeki mektup|Message in a bottle|Flaschenpost|Bouteille à la mer|Mensaje en una botella|Messaggio in bottiglia|漂流瓶|ボトルメール|Послание в бутылке|رسالة في زجاجة|Mensagem na garrafa|List w butelce|Μήνυμα σε μπουκάλι|Послание в бутилка|병 속의 편지|बोतल में संदेश',
+    'Şişedeki mektup|Message in a bottle|Flaschenpost|Bouteille à la mer|Mensaje en una botella|Messaggio in bottiglia|漂流瓶|ボトルメール|Послание в бутылке|رسالة في زجاجة|Mensagem na garrafa|List w butelce|Μήνυμα σε μπουκάλι|Послание в бутилка|병 속의 편지|बोतल में संदेश|Flessenpost|Лист у пляшці|Mesaj în sticlă|Flaskpost|Flaskepost|Flaskepost|Pullopostia|Vzkaz v láhvi|Palackposta|Pesanan dalam botol|Mensahe sa bote|বোতলে চিঠি|بوتل میں پیغام|Pesan dalam botol|Thư trong chai|پیام در بطری|Ujumbe ndani ya chupa|बाटलीतला संदेश|సీసాలో సందేశం|புட்டியில் செய்தி|ਬੋਤਲ ਵਿੱਚ ਸੁਨੇਹਾ|จดหมายในขวด',
     [
       '.........T',
       '........C.',
@@ -182,7 +182,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Korsan bayrağı|Pirate flag|Piratenflagge|Drapeau pirate|Bandera pirata|Bandiera pirata|海盗旗|海賊旗|Пиратский флаг|علم القراصنة|Bandeira pirata|Bandera piracka|Πειρατική σημαία|Пиратско знаме|해적 깃발|समुद्री डाकू झंडा',
+    'Korsan bayrağı|Pirate flag|Piratenflagge|Drapeau pirate|Bandera pirata|Bandiera pirata|海盗旗|海賊旗|Пиратский флаг|علم القراصنة|Bandeira pirata|Bandera piracka|Πειρατική σημαία|Пиратско знаме|해적 깃발|समुद्री डाकू झंडा|Piratenvlag|Піратський прапор|Steag de pirați|Piratflagga|Piratflagg|Piratflag|Merirosvolippu|Pirátská vlajka|Kalózzászló|Bendera lanun|Watawat ng pirata|জলদস্যুর পতাকা|قزاقوں کا جھنڈا|Bendera bajak laut|Cờ cướp biển|پرچم دزدان دریایی|Bendera ya maharamia|चाच्यांचा झेंडा|దొంగల జెండా|கடற்கொள்ளையர் கொடி|ਸਮੁੰਦਰੀ ਡਾਕੂਆਂ ਦਾ ਝੰਡਾ|ธงโจรสลัด',
     [
       'H.........',
       'HKKKKKKKKK',
@@ -203,7 +203,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Pala|Cutlass|Entermesser|Sabre d\'abordage|Alfanje|Sciabola|弯刀|カトラス|Абордажная сабля|سيف القراصنة|Alfanje|Kordelas|Σπαθί πειρατή|Абордажна сабя|해적 칼|कटलस',
+    'Pala|Cutlass|Entermesser|Sabre d\'abordage|Alfanje|Sciabola|弯刀|カトラス|Абордажная сабля|سيف القراصنة|Alfanje|Kordelas|Σπαθί πειρατή|Абордажна сабя|해적 칼|कटलस|Kortelas|Абордажна шабля|Iatagan|Huggare|Huggert|Huggert|Kaarisapeli|Šavle|Szablya|Pedang lanun|Itak ng pirata|ছোরা তলোয়ার|خنجر نما تلوار|Pedang bajak laut|Kiếm cướp biển|شمشیر کوتاه|Upanga mfupi|तलवार|పిడి కత్తి|வளைவாள்|ਕਿਰਪਾਨ|ดาบโจรสลัด',
     [
       '.........L',
       '........LL',
@@ -221,7 +221,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Kraken|Kraken|Krake|Kraken|Kraken|Kraken|海怪|クラーケン|Кракен|كراكن|Kraken|Kraken|Κράκεν|Кракен|크라켄|क्रैकन',
+    'Kraken|Kraken|Krake|Kraken|Kraken|Kraken|海怪|クラーケン|Кракен|كراكن|Kraken|Kraken|Κράκεν|Кракен|크라켄|क्रैकन|Kraken|Кракен|Kraken|Kraken|Kraken|Kraken|Kraken|Kraken|Kraken|Kraken|Kraken|ক্র্যাকেন|کریکن|Kraken|Thủy quái Kraken|کراکن|Kraken|क्रॅकेन|క్రాకెన్|கிராக்கன்|ਕ੍ਰੈਕਨ|คราเคน',
     [
       '...MMMM...',
       '..MMMMMM..',
@@ -239,7 +239,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Martı|Seagull|Möwe|Mouette|Gaviota|Gabbiano|海鸥|カモメ|Чайка|نورس|Gaivota|Mewa|Γλάρος|Чайка|갈매기|समुद्री चिड़िया',
+    'Martı|Seagull|Möwe|Mouette|Gaviota|Gabbiano|海鸥|カモメ|Чайка|نورس|Gaivota|Mewa|Γλάρος|Чайка|갈매기|समुद्री चिड़िया|Meeuw|Чайка|Pescăruș|Mås|Måke|Måge|Lokki|Racek|Sirály|Burung camar|Gull|গাঙচিল|بحری بگلا|Burung camar|Hải âu|مرغ دریایی|Shakwe|सीगल|సముద్రపు పక్షి|கடற்காகம்|ਸਮੁੰਦਰੀ ਬਗਲਾ|นกนางนวล',
     [
       'W........W',
       'WW......WW',
@@ -257,7 +257,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Kayık|Rowboat|Ruderboot|Barque|Bote de remos|Barca a remi|划艇|手こぎボート|Гребная лодка|قارب تجديف|Barco a remo|Łódka|Βάρκα|Гребна лодка|노 젓는 배|नाव',
+    'Kayık|Rowboat|Ruderboot|Barque|Bote de remos|Barca a remi|划艇|手こぎボート|Гребная лодка|قارب تجديف|Barco a remo|Łódka|Βάρκα|Гребна лодка|노 젓는 배|नाव|Roeiboot|Весловий човен|Barcă cu vâsle|Roddbåt|Robåt|Robåd|Soutuvene|Loďka na vesla|Evezős csónak|Perahu dayung|Bangkang de-sagwan|দাঁড়ের নৌকা|چپو والی کشتی|Perahu dayung|Thuyền chèo|قایق پارویی|Mashua ya makasia|वल्हवण्याची होडी|తెడ్డు పడవ|துடுப்புப் படகு|ਚੱਪੂ ਵਾਲੀ ਕਿਸ਼ਤੀ|เรือพาย',
     [
       'T........T',
       '.T......T.',
@@ -272,7 +272,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Korsan|Pirate|Pirat|Pirate|Pirata|Pirata|海盗|海賊|Пират|قرصان|Pirata|Pirat|Πειρατής|Пират|해적|समुद्री डाकू',
+    'Korsan|Pirate|Pirat|Pirate|Pirata|Pirata|海盗|海賊|Пират|قرصان|Pirata|Pirat|Πειρατής|Пират|해적|समुद्री डाकू|Piraat|Пірат|Pirat|Pirat|Pirat|Pirat|Merirosvo|Pirát|Kalóz|Lanun|Pirata|জলদস্যু|قزاق|Bajak laut|Cướp biển|دزد دریایی|Haramia|चाचा|సముద్రపు దొంగ|கடற்கொள்ளையன்|ਸਮੁੰਦਰੀ ਡਾਕੂ|โจรสลัด',
     [
       '..RRRRRR..',
       '.RRWRRRWRR',
@@ -290,7 +290,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'İnci kolye|Pearl necklace|Perlenkette|Collier de perles|Collar de perlas|Collana di perle|珍珠项链|真珠のネックレス|Жемчужное ожерелье|عقد لؤلؤ|Colar de pérolas|Naszyjnik z pereł|Μαργαριταρένιο κολιέ|Перлена огърлица|진주 목걸이|मोतियों का हार',
+    'İnci kolye|Pearl necklace|Perlenkette|Collier de perles|Collar de perlas|Collana di perle|珍珠项链|真珠のネックレス|Жемчужное ожерелье|عقد لؤلؤ|Colar de pérolas|Naszyjnik z pereł|Μαργαριταρένιο κολιέ|Перлена огърлица|진주 목걸이|मोतियों का हार|Parelketting|Намисто з перлів|Colier de perle|Pärlhalsband|Perlekjede|Perlekæde|Helmikaulakoru|Perlový náhrdelník|Gyöngysor|Rantai mutiara|Kuwintas na perlas|মুক্তার মালা|موتیوں کا ہار|Kalung mutiara|Chuỗi ngọc trai|گردنبند مروارید|Mkufu wa lulu|मोत्यांचा हार|ముత్యాల హారం|முத்து மாலை|ਮੋਤੀਆਂ ਦਾ ਹਾਰ|สร้อยไข่มุก',
     [
       'WW......WW',
       '.W......W.',
@@ -306,7 +306,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Lomboz|Porthole|Bullauge|Hublot|Ojo de buey|Oblò|舷窗|舷窓|Иллюминатор|كوة السفينة|Escotilha|Bulaj|Φινιστρίνι|Илюминатор|현창|जहाज़ की खिड़की',
+    'Lomboz|Porthole|Bullauge|Hublot|Ojo de buey|Oblò|舷窗|舷窓|Иллюминатор|كوة السفينة|Escotilha|Bulaj|Φινιστρίνι|Илюминатор|현창|जहाज़ की खिड़की|Patrijspoort|Ілюмінатор|Hublou|Hyttventil|Koøye|Koøje|Ikkuna-aukko|Lodní okénko|Hajóablak|Tingkap kapal|Bintanang barko|জাহাজের জানালা|جہاز کی کھڑکی|Jendela kapal|Cửa sổ tàu|دریچه کشتی|Dirisha la meli|जहाजाची खिडकी|ఓడ కిటికీ|கப்பல் சாளரம்|ਜਹਾਜ਼ ਦੀ ਖਿੜਕੀ|หน้าต่างเรือ',
     [
       '...EEEE...',
       '.EEEEEEEE.',
@@ -322,7 +322,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Yakut yüzük|Ruby ring|Rubinring|Bague en rubis|Anillo de rubí|Anello con rubino|红宝石戒指|ルビーの指輪|Кольцо с рубином|خاتم ياقوت|Anel de rubi|Pierścionek z rubinem|Δαχτυλίδι με ρουμπίνι|Пръстен с рубин|루비 반지|माणिक की अंगूठी',
+    'Yakut yüzük|Ruby ring|Rubinring|Bague en rubis|Anillo de rubí|Anello con rubino|红宝石戒指|ルビーの指輪|Кольцо с рубином|خاتم ياقوت|Anel de rubi|Pierścionek z rubinem|Δαχτυλίδι με ρουμπίνι|Пръстен с рубин|루비 반지|माणिक की अंगूठी|Robijnen ring|Каблучка з рубіном|Inel cu rubin|Rubinring|Rubinring|Rubinring|Rubiinisormus|Prsten s rubínem|Rubingyűrű|Cincin delima|Singsing na rubi|চুনির আংটি|یاقوت کی انگوٹھی|Cincin rubi|Nhẫn hồng ngọc|انگشتر یاقوت|Pete ya rubi|माणिकची अंगठी|కెంపు ఉంగరం|மாணிக்க மோதிரம்|ਮਾਣਕ ਦੀ ਮੁੰਦਰੀ|แหวนทับทิม',
     [
       '...RRRR...',
       '..RRWRRR..',
@@ -339,7 +339,7 @@ final pirateArt = <LevelArt>[
   ),
   art(
     23,
-    'Altın külçeler|Gold bars|Goldbarren|Lingots d\'or|Lingotes de oro|Lingotti d\'oro|金条|金の延べ棒|Золотые слитки|سبائك ذهبية|Barras de ouro|Sztabki złota|Ράβδοι χρυσού|Златни кюлчета|금괴|सोने की ईंटें',
+    'Altın külçeler|Gold bars|Goldbarren|Lingots d\'or|Lingotes de oro|Lingotti d\'oro|金条|金の延べ棒|Золотые слитки|سبائك ذهبية|Barras de ouro|Sztabki złota|Ράβδοι χρυσού|Златни кюлчета|금괴|सोने की ईंटें|Goudstaven|Золоті злитки|Lingouri de aur|Guldtackor|Gullbarrer|Guldbarrer|Kultaharkot|Zlaté cihly|Aranyrudak|Jongkong emas|Gintong bara|সোনার বার|سونے کی اینٹیں|Batangan emas|Thỏi vàng|شمش طلا|Vipande vya dhahabu|सोन्याच्या विटा|బంగారు కడ్డీలు|தங்கக் கட்டிகள்|ਸੋਨੇ ਦੀਆਂ ਇੱਟਾਂ|ทองคำแท่ง',
     [
       '...AAAA...',
       '..AYYYYA..',

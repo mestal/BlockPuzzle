@@ -1,6 +1,6 @@
 {
   "id": 227,
-  "name": {"de": "Bus", "en": "Bus", "es": "Autobús", "fr": "Bus", "it": "Autobus", "pl": "Autobus", "pt": "Ônibus", "tr": "Otobüs", "el": "Λεωφορείο", "bg": "Автобус", "ru": "Автобус", "ar": "حافلة", "hi": "बस", "zh": "公共汽车", "ja": "バス", "ko": "버스"},
+  "name": {"id": "Bus", "ms": "Bas", "da": "Bus", "de": "Bus", "en": "Bus", "es": "Autobús", "fil": "Bus", "fr": "Bus", "it": "Autobus", "sw": "Basi", "hu": "Busz", "nl": "Bus", "nb": "Buss", "pl": "Autobus", "pt": "Ônibus", "ro": "Autobuz", "fi": "Bussi", "sv": "Buss", "vi": "Xe buýt", "tr": "Otobüs", "cs": "Autobus", "el": "Λεωφορείο", "bg": "Автобус", "ru": "Автобус", "uk": "Автобус", "ur": "بس", "ar": "حافلة", "fa": "اتوبوس", "mr": "बस", "hi": "बस", "bn": "বাস", "pa": "ਬੱਸ", "ta": "பேருந்து", "te": "బస్సు", "th": "รถเมล์", "zh": "公共汽车", "ja": "バス", "ko": "버스"},
   "solution": ["..........", "..######..", ".########.", ".########.", ".########.", ".########.", ".########.", ".##....##.", "....#.....", ".#.....#.."],
   "colors":   ["..........", "..BBBBBB..", ".BCCCCCCB.", ".BCCCCCCB.", ".BBBBBBBB.", ".BYBBBBYB.", ".BBBBBBBB.", ".KK....KK.", "....Y.....", ".Y.....Y.."],
   "palette":  { "B": "#3B82F6", "C": "#22D3EE", "K": "#1F2937", "Y": "#FACC15" }

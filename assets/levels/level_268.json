@@ -1,6 +1,6 @@
 {
   "id": 268,
-  "name": {"de": "Hase", "en": "Rabbit", "es": "Conejo", "fr": "Lapin", "it": "Coniglio", "pl": "Królik", "pt": "Coelho", "tr": "Tavşan", "el": "Κουνέλι", "bg": "Заек", "ru": "Кролик", "ar": "أرنب", "hi": "खरगोश", "zh": "兔子", "ja": "ウサギ", "ko": "토끼"},
+  "name": {"id": "Kelinci", "ms": "Arnab", "da": "Kanin", "de": "Hase", "en": "Rabbit", "es": "Conejo", "fil": "Kuneho", "fr": "Lapin", "it": "Coniglio", "sw": "Sungura", "hu": "Nyúl", "nl": "Konijn", "nb": "Kanin", "pl": "Królik", "pt": "Coelho", "ro": "Iepure", "fi": "Kani", "sv": "Kanin", "vi": "Con thỏ", "tr": "Tavşan", "cs": "Králík", "el": "Κουνέλι", "bg": "Заек", "ru": "Кролик", "uk": "Кролик", "ur": "خرگوش", "ar": "أرنب", "fa": "خرگوش", "mr": "ससा", "hi": "खरगोश", "bn": "খরগোশ", "pa": "ਖ਼ਰਗੋਸ਼", "ta": "முயல்", "te": "కుందేలు", "th": "กระต่าย", "zh": "兔子", "ja": "ウサギ", "ko": "토끼"},
   "solution": ["..#....#..", ".###..###.", ".###..###.", ".###..###.", ".###..###.", "..######..", ".########.", ".#.####.#.", ".########.", "..######..", "#..####..#", "..######..", ".########.", ".########.", "..##..##.."],
   "colors":   ["..W....W..", ".WJW..WJW.", ".WJW..WJW.", ".WJW..WJW.", ".WWW..WWW.", "..WWWWWW..", ".WWWWWWWW.", ".W.WWWW.W.", ".WWWPPWWW.", "..WWWWWW..", "Y..WWWW..Y", "..WWWWWW..", ".WWWWWWWW.", ".WWWWWWWW.", "..WW..WW.."],
   "palette":  { "J": "#FBCFE8", "P": "#F472B6", "W": "#FFFFFF", "Y": "#FACC15" }

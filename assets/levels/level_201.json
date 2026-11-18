@@ -1,6 +1,6 @@
 {
   "id": 201,
-  "name": {"de": "Bento-Box", "en": "Bento box", "es": "Caja bento", "fr": "Boîte bento", "it": "Scatola bento", "pl": "Pudełko bento", "pt": "Caixa bento", "tr": "Bento kutusu", "el": "Κουτί μπέντο", "bg": "Кутия бенто", "ru": "Бэнто", "ar": "علبة بينتو", "hi": "बेंटो बॉक्स", "zh": "便当", "ja": "弁当", "ko": "도시락"},
+  "name": {"id": "Kotak bento", "ms": "Kotak bento", "da": "Bentoboks", "de": "Bento-Box", "en": "Bento box", "es": "Caja bento", "fil": "Bento box", "fr": "Boîte bento", "it": "Scatola bento", "sw": "Sanduku la bento", "hu": "Bentódoboz", "nl": "Bentobox", "nb": "Bentoboks", "pl": "Pudełko bento", "pt": "Caixa bento", "ro": "Cutie bento", "fi": "Bento-rasia", "sv": "Bentolåda", "vi": "Hộp cơm bento", "tr": "Bento kutusu", "cs": "Krabička bento", "el": "Κουτί μπέντο", "bg": "Кутия бенто", "ru": "Бэнто", "uk": "Бенто", "ur": "بینٹو ڈبہ", "ar": "علبة بينتو", "fa": "جعبه بنتو", "mr": "बेंटो डबा", "hi": "बेंटो बॉक्स", "bn": "বেন্টো বাক্স", "pa": "ਬੈਂਟੋ ਡੱਬਾ", "ta": "பென்டோ பெட்டி", "te": "బెంటో డబ్బా", "th": "กล่องเบนโตะ", "zh": "便当", "ja": "弁当", "ko": "도시락"},
   "solution": ["#########.", "#..##.#.#.", "#.#######.", "#..##.#.#.", "#########.", "#.#.#...#.", "#######.#.", "#.#.#.###.", "#########.", ".........."],
   "colors":   ["RRRRRRRRR.", "R..WR.G.R.", "R.WWRGGGR.", "R..WR.G.R.", "RRRRRRRRR.", "R.Y.R...R.", "RYYYRPP.R.", "R.Y.R.PPR.", "RRRRRRRRR.", ".........."],
   "palette":  { "G": "#22C55E", "P": "#F472B6", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

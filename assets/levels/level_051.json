@@ -1,6 +1,6 @@
 {
   "id": 51,
-  "name": {"de": "Hirsch", "en": "Deer", "es": "Ciervo", "fr": "Cerf", "it": "Cervo", "pl": "Jeleń", "pt": "Veado", "tr": "Geyik", "el": "Ελάφι", "bg": "Елен", "ru": "Олень", "ar": "غزال", "hi": "हिरण", "zh": "鹿", "ja": "シカ", "ko": "사슴"},
+  "name": {"id": "Rusa", "ms": "Rusa", "da": "Hjort", "de": "Hirsch", "en": "Deer", "es": "Ciervo", "fil": "Usa", "fr": "Cerf", "it": "Cervo", "sw": "Kulungu", "hu": "Szarvas", "nl": "Hert", "nb": "Hjort", "pl": "Jeleń", "pt": "Veado", "ro": "Cerb", "fi": "Peura", "sv": "Hjort", "vi": "Con hươu", "tr": "Geyik", "cs": "Jelen", "el": "Ελάφι", "bg": "Елен", "ru": "Олень", "uk": "Олень", "ur": "ہرن", "ar": "غزال", "fa": "گوزن", "mr": "हरीण", "hi": "हिरण", "bn": "হরিণ", "pa": "ਹਿਰਨ", "ta": "மான்", "te": "జింక", "th": "กวาง", "zh": "鹿", "ja": "シカ", "ko": "사슴"},
   "solution": ["#.#...#.#.", ".##...##..", "..#...#...", "..#####...", ".#######..", "#########.", ".#######..", "..#####...", "...###....", ".........."],
   "colors":   ["T.T...T.T.", ".TT...TT..", "..T...T...", "..HHHHH...", ".HHHHHHH..", "HHKHHHKHH.", ".HHHHHHH..", "..HFFFH...", "...FKF....", ".........."],
   "palette":  { "F": "#FBCFA5", "H": "#5B3410", "K": "#1F2937", "T": "#92400E" }

@@ -1,6 +1,6 @@
 {
   "id": 349,
-  "name": {"de": "Pharao", "en": "Pharaoh", "es": "Faraón", "fr": "Pharaon", "it": "Faraone", "pl": "Faraon", "pt": "Faraó", "tr": "Firavun", "el": "Φαραώ", "bg": "Фараон", "ru": "Фараон", "ar": "فرعون", "hi": "फ़िरौन", "zh": "法老", "ja": "ファラオ", "ko": "파라오"},
+  "name": {"id": "Firaun", "ms": "Firaun", "da": "Farao", "de": "Pharao", "en": "Pharaoh", "es": "Faraón", "fil": "Paraon", "fr": "Pharaon", "it": "Faraone", "sw": "Firauni", "hu": "Fáraó", "nl": "Farao", "nb": "Farao", "pl": "Faraon", "pt": "Faraó", "ro": "Faraon", "fi": "Faarao", "sv": "Farao", "vi": "Pharaoh", "tr": "Firavun", "cs": "Faraon", "el": "Φαραώ", "bg": "Фараон", "ru": "Фараон", "uk": "Фараон", "ur": "فرعون", "ar": "فرعون", "fa": "فرعون", "mr": "फॅरो", "hi": "फ़िरौन", "bn": "ফারাও", "pa": "ਫ਼ਿਰਊਨ", "ta": "பாரோ", "te": "ఫారో", "th": "ฟาโรห์", "zh": "法老", "ja": "ファラオ", "ko": "파라오"},
   "solution": ["#.......#.", "...####...", "..######..", ".########.", "##########", "###.##.###", "##########", "##########", "##########", "##########", "....##....", "#...##.#..", "....##....", "..........", "...#......"],
   "colors":   ["Y.......Y.", "...YYYY...", "..YBYYBY..", ".YBYBBYBY.", "YBYFFFFYBY", "BYF.FF.FYB", "YBFFFFFFBY", "BYFFFFFFYB", "YBYFFFFYBY", "BYBYFFYBYB", "....BB....", "Y...BY.Y..", "....YB....", "..........", "...Y......"],
   "palette":  { "B": "#3B82F6", "F": "#FBCFA5", "Y": "#FACC15" }

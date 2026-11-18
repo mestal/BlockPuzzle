@@ -1,6 +1,6 @@
 {
   "id": 308,
-  "name": {"de": "Pegasus", "en": "Pegasus", "es": "Pegaso", "fr": "Pégase", "it": "Pegaso", "pl": "Pegaz", "pt": "Pégaso", "tr": "Pegasus", "el": "Πήγασος", "bg": "Пегас", "ru": "Пегас", "ar": "بيغاسوس", "hi": "पेगासस", "zh": "飞马", "ja": "ペガサス", "ko": "페가수스"},
+  "name": {"id": "Pegasus", "ms": "Pegasus", "da": "Pegasus", "de": "Pegasus", "en": "Pegasus", "es": "Pegaso", "fil": "Pegasus", "fr": "Pégase", "it": "Pegaso", "sw": "Farasi mwenye mabawa", "hu": "Pegazus", "nl": "Pegasus", "nb": "Pegasus", "pl": "Pegaz", "pt": "Pégaso", "ro": "Pegas", "fi": "Pegasos", "sv": "Pegasus", "vi": "Ngựa có cánh", "tr": "Pegasus", "cs": "Pegas", "el": "Πήγασος", "bg": "Пегас", "ru": "Пегас", "uk": "Пегас", "ur": "پیگاسس", "ar": "بيغاسوس", "fa": "پگاسوس", "mr": "पंख असलेला घोडा", "hi": "पेगासस", "bn": "পেগাসাস", "pa": "ਖੰਭਾਂ ਵਾਲਾ ਘੋੜਾ", "ta": "சிறகுக் குதிரை", "te": "రెక్కల గుర్రం", "th": "ม้าเพกาซัส", "zh": "飞马", "ja": "ペガサス", "ko": "페가수스"},
   "solution": ["....#.....", ".#..##....", "....###...", ".##..###..", "####.####.", "#.########", "...######.", "#..#.#.#.#", "..#..#.#..", ".........."],
   "colors":   ["....W.....", ".Y..WW....", "....WWW...", ".WW..WWW..", "WWWW.WWWW.", "W.WWWWWWWW", "...WWWWWW.", "Y..W.W.W.W", "..W..W.W..", ".........."],
   "palette":  { "W": "#FFFFFF", "Y": "#FACC15" }

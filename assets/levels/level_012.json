@@ -1,6 +1,6 @@
 {
   "id": 12,
-  "name": {"de": "Rakete", "en": "Rocket", "es": "Cohete", "fr": "Fusée", "it": "Razzo", "pl": "Rakieta", "pt": "Foguete", "tr": "Roket", "el": "Πύραυλος", "bg": "Ракета", "ru": "Ракета", "ar": "صاروخ", "hi": "रॉकेट", "zh": "火箭", "ja": "ロケット", "ko": "로켓"},
+  "name": {"id": "Roket", "ms": "Roket", "da": "Raket", "de": "Rakete", "en": "Rocket", "es": "Cohete", "fil": "Rocket", "fr": "Fusée", "it": "Razzo", "sw": "Roketi", "hu": "Rakéta", "nl": "Raket", "nb": "Rakett", "pl": "Rakieta", "pt": "Foguete", "ro": "Rachetă", "fi": "Raketti", "sv": "Raket", "vi": "Tên lửa", "tr": "Roket", "cs": "Raketa", "el": "Πύραυλος", "bg": "Ракета", "ru": "Ракета", "uk": "Ракета", "ur": "راکٹ", "ar": "صاروخ", "fa": "موشک", "mr": "रॉकेट", "hi": "रॉकेट", "bn": "রকেট", "pa": "ਰਾਕੇਟ", "ta": "ராக்கெட்", "te": "రాకెట్", "th": "จรวด", "zh": "火箭", "ja": "ロケット", "ko": "로켓"},
   "solution": ["..#..", ".###.", ".###.", ".###.", ".###.", ".###.", "#####", "#####", "#.#.#", "..#.."],
   "colors":   ["..R..", ".RWR.", ".WWW.", ".WBW.", ".WWW.", ".WWW.", "RWWWR", "RRWRR", "R.O.R", "..Y.."],
   "palette":  { "B": "#3B82F6", "O": "#F97316", "R": "#E8453C", "W": "#FFFFFF", "Y": "#FACC15" }

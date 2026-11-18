@@ -1,6 +1,6 @@
 {
   "id": 38,
-  "name": {"de": "Anker", "en": "Anchor", "es": "Ancla", "fr": "Ancre", "it": "Ancora", "pl": "Kotwica", "pt": "Âncora", "tr": "Çapa", "el": "Άγκυρα", "bg": "Котва", "ru": "Якорь", "ar": "مرساة", "hi": "लंगर", "zh": "船锚", "ja": "いかり", "ko": "닻"},
+  "name": {"id": "Jangkar", "ms": "Sauh", "da": "Anker", "de": "Anker", "en": "Anchor", "es": "Ancla", "fil": "Angkla", "fr": "Ancre", "it": "Ancora", "sw": "Nanga", "hu": "Horgony", "nl": "Anker", "nb": "Anker", "pl": "Kotwica", "pt": "Âncora", "ro": "Ancoră", "fi": "Ankkuri", "sv": "Ankare", "vi": "Mỏ neo", "tr": "Çapa", "cs": "Kotva", "el": "Άγκυρα", "bg": "Котва", "ru": "Якорь", "uk": "Якір", "ur": "لنگر", "ar": "مرساة", "fa": "لنگر", "mr": "नांगर", "hi": "लंगर", "bn": "নোঙর", "pa": "ਲੰਗਰ", "ta": "நங்கூரம்", "te": "లంగరు", "th": "สมอเรือ", "zh": "船锚", "ja": "いかり", "ko": "닻"},
   "solution": ["..........", "....##....", "...#..#...", "....##....", "..######..", "....##....", "....##..#.", ".##.##.##.", "..######..", ".........."],
   "colors":   ["..........", "....NN....", "...N..N...", "....NN....", "..NNNNNN..", "....NN....", "....NN..N.", ".NN.NN.NN.", "..NNNNNN..", ".........."],
   "palette":  { "N": "#1E3A8A" }

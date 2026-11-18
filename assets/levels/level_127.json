@@ -1,6 +1,6 @@
 {
   "id": 127,
-  "name": {"de": "Rochen", "en": "Stingray", "es": "Raya", "fr": "Raie", "it": "Razza", "pl": "Płaszczka", "pt": "Arraia", "tr": "Vatoz", "el": "Σαλάχι", "bg": "Скат", "ru": "Скат", "ar": "لخمة", "hi": "स्टिंगरे", "zh": "鳐鱼", "ja": "エイ", "ko": "가오리"},
+  "name": {"id": "Ikan pari", "ms": "Ikan pari", "da": "Pilrokke", "de": "Rochen", "en": "Stingray", "es": "Raya", "fil": "Pagi", "fr": "Raie", "it": "Razza", "sw": "Taa", "hu": "Rája", "nl": "Pijlstaartrog", "nb": "Rokke", "pl": "Płaszczka", "pt": "Arraia", "ro": "Pisică de mare", "fi": "Rausku", "sv": "Stingrocka", "vi": "Cá đuối", "tr": "Vatoz", "cs": "Rejnok", "el": "Σαλάχι", "bg": "Скат", "ru": "Скат", "uk": "Скат", "ur": "اسٹنگرے", "ar": "لخمة", "fa": "سپرماهی", "mr": "पाकट मासा", "hi": "स्टिंगरे", "bn": "শাপলাপাতা মাছ", "pa": "ਸਟਿੰਗਰੇ", "ta": "திருக்கை மீன்", "te": "టేకు చేప", "th": "ปลากระเบน", "zh": "鳐鱼", "ja": "エイ", "ko": "가오리"},
   "solution": ["..........", "....##....", "...####...", "..######..", ".########.", "##########", "##########", ".########.", "..######..", "...####...", "....##....", "....##....", ".....#....", "..........", ".........."],
   "colors":   ["..........", "....EE....", "...EEEE...", "..EEEEEE..", ".EEEEEEEE.", "EEEKEEKEEE", "EEEEEEEEEE", ".EEEEEEEE.", "..EEEEEE..", "...EEEE...", "....EE....", "....EE....", ".....E....", "..........", ".........."],
   "palette":  { "E": "#94A3B8", "K": "#1F2937" }

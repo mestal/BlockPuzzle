@@ -1,6 +1,6 @@
 {
   "id": 316,
-  "name": {"de": "Ritter", "en": "Knight", "es": "Caballero", "fr": "Chevalier", "it": "Cavaliere", "pl": "Rycerz", "pt": "Cavaleiro", "tr": "Şövalye", "el": "Ιππότης", "bg": "Рицар", "ru": "Рыцарь", "ar": "فارس", "hi": "शूरवीर", "zh": "骑士", "ja": "騎士", "ko": "기사"},
+  "name": {"id": "Ksatria", "ms": "Kesatria", "da": "Ridder", "de": "Ritter", "en": "Knight", "es": "Caballero", "fil": "Kabalyero", "fr": "Chevalier", "it": "Cavaliere", "sw": "Shujaa", "hu": "Lovag", "nl": "Ridder", "nb": "Ridder", "pl": "Rycerz", "pt": "Cavaleiro", "ro": "Cavaler", "fi": "Ritari", "sv": "Riddare", "vi": "Hiệp sĩ", "tr": "Şövalye", "cs": "Rytíř", "el": "Ιππότης", "bg": "Рицар", "ru": "Рыцарь", "uk": "Лицар", "ur": "سورما", "ar": "فارس", "fa": "شوالیه", "mr": "योद्धा", "hi": "शूरवीर", "bn": "নাইট", "pa": "ਯੋਧਾ", "ta": "வீரர்", "te": "యోధుడు", "th": "อัศวิน", "zh": "骑士", "ja": "騎士", "ko": "기사"},
   "solution": ["#.........", "...###...#", "..#####..#", "..#####..#", "..#####..#", "...###...#", ".########.", "#######...", "#######...", ".#.####...", "...#..#...", "...#..#...", "..##..##..", "..........", ".........."],
   "colors":   ["Y.........", "...EEE...L", "..EEEEE..L", "..EKKKE..L", "..EEEEE..L", "...EEE...L", ".BEEEEEEA.", "BYBEEEE...", "BBBEEEE...", ".B.EEEE...", "...E..E...", "...E..E...", "..EE..EE..", "..........", ".........."],
   "palette":  { "A": "#F59E0B", "B": "#3B82F6", "E": "#94A3B8", "K": "#1F2937", "L": "#E2E8F0", "Y": "#FACC15" }

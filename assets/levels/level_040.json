@@ -1,6 +1,6 @@
 {
   "id": 40,
-  "name": {"de": "Qualle", "en": "Jellyfish", "es": "Medusa", "fr": "Méduse", "it": "Medusa", "pl": "Meduza", "pt": "Água-viva", "tr": "Deniz anası", "el": "Μέδουσα", "bg": "Медуза", "ru": "Медуза", "ar": "قنديل البحر", "hi": "जेलीफ़िश", "zh": "水母", "ja": "クラゲ", "ko": "해파리"},
+  "name": {"id": "Ubur-ubur", "ms": "Obor-obor", "da": "Vandmand", "de": "Qualle", "en": "Jellyfish", "es": "Medusa", "fil": "Dikya", "fr": "Méduse", "it": "Medusa", "sw": "Kiwavi bahari", "hu": "Medúza", "nl": "Kwal", "nb": "Manet", "pl": "Meduza", "pt": "Água-viva", "ro": "Meduză", "fi": "Meduusa", "sv": "Manet", "vi": "Sứa", "tr": "Deniz anası", "cs": "Medúza", "el": "Μέδουσα", "bg": "Медуза", "ru": "Медуза", "uk": "Медуза", "ur": "جیلی فش", "ar": "قنديل البحر", "fa": "عروس دریایی", "mr": "जेलीफिश", "hi": "जेलीफ़िश", "bn": "জেলিফিশ", "pa": "ਜੈਲੀਫ਼ਿਸ਼", "ta": "இழுது மீன்", "te": "జెల్లీ చేప", "th": "แมงกะพรุน", "zh": "水母", "ja": "クラゲ", "ko": "해파리"},
   "solution": ["..........", "...####...", "..######..", ".########.", ".########.", "..#.#.#.#.", "..#.#.#...", ".#..#.##..", "..#..#..#.", ".........."],
   "colors":   ["..........", "...VVVV...", "..VVVVVV..", ".VVJVVJVV.", ".VVVVVVVV.", "..V.V.V.V.", "..V.V.V...", ".V..V.VV..", "..V..V..V.", ".........."],
   "palette":  { "J": "#FBCFE8", "V": "#8B5CF6" }

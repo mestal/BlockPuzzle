@@ -1,6 +1,6 @@
 {
   "id": 15,
-  "name": {"de": "Baum", "en": "Tree", "es": "Árbol", "fr": "Arbre", "it": "Albero", "pl": "Drzewo", "pt": "Árvore", "tr": "Ağaç", "el": "Δέντρο", "bg": "Дърво", "ru": "Дерево", "ar": "شجرة", "hi": "पेड़", "zh": "树", "ja": "木", "ko": "나무"},
+  "name": {"id": "Pohon", "ms": "Pokok", "da": "Træ", "de": "Baum", "en": "Tree", "es": "Árbol", "fil": "Puno", "fr": "Arbre", "it": "Albero", "sw": "Mti", "hu": "Fa", "nl": "Boom", "nb": "Tre", "pl": "Drzewo", "pt": "Árvore", "ro": "Copac", "fi": "Puu", "sv": "Träd", "vi": "Cái cây", "tr": "Ağaç", "cs": "Strom", "el": "Δέντρο", "bg": "Дърво", "ru": "Дерево", "uk": "Дерево", "ur": "درخت", "ar": "شجرة", "fa": "درخت", "mr": "झाड", "hi": "पेड़", "bn": "গাছ", "pa": "ਰੁੱਖ", "ta": "மரம்", "te": "చెట్టు", "th": "ต้นไม้", "zh": "树", "ja": "木", "ko": "나무"},
   "solution": ["..#..", ".###.", "#####", ".###.", "#####", "#####", ".###.", "..#..", "..#..", ".###."],
   "colors":   ["..D..", ".DGD.", "DDDDD", ".DDD.", "DGDDD", "DDDGD", ".DDD.", "..T..", "..T..", ".TTT."],
   "palette":  { "D": "#15803D", "G": "#22C55E", "T": "#92400E" }

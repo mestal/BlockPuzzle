@@ -1,6 +1,6 @@
 {
   "id": 182,
-  "name": {"de": "Saturn", "en": "Saturn", "es": "Saturno", "fr": "Saturne", "it": "Saturno", "pl": "Saturn", "pt": "Saturno", "tr": "Satürn", "el": "Κρόνος", "bg": "Сатурн", "ru": "Сатурн", "ar": "زحل", "hi": "शनि", "zh": "土星", "ja": "土星", "ko": "토성"},
+  "name": {"id": "Saturnus", "ms": "Zuhal", "da": "Saturn", "de": "Saturn", "en": "Saturn", "es": "Saturno", "fil": "Saturno", "fr": "Saturne", "it": "Saturno", "sw": "Zohali", "hu": "Szaturnusz", "nl": "Saturnus", "nb": "Saturn", "pl": "Saturn", "pt": "Saturno", "ro": "Saturn", "fi": "Saturnus", "sv": "Saturnus", "vi": "Sao Thổ", "tr": "Satürn", "cs": "Saturn", "el": "Κρόνος", "bg": "Сатурн", "ru": "Сатурн", "uk": "Сатурн", "ur": "زحل", "ar": "زحل", "fa": "زحل", "mr": "शनी", "hi": "शनि", "bn": "শনি", "pa": "ਸ਼ਨੀ", "ta": "சனி", "te": "శని", "th": "ดาวเสาร์", "zh": "土星", "ja": "土星", "ko": "토성"},
   "solution": ["...####...", "..######..", ".########.", ".########.", "##########", "##########", ".########.", ".########.", "..######..", "...####..."],
   "colors":   ["...OOOO...", "..OOSSOO..", ".OSSOOSSO.", ".OOOOOOOO.", "AAAAAAAAAA", "AOSSOOSSOA", ".AAAAAAAA.", ".OOOSSOOO.", "..OOOOOO..", "...OOOO..."],
   "palette":  { "A": "#F59E0B", "O": "#F97316", "S": "#FDE68A" }
