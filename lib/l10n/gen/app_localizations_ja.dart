@@ -366,7 +366,18 @@ class AppLocalizationsJa extends AppLocalizations {
   String get tutorialL4Finish => 'ばっちり！絵を完成させよう。';
 
   @override
-  String get tutorialL5Sum => '最後のレッスン！この列は [3 1]：3 + 1 + 1 = 5 だから確定。自分で解こう！';
+  String get tutorialL5Gaps =>
+      '最後のレッスン：X で解こう！外側の 4 列は [2 2]：2 + 1 + 2 = 5。どの列も空きマスはまん中の行にあるよ。';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'この空きマスに X をつけよう：ダブルタップして、2 回目で指を離さず横へスライド：X が 2 つ一気に引けるよ！';
+
+  @override
+  String get tutorialL5CrossDragSelf => 'きみの番：右側の空きマス 2 つに、ひとなぞりで X を引こう。';
+
+  @override
+  String get tutorialL5Count => 'この行は [1]。X のおかげで残りは 1 マスだけ。X があると数えやすいね：塗ろう！';
 
   @override
   String get tutorialL5Hint => '困ったらヒントを押そう：次の一手と、その理由を教えてくれるよ。';

@@ -776,11 +776,29 @@ abstract class AppLocalizations {
   /// **'Süper! Şimdi resmi tamamla.'**
   String get tutorialL4Finish;
 
-  /// No description provided for @tutorialL5Sum.
+  /// No description provided for @tutorialL5Gaps.
   ///
   /// In tr, this message translates to:
-  /// **'Son ders! Bu sütun [3 1]: 3 + 1 + 1 = 5, yerleri belli. Kendin çöz!'**
-  String get tutorialL5Sum;
+  /// **'Son ders: X ile çözmek! Kenardaki dört sütun [2 2]: 2 + 1 + 2 = 5. Hepsinin boşluğu ortadaki satıra düşüyor.'**
+  String get tutorialL5Gaps;
+
+  /// No description provided for @tutorialL5CrossDrag.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu boş karelere X koy: çift dokun, ikinci dokunuşta parmağını kaldırmadan yana kaydır. İki X birden!'**
+  String get tutorialL5CrossDrag;
+
+  /// No description provided for @tutorialL5CrossDragSelf.
+  ///
+  /// In tr, this message translates to:
+  /// **'Şimdi sen: sağdaki iki boş kareye tek seferde X çiz.'**
+  String get tutorialL5CrossDragSelf;
+
+  /// No description provided for @tutorialL5Count.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu satır [1] ve X\'lerden sonra tek kare kaldı. X\'ler saymayı kolaylaştırır: doldur!'**
+  String get tutorialL5Count;
 
   /// No description provided for @tutorialL5Hint.
   ///

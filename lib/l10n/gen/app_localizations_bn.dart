@@ -390,8 +390,20 @@ class AppLocalizationsBn extends AppLocalizations {
   String get tutorialL4Finish => 'দারুণ! এবার ছবিটা শেষ করো।';
 
   @override
-  String get tutorialL5Sum =>
-      'শেষ পাঠ! এই কলাম [3 1]: 3 + 1 + 1 = 5, তাই নিশ্চিত। নিজেই সমাধান করো!';
+  String get tutorialL5Gaps =>
+      'শেষ পাঠ: X দিয়ে সমাধান! কিনারার চারটি কলাম [2 2]: 2 + 1 + 2 = 5। সবগুলোর ফাঁক মাঝের সারিতে পড়ে।';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'এই খালি ঘরগুলোতে X দাও: ডাবল ট্যাপ করো, দ্বিতীয় ট্যাপে আঙুল চেপে রেখে পাশে টানো: একসাথে দুটি X!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'তোমার পালা: এক টানে ডান দিকের দুটি খালি ঘরে X আঁকো।';
+
+  @override
+  String get tutorialL5Count =>
+      'এই সারি [1], আর X দেওয়ার পর মাত্র একটি ঘর বাকি। X থাকলে গোনা সহজ: ভরাট করো!';
 
   @override
   String get tutorialL5Hint =>

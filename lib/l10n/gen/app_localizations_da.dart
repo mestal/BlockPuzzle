@@ -391,8 +391,20 @@ class AppLocalizationsDa extends AppLocalizations {
   String get tutorialL4Finish => 'Super! Gør nu billedet færdigt.';
 
   @override
-  String get tutorialL5Sum =>
-      'Sidste lektion! Denne kolonne er [3 1]: 3 + 1 + 1 = 5, så den er sikker. Løs den selv!';
+  String get tutorialL5Gaps =>
+      'Sidste lektion: løs med X! De fire yderste kolonner er [2 2]: 2 + 1 + 2 = 5. Alle deres huller ligger i den midterste række.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Markér de tomme felter: dobbelttryk, hold fingeren nede ved andet tryk og træk til siden: to X\'er på én gang!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Din tur: tegn X\'er på de to tomme felter til højre i ét træk.';
+
+  @override
+  String get tutorialL5Count =>
+      'Denne række er [1], og efter X\'erne er der kun ét felt tilbage. X\'er gør det let at tælle: udfyld det!';
 
   @override
   String get tutorialL5Hint =>

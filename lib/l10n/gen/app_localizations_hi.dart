@@ -390,8 +390,20 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tutorialL4Finish => 'बहुत बढ़िया! अब तस्वीर पूरी करें।';
 
   @override
-  String get tutorialL5Sum =>
-      'आखिरी पाठ! यह स्तंभ [3 1] है: 3 + 1 + 1 = 5, यानी पक्का है। खुद हल करें!';
+  String get tutorialL5Gaps =>
+      'आखिरी पाठ: X से हल करना! किनारे के चारों स्तंभ [2 2] हैं: 2 + 1 + 2 = 5। इन सबके खाली खाने बीच वाली पंक्ति में हैं।';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'इन खाली खानों पर X लगाएँ: डबल टैप करें, दूसरे टैप पर उँगली दबाए रखें और बगल में खिसकाएँ: एक साथ दो X!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'आपकी बारी: एक ही बार खिसकाकर दाईं ओर के दो खाली खानों पर X बनाएँ।';
+
+  @override
+  String get tutorialL5Count =>
+      'यह पंक्ति [1] है, और X के बाद सिर्फ़ एक खाना बचा। X से गिनना आसान होता है: इसे भरें!';
 
   @override
   String get tutorialL5Hint =>

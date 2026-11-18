@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "Jouw beurt: teken in één veeg X'jes op de drie lege vakjes van deze kolom.",
   "tutorialL4Erase": "Verkeerde X? Dubbeltik er nog eens op en hij is weg. Schuif je met een dubbeltik vanaf een X, dan wis je de X'jes onderweg.",
   "tutorialL4Finish": "Super! Maak nu het plaatje af.",
-  "tutorialL5Sum": "Laatste les! Deze kolom is [3 1]: 3 + 1 + 1 = 5, dus hij staat vast. Los hem zelf op!",
+  "tutorialL5Gaps": "Laatste les: oplossen met X'jes! De vier buitenste kolommen zijn [2 2]: 2 + 1 + 2 = 5. Al hun gaten vallen in de middelste rij.",
+  "tutorialL5CrossDrag": "Markeer deze lege vakjes: dubbeltik, houd bij de tweede tik je vinger neer en schuif opzij: twee X'jes in één keer!",
+  "tutorialL5CrossDragSelf": "Jouw beurt: teken in één veeg X'jes op de twee lege vakjes rechts.",
+  "tutorialL5Count": "Deze rij is [1], en na de X'jes is er nog maar één vakje over. Met X'jes tel je makkelijk: vul het!",
   "tutorialL5Hint": "Vast? Druk op Hint: die toont de volgende stap en legt uit waarom.",
   "tutorialL5Finish": "Je bent er klaar voor! In grote roosters verdelen dikke lijnen de vakjes per 5, zo tel je makkelijker. Maak het plaatje af!"
 }

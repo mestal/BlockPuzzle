@@ -393,8 +393,20 @@ class AppLocalizationsCs extends AppLocalizations {
   String get tutorialL4Finish => 'Super! Teď dokonči obrázek.';
 
   @override
-  String get tutorialL5Sum =>
-      'Poslední lekce! Tento sloupec je [3 1]: 3 + 1 + 1 = 5, takže je jistý. Vyřeš ho sám!';
+  String get tutorialL5Gaps =>
+      'Poslední lekce: řešení pomocí X! Čtyři krajní sloupce jsou [2 2]: 2 + 1 + 2 = 5. Všechny jejich mezery padnou na prostřední řádek.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Označ tato prázdná políčka: klepni dvakrát, při druhém klepnutí nech prst dole a táhni do strany: dvě X najednou!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Jsi na řadě: jedním tahem nakresli X na dvě prázdná políčka vpravo.';
+
+  @override
+  String get tutorialL5Count =>
+      'Tento řádek je [1] a po X zbylo jen jedno políčko. S X se snadno počítá: vyplň ho!';
 
   @override
   String get tutorialL5Hint =>

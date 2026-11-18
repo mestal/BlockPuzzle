@@ -390,8 +390,20 @@ class AppLocalizationsPt extends AppLocalizations {
   String get tutorialL4Finish => 'Isso! Agora complete a imagem.';
 
   @override
-  String get tutorialL5Sum =>
-      'Última lição! Esta coluna é [3 1]: 3 + 1 + 1 = 5, então é certa. Resolva sozinho!';
+  String get tutorialL5Gaps =>
+      'Última lição: resolver com X! As quatro colunas das bordas são [2 2]: 2 + 1 + 2 = 5. Todos os vazios delas caem na linha do meio.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Marque esses quadrados vazios: toque duas vezes, mantenha o dedo no segundo toque e deslize para o lado: dois X de uma vez!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Sua vez: desenhe X de uma só vez nos dois quadrados vazios da direita.';
+
+  @override
+  String get tutorialL5Count =>
+      'Esta linha é [1] e, depois dos X, sobrou só um quadrado. Os X facilitam a contagem: preencha-o!';
 
   @override
   String get tutorialL5Hint =>

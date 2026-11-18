@@ -391,8 +391,20 @@ class AppLocalizationsNl extends AppLocalizations {
   String get tutorialL4Finish => 'Super! Maak nu het plaatje af.';
 
   @override
-  String get tutorialL5Sum =>
-      'Laatste les! Deze kolom is [3 1]: 3 + 1 + 1 = 5, dus hij staat vast. Los hem zelf op!';
+  String get tutorialL5Gaps =>
+      'Laatste les: oplossen met X\'jes! De vier buitenste kolommen zijn [2 2]: 2 + 1 + 2 = 5. Al hun gaten vallen in de middelste rij.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Markeer deze lege vakjes: dubbeltik, houd bij de tweede tik je vinger neer en schuif opzij: twee X\'jes in één keer!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Jouw beurt: teken in één veeg X\'jes op de twee lege vakjes rechts.';
+
+  @override
+  String get tutorialL5Count =>
+      'Deze rij is [1], en na de X\'jes is er nog maar één vakje over. Met X\'jes tel je makkelijk: vul het!';
 
   @override
   String get tutorialL5Hint =>

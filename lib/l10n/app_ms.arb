@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "Giliran anda: lukis X pada tiga petak kosong dalam lajur ini dengan satu leretan.",
   "tutorialL4Erase": "Tersalah X? Ketik dua kali padanya lagi untuk membuangnya. Leretan ketik dua kali yang bermula pada X memadam X di laluannya.",
   "tutorialL4Finish": "Bagus! Sekarang lengkapkan gambar.",
-  "tutorialL5Sum": "Pelajaran terakhir! Lajur ini [3 1]: 3 + 1 + 1 = 5, jadi ia pasti. Selesaikannya sendiri!",
+  "tutorialL5Gaps": "Pelajaran terakhir: selesaikan dengan X! Empat lajur di tepi ialah [2 2]: 2 + 1 + 2 = 5. Semua ruang kosongnya jatuh pada baris tengah.",
+  "tutorialL5CrossDrag": "Tandakan petak kosong ini: ketik dua kali, tahan jari pada ketikan kedua dan leret ke tepi: dua X sekali gus!",
+  "tutorialL5CrossDragSelf": "Giliran anda: lukis X pada dua petak kosong di sebelah kanan dengan satu leretan.",
+  "tutorialL5Count": "Baris ini [1], dan selepas X hanya tinggal satu petak. X memudahkan pengiraan: isikannya!",
   "tutorialL5Hint": "Buntu? Tekan Petunjuk: ia tunjukkan langkah seterusnya dan sebabnya.",
   "tutorialL5Finish": "Anda sudah sedia! Pada grid besar, garisan tebal memisahkan setiap 5 petak supaya mudah dikira. Siapkan gambar!"
 }

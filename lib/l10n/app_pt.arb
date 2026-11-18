@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "Sua vez: desenhe X de uma só vez nos três quadrados vazios desta coluna.",
   "tutorialL4Erase": "X errado? Toque duas vezes nele de novo para tirá-lo. Deslizando com toque duplo a partir de um X, você apaga os X do caminho.",
   "tutorialL4Finish": "Isso! Agora complete a imagem.",
-  "tutorialL5Sum": "Última lição! Esta coluna é [3 1]: 3 + 1 + 1 = 5, então é certa. Resolva sozinho!",
+  "tutorialL5Gaps": "Última lição: resolver com X! As quatro colunas das bordas são [2 2]: 2 + 1 + 2 = 5. Todos os vazios delas caem na linha do meio.",
+  "tutorialL5CrossDrag": "Marque esses quadrados vazios: toque duas vezes, mantenha o dedo no segundo toque e deslize para o lado: dois X de uma vez!",
+  "tutorialL5CrossDragSelf": "Sua vez: desenhe X de uma só vez nos dois quadrados vazios da direita.",
+  "tutorialL5Count": "Esta linha é [1] e, depois dos X, sobrou só um quadrado. Os X facilitam a contagem: preencha-o!",
   "tutorialL5Hint": "Travou? Toque em Dica: ela mostra o próximo passo e explica por quê.",
   "tutorialL5Finish": "Você está pronto! Nas grades grandes, linhas grossas separam a cada 5 quadrados para ajudar a contar. Termine a imagem!"
 }

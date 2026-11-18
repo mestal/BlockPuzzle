@@ -377,8 +377,20 @@ class AppLocalizationsKo extends AppLocalizations {
   String get tutorialL4Finish => '최고예요! 이제 그림을 완성하세요.';
 
   @override
-  String get tutorialL5Sum =>
-      '마지막 수업! 이 열은 [3 1]: 3 + 1 + 1 = 5이니 확실해요. 직접 풀어 보세요!';
+  String get tutorialL5Gaps =>
+      '마지막 수업: X로 풀기! 바깥쪽 네 열은 [2 2]: 2 + 1 + 2 = 5. 빈칸이 모두 가운데 행에 있어요.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      '이 빈칸에 X를 표시하세요: 더블 탭하고 두 번째 탭에서 손가락을 떼지 말고 옆으로 밀어 보세요: X 두 개가 한 번에!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      '이제 직접 해 보세요: 한 번에 밀어서 오른쪽 빈칸 두 개에 X를 그으세요.';
+
+  @override
+  String get tutorialL5Count =>
+      '이 행은 [1]이고, X를 치고 나니 한 칸만 남았어요. X가 있으면 세기 쉬워요: 채우세요!';
 
   @override
   String get tutorialL5Hint => '막혔나요? 힌트를 누르면 다음 단계와 그 이유를 알려 줘요.';

@@ -391,8 +391,20 @@ class AppLocalizationsEn extends AppLocalizations {
   String get tutorialL4Finish => 'Super! Now complete the picture.';
 
   @override
-  String get tutorialL5Sum =>
-      'Last lesson! This column is [3 1]: 3 + 1 + 1 = 5, so it\'s certain. Solve it yourself!';
+  String get tutorialL5Gaps =>
+      'Last lesson: solving with X! The four outer columns are [2 2]: 2 + 1 + 2 = 5. All their gaps fall on the middle row.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Mark those empty squares: double tap, keep your finger down on the second tap and slide sideways. Two X\'s in one go!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Your turn: draw X\'s on the two empty squares on the right in one slide.';
+
+  @override
+  String get tutorialL5Count =>
+      'This row is [1], and the X\'s leave only one square open. X\'s make counting easy: fill it!';
 
   @override
   String get tutorialL5Hint =>

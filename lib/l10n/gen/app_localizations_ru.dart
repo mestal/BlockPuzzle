@@ -393,8 +393,20 @@ class AppLocalizationsRu extends AppLocalizations {
   String get tutorialL4Finish => 'Супер! Теперь закончи картинку.';
 
   @override
-  String get tutorialL5Sum =>
-      'Последний урок! Этот столбец [3 1]: 3 + 1 + 1 = 5, значит, он точно известен. Реши его сам!';
+  String get tutorialL5Gaps =>
+      'Последний урок: решаем с помощью X! Четыре крайних столбца — [2 2]: 2 + 1 + 2 = 5. Все их пропуски приходятся на среднюю строку.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Отметь эти пустые клетки: коснись дважды, на втором касании не отрывай палец и проведи в сторону: сразу два X!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Твоя очередь: одним движением нарисуй X на двух пустых клетках справа.';
+
+  @override
+  String get tutorialL5Count =>
+      'Эта строка [1], и после X осталась только одна клетка. С X считать легко: закрась её!';
 
   @override
   String get tutorialL5Hint =>

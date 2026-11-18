@@ -393,8 +393,20 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tutorialL4Finish => 'ممتاز! الآن أكمل الصورة.';
 
   @override
-  String get tutorialL5Sum =>
-      'الدرس الأخير! هذا العمود [3 1]: 3 + 1 + 1 = 5، إذن هو محدد. حُلّه بنفسك!';
+  String get tutorialL5Gaps =>
+      'الدرس الأخير: الحل بعلامات X! الأعمدة الأربعة الخارجية [2 2]: 2 + 1 + 2 = 5. وكل فراغاتها تقع في الصف الأوسط.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'ضع X على هذه المربعات الفارغة: انقر مرتين، وأبقِ إصبعك في النقرة الثانية واسحب جانبًا: علامتا X دفعة واحدة!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'دورك: ارسم X بسحبة واحدة على المربعين الفارغين في اليمين.';
+
+  @override
+  String get tutorialL5Count =>
+      'هذا الصف [1]، وبعد علامات X بقي مربع واحد فقط. علامات X تسهّل العد: املأه!';
 
   @override
   String get tutorialL5Hint =>

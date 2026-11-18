@@ -390,8 +390,20 @@ class AppLocalizationsMs extends AppLocalizations {
   String get tutorialL4Finish => 'Bagus! Sekarang lengkapkan gambar.';
 
   @override
-  String get tutorialL5Sum =>
-      'Pelajaran terakhir! Lajur ini [3 1]: 3 + 1 + 1 = 5, jadi ia pasti. Selesaikannya sendiri!';
+  String get tutorialL5Gaps =>
+      'Pelajaran terakhir: selesaikan dengan X! Empat lajur di tepi ialah [2 2]: 2 + 1 + 2 = 5. Semua ruang kosongnya jatuh pada baris tengah.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Tandakan petak kosong ini: ketik dua kali, tahan jari pada ketikan kedua dan leret ke tepi: dua X sekali gus!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Giliran anda: lukis X pada dua petak kosong di sebelah kanan dengan satu leretan.';
+
+  @override
+  String get tutorialL5Count =>
+      'Baris ini [1], dan selepas X hanya tinggal satu petak. X memudahkan pengiraan: isikannya!';
 
   @override
   String get tutorialL5Hint =>

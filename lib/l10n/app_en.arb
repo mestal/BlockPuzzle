@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "Your turn: draw X's on the three empty squares of this column in one slide.",
   "tutorialL4Erase": "Wrong X? Double tap it again to remove it. A double-tap slide that starts on an X erases the X's it passes.",
   "tutorialL4Finish": "Super! Now complete the picture.",
-  "tutorialL5Sum": "Last lesson! This column is [3 1]: 3 + 1 + 1 = 5, so it's certain. Solve it yourself!",
+  "tutorialL5Gaps": "Last lesson: solving with X! The four outer columns are [2 2]: 2 + 1 + 2 = 5. All their gaps fall on the middle row.",
+  "tutorialL5CrossDrag": "Mark those empty squares: double tap, keep your finger down on the second tap and slide sideways. Two X's in one go!",
+  "tutorialL5CrossDragSelf": "Your turn: draw X's on the two empty squares on the right in one slide.",
+  "tutorialL5Count": "This row is [1], and the X's leave only one square open. X's make counting easy: fill it!",
   "tutorialL5Hint": "Stuck? Press Hint: it shows the next step and explains why.",
   "tutorialL5Finish": "You're ready! On big grids, thick lines mark every 5 squares to help you count. Finish the picture!"
 }

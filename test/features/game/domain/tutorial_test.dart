@@ -223,6 +223,31 @@ void main() {
     expect(tutorial.currentStep(board, const {0}), 2);
   });
 
+  test('lesson 5 crosses the middle row in two sideways slides', () {
+    final tutorial = Tutorial.forLevel(5)!;
+    final slides = [
+      for (final step in tutorial.steps)
+        if (step.gesture == TutorialGesture.crossDrag) step,
+    ];
+    expect(slides, hasLength(2));
+    for (final step in slides) {
+      expect(step.from!.$1, 2, reason: 'a slide along the middle row');
+      expect(step.to!.$1, 2);
+    }
+    var board = Board.start(_level(5));
+    expect(tutorial.currentStep(board, const {0}), 1);
+    board = board.apply(2, 0, MoveAction.cross).board;
+    expect(tutorial.currentStep(board, const {0}), 2);
+  });
+
+  test('lesson 5 skips the slides once the middle row is solved', () {
+    final tutorial = Tutorial.forLevel(5)!;
+    final board = Board.start(_level(5)).apply(2, 2, MoveAction.fill).board;
+    expect(board.at(2, 0).isLocked, isTrue);
+    final i = tutorial.currentStep(board, const {});
+    expect(tutorial.steps[i!].text, TutorialText.l5Hint);
+  });
+
   test('the hand never starts a slide on an automatic X', () {
     final tutorial = Tutorial.forLevel(4)!;
     var board = Board.start(_level(4));

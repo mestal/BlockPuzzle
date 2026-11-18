@@ -391,8 +391,20 @@ class AppLocalizationsSw extends AppLocalizations {
   String get tutorialL4Finish => 'Safi sana! Sasa kamilisha picha.';
 
   @override
-  String get tutorialL5Sum =>
-      'Somo la mwisho! Safu wima hii ni [3 1]: 3 + 1 + 1 = 5, kwa hiyo ni ya uhakika. Itatue mwenyewe!';
+  String get tutorialL5Gaps =>
+      'Somo la mwisho: kutatua kwa X! Safu wima nne za pembeni ni [2 2]: 2 + 1 + 2 = 5. Mapengo yao yote yako kwenye safu mlalo ya katikati.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Weka X kwenye visanduku hivi vitupu: gusa mara mbili, shikilia kidole kwenye mguso wa pili na telezesha pembeni: X mbili kwa mpigo mmoja!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Zamu yako: kwa kutelezesha mara moja, chora X kwenye visanduku viwili vitupu vya kulia.';
+
+  @override
+  String get tutorialL5Count =>
+      'Safu mlalo hii ni [1], na baada ya X kimebaki kisanduku kimoja tu. X hurahisisha kuhesabu: kijaze!';
 
   @override
   String get tutorialL5Hint =>

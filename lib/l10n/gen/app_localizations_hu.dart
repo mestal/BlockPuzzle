@@ -390,8 +390,20 @@ class AppLocalizationsHu extends AppLocalizations {
   String get tutorialL4Finish => 'Szuper! Most fejezd be a képet.';
 
   @override
-  String get tutorialL5Sum =>
-      'Utolsó lecke! Ez az oszlop [3 1]: 3 + 1 + 1 = 5, tehát biztos. Oldd meg egyedül!';
+  String get tutorialL5Gaps =>
+      'Utolsó lecke: megoldás X-szel! A négy szélső oszlop [2 2]: 2 + 1 + 2 = 5. Minden hézaguk a középső sorba esik.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Jelöld meg ezeket az üres négyzeteket: koppints kétszer, a második koppintásnál tartsd lent az ujjad, és húzd oldalra: két X egyszerre!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Te jössz: egy húzással tegyél X-et a jobb oldali két üres négyzetre.';
+
+  @override
+  String get tutorialL5Count =>
+      'Ez a sor [1], és az X-ek után csak egy négyzet maradt. Az X-ekkel könnyű számolni: töltsd ki!';
 
   @override
   String get tutorialL5Hint =>

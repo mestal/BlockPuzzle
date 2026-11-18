@@ -392,8 +392,20 @@ class AppLocalizationsDe extends AppLocalizations {
   String get tutorialL4Finish => 'Super! Jetzt vervollständige das Bild.';
 
   @override
-  String get tutorialL5Sum =>
-      'Letzte Lektion! Diese Spalte ist [3 1]: 3 + 1 + 1 = 5, also steht sie fest. Löse sie selbst!';
+  String get tutorialL5Gaps =>
+      'Letzte Lektion: Lösen mit X! Die vier äußeren Spalten sind [2 2]: 2 + 1 + 2 = 5. Alle ihre Lücken liegen in der mittleren Zeile.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Markiere diese leeren Felder: Tippe doppelt, lass beim zweiten Tippen den Finger unten und wische zur Seite. Zwei X auf einmal!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Du bist dran: Zeichne mit einem Wisch X auf die zwei leeren Felder rechts.';
+
+  @override
+  String get tutorialL5Count =>
+      'Diese Zeile ist [1], und nach den X bleibt nur ein Feld frei. X machen das Zählen leicht: Fülle es!';
 
   @override
   String get tutorialL5Hint =>

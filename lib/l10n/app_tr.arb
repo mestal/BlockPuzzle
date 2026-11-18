@@ -259,7 +259,10 @@
   "tutorialL4CrossDragSelf": "Şimdi sen: bu sütundaki üç boş kareye tek seferde X çiz.",
   "tutorialL4Erase": "Yanlış X mi koydun? X'e yine çift dokun, silinir. X'ten başlayıp kaydırırsan geçtiğin X'ler silinir.",
   "tutorialL4Finish": "Süper! Şimdi resmi tamamla.",
-  "tutorialL5Sum": "Son ders! Bu sütun [3 1]: 3 + 1 + 1 = 5, yerleri belli. Kendin çöz!",
+  "tutorialL5Gaps": "Son ders: X ile çözmek! Kenardaki dört sütun [2 2]: 2 + 1 + 2 = 5. Hepsinin boşluğu ortadaki satıra düşüyor.",
+  "tutorialL5CrossDrag": "Bu boş karelere X koy: çift dokun, ikinci dokunuşta parmağını kaldırmadan yana kaydır. İki X birden!",
+  "tutorialL5CrossDragSelf": "Şimdi sen: sağdaki iki boş kareye tek seferde X çiz.",
+  "tutorialL5Count": "Bu satır [1] ve X'lerden sonra tek kare kaldı. X'ler saymayı kolaylaştırır: doldur!",
   "tutorialL5Hint": "Takılırsan İpucu'na bas: bir sonraki adımı ve nedenini gösterir.",
   "tutorialL5Finish": "Artık hazırsın! Büyük ızgaralarda kalın çizgiler 5'er kareyi ayırır. Resmi bitir!"
 }

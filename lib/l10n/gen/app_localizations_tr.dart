@@ -383,8 +383,20 @@ class AppLocalizationsTr extends AppLocalizations {
   String get tutorialL4Finish => 'Süper! Şimdi resmi tamamla.';
 
   @override
-  String get tutorialL5Sum =>
-      'Son ders! Bu sütun [3 1]: 3 + 1 + 1 = 5, yerleri belli. Kendin çöz!';
+  String get tutorialL5Gaps =>
+      'Son ders: X ile çözmek! Kenardaki dört sütun [2 2]: 2 + 1 + 2 = 5. Hepsinin boşluğu ortadaki satıra düşüyor.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Bu boş karelere X koy: çift dokun, ikinci dokunuşta parmağını kaldırmadan yana kaydır. İki X birden!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Şimdi sen: sağdaki iki boş kareye tek seferde X çiz.';
+
+  @override
+  String get tutorialL5Count =>
+      'Bu satır [1] ve X\'lerden sonra tek kare kaldı. X\'ler saymayı kolaylaştırır: doldur!';
 
   @override
   String get tutorialL5Hint =>

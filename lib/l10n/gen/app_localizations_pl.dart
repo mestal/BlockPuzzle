@@ -392,8 +392,20 @@ class AppLocalizationsPl extends AppLocalizations {
   String get tutorialL4Finish => 'Super! Teraz dokończ obrazek.';
 
   @override
-  String get tutorialL5Sum =>
-      'Ostatnia lekcja! Ta kolumna to [3 1]: 3 + 1 + 1 = 5, więc jest pewna. Rozwiąż ją sam!';
+  String get tutorialL5Gaps =>
+      'Ostatnia lekcja: rozwiązywanie z X! Cztery skrajne kolumny to [2 2]: 2 + 1 + 2 = 5. Wszystkie ich przerwy wypadają w środkowym wierszu.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Oznacz te puste pola: dotknij dwa razy, przy drugim dotknięciu przytrzymaj palec i przesuń w bok: dwa X naraz!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Twoja kolej: jednym ruchem narysuj X na dwóch pustych polach po prawej.';
+
+  @override
+  String get tutorialL5Count =>
+      'Ten wiersz to [1], a po X zostało tylko jedno pole. Z X łatwo liczyć: wypełnij je!';
 
   @override
   String get tutorialL5Hint =>

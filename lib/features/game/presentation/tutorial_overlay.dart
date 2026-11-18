@@ -940,7 +940,10 @@ class TutorialCard extends StatefulWidget {
         TutorialText.l4CrossDragSelf => l10n.tutorialL4CrossDragSelf,
         TutorialText.l4Erase => l10n.tutorialL4Erase,
         TutorialText.l4Finish => l10n.tutorialL4Finish,
-        TutorialText.l5Sum => l10n.tutorialL5Sum,
+        TutorialText.l5Gaps => l10n.tutorialL5Gaps,
+        TutorialText.l5CrossDrag => l10n.tutorialL5CrossDrag,
+        TutorialText.l5CrossDragSelf => l10n.tutorialL5CrossDragSelf,
+        TutorialText.l5Count => l10n.tutorialL5Count,
         TutorialText.l5Hint => l10n.tutorialL5Hint,
         TutorialText.l5Finish => l10n.tutorialL5Finish,
       };

@@ -1,7 +1,7 @@
 {
   "id": 5,
-  "name": {"id": "Piala", "ms": "Trofi", "da": "Pokal", "de": "Pokal", "en": "Trophy", "es": "Copa", "fil": "Tropeo", "fr": "Coupe", "it": "Coppa", "sw": "Kombe", "hu": "Kupa", "nl": "Trofee", "nb": "Pokal", "pl": "Puchar", "pt": "Troféu", "ro": "Trofeu", "fi": "Pokaali", "sv": "Pokal", "vi": "Cúp", "tr": "Kupa", "cs": "Pohár", "el": "Τρόπαιο", "bg": "Трофей", "ru": "Кубок", "uk": "Кубок", "ur": "ٹرافی", "ar": "كأس", "fa": "جام", "mr": "चषक", "hi": "ट्रॉफी", "bn": "ট্রফি", "pa": "ਟਰਾਫ਼ੀ", "ta": "கோப்பை", "te": "ట్రోఫీ", "th": "ถ้วยรางวัล", "zh": "奖杯", "ja": "トロフィー", "ko": "트로피"},
-  "solution": ["#####", "#####", ".###.", "..#..", ".###."],
-  "colors":   ["AYAAA", "AAAAA", ".AAA.", "..T..", ".TTT."],
-  "palette":  { "A": "#F59E0B", "T": "#92400E", "Y": "#FACC15" }
+  "name": {"id": "Kunang-kunang", "ms": "Kelip-kelip", "da": "Ildflue", "de": "Glühwürmchen", "en": "Firefly", "es": "Luciérnaga", "fil": "Alitaptap", "fr": "Luciole", "it": "Lucciola", "sw": "Kimulimuli", "hu": "Szentjánosbogár", "nl": "Vuurvliegje", "nb": "Ildflue", "pl": "Świetlik", "pt": "Vaga-lume", "ro": "Licurici", "fi": "Tulikärpänen", "sv": "Eldfluga", "vi": "Đom đóm", "tr": "Ateş Böceği", "cs": "Světluška", "el": "Πυγολαμπίδα", "bg": "Светулка", "ru": "Светлячок", "uk": "Світлячок", "ur": "جگنو", "ar": "يراعة", "fa": "کرم شب‌تاب", "mr": "काजवा", "hi": "जुगनू", "bn": "জোনাকি", "pa": "ਜੁਗਨੂੰ", "ta": "மின்மினிப் பூச்சி", "te": "మిణుగురు పురుగు", "th": "หิ่งห้อย", "zh": "萤火虫", "ja": "ホタル", "ko": "반딧불이"},
+  "solution": ["##.##", "#####", "..#..", "#####", "##.##"],
+  "colors":   ["HH.HH", "HTRTH", "..K..", "HTYTH", "HH.HH"],
+  "palette":  { "H": "#5B3410", "K": "#1F2937", "R": "#E8453C", "T": "#92400E", "Y": "#FACC15" }
 }

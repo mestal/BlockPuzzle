@@ -390,8 +390,20 @@ class AppLocalizationsVi extends AppLocalizations {
   String get tutorialL4Finish => 'Giỏi lắm! Giờ hoàn thành bức tranh nhé.';
 
   @override
-  String get tutorialL5Sum =>
-      'Bài cuối! Cột này là [3 1]: 3 + 1 + 1 = 5, nên đã chắc chắn. Tự giải nhé!';
+  String get tutorialL5Gaps =>
+      'Bài cuối: giải bằng dấu X! Bốn cột ngoài cùng là [2 2]: 2 + 1 + 2 = 5. Chỗ trống của chúng đều nằm ở hàng giữa.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Đánh dấu các ô trống này: chạm hai lần, giữ ngón tay ở lần chạm thứ hai rồi vuốt sang ngang: hai dấu X một lúc!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Đến lượt bạn: vuốt một lần để vẽ X lên hai ô trống bên phải.';
+
+  @override
+  String get tutorialL5Count =>
+      'Hàng này là [1], và sau các dấu X chỉ còn một ô. Dấu X giúp đếm dễ hơn: tô ô đó!';
 
   @override
   String get tutorialL5Hint =>

@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "Ikaw naman: sa isang slide, gumuhit ng X sa tatlong bakanteng kahon ng kolum na ito.",
   "tutorialL4Erase": "Maling X? I-double tap ulit para mawala. Ang double-tap na slide na nagsisimula sa X ay nagbubura ng mga X na madaanan.",
   "tutorialL4Finish": "Ayos! Ngayon kumpletuhin ang larawan.",
-  "tutorialL5Sum": "Huling aralin! [3 1] ang kolum na ito: 3 + 1 + 1 = 5, kaya sigurado na. Ikaw ang lumutas!",
+  "tutorialL5Gaps": "Huling aralin: lumutas gamit ang X! [2 2] ang apat na kolum sa gilid: 2 + 1 + 2 = 5. Lahat ng puwang nila ay nasa gitnang hanay.",
+  "tutorialL5CrossDrag": "Markahan ang mga bakanteng kahon: mag-double tap, idiin ang daliri sa ikalawang tap at i-slide patagilid: dalawang X nang sabay!",
+  "tutorialL5CrossDragSelf": "Ikaw naman: sa isang slide, gumuhit ng X sa dalawang bakanteng kahon sa kanan.",
+  "tutorialL5Count": "[1] ang hanay na ito, at pagkatapos ng mga X, isang kahon na lang ang natira. Pinadadali ng X ang pagbilang: punuin ito!",
   "tutorialL5Hint": "Naipit? Pindutin ang Pahiwatig: ipinapakita nito ang susunod na hakbang at kung bakit.",
   "tutorialL5Finish": "Handa ka na! Sa malalaking grid, hinahati ng makakapal na linya ang bawat 5 kahon para madaling magbilang. Tapusin ang larawan!"
 }

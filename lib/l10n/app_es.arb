@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "Te toca: dibuja X de un solo trazo en las tres casillas vacías de esta columna.",
   "tutorialL4Erase": "¿Una X equivocada? Tócala dos veces otra vez para quitarla. Si deslizas con doble toque desde una X, borras las X por las que pasas.",
   "tutorialL4Finish": "¡Súper! Ahora completa el dibujo.",
-  "tutorialL5Sum": "¡Última lección! Esta columna es [3 1]: 3 + 1 + 1 = 5, así que es segura. ¡Resuélvela tú!",
+  "tutorialL5Gaps": "¡Última lección: resolver con X! Las cuatro columnas de los lados son [2 2]: 2 + 1 + 2 = 5. Todos sus huecos caen en la fila del medio.",
+  "tutorialL5CrossDrag": "Marca esas casillas vacías: toca dos veces, deja el dedo apoyado en el segundo toque y desliza hacia un lado. ¡Dos X de una vez!",
+  "tutorialL5CrossDragSelf": "Te toca: dibuja X de un solo trazo en las dos casillas vacías de la derecha.",
+  "tutorialL5Count": "Esta fila es [1] y, tras las X, solo queda una casilla. Las X facilitan contar: ¡rellénala!",
   "tutorialL5Hint": "¿Atascado? Pulsa Pista: te muestra el siguiente paso y por qué.",
   "tutorialL5Finish": "¡Ya estás listo! En las cuadrículas grandes, unas líneas gruesas separan cada 5 casillas para ayudarte a contar. ¡Termina el dibujo!"
 }

@@ -392,8 +392,20 @@ class AppLocalizationsTa extends AppLocalizations {
   String get tutorialL4Finish => 'சூப்பர்! இப்போது படத்தை முடியுங்கள்.';
 
   @override
-  String get tutorialL5Sum =>
-      'கடைசிப் பாடம்! இந்த நெடுவரிசை [3 1]: 3 + 1 + 1 = 5, எனவே உறுதி. நீங்களே தீர்த்துவிடுங்கள்!';
+  String get tutorialL5Gaps =>
+      'கடைசிப் பாடம்: X கொண்டு தீர்ப்பது! ஓரத்தில் உள்ள நான்கு நெடுவரிசைகளும் [2 2]: 2 + 1 + 2 = 5. அவற்றின் இடைவெளிகள் எல்லாம் நடு வரிசையில் விழுகின்றன.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'இந்தக் காலிக் கட்டங்களில் X இடுங்கள்: இருமுறை தட்டி, இரண்டாவது தட்டலில் விரலை அழுத்தியபடி பக்கவாட்டில் இழுங்கள்: ஒரே நேரத்தில் இரண்டு X!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'உங்கள் முறை: ஒரே இழுப்பில் வலப்பக்கம் உள்ள இரண்டு காலிக் கட்டங்களில் X வரையுங்கள்.';
+
+  @override
+  String get tutorialL5Count =>
+      'இந்த வரிசை [1], X இட்ட பிறகு ஒரே ஒரு கட்டம் மட்டுமே மீதம். X இருந்தால் எண்ணுவது எளிது: அதை நிரப்புங்கள்!';
 
   @override
   String get tutorialL5Hint =>

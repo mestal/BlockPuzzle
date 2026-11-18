@@ -389,8 +389,20 @@ class AppLocalizationsFi extends AppLocalizations {
   String get tutorialL4Finish => 'Huippua! Viimeistele nyt kuva.';
 
   @override
-  String get tutorialL5Sum =>
-      'Viimeinen oppitunti! Tämä sarake on [3 1]: 3 + 1 + 1 = 5, joten se on varma. Ratkaise se itse!';
+  String get tutorialL5Gaps =>
+      'Viimeinen oppitunti: ratkaise X:illä! Neljä reunasaraketta ovat [2 2]: 2 + 1 + 2 = 5. Kaikkien välit osuvat keskimmäiselle riville.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Merkitse nämä tyhjät ruudut: kaksoisnapauta, pidä sormi alhaalla toisella napautuksella ja liu’uta sivulle: kaksi X:ää kerralla!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Sinun vuorosi: vedä yhdellä liu’utuksella X:t oikealla oleviin kahteen tyhjään ruutuun.';
+
+  @override
+  String get tutorialL5Count =>
+      'Tämä rivi on [1], ja X:ien jälkeen jäljellä on vain yksi ruutu. X:t helpottavat laskemista: täytä se!';
 
   @override
   String get tutorialL5Hint =>

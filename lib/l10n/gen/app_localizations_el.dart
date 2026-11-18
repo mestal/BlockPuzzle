@@ -392,8 +392,20 @@ class AppLocalizationsEl extends AppLocalizations {
   String get tutorialL4Finish => 'Σούπερ! Τώρα ολοκλήρωσε την εικόνα.';
 
   @override
-  String get tutorialL5Sum =>
-      'Τελευταίο μάθημα! Αυτή η στήλη είναι [3 1]: 3 + 1 + 1 = 5, άρα είναι σίγουρη. Λύσ’ την μόνος σου!';
+  String get tutorialL5Gaps =>
+      'Τελευταίο μάθημα: λύνουμε με X! Οι τέσσερις εξωτερικές στήλες είναι [2 2]: 2 + 1 + 2 = 5. Όλα τα κενά τους πέφτουν στη μεσαία γραμμή.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Σημάδεψε αυτά τα κενά τετράγωνα: πάτησε δύο φορές, κράτα το δάχτυλο στο δεύτερο πάτημα και σύρε στο πλάι: δύο X μονομιάς!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Σειρά σου: βάλε με μία κίνηση X στα δύο κενά τετράγωνα δεξιά.';
+
+  @override
+  String get tutorialL5Count =>
+      'Αυτή η γραμμή είναι [1] και μετά τα X έμεινε μόνο ένα τετράγωνο. Τα X κάνουν το μέτρημα εύκολο: γέμισέ το!';
 
   @override
   String get tutorialL5Hint =>

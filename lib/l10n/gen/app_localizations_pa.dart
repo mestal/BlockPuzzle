@@ -388,8 +388,20 @@ class AppLocalizationsPa extends AppLocalizations {
   String get tutorialL4Finish => 'ਬਹੁਤ ਵਧੀਆ! ਹੁਣ ਤਸਵੀਰ ਪੂਰੀ ਕਰੋ।';
 
   @override
-  String get tutorialL5Sum =>
-      'ਆਖਰੀ ਪਾਠ! ਇਹ ਕਾਲਮ [3 1] ਹੈ: 3 + 1 + 1 = 5, ਯਾਨੀ ਪੱਕਾ ਹੈ। ਆਪ ਹੱਲ ਕਰੋ!';
+  String get tutorialL5Gaps =>
+      'ਆਖਰੀ ਪਾਠ: X ਨਾਲ ਹੱਲ ਕਰਨਾ! ਕਿਨਾਰੇ ਦੇ ਚਾਰੇ ਕਾਲਮ [2 2] ਹਨ: 2 + 1 + 2 = 5। ਇਨ੍ਹਾਂ ਸਾਰਿਆਂ ਦੇ ਖਾਲੀ ਖਾਨੇ ਵਿਚਕਾਰਲੀ ਕਤਾਰ ਵਿੱਚ ਆਉਂਦੇ ਹਨ।';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'ਇਨ੍ਹਾਂ ਖਾਲੀ ਖਾਨਿਆਂ ਉੱਤੇ X ਲਗਾਓ: ਡਬਲ ਟੈਪ ਕਰੋ, ਦੂਜੇ ਟੈਪ ਉੱਤੇ ਉਂਗਲ ਦਬਾਈ ਰੱਖੋ ਅਤੇ ਪਾਸੇ ਵੱਲ ਖਿਸਕਾਓ: ਇੱਕੋ ਵਾਰ ਦੋ X!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'ਤੁਹਾਡੀ ਵਾਰੀ: ਇੱਕੋ ਵਾਰ ਖਿਸਕਾ ਕੇ ਸੱਜੇ ਪਾਸੇ ਦੇ ਦੋ ਖਾਲੀ ਖਾਨਿਆਂ ਉੱਤੇ X ਬਣਾਓ।';
+
+  @override
+  String get tutorialL5Count =>
+      'ਇਹ ਕਤਾਰ [1] ਹੈ, ਅਤੇ X ਤੋਂ ਬਾਅਦ ਸਿਰਫ਼ ਇੱਕ ਖਾਨਾ ਬਚਿਆ। X ਨਾਲ ਗਿਣਨਾ ਸੌਖਾ ਹੁੰਦਾ ਹੈ: ਇਸ ਨੂੰ ਭਰੋ!';
 
   @override
   String get tutorialL5Hint =>

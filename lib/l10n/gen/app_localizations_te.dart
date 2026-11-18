@@ -391,8 +391,20 @@ class AppLocalizationsTe extends AppLocalizations {
   String get tutorialL4Finish => 'సూపర్! ఇప్పుడు చిత్రాన్ని పూర్తి చేయండి.';
 
   @override
-  String get tutorialL5Sum =>
-      'చివరి పాఠం! ఈ నిలువు వరుస [3 1]: 3 + 1 + 1 = 5, కాబట్టి ఖచ్చితం. మీరే పరిష్కరించండి!';
+  String get tutorialL5Gaps =>
+      'చివరి పాఠం: X తో పరిష్కరించడం! అంచున ఉన్న నాలుగు నిలువు వరుసలు [2 2]: 2 + 1 + 2 = 5. వాటి ఖాళీలన్నీ మధ్య అడ్డు వరుసలో పడతాయి.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'ఈ ఖాళీ గడులపై X పెట్టండి: డబుల్ ట్యాప్ చేసి, రెండో ట్యాప్‌లో వేలు నొక్కిపట్టి పక్కకు జరపండి: ఒకేసారి రెండు X లు!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'మీ వంతు: ఒక్కసారి జరిపి కుడివైపు ఉన్న రెండు ఖాళీ గడులపై X గీయండి.';
+
+  @override
+  String get tutorialL5Count =>
+      'ఈ అడ్డు వరుస [1], X ల తర్వాత ఒక్క గడి మాత్రమే మిగిలింది. X లతో లెక్కించడం సులువు: దాన్ని నింపండి!';
 
   @override
   String get tutorialL5Hint =>

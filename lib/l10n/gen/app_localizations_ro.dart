@@ -393,8 +393,20 @@ class AppLocalizationsRo extends AppLocalizations {
   String get tutorialL4Finish => 'Super! Acum completează imaginea.';
 
   @override
-  String get tutorialL5Sum =>
-      'Ultima lecție! Coloana aceasta e [3 1]: 3 + 1 + 1 = 5, deci e sigură. Rezolv-o singur!';
+  String get tutorialL5Gaps =>
+      'Ultima lecție: rezolvăm cu X! Cele patru coloane de margine sunt [2 2]: 2 + 1 + 2 = 5. Toate golurile lor cad pe rândul din mijloc.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Marchează pătrățelele goale: atinge de două ori, ține degetul jos la a doua atingere și glisează în lateral: două X dintr-odată!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'E rândul tău: trage dintr-o singură mișcare X pe cele două pătrățele goale din dreapta.';
+
+  @override
+  String get tutorialL5Count =>
+      'Rândul acesta e [1], iar după X a rămas un singur pătrățel. Cu X numărarea e ușoară: umple-l!';
 
   @override
   String get tutorialL5Hint =>

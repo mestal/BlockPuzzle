@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "Đến lượt bạn: vuốt một lần để vẽ X lên ba ô trống của cột này.",
   "tutorialL4Erase": "Đánh X nhầm? Chạm hai lần lần nữa để xóa. Vuốt bằng chạm hai lần bắt đầu từ một X sẽ xóa các X trên đường đi.",
   "tutorialL4Finish": "Giỏi lắm! Giờ hoàn thành bức tranh nhé.",
-  "tutorialL5Sum": "Bài cuối! Cột này là [3 1]: 3 + 1 + 1 = 5, nên đã chắc chắn. Tự giải nhé!",
+  "tutorialL5Gaps": "Bài cuối: giải bằng dấu X! Bốn cột ngoài cùng là [2 2]: 2 + 1 + 2 = 5. Chỗ trống của chúng đều nằm ở hàng giữa.",
+  "tutorialL5CrossDrag": "Đánh dấu các ô trống này: chạm hai lần, giữ ngón tay ở lần chạm thứ hai rồi vuốt sang ngang: hai dấu X một lúc!",
+  "tutorialL5CrossDragSelf": "Đến lượt bạn: vuốt một lần để vẽ X lên hai ô trống bên phải.",
+  "tutorialL5Count": "Hàng này là [1], và sau các dấu X chỉ còn một ô. Dấu X giúp đếm dễ hơn: tô ô đó!",
   "tutorialL5Hint": "Bí à? Nhấn Gợi ý: nó chỉ bước tiếp theo và giải thích lý do.",
   "tutorialL5Finish": "Bạn đã sẵn sàng! Ở lưới lớn, các đường đậm chia mỗi 5 ô để dễ đếm. Hoàn thành bức tranh nhé!"
 }

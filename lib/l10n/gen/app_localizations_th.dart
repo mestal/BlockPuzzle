@@ -385,8 +385,20 @@ class AppLocalizationsTh extends AppLocalizations {
   String get tutorialL4Finish => 'เก่งมาก! ทีนี้เติมภาพให้เสร็จ';
 
   @override
-  String get tutorialL5Sum =>
-      'บทเรียนสุดท้าย! คอลัมน์นี้คือ [3 1]: 3 + 1 + 1 = 5 จึงแน่นอน แก้เองเลย!';
+  String get tutorialL5Gaps =>
+      'บทเรียนสุดท้าย: แก้ด้วย X! สี่คอลัมน์ด้านนอกคือ [2 2]: 2 + 1 + 2 = 5 ช่องว่างของทุกคอลัมน์อยู่ในแถวกลาง';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'ทำเครื่องหมายช่องว่างเหล่านี้: แตะสองครั้ง ค้างนิ้วไว้ตอนแตะครั้งที่สองแล้วลากไปด้านข้าง: ได้ X สองตัวในครั้งเดียว!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'ถึงตาคุณ: ลากครั้งเดียวให้เป็น X บนสองช่องว่างทางขวา';
+
+  @override
+  String get tutorialL5Count =>
+      'แถวนี้คือ [1] และหลังทำ X แล้วเหลือแค่ช่องเดียว X ช่วยให้นับง่าย: เติมช่องนั้นเลย!';
 
   @override
   String get tutorialL5Hint =>

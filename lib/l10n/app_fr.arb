@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "À toi : trace d'un seul geste des X sur les trois cases vides de cette colonne.",
   "tutorialL4Erase": "Un X de trop ? Touche-le encore deux fois pour l'enlever. Un double toucher glissé depuis un X efface les X sur son chemin.",
   "tutorialL4Finish": "Super ! Maintenant termine l'image.",
-  "tutorialL5Sum": "Dernière leçon ! Cette colonne est [3 1] : 3 + 1 + 1 = 5, c'est certain. Résous-la toi-même !",
+  "tutorialL5Gaps": "Dernière leçon : résoudre avec des X ! Les quatre colonnes extérieures sont [2 2] : 2 + 1 + 2 = 5. Tous leurs vides tombent sur la ligne du milieu.",
+  "tutorialL5CrossDrag": "Marque ces cases vides : touche deux fois, garde le doigt posé au second toucher et glisse sur le côté. Deux X d'un coup !",
+  "tutorialL5CrossDragSelf": "À toi : trace d'un seul geste des X sur les deux cases vides de droite.",
+  "tutorialL5Count": "Cette ligne est [1], et après les X il ne reste qu'une case. Les X facilitent le comptage : remplis-la !",
   "tutorialL5Hint": "Bloqué ? Appuie sur Indice : il montre l'étape suivante et explique pourquoi.",
   "tutorialL5Finish": "Tu es prêt ! Sur les grandes grilles, des traits épais séparent les cases par 5 pour t'aider à compter. Termine l'image !"
 }

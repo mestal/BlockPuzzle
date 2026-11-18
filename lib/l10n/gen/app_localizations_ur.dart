@@ -389,8 +389,20 @@ class AppLocalizationsUr extends AppLocalizations {
   String get tutorialL4Finish => 'بہت خوب! اب تصویر مکمل کریں۔';
 
   @override
-  String get tutorialL5Sum =>
-      'آخری سبق! یہ کالم [3 1] ہے: 3 + 1 + 1 = 5، یعنی یقینی ہے۔ خود حل کریں!';
+  String get tutorialL5Gaps =>
+      'آخری سبق: X سے حل کرنا! کنارے کے چاروں کالم [2 2] ہیں: 2 + 1 + 2 = 5۔ ان سب کے خالی خانے درمیانی قطار میں آتے ہیں۔';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'ان خالی خانوں پر X لگائیں: ڈبل ٹیپ کریں، دوسرے ٹیپ پر انگلی دبائے رکھیں اور ایک طرف کھسکائیں: ایک ساتھ دو X!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'آپ کی باری: ایک ہی بار کھسکا کر دائیں طرف کے دو خالی خانوں پر X بنائیں۔';
+
+  @override
+  String get tutorialL5Count =>
+      'یہ قطار [1] ہے، اور X کے بعد صرف ایک خانہ بچا۔ X سے گننا آسان ہو جاتا ہے: اسے بھریں!';
 
   @override
   String get tutorialL5Hint =>

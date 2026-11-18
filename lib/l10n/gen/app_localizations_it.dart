@@ -390,8 +390,20 @@ class AppLocalizationsIt extends AppLocalizations {
   String get tutorialL4Finish => 'Super! Ora completa l\'immagine.';
 
   @override
-  String get tutorialL5Sum =>
-      'Ultima lezione! Questa colonna è [3 1]: 3 + 1 + 1 = 5, quindi è certa. Risolvila da solo!';
+  String get tutorialL5Gaps =>
+      'Ultima lezione: risolvere con le X! Le quattro colonne esterne sono [2 2]: 2 + 1 + 2 = 5. Tutti i loro spazi vuoti cadono nella riga centrale.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Segna queste caselle vuote: tocca due volte, tieni giù il dito al secondo tocco e scorri di lato. Due X in un colpo!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Tocca a te: traccia in un solo gesto le X sulle due caselle vuote a destra.';
+
+  @override
+  String get tutorialL5Count =>
+      'Questa riga è [1] e, dopo le X, resta una sola casella. Le X rendono facile contare: riempila!';
 
   @override
   String get tutorialL5Hint =>

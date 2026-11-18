@@ -356,7 +356,17 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tutorialL4Finish => '太棒了！现在完成这幅画。';
 
   @override
-  String get tutorialL5Sum => '最后一课！这一列是 [3 1]：3 + 1 + 1 = 5，所以是确定的。自己解开它！';
+  String get tutorialL5Gaps =>
+      '最后一课：用 X 来解题！两边的四列都是 [2 2]：2 + 1 + 2 = 5。它们的空格都落在中间那一行。';
+
+  @override
+  String get tutorialL5CrossDrag => '给这些空格画 X：双击，第二下按住不放并往旁边滑：一次画出两个 X！';
+
+  @override
+  String get tutorialL5CrossDragSelf => '轮到你了：一笔在右边的两个空格上画 X。';
+
+  @override
+  String get tutorialL5Count => '这一行是 [1]，画上 X 后只剩一格。X 让数格子变简单：把它填上！';
 
   @override
   String get tutorialL5Hint => '卡住了？点提示：它会显示下一步并解释原因。';

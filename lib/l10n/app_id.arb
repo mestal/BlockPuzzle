@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "Giliranmu: gambar X di tiga kotak kosong pada kolom ini dengan satu geseran.",
   "tutorialL4Erase": "Salah X? Ketuk dua kali lagi untuk menghapusnya. Geseran ketuk dua kali yang dimulai dari X menghapus X yang dilewati.",
   "tutorialL4Finish": "Keren! Sekarang lengkapi gambarnya.",
-  "tutorialL5Sum": "Pelajaran terakhir! Kolom ini [3 1]: 3 + 1 + 1 = 5, jadi sudah pasti. Selesaikan sendiri!",
+  "tutorialL5Gaps": "Pelajaran terakhir: memecahkan dengan X! Empat kolom di tepi adalah [2 2]: 2 + 1 + 2 = 5. Semua celahnya jatuh di baris tengah.",
+  "tutorialL5CrossDrag": "Tandai kotak kosong ini: ketuk dua kali, tahan jari di ketukan kedua, lalu geser ke samping: dua X sekaligus!",
+  "tutorialL5CrossDragSelf": "Giliranmu: gambar X di dua kotak kosong sebelah kanan dengan satu geseran.",
+  "tutorialL5Count": "Baris ini [1], dan setelah ada X tinggal satu kotak. X membuat menghitung jadi mudah: isi kotaknya!",
   "tutorialL5Hint": "Buntu? Tekan Petunjuk: ia menunjukkan langkah berikutnya beserta alasannya.",
   "tutorialL5Finish": "Kamu sudah siap! Di grid besar, garis tebal memisahkan tiap 5 kotak agar mudah dihitung. Selesaikan gambarnya!"
 }

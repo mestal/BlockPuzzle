@@ -47,7 +47,10 @@ enum TutorialText {
   l4CrossDragSelf,
   l4Erase,
   l4Finish,
-  l5Sum,
+  l5Gaps,
+  l5CrossDrag,
+  l5CrossDragSelf,
+  l5Count,
   l5Hint,
   l5Finish,
 }
@@ -122,7 +125,8 @@ final class TutorialStep {
 ///    mistakes cost hearts
 /// 3. the overlap rule
 /// 4. `1 1 1`, a line of three X marks, removing an X
-/// 5. adding up a clue on your own, the hint button
+/// 5. X marks as a solving tool: a sideways X slide, then counting what is
+///    left; the hint button
 @immutable
 final class Tutorial {
   const Tutorial(this.lesson, this.steps);
@@ -407,36 +411,74 @@ final _level4 = Tutorial(4, [
   const TutorialStep(text: TutorialText.l4Finish, done: _solved),
 ]);
 
-/// Whether the top three squares of column [c] need no X slide any more:
+/// Whether the top three squares of column [c] need no X slide any more.
+bool _xLineReady(Board b, int c) =>
+    _slideReady(b, [for (var r = 0; r < 3; r++) (r, c)]);
+
+/// Whether an X slide over [cells] (in slide order) needs showing no more:
 /// all crossed, or the slide can no longer be shown cleanly - one of them
-/// was already crossed by the game (the player solved a `1 1 1` row first),
-/// or the slide's first square is taken (from a player's X it would erase).
-bool _xLineReady(Board b, int c) {
-  final cells = [for (var r = 0; r < 3; r++) b.at(r, c)];
-  return cells.every((cell) => cell.mark == CellMark.crossed) ||
-      cells.any((cell) => cell.isLocked) ||
-      cells.first.isOpen;
+/// was already crossed by the game (the player finished a line through it
+/// first), or the slide's first square is taken (from a player's X it would
+/// erase).
+bool _slideReady(Board b, List<CellPos> cells) {
+  final marks = [for (final (r, c) in cells) b.at(r, c)];
+  return marks.every((cell) => cell.mark == CellMark.crossed) ||
+      marks.any((cell) => cell.isLocked) ||
+      marks.first.isOpen;
 }
 
-/// Level 5, the trophy: the player adds up a clue alone; the hint button.
+const _leftGaps = [(2, 0), (2, 1)];
+const _rightGaps = [(2, 3), (2, 4)];
+
+/// Level 5, the firefly: X marks as a solving tool. The four outer
+/// columns are `2 2`, so all their gaps fall on the middle row; two
+/// sideways X slides leave that row's `1` a single open square.
 /// ```text
-///       2 3 5 3 2
-///         1   1
+///       2 2 3 2 2
+///       2 2   2 2
+///  2 2  # # . # #
 ///   5   # # # # #
-///   5   # # # # #
-///   3   . # # # .
 ///   1   . . # . .
-///   3   . # # # .
+///   5   # # # # #
+///  2 2  # # . # #
 /// ```
 final _level5 = Tutorial(5, [
   TutorialStep(
-    text: TutorialText.l5Sum,
-    focus: [_col(1)],
-    gesture: TutorialGesture.drag,
-    from: (0, 1),
-    to: (2, 1),
+    text: TutorialText.l5Gaps,
+    focus: [_col(0), _col(1), _col(3), _col(4)],
+    ghostFills: const [
+      (0, 0), (0, 1), (0, 3), (0, 4), //
+      (1, 0), (1, 1), (1, 3), (1, 4), //
+      (3, 0), (3, 1), (3, 3), (3, 4), //
+      (4, 0), (4, 1), (4, 3), (4, 4),
+    ],
+    ghostCrosses: const [..._leftGaps, ..._rightGaps],
+    obsolete: (b) => _slideReady(b, _leftGaps),
+  ),
+  TutorialStep(
+    text: TutorialText.l5CrossDrag,
+    focus: [_col(0), _col(1)],
+    gesture: TutorialGesture.crossDrag,
+    from: _leftGaps.first,
+    to: _leftGaps.last,
+    done: (b) => _slideReady(b, _leftGaps),
+  ),
+  TutorialStep(
+    text: TutorialText.l5CrossDragSelf,
+    focus: [_col(3), _col(4)],
+    gesture: TutorialGesture.crossDrag,
+    from: _rightGaps.first,
+    to: _rightGaps.last,
     selfTry: true,
-    done: (b) => b.solvedCols.contains(1),
+    done: (b) => _slideReady(b, _rightGaps),
+  ),
+  TutorialStep(
+    text: TutorialText.l5Count,
+    focus: [_row(2)],
+    gesture: TutorialGesture.tap,
+    from: (2, 2),
+    selfTry: true,
+    done: (b) => _filled(b, const [(2, 2)]),
   ),
   const TutorialStep(text: TutorialText.l5Hint, anchor: TutorialAnchor.hint),
   const TutorialStep(text: TutorialText.l5Finish, done: _solved),

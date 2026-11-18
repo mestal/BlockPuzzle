@@ -389,8 +389,20 @@ class AppLocalizationsFa extends AppLocalizations {
   String get tutorialL4Finish => 'عالی! حالا تصویر را کامل کن.';
 
   @override
-  String get tutorialL5Sum =>
-      'درس آخر! این ستون [3 1] است: 3 + 1 + 1 = 5، پس قطعی است. خودت حلش کن!';
+  String get tutorialL5Gaps =>
+      'درس آخر: حل با X! چهار ستون کناری [2 2] هستند: 2 + 1 + 2 = 5. همهٔ جاهای خالی‌شان در ردیف وسط می‌افتد.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'روی این خانه‌های خالی X بگذار: دو ضربه بزن، در ضربهٔ دوم انگشتت را نگه دار و به کنار بکش: دو X یک‌جا!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'نوبت توست: با یک کشیدن روی دو خانهٔ خالی سمت راست X بکش.';
+
+  @override
+  String get tutorialL5Count =>
+      'این ردیف [1] است و بعد از X ها فقط یک خانه مانده. X شمردن را آسان می‌کند: پرش کن!';
 
   @override
   String get tutorialL5Hint =>

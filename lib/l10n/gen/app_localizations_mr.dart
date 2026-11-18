@@ -388,8 +388,20 @@ class AppLocalizationsMr extends AppLocalizations {
   String get tutorialL4Finish => 'खूप छान! आता चित्र पूर्ण करा.';
 
   @override
-  String get tutorialL5Sum =>
-      'शेवटचा धडा! हा स्तंभ [3 1] आहे: 3 + 1 + 1 = 5, म्हणजे नक्की. स्वतः सोडवा!';
+  String get tutorialL5Gaps =>
+      'शेवटचा धडा: X ने सोडवणे! कडेचे चारही स्तंभ [2 2] आहेत: 2 + 1 + 2 = 5. त्या सर्वांच्या मोकळ्या जागा मधल्या ओळीत येतात.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'या रिकाम्या चौकोनांवर X लावा: डबल टॅप करा, दुसऱ्या टॅपला बोट दाबून ठेवा आणि बाजूला सरकवा: एकाच वेळी दोन X!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'तुमची पाळी: एकदाच सरकवून उजवीकडच्या दोन रिकाम्या चौकोनांवर X काढा.';
+
+  @override
+  String get tutorialL5Count =>
+      'ही ओळ [1] आहे, आणि X नंतर फक्त एकच चौकोन उरला. X मुळे मोजणे सोपे होते: तो भरा!';
 
   @override
   String get tutorialL5Hint =>

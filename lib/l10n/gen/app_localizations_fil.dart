@@ -392,8 +392,20 @@ class AppLocalizationsFil extends AppLocalizations {
   String get tutorialL4Finish => 'Ayos! Ngayon kumpletuhin ang larawan.';
 
   @override
-  String get tutorialL5Sum =>
-      'Huling aralin! [3 1] ang kolum na ito: 3 + 1 + 1 = 5, kaya sigurado na. Ikaw ang lumutas!';
+  String get tutorialL5Gaps =>
+      'Huling aralin: lumutas gamit ang X! [2 2] ang apat na kolum sa gilid: 2 + 1 + 2 = 5. Lahat ng puwang nila ay nasa gitnang hanay.';
+
+  @override
+  String get tutorialL5CrossDrag =>
+      'Markahan ang mga bakanteng kahon: mag-double tap, idiin ang daliri sa ikalawang tap at i-slide patagilid: dalawang X nang sabay!';
+
+  @override
+  String get tutorialL5CrossDragSelf =>
+      'Ikaw naman: sa isang slide, gumuhit ng X sa dalawang bakanteng kahon sa kanan.';
+
+  @override
+  String get tutorialL5Count =>
+      '[1] ang hanay na ito, at pagkatapos ng mga X, isang kahon na lang ang natira. Pinadadali ng X ang pagbilang: punuin ito!';
 
   @override
   String get tutorialL5Hint =>

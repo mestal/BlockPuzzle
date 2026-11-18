@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "E rândul tău: trage dintr-o singură mișcare X pe cele trei pătrățele goale din coloana aceasta.",
   "tutorialL4Erase": "X greșit? Atinge-l din nou de două ori și dispare. Dacă glisezi cu dublă atingere pornind de pe un X, ștergi X-urile din cale.",
   "tutorialL4Finish": "Super! Acum completează imaginea.",
-  "tutorialL5Sum": "Ultima lecție! Coloana aceasta e [3 1]: 3 + 1 + 1 = 5, deci e sigură. Rezolv-o singur!",
+  "tutorialL5Gaps": "Ultima lecție: rezolvăm cu X! Cele patru coloane de margine sunt [2 2]: 2 + 1 + 2 = 5. Toate golurile lor cad pe rândul din mijloc.",
+  "tutorialL5CrossDrag": "Marchează pătrățelele goale: atinge de două ori, ține degetul jos la a doua atingere și glisează în lateral: două X dintr-odată!",
+  "tutorialL5CrossDragSelf": "E rândul tău: trage dintr-o singură mișcare X pe cele două pătrățele goale din dreapta.",
+  "tutorialL5Count": "Rândul acesta e [1], iar după X a rămas un singur pătrățel. Cu X numărarea e ușoară: umple-l!",
   "tutorialL5Hint": "Te-ai blocat? Apasă Indiciu: îți arată pasul următor și de ce.",
   "tutorialL5Finish": "Ești gata! Pe grilele mari, linii groase despart câte 5 pătrățele ca să numeri ușor. Termină imaginea!"
 }

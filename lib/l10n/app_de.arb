@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "Du bist dran: Zeichne mit einem Wisch X auf die drei leeren Felder dieser Spalte.",
   "tutorialL4Erase": "Falsches X? Tippe noch mal doppelt darauf, dann ist es weg. Wischst du mit Doppeltipp ab einem X, löschst du die X auf dem Weg.",
   "tutorialL4Finish": "Super! Jetzt vervollständige das Bild.",
-  "tutorialL5Sum": "Letzte Lektion! Diese Spalte ist [3 1]: 3 + 1 + 1 = 5, also steht sie fest. Löse sie selbst!",
+  "tutorialL5Gaps": "Letzte Lektion: Lösen mit X! Die vier äußeren Spalten sind [2 2]: 2 + 1 + 2 = 5. Alle ihre Lücken liegen in der mittleren Zeile.",
+  "tutorialL5CrossDrag": "Markiere diese leeren Felder: Tippe doppelt, lass beim zweiten Tippen den Finger unten und wische zur Seite. Zwei X auf einmal!",
+  "tutorialL5CrossDragSelf": "Du bist dran: Zeichne mit einem Wisch X auf die zwei leeren Felder rechts.",
+  "tutorialL5Count": "Diese Zeile ist [1], und nach den X bleibt nur ein Feld frei. X machen das Zählen leicht: Fülle es!",
   "tutorialL5Hint": "Kommst du nicht weiter? Drück auf Tipp: Er zeigt den nächsten Schritt und erklärt, warum.",
   "tutorialL5Finish": "Du bist bereit! In großen Gittern trennen dicke Linien je 5 Felder, das hilft beim Zählen. Mach das Bild fertig!"
 }

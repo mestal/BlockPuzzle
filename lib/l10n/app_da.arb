@@ -101,7 +101,10 @@
   "tutorialL4CrossDragSelf": "Din tur: tegn X'er på kolonnens tre tomme felter i ét træk.",
   "tutorialL4Erase": "Forkert X? Dobbelttryk på det igen, så forsvinder det. Trækker du med dobbelttryk fra et X, sletter du X'erne på vejen.",
   "tutorialL4Finish": "Super! Gør nu billedet færdigt.",
-  "tutorialL5Sum": "Sidste lektion! Denne kolonne er [3 1]: 3 + 1 + 1 = 5, så den er sikker. Løs den selv!",
+  "tutorialL5Gaps": "Sidste lektion: løs med X! De fire yderste kolonner er [2 2]: 2 + 1 + 2 = 5. Alle deres huller ligger i den midterste række.",
+  "tutorialL5CrossDrag": "Markér de tomme felter: dobbelttryk, hold fingeren nede ved andet tryk og træk til siden: to X'er på én gang!",
+  "tutorialL5CrossDragSelf": "Din tur: tegn X'er på de to tomme felter til højre i ét træk.",
+  "tutorialL5Count": "Denne række er [1], og efter X'erne er der kun ét felt tilbage. X'er gør det let at tælle: udfyld det!",
   "tutorialL5Hint": "Kører du fast? Tryk på Hint: det viser næste skridt og forklarer hvorfor.",
   "tutorialL5Finish": "Du er klar! På store gitre deler tykke linjer felterne i femmere, så det er let at tælle. Gør billedet færdigt!"
 }
