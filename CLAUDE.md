@@ -193,7 +193,14 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - `supportedLanguages` dillerin kendi adlarının kod noktası sırasındadır (önce Latin — `Čeština`
   gibi aksanlı büyük harfle başlayanlar Latin'in sonunda —, sonra Yunan, Kiril, Arap, Devanagari,
   Bengal, Gurmukhi, Tamil, Telugu, Tay, CJK, Hangul); menü bu sırayı kullanır, test sırayı doğrular.
-- Fredoka yalnızca temel Latin harflerini kapsar (ş, ğ, İ, ș… yok); eksik harfler pakete dahil **Nunito** (`assets/fonts`, `fontFamilyFallback`) ile çizilir. Nunito, Fredoka ağırlıklarıyla eşleşen **sabit** örneklerdir (`python tool/make_fallback_fonts.py`); Flutter değişken fontun `wght` eksenini uygulamaz, ince (ExtraLight) çizerdi. Diğer yazılar sistem fontuna düşer.
+- Fredoka pakete gömülüdür (`assets/fonts/Fredoka-*.ttf`, `python tool/make_fredoka.py`): Google'ın
+  Fredoka'sında ş, ğ, İ, ș, ą… yoktur ama birleşen işaretler (U+0327…) vardır; HarfBuzz ş'yi `s` + U+0327'ye
+  ayırıp Fredoka ile çizer ve işaret harfin **sağına** düşerdi. Betik eksik harfleri Fredoka'nın kendi harf +
+  işaret glifleriyle (işaret ortalanır, büyük harfte 200 birim yukarı) ekler ve birleşen işaretleri cmap'ten
+  siler; böylece hâlâ eksik olan harf (Kiril, Vietnamca çift işaretliler, ơ/ư) parçalanmadan bütün olarak
+  **Nunito**'ya (`fontFamilyFallback`) düşer. Nunito, Fredoka ağırlıklarıyla eşleşen **sabit** örneklerdir
+  (`python tool/make_fallback_fonts.py`); Flutter değişken fontun `wght` eksenini uygulamaz, ince (ExtraLight)
+  çizerdi. Diğer yazılar sistem fontuna düşer. `google_fonts` kullanılmaz (çalışma anında indirme yok).
 - Bölüm ve harita adları JSON'da dil haritasıdır: `"name": {"tr": "...", "en": "...", ...}`
   (`LocalizedText`). Testler her dilin ARB anahtarlarını ve tüm adların çevirisini doğrular.
 
@@ -271,7 +278,7 @@ Büyük ızgaralarda pinch-zoom + kaydırma desteklenir; dokunma alanı en az 32
 - Kalıcılık: `shared_preferences` (`SharedPreferencesAsync`) üzerinde JSON; bir
   `ProgressRepository` arayüzü arkasında.
 - Reklam: `AdService` arayüzü → `AdMobAdService` (`google_mobile_ads`); web/testte `DummyAdService`.
-- Font: `google_fonts` (Fredoka). Metinler: `flutter gen-l10n` → `lib/l10n/gen/` (38 dil, şablon `app_tr.arb`).
+- Font: gömülü Fredoka + Nunito (`assets/fonts`). Metinler: `flutter gen-l10n` → `lib/l10n/gen/` (38 dil, şablon `app_tr.arb`).
 - Lint: `very_good_analysis`. Test: `flutter_test`.
 
 ## 4. Klasör yapısı (feature-first)

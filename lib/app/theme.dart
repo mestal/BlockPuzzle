@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 /// Single source of truth for game colours (see CLAUDE.md §2).
 abstract final class AppColors {
@@ -209,47 +208,32 @@ final class WorldPalette {
   final SceneryMotif motif;
 }
 
-/// Fredoka only covers basic Latin; Nunito (bundled) supplies ş, ğ, İ, ...
+/// Bundled Fredoka (tool/make_fredoka.py) with the accented Latin letters
+/// added; Nunito (bundled) supplies what is still missing (Cyrillic, Greek,
+/// Vietnamese stacked marks, ...).
+const _fontFamily = 'Fredoka';
 const _fontFallback = ['Nunito'];
-
-TextTheme _withFallback(TextTheme t) {
-  TextStyle? f(TextStyle? s) => s?.copyWith(fontFamilyFallback: _fontFallback);
-  return t.copyWith(
-    displayLarge: f(t.displayLarge),
-    displayMedium: f(t.displayMedium),
-    displaySmall: f(t.displaySmall),
-    headlineLarge: f(t.headlineLarge),
-    headlineMedium: f(t.headlineMedium),
-    headlineSmall: f(t.headlineSmall),
-    titleLarge: f(t.titleLarge),
-    titleMedium: f(t.titleMedium),
-    titleSmall: f(t.titleSmall),
-    bodyLarge: f(t.bodyLarge),
-    bodyMedium: f(t.bodyMedium),
-    bodySmall: f(t.bodySmall),
-    labelLarge: f(t.labelLarge),
-    labelMedium: f(t.labelMedium),
-    labelSmall: f(t.labelSmall),
-  );
-}
 
 ThemeData buildTheme() {
   final base = ThemeData(
     useMaterial3: true,
+    fontFamily: _fontFamily,
+    fontFamilyFallback: _fontFallback,
     colorScheme: ColorScheme.fromSeed(
       seedColor: AppColors.blockTop,
       primary: AppColors.block,
     ),
   );
   return base.copyWith(
-    textTheme: _withFallback(GoogleFonts.fredokaTextTheme(base.textTheme)),
     filledButtonTheme: FilledButtonThemeData(
       style: FilledButton.styleFrom(
         minimumSize: const Size(0, 52),
-        textStyle: GoogleFonts.fredoka(
+        textStyle: const TextStyle(
+          fontFamily: _fontFamily,
+          fontFamilyFallback: _fontFallback,
           fontSize: 18,
           fontWeight: FontWeight.w600,
-        ).copyWith(fontFamilyFallback: _fontFallback),
+        ),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
       ),
     ),

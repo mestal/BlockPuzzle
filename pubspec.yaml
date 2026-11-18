@@ -15,7 +15,6 @@ dependencies:
     sdk: flutter
   flutter_riverpod: ^3.0.0
   go_router: ^17.5.0
-  google_fonts: ^8.2.1
   google_mobile_ads: ^9.2.0
   intl: ^0.20.2
   meta: ^1.17.0
@@ -34,10 +33,22 @@ flutter:
     - assets/audio/
   uses-material-design: true
   fonts:
-    # Fredoka lacks Latin Extended (ş, ğ, İ, ș, ...); Nunito is its rounded
-    # fallback so those letters match instead of using the system font.
-    # Static instances (tool/make_fallback_fonts.py): Flutter ignores the
-    # wght axis of a variable font and would draw Nunito ExtraLight.
+    # Fredoka with the accented Latin letters it lacks (ş, ğ, İ, ș, ...)
+    # added as composites of its own glyphs (tool/make_fredoka.py).
+    - family: Fredoka
+      fonts:
+        - asset: assets/fonts/Fredoka-400.ttf
+          weight: 400
+        - asset: assets/fonts/Fredoka-500.ttf
+          weight: 500
+        - asset: assets/fonts/Fredoka-600.ttf
+          weight: 600
+        - asset: assets/fonts/Fredoka-700.ttf
+          weight: 700
+    # Nunito is the rounded fallback for what Fredoka still lacks (Cyrillic,
+    # Greek, Vietnamese stacked marks). Static instances
+    # (tool/make_fallback_fonts.py): Flutter ignores the wght axis of a
+    # variable font and would draw Nunito ExtraLight.
     - family: Nunito
       fonts:
         - asset: assets/fonts/Nunito-400.ttf

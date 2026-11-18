@@ -1,7 +1,7 @@
 """Builds the static Nunito fallback fonts in assets/fonts/.
 
-Fredoka (google_fonts) only covers basic Latin, so letters such as ş, ğ, İ and
-Cyrillic fall back to Nunito. Flutter does not map FontWeight onto a variable
+Fredoka (tool/make_fredoka.py) covers Latin; Cyrillic, Vietnamese letters with
+stacked marks and the like fall back to Nunito. Flutter does not map FontWeight onto a variable
 font's `wght` axis, so the variable Nunito always drew its default ExtraLight
 instance. This pins one static instance per Fredoka weight, with the `wght`
 chosen so Nunito's stem thickness matches Fredoka's.
