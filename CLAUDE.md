@@ -118,7 +118,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   veya **Bölümü yeniden başlat**.
 
 ### İpucu (hint)
-- Oyuncu profili başına **toplam 5 ipucu** ile başlanır; bölümler arasında taşınır ve kaydedilir.
+- Oyuncu profili başına **toplam 3 ipucu** (`SlotData.startingHints`) ile başlanır; bölümler arasında taşınır ve kaydedilir.
 - İpucu **öğretir** (`features/game/domain/hint.dart`): tüm satır/sütun ipuçlarını ve bilinen kareleri
   (dolu kareler, kilitli X'ler, oyuncunun **doğru** X'leri; yanlış X'ler yok sayılır) alır, her çizgide
   grupların en başa / en sona kaydırılmış yerlerini (`groupReach`) hesaplar ve tek bir çizgiyle

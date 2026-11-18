@@ -68,7 +68,7 @@ final class SlotData {
     },
   );
 
-  static const startingHints = 5;
+  static const startingHints = 3;
 
   final String name;
   final int colorIndex;
