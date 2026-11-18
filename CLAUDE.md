@@ -119,12 +119,24 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 
 ### İpucu (hint)
 - Oyuncu profili başına **toplam 5 ipucu** ile başlanır; bölümler arasında taşınır ve kaydedilir.
-- İpucu **öğretir** (`features/game/domain/hint.dart`): bilinen karelerden (dolu kareler, kilitli X'ler,
-  oyuncunun doğru X'leri) tek bir satır/sütunla kanıtlanabilen en kolay adımı seçer ve **nedenini**
-  açıklayan bir kart gösterir; ilgili satır/sütun ve ipucu kutusu vurgulanır. Neden sırası:
-  tam dolu çizgi → örtüşme (gruplar başa/sona yaslansa da kapsanan kare) → bilinenlerle zorunlu dolu
-  → zorunlu boş (bu durumda altın renkli **ipucu X**'i konur). Dolu adımlar boş adımlara tercih edilir.
-  Test: ipuçlarını izleyerek her bölüm hatasız çözülür.
+- İpucu **öğretir** (`features/game/domain/hint.dart`): tüm satır/sütun ipuçlarını ve bilinen kareleri
+  (dolu kareler, kilitli X'ler, oyuncunun **doğru** X'leri; yanlış X'ler yok sayılır) alır, her çizgide
+  grupların en başa / en sona kaydırılmış yerlerini (`groupReach`) hesaplar ve tek bir çizgiyle
+  kanıtlanabilen **en kolay** adımı seçer (`Hint.difficulty`). Kurallar, kolaydan zora:
+  1. `fullLine` — gruplar + birer boşluk çizgiyi tam dolduruyor (`2 + 1 + 2 = 5`)
+  2. `overlap` (boş çizgide) — grup başa da sona da itilse ortak kareler dolu
+  3. `outOfReach` — hiçbir grup bu kareye uzanamıyor → boş
+  4. `overlap` (bilinen karelerle) — X'ler/bloklar grubu sıkıştırıyor
+  5. `blockDone` — yandaki blok, oraya sığabilecek en büyük grup kadar → iki ucu boş
+  6. `tooSmall` — X'ler/kenar arasındaki aralık, uzanabilen en küçük gruptan kısa → boş
+  7. `forcedFill` / `forcedEmpty` — yalnızca tüm yerleşimleri denemek kanıtlıyor (nadir)
+
+  Kart, **gerçek sayılarla** açıklar (kareler satırda soldan, sütunda yukarıdan 1'den sayılır):
+  ör. "6 karelik blok en başa itilince 1–6., en sona itilince 3–8. kareleri kaplıyor; ortak 3–6 kesin
+  dolu". Çizgi ve ipucu kutusu vurgulanır, açıklamanın sözünü ettiği kareler (ortak kısım, biten blok,
+  dar aralık) ayrıca işaretlenir. Boş adımda altın renkli **ipucu X**'i konur. Eşit zorlukta oyuncunun
+  yanlış X'ini düzelten adım seçilir ve kart bunu söyler (`hintFixedCross`).
+  Test: ipuçlarını izleyerek her bölüm hatasız çözülür; her kural için birim testi vardır.
 - İpucu 0 iken düğmeye basılınca: (reklamlar açıkken) **Reklam izle → +1 ipucu** (hak gibi ödüllü
   reklam; kazanılan ipucu hemen kullanılır, reklam izlenemezse teklif yeniden gelir); kapalıyken yeni ipucu yok.
 
