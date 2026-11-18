@@ -30,9 +30,6 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nameRequired => 'Écris un prénom';
 
   @override
-  String get pickColor => 'Choisis ta couleur';
-
-  @override
   String get start => 'Commencer';
 
   @override

@@ -30,9 +30,6 @@ class AppLocalizationsSv extends AppLocalizations {
   String get nameRequired => 'Skriv ett namn';
 
   @override
-  String get pickColor => 'Välj din färg';
-
-  @override
   String get start => 'Starta';
 
   @override

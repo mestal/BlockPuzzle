@@ -30,9 +30,6 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nameRequired => 'Kirjoita nimi';
 
   @override
-  String get pickColor => 'Valitse värisi';
-
-  @override
   String get start => 'Aloita';
 
   @override

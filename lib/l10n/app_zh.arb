@@ -7,7 +7,6 @@
   "yourName": "你的名字",
   "namePlaceholder": "例如 小明",
   "nameRequired": "请输入名字",
-  "pickColor": "选择你的颜色",
   "start": "开始",
   "cancel": "取消",
   "deleteSlotTitle": "删除 {name}？",

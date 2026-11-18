@@ -7,7 +7,6 @@
   "yourName": "Twoje imię",
   "namePlaceholder": "Na przykład Ola",
   "nameRequired": "Wpisz imię",
-  "pickColor": "Wybierz kolor",
   "start": "Start",
   "cancel": "Anuluj",
   "deleteSlotTitle": "Usunąć gracza {name}?",

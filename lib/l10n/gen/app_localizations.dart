@@ -212,12 +212,6 @@ abstract class AppLocalizations {
   /// **'Bir ad yaz'**
   String get nameRequired;
 
-  /// No description provided for @pickColor.
-  ///
-  /// In tr, this message translates to:
-  /// **'Rengini seç'**
-  String get pickColor;
-
   /// No description provided for @start.
   ///
   /// In tr, this message translates to:

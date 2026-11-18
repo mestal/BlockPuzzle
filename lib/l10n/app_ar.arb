@@ -7,7 +7,6 @@
   "yourName": "اسمك",
   "namePlaceholder": "مثلًا سارة",
   "nameRequired": "اكتب اسمًا",
-  "pickColor": "اختر لونك",
   "start": "ابدأ",
   "cancel": "إلغاء",
   "deleteSlotTitle": "حذف {name}؟",

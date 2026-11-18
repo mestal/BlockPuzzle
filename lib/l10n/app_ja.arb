@@ -7,7 +7,6 @@
   "yourName": "名前",
   "namePlaceholder": "例：ハルト",
   "nameRequired": "名前を入力してね",
-  "pickColor": "色を選んでね",
   "start": "スタート",
   "cancel": "キャンセル",
   "deleteSlotTitle": "{name} を削除しますか？",

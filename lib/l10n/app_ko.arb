@@ -7,7 +7,6 @@
   "yourName": "이름",
   "namePlaceholder": "예: 민준",
   "nameRequired": "이름을 입력하세요",
-  "pickColor": "색을 고르세요",
   "start": "시작",
   "cancel": "취소",
   "deleteSlotTitle": "{name}을(를) 삭제할까요?",

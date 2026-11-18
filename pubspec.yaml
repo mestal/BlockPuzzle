@@ -33,3 +33,9 @@ flutter:
     - assets/worlds/
     - assets/audio/
   uses-material-design: true
+  fonts:
+    # Fredoka lacks Latin Extended (ş, ğ, İ, ș, ...); Nunito is its rounded
+    # fallback so those letters match instead of using the system font.
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito.ttf

@@ -30,9 +30,6 @@ class AppLocalizationsMs extends AppLocalizations {
   String get nameRequired => 'Masukkan nama';
 
   @override
-  String get pickColor => 'Pilih warna anda';
-
-  @override
   String get start => 'Mula';
 
   @override

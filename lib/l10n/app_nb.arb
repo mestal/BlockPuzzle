@@ -7,7 +7,6 @@
   "yourName": "Navnet ditt",
   "namePlaceholder": "For eksempel Ingrid",
   "nameRequired": "Skriv inn et navn",
-  "pickColor": "Velg fargen din",
   "start": "Start",
   "cancel": "Avbryt",
   "deleteSlotTitle": "Slette {name}?",

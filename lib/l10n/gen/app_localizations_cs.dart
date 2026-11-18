@@ -30,9 +30,6 @@ class AppLocalizationsCs extends AppLocalizations {
   String get nameRequired => 'Napiš jméno';
 
   @override
-  String get pickColor => 'Vyber si barvu';
-
-  @override
   String get start => 'Začít';
 
   @override

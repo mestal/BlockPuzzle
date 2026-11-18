@@ -30,9 +30,6 @@ class AppLocalizationsHu extends AppLocalizations {
   String get nameRequired => 'Írj be egy nevet';
 
   @override
-  String get pickColor => 'Válassz színt';
-
-  @override
   String get start => 'Indítás';
 
   @override

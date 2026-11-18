@@ -30,9 +30,6 @@ class AppLocalizationsEl extends AppLocalizations {
   String get nameRequired => 'Γράψε ένα όνομα';
 
   @override
-  String get pickColor => 'Διάλεξε χρώμα';
-
-  @override
   String get start => 'Έναρξη';
 
   @override

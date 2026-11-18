@@ -30,9 +30,6 @@ class AppLocalizationsTr extends AppLocalizations {
   String get nameRequired => 'Bir ad yaz';
 
   @override
-  String get pickColor => 'Rengini seç';
-
-  @override
   String get start => 'Başla';
 
   @override

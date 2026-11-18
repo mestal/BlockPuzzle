@@ -30,9 +30,6 @@ class AppLocalizationsBn extends AppLocalizations {
   String get nameRequired => 'একটি নাম লেখো';
 
   @override
-  String get pickColor => 'তোমার রং বেছে নাও';
-
-  @override
   String get start => 'শুরু করো';
 
   @override

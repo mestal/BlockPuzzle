@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:block_puzzle/app/localized.dart';
 import 'package:block_puzzle/app/router.dart';
 import 'package:block_puzzle/app/theme.dart';
@@ -186,14 +188,19 @@ class _SlotCard extends ConsumerWidget {
   }
 
   Future<void> _create(BuildContext context, WidgetRef ref) async {
-    final result = await showDialog<(String, int)>(
+    final taken = {
+      for (final s in ref.read(slotsProvider).value ?? const <SlotData?>[])
+        if (s != null) s.name.toLowerCase(),
+    };
+    final name = await showDialog<String>(
       context: context,
-      builder: (_) => const _NewSlotDialog(),
+      builder: (_) => _NewSlotDialog(suggestion: _suggestName(taken)),
     );
-    if (result == null) return;
+    if (name == null) return;
+    // The colour only tells slots apart, so it simply follows the slot.
     await ref
         .read(slotsProvider.notifier)
-        .create(index, name: result.$1, color: result.$2);
+        .create(index, name: name, color: index);
     if (context.mounted) _open(context, ref);
   }
 
@@ -301,16 +308,53 @@ class _FilledSlot extends ConsumerWidget {
   }
 }
 
+const _suggestedNames = [
+  'Pixel',
+  'Bloom',
+  'Jelly',
+  'Mochi',
+  'Poppy',
+  'Sunny',
+  'Cosmo',
+  'Pebble',
+  'Berry',
+  'Comet',
+  'Clover',
+  'Nova',
+  'Biscuit',
+  'Pip',
+  'Maple',
+  'Waffle',
+  'Zigzag',
+  'Peach',
+  'Orbit',
+  'Twinkle',
+  'Pudding',
+  'Sprout',
+  'Fizz',
+  'Dot',
+];
+
+/// A random friendly name, preferring ones no other slot uses.
+String _suggestName(Set<String> taken) {
+  final free = _suggestedNames
+      .where((n) => !taken.contains(n.toLowerCase()))
+      .toList();
+  final pool = free.isEmpty ? _suggestedNames : free;
+  return pool[Random().nextInt(pool.length)];
+}
+
 class _NewSlotDialog extends StatefulWidget {
-  const _NewSlotDialog();
+  const _NewSlotDialog({required this.suggestion});
+
+  final String suggestion;
 
   @override
   State<_NewSlotDialog> createState() => _NewSlotDialogState();
 }
 
 class _NewSlotDialogState extends State<_NewSlotDialog> {
-  final _name = TextEditingController();
-  int _color = 0;
+  late final _name = TextEditingController(text: widget.suggestion);
   String? _error;
 
   @override
@@ -325,7 +369,7 @@ class _NewSlotDialogState extends State<_NewSlotDialog> {
       setState(() => _error = AppLocalizations.of(context).nameRequired);
       return;
     }
-    Navigator.pop(context, (name, _color));
+    Navigator.pop(context, name);
   }
 
   @override
@@ -351,37 +395,6 @@ class _NewSlotDialogState extends State<_NewSlotDialog> {
               hintText: l10n.namePlaceholder,
               errorText: _error,
             ),
-          ),
-          const SizedBox(height: 8),
-          Text(l10n.pickColor),
-          const SizedBox(height: 8),
-          Wrap(
-            spacing: 10,
-            runSpacing: 10,
-            children: [
-              for (var i = 0; i < AppColors.avatars.length; i++)
-                GestureDetector(
-                  onTap: () => setState(() => _color = i),
-                  child: AnimatedContainer(
-                    duration: const Duration(milliseconds: 200),
-                    width: 40,
-                    height: 40,
-                    decoration: BoxDecoration(
-                      color: AppColors.avatars[i],
-                      shape: BoxShape.circle,
-                      border: Border.all(
-                        color: _color == i
-                            ? AppColors.gold
-                            : Colors.transparent,
-                        width: 4,
-                      ),
-                    ),
-                    child: _color == i
-                        ? const Icon(Icons.check_rounded, color: Colors.white)
-                        : null,
-                  ),
-                ),
-            ],
           ),
         ],
       ),

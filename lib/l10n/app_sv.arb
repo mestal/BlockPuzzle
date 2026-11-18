@@ -7,7 +7,6 @@
   "yourName": "Ditt namn",
   "namePlaceholder": "Till exempel Elsa",
   "nameRequired": "Skriv ett namn",
-  "pickColor": "Välj din färg",
   "start": "Starta",
   "cancel": "Avbryt",
   "deleteSlotTitle": "Radera {name}?",

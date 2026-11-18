@@ -7,7 +7,6 @@
   "yourName": "Nimesi",
   "namePlaceholder": "Esimerkiksi Aino",
   "nameRequired": "Kirjoita nimi",
-  "pickColor": "Valitse värisi",
   "start": "Aloita",
   "cancel": "Peruuta",
   "deleteSlotTitle": "Poistetaanko {name}?",

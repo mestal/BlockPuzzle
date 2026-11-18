@@ -159,7 +159,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 
 ### Oyuncu slotları
 - Açılış ekranında **3 slot**. Her slot ayrı bir oyuncunun ilerlemesidir.
-- Boş slot → "Yeni oyun": isim + avatar rengi seçilir.
+- Boş slot → "Yeni oyun": rastgele önerilen bir isim hazır gelir (değiştirilebilir, "Başla" yeter); avatar rengi slot sırasına göre otomatik atanır.
 - Dolu slot: isim, ulaşılan bölüm, ilerleme çubuğu, kalan ipucu. Uzun basınca silme (onaylı).
 - Slot verisi: isim, avatar, açılmış en yüksek bölüm, tamamlanan bölümler, kalan ipucu,
   yarım kalan bölümün ızgara durumu ve kalan hakkı.
@@ -180,7 +180,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - `supportedLanguages` dillerin kendi adlarının kod noktası sırasındadır (önce Latin — `Čeština`
   gibi aksanlı büyük harfle başlayanlar Latin'in sonunda —, sonra Yunan, Kiril, Arap, Devanagari,
   Bengal, Gurmukhi, Tamil, Telugu, Tay, CJK, Hangul); menü bu sırayı kullanır, test sırayı doğrular.
-- Fredoka yalnızca Latin harflerini kapsar; diğer yazılar (ve Vietnamca aksanları) sistem fontuna düşer.
+- Fredoka yalnızca temel Latin harflerini kapsar (ş, ğ, İ, ș… yok); eksik harfler pakete dahil **Nunito** (`assets/fonts`, `fontFamilyFallback`) ile çizilir. Diğer yazılar sistem fontuna düşer.
 - Bölüm ve harita adları JSON'da dil haritasıdır: `"name": {"tr": "...", "en": "...", ...}`
   (`LocalizedText`). Testler her dilin ARB anahtarlarını ve tüm adların çevirisini doğrular.
 

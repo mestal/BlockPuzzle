@@ -30,9 +30,6 @@ class AppLocalizationsEs extends AppLocalizations {
   String get nameRequired => 'Escribe un nombre';
 
   @override
-  String get pickColor => 'Elige tu color';
-
-  @override
   String get start => 'Empezar';
 
   @override

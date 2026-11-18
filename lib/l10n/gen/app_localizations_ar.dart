@@ -30,9 +30,6 @@ class AppLocalizationsAr extends AppLocalizations {
   String get nameRequired => 'اكتب اسمًا';
 
   @override
-  String get pickColor => 'اختر لونك';
-
-  @override
   String get start => 'ابدأ';
 
   @override

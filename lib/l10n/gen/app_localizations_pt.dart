@@ -30,9 +30,6 @@ class AppLocalizationsPt extends AppLocalizations {
   String get nameRequired => 'Digite um nome';
 
   @override
-  String get pickColor => 'Escolha sua cor';
-
-  @override
   String get start => 'Começar';
 
   @override

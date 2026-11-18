@@ -30,9 +30,6 @@ class AppLocalizationsId extends AppLocalizations {
   String get nameRequired => 'Masukkan nama';
 
   @override
-  String get pickColor => 'Pilih warnamu';
-
-  @override
   String get start => 'Mulai';
 
   @override

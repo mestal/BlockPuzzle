@@ -30,9 +30,6 @@ class AppLocalizationsKo extends AppLocalizations {
   String get nameRequired => '이름을 입력하세요';
 
   @override
-  String get pickColor => '색을 고르세요';
-
-  @override
   String get start => '시작';
 
   @override

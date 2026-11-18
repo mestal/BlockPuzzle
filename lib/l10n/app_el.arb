@@ -7,7 +7,6 @@
   "yourName": "Το όνομά σου",
   "namePlaceholder": "Για παράδειγμα Νίκος",
   "nameRequired": "Γράψε ένα όνομα",
-  "pickColor": "Διάλεξε χρώμα",
   "start": "Έναρξη",
   "cancel": "Ακύρωση",
   "deleteSlotTitle": "Διαγραφή: {name};",

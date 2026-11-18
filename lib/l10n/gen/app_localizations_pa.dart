@@ -30,9 +30,6 @@ class AppLocalizationsPa extends AppLocalizations {
   String get nameRequired => 'ਨਾਂ ਲਿਖੋ';
 
   @override
-  String get pickColor => 'ਆਪਣਾ ਰੰਗ ਚੁਣੋ';
-
-  @override
   String get start => 'ਸ਼ੁਰੂ ਕਰੋ';
 
   @override

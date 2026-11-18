@@ -30,9 +30,6 @@ class AppLocalizationsFil extends AppLocalizations {
   String get nameRequired => 'Maglagay ng pangalan';
 
   @override
-  String get pickColor => 'Pumili ng kulay mo';
-
-  @override
   String get start => 'Simulan';
 
   @override

@@ -30,9 +30,6 @@ class AppLocalizationsTe extends AppLocalizations {
   String get nameRequired => 'పేరు రాయండి';
 
   @override
-  String get pickColor => 'మీ రంగు ఎంచుకోండి';
-
-  @override
   String get start => 'ప్రారంభించండి';
 
   @override

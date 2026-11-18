@@ -30,9 +30,6 @@ class AppLocalizationsFa extends AppLocalizations {
   String get nameRequired => 'یک نام بنویس';
 
   @override
-  String get pickColor => 'رنگت را انتخاب کن';
-
-  @override
   String get start => 'شروع';
 
   @override

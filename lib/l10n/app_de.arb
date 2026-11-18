@@ -7,7 +7,6 @@
   "yourName": "Dein Name",
   "namePlaceholder": "Zum Beispiel Lena",
   "nameRequired": "Gib einen Namen ein",
-  "pickColor": "Wähle deine Farbe",
   "start": "Los",
   "cancel": "Abbrechen",
   "deleteSlotTitle": "{name} löschen?",

@@ -30,9 +30,6 @@ class AppLocalizationsRo extends AppLocalizations {
   String get nameRequired => 'Scrie un nume';
 
   @override
-  String get pickColor => 'Alege-ți culoarea';
-
-  @override
   String get start => 'Începe';
 
   @override

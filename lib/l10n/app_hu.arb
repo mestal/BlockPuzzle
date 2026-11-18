@@ -7,7 +7,6 @@
   "yourName": "A neved",
   "namePlaceholder": "Például Anna",
   "nameRequired": "Írj be egy nevet",
-  "pickColor": "Válassz színt",
   "start": "Indítás",
   "cancel": "Mégse",
   "deleteSlotTitle": "Törlöd: {name}?",

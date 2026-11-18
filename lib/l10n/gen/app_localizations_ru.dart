@@ -30,9 +30,6 @@ class AppLocalizationsRu extends AppLocalizations {
   String get nameRequired => 'Введи имя';
 
   @override
-  String get pickColor => 'Выбери цвет';
-
-  @override
   String get start => 'Начать';
 
   @override

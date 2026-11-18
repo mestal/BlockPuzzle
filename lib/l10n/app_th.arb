@@ -7,7 +7,6 @@
   "yourName": "ชื่อของคุณ",
   "namePlaceholder": "เช่น มะลิ",
   "nameRequired": "กรุณาใส่ชื่อ",
-  "pickColor": "เลือกสีของคุณ",
   "start": "เริ่ม",
   "cancel": "ยกเลิก",
   "deleteSlotTitle": "ลบ {name} ไหม?",

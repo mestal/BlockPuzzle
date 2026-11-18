@@ -30,9 +30,6 @@ class AppLocalizationsNl extends AppLocalizations {
   String get nameRequired => 'Vul een naam in';
 
   @override
-  String get pickColor => 'Kies je kleur';
-
-  @override
   String get start => 'Start';
 
   @override

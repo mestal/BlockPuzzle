@@ -7,7 +7,6 @@
   "yourName": "Pangalan mo",
   "namePlaceholder": "Halimbawa: Maria",
   "nameRequired": "Maglagay ng pangalan",
-  "pickColor": "Pumili ng kulay mo",
   "start": "Simulan",
   "cancel": "Kanselahin",
   "deleteSlotTitle": "Burahin si {name}?",

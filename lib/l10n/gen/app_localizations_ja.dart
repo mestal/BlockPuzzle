@@ -30,9 +30,6 @@ class AppLocalizationsJa extends AppLocalizations {
   String get nameRequired => '名前を入力してね';
 
   @override
-  String get pickColor => '色を選んでね';
-
-  @override
   String get start => 'スタート';
 
   @override

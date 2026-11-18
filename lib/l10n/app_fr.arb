@@ -7,7 +7,6 @@
   "yourName": "Ton prénom",
   "namePlaceholder": "Par exemple Léa",
   "nameRequired": "Écris un prénom",
-  "pickColor": "Choisis ta couleur",
   "start": "Commencer",
   "cancel": "Annuler",
   "deleteSlotTitle": "Supprimer {name} ?",

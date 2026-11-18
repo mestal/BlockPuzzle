@@ -30,9 +30,6 @@ class AppLocalizationsUk extends AppLocalizations {
   String get nameRequired => 'Введи ім’я';
 
   @override
-  String get pickColor => 'Обери свій колір';
-
-  @override
   String get start => 'Почати';
 
   @override

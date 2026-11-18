@@ -30,9 +30,6 @@ class AppLocalizationsTa extends AppLocalizations {
   String get nameRequired => 'ஒரு பெயரை உள்ளிடுங்கள்';
 
   @override
-  String get pickColor => 'உங்கள் நிறத்தைத் தேர்ந்தெடுங்கள்';
-
-  @override
   String get start => 'தொடங்கு';
 
   @override

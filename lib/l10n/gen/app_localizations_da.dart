@@ -30,9 +30,6 @@ class AppLocalizationsDa extends AppLocalizations {
   String get nameRequired => 'Skriv et navn';
 
   @override
-  String get pickColor => 'Vælg din farve';
-
-  @override
   String get start => 'Start';
 
   @override

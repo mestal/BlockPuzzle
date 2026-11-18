@@ -7,7 +7,6 @@
   "yourName": "Твоё имя",
   "namePlaceholder": "Например, Саша",
   "nameRequired": "Введи имя",
-  "pickColor": "Выбери цвет",
   "start": "Начать",
   "cancel": "Отмена",
   "deleteSlotTitle": "Удалить {name}?",

@@ -30,9 +30,6 @@ class AppLocalizationsTh extends AppLocalizations {
   String get nameRequired => 'กรุณาใส่ชื่อ';
 
   @override
-  String get pickColor => 'เลือกสีของคุณ';
-
-  @override
   String get start => 'เริ่ม';
 
   @override

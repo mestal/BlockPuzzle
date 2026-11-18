@@ -30,9 +30,6 @@ class AppLocalizationsZh extends AppLocalizations {
   String get nameRequired => '请输入名字';
 
   @override
-  String get pickColor => '选择你的颜色';
-
-  @override
   String get start => '开始';
 
   @override

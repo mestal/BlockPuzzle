@@ -30,9 +30,6 @@ class AppLocalizationsBg extends AppLocalizations {
   String get nameRequired => 'Въведи име';
 
   @override
-  String get pickColor => 'Избери цвят';
-
-  @override
   String get start => 'Старт';
 
   @override

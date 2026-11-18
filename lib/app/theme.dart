@@ -209,6 +209,30 @@ final class WorldPalette {
   final SceneryMotif motif;
 }
 
+/// Fredoka only covers basic Latin; Nunito (bundled) supplies ş, ğ, İ, ...
+const _fontFallback = ['Nunito'];
+
+TextTheme _withFallback(TextTheme t) {
+  TextStyle? f(TextStyle? s) => s?.copyWith(fontFamilyFallback: _fontFallback);
+  return t.copyWith(
+    displayLarge: f(t.displayLarge),
+    displayMedium: f(t.displayMedium),
+    displaySmall: f(t.displaySmall),
+    headlineLarge: f(t.headlineLarge),
+    headlineMedium: f(t.headlineMedium),
+    headlineSmall: f(t.headlineSmall),
+    titleLarge: f(t.titleLarge),
+    titleMedium: f(t.titleMedium),
+    titleSmall: f(t.titleSmall),
+    bodyLarge: f(t.bodyLarge),
+    bodyMedium: f(t.bodyMedium),
+    bodySmall: f(t.bodySmall),
+    labelLarge: f(t.labelLarge),
+    labelMedium: f(t.labelMedium),
+    labelSmall: f(t.labelSmall),
+  );
+}
+
 ThemeData buildTheme() {
   final base = ThemeData(
     useMaterial3: true,
@@ -218,14 +242,14 @@ ThemeData buildTheme() {
     ),
   );
   return base.copyWith(
-    textTheme: GoogleFonts.fredokaTextTheme(base.textTheme),
+    textTheme: _withFallback(GoogleFonts.fredokaTextTheme(base.textTheme)),
     filledButtonTheme: FilledButtonThemeData(
       style: FilledButton.styleFrom(
         minimumSize: const Size(0, 52),
         textStyle: GoogleFonts.fredoka(
           fontSize: 18,
           fontWeight: FontWeight.w600,
-        ),
+        ).copyWith(fontFamilyFallback: _fontFallback),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
       ),
     ),

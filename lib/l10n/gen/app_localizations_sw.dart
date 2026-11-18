@@ -30,9 +30,6 @@ class AppLocalizationsSw extends AppLocalizations {
   String get nameRequired => 'Andika jina';
 
   @override
-  String get pickColor => 'Chagua rangi yako';
-
-  @override
   String get start => 'Anza';
 
   @override

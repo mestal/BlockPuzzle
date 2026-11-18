@@ -30,9 +30,6 @@ class AppLocalizationsVi extends AppLocalizations {
   String get nameRequired => 'Hãy nhập tên';
 
   @override
-  String get pickColor => 'Chọn màu của bạn';
-
-  @override
   String get start => 'Bắt đầu';
 
   @override
