@@ -338,7 +338,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'La ligne du dessous est aussi [2 2]. À toi : mets d\'abord un X sur la case vide.';
+      'La ligne du dessous est aussi [2 2]. À toi : touche d\'abord deux fois la case vide pour y mettre un X.';
 
   @override
   String get tutorialL2DragSelf => 'Maintenant glisse pour remplir la ligne.';

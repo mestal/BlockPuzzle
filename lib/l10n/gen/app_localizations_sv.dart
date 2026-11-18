@@ -338,7 +338,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Raden under är också [2 2]. Din tur: sätt först ett X på den tomma rutan.';
+      'Raden under är också [2 2]. Din tur: dubbeltryck först på den tomma rutan för att sätta ett X.';
 
   @override
   String get tutorialL2DragSelf => 'Dra nu för att fylla raden.';

@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]：两个分开的组。先填 2 格，至少空 1 格，再填 2 格。2 + 1 + 2 = 5：正好放下！",
   "tutorialL2Cross": "所以中间那格是空的。双击它打上 X。",
   "tutorialL2Drag": "X 只是一个记号，不会扣任何东西。现在滑过整行：打 X 的格子会被跳过。",
-  "tutorialL2CrossSelf": "下面一行也是 [2 2]。轮到你了：先在空格上打 X。",
+  "tutorialL2CrossSelf": "下面一行也是 [2 2]。轮到你了：先双击空格打上 X。",
   "tutorialL2DragSelf": "现在滑动填满这一行。",
   "tutorialL2Mistakes": "小心：填错格子会变成红色 X，并失去一颗心。没把握？先打 X！",
   "tutorialL2Finish": "剩下的交给你！卡住了？数数一条线还差几格。",

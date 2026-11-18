@@ -338,7 +338,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'De rij eronder is ook [2 2]. Jouw beurt: zet eerst een X op het lege vakje.';
+      'De rij eronder is ook [2 2]. Jouw beurt: dubbeltik eerst op het lege vakje om er een X te zetten.';
 
   @override
   String get tutorialL2DragSelf => 'Schuif nu om de rij te vullen.';

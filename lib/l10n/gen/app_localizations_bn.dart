@@ -337,7 +337,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'নিচের সারিটাও [2 2]। তোমার পালা: আগে খালি ঘরে X দাও।';
+      'নিচের সারিটাও [2 2]। তোমার পালা: আগে খালি ঘরে ডাবল ট্যাপ করে X দাও।';
 
   @override
   String get tutorialL2DragSelf => 'এবার টেনে সারিটা ভরাট করো।';

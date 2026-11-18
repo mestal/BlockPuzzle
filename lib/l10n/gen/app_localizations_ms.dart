@@ -337,7 +337,7 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Baris di bawah juga [2 2]. Giliran anda: letakkan X pada petak kosong dahulu.';
+      'Baris di bawah juga [2 2]. Giliran anda: ketik dua kali pada petak kosong dahulu untuk meletakkan X.';
 
   @override
   String get tutorialL2DragSelf => 'Sekarang leret untuk mengisi baris.';

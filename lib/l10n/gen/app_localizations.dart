@@ -695,7 +695,7 @@ abstract class AppLocalizations {
   /// No description provided for @tutorialL2CrossSelf.
   ///
   /// In tr, this message translates to:
-  /// **'Alttaki satır da [2 2]. Sıra sende: önce boş kareye X koy.'**
+  /// **'Alttaki satır da [2 2]. Sıra sende: önce boş kareye çift dokunarak X koy.'**
   String get tutorialL2CrossSelf;
 
   /// No description provided for @tutorialL2DragSelf.

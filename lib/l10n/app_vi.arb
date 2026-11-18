@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: hai nhóm riêng. 2 ô tô, ít nhất 1 ô trống, rồi 2 ô tô. 2 + 1 + 2 = 5: vừa khít!",
   "tutorialL2Cross": "Vậy ô ở giữa là trống. Chạm hai lần vào nó để đánh X.",
   "tutorialL2Drag": "X chỉ là ghi chú, không mất gì cả. Giờ vuốt qua hàng: ô có X sẽ được bỏ qua.",
-  "tutorialL2CrossSelf": "Hàng bên dưới cũng là [2 2]. Đến lượt bạn: đánh X vào ô trống trước.",
+  "tutorialL2CrossSelf": "Hàng bên dưới cũng là [2 2]. Đến lượt bạn: chạm hai lần vào ô trống trước để đánh X.",
   "tutorialL2DragSelf": "Giờ vuốt để tô hàng.",
   "tutorialL2Mistakes": "Cẩn thận: tô sai ô sẽ biến nó thành X đỏ và mất một trái tim. Chưa chắc? Đánh X trước!",
   "tutorialL2Finish": "Phần còn lại là của bạn! Bí à? Đếm xem một đường còn thiếu bao nhiêu ô.",

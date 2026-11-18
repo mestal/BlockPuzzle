@@ -245,7 +245,7 @@
   "tutorialL2Groups": "[2 2]: iki ayrı grup. 2 dolu, en az 1 boş, sonra 2 dolu. 2 + 1 + 2 = 5: satıra tam sığar!",
   "tutorialL2Cross": "Yani ortadaki kare boş. Ona çift dokunarak X koy.",
   "tutorialL2Drag": "X bir nottur, hak götürmez. Şimdi satırı baştan sona kaydır; X'li kare atlanır.",
-  "tutorialL2CrossSelf": "Alttaki satır da [2 2]. Sıra sende: önce boş kareye X koy.",
+  "tutorialL2CrossSelf": "Alttaki satır da [2 2]. Sıra sende: önce boş kareye çift dokunarak X koy.",
   "tutorialL2DragSelf": "Şimdi satırı kaydırarak doldur.",
   "tutorialL2Mistakes": "Dikkat: yanlış kareyi doldurursan kırmızı X olur ve bir kalp gider. Emin değilsen önce X koy!",
   "tutorialL2Finish": "Gerisi sende! Takılınca bir çizgide kaç kare kaldığını say.",

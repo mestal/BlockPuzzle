@@ -339,7 +339,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Die Zeile darunter ist auch [2 2]. Du bist dran: Setze zuerst ein X auf das leere Feld.';
+      'Die Zeile darunter ist auch [2 2]. Du bist dran: Tippe zuerst doppelt auf das leere Feld, um ein X zu setzen.';
 
   @override
   String get tutorialL2DragSelf => 'Wische jetzt, um die Zeile zu füllen.';

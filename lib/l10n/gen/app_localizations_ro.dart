@@ -340,7 +340,7 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Și rândul de dedesubt e [2 2]. E rândul tău: pune întâi un X pe pătrățelul gol.';
+      'Și rândul de dedesubt e [2 2]. E rândul tău: atinge întâi de două ori pătrățelul gol ca să pui un X.';
 
   @override
   String get tutorialL2DragSelf => 'Acum glisează ca să umpli rândul.';

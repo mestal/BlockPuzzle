@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: dua kumpulan berasingan. 2 berisi, sekurang-kurangnya 1 kosong, kemudian 2 berisi. 2 + 1 + 2 = 5: muat tepat!",
   "tutorialL2Cross": "Jadi petak tengah kosong. Ketik dua kali padanya untuk meletakkan X.",
   "tutorialL2Drag": "X hanya nota dan tidak menelan kos. Sekarang leret sepanjang baris: petak X dilangkau.",
-  "tutorialL2CrossSelf": "Baris di bawah juga [2 2]. Giliran anda: letakkan X pada petak kosong dahulu.",
+  "tutorialL2CrossSelf": "Baris di bawah juga [2 2]. Giliran anda: ketik dua kali pada petak kosong dahulu untuk meletakkan X.",
   "tutorialL2DragSelf": "Sekarang leret untuk mengisi baris.",
   "tutorialL2Mistakes": "Awas: mengisi petak yang salah menjadikannya X merah dan anda hilang satu hati. Tak pasti? Letakkan X dahulu!",
   "tutorialL2Finish": "Selebihnya milik anda! Buntu? Kira berapa petak lagi yang diperlukan sesuatu garisan.",

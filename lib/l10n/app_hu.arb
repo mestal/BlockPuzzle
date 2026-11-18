@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: két külön csoport. 2 kitöltött, legalább 1 üres, aztán 2 kitöltött. 2 + 1 + 2 = 5: pont kijön!",
   "tutorialL2Cross": "Tehát a középső négyzet üres. Koppints rá kétszer, hogy X-et tegyél.",
   "tutorialL2Drag": "Az X csak jegyzet, semmibe sem kerül. Most húzd végig a soron: az X-es négyzetet átugorja.",
-  "tutorialL2CrossSelf": "Az alatta lévő sor is [2 2]. Te jössz: előbb tegyél X-et az üres négyzetre.",
+  "tutorialL2CrossSelf": "Az alatta lévő sor is [2 2]. Te jössz: előbb koppints kétszer az üres négyzetre, hogy X-et tegyél.",
   "tutorialL2DragSelf": "Most húzással töltsd ki a sort.",
   "tutorialL2Mistakes": "Vigyázz: ha rossz négyzetet töltesz ki, piros X lesz belőle, és elveszítesz egy szívet. Nem vagy biztos? Előbb tegyél X-et!",
   "tutorialL2Finish": "A többi a tiéd! Elakadtál? Számold meg, hány négyzet hiányzik még egy vonalból.",

@@ -340,7 +340,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Строка ниже тоже [2 2]. Твоя очередь: сначала поставь X на пустую клетку.';
+      'Строка ниже тоже [2 2]. Твоя очередь: сначала коснись пустой клетки дважды, чтобы поставить X.';
 
   @override
   String get tutorialL2DragSelf => 'Теперь проведи, чтобы закрасить строку.';

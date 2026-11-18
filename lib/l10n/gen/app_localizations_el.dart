@@ -339,7 +339,7 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Και η από κάτω γραμμή είναι [2 2]. Σειρά σου: βάλε πρώτα X στο κενό τετράγωνο.';
+      'Και η από κάτω γραμμή είναι [2 2]. Σειρά σου: πάτησε πρώτα δύο φορές το κενό τετράγωνο για να βάλεις X.';
 
   @override
   String get tutorialL2DragSelf => 'Τώρα σύρε για να γεμίσεις τη γραμμή.';

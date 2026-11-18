@@ -318,7 +318,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get tutorialL2Drag => 'X はただのメモで、何も減らないよ。行をスライドしよう：X のマスは飛ばされるよ。';
 
   @override
-  String get tutorialL2CrossSelf => '下の行も [2 2]。きみの番：まず空きマスに X を付けよう。';
+  String get tutorialL2CrossSelf => '下の行も [2 2]。きみの番：まず空きマスをダブルタップして X を付けよう。';
 
   @override
   String get tutorialL2DragSelf => '今度はスライドして行を塗ろう。';

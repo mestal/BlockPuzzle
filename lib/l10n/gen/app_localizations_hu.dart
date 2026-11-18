@@ -337,7 +337,7 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Az alatta lévő sor is [2 2]. Te jössz: előbb tegyél X-et az üres négyzetre.';
+      'Az alatta lévő sor is [2 2]. Te jössz: előbb koppints kétszer az üres négyzetre, hogy X-et tegyél.';
 
   @override
   String get tutorialL2DragSelf => 'Most húzással töltsd ki a sort.';

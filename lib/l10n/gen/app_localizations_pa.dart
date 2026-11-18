@@ -336,7 +336,7 @@ class AppLocalizationsPa extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'ਹੇਠਲੀ ਕਤਾਰ ਵੀ [2 2] ਹੈ। ਤੁਹਾਡੀ ਵਾਰੀ: ਪਹਿਲਾਂ ਖਾਲੀ ਖਾਨੇ ਉੱਤੇ X ਲਗਾਓ।';
+      'ਹੇਠਲੀ ਕਤਾਰ ਵੀ [2 2] ਹੈ। ਤੁਹਾਡੀ ਵਾਰੀ: ਪਹਿਲਾਂ ਖਾਲੀ ਖਾਨੇ ਉੱਤੇ ਡਬਲ ਟੈਪ ਕਰਕੇ X ਲਗਾਓ।';
 
   @override
   String get tutorialL2DragSelf => 'ਹੁਣ ਖਿਸਕਾ ਕੇ ਕਤਾਰ ਭਰੋ।';

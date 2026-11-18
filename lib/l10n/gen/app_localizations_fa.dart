@@ -336,7 +336,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'ردیف پایینی هم [2 2] است. نوبت توست: اول روی خانهٔ خالی X بگذار.';
+      'ردیف پایینی هم [2 2] است. نوبت توست: اول با دو ضربه روی خانهٔ خالی X بگذار.';
 
   @override
   String get tutorialL2DragSelf => 'حالا بکش تا ردیف پر شود.';

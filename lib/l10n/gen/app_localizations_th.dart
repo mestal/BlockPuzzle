@@ -333,7 +333,7 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'แถวด้านล่างก็ [2 2] ถึงตาคุณแล้ว: ใส่ X ที่ช่องว่างก่อน';
+      'แถวด้านล่างก็ [2 2] ถึงตาคุณแล้ว: แตะช่องว่างสองครั้งเพื่อใส่ X ก่อน';
 
   @override
   String get tutorialL2DragSelf => 'ทีนี้ลากเพื่อเติมแถว';

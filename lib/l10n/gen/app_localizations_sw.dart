@@ -338,7 +338,7 @@ class AppLocalizationsSw extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Safu ya chini pia ni [2 2]. Zamu yako: weka X kwenye kisanduku kitupu kwanza.';
+      'Safu ya chini pia ni [2 2]. Zamu yako: kwanza gusa kisanduku kitupu mara mbili kuweka X.';
 
   @override
   String get tutorialL2DragSelf => 'Sasa telezesha ujaze safu.';

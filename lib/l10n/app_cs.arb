@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: dvě oddělené skupiny. 2 vyplněná, aspoň 1 prázdné, pak 2 vyplněná. 2 + 1 + 2 = 5: sedí přesně!",
   "tutorialL2Cross": "Prostřední políčko je tedy prázdné. Dvojím klepnutím na něj dej X.",
   "tutorialL2Drag": "X je jen poznámka a nic nestojí. Teď táhni přes řádek: políčko s X se přeskočí.",
-  "tutorialL2CrossSelf": "Řádek pod ním je taky [2 2]. Jsi na řadě: nejdřív dej X na prázdné políčko.",
+  "tutorialL2CrossSelf": "Řádek pod ním je taky [2 2]. Jsi na řadě: nejdřív dvojím klepnutím dej X na prázdné políčko.",
   "tutorialL2DragSelf": "Teď táhni a vyplň řádek.",
   "tutorialL2Mistakes": "Pozor: vyplnění špatného políčka z něj udělá červené X a stojí srdíčko. Nejsi si jistý? Dej nejdřív X!",
   "tutorialL2Finish": "Zbytek je na tobě! Zasekl ses? Spočítej, kolik políček ještě linii chybí.",

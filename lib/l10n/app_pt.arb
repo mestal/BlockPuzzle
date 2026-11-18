@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: dois grupos separados. 2 preenchidos, pelo menos 1 vazio, depois 2 preenchidos. 2 + 1 + 2 = 5: cabe certinho!",
   "tutorialL2Cross": "Então o quadrado do meio é vazio. Toque duas vezes nele para pôr um X.",
   "tutorialL2Drag": "Um X é só uma anotação; não custa nada. Agora deslize pela linha: o X é pulado.",
-  "tutorialL2CrossSelf": "A linha de baixo também é [2 2]. Sua vez: primeiro ponha um X no quadrado vazio.",
+  "tutorialL2CrossSelf": "A linha de baixo também é [2 2]. Sua vez: primeiro toque duas vezes no quadrado vazio para pôr um X.",
   "tutorialL2DragSelf": "Agora deslize para preencher a linha.",
   "tutorialL2Mistakes": "Cuidado: preencher um quadrado errado vira um X vermelho e custa um coração. Na dúvida, ponha um X primeiro!",
   "tutorialL2Finish": "O resto é com você! Travou? Conte quantos quadrados ainda faltam numa linha.",

@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: zwei getrennte Gruppen. 2 gefüllt, mindestens 1 leer, dann 2 gefüllt. 2 + 1 + 2 = 5: passt genau!",
   "tutorialL2Cross": "Das mittlere Feld ist also leer. Tippe doppelt darauf, um ein X zu setzen.",
   "tutorialL2Drag": "Ein X ist nur eine Notiz und kostet nichts. Wische jetzt über die Zeile: Das X wird übersprungen.",
-  "tutorialL2CrossSelf": "Die Zeile darunter ist auch [2 2]. Du bist dran: Setze zuerst ein X auf das leere Feld.",
+  "tutorialL2CrossSelf": "Die Zeile darunter ist auch [2 2]. Du bist dran: Tippe zuerst doppelt auf das leere Feld, um ein X zu setzen.",
   "tutorialL2DragSelf": "Wische jetzt, um die Zeile zu füllen.",
   "tutorialL2Mistakes": "Vorsicht: Ein falsch gefülltes Feld wird zum roten X und kostet ein Herz. Unsicher? Setze erst ein X!",
   "tutorialL2Finish": "Der Rest gehört dir! Kommst du nicht weiter, zähle, wie viele Felder einer Linie noch fehlen.",

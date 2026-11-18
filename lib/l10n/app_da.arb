@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: to adskilte grupper. 2 udfyldt, mindst 1 tomt, så 2 udfyldt. 2 + 1 + 2 = 5: passer præcis!",
   "tutorialL2Cross": "Så det midterste felt er tomt. Dobbelttryk på det for at sætte et X.",
   "tutorialL2Drag": "Et X er bare en note og koster intet. Træk nu hen over rækken: X-feltet springes over.",
-  "tutorialL2CrossSelf": "Rækken nedenunder er også [2 2]. Din tur: sæt først et X på det tomme felt.",
+  "tutorialL2CrossSelf": "Rækken nedenunder er også [2 2]. Din tur: dobbelttryk først på det tomme felt for at sætte et X.",
   "tutorialL2DragSelf": "Træk nu for at udfylde rækken.",
   "tutorialL2Mistakes": "Pas på: udfylder du et forkert felt, bliver det et rødt X, og du mister et hjerte. Usikker? Sæt et X først!",
   "tutorialL2Finish": "Resten er dit! Kører du fast? Tæl hvor mange felter en linje stadig mangler.",

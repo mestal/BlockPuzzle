@@ -337,7 +337,7 @@ class AppLocalizationsNb extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Raden under er også [2 2]. Din tur: sett først en X på den tomme ruten.';
+      'Raden under er også [2 2]. Din tur: dobbelttrykk først på den tomme ruten for å sette en X.';
 
   @override
   String get tutorialL2DragSelf => 'Dra nå for å fylle raden.';

@@ -340,7 +340,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Řádek pod ním je taky [2 2]. Jsi na řadě: nejdřív dej X na prázdné políčko.';
+      'Řádek pod ním je taky [2 2]. Jsi na řadě: nejdřív dvojím klepnutím dej X na prázdné políčko.';
 
   @override
   String get tutorialL2DragSelf => 'Teď táhni a vyplň řádek.';

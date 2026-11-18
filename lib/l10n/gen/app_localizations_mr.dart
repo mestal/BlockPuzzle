@@ -335,7 +335,7 @@ class AppLocalizationsMr extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'खालची ओळही [2 2] आहे. तुमची पाळी: आधी रिकाम्या चौकोनावर X लावा.';
+      'खालची ओळही [2 2] आहे. तुमची पाळी: आधी रिकाम्या चौकोनावर डबल टॅप करून X लावा.';
 
   @override
   String get tutorialL2DragSelf => 'आता सरकवून ओळ भरा.';

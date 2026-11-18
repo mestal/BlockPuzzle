@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2] : deux groupes séparés. 2 remplies, au moins 1 vide, puis 2 remplies. 2 + 1 + 2 = 5 : ça tient pile !",
   "tutorialL2Cross": "Donc la case du milieu est vide. Touche-la deux fois pour y mettre un X.",
   "tutorialL2Drag": "Un X est juste une note, il ne coûte rien. Glisse maintenant sur la ligne : le X est sauté.",
-  "tutorialL2CrossSelf": "La ligne du dessous est aussi [2 2]. À toi : mets d'abord un X sur la case vide.",
+  "tutorialL2CrossSelf": "La ligne du dessous est aussi [2 2]. À toi : touche d'abord deux fois la case vide pour y mettre un X.",
   "tutorialL2DragSelf": "Maintenant glisse pour remplir la ligne.",
   "tutorialL2Mistakes": "Attention : remplir une mauvaise case la change en X rouge et coûte un cœur. Pas sûr ? Mets d'abord un X !",
   "tutorialL2Finish": "La suite est à toi ! Bloqué ? Compte combien de cases il manque à une ligne.",

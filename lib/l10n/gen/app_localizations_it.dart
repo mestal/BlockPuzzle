@@ -337,7 +337,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Anche la riga sotto è [2 2]. Tocca a te: prima metti una X sulla casella vuota.';
+      'Anche la riga sotto è [2 2]. Tocca a te: prima tocca due volte la casella vuota per metterci una X.';
 
   @override
   String get tutorialL2DragSelf => 'Ora scorri per riempire la riga.';

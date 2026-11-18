@@ -341,7 +341,7 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Рядок нижче теж [2 2]. Твоя черга: спершу постав X на порожню клітинку.';
+      'Рядок нижче теж [2 2]. Твоя черга: спершу торкнись порожньої клітинки двічі, щоб поставити X.';
 
   @override
   String get tutorialL2DragSelf => 'Тепер веди, щоб заповнити рядок.';

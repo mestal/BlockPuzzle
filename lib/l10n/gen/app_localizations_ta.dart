@@ -339,7 +339,7 @@ class AppLocalizationsTa extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'கீழ் வரிசையும் [2 2]. உங்கள் முறை: முதலில் காலிக் கட்டத்தில் X இடுங்கள்.';
+      'கீழ் வரிசையும் [2 2]. உங்கள் முறை: முதலில் காலிக் கட்டத்தை இருமுறை தட்டி X இடுங்கள்.';
 
   @override
   String get tutorialL2DragSelf => 'இப்போது இழுத்து வரிசையை நிரப்புங்கள்.';

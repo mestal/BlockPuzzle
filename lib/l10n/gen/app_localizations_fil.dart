@@ -339,7 +339,7 @@ class AppLocalizationsFil extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      '[2 2] din ang hilera sa ibaba. Ikaw naman: lagyan muna ng X ang bakanteng kahon.';
+      '[2 2] din ang hilera sa ibaba. Ikaw naman: i-double tap muna ang bakanteng kahon para lagyan ng X.';
 
   @override
   String get tutorialL2DragSelf => 'Ngayon i-slide para punan ang hilera.';

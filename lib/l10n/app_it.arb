@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: due gruppi separati. 2 piene, almeno 1 vuota, poi 2 piene. 2 + 1 + 2 = 5: entra giusto giusto!",
   "tutorialL2Cross": "Quindi la casella centrale è vuota. Toccala due volte per metterci una X.",
   "tutorialL2Drag": "Una X è solo un appunto e non costa nulla. Ora scorri sulla riga: la X viene saltata.",
-  "tutorialL2CrossSelf": "Anche la riga sotto è [2 2]. Tocca a te: prima metti una X sulla casella vuota.",
+  "tutorialL2CrossSelf": "Anche la riga sotto è [2 2]. Tocca a te: prima tocca due volte la casella vuota per metterci una X.",
   "tutorialL2DragSelf": "Ora scorri per riempire la riga.",
   "tutorialL2Mistakes": "Attenzione: riempire una casella sbagliata la trasforma in una X rossa e costa un cuore. Hai dubbi? Metti prima una X!",
   "tutorialL2Finish": "Il resto è tuo! Bloccato? Conta quante caselle mancano a una linea.",

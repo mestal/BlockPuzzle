@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: two separate groups. 2 filled, at least 1 empty, then 2 filled. 2 + 1 + 2 = 5: a perfect fit!",
   "tutorialL2Cross": "So the middle square is empty. Double tap it to put an X there.",
   "tutorialL2Drag": "An X is just a note; it costs nothing. Now slide across the row: the X is skipped.",
-  "tutorialL2CrossSelf": "The row below is [2 2] too. Your turn: put an X on the empty square first.",
+  "tutorialL2CrossSelf": "The row below is [2 2] too. Your turn: double tap the empty square first to put an X there.",
   "tutorialL2DragSelf": "Now slide to fill the row.",
   "tutorialL2Mistakes": "Careful: filling a wrong square turns it into a red X and costs a heart. Not sure? Put an X first!",
   "tutorialL2Finish": "The rest is yours! Stuck? Count how many squares a line still needs.",

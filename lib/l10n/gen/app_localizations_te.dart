@@ -338,7 +338,7 @@ class AppLocalizationsTe extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'కింది వరుస కూడా [2 2]. మీ వంతు: ముందు ఖాళీ గడిపై X పెట్టండి.';
+      'కింది వరుస కూడా [2 2]. మీ వంతు: ముందు ఖాళీ గడిపై డబుల్ ట్యాప్ చేసి X పెట్టండి.';
 
   @override
   String get tutorialL2DragSelf => 'ఇప్పుడు జరిపి వరుసను నింపండి.';

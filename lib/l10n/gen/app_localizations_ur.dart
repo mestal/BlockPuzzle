@@ -336,7 +336,7 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'نیچے والی قطار بھی [2 2] ہے۔ آپ کی باری: پہلے خالی خانے پر X لگائیں۔';
+      'نیچے والی قطار بھی [2 2] ہے۔ آپ کی باری: پہلے خالی خانے پر ڈبل ٹیپ کر کے X لگائیں۔';
 
   @override
   String get tutorialL2DragSelf => 'اب کھسکا کر قطار بھریں۔';

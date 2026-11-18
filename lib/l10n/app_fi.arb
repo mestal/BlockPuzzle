@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: kaksi erillistä ryhmää. 2 täytettyä, vähintään 1 tyhjä, sitten 2 täytettyä. 2 + 1 + 2 = 5: mahtuu juuri!",
   "tutorialL2Cross": "Keskimmäinen ruutu on siis tyhjä. Kaksoisnapauta sitä merkitäksesi X:n.",
   "tutorialL2Drag": "X on vain muistiinpano eikä maksa mitään. Liu’uta nyt rivin yli: X-ruutu ohitetaan.",
-  "tutorialL2CrossSelf": "Alempikin rivi on [2 2]. Sinun vuorosi: merkitse ensin X tyhjään ruutuun.",
+  "tutorialL2CrossSelf": "Alempikin rivi on [2 2]. Sinun vuorosi: kaksoisnapauta ensin tyhjää ruutua merkitäksesi X:n.",
   "tutorialL2DragSelf": "Liu’uta nyt ja täytä rivi.",
   "tutorialL2Mistakes": "Varo: väärän ruudun täyttäminen tekee siitä punaisen X:n ja maksaa sydämen. Epävarma? Merkitse ensin X!",
   "tutorialL2Finish": "Loput ovat sinun! Jumissa? Laske, montako ruutua linjalta vielä puuttuu.",

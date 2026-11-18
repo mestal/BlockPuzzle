@@ -337,7 +337,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Hàng bên dưới cũng là [2 2]. Đến lượt bạn: đánh X vào ô trống trước.';
+      'Hàng bên dưới cũng là [2 2]. Đến lượt bạn: chạm hai lần vào ô trống trước để đánh X.';
 
   @override
   String get tutorialL2DragSelf => 'Giờ vuốt để tô hàng.';

@@ -338,7 +338,7 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Rækken nedenunder er også [2 2]. Din tur: sæt først et X på det tomme felt.';
+      'Rækken nedenunder er også [2 2]. Din tur: dobbelttryk først på det tomme felt for at sætte et X.';
 
   @override
   String get tutorialL2DragSelf => 'Træk nu for at udfylde rækken.';

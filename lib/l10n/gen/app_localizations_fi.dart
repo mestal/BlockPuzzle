@@ -336,7 +336,7 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Alempikin rivi on [2 2]. Sinun vuorosi: merkitse ensin X tyhjään ruutuun.';
+      'Alempikin rivi on [2 2]. Sinun vuorosi: kaksoisnapauta ensin tyhjää ruutua merkitäksesi X:n.';
 
   @override
   String get tutorialL2DragSelf => 'Liu’uta nyt ja täytä rivi.';

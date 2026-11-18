@@ -339,7 +339,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Wiersz poniżej też ma [2 2]. Twoja kolej: najpierw postaw X na pustym polu.';
+      'Wiersz poniżej też ma [2 2]. Twoja kolej: najpierw dotknij dwa razy pustego pola, aby postawić X.';
 
   @override
   String get tutorialL2DragSelf => 'Teraz przesuń, aby wypełnić wiersz.';

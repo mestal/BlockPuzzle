@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: dwie osobne grupy. 2 pełne, co najmniej 1 puste, potem 2 pełne. 2 + 1 + 2 = 5: pasuje idealnie!",
   "tutorialL2Cross": "Czyli środkowe pole jest puste. Dotknij go dwa razy, aby postawić X.",
   "tutorialL2Drag": "X to tylko notatka i nic nie kosztuje. Teraz przesuń wzdłuż wiersza: X zostanie pominięty.",
-  "tutorialL2CrossSelf": "Wiersz poniżej też ma [2 2]. Twoja kolej: najpierw postaw X na pustym polu.",
+  "tutorialL2CrossSelf": "Wiersz poniżej też ma [2 2]. Twoja kolej: najpierw dotknij dwa razy pustego pola, aby postawić X.",
   "tutorialL2DragSelf": "Teraz przesuń, aby wypełnić wiersz.",
   "tutorialL2Mistakes": "Uwaga: wypełnienie złego pola zmienia je w czerwony X i kosztuje serce. Nie masz pewności? Najpierw postaw X!",
   "tutorialL2Finish": "Reszta należy do ciebie! Utknąłeś? Policz, ilu pól brakuje w danej linii.",

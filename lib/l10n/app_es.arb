@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: dos grupos separados. 2 llenas, al menos 1 vacía y 2 llenas. 2 + 1 + 2 = 5: ¡encaja justo!",
   "tutorialL2Cross": "Así que la casilla del medio está vacía. Tócala dos veces para poner una X.",
   "tutorialL2Drag": "Una X es solo una nota; no cuesta nada. Ahora desliza por la fila: la X se salta.",
-  "tutorialL2CrossSelf": "La fila de abajo también es [2 2]. Te toca: primero pon una X en la casilla vacía.",
+  "tutorialL2CrossSelf": "La fila de abajo también es [2 2]. Te toca: primero toca dos veces la casilla vacía para poner una X.",
   "tutorialL2DragSelf": "Ahora desliza para llenar la fila.",
   "tutorialL2Mistakes": "Cuidado: si llenas una casilla equivocada se vuelve una X roja y pierdes un corazón. ¿Dudas? ¡Pon una X primero!",
   "tutorialL2Finish": "¡El resto es tuyo! ¿Atascado? Cuenta cuántas casillas le faltan a una línea.",

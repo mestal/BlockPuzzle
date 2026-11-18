@@ -327,7 +327,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      '아래 행도 [2 2]예요. 이제 직접 해 보세요: 먼저 빈칸에 X를 놓으세요.';
+      '아래 행도 [2 2]예요. 이제 직접 해 보세요: 먼저 빈칸을 더블 탭해서 X를 놓으세요.';
 
   @override
   String get tutorialL2DragSelf => '이제 밀어서 행을 채우세요.';

@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: to separate grupper. 2 fylt, minst 1 tom, så 2 fylt. 2 + 1 + 2 = 5: passer akkurat!",
   "tutorialL2Cross": "Altså er midtruten tom. Dobbelttrykk på den for å sette en X.",
   "tutorialL2Drag": "En X er bare et notat og koster ingenting. Dra nå over raden: X-ruten hoppes over.",
-  "tutorialL2CrossSelf": "Raden under er også [2 2]. Din tur: sett først en X på den tomme ruten.",
+  "tutorialL2CrossSelf": "Raden under er også [2 2]. Din tur: dobbelttrykk først på den tomme ruten for å sette en X.",
   "tutorialL2DragSelf": "Dra nå for å fylle raden.",
   "tutorialL2Mistakes": "Pass på: fyller du feil rute, blir den en rød X, og du mister et hjerte. Usikker? Sett en X først!",
   "tutorialL2Finish": "Resten er ditt! Står du fast? Tell hvor mange ruter en linje fortsatt mangler.",

@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: dua kelompok terpisah. 2 terisi, minimal 1 kosong, lalu 2 terisi. 2 + 1 + 2 = 5: pas sekali!",
   "tutorialL2Cross": "Jadi kotak tengah kosong. Ketuk dua kali untuk memberinya X.",
   "tutorialL2Drag": "X hanya catatan dan tidak memakan apa pun. Sekarang geser sepanjang baris: kotak ber-X dilewati.",
-  "tutorialL2CrossSelf": "Baris di bawahnya juga [2 2]. Giliranmu: beri X dulu pada kotak kosong.",
+  "tutorialL2CrossSelf": "Baris di bawahnya juga [2 2]. Giliranmu: ketuk dua kali kotak kosong dulu untuk memberinya X.",
   "tutorialL2DragSelf": "Sekarang geser untuk mengisi baris.",
   "tutorialL2Mistakes": "Hati-hati: mengisi kotak yang salah membuatnya jadi X merah dan kamu kehilangan satu hati. Ragu? Beri X dulu!",
   "tutorialL2Finish": "Sisanya milikmu! Buntu? Hitung berapa kotak lagi yang dibutuhkan sebuah garis.",

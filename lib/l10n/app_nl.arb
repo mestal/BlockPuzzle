@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: twee losse groepen. 2 gevuld, minstens 1 leeg, dan 2 gevuld. 2 + 1 + 2 = 5: past precies!",
   "tutorialL2Cross": "Het middelste vakje is dus leeg. Dubbeltik erop om er een X te zetten.",
   "tutorialL2Drag": "Een X is maar een notitie en kost niets. Schuif nu over de rij: de X wordt overgeslagen.",
-  "tutorialL2CrossSelf": "De rij eronder is ook [2 2]. Jouw beurt: zet eerst een X op het lege vakje.",
+  "tutorialL2CrossSelf": "De rij eronder is ook [2 2]. Jouw beurt: dubbeltik eerst op het lege vakje om er een X te zetten.",
   "tutorialL2DragSelf": "Schuif nu om de rij te vullen.",
   "tutorialL2Mistakes": "Let op: een verkeerd vakje vullen maakt er een rode X van en kost een hartje. Twijfel je? Zet eerst een X!",
   "tutorialL2Finish": "De rest is aan jou! Vast? Tel hoeveel vakjes een lijn nog nodig heeft.",

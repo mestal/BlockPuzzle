@@ -337,7 +337,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'A linha de baixo também é [2 2]. Sua vez: primeiro ponha um X no quadrado vazio.';
+      'A linha de baixo também é [2 2]. Sua vez: primeiro toque duas vezes no quadrado vazio para pôr um X.';
 
   @override
   String get tutorialL2DragSelf => 'Agora deslize para preencher a linha.';

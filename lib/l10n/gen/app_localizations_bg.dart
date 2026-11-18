@@ -338,7 +338,7 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Редът отдолу също е [2 2]. Твой ред е: първо сложи X на празното квадратче.';
+      'Редът отдолу също е [2 2]. Твой ред е: първо докосни празното квадратче два пъти, за да сложиш X.';
 
   @override
   String get tutorialL2DragSelf => 'Сега плъзни, за да запълниш реда.';

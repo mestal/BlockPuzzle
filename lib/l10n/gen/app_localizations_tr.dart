@@ -330,7 +330,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'Alttaki satır da [2 2]. Sıra sende: önce boş kareye X koy.';
+      'Alttaki satır da [2 2]. Sıra sende: önce boş kareye çift dokunarak X koy.';
 
   @override
   String get tutorialL2DragSelf => 'Şimdi satırı kaydırarak doldur.';

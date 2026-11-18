@@ -338,7 +338,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'The row below is [2 2] too. Your turn: put an X on the empty square first.';
+      'The row below is [2 2] too. Your turn: double tap the empty square first to put an X there.';
 
   @override
   String get tutorialL2DragSelf => 'Now slide to fill the row.';

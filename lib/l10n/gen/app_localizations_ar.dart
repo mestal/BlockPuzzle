@@ -340,7 +340,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'الصف الذي في الأسفل أيضًا [2 2]. دورك: ضع X أولًا على المربع الفارغ.';
+      'الصف الذي في الأسفل أيضًا [2 2]. دورك: انقر مرتين على المربع الفارغ لتضع X أولًا.';
 
   @override
   String get tutorialL2DragSelf => 'الآن اسحب لتملأ الصف.';

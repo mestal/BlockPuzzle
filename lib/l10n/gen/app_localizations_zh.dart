@@ -312,7 +312,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tutorialL2Drag => 'X 只是一个记号，不会扣任何东西。现在滑过整行：打 X 的格子会被跳过。';
 
   @override
-  String get tutorialL2CrossSelf => '下面一行也是 [2 2]。轮到你了：先在空格上打 X。';
+  String get tutorialL2CrossSelf => '下面一行也是 [2 2]。轮到你了：先双击空格打上 X。';
 
   @override
   String get tutorialL2DragSelf => '现在滑动填满这一行。';

@@ -87,7 +87,7 @@
   "tutorialL2Groups": "[2 2]: två separata grupper. 2 fyllda, minst 1 tom, sedan 2 fyllda. 2 + 1 + 2 = 5: passar exakt!",
   "tutorialL2Cross": "Alltså är mittrutan tom. Dubbeltryck på den för att sätta ett X.",
   "tutorialL2Drag": "Ett X är bara en anteckning och kostar inget. Dra nu över raden: X-rutan hoppas över.",
-  "tutorialL2CrossSelf": "Raden under är också [2 2]. Din tur: sätt först ett X på den tomma rutan.",
+  "tutorialL2CrossSelf": "Raden under är också [2 2]. Din tur: dubbeltryck först på den tomma rutan för att sätta ett X.",
   "tutorialL2DragSelf": "Dra nu för att fylla raden.",
   "tutorialL2Mistakes": "Akta: fyller du fel ruta blir den ett rött X och du förlorar ett hjärta. Osäker? Sätt ett X först!",
   "tutorialL2Finish": "Resten är ditt! Fastnat? Räkna hur många rutor en linje fortfarande behöver.",

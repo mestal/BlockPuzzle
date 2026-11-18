@@ -337,7 +337,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get tutorialL2CrossSelf =>
-      'नीचे वाली पंक्ति भी [2 2] है। आपकी बारी: पहले खाली खाने पर X लगाएँ।';
+      'नीचे वाली पंक्ति भी [2 2] है। आपकी बारी: पहले खाली खाने पर डबल टैप करके X लगाएँ।';
 
   @override
   String get tutorialL2DragSelf => 'अब खिसकाकर पंक्ति भरें।';
