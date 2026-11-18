@@ -10,6 +10,12 @@ import 'package:flutter/foundation.dart';
 ///   (`com.google.android.gms.ads.APPLICATION_ID`)
 /// - iOS: `ios/Runner/Info.plist` (`GADApplicationIdentifier`)
 abstract final class AdConfig {
+  /// Master switch for every ad. While false the game shows no ads, does
+  /// not start the AdMob SDK and offers no ad rewards (no extra lives or
+  /// hints). Override for a build with `--dart-define=ADS_ENABLED=true`.
+  // TODO(admob): Flip to true once the production ids below are filled in.
+  static const adsEnabled = bool.fromEnvironment('ADS_ENABLED');
+
   // TODO(admob): Production interstitial ad unit id (Android).
   static const _androidInterstitial = '';
   // TODO(admob): Production rewarded ad unit id (Android).

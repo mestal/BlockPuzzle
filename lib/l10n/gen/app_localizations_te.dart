@@ -87,6 +87,9 @@ class AppLocalizationsTe extends AppLocalizations {
   String get noHintsBody => '1 సూచన పొందడానికి ఒక చిన్న ప్రకటన చూడండి.';
 
   @override
+  String get noHintsBodyNoAds => 'మీరు అన్ని సూచనలూ వాడేశారు.';
+
+  @override
   String get watchAdForHint => 'ప్రకటన చూడండి: +1 సూచన';
 
   @override
@@ -95,6 +98,10 @@ class AppLocalizationsTe extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'మరో 1 ప్రాణం పొందడానికి ప్రకటన చూడండి, లేదా స్థాయిని మళ్లీ మొదలుపెట్టండి.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'స్థాయిని మళ్లీ మొదలుపెట్టండి, లేదా స్థాయిలకు తిరిగి వెళ్లండి.';
 
   @override
   String get watchAdForLife => 'ప్రకటన చూడండి: +1 ప్రాణం';

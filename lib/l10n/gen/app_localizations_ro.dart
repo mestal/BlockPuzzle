@@ -89,6 +89,9 @@ class AppLocalizationsRo extends AppLocalizations {
       'Urmărește o reclamă scurtă ca să primești 1 indiciu.';
 
   @override
+  String get noHintsBodyNoAds => 'Ai folosit toate indiciile.';
+
+  @override
   String get watchAdForHint => 'Reclamă: +1 indiciu';
 
   @override
@@ -97,6 +100,10 @@ class AppLocalizationsRo extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Urmărește o reclamă ca să primești încă o viață sau ia nivelul de la capăt.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Ia nivelul de la capăt sau întoarce-te la niveluri.';
 
   @override
   String get watchAdForLife => 'Reclamă: +1 viață';

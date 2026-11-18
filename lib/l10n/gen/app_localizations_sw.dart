@@ -87,6 +87,9 @@ class AppLocalizationsSw extends AppLocalizations {
   String get noHintsBody => 'Tazama tangazo fupi upate kidokezo 1.';
 
   @override
+  String get noHintsBodyNoAds => 'Umetumia vidokezo vyako vyote.';
+
+  @override
   String get watchAdForHint => 'Tazama tangazo: +1 kidokezo';
 
   @override
@@ -95,6 +98,10 @@ class AppLocalizationsSw extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Tazama tangazo upate maisha 1 zaidi, au anza kiwango upya.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Anza kiwango upya, au rudi kwenye viwango.';
 
   @override
   String get watchAdForLife => 'Tazama tangazo: +1 maisha';

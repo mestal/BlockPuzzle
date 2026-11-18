@@ -86,6 +86,9 @@ class AppLocalizationsPa extends AppLocalizations {
   String get noHintsBody => '1 ਸੰਕੇਤ ਲੈਣ ਲਈ ਇੱਕ ਛੋਟਾ ਇਸ਼ਤਿਹਾਰ ਦੇਖੋ।';
 
   @override
+  String get noHintsBodyNoAds => 'ਤੁਸੀਂ ਸਾਰੇ ਸੰਕੇਤ ਵਰਤ ਚੁੱਕੇ ਹੋ।';
+
+  @override
   String get watchAdForHint => 'ਇਸ਼ਤਿਹਾਰ ਦੇਖੋ: +1 ਸੰਕੇਤ';
 
   @override
@@ -94,6 +97,10 @@ class AppLocalizationsPa extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'ਇੱਕ ਹੋਰ ਜਾਨ ਲੈਣ ਲਈ ਇਸ਼ਤਿਹਾਰ ਦੇਖੋ, ਜਾਂ ਪੱਧਰ ਫਿਰ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ।';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'ਪੱਧਰ ਫਿਰ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ, ਜਾਂ ਪੱਧਰਾਂ ਵੱਲ ਵਾਪਸ ਜਾਓ।';
 
   @override
   String get watchAdForLife => 'ਇਸ਼ਤਿਹਾਰ ਦੇਖੋ: +1 ਜਾਨ';

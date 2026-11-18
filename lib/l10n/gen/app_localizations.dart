@@ -296,6 +296,12 @@ abstract class AppLocalizations {
   /// **'Kısa bir reklam izle, 1 ipucu kazan.'**
   String get noHintsBody;
 
+  /// No description provided for @noHintsBodyNoAds.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tüm ipuçlarını kullandın.'**
+  String get noHintsBodyNoAds;
+
   /// No description provided for @watchAdForHint.
   ///
   /// In tr, this message translates to:
@@ -313,6 +319,12 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'Reklam izleyerek 1 hak daha kazanabilir ya da bölüme baştan başlayabilirsin.'**
   String get outOfLivesBody;
+
+  /// No description provided for @outOfLivesBodyNoAds.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bölümü baştan başlat ya da bölümlere dön.'**
+  String get outOfLivesBodyNoAds;
 
   /// No description provided for @watchAdForLife.
   ///

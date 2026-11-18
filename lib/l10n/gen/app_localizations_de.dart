@@ -88,6 +88,9 @@ class AppLocalizationsDe extends AppLocalizations {
       'Sieh dir eine kurze Werbung an und erhalte 1 Tipp.';
 
   @override
+  String get noHintsBodyNoAds => 'Du hast alle Tipps verbraucht.';
+
+  @override
   String get watchAdForHint => 'Werbung ansehen: +1 Tipp';
 
   @override
@@ -96,6 +99,10 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Sieh dir eine Werbung an, um 1 weiteres Leben zu bekommen, oder starte das Level neu.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Starte das Level neu oder kehre zu den Levels zurück.';
 
   @override
   String get watchAdForLife => 'Werbung ansehen: +1 Leben';

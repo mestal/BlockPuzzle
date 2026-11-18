@@ -87,6 +87,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get noHintsBody => 'Watch a short ad to get 1 hint.';
 
   @override
+  String get noHintsBodyNoAds => 'You have used all your hints.';
+
+  @override
   String get watchAdForHint => 'Watch ad: +1 hint';
 
   @override
@@ -95,6 +98,10 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Watch an ad to get 1 more life, or start the level over.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Start the level over, or go back to the levels.';
 
   @override
   String get watchAdForLife => 'Watch ad: +1 life';

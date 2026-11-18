@@ -81,6 +81,9 @@ class AppLocalizationsTr extends AppLocalizations {
   String get noHintsBody => 'Kısa bir reklam izle, 1 ipucu kazan.';
 
   @override
+  String get noHintsBodyNoAds => 'Tüm ipuçlarını kullandın.';
+
+  @override
   String get watchAdForHint => 'Reklam izle: +1 ipucu';
 
   @override
@@ -89,6 +92,9 @@ class AppLocalizationsTr extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Reklam izleyerek 1 hak daha kazanabilir ya da bölüme baştan başlayabilirsin.';
+
+  @override
+  String get outOfLivesBodyNoAds => 'Bölümü baştan başlat ya da bölümlere dön.';
 
   @override
   String get watchAdForLife => 'Reklam izle: +1 hak';

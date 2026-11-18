@@ -88,6 +88,9 @@ class AppLocalizationsFil extends AppLocalizations {
       'Manood ng maikling ad para makakuha ng 1 pahiwatig.';
 
   @override
+  String get noHintsBodyNoAds => 'Nagamit mo na ang lahat ng pahiwatig mo.';
+
+  @override
   String get watchAdForHint => 'Manood ng ad: +1 pahiwatig';
 
   @override
@@ -96,6 +99,10 @@ class AppLocalizationsFil extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Manood ng ad para sa 1 pang buhay, o simulan muli ang level.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Simulan muli ang level, o bumalik sa mga level.';
 
   @override
   String get watchAdForLife => 'Manood ng ad: +1 buhay';

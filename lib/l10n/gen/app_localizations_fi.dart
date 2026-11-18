@@ -87,6 +87,9 @@ class AppLocalizationsFi extends AppLocalizations {
   String get noHintsBody => 'Katso lyhyt mainos saadaksesi 1 vihjeen.';
 
   @override
+  String get noHintsBodyNoAds => 'Olet käyttänyt kaikki vihjeesi.';
+
+  @override
   String get watchAdForHint => 'Katso mainos: +1 vihje';
 
   @override
@@ -95,6 +98,9 @@ class AppLocalizationsFi extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Katso mainos saadaksesi 1 elämän lisää tai aloita taso alusta.';
+
+  @override
+  String get outOfLivesBodyNoAds => 'Aloita taso alusta tai palaa tasoihin.';
 
   @override
   String get watchAdForLife => 'Katso mainos: +1 elämä';

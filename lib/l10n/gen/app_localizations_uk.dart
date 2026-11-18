@@ -90,6 +90,9 @@ class AppLocalizationsUk extends AppLocalizations {
       'Переглянь коротку рекламу, щоб отримати 1 підказку.';
 
   @override
+  String get noHintsBodyNoAds => 'Ти використав усі підказки.';
+
+  @override
   String get watchAdForHint => 'Реклама: +1 підказка';
 
   @override
@@ -98,6 +101,10 @@ class AppLocalizationsUk extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Переглянь рекламу, щоб отримати ще 1 життя, або почни рівень спочатку.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Почни рівень спочатку або повернися до рівнів.';
 
   @override
   String get watchAdForLife => 'Реклама: +1 життя';

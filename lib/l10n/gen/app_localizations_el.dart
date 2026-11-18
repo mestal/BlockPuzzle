@@ -88,6 +88,9 @@ class AppLocalizationsEl extends AppLocalizations {
       'Δες μια σύντομη διαφήμιση για να πάρεις 1 βοήθεια.';
 
   @override
+  String get noHintsBodyNoAds => 'Χρησιμοποίησες όλες τις βοήθειές σου.';
+
+  @override
   String get watchAdForHint => 'Δες διαφήμιση: +1 βοήθεια';
 
   @override
@@ -96,6 +99,10 @@ class AppLocalizationsEl extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Δες μια διαφήμιση για 1 ακόμη ζωή ή ξεκίνα το επίπεδο από την αρχή.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Ξεκίνα την πίστα από την αρχή ή γύρνα στις πίστες.';
 
   @override
   String get watchAdForLife => 'Δες διαφήμιση: +1 ζωή';

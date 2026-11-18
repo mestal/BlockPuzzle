@@ -86,6 +86,9 @@ class AppLocalizationsVi extends AppLocalizations {
   String get noHintsBody => 'Xem một quảng cáo ngắn để nhận 1 gợi ý.';
 
   @override
+  String get noHintsBodyNoAds => 'Bạn đã dùng hết gợi ý.';
+
+  @override
   String get watchAdForHint => 'Xem quảng cáo: +1 gợi ý';
 
   @override
@@ -94,6 +97,10 @@ class AppLocalizationsVi extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Xem quảng cáo để nhận thêm 1 mạng, hoặc chơi lại màn này từ đầu.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Chơi lại màn này từ đầu hoặc quay về danh sách màn.';
 
   @override
   String get watchAdForLife => 'Xem quảng cáo: +1 mạng';

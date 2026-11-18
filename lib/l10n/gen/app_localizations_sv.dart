@@ -87,6 +87,9 @@ class AppLocalizationsSv extends AppLocalizations {
   String get noHintsBody => 'Titta på en kort reklam för att få 1 ledtråd.';
 
   @override
+  String get noHintsBodyNoAds => 'Du har använt alla dina ledtrådar.';
+
+  @override
   String get watchAdForHint => 'Se reklam: +1 ledtråd';
 
   @override
@@ -95,6 +98,10 @@ class AppLocalizationsSv extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Titta på en reklam för att få 1 liv till, eller börja om nivån.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Börja om nivån eller gå tillbaka till nivåerna.';
 
   @override
   String get watchAdForLife => 'Se reklam: +1 liv';

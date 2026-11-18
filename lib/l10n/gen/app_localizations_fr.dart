@@ -87,6 +87,9 @@ class AppLocalizationsFr extends AppLocalizations {
   String get noHintsBody => 'Regarde une courte pub pour gagner 1 indice.';
 
   @override
+  String get noHintsBodyNoAds => 'Tu as utilisé tous tes indices.';
+
+  @override
   String get watchAdForHint => 'Regarder une pub : +1 indice';
 
   @override
@@ -95,6 +98,10 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Regarde une pub pour gagner 1 vie de plus, ou recommence le niveau.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Recommence le niveau ou reviens aux niveaux.';
 
   @override
   String get watchAdForLife => 'Regarder une pub : +1 vie';

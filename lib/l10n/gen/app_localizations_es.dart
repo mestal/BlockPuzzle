@@ -87,6 +87,9 @@ class AppLocalizationsEs extends AppLocalizations {
   String get noHintsBody => 'Mira un anuncio corto y gana 1 pista.';
 
   @override
+  String get noHintsBodyNoAds => 'Has usado todas tus pistas.';
+
+  @override
   String get watchAdForHint => 'Ver anuncio: +1 pista';
 
   @override
@@ -95,6 +98,10 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Mira un anuncio para ganar 1 vida más o vuelve a empezar el nivel.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Empieza el nivel de nuevo o vuelve a los niveles.';
 
   @override
   String get watchAdForLife => 'Ver anuncio: +1 vida';

@@ -87,6 +87,9 @@ class AppLocalizationsDa extends AppLocalizations {
   String get noHintsBody => 'Se en kort reklame for at få 1 hint.';
 
   @override
+  String get noHintsBodyNoAds => 'Du har brugt alle dine hints.';
+
+  @override
   String get watchAdForHint => 'Se reklame: +1 hint';
 
   @override
@@ -95,6 +98,10 @@ class AppLocalizationsDa extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Se en reklame for at få 1 liv mere, eller start banen forfra.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Start banen forfra, eller gå tilbage til banerne.';
 
   @override
   String get watchAdForLife => 'Se reklame: +1 liv';

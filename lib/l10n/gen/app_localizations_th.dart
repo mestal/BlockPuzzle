@@ -86,6 +86,9 @@ class AppLocalizationsTh extends AppLocalizations {
   String get noHintsBody => 'ดูโฆษณาสั้น ๆ เพื่อรับคำใบ้ 1 ครั้ง';
 
   @override
+  String get noHintsBodyNoAds => 'คุณใช้คำใบ้หมดแล้ว';
+
+  @override
   String get watchAdForHint => 'ดูโฆษณา: +1 คำใบ้';
 
   @override
@@ -94,6 +97,9 @@ class AppLocalizationsTh extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'ดูโฆษณาเพื่อรับชีวิตเพิ่ม 1 ชีวิต หรือเริ่มด่านใหม่';
+
+  @override
+  String get outOfLivesBodyNoAds => 'เริ่มด่านนี้ใหม่ หรือกลับไปที่รายการด่าน';
 
   @override
   String get watchAdForLife => 'ดูโฆษณา: +1 ชีวิต';

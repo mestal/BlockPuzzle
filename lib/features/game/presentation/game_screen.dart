@@ -121,7 +121,10 @@ class _GamePlayState extends ConsumerState<_GamePlay>
 
   Future<void> _onOutOfLives() async {
     if (!mounted) return;
-    final choice = await showOutOfLivesDialog(context);
+    final choice = await showOutOfLivesDialog(
+      context,
+      offerAd: ref.read(adsEnabledProvider),
+    );
     if (!mounted) return;
     switch (choice) {
       case OutOfLivesChoice.watchAd:
@@ -211,7 +214,10 @@ class _GamePlayState extends ConsumerState<_GamePlay>
 
   Future<void> _onHint() async {
     if (_game.useHint()) return;
-    final watch = await showNoHintsDialog(context);
+    final watch = await showNoHintsDialog(
+      context,
+      offerAd: ref.read(adsEnabledProvider),
+    );
     if (!watch || !mounted) return;
     final rewarded = await ref.read(adServiceProvider).showRewarded(context);
     if (rewarded) _game.grantHint();

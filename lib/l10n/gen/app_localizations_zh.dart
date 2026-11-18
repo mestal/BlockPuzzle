@@ -78,6 +78,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get noHintsBody => '观看一段短广告，获得 1 个提示。';
 
   @override
+  String get noHintsBodyNoAds => '你已用完所有提示。';
+
+  @override
   String get watchAdForHint => '看广告：+1 提示';
 
   @override
@@ -85,6 +88,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get outOfLivesBody => '观看广告获得 1 条生命，或重新开始本关。';
+
+  @override
+  String get outOfLivesBodyNoAds => '重新开始本关，或返回关卡列表。';
 
   @override
   String get watchAdForLife => '看广告：+1 生命';

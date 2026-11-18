@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:block_puzzle/app/app.dart';
+import 'package:block_puzzle/features/ads/ad_config.dart';
 import 'package:block_puzzle/features/ads/ad_service.dart';
 import 'package:block_puzzle/features/ads/admob_ad_service.dart';
 import 'package:block_puzzle/features/level_map/application/world_providers.dart';
@@ -19,8 +20,10 @@ Future<void> main() async {
     loadWorldCatalog(rootBundle),
     SharedPrefsSettingsRepository().load(),
   ).wait;
-  // AdMob runs on Android and iOS only; web previews keep the dummy ads.
+  // AdMob runs on Android and iOS only, and only while ads are switched on;
+  // web previews keep the dummy ads.
   final mobile =
+      AdConfig.adsEnabled &&
       !kIsWeb &&
       (defaultTargetPlatform == TargetPlatform.android ||
           defaultTargetPlatform == TargetPlatform.iOS);

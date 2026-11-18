@@ -87,6 +87,9 @@ class AppLocalizationsIt extends AppLocalizations {
   String get noHintsBody => 'Guarda una breve pubblicità e ottieni 1 aiuto.';
 
   @override
+  String get noHintsBodyNoAds => 'Hai usato tutti i tuoi suggerimenti.';
+
+  @override
   String get watchAdForHint => 'Guarda pubblicità: +1 aiuto';
 
   @override
@@ -95,6 +98,9 @@ class AppLocalizationsIt extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Guarda una pubblicità per avere 1 vita in più, oppure ricomincia il livello.';
+
+  @override
+  String get outOfLivesBodyNoAds => 'Ricomincia il livello o torna ai livelli.';
 
   @override
   String get watchAdForLife => 'Guarda pubblicità: +1 vita';

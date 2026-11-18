@@ -87,6 +87,9 @@ class AppLocalizationsBn extends AppLocalizations {
   String get noHintsBody => '1টি সংকেত পেতে একটি ছোট বিজ্ঞাপন দেখো।';
 
   @override
+  String get noHintsBodyNoAds => 'তুমি সব সংকেত ব্যবহার করে ফেলেছ।';
+
+  @override
   String get watchAdForHint => 'বিজ্ঞাপন দেখো: +1 সংকেত';
 
   @override
@@ -95,6 +98,10 @@ class AppLocalizationsBn extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'আরও 1টি জীবন পেতে একটি বিজ্ঞাপন দেখো, অথবা লেভেলটি আবার শুরু করো।';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'লেভেলটি আবার শুরু করো, অথবা লেভেলে ফিরে যাও।';
 
   @override
   String get watchAdForLife => 'বিজ্ঞাপন দেখো: +1 জীবন';

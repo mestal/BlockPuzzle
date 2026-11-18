@@ -86,6 +86,9 @@ class AppLocalizationsFa extends AppLocalizations {
   String get noHintsBody => 'یک تبلیغ کوتاه ببین تا 1 راهنما بگیری.';
 
   @override
+  String get noHintsBodyNoAds => 'همهٔ راهنماهایت را استفاده کرده‌ای.';
+
+  @override
   String get watchAdForHint => 'تماشای تبلیغ: +1 راهنما';
 
   @override
@@ -94,6 +97,10 @@ class AppLocalizationsFa extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'یک تبلیغ ببین تا 1 جان دیگر بگیری، یا مرحله را از اول شروع کن.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'مرحله را از اول شروع کن یا به مرحله‌ها برگرد.';
 
   @override
   String get watchAdForLife => 'تماشای تبلیغ: +1 جان';

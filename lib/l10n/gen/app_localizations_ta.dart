@@ -87,6 +87,10 @@ class AppLocalizationsTa extends AppLocalizations {
   String get noHintsBody => '1 குறிப்பு பெற ஒரு சிறிய விளம்பரத்தைப் பாருங்கள்.';
 
   @override
+  String get noHintsBodyNoAds =>
+      'எல்லாக் குறிப்புகளையும் பயன்படுத்திவிட்டீர்கள்.';
+
+  @override
   String get watchAdForHint => 'விளம்பரம் பார்: +1 குறிப்பு';
 
   @override
@@ -95,6 +99,10 @@ class AppLocalizationsTa extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'இன்னும் 1 உயிர் பெற விளம்பரத்தைப் பாருங்கள், அல்லது நிலையை மீண்டும் தொடங்குங்கள்.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'நிலையை மீண்டும் தொடங்குங்கள், அல்லது நிலைகளுக்குத் திரும்புங்கள்.';
 
   @override
   String get watchAdForLife => 'விளம்பரம் பார்: +1 உயிர்';

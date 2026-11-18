@@ -87,6 +87,9 @@ class AppLocalizationsUr extends AppLocalizations {
   String get noHintsBody => '1 اشارہ پانے کے لیے ایک مختصر اشتہار دیکھیں۔';
 
   @override
+  String get noHintsBodyNoAds => 'آپ اپنے سارے اشارے استعمال کر چکے ہیں۔';
+
+  @override
   String get watchAdForHint => 'اشتہار دیکھیں: +1 اشارہ';
 
   @override
@@ -95,6 +98,10 @@ class AppLocalizationsUr extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'ایک اور جان پانے کے لیے اشتہار دیکھیں، یا مرحلہ دوبارہ شروع کریں۔';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'مرحلہ دوبارہ شروع کریں، یا مراحل پر واپس جائیں۔';
 
   @override
   String get watchAdForLife => 'اشتہار دیکھیں: +1 جان';

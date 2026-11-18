@@ -85,6 +85,9 @@ class AppLocalizationsKo extends AppLocalizations {
   String get noHintsBody => '짧은 광고를 보고 힌트 1개를 받으세요.';
 
   @override
+  String get noHintsBodyNoAds => '힌트를 모두 사용했어요.';
+
+  @override
   String get watchAdForHint => '광고 보기: 힌트 +1';
 
   @override
@@ -92,6 +95,9 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get outOfLivesBody => '광고를 보고 목숨 1개를 더 받거나 레벨을 처음부터 다시 시작하세요.';
+
+  @override
+  String get outOfLivesBodyNoAds => '레벨을 처음부터 다시 하거나 레벨 목록으로 돌아가세요.';
 
   @override
   String get watchAdForLife => '광고 보기: 목숨 +1';

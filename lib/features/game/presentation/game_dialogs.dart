@@ -8,7 +8,12 @@ import 'package:flutter_animate/flutter_animate.dart';
 
 enum OutOfLivesChoice { watchAd, restart, exit }
 
-Future<OutOfLivesChoice?> showOutOfLivesDialog(BuildContext context) {
+/// [offerAd] false (ads switched off): no extra life, only start over or
+/// leave.
+Future<OutOfLivesChoice?> showOutOfLivesDialog(
+  BuildContext context, {
+  required bool offerAd,
+}) {
   final l10n = AppLocalizations.of(context);
   return showDialog<OutOfLivesChoice>(
     context: context,
@@ -17,17 +22,27 @@ Future<OutOfLivesChoice?> showOutOfLivesDialog(BuildContext context) {
       icon: Icons.heart_broken_rounded,
       iconColor: AppColors.heart,
       title: l10n.outOfLivesTitle,
-      body: Text(l10n.outOfLivesBody, textAlign: TextAlign.center),
+      body: Text(
+        offerAd ? l10n.outOfLivesBody : l10n.outOfLivesBodyNoAds,
+        textAlign: TextAlign.center,
+      ),
       actions: [
-        FilledButton.icon(
-          onPressed: () => Navigator.pop(context, OutOfLivesChoice.watchAd),
-          icon: const Icon(Icons.play_circle_fill_rounded),
-          label: Text(l10n.watchAdForLife),
-        ),
-        OutlinedButton(
-          onPressed: () => Navigator.pop(context, OutOfLivesChoice.restart),
-          child: Text(l10n.restart),
-        ),
+        if (offerAd)
+          FilledButton.icon(
+            onPressed: () => Navigator.pop(context, OutOfLivesChoice.watchAd),
+            icon: const Icon(Icons.play_circle_fill_rounded),
+            label: Text(l10n.watchAdForLife),
+          ),
+        if (offerAd)
+          OutlinedButton(
+            onPressed: () => Navigator.pop(context, OutOfLivesChoice.restart),
+            child: Text(l10n.restart),
+          )
+        else
+          FilledButton(
+            onPressed: () => Navigator.pop(context, OutOfLivesChoice.restart),
+            child: Text(l10n.restart),
+          ),
         TextButton(
           onPressed: () => Navigator.pop(context, OutOfLivesChoice.exit),
           child: Text(l10n.backToLevels),
@@ -37,7 +52,12 @@ Future<OutOfLivesChoice?> showOutOfLivesDialog(BuildContext context) {
   );
 }
 
-Future<bool> showNoHintsDialog(BuildContext context) async {
+/// Returns true when the player wants to watch an ad for a hint. With
+/// [offerAd] false (ads switched off) it only says the hints are gone.
+Future<bool> showNoHintsDialog(
+  BuildContext context, {
+  required bool offerAd,
+}) async {
   final l10n = AppLocalizations.of(context);
   final result = await showDialog<bool>(
     context: context,
@@ -45,17 +65,26 @@ Future<bool> showNoHintsDialog(BuildContext context) async {
       icon: Icons.lightbulb_rounded,
       iconColor: AppColors.gold,
       title: l10n.noHintsTitle,
-      body: Text(l10n.noHintsBody, textAlign: TextAlign.center),
+      body: Text(
+        offerAd ? l10n.noHintsBody : l10n.noHintsBodyNoAds,
+        textAlign: TextAlign.center,
+      ),
       actions: [
-        FilledButton.icon(
-          onPressed: () => Navigator.pop(context, true),
-          icon: const Icon(Icons.play_circle_fill_rounded),
-          label: Text(l10n.watchAdForHint),
-        ),
-        TextButton(
-          onPressed: () => Navigator.pop(context, false),
-          child: Text(l10n.cancel),
-        ),
+        if (offerAd) ...[
+          FilledButton.icon(
+            onPressed: () => Navigator.pop(context, true),
+            icon: const Icon(Icons.play_circle_fill_rounded),
+            label: Text(l10n.watchAdForHint),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: Text(l10n.cancel),
+          ),
+        ] else
+          FilledButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: Text(l10n.ok),
+          ),
       ],
     ),
   );

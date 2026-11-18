@@ -102,7 +102,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   **10×5 / 5×10 → 4**, **10×10 ve 15×10 → 5** (kalp ikonu + sayı). X serbest ve hatalı doldurma
   kareyi açtığı için haklar az tutulur; tahmin pahalı kalsın.
 - Öğretici bölümlerde (1–2) hatalar kalp götürür ama **son kalp alınmaz**; bölüm kaybedilmez.
-- Haklar bitince "Hakların bitti" popup'ı: **Reklam izle → +1 hak** (bölüm kaldığı yerden devam eder)
+- Haklar bitince "Hakların bitti" popup'ı: (reklamlar açıkken) **Reklam izle → +1 hak** (bölüm kaldığı yerden devam eder)
   veya **Bölümü yeniden başlat**.
 
 ### İpucu (hint)
@@ -113,7 +113,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   tam dolu çizgi → örtüşme (gruplar başa/sona yaslansa da kapsanan kare) → bilinenlerle zorunlu dolu
   → zorunlu boş (bu durumda altın renkli **ipucu X**'i konur). Dolu adımlar boş adımlara tercih edilir.
   Test: ipuçlarını izleyerek her bölüm hatasız çözülür.
-- İpucu 0 iken düğmeye basılınca: **Reklam izle → +1 ipucu**.
+- İpucu 0 iken düğmeye basılınca: (reklamlar açıkken) **Reklam izle → +1 ipucu**; kapalıyken yeni ipucu yok.
 
 ### Bölüm sonu
 - Son doğru kare girildiğinde: bloklar dalga halinde dönerek bölümün **renkli resmine** dönüşür,
@@ -123,6 +123,13 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - **Tamam** → (geçiş reklamı) → sonraki bölüm.
 
 ### Reklamlar
+- **Şimdilik kapalı** (oyun AdMob olmadan yayınlanıyor): ana anahtar `AdConfig.adsEnabled`
+  (`bool.fromEnvironment('ADS_ENABLED')`, varsayılan `false`; denemek için
+  `--dart-define=ADS_ENABLED=true`). Kapalıyken AdMob başlatılmaz, `adServiceProvider` `NoAdService`
+  verir (geçiş reklamı yok, ödül yok) ve popup'lar reklam teklif etmez: haklar bitince yalnızca
+  yeniden başlat / bölümlere dön, ipucu bitince yalnızca bilgi (`outOfLivesBodyNoAds`,
+  `noHintsBodyNoAds`). UI `adsEnabledProvider`'ı okur. Açmak için üretim kimliklerini doldurup
+  varsayılanı `true` yap.
 - Tüm reklamlar `AdService` arayüzü üzerinden çağrılır; oyun kodu hangi uygulamanın çalıştığını bilmez.
 - Android/iOS'ta `AdMobAdService` (`google_mobile_ads`, `main.dart`'ta provider override): bir
   geçiş ve bir ödüllü reklam önceden yüklü tutulur, yükleme hatası artan aralıkla yeniden denenir.

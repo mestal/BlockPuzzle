@@ -79,6 +79,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get noHintsBody => '短い広告を見てヒントを 1 個もらおう。';
 
   @override
+  String get noHintsBodyNoAds => 'ヒントをすべて使い切りました。';
+
+  @override
   String get watchAdForHint => '広告を見る：ヒント +1';
 
   @override
@@ -86,6 +89,9 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get outOfLivesBody => '広告を見てライフを 1 つもらうか、レベルを最初からやり直そう。';
+
+  @override
+  String get outOfLivesBodyNoAds => 'ステージを最初からやり直すか、ステージ一覧に戻りましょう。';
 
   @override
   String get watchAdForLife => '広告を見る：ライフ +1';

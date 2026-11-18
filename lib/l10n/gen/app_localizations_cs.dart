@@ -90,6 +90,9 @@ class AppLocalizationsCs extends AppLocalizations {
       'Podívej se na krátkou reklamu a získej 1 nápovědu.';
 
   @override
+  String get noHintsBodyNoAds => 'Využil jsi všechny nápovědy.';
+
+  @override
   String get watchAdForHint => 'Reklama: +1 nápověda';
 
   @override
@@ -98,6 +101,10 @@ class AppLocalizationsCs extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Podívej se na reklamu a získej 1 život navíc, nebo začni úroveň znovu.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Začni úroveň znovu, nebo se vrať na úrovně.';
 
   @override
   String get watchAdForLife => 'Reklama: +1 život';

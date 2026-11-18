@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:block_puzzle/app/theme.dart';
+import 'package:block_puzzle/features/ads/ad_config.dart';
 import 'package:block_puzzle/l10n/gen/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -16,8 +17,28 @@ abstract interface class AdService {
   Future<bool> showRewarded(BuildContext context);
 }
 
-/// Overridden with `AdMobAdService` in `main` on Android and iOS.
-final adServiceProvider = Provider<AdService>((ref) => const DummyAdService());
+/// Whether ads (and the rewards they give) are offered at all; see
+/// [AdConfig.adsEnabled]. Tests override it.
+final adsEnabledProvider = Provider<bool>((ref) => AdConfig.adsEnabled);
+
+/// Overridden with `AdMobAdService` in `main` on Android and iOS while ads
+/// are enabled; with ads off every platform gets [NoAdService].
+final adServiceProvider = Provider<AdService>(
+  (ref) => ref.watch(adsEnabledProvider)
+      ? const DummyAdService()
+      : const NoAdService(),
+);
+
+/// Ads switched off: interstitials are skipped and nothing is rewarded.
+class NoAdService implements AdService {
+  const NoAdService();
+
+  @override
+  Future<void> showInterstitial(BuildContext context) async {}
+
+  @override
+  Future<bool> showRewarded(BuildContext context) async => false;
+}
 
 /// Placeholder ad: full-screen page with a countdown.
 class DummyAdService implements AdService {

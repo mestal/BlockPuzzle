@@ -91,6 +91,9 @@ class AppLocalizationsAr extends AppLocalizations {
   String get noHintsBody => 'شاهد إعلانًا قصيرًا لتحصل على تلميح واحد.';
 
   @override
+  String get noHintsBodyNoAds => 'لقد استخدمت كل تلميحاتك.';
+
+  @override
   String get watchAdForHint => 'شاهد إعلانًا: +1 تلميح';
 
   @override
@@ -99,6 +102,9 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'شاهد إعلانًا لتحصل على محاولة إضافية، أو ابدأ المرحلة من جديد.';
+
+  @override
+  String get outOfLivesBodyNoAds => 'ابدأ المرحلة من جديد أو عُد إلى المراحل.';
 
   @override
   String get watchAdForLife => 'شاهد إعلانًا: +1 محاولة';

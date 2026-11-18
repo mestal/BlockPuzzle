@@ -86,6 +86,9 @@ class AppLocalizationsMs extends AppLocalizations {
   String get noHintsBody => 'Tonton iklan pendek untuk mendapat 1 petunjuk.';
 
   @override
+  String get noHintsBodyNoAds => 'Anda telah menggunakan semua petunjuk.';
+
+  @override
   String get watchAdForHint => 'Tonton iklan: +1 petunjuk';
 
   @override
@@ -94,6 +97,10 @@ class AppLocalizationsMs extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Tonton iklan untuk mendapat 1 nyawa lagi, atau mulakan semula tahap ini.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Mulakan semula tahap ini atau kembali ke senarai tahap.';
 
   @override
   String get watchAdForLife => 'Tonton iklan: +1 nyawa';

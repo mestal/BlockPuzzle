@@ -86,6 +86,9 @@ class AppLocalizationsHu extends AppLocalizations {
   String get noHintsBody => 'Nézz meg egy rövid hirdetést 1 tippért.';
 
   @override
+  String get noHintsBodyNoAds => 'Elhasználtad az összes tippedet.';
+
+  @override
   String get watchAdForHint => 'Hirdetés: +1 tipp';
 
   @override
@@ -94,6 +97,10 @@ class AppLocalizationsHu extends AppLocalizations {
   @override
   String get outOfLivesBody =>
       'Nézz meg egy hirdetést +1 életért, vagy kezdd újra a pályát.';
+
+  @override
+  String get outOfLivesBodyNoAds =>
+      'Kezdd újra a pályát, vagy térj vissza a pályákhoz.';
 
   @override
   String get watchAdForLife => 'Hirdetés: +1 élet';
