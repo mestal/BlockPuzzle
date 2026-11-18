@@ -90,7 +90,7 @@ const sunsetArt = <LevelArt>[
       'ਘਰ',
       'บ้าน',
     ],
-    ['..R..', '.RRR.', 'YYBYY', 'YY.YY', 'YY.YY'],
+    ['RRRRR', 'YBYBY', 'YYYYY', 'YY.YY', 'YY.YY'],
     pinned: true,
   ),
   LevelArt(

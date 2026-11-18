@@ -247,10 +247,12 @@ final _level1 = Tutorial(1, [
 ]);
 
 /// Level 2, the house: a split clue, the X, and what a mistake costs.
+/// Every line can be read on its own (full rows, `2 2` = 2 + 1 + 2), so the
+/// level stays about the new ideas.
 /// ```text
-///       3 4 3 4 3
-///   1   . . # . .
-///   3   . # # # .
+///       5 5 3 5 5
+///   5   # # # # #
+///   5   # # # # #
 ///   5   # # # # #
 ///  2 2  # # . # #
 ///  2 2  # # . # #
