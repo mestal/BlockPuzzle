@@ -15,6 +15,12 @@ abstract final class AdConfig {
   // TODO(admob): Flip to true once the iOS ids below are filled in.
   static const iosAdsEnabled = false;
 
+  /// Per-platform switches for the between-levels interstitial alone.
+  /// Rewarded ads (extra life, extra hint) follow [adsEnabled] only.
+  // Interstitials are paused on Android for now; rewarded ads stay on.
+  static const androidInterstitialsEnabled = false;
+  static const iosInterstitialsEnabled = true;
+
   /// Build-wide kill switch: `--dart-define=ADS_ENABLED=false` turns every
   /// ad off regardless of platform.
   static const _masterSwitch = bool.fromEnvironment(
@@ -30,6 +36,16 @@ abstract final class AdConfig {
     return switch (defaultTargetPlatform) {
       TargetPlatform.android => androidAdsEnabled,
       TargetPlatform.iOS => iosAdsEnabled,
+      _ => false,
+    };
+  }
+
+  /// Whether an interstitial is shown after a finished level.
+  static bool get interstitialsEnabled {
+    if (!adsEnabled) return false;
+    return switch (defaultTargetPlatform) {
+      TargetPlatform.android => androidInterstitialsEnabled,
+      TargetPlatform.iOS => iosInterstitialsEnabled,
       _ => false,
     };
   }

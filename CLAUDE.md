@@ -150,7 +150,9 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 ### Reklamlar
 - **Android'de açık, iOS'ta kapalı, web'de hiç yok**: `AdConfig.adsEnabled` platforma bakar
   (`androidAdsEnabled = true`, `iosAdsEnabled = false`; iOS üretim kimlikleri girilince aç).
-  `--dart-define=ADS_ENABLED=false` tüm platformlarda kapatır. Kapalıyken AdMob başlatılmaz, `adServiceProvider` `NoAdService`
+  `--dart-define=ADS_ENABLED=false` tüm platformlarda kapatır. Bölüm sonu geçiş reklamının ayrı
+  anahtarı vardır (`AdConfig.interstitialsEnabled`): **Android'de şimdilik kapalı**
+  (`androidInterstitialsEnabled = false`; ödüllü reklamlar açık, geçiş reklamı yüklenmez bile). Kapalıyken AdMob başlatılmaz, `adServiceProvider` `NoAdService`
   verir (geçiş reklamı yok, ödül yok) ve popup'lar reklam teklif etmez: haklar bitince yalnızca
   yeniden başlat / bölümlere dön, ipucu bitince yalnızca bilgi (`outOfLivesBodyNoAds`,
   `noHintsBodyNoAds`). UI `adsEnabledProvider`'ı okur. Açmak için üretim kimliklerini doldurup

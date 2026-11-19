@@ -6,7 +6,8 @@ import 'package:block_puzzle/features/ads/ad_service.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
-/// Google AdMob ads. One interstitial and one rewarded ad are kept preloaded.
+/// Google AdMob ads. One interstitial and one rewarded ad are kept preloaded
+/// (the interstitial only while [AdConfig.interstitialsEnabled]).
 ///
 /// Never throws: if no ad is ready (offline, no fill, SDK error), the
 /// interstitial is skipped and the rewarded ad simply grants nothing. A
@@ -36,6 +37,7 @@ class AdMobAdService implements AdService {
 
   @override
   Future<void> showInterstitial(BuildContext context) async {
+    if (!AdConfig.interstitialsEnabled) return;
     final ad = _interstitial;
     if (ad == null) {
       _loadInterstitial();
@@ -93,7 +95,12 @@ class AdMobAdService implements AdService {
   }
 
   void _loadInterstitial() {
-    if (!_ready || _interstitial != null || _loadingInterstitial) return;
+    if (!AdConfig.interstitialsEnabled ||
+        !_ready ||
+        _interstitial != null ||
+        _loadingInterstitial) {
+      return;
+    }
     _loadingInterstitial = true;
     unawaited(
       InterstitialAd.load(
