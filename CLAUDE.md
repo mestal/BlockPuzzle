@@ -148,15 +148,16 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
 - **Tamam** → (geçiş reklamı) → sonraki bölüm.
 
 ### Reklamlar
-- **Android'de açık, iOS'ta kapalı, web'de hiç yok**: `AdConfig.adsEnabled` platforma bakar
-  (`androidAdsEnabled = true`, `iosAdsEnabled = false`; iOS üretim kimlikleri girilince aç).
-  `--dart-define=ADS_ENABLED=false` tüm platformlarda kapatır. Bölüm sonu geçiş reklamının ayrı
-  anahtarı vardır (`AdConfig.interstitialsEnabled`): **Android'de şimdilik kapalı**
-  (`androidInterstitialsEnabled = false`; ödüllü reklamlar açık, geçiş reklamı yüklenmez bile). Kapalıyken AdMob başlatılmaz, `adServiceProvider` `NoAdService`
+- **Android ve iOS'ta açık, web'de hiç yok**: `AdConfig.adsEnabled` platforma bakar
+  (`androidAdsEnabled`, `iosAdsEnabled`). `--dart-define=ADS_ENABLED=false` tüm platformlarda kapatır.
+  Bölüm sonu geçiş reklamının ayrı anahtarı vardır (`AdConfig.interstitialsEnabled`,
+  `androidInterstitialsEnabled` / `iosInterstitialsEnabled`). Kapalıyken AdMob başlatılmaz, `adServiceProvider` `NoAdService`
   verir (geçiş reklamı yok, ödül yok) ve popup'lar reklam teklif etmez: haklar bitince yalnızca
   yeniden başlat / bölümlere dön, ipucu bitince yalnızca bilgi (`outOfLivesBodyNoAds`,
-  `noHintsBodyNoAds`). UI `adsEnabledProvider`'ı okur. Açmak için üretim kimliklerini doldurup
-  varsayılanı `true` yap.
+  `noHintsBodyNoAds`). UI `adsEnabledProvider`'ı okur.
+- **Geçiş reklamı sıklığı** bitirilen bölümün numarasına göredir (`AdConfig.interstitialAfterLevel`):
+  bölüm 1–30'da her 3 bölümde bir (3, 6, …, 30), 31–100'de her 2 bölümde bir (çift numaralılar),
+  101'den sonra her bölümden sonra.
 - Tüm reklamlar `AdService` arayüzü üzerinden çağrılır; oyun kodu hangi uygulamanın çalıştığını bilmez.
 - Android/iOS'ta `AdMobAdService` (`google_mobile_ads`, `main.dart`'ta provider override): bir
   geçiş ve bir ödüllü reklam önceden yüklü tutulur, yükleme hatası artan aralıkla yeniden denenir.
@@ -164,7 +165,7 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   ödül vermez (hak/ipucu alınamaz).
 - Reklam kimlikleri `features/ads/ad_config.dart`'ta; debug/profile ve boş üretim kimliğinde Google
   test kimlikleri kullanılır. Uygulama kimlikleri `AndroidManifest.xml` ve `Info.plist`'te
-  (Android: üretim kimliği girildi; iOS şimdilik test kimlikleri, `TODO(admob)`).
+  (iki platformda da üretim kimlikleri girildi).
 - Web'de reklam yoktur (`NoAdService`). `DummyAdService` (tam ekran sahte reklam, 3 sn geri sayım)
   yalnızca testlerde `adsEnabledProvider` override edilince kullanılır.
 - Reklam türleri: `showInterstitial()` (bölüm geçişi), `showRewarded(reward)` (+1 hak, +1 ipucu).

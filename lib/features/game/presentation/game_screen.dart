@@ -6,6 +6,7 @@ import 'package:block_puzzle/app/router.dart';
 import 'package:block_puzzle/app/theme.dart';
 import 'package:block_puzzle/core/widgets/particles.dart';
 import 'package:block_puzzle/core/widgets/sky_background.dart';
+import 'package:block_puzzle/features/ads/ad_config.dart';
 import 'package:block_puzzle/features/ads/ad_service.dart';
 import 'package:block_puzzle/features/game/application/game_controller.dart';
 import 'package:block_puzzle/features/game/domain/puzzle.dart';
@@ -166,8 +167,10 @@ class _GamePlayState extends ConsumerState<_GamePlay>
       totalScore: ref.read(activeSlotProvider)?.totalScore ?? finished.score,
     );
     if (!mounted) return;
-    await ref.read(adServiceProvider).showInterstitial(context);
-    if (!mounted) return;
+    if (AdConfig.interstitialAfterLevel(_puzzle.id)) {
+      await ref.read(adServiceProvider).showInterstitial(context);
+      if (!mounted) return;
+    }
     context.go(_afterWin(next));
   }
 

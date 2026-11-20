@@ -12,13 +12,11 @@ import 'package:flutter/foundation.dart';
 abstract final class AdConfig {
   /// Per-platform switches. Web never shows ads.
   static const androidAdsEnabled = true;
-  // TODO(admob): Flip to true once the iOS ids below are filled in.
-  static const iosAdsEnabled = false;
+  static const iosAdsEnabled = true;
 
   /// Per-platform switches for the between-levels interstitial alone.
   /// Rewarded ads (extra life, extra hint) follow [adsEnabled] only.
-  // Interstitials are paused on Android for now; rewarded ads stay on.
-  static const androidInterstitialsEnabled = false;
+  static const androidInterstitialsEnabled = true;
   static const iosInterstitialsEnabled = true;
 
   /// Build-wide kill switch: `--dart-define=ADS_ENABLED=false` turns every
@@ -50,12 +48,19 @@ abstract final class AdConfig {
     };
   }
 
+  /// Whether finishing [level] is followed by an interstitial (when
+  /// [interstitialsEnabled]): every 3rd level up to 30, every 2nd up to 100,
+  /// then after every level.
+  static bool interstitialAfterLevel(int level) => switch (level) {
+    <= 30 => level % 3 == 0,
+    <= 100 => level.isEven,
+    _ => true,
+  };
+
   static const _androidInterstitial = 'ca-app-pub-2622546463597711/3697612865';
   static const _androidRewarded = 'ca-app-pub-2622546463597711/1755469090';
-  // TODO(admob): Production interstitial ad unit id (iOS).
-  static const _iosInterstitial = '';
-  // TODO(admob): Production rewarded ad unit id (iOS).
-  static const _iosRewarded = '';
+  static const _iosInterstitial = 'ca-app-pub-2622546463597711/4145667016';
+  static const _iosRewarded = 'ca-app-pub-2622546463597711/3758654205';
 
   // Google's public test units:
   // https://developers.google.com/admob/android/test-ads

@@ -66,9 +66,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<!-- AdMob app id. TODO(admob): replace Google's test app id with the production one. -->
+	<!-- AdMob app id. -->
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<string>ca-app-pub-2622546463597711~6670264717</string>
 	<!-- TODO(admob): add the full SKAdNetwork list from the AdMob iOS docs. -->
 	<key>SKAdNetworkItems</key>
 	<array>

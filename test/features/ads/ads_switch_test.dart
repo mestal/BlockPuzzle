@@ -26,24 +26,33 @@ void main() {
     return context;
   }
 
-  test('ads are on for Android only', () {
+  test('ads and interstitials are on for Android and iOS only', () {
+    addTearDown(() => debugDefaultTargetPlatformOverride = null);
     for (final platform in TargetPlatform.values) {
       debugDefaultTargetPlatformOverride = platform;
-      expect(
-        AdConfig.adsEnabled,
-        platform == TargetPlatform.android,
-        reason: '$platform',
-      );
+      final mobile =
+          platform == TargetPlatform.android || platform == TargetPlatform.iOS;
+      expect(AdConfig.adsEnabled, mobile, reason: '$platform');
+      expect(AdConfig.interstitialsEnabled, mobile, reason: '$platform');
     }
-    debugDefaultTargetPlatformOverride = null;
   });
 
-  test('ads are off on iOS', () {
-    debugDefaultTargetPlatformOverride = TargetPlatform.iOS;
+  test('ads are off on desktop', () {
+    debugDefaultTargetPlatformOverride = TargetPlatform.macOS;
     addTearDown(() => debugDefaultTargetPlatformOverride = null);
     final container = ProviderContainer();
     addTearDown(container.dispose);
     expect(container.read(adServiceProvider), isA<NoAdService>());
+  });
+
+  test('interstitials get more frequent as levels go on', () {
+    List<int> shown(int from, int to) => [
+      for (var level = from; level <= to; level++)
+        if (AdConfig.interstitialAfterLevel(level)) level,
+    ];
+    expect(shown(1, 30), [for (var l = 3; l <= 30; l += 3) l]);
+    expect(shown(31, 100), [for (var l = 32; l <= 100; l += 2) l]);
+    expect(shown(101, 500), [for (var l = 101; l <= 500; l++) l]);
   });
 
   test('ads switched on use the placeholder ads', () {
