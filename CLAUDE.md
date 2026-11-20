@@ -156,8 +156,8 @@ hak kaybettirmez (oyuncunun notudur). Yalnızca **doldurma** hamlesi anında kon
   yeniden başlat / bölümlere dön, ipucu bitince yalnızca bilgi (`outOfLivesBodyNoAds`,
   `noHintsBodyNoAds`). UI `adsEnabledProvider`'ı okur.
 - **Geçiş reklamı sıklığı** bitirilen bölümün numarasına göredir (`AdConfig.interstitialAfterLevel`):
-  bölüm 1–30'da her 3 bölümde bir (3, 6, …, 30), 31–100'de her 2 bölümde bir (çift numaralılar),
-  101'den sonra her bölümden sonra.
+  bölüm 1–30'da her 3 bölümde bir (3, 6, …, 30), 31'den sonra her 2 bölümde bir (çift numaralılar).
+  Android ve iOS'ta aynıdır.
 - Tüm reklamlar `AdService` arayüzü üzerinden çağrılır; oyun kodu hangi uygulamanın çalıştığını bilmez.
 - Android/iOS'ta `AdMobAdService` (`google_mobile_ads`, `main.dart`'ta provider override): bir
   geçiş ve bir ödüllü reklam önceden yüklü tutulur, yükleme hatası artan aralıkla yeniden denenir.

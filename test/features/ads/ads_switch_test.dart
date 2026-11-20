@@ -45,14 +45,13 @@ void main() {
     expect(container.read(adServiceProvider), isA<NoAdService>());
   });
 
-  test('interstitials get more frequent as levels go on', () {
+  test('interstitials follow every 3rd level up to 30, then every 2nd', () {
     List<int> shown(int from, int to) => [
       for (var level = from; level <= to; level++)
         if (AdConfig.interstitialAfterLevel(level)) level,
     ];
     expect(shown(1, 30), [for (var l = 3; l <= 30; l += 3) l]);
-    expect(shown(31, 100), [for (var l = 32; l <= 100; l += 2) l]);
-    expect(shown(101, 500), [for (var l = 101; l <= 500; l++) l]);
+    expect(shown(31, 500), [for (var l = 32; l <= 500; l += 2) l]);
   });
 
   test('ads switched on use the placeholder ads', () {

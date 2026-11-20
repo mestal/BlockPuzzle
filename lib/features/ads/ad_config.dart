@@ -49,13 +49,10 @@ abstract final class AdConfig {
   }
 
   /// Whether finishing [level] is followed by an interstitial (when
-  /// [interstitialsEnabled]): every 3rd level up to 30, every 2nd up to 100,
-  /// then after every level.
-  static bool interstitialAfterLevel(int level) => switch (level) {
-    <= 30 => level % 3 == 0,
-    <= 100 => level.isEven,
-    _ => true,
-  };
+  /// [interstitialsEnabled]): every 3rd level up to 30, then every 2nd
+  /// (even-numbered) level. Same on Android and iOS.
+  static bool interstitialAfterLevel(int level) =>
+      level <= 30 ? level % 3 == 0 : level.isEven;
 
   static const _androidInterstitial = 'ca-app-pub-2622546463597711/3697612865';
   static const _androidRewarded = 'ca-app-pub-2622546463597711/1755469090';
